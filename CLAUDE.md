@@ -4,10 +4,14 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-fg-zettelkasten builds an Obsidian Zettelkasten from the `toread` paper feed. It
-is the third stage of a pipeline: `toread` (metadata enrichment) ->
-`fg-zettelkasten` (this project) -> `research-radio` (AI podcast). All three
-join papers on the `bibtex:AuthorYear-xx` id.
+fg-zettelkasten builds an Obsidian Zettelkasten from the `toread` paper feed.
+It is the **most downstream** stage of a four-repo pipeline and consumes the
+published artifacts of all three upstream repos: the `toread` feed, the
+`research-radio` episodes, and topic signals from `fabiogiglietto.github.io`.
+All repos join papers on the `bibtex:AuthorYear-xx` id.
+
+Full DAG and orchestration model:
+https://github.com/fabiogiglietto/toread/blob/main/PIPELINE.md
 
 ## Commands
 
