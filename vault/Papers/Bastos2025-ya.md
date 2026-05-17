@@ -42,7 +42,7 @@ The author hand-compiled 52 Facebook News Feed ranking updates (2011–2020) fro
 
 ## Connections
 
-This paper sits squarely in the post-API external-auditing tradition and complements work on the closure of platform data pipelines and the afterlife of CrowdTangle — see [[Rieder2025-ju]], [[Rieder2026-pp]], and [[Freelon2024-sc]] on data access politics, and [[Ohme2026-nv]] on doing computational social science under these constraints. Its anomaly-based, intervention-timeline approach to recommender auditing connects to algorithmic exposure and amplification studies such as [[Bouchaud2026-lr]], [[Bartley2024]]-style work continued in [[Lai2024-to]] and [[Ulloa2024-jm]], and to broader arguments about platform power over news distribution in [[Hurcombe2025-cs]] and [[Cazzamatta2026-lo]]. The DSA framing aligns it with regulatory-research agendas advanced in [[Helmond2026-ll]] and [[Bak-Coleman2025-pm]].
+This paper sits squarely in the post-API external-auditing tradition and complements work on the closure of platform data pipelines and the afterlife of CrowdTangle — see [[Rieder2025-ju]], [[Rieder2026-pp]], and [[Freelon2024-sc]] on data access politics, and [[Ohme2026-nv]] on doing computational social science under these constraints. Its anomaly-based, intervention-timeline approach to recommender auditing connects to algorithmic exposure and amplification studies such as [[Bouchaud2026-lr]], Bartley2024-style work continued in [[Lai2024-to]] and [[Ulloa2024-jm]], and to broader arguments about platform power over news distribution in [[Hurcombe2025-cs]] and [[Cazzamatta2026-lo]]. The DSA framing aligns it with regulatory-research agendas advanced in [[Helmond2026-ll]] and [[Bak-Coleman2025-pm]].
 
 ## Podcast
 

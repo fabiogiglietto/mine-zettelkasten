@@ -45,7 +45,7 @@ The authors deploy a browser plug-in collecting WTF recommendations from 682 Fre
 
 ## Connections
 
-This paper sits at the intersection of platform auditing via data donation and the analysis of algorithmic curation, sharing infrastructural concerns with work that leverages donated or scraped exposure data such as [[Ohme2026-nv]] and [[Ulloa2024-jm]]. Its substantive focus on ideological sorting and amplification by recommender systems connects directly to audits of political content distribution like [[Bartl2025-...]]—and more concretely to [[Bak-Coleman2025-pm]], [[Luceri2025-tr]], and [[Green2025-ap]] on political bias and influence dynamics on X. The methodological strategy of reconstructing a closed model's internals from external signals also resonates with reverse-engineering efforts on platform algorithms reflected in [[Rieder2025-ju]] and [[Rieder2026-pp]].
+This paper sits at the intersection of platform auditing via data donation and the analysis of algorithmic curation, sharing infrastructural concerns with work that leverages donated or scraped exposure data such as [[Ohme2026-nv]] and [[Ulloa2024-jm]]. Its substantive focus on ideological sorting and amplification by recommender systems connects directly to audits of political content distribution like Bartl2025-...—and more concretely to [[Bak-Coleman2025-pm]], [[Luceri2025-tr]], and [[Green2025-ap]] on political bias and influence dynamics on X. The methodological strategy of reconstructing a closed model's internals from external signals also resonates with reverse-engineering efforts on platform algorithms reflected in [[Rieder2025-ju]] and [[Rieder2026-pp]].
 
 ## Podcast
 

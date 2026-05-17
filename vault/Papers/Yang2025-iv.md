@@ -41,4 +41,4 @@ This paper proposes a new method for detecting coordinated link-sharing behavior
 
 ## Connections
 
-This work sits squarely in the methodological strand of coordinated inauthentic behavior detection that critiques timing-based co-sharing approaches; it relates closely to [[Graham2025-gp]] and [[Graham2024-fb]]–style network methods, and to robustness/evasion concerns raised in [[Bouchaud2026-lr]] and [[Luceri2025-tr]]. It also complements broader CIB detection efforts such as [[Minici2024-tf]] and [[Kulichkina2026-zk]], which similarly seek behavioral signatures that go beyond temporal co-occurrence.
+This work sits squarely in the methodological strand of coordinated inauthentic behavior detection that critiques timing-based co-sharing approaches; it relates closely to [[Graham2025-gp]] and [[Graham2026-fb]]–style network methods, and to robustness/evasion concerns raised in [[Bouchaud2026-lr]] and [[Luceri2025-tr]]. It also complements broader CIB detection efforts such as [[Minici2024-tf]] and [[Kulichkina2026-zk]], which similarly seek behavioral signatures that go beyond temporal co-occurrence.

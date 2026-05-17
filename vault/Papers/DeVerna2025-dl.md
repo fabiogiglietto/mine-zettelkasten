@@ -45,7 +45,7 @@ The authors assembled the full PolitiFact archive (2007–October 2024), generat
 
 ## Connections
 
-This paper extends end-to-end LLM fact-checking work and connects to broader concerns about LLM-based information assessment and ideological skew explored in [[Le-Mens2025-qz]] and [[DeGiuseppe2025-es]] adjacent debates; see also [[Hackenburg2025-dj]] on LLM persuasion capabilities and [[Triedman2025-uy]], [[Lin2025-xp]] for related evaluations of LLM behavior on contested content. Its emphasis on curated evidence as the bottleneck speaks to professional fact-checker workflows examined in [[Cazzamatta2026-lo]] and [[Dierickx2026-tw]], and complements platform-level misinformation research such as [[Mosleh2024-op]] and [[Budak2024-ef]].
+This paper extends end-to-end LLM fact-checking work and connects to broader concerns about LLM-based information assessment and ideological skew explored in [[Le-Mens2025-qz]] and DeGiuseppe2025-es adjacent debates; see also [[Hackenburg2025-dj]] on LLM persuasion capabilities and [[Triedman2025-uy]], [[Lin2025-xp]] for related evaluations of LLM behavior on contested content. Its emphasis on curated evidence as the bottleneck speaks to professional fact-checker workflows examined in [[Cazzamatta2026-lo]] and [[Dierickx2026-tw]], and complements platform-level misinformation research such as [[Mosleh2024-op]] and [[Budak2024-ef]].
 
 ## Podcast
 

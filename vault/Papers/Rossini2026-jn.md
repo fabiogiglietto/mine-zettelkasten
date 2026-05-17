@@ -42,7 +42,7 @@ A three-wave nationally representative panel of Brazilian internet users (W1 N=1
 
 ## Connections
 
-This paper sits naturally alongside other work on Brazilian information environments and election-period misinformation, particularly [[Cazzamatta2026-lo]], [[Ventura2026-yc]], [[Ventura2025-sw]], and [[Kansaon2025-id]] on Brazil-specific dynamics, and [[Emilio2026-ik]] on WhatsApp-mediated politics. Its turn from knowledge effects to attitudinal/democratic-norm effects connects to [[Hameleers2026-mc]], [[van-der-Linden2026-jt]], and [[Humprecht2026-ml]], while its finding that online disagreement can erode tolerance complements [[Mosleh2024-op]] and the platform-effects debate in [[Gonzalez-Bailon2024-rq]] and [[Budak2024-ef]].
+This paper sits naturally alongside other work on Brazilian information environments and election-period misinformation, particularly [[Cazzamatta2026-lo]], [[Ventura2026-yc]], [[Ventura2025-sw]], and [[Kansaon2025-id]] on Brazil-specific dynamics, and [[Emilio2026-ik]] on WhatsApp-mediated politics. Its turn from knowledge effects to attitudinal/democratic-norm effects connects to [[Hameleers2026-mc]], [[van-der-Linden2026-jt]], and [[Humprecht2025-ml]], while its finding that online disagreement can erode tolerance complements [[Mosleh2024-op]] and the platform-effects debate in [[Gonzalez-Bailon2024-rq]] and [[Budak2024-ef]].
 
 ## Podcast
 

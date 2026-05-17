@@ -43,7 +43,7 @@ Quantitative comparative analysis of Facebook posts by parliamentary parties and
 
 ## Connections
 
-This study sits alongside other work tracing how platform affordances asymmetrically amplify negative or out-group affect, notably [[Rathje2021-negativity]]-style findings echoed in [[Mosleh2024-op]] and the broader anger-and-virality literature engaged by [[Rossini2026-jn]] and [[Gaisbauer2025-by]]. Its focus on populist advantage in low-polarization multiparty systems complements comparative European work such as [[Knupfer2025-vt]] and [[Esau2025-tf]], while its Scandinavian framing speaks directly to [[Kristensen2025-ni]]. The use of platform engagement metrics to infer mobilization also connects to algorithmic-exposure debates seeded by [[Bakshy2015-rn]].
+This study sits alongside other work tracing how platform affordances asymmetrically amplify negative or out-group affect, notably Rathje2021-negativity-style findings echoed in [[Mosleh2024-op]] and the broader anger-and-virality literature engaged by [[Rossini2026-jn]] and [[Gaisbauer2025-by]]. Its focus on populist advantage in low-polarization multiparty systems complements comparative European work such as [[Knupfer2025-vt]] and [[Esau2025-tf]], while its Scandinavian framing speaks directly to [[Kristensen2025-ni]]. The use of platform engagement metrics to infer mobilization also connects to algorithmic-exposure debates seeded by [[Bakshy2015-rn]].
 
 ## Podcast
 

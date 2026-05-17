@@ -46,7 +46,7 @@ Quantitative content analysis of 2,053 debunking articles published in 2022 by 1
 
 ## Connections
 
-This work speaks directly to research on the post-2025 collapse of professional fact-checking infrastructures and the rise of Community Notes as a replacement, connecting to [[Allen2025-ot]], [[DeVerna2025-dl]], and [[Renault2025-uh]] on crowd-sourced verification, and to [[Bak-Coleman2025-pm]] and [[Donovan2025-ws]] on the political economy of moderation rollbacks. Its framing of conflictual platform cooperation and oligarchic moderation resonates with [[Rieder2025-ju]], [[Helmond2025-ll]], and [[Starbird2025-jj]] on platform governance and the weaponization of censorship rhetoric, while its Latin American focus complements [[Rossini2026-jn]] and [[Inacio-da-Silva2026-zf]]. Broader debates on misinformation interventions and labeling link it to [[van-der-Linden2026-jt]], [[Lewandowsky2026-ob]], and [[Budak2024-ef]].
+This work speaks directly to research on the post-2025 collapse of professional fact-checking infrastructures and the rise of Community Notes as a replacement, connecting to [[Allen2025-ot]], [[DeVerna2025-dl]], and [[Renault2025-uh]] on crowd-sourced verification, and to [[Bak-Coleman2025-pm]] and [[Donovan2025-ws]] on the political economy of moderation rollbacks. Its framing of conflictual platform cooperation and oligarchic moderation resonates with [[Rieder2025-ju]], [[Helmond2026-ll]], and [[Starbird2025-jj]] on platform governance and the weaponization of censorship rhetoric, while its Latin American focus complements [[Rossini2026-jn]] and [[Inacio-da-Silva2026-zf]]. Broader debates on misinformation interventions and labeling link it to [[van-der-Linden2026-jt]], [[Lewandowsky2026-ob]], and [[Budak2024-ef]].
 
 ## Podcast
 

@@ -46,7 +46,7 @@ This paper introduces a quantitative pipeline for detecting "information voids" 
 
 ## Connections
 
-This work sits alongside other quantitative infrastructures for measuring problematic information ecosystems, particularly cross-platform misinformation tracking and source-credibility approaches such as [[Bouchaud2026-lr]] and [[Bollenbacher2026-vz]], and complements platform-comparative studies of misinformation dynamics like [[Di-Marco2025-aa]]. Its supply–demand framing connects to attention-economy and exposure-based accounts of misinformation prevalence in [[Allen2025-ot]] and [[Bak-Coleman2025-mk]]'s [[Bak-Coleman2026-mk]] line of mechanistic ecosystem modeling, while methodologically it joins the growing toolkit of longitudinal computational social science represented by [[Minici2024-tf]] and [[Mannocci2025-ig]].
+This work sits alongside other quantitative infrastructures for measuring problematic information ecosystems, particularly cross-platform misinformation tracking and source-credibility approaches such as [[Bouchaud2026-lr]] and [[Bollenbacher2026-vz]], and complements platform-comparative studies of misinformation dynamics like [[Di-Marco2025-aa]]. Its supply–demand framing connects to attention-economy and exposure-based accounts of misinformation prevalence in [[Allen2025-ot]] and [[Bak-Coleman2026-mk]]'s [[Bak-Coleman2026-mk]] line of mechanistic ecosystem modeling, while methodologically it joins the growing toolkit of longitudinal computational social science represented by [[Minici2024-tf]] and [[Mannocci2025-ig]].
 
 ## Podcast
 

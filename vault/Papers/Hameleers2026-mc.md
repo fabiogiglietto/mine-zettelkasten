@@ -45,7 +45,7 @@ Pre-registered between-subjects online experiment with a 3 (modality: text / AI 
 
 ## Connections
 
-This study speaks directly to ongoing debates about generative-AI-driven disinformation and visual manipulation, complementing concerns raised in [[Spampatti2026-kx]] and the broader resilience framework developed by [[Humprecht2025-ml]]. Its finding that fact-checks work across modalities resonates with prebunking and correction work such as [[van-der-Linden2026-jt]] and [[DeVerna2025-dl]], while its tempering of AI-alarmism aligns with the prevalence-focused critiques in [[Budak2024-ef]] and [[Simon]]-style arguments echoed across [[Starbird2025-jj]] and [[Marwick2025-ov]]. The role of conspiracy mentality as a moderator connects to audience-susceptibility work like [[Frischlich2025-vn]].
+This study speaks directly to ongoing debates about generative-AI-driven disinformation and visual manipulation, complementing concerns raised in [[Spampatti2026-kx]] and the broader resilience framework developed by [[Humprecht2025-ml]]. Its finding that fact-checks work across modalities resonates with prebunking and correction work such as [[van-der-Linden2026-jt]] and [[DeVerna2025-dl]], while its tempering of AI-alarmism aligns with the prevalence-focused critiques in [[Budak2024-ef]] and Simon-style arguments echoed across [[Starbird2025-jj]] and [[Marwick2025-ov]]. The role of conspiracy mentality as a moderator connects to audience-susceptibility work like [[Frischlich2025-vn]].
 
 ## Podcast
 
