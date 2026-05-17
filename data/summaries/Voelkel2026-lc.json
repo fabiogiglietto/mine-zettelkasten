@@ -1,0 +1,41 @@
+{
+  "abstract": "This registered report megastudy tested whether the ten most-cited climate change messaging strategies persuade Americans to hold stronger pro-environmental attitudes and engage in pro-environmental behaviour. Preceded by five pilot replication studies (N=3,216) showing largely null effects of three widely cited strategies, the main megastudy (N=13,544) found that six messages significantly moved multiple preregistered attitudinal outcomes, but with small effects (1-4 percentage points), little partisan heterogeneity, and no impact on actual pro-environmental donations. The authors conclude that several strategies reliably shift attitudes but that short-form messages have clear limits for inducing costly behaviour.",
+  "key_claims": [
+    "Many highly cited climate messaging strategies produce only small persuasive effects on Americans' pro-environmental attitudes and intentions, and several do not replicate in their original form.",
+    "Effects on pro-environmental attitudes generalize across party lines, contradicting theories that predict heterogeneous effects requiring audience-targeted (e.g., Republican-specific) messaging.",
+    "Short-form messages can shift attitudes but do not reliably change costly behaviour, as evidenced by null and even backfire effects on actual pro-environmental donations.",
+    "Among tested strategies, only 'Scientific Consensus 2' stands out as a top performer (for belief in climate change); for other outcomes no single message dominates.",
+    "The mechanisms underlying message effectiveness are unclear because effective messages typically shift multiple candidate mediators simultaneously."
+  ],
+  "methods": [
+    "Systematic identification of 157 climate messaging papers via prior meta-analyses, reviews, expert input, and targeted journal searches, ranked by three citation-based metrics to select the 10 most-cited strategies meeting outcome criteria.",
+    "Five pilot replication studies (N=3,216) of three highly cited messaging strategies.",
+    "A preregistered Stage 1-accepted Registered Report megastudy (N=13,544) recruiting a national non-probability US sample matched to demographic benchmarks.",
+    "Random assignment to one of 10 treatment conditions or a pooled control, with 'conceptual' replications allowing original authors to revise treatments while preserving theoretical content.",
+    "Standardized pre- and post-treatment measurement of four primary outcomes (belief, concern, general policy support, political behavioural intentions) plus additional outcomes including an incentivized pro-environmental donation behaviour.",
+    "OLS regressions controlling for pre-treatment outcome levels, with confirmatory tests in the full sample and within Democrats and Republicans, exploratory relative-efficacy comparisons, Bayesian analyses, and moderation/mediation explorations.",
+    "Power analyses targeting ≥99% (full sample) and ~88-98% (partisan subsamples) power to detect d ≥ 0.10."
+  ],
+  "findings": [
+    "Six of 10 messages significantly increased belief in climate change; Scientific Consensus 2 had the largest effect (~3.12 pp, ~14% of the Democrat-Republican gap).",
+    "Seven messages increased climate change concern (largest: Purity Framing, 2.47 pp); Warmth Framing showed a small backfire effect on concern (-0.76 pp).",
+    "Six messages increased support for general climate mitigation policies (largest: Purity Framing, 1.65 pp).",
+    "Eight messages increased political pro-environmental behavioural intentions, with System Preservation Framing largest (3.67 pp, ~15% of partisan gap).",
+    "No treatment significantly increased pro-environmental donations; Scientific Consensus 2 produced a backfire effect (-3.95 pp), and Gains Framing reduced donations among Republicans.",
+    "Treatment effects were highly similar for Democrats and Republicans (only 12 of 90 partisan interaction effects significant), undermining claims that audience-targeted framings are necessary.",
+    "Treatment effects on attitudes and intentions were strongly intercorrelated across messages but uncorrelated (or negatively related) with effects on donations, indicating an attitude-behaviour gap.",
+    "Pre-treatment climate concern was the most consistent moderator (26/90 interactions significant), with stronger effects among those already more concerned.",
+    "Messages typically shifted multiple manipulation-check mediators, with perceived patriotism, impact on the American way of life, disgust, and personal relevance most strongly correlated with outcome effects.",
+    "Megastudy effects were larger than pilot effects, plausibly due to greater power, pre-treatment outcome controls, and author-revised treatments (revision extent correlated r=0.29 with effect size)."
+  ],
+  "contributions": [
+    "Provides the first systematic, commensurate head-to-head test of the 10 most-cited climate messaging strategies under identical measures and a large national sample.",
+    "Offers a registered-report, preregistered replication-and-extension that updates the temporal validity of canonical climate communication findings.",
+    "Demonstrates the value of the megastudy design for comparing relative efficacy and detecting small effects in climate communication research.",
+    "Challenges the prevailing assumption that distinct messaging strategies are needed for Democrats vs Republicans.",
+    "Documents a robust attitude-behaviour divergence (including a scientific-consensus backfire on donations), reframing how scholars and practitioners should evaluate messaging interventions.",
+    "Produces a publicly available list of 157 climate messaging papers and selection metrics for future researchers."
+  ],
+  "framing": "The paper situates itself at the intersection of climate change communication, political psychology, and the credibility/replication movement in the social sciences, engaging debates about persuasion, motivated reasoning, moral reframing, and partisan polarization on climate. It explicitly responds to concerns about temporal validity, underpowered original studies, and the lack of commensurate comparisons across messaging paradigms, advocating megastudy methodology as a corrective for the field.",
+  "pdf_source": "drive"
+}

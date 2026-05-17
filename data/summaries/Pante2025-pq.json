@@ -1,0 +1,24 @@
+{
+  "abstract": "This paper investigates claims of coordinated influence operations between state actors on Twitter/X, questioning whether previously reported inter-state collaboration holds up under more rigorous analytical methods. The authors apply state-of-the-art coordination detection models across multiple behavioral signals and incorporate control datasets to test whether observed coordination patterns are distinctive to state-sponsored activity. The work reassesses prior findings about collaboration between state-backed information operations on social media.",
+  "key_claims": [
+    "Prior research suggesting collaboration between state actors in online information operations is methodologically limited because it did not use modern coordination indicators or appropriate control datasets.",
+    "Robust assessment of inter-state coordination requires analyzing multiple behavioral traces simultaneously rather than relying on single interaction patterns.",
+    "Claims of coordinated inter-state information operations need to be re-evaluated when benchmarked against control comparisons."
+  ],
+  "methods": [
+    "Analysis of multiple online behavioral traces from Twitter/X data associated with state-backed accounts.",
+    "Application of sophisticated/state-of-the-art coordination detection models.",
+    "Incorporation of control datasets to benchmark observed coordination patterns against baseline behavior.",
+    "Comparative assessment across different state actors to test inter-state coordination claims."
+  ],
+  "findings": [
+    "Findings not fully accessible from the available abstract excerpt; the study reassesses and scrutinizes previously reported evidence of inter-state coordination using more rigorous methodology."
+  ],
+  "contributions": [
+    "Provides a more methodologically rigorous framework for assessing inter-state coordination on social media by combining multiple coordination indicators with control datasets.",
+    "Critically re-evaluates prior claims of collaboration between state actors in online influence operations.",
+    "Advances the broader research agenda on detecting and characterizing coordinated information operations on platforms like Twitter/X."
+  ],
+  "framing": "The paper situates itself within the literature on coordinated inauthentic behavior, state-sponsored influence operations, and computational methods for detecting online manipulation. It positions itself as a corrective to earlier studies that may have overstated inter-state collaboration due to weaker detection methodologies and the absence of control comparisons.",
+  "pdf_source": "abstract_only"
+}

@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper examines how the EU Digital Services Act (DSA) reshapes data access for researchers studying online election communication. It surveys the new APIs and data portals that platforms have established under DSA requirements, evaluating their scope, conditions, and limitations. The authors discuss implications for empirical election research and identify open challenges in operationalising regulated data access.",
+  "key_claims": [
+    "Research on online election communication has been undermined by the withdrawal or commercialisation of previously available platform data sources.",
+    "The DSA has prompted platforms to (re-)establish access to 'public' data through APIs and dedicated portals, partially reopening avenues for research.",
+    "The design, content, and eligibility rules of these new data access mechanisms vary across platforms and shape what kinds of election research are feasible."
+  ],
+  "methods": [
+    "Review and comparative analysis of data access modalities established by major online platforms in response to the DSA, focused on their relevance for election communication research."
+  ],
+  "findings": [
+    "Platforms differ substantially in how they implement DSA-mandated public data access, including in API design, available data fields, and access procedures.",
+    "Eligibility for accessing data is unevenly distributed across researcher communities, raising questions about equity and reproducibility.",
+    "Current access regimes leave significant gaps for studying campaigns, political advertising, and election-related discourse."
+  ],
+  "contributions": [
+    "Provides an overview of the post-DSA data access landscape relevant to election research.",
+    "Identifies practical and methodological challenges that researchers face when working under regulated data access regimes.",
+    "Offers guidance for the election research community on navigating new APIs and portals, and highlights areas where further regulatory or platform action is needed."
+  ],
+  "framing": "The paper is positioned within political communication and computational social science scholarship on elections and digital platforms, and engages with ongoing debates about platform governance, transparency, and researcher access following the implementation of the EU Digital Services Act.",
+  "pdf_source": "abstract_only"
+}

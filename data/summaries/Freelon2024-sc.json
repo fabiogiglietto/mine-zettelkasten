@@ -1,0 +1,36 @@
+{
+  "abstract": "This article updates Freelon's (2018) concept of the 'post-API age' by tracing nearly two decades of social media data access policies across six major platforms (Facebook, Instagram, Twitter/X, YouTube, Reddit, and TikTok). The authors propose a periodized history spanning API prehistory through the current era, classify present-day data access into four official regimes plus unofficial methods, and offer normative recommendations for improving platform-researcher relations. They argue that data access has become permanently contingent on platform decisions shaped by scandals, regulation, leadership changes, and commercial interests.",
+  "key_claims": [
+    "Social media data access exists in a 'post-API age' where platforms can restrict or eliminate access at any time, making research conditions permanently precarious.",
+    "The history of social media data access can be divided into five periods: API prehistory (2000-2006), laissez-faire (2006-2011), authentication (2011-2018), limited options (2018-2020), and academic cooperation (2020-2023).",
+    "Current platform data access in 2025 falls into four official regimes—laissez-faire API, academic API, academic walled garden, and pay-to-play API—plus a fifth category of unofficial methods.",
+    "Platforms facing intense public scrutiny (Meta, X) tend to impose the most restrictive controls, while less controversial or newer platforms (YouTube, Reddit, TikTok) maintain comparatively open access.",
+    "Unofficial data collection methods are a necessary and legitimate component of the researcher toolkit because platforms have structural incentives to limit research that may reveal unfavorable findings.",
+    "Platform data access policies should be reformed to outsource proposal evaluation to qualified academic partners, allow downloadable data, permit dataset fixation rather than continuous deletion, avoid topic-based restrictions, charge reasonable fees, and reinstate rehydration-style sharing."
+  ],
+  "methods": [
+    "Historical analysis using official platform documentation, archived web pages, terms of service, developer agreements, and the secondary research literature.",
+    "Periodization of social media API history organized around major shifts in data access regimes, extending and revising Jünger's (2021) prior history.",
+    "Comparative descriptive analysis of six platforms (Facebook, Instagram, Twitter/X, YouTube, Reddit, TikTok) across multiple dimensions of data access.",
+    "Typological classification of current data access into five regimes characterized by features such as cost, authentication requirements, and approval processes.",
+    "Normative analysis articulating recommendations across six categories: access, format, management, usage, costs, and sharing."
+  ],
+  "findings": [
+    "Meta's 2018 closure of the Facebook/Instagram APIs following Cambridge Analytica marked the defining moment establishing the post-API age for social science researchers.",
+    "Twitter's 2011 shift requiring user authentication and prohibiting dataset sharing rendered tools like TwapperKeeper obsolete and raised technical barriers to entry.",
+    "CrowdTangle (2020-2024) restored some Facebook access but suffered from inconsistent historical data, strict rate limits, and inability to collect comments; its replacement, the Meta Content Library, imposes visibility thresholds (15,000-25,000 members) and a restrictive 'clean room' environment.",
+    "X's 2023 transition to pay-to-play pricing made data prohibitively expensive ($42,000-$210,000/month initially), and the company currently publishes inconsistent pricing information across its own documentation.",
+    "TikTok's research API, launched February 2023, is capped at 100,000 records per day, uses two-hour bearer tokens, limits queries to 30-day windows, and requires ongoing data refreshes that delete inaccessible content.",
+    "Reddit terminated Pushshift public access in 2023 but archived torrents remain available; Reddit's developer terms are identified as the most researcher-friendly model among the platforms studied.",
+    "EU regulations (GDPR, DSA) create geographic inequalities in data access, with VLOPs required to offer EU-based researchers access unavailable to those elsewhere."
+  ],
+  "contributions": [
+    "Provides an updated, extended periodized history of social media data access covering nearly 20 years and six platforms, expanding beyond Jünger's (2021) earlier history.",
+    "Introduces a typology of four current official data access regimes plus an unofficial methods category, useful for both contemporary researchers and future historians of the field.",
+    "Offers concrete normative recommendations across six dimensions of platform data provision intended to inform policy decisions by platforms, regulators, and the research community.",
+    "Documents and critiques specific problematic provisions in current platform terms of service (e.g., continuous deletion requirements, topic restrictions, anti-data-merging clauses).",
+    "Defends unofficial scraping methods as ethically and legally legitimate components of social media research, citing supportive case law (hiQ Labs, Sandvig v. Barr, X v. Bright Data)."
+  ],
+  "framing": "The paper situates itself within ongoing scholarly conversations about computational social science, platform governance, and the precarity of digital research infrastructure, building explicitly on Freelon's (2018) original 'post-API age' framework and adjacent work by Bruns, Tromble, Jünger, and others. It bridges descriptive history of platform-research relations with normative platform-policy critique, engaging debates about transparency, privacy regulation (GDPR, DSA), and the political economy of data access.",
+  "pdf_source": "drive"
+}

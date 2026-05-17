@@ -1,0 +1,43 @@
+{
+  "abstract": "This paper provides a comprehensive empirical audit of the NewsGuard database, one of the most widely used source-level trustworthiness rating systems in misinformation research. The authors analyze the temporal stability, cross-country completeness, and contextual labels (political orientation, topics) of NewsGuard ratings from 2019 to 2024, and reproduce a published study (Lasser et al., 2022) using different database snapshots to assess how database changes affect downstream results. They find ratings are largely stable since 2022 for major countries when continuous scores are used, but binary trustworthy/untrustworthy classifications can substantially distort findings. The paper concludes with concrete best-practice recommendations for source-based misinformation research.",
+  "key_claims": [
+    "NewsGuard trustworthiness ratings and source coverage have stabilized since 2022 for the US, France, Italy, Germany, and Canada, making source-based approaches reasonably reliable.",
+    "Using binary 'trustworthy'/'untrustworthy' labels (cutoff at 60) can substantially distort research outcomes because single major sources crossing the threshold can dramatically change results.",
+    "Continuous NewsGuard scores should be preferred over dichotomous labels whenever available.",
+    "US-based sources consistently receive lower trustworthiness scores than sources from other countries, even controlling for time and coverage.",
+    "Country-level differences in ratings partly reflect differences in journalistic traditions and media systems (e.g., Southern vs. Central/Western clusters per Hallin & Mancini).",
+    "Political orientation labels are sparse outside the US (only ~10% of sources labeled) but appear valid where present; topic labels are comprehensive and useful for contextualizing sources.",
+    "Researchers using older or newer database snapshots should be aware that coverage—not rating changes—drives most cross-version differences, especially for non-US countries."
+  ],
+  "methods": [
+    "Longitudinal analysis of monthly NewsGuard database snapshots from March 2019 to September 2024, sampled from the Amazon S3 bucket.",
+    "Descriptive statistics on rating distributions, update frequencies, criterion fulfillment, and source coverage across nine countries.",
+    "Factor analysis and correlation analysis of the nine journalistic criteria comprising the composite trustworthiness score.",
+    "Reproduction study of Lasser et al. (2022) on news-sharing by US, German, and UK politicians on Twitter, using six different NewsGuard snapshots (2019-2024) plus dynamic month-by-month matching.",
+    "Operational stability criteria for country coverage: 6-month windows requiring month-to-month trustworthiness changes below 0.5 SD and source growth below 5%.",
+    "Cross-validation of NewsGuard with external lists including the German Online News Domains (GOND) list and MediaBiasFactCheck labels.",
+    "Manual annotation of political orientation for all German-speaking NewsGuard sources (n=406) based on website content."
+  ],
+  "findings": [
+    "Database grew from 2,375 to 12,288 entries (2019-2024), adding ~137 new domains/month while rarely removing sources.",
+    "Average trustworthiness declined from 71.8 (2019) to 63.6 (2024), driven mainly by addition of low-trust sources rather than degradation of existing ones.",
+    "Ratings are updated on average every 249 days, but actual score changes occur only in ~20% of updates (every ~570 days on average).",
+    "Two criteria—'avoids deceptive headlines' and 'does not repeatedly publish false content'—load on a single factor explaining 58.1% of variance and are highly correlated (r=0.9).",
+    "In the US reproduction, continuous-score results are stable across snapshots, but binary classifications produce very different untrustworthy-link fractions (e.g., 2-3% vs. 8% for Republicans) due to sites like Breitbart, Washington Times, Newsmax, and Bild crossing the 60-point threshold.",
+    "For Germany, using the 2024 snapshot doubles the share of untrustworthy AFD-shared links (~10% to ~20%), driven almost entirely by bild.de.",
+    "76.1% of rated sources are US-based; coverage of countries like Austria, Australia, and New Zealand remains less stable.",
+    "Only 33.4% of sources have a political orientation label; right-leaning sources have substantially lower average trustworthiness (26.4) than left-leaning ones (60.6).",
+    "Manual validation of German political orientation labels showed 83% agreement with NewsGuard and with MediaBiasFactCheck.",
+    "Topic labels are comprehensive (97% coverage); untrustworthy sources most often cover political news (79%), not conspiracy theories (32.5%)."
+  ],
+  "contributions": [
+    "Provides the first systematic, longitudinal audit of the NewsGuard database across countries and time.",
+    "Demonstrates empirically how methodological choices (binary vs. continuous ratings, snapshot selection) can alter substantive research conclusions.",
+    "Offers operational stability criteria researchers can use to determine when NewsGuard coverage is reliable for a given country.",
+    "Delivers concrete best-practice recommendations for source-based misinformation research, including validation procedures and use cases.",
+    "Highlights the underutilized value of NewsGuard's contextual labels (political orientation, topics) beyond trustworthiness scores.",
+    "Supplies a reusable reproduction framework via the Lasser et al. (2022) case study for assessing measurement-instrument sensitivity."
+  ],
+  "framing": "The paper situates itself within ongoing methodological debates in misinformation and digital media research about how to define, measure, and operationalize 'misinformation' at scale. It engages with the source-based versus content-based measurement tradition, the critique that misinformation effects may be overstated due to inconsistent measurement (Altay et al., 2023; Tay et al., 2024), and comparative media systems theory (Hallin & Mancini, 2004; Brüggemann et al., 2014) to contextualize cross-country differences in journalistic standards.",
+  "pdf_source": "drive"
+}

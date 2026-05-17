@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper analyzes coordinated activity on Twitter surrounding the 2022 COVID-19 protests in the People's Republic of China, examining how social media simultaneously enabled protest mobilization and state-aligned repression. Using a coordination detection algorithm, the authors identify thousands of accounts engaged in coordinated communication and analyze their themes, temporal dynamics, and linguistic patterns. The study situates these findings within frameworks of connective action and digital repression in authoritarian contexts.",
+  "key_claims": [
+    "Social media in authoritarian settings function as dual-use infrastructure, supporting both protest coordination and state repression through contesting narratives.",
+    "The COVID-19 protests in China featured unprecedented levels of coordinated tweeting activity that can be detected computationally.",
+    "Coordinated communication during these protests exhibits distinct thematic, temporal, and linguistic signatures worth analyzing systematically."
+  ],
+  "methods": [
+    "Computational analysis of Twitter data related to China's COVID-19 protests.",
+    "Application of a coordination detection algorithm to identify accounts engaged in coordinated behavior.",
+    "Multilingual analysis examining linguistic patterns across coordinated activity.",
+    "Examination of thematic content and temporal dynamics of identified coordinated accounts."
+  ],
+  "findings": [
+    "13,557 Twitter accounts were identified as involved in coordinated activity around the protests.",
+    "Coordinated communication displayed identifiable patterns across themes, time, and language (specific patterns not available from abstract excerpt)."
+  ],
+  "contributions": [
+    "Provides empirical evidence on the scale and structure of coordinated communication during a major protest event in an authoritarian context.",
+    "Demonstrates the application of coordination detection methods to multilingual social media data on contentious politics in China.",
+    "Bridges connective action theory and digital repression research through a case study of competing coordinated narratives."
+  ],
+  "framing": "The paper engages with theories of connective action and digital repression, positioning itself within research on social media's contested role in authoritarian politics. It contributes to computational communication research on coordinated inauthentic behavior and protest mobilization.",
+  "pdf_source": "abstract_only"
+}

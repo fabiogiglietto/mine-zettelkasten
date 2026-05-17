@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper presents the first systematic study of emergent coordination among generative LLM agents in simulated information operation (IO) campaigns. Using Generative Agent-Based Modeling, the authors instantiate 10 IO agents and 40 organic agents (20 ideologically aligned, 20 not aligned) on a simulated Twitter/X-like platform, varying the operational awareness of IO agents across three regimes: Common Goal, Teammate Awareness, and Collective Decision-Making. They find that as operational structure increases, IO networks become denser, narratives more homogeneous, amplification more synchronized, and hashtag adoption faster—with mere teammate awareness producing coordination nearly equivalent to explicit collective deliberation.",
+  "key_claims": [
+    "Generative LLM agents can autonomously reproduce key coordination mechanisms characteristic of real-world IO campaigns without human guidance.",
+    "Increasing levels of operational awareness among IO agents progressively strengthen network cohesion, narrative convergence, amplification synchronization, hashtag diffusion, and cross-group engagement.",
+    "Simply revealing teammate identities to agents produces coordination levels nearly equivalent to those achieved through explicit deliberation and collective voting.",
+    "Distributed mutual awareness is a sufficient affordance for large-scale emergent coordination, with implications for platform governance and defense against automated influence campaigns.",
+    "Ideologically aligned organic agents adopt promoted hashtags faster and with fewer exposures than non-aligned agents, consistent with selective amplification dynamics."
+  ],
+  "methods": [
+    "Generative Agent-Based Modeling (GABM) using the simulation framework of Ferraro et al. (2024) with personas, memory modules, and action policies.",
+    "Agents powered by Llama 3.3 70B via the PyAutogen library, run on A100/A40/V100 GPUs.",
+    "Simulations with 50 agents (10 IO, 20 aligned organic, 20 not aligned organic) initialized from the U.S. 2020 Election Twitter dataset, run for 50 iterations with 3 repetitions per configuration.",
+    "Three operational regimes: Common Goal (shared objective only), Teammate Awareness (knowledge of allies), and Collective Decision-Making (periodic deliberation every 5 steps with an IO Orchestrator consolidating top-5 strategies).",
+    "Coordination metrics: network density, clustering coefficient, reciprocity, Sentence-BERT cosine similarity for narrative convergence, RoBERTa-based sentiment analysis, TF-IDF co-retweet similarity.",
+    "Impact metrics: hashtag adoption rates, time lag between first IO interaction and adoption, exposure counts before adoption, engagement counts, audience diversity (1 - Gini), and cascade size/depth/breadth.",
+    "Statistical testing via Mann-Whitney U tests; qualitative analysis of agent reasoning logs."
+  ],
+  "findings": [
+    "Re-share intra-group proportion among IO agents rose from 0.82 (Common Goal) to 0.96 (Teammate Awareness) and 0.94 (Collective Decision-Making); comment intra-group from 0.48 to 0.65; follow intra-group from 0.27 to 0.35.",
+    "Network density rose from 0.74 to 0.89, clustering coefficient from 0.86 to 0.97, and reciprocity from 0.56 to 0.68 across regimes.",
+    "Textual similarity among IO posts increased from 0.89 to 0.91 (vs. ~0.62 organic baseline); intra-IO comment sentiment rose from 0.68 to 0.83 (p < 0.001).",
+    "Co-retweet similarity among IO agents grew from 0.28 to 0.35, compared to a stable 0.11 organic baseline.",
+    "Campaign hashtag prevalence in original posts increased from 0.42 to 0.54; aligned organic agents adopted the hashtag near-immediately after first IO interaction while non-aligned showed delayed, right-skewed adoption.",
+    "Cascade size grew from 3.84 to 4.56, depth from 0.53 to 0.60, breadth from 2.71 to 3.24; re-shares per IO post rose from 0.75 to 1.19 while audience diversity remained stable (~0.62) across regimes.",
+    "Qualitative analysis revealed five recurring emergent strategies: amplifying high-performing content, maintaining unified messaging, engaging receptive audiences, cross-promoting among peers, and using shared language markers.",
+    "Agents in the Teammate Awareness regime exhibited spontaneous social learning, imitating successful peer behaviors as an implicit coordination mechanism."
+  ],
+  "contributions": [
+    "First systematic GABM-based study of emergent coordination among generative LLM agents in simulated information operations.",
+    "A structured experimental framework linking real-world IO coordination signals to five testable hypotheses with operationalized coordination and impact metrics.",
+    "Empirical demonstration that minimal teammate awareness suffices to trigger coordination comparable to explicit collective deliberation, with practical implications for platform governance.",
+    "Public release of code and an interactive dashboard for real-time exploration of evolving social graphs, hashtag diffusion, and agent reasoning.",
+    "Identification of emergent self-organizing strategies in LLM agent collectives that mirror tactics documented in real-world IO campaigns."
+  ],
+  "framing": "The work positions itself at the intersection of LLM-based multi-agent simulation, generative agent-based modeling, and empirical research on online information operations and coordinated inauthentic behavior. It addresses gaps in prior multi-agent LLM research—where coordination is typically predefined rather than emergent and evaluation relies on narrow outcome metrics—by examining how coordination dynamics arise process-level under open-ended conditions, with direct relevance to information integrity, platform governance, and AI safety.",
+  "pdf_source": "drive"
+}

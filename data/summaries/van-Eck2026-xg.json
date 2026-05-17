@@ -1,0 +1,38 @@
+{
+  "abstract": "This article presents a systematic literature review of social science scholarship on polarization and depolarization, examining the empirical evidence and normative assumptions underlying scholars' recommendations for depolarizing societies. Following PRISMA guidelines, the authors analyzed 89 peer-reviewed articles (2013-2023) drawn from Web of Science, with particular attention to the discussion sections where practical implications are typically articulated. They find that while polarization research has accumulated substantial empirical evidence about its drivers, depolarization recommendations are largely disconnected from that evidence and instead rest on implicit normative ideals, especially those of deliberative democracy. The authors call for greater transparency about both the evidence base and normative commitments guiding scholarly recommendations.",
+  "key_claims": [
+    "Social science research on (de)polarization is overwhelmingly skewed toward studying polarization rather than depolarization, with most studies focused on ideological (rather than affective) polarization as a process.",
+    "Recommendations for depolarization offered in discussion sections are typically not supported by the empirical evidence produced in the studies themselves; only one reviewed study made a recommendation directly grounded in its own analyses.",
+    "Depolarization recommendations are more closely tied to implicit normative assumptions — particularly ideals of deliberative democracy — than to empirical findings.",
+    "Two recurring scholarly debates structure the field: (1) knowledge/education versus culturally resonant communication, and (2) reducing echo chambers versus cautioning against cross-cutting exposure.",
+    "The lack of transparency about normative versus evidence-based reasoning risks shaping research agendas and policy in misleading or ineffective directions.",
+    "Scholars should make explicit both the evidence base and the normative ideals informing their depolarization recommendations."
+  ],
+  "methods": [
+    "Systematic literature review following PRISMA 2020 guidelines, preregistered on OSF.",
+    "Web of Science search using the string 'depolariz* OR depolaris* OR polariz* OR polaris*' covering 2013-2023, restricted to English-language, peer-reviewed articles in communication, sociology, political science, psychology, economics, and general social science.",
+    "Initial 7,994 results screened by citation count; up to ten most-cited relevant articles per year retained, yielding 112 articles, then narrowed to 89 after full-text review.",
+    "Mixed deductive-inductive coding scheme covering article metadata, conceptualizations of polarization (ideological/affective; state/process), methods and samples, identified factors, recommendations, and normative ideals.",
+    "Inter-coder reliability testing achieved Krippendorff's Alpha averaging 0.87; grounded theory three-stage coding (open, axial, selective) applied to inductive categories.",
+    "Analysis focused primarily on discussion sections, with descriptive statistical analysis for deductive codes and thematic interpretation for inductive codes."
+  ],
+  "findings": [
+    "Of 89 articles, 82 focused solely on polarization, 1 on depolarization, and 6 on both; 62 examined ideological polarization, 6 affective, and 21 both.",
+    "Quantitative methods dominate: 38 experiments, 30 surveys, 21 automated and 19 manual content analyses; only one study examined direct face-to-face communication (Biesbroek et al., 2014).",
+    "Most empirically supported drivers of polarization: confirmation bias/motivated reasoning (N=21), selective exposure/echo chambers (N=13), one-sided ideological media framing (N=12), and exposure to dissonant views (N=8).",
+    "Depolarization factors were investigated in only 26 studies; the most supported were knowledge/critical thinking/education (N=5) and communication resonating with cultural worldviews and emotions (N=4).",
+    "Evidence supports contradictory claims: both avoiding exposure to dissonant views and facilitating cross-cutting communication can promote depolarization, depending on conditions.",
+    "Only 1 study based its depolarization recommendation on its own evidence, while 41 made recommendations unsupported by their analyses.",
+    "The most common recommendations were culturally resonant communication (N=7), increasing knowledge/media literacy (N=5), and misinformation interventions (N=4, emerging from 2020 onward).",
+    "Deliberative democracy (often referencing Habermas) was the dominant normative ideal (N=7), alongside emphases on exposure to dissonant views (N=6) and valuing facts against misinformation (N=5)."
+  ],
+  "contributions": [
+    "Provides the first systematic mapping of how the (de)polarization literature distinguishes between empirically supported factors, explicit recommendations, and underlying normative ideals.",
+    "Documents a critical gap between evidence base and recommendations in polarization scholarship, exposing the role of implicit normative commitments.",
+    "Identifies and articulates two unresolved scholarly debates (knowledge vs. cultural resonance; echo chambers vs. cross-cutting exposure) that structure depolarization research.",
+    "Proposes a research agenda calling for: distinguishing facts from value judgments in discussion sections, interdisciplinary collaboration, shifting focus toward depolarization, methodological and conceptual diversification, and operationalizing deliberative ideals across contexts.",
+    "Offers conceptual distinctions such as 'mitigative preventive' versus 'progressive' approaches to depolarization."
+  ],
+  "framing": "The paper situates itself within communication science and broader social science debates about polarization, drawing on philosophy of science arguments (Douglas, Elliot) about the role of values in scientific inference, and on deliberative democratic theory (Habermas, Fishkin, Sunstein) as the dominant normative backdrop for depolarization scholarship. It positions itself as a meta-level intervention into how researchers translate empirical findings into normative claims, advocating transparency about both the evidence and value commitments behind recommendations.",
+  "pdf_source": "drive"
+}

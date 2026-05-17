@@ -1,0 +1,24 @@
+{
+  "abstract": "This paper proposes a method for analyzing open-ended survey responses by combining Large Language Models (LLMs) with paired comparison techniques to produce continuous latent scales of respondent characteristics. The approach addresses limitations of closed-ended survey items (which constrain depth) and traditional open-ended coding (which is labor-intensive), while also improving on existing LLM-based approaches. The authors position LLM-paired comparisons as a scalable way to measure latent traits such as knowledge, ideology, emotions, and policy positions from free-text responses.",
+  "key_claims": [
+    "Closed-ended survey questions limit the depth and variability of measured respondent characteristics.",
+    "Open-ended responses contain richer information but are prohibitively labor-intensive to code at scale.",
+    "LLMs can be leveraged to process open-ended responses, but existing LLM-based approaches have limitations.",
+    "Pairing LLMs with paired comparison methods offers an improved approach to scaling open-ended responses into latent measures."
+  ],
+  "methods": [
+    "Use of Large Language Models to evaluate open-ended survey responses.",
+    "Application of paired comparison techniques to LLM judgments to construct latent scales.",
+    "Comparison of the proposed approach against existing LLM-based coding methods (details not specified in the abstract)."
+  ],
+  "findings": [
+    "The abstract does not report specific empirical findings; it frames the proposed method as a solution to the limitations of both closed-ended questions and prior LLM coding approaches."
+  ],
+  "contributions": [
+    "Introduces an LLM-paired comparison methodology for scaling open-ended survey responses.",
+    "Provides survey researchers with a tool to measure latent characteristics (knowledge, ideology, emotion, policy positions, etc.) from open-ended text.",
+    "Bridges quantitative survey measurement with the richer information available in open-ended responses."
+  ],
+  "framing": "The paper sits at the intersection of survey methodology, measurement of latent traits in political and social science, and the growing use of LLMs as research tools. It engages with debates over the tradeoffs between closed- and open-ended survey instruments and seeks to advance computational methods for extracting structured measures from unstructured text.",
+  "pdf_source": "abstract_only"
+}

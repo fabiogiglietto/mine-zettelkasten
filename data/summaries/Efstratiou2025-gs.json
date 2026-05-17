@@ -1,0 +1,44 @@
+{
+  "abstract": "This paper analyzes how Twitter's recommendation algorithm affected account visibility during a pivotal period in February 2023, after Elon Musk's acquisition but before the platform's rebranding to X. Using data from 806 real users' simultaneous algorithmic ('For You') and reverse-chronological feeds, the authors compare account-level exposure across feed types. They replicate findings that right-leaning accounts received more algorithmic exposure, but show this effect largely disappears when controlling for posting agitating content, receiving interactions from Elon Musk, and verification status. The work also finds that legacy-verified accounts (businesses, government) lost visibility while Elon Musk became disproportionately central in the algorithmic feed.",
+  "key_claims": [
+    "Right-leaning accounts gained visibility in the algorithmic feed relative to the chronological feed, but this gain is better explained by behavioral characteristics (agitating content, proximity to Musk) than by political leaning per se.",
+    "The algorithmic feed exhibited substantially higher centralization than the chronological feed, largely driven by Elon Musk's account becoming disproportionately central.",
+    "Legacy-verified accounts (businesses and government officials) lost algorithmic visibility, while Twitter Blue verification conferred no advantage or disadvantage relative to being unverified.",
+    "Accounts that Elon Musk replied to or retweeted received substantial algorithmic visibility gains, and Musk disproportionately interacted with right-leaning and more agitating accounts.",
+    "Posting agitating content was rewarded algorithmically, while posting political content (independent of agitation) was penalized.",
+    "Algorithmic curation creates perverse incentives toward controversy-stirring and platform-owner attention, undermining claims of Twitter/X as a neutral 'digital town square.'"
+  ],
+  "methods": [
+    "Secondary analysis of a dataset from Milli et al. (2025) containing simultaneous algorithmic and reverse-chronological Twitter feeds from 806 US-based CloudResearch Connect panel participants collected February 11–27, 2023.",
+    "Construction of bipartite participant-account networks (directed edges from participants to accounts appearing in their feeds), in weighted and unweighted forms.",
+    "Nearest-neighbor matching on demographic variables (race, gender, education, age, income, reason for Twitter use) to balance the politically skewed sample (188 left-leaning matched to 188 right-leaning participants).",
+    "Classification of account political leaning using the proportion of right-leaning followers, with 80% Wilson binomial confidence intervals (plus robustness checks at 70–95% and with strict cutoffs).",
+    "Computation of network statistics: partisan assortativity, bipartite degree centralization (Borgatti & Everett 1997), in-degrees, and eigenvector centrality.",
+    "Multiple regression with robust standard errors predicting in-degree change between feeds from account features (followers, verification status, leaning), Musk interaction (binary), tweeting style (% political, % agitating, media use).",
+    "LLM annotation (Gemini 2.0 Flash) of tweets as political (validated against human labels, F1 up to ~0.9) and as agitating (custom category, F1 ~0.7 against author-annotated 200-tweet sample).",
+    "Two-way and three-way ANOVAs with Tukey HSD post hoc tests examining interactions among leaning, verification status, agitation, and politicization.",
+    "Chi-squared analyses comparing follow-based expected exposure to observed exposure across self-identified Democrat, Independent, and Republican participants."
+  ],
+  "findings": [
+    "The algorithmic ('engagement') feed had higher degree centralization (0.46 vs 0.24) and lower partisan assortativity (0.06 vs 0.15) than the chronological feed.",
+    "Elon Musk's in-degree nearly doubled in the algorithmic feed (94 to 179), and his eigenvector centrality rose from 0.27 to 0.52, making him the dominant driver of centralization.",
+    "Top algorithmic 'winners' were provocateur/influencer accounts (e.g., hodgetwins, stillgray, JackPosobiec, catturd2); top 'losers' were mainstream news and official accounts (e.g., AP, NYT, BBC, Reuters, WhiteHouse, CNN).",
+    "Right-leaning accounts gained exposure relative to expectations based on who participants followed, across Democratic, Independent, and Republican participants alike (chi-squared all p<0.001).",
+    "In the regression, Musk interaction had the largest standardized effect (Cohen's d≈0.93), corresponding to ~3.99 additional exposures per 1000 users.",
+    "Business verification (p<0.001) and government verification (p=0.04) predicted visibility losses; Twitter Blue verification showed no significant effect.",
+    "Left-leaning accounts lost visibility relative to neutral (p<0.001); right-leaning showed no significant effect once controls were included (p=0.92).",
+    "Agitating content predicted visibility gains; political content predicted losses; external links, GIFs, and photos predicted losses while videos did not.",
+    "Elon Musk interacted disproportionately with right-leaning accounts (99 observed vs 47.84 expected) and with more agitating accounts than a random comparison set (t(432)=4.23, p<0.001).",
+    "Right-leaning accounts posted significantly more agitating content than left-leaning or neutral accounts, particularly when Twitter Blue verified; left- and right-leaning accounts posted similar amounts of political content."
+  ],
+  "contributions": [
+    "Provides an account-level (rather than tweet-level) analysis of algorithmic amplification, capturing network centrality effects and platform-owner influence.",
+    "Introduces a 'counterfactual feeds' approach using real users' simultaneous algorithmic and chronological feeds, complementing prior sockpuppet and randomized-experiment audits.",
+    "Disentangles surface-level political bias claims by showing that right-leaning amplification is largely mediated by behavioral correlates (agitating content, Musk interactions) rather than political leaning itself.",
+    "Documents the distinct algorithmic treatment of legacy-verified versus Twitter Blue accounts, with implications for understanding monetization-era incentives.",
+    "Develops and validates an LLM-based 'agitating content' annotation distinct from toxicity or identity attack, useful for capturing subtler conflict-stirring rhetoric.",
+    "Offers empirical evidence relevant to ongoing policy debates (e.g., FTC inquiries) about alleged ideological censorship on major platforms."
+  ],
+  "framing": "The paper situates itself within algorithmic auditing literature on social media platforms, particularly studies of political amplification on Twitter/X (e.g., Huszár et al. 2022; Ye et al. 2025; Milli et al. 2025) and broader debates about whether recommender systems reflect user preferences or impose independent biases. It contributes to discussions of perverse engagement incentives, content moderation/trust and safety, and platform governance during Musk-era Twitter, bridging computational social science and platform accountability research.",
+  "pdf_source": "drive"
+}

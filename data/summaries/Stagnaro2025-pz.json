@@ -1,0 +1,43 @@
+{
+  "abstract": "This paper evaluates nine opt-in non-probability online survey samples (total N=13,053) along three dimensions: response validity (attentiveness, effort, honesty, speeding, attrition), representativeness (demographics, attitudes, experimental treatment effects), and professionalism (survey-taking frequency, device type). The authors document substantial variation across platforms, finding a trade-off in which samples with demographic quotas (e.g., Lucid, Forthright) tend to be more representative but show lower response validity, partly due to higher mobile phone usage. They show that adding two simple front-end attention checks substantially improves response validity without meaningfully reducing representativeness, and offer practical guidance for choosing among opt-in samples based on research purpose.",
+  "key_claims": [
+    "Opt-in online samples should not be treated as a single category, as they vary substantially in response validity, representativeness, and professionalism.",
+    "Samples employing demographic quotas tend to be more representative even on non-demographic indicators but typically exhibit lower response validity.",
+    "Adding two simple attention checks at the start of a survey meaningfully improves response validity without compromising representativeness.",
+    "Post-stratification weights can recover main treatment effects in less representative samples but fail to recover heterogeneous treatment effects.",
+    "Heterogeneous treatment effects are more likely to be detected in representative samples, particularly for social/political (vs. cognitive) content.",
+    "Mobile phone usage is associated with both broader representativeness and lower response validity.",
+    "Open Mechanical Turk performs worst on essentially every dimension and should be avoided."
+  ],
+  "methods": [
+    "Recruited 13,053 participants across nine opt-in online samples (CR Toolkit, CloudResearch Connect, Connect NR, Forthright, Lucid, Open M-turk, Prolific, Prolific NR, Stanford CRSTAL) between June 2022 and November 2023, using each platform's standard quota and payment defaults.",
+    "Administered an identical survey containing demographics, attitudes, two canonical experiments (welfare/poor framing; risky choice framing), seven attention checks, an effort task, an honesty self-report, speeding and attrition measures, and platform-experience questions.",
+    "Constructed an aggregate response validity index averaging attention, effort, honesty, non-speeding, and non-attrition indicators.",
+    "Measured representativeness by computing summed absolute deviations between sample percentages and the 2020 ANES probability sample benchmark across demographic categories and attitude items, disaggregated by partisanship.",
+    "Replicated two classic experiments (helping the poor vs. welfare framing; Asian disease risky-choice framing) and tested heterogeneous treatment effects by party, race, age, and gender using ordinal logistic and logistic regressions.",
+    "Tested the effects of progressive attention-check filtering and post-stratification weighting on validity, representativeness, and treatment effect recovery.",
+    "Within-platform comparisons (Prolific vs. Prolific NR; Connect vs. Connect NR) to disentangle platform versus sampling effects."
+  ],
+  "findings": [
+    "Samples cluster into three response-validity tiers: high (Connect, Connect NR, Prolific, Prolific NR, CRSTAL), middle (Forthright, CR Toolkit), and low (Lucid, Open M-turk).",
+    "Two trivial front-end attention checks raised mean response validity from .771 to .822, particularly improving the lowest-validity samples (e.g., R²≈.24-.38 for predicting overall validity).",
+    "Quota-heavy samples (Lucid, Forthright) most closely matched ANES demographics and attitudes, though all samples deviated more for Republicans than Democrats and notably on gun control.",
+    "Filtering on up to two (and sometimes five) attention checks did not meaningfully harm representativeness, with Lucid being the most sensitive at higher filter levels.",
+    "The welfare/poor framing main effect replicated in all samples, but heterogeneous effects by partisanship, race, and age were detected only in the more representative samples (Lucid, Forthright).",
+    "The risky-choice framing effect replicated in all samples with no clear demographic moderation, suggesting cognitive experiments are less sample-dependent.",
+    "Sample weights restored main effects (even in Open M-turk) but did not recover heterogeneous treatment effects.",
+    "Professional respondents (more past surveys, completing studies in succession) were concentrated in less representative samples and were associated with higher response validity; representative samples relied heavily on mobile phone respondents (e.g., ~70% on Lucid and Forthright vs. <10% on most others).",
+    "Mobile phone use was associated with lower response validity overall, an effect only partly mitigated by attention filters.",
+    "Black-respondent ideology/party correlations and the male bias in Trump support appeared only in the more representative samples, raising concerns about identity misreporting elsewhere."
+  ],
+  "contributions": [
+    "Provides the most comprehensive side-by-side comparison to date of nine widely used opt-in online samples on validity, representativeness, and professionalism using identical instruments.",
+    "Demonstrates a systematic trade-off between representativeness and response validity across platforms and identifies mobile phone usage as a likely mechanism.",
+    "Shows empirically that two front-end attention checks are a low-cost intervention that improves validity without harming representativeness.",
+    "Documents that weights do not rescue heterogeneous treatment effect estimation in non-representative samples.",
+    "Offers concrete, decision-oriented guidelines for researchers selecting opt-in samples depending on whether their study emphasizes attention, social/political content, heterogeneous effects, or cost.",
+    "Provides evidence that Open Mechanical Turk is dominated on every dimension by alternative platforms."
+  ],
+  "framing": "The paper sits within methodological debates in political science, psychology, and behavioral economics about the validity of non-probability online samples for causal and correlational inference, building on prior work by Berinsky, Coppock, Mullinix, Douglas et al., and Peer et al. It distinguishes between 'describer' and 'modeler' research goals (Baker et al. 2013), focusing on the latter and arguing that opt-in samples must be evaluated by multiple criteria rather than treated as interchangeable.",
+  "pdf_source": "drive"
+}

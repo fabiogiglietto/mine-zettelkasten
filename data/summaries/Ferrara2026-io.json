@@ -1,0 +1,36 @@
+{
+  "abstract": "ECHO (Encoding Communities via High-order Operators) is a self-supervised graph learning architecture for community detection in attributed networks that aims to overcome two bottlenecks afflicting GNN-based approaches: a 'Semantic Wall' of over-smoothing in dense or heterophilic graphs, and a 'Systems Wall' from O(N²) memory costs in pairwise similarity clustering. The system combines a Topology-Aware Router that selects between an MLP (Isolating) and GraphSAGE (Densifying) encoder based on structural heuristics, attention-guided K-step diffusion, a memory-sharded full-batch InfoNCE objective, and a chunked O(N·K) similarity extraction step feeding into modularity maximization. Experiments on LFR synthetic benchmarks up to 1M nodes and real-world attributed graphs including Pokec (1.6M nodes, 30M edges) show state-of-the-art NMI on several datasets and throughput above 2,800 nodes/second on a single A100 GPU.",
+  "key_claims": [
+    "Standard self-supervised GNNs for community detection face a dual bottleneck: semantic over-smoothing under rigid inductive biases ('Semantic Wall') and O(N²) memory cost for pairwise similarity clustering ('Systems Wall').",
+    "A single inductive bias is suboptimal across graph morphologies; routing graphs to either an Isolating (MLP) or Densifying (GraphSAGE) encoder based on unsupervised heuristics (feature sparsity, density, semantic assortativity) avoids both heterophilic poisoning and semantic starvation.",
+    "Attention-guided multi-scale diffusion can throttle information flow across heterophilic edges, preserving community boundaries and mitigating over-smoothing even at depth.",
+    "A memory-sharded full-batch InfoNCE formulation preserves exact full-batch gradient precision while bounding VRAM by dynamically chunking the negative-sample tensor.",
+    "Chunked, degree-adaptive top-k similarity extraction achieves O(N·K) space, enabling end-to-end attributed community detection at the million-node scale on a single commercial GPU.",
+    "ECHO matches the speed of optimized topological algorithms while incorporating semantic features, and overcomes the classical resolution limit on LFR benchmarks."
+  ],
+  "methods": [
+    "Four-phase pipeline: (1) Topology-Aware Routing using feature sparsity ρ_X, mean degree ⟨k⟩, and semantic assortativity H_R; (2) Adaptive Semantic Encoding via MLP or 1-hop GraphSAGE; (3) Attention-guided K-step diffusion with softmax edge attention computed by an MLP over concatenated node pairs; (4) Chunked O(N·K) cosine-similarity extraction with degree-adaptive k_i ∈ [k_min, k_max], mutual-max symmetrization above threshold δ, followed by modularity maximization via igraph (Louvain/Leiden).",
+    "Self-supervised training with an InfoNCE objective: positive sums weighted by learned attention α_uv plus an L1 sparsity penalty on attention; negative sampling pool of P=256 per node with dynamic tensor sharding triggered when N×P×d exceeds 2×10^8 elements.",
+    "Evaluation on LFR synthetic benchmarks (N=500 to 5,000, μ=0.5; scaled up to 1M nodes) with synthetic noisy features combining degree and one-hot community encodings perturbed by N(0, 0.5) Gaussian noise.",
+    "Real-world benchmarks: Chameleon, Actor, Amazon Photo, Amazon Computers, Coauthor CS, CoraFull, YouTube (1.13M nodes), Pokec (1.63M nodes, 30.6M edges); NMI used as the primary metric.",
+    "Baselines: K-Means, LPA, Leiden, LINE, DGI, MVGRL, SDCN; complexity analysis comparing time and space costs.",
+    "Implementation in PyTorch 2.6 on a single NVIDIA A100 80GB with TF32 and AMP, using igraph C-core for final modularity optimization; Adam optimizer, hidden dim 128, weight decay 5e-4."
+  ],
+  "findings": [
+    "On LFR at the critical boundary μ=0.5, ECHO reaches NMI 0.3663 at N=5,000, substantially outperforming DGI (0.1607), MVGRL (0.1677), LINE (0.3463), LPA (0.1912), and SDCN (0.1737), and its performance is stable or improves with scale while SDCN degrades.",
+    "On real-world attributed graphs, ECHO achieves state-of-the-art NMI on Chameleon (0.1701), Amazon Photo (0.7290), Amazon Computers (0.5957), and CoraFull (0.5114), and is essentially tied with DGI on Coauthor CS (0.7042 vs 0.7071).",
+    "MVGRL triggered out-of-memory errors on graphs beyond ~5,000 nodes, and SDCN exhibited near-zero NMI due to instability, motivating their omission from final comparisons.",
+    "Massive-scale throughput: 347.4s end-to-end on synthetic YouTube (≈3,266 nodes/s) and 582.1s on Pokec (≈2,805 nodes/s) on a single A100.",
+    "The Topology-Aware Router consistently selected the Isolating MLP encoder for dense or heterophilic datasets (Chameleon, Actor, Amazon Photo/Computers) and the Densifying SAGE encoder for sparse, feature-rich or large-scale datasets (Coauthor CS, CoraFull, YouTube, Pokec), with K=0 chosen for most mid-scale datasets and K=1 for the massive social graphs.",
+    "t-SNE visualizations on Cora and Amazon Computers show that ECHO embeddings produce visibly more separable clusters than raw features, even under high edge density."
+  ],
+  "contributions": [
+    "An unsupervised Topology-Aware Router that selects between Isolating (MLP) and Densifying (GraphSAGE) encoders using structural heuristics (sparsity, density, semantic assortativity).",
+    "An attention-guided multi-scale diffusion operator that dynamically prunes heterophilic edges via learned edge weights and an L1 sparsity penalty.",
+    "A memory-sharded full-batch InfoNCE contrastive objective that preserves exact full-batch gradient computation while capping VRAM through dynamic chunking of the negative sampling tensor.",
+    "A chunked O(N·K) GPU-accelerated similarity extraction with degree-adaptive top-k filtering that replaces dense O(N²) similarity matrices in the clustering stage.",
+    "An open-source unified framework (ECHO-GNN) that automatically engages sharded optimization based on hardware constraints, demonstrated on graphs with >1.6M nodes and >30M edges."
+  ],
+  "framing": "The paper situates itself at the intersection of classical network-science community detection (modularity-based methods like Louvain/Leiden, Infomap, OSLOM, link communities) and modern attributed graph representation learning (GraphSAGE, GAT, DGI, MVGRL, GraphCL, SDCN). It positions ECHO as a synthesis that inherits the multi-scale, k-path philosophy of generalized Louvain methods but replaces static heuristics with learnable attention-guided neural diffusion, while explicitly engineering around the over-smoothing and O(N²) memory limitations that have kept self-supervised GNNs from scaling to million-node attributed graphs.",
+  "pdf_source": "drive"
+}

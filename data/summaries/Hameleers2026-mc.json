@@ -1,0 +1,37 @@
+{
+  "abstract": "This pre-registered experimental study (N=982, United States) compares the effects of textual disinformation to two forms of visual disinformation—AI-generated still images and decontextualized videos—across two issues: the disappearance of flight MH370 and the Russian invasion of Ukraine. The authors find that visual disinformation does not universally outperform textual disinformation in terms of credibility, emotional response, or engagement. Only for the more salient and polarized Ukraine war issue did decontextualized video disinformation prove more credible and engaging than textual versions, suggesting that the persuasive power of visual disinformation is context-bound and depends on the availability of plausible existing footage. Fact-checks effectively reduced credibility across all modalities.",
+  "key_claims": [
+    "Visual disinformation is not universally more credible, emotionally arousing, or engaging than textual disinformation; effects are issue-dependent.",
+    "Video-based decontextualization can outperform both textual and AI-generated still-image disinformation, but only when ample authentic footage exists to plausibly recontextualize (as with the Ukraine war).",
+    "Concerns about the unprecedented persuasive power of generative AI in disinformation may be overstated relative to low-tech decontextualization of real videos.",
+    "Conspiracy mentality moderates disinformation credibility especially for issues with epistemic uncertainty (MH370), while self-perceived media literacy plays a limited moderating role.",
+    "Fact-checks lower the credibility of disinformation roughly equally across textual, AI-image, and video modalities."
+  ],
+  "methods": [
+    "Pre-registered between-subjects online experiment (AsPredicted #6MX_9VL) with a 3 (modality: text vs. AI-generated image vs. decontextualized video) × 2 (correction present vs. absent) + 3 control design, with topic (MH370 vs. Ukraine war) varied within-subjects in randomized order.",
+    "Sample of N=982 U.S. adults recruited via Kantar opt-in panel with soft quotas on age, gender, and education; completion rate 89.4%; data collected December 5–11, 2023.",
+    "Stimuli mimicked online news articles: MH370 disinformation falsely claimed the plane was hit by a surface-to-air missile, paired with a decontextualized missile-strike video or AI-generated debris image; Ukraine disinformation falsely claimed a Putin–Zelenskyy peace deal, paired with decontextualized pre-2022 negotiation footage or an AI-generated handshake image.",
+    "Dependent measures: perceived credibility (7 items), engagement intentions (6 items), and discrete emotional responses (8 items), all on 7-point scales.",
+    "Moderators measured prior to exposure: media distrust, conspiracy mentality (Bruder et al. 2013 short form), and self-perceived media literacy.",
+    "Analyses: ANOVAs with LSD post hoc tests, OLS regressions with two-way interactions, Wald coefficient comparison tests, plus exploratory analyses of ideology and issue-specific partisan beliefs."
+  ],
+  "findings": [
+    "For MH370, no significant differences in credibility, emotions, or engagement across textual, AI-image, or video disinformation; all disinformation was rated less credible than the authentic control.",
+    "For the Ukraine war, video-based disinformation was significantly more credible and engaging than textual disinformation; differences from AI-image disinformation were smaller or marginal.",
+    "Emotional responses did not differ significantly by modality for either issue (H2 unsupported).",
+    "Conspiracy mentality amplified the credibility of MH370 disinformation across modalities, supporting H5a for that issue but not for Ukraine.",
+    "Media distrust modestly increased credibility of textual (and to a lesser extent video) MH370 disinformation.",
+    "Self-perceived media literacy generally did not moderate disinformation effects, except that higher literacy reduced engagement with textual MH370 disinformation.",
+    "Fact-checking significantly reduced perceived credibility for both issues, with no significant interaction by modality (supporting H7).",
+    "Exploratory analyses: right-leaning participants were less emotionally responsive to and less likely to believe/engage with some disinformation messages; stronger issue-specific partisan beliefs increased perceived credibility."
+  ],
+  "contributions": [
+    "Provides one of the first direct experimental comparisons of textual, AI-generated still-image, and decontextualized video disinformation within the same design.",
+    "Demonstrates that effects of visual disinformation are contingent on issue salience, polarization, and the availability of plausible authentic footage for recontextualization.",
+    "Pushes back against alarmist narratives about generative AI by showing that low-tech video decontextualization can be more persuasive than AI-generated imagery.",
+    "Shows that fact-checks are equally effective across modalities, offering practical guidance that fact-checkers need not develop modality-specific correction tools, though they should explain the techniques and context behind visual deception.",
+    "Clarifies the moderating roles of conspiracy mentality, media distrust, and self-perceived media literacy in shaping susceptibility to different modalities of disinformation."
+  ],
+  "framing": "The paper situates itself in the literature on visual political communication and disinformation effects, drawing on indexicality and the realism ('seeing is believing') heuristic (Sundar; Messaris and Abraham) to theorize why visuals might outperform text. It engages debates about deepfakes and generative AI versus low-tech decontextualization (Brennen et al.; Weikmann and Lecheler; Vaccari and Chadwick) and contributes to comparative work on resilience to disinformation (Humprecht et al.) and fact-checking efficacy (Walter et al.).",
+  "pdf_source": "drive"
+}

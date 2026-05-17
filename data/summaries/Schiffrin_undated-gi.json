@@ -1,0 +1,38 @@
+{
+  "abstract": "This policy brief from a team led by Anya Schiffrin at Columbia examines the global rise of deepfake-enabled financial fraud and surveys the patchwork of regulatory responses across jurisdictions. It maps the 'scam ecosystem' — social media platforms, telecoms, financial institutions, and money laundering networks — and argues that effective regulation must shift responsibility from individual victims to the gatekeepers and intermediaries that enable AI-driven fraud. The authors review interventions in the UK, EU, Singapore, China, the US, and elsewhere, identify cross-border coordination gaps, and propose a liability-based policy framework.",
+  "key_claims": [
+    "Generative AI has qualitatively transformed financial scams by enabling cheap, scalable, and highly convincing impersonation through synthetic text, voice, image, and video.",
+    "Deepfake financial fraud is a cross-border, organized phenomenon whose harms include not only monetary loss but reputational damage and erosion of public trust in institutions.",
+    "Multiple actors — social platforms (especially Meta), messaging apps, telecoms, banks, crypto exchanges, and money laundering channels — function as enabling infrastructure for the scam ecosystem.",
+    "The most effective regulatory models focus on gatekeepers (platforms, telcos, financial institutions) rather than placing the burden of detection on individual victims.",
+    "Jurisdictional fragmentation, US-based platform liability shields (notably Section 230), and weak international coordination allow scammers to exploit regulatory gaps.",
+    "Transparency and disclosure measures (e.g., deepfake labeling under the EU AI Act and China's deep synthesis rules) are necessary but insufficient because labels can be stripped and scams migrate to private channels.",
+    "Shifting liability toward platforms and financial institutions, including mandatory reimbursement regimes, creates stronger prevention incentives than voluntary or victim-focused approaches."
+  ],
+  "methods": [
+    "Comparative policy review of regulatory frameworks across multiple jurisdictions including the UK, EU, US, Singapore, China, Taiwan, Australia, Indonesia, UAE, Turkey, Azerbaijan, Denmark, Ireland, Brazil, and others.",
+    "Synthesis of investigative journalism (OCCRP, ICIJ, ProPublica, Reuters, The Guardian, NYT) documenting specific deepfake fraud cases.",
+    "Review of industry and government reports including Deloitte's Center for Financial Services estimates, Resemble AI's Q2 2025 Deepfake Incident Report, F-Secure's 2025 Scam Intelligence Report, the UNODC, the US FBI, and the US State Department's Trafficking in Persons Report.",
+    "Integration of academic literature on platform governance, financial fraud detection, SIM-registration regimes, and AI regulation.",
+    "Use of illustrative case studies (Arup deepfake CEO scam, Brad Pitt romance scam, Indonesian Prabowo deepfake, Hong Kong triad ID fraud, Alice Guo prosecution, Chen Zhi/Prince Holding Group indictment)."
+  ],
+  "findings": [
+    "Deepfake-related financial losses are large but underreported: Deloitte projects US generative-AI fraud losses growing from $12.3B (2023) to $40B (2025); Resemble AI estimates ~$350M in Q2 2025 alone; 92% of 575 surveyed businesses reported some deepfake-related loss.",
+    "Only about 37% of scam victims across 12 countries report the crime, and just 27% of those go to the police, indicating major underreporting.",
+    "Meta serves over 15 billion 'high risk' ads per day generating ~$7B annually, and removes scam ads only when ~95% certain of fraud, while ad personalization steers vulnerable users toward more scam content.",
+    "Messaging platforms with end-to-end encryption function as critical downstream infrastructure that evades content moderation after initial contact on public platforms.",
+    "Mandatory SIM registration laws have not been shown to reliably reduce scam prevalence and may introduce new vulnerabilities (e.g., third-party SIM purchases in Kenya/Tanzania).",
+    "Singapore's Shared Responsibility Framework and COSMIC platform, Taiwan's Eagle Eye Anti-Fraud Alliance (federated learning across banks), and the UK's mandatory APP fraud reimbursement represent emerging models for distributing liability and enabling data sharing.",
+    "Southeast Asian 'scam compounds' rely on coerced labor and trafficking, integrating AI translation and voice cloning at industrial scale; convictions remain rare.",
+    "US Section 230 protections and corporate structure effectively export US liability rules globally and limit foreign regulators' enforcement reach, as illustrated by Andrew Forrest's Meta lawsuit being filed in California."
+  ],
+  "contributions": [
+    "Provides one of the first comparative, cross-jurisdictional surveys specifically focused on deepfake-enabled financial fraud regulation.",
+    "Develops a 'scam ecosystem' framework mapping enabling actors (platforms, telecoms, banks, launderers) to specific regulatory points of intervention.",
+    "Distinguishes between prevention-oriented regulation and liability regimes, arguing for the latter as a stronger lever for changing platform behavior.",
+    "Synthesizes scattered evidence on scam losses, victim reporting, and platform ad revenues into a policy-actionable picture.",
+    "Offers concrete policy recommendations emphasizing gatekeeper accountability, real-identity ad verification, data-sharing frameworks, and cross-border coordination."
+  ],
+  "framing": "The brief sits at the intersection of platform governance, AI policy, financial regulation, and consumer protection scholarship. It positions itself against regulatory approaches that emphasize individual user responsibility and aligns with a growing body of work (e.g., Data & Society's ScamGPT, scholarship on platform duty-of-care, and the EU's systemic-risk approach in the DSA/AI Act) that treats intermediaries as the appropriate locus of accountability for AI-enabled harms.",
+  "pdf_source": "drive"
+}

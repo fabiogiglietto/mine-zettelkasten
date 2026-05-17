@@ -1,0 +1,39 @@
+{
+  "abstract": "This article analyzes how Meta's official Newsroom has discursively framed problematic content (mis/disinformation, hate speech, conspiracist content) on its platforms between 2016 and early 2021. Using a mixed-methods approach that combines Leximancer-based topic modeling with discourse analysis informed by Laclau and Mouffe's discourse theory and the Discourse-Historical Approach, the authors examine 181 Newsroom posts. They identify four dominant framing themes—'inauthenticity,' 'political advertising,' 'technological solutions,' and 'enforcement'—that collectively shift responsibility for problematic content to outside actors while positioning Meta as a capable problem-solver. The paper also considers how these frames may align with and influence emerging regulatory regimes in the EU and Australia.",
+  "key_claims": [
+    "Meta's Newsroom strategically frames problematic content as originating from 'outside' actors (inauthentic accounts, coordinated networks, deceptive political advertisers) rather than from features of Meta's own platforms or business model.",
+    "Through four recurring frames—authenticity, political advertising, technological solutions, and enforcement—Meta positions itself simultaneously as not part of the problem and as the competent solver of the problem.",
+    "The Newsroom strategically excludes from discourse the role of highly followed hyperpartisan/verified accounts and the contribution of platform affordances (notably Facebook Groups) to the spread of problematic content.",
+    "Meta exploits the ambiguity of terms like 'coordinated inauthentic behaviour,' 'authenticity,' and 'coordination' as 'floating signifiers' that can be expanded or contracted to fit issues Meta is willing and able to address technologically.",
+    "The Newsroom often operates reactively, with high-profile content moderation announcements following media or political pressure rather than proactive strategy.",
+    "There are notable thematic alignments between Meta's framings and current EU and Australian disinformation regulations, suggesting Meta may be 'nudging' policy discourse in directions consistent with its interests, though causal influence is not established."
+  ],
+  "methods": [
+    "Manual collection of 181 Meta Newsroom posts published between January 2016 and February 2021 dealing with problematic content (total corpus ~135,244 words).",
+    "Manual coding of posts into eight issue categories: disinformation (71), inciting violence (31), news quality (26), election integrity (25), general community standards (15), hate speech (4), transparency (5), and content quality (4).",
+    "Computational text analysis using Leximancer to inductively identify emergent concepts and themes via word co-occurrence statistics and Bayesian-inspired modeling, with visual concept mapping.",
+    "A two-stage Leximancer analysis: first inductive (whole-corpus, automatically determined themes), then directed (per-category) using the manually coded issue groupings.",
+    "Qualitative close readings of selected posts to interpret concept clusters in context.",
+    "Theoretical framing drawn from Laclau and Mouffe's discourse theory (nodal points, field of discursivity) and the Discourse-Historical Approach to Critical Discourse Studies (foregrounding/backgrounding, intensification/mitigation).",
+    "Contextual comparison with regulatory documents including the EU Code of Practice on Disinformation (2018 and 2022), Australia's DIGI Code of Practice, and Australia's 2024 Combatting Mis/disinformation Bill."
+  ],
+  "findings": [
+    "'Inauthenticity' (e.g., 'coordinated inauthentic behaviour,' 'fake' accounts, deceptive ads) functions as a central nodal point, especially in posts on disinformation, foregrounding outside threats over organic platform problems.",
+    "'Political advertising' transparency is a recurrent theme, with Meta highlighting measures like the Ad Library, paid-for disclosure labels, and pre-election ad restrictions, particularly around US and EU elections.",
+    "'Technological solutions' frame appears prominently in posts about community standards and hate speech, with Meta emphasizing AI-driven proactive detection (e.g., AI reportedly detecting 95% of removed hate speech in 2020, up from 24% in 2018).",
+    "'Enforcement' is signaled through regular reports (CIB reports, Community Standards Enforcement Reports) and statistical claims of takedowns, framing problems as already being solved.",
+    "Two notable absences in the discourse: (1) the role of highly engaged hyperpartisan/verified accounts (e.g., Breitbart, Ben Shapiro's outlets), and (2) the role of Facebook Groups in spreading anti-vaccine and election-fraud misinformation.",
+    "Key terms originating in Meta's communications (notably 'coordinated inauthentic behaviour') have diffused into academic literature, government discourse, and regulatory instruments such as the 2022 EU CPD and Australia's DIGI CoP.",
+    "Major Newsroom announcements (banning QAnon, removing 'Stop the Steal' content, suspending Trump after January 6) appear largely reactive to external pressure rather than proactively strategic."
+  ],
+  "contributions": [
+    "Provides one of the first detailed scholarly analyses of the Meta Newsroom itself as a discursive PR instrument, addressing a gap in research on tech-company communication outlets.",
+    "Demonstrates a methodological approach combining Leximancer-based computational concept mapping with Laclau and Mouffe-informed discourse theory and CDS for analyzing corporate PR corpora.",
+    "Identifies and names four discursive frames ('inauthenticity,' 'political advertising,' 'technological solutions,' 'enforcement') that structure Meta's public communication on content moderation.",
+    "Articulates how Meta's strategic ambiguity around terms like 'coordinated inauthentic behaviour' functions as 'floating signifiers' that shape the discursive field.",
+    "Connects corporate discursive framing to regulatory developments in the EU and Australia, opening questions about platform influence on policy vocabulary and priorities.",
+    "Offers a critical resource for policymakers, journalists, and researchers wary of uncritically adopting platform-originated terminology."
+  ],
+  "framing": "The paper positions itself at the intersection of platform studies, critical discourse studies, and public relations/regulatory research, drawing especially on Laclau and Mouffe's discourse theory and the Discourse-Historical Approach to Critical Discourse Studies. It contributes to ongoing debates about platform self-regulation, content moderation, and the discursive power of large tech companies amid growing governmental scrutiny of mis- and disinformation, building on prior work examining Meta's elite discourse and Zuckerberg's 'future imaginaries.'",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper argues that social media information consumption is shaped by networked curation processes in which users select other users to follow, and those users selectively share stories that promote their identities and interests. The authors introduce the concept of 'partisan curation bubbles'—sets of users who share and consume content with consistent partisan appeal drawn from a variety of sources—and demonstrate that conventional source-level (domain) measures of audience partisanship mischaracterize the partisan valence of individual stories, especially for sources scored as moderate. Using large-scale Twitter and Facebook datasets, they show that story-level partisan heterogeneity within sources is substantial and that moderate domain scores frequently mask divergent partisan audiences for constituent stories.",
+  "key_claims": [
+    "Information sharing on social media involves 'unbundling' stories from their parent sources and re-bundling them via networked curation, producing partisan curation bubbles.",
+    "Source-level (domain) measures of audience partisanship mistake heterogeneity for moderation, because individual stories from a single source can reach very different partisan audiences.",
+    "Story-level heterogeneity is greatest for sources with moderate domain-level audience scores; extreme sources have more uniform partisan audiences across stories.",
+    "Variation in story-level audience scores reflects substantive differences in the partisan appeal of content, not noise or hate-sharing.",
+    "Networked curation makes information consumption on social media more politically homogeneous than domain-level analyses suggest, but this reflects democratic participation (identity performance, social signaling) rather than necessarily threatening democracy."
+  ],
+  "methods": [
+    "Analysis of Twitter sharing behavior (2017–2018) from a panel of ~1.6 million U.S. user accounts matched to a TargetSmart commercial voter file with modeled partisanship scores; ~369,675 political URLs from 718 domains after filtering.",
+    "Analysis of Facebook data (2017–2021) from the Social Science One Facebook Open Research & Transparency (FORT) URLs Shares dataset, including shares, views, clicks, and reactions; ~214,995 political URLs from 780 domains after filtering for differential-privacy noise.",
+    "Classification of URLs as political vs. non-political using a convolutional neural network with GloVe embeddings trained on NYT, Wikipedia, and Facebook data (99% precision, 92% recall).",
+    "Construction of URL-level and domain-level audience partisanship scores on a [−1,1] scale by averaging the partisanship of users sharing/viewing/clicking/reacting to content.",
+    "Statistical test comparing each URL's audience score to its parent domain's distribution, using a confidence interval widened by 0.1 for substantive significance (analogous to equivalence testing).",
+    "Hand-coding of partisan appeal for a sample of 1,000 URLs by graduate students/postdocs (Krippendorff's α = 0.673), with oversampling of URLs showing large URL–domain score discrepancies.",
+    "Kolmogorov–Smirnov and Wasserstein distance tests comparing URL- and domain-level score distributions."
+  ],
+  "findings": [
+    "URL-level audience score distributions are significantly more extreme than domain-level distributions on both Twitter (KS D=0.23) and Facebook (KS D=0.12), supporting productive curation (H1a).",
+    "Story-level heterogeneity extends to consumptive measures (views, clicks, reactions) on Facebook, with public-facing behaviors (shares, reactions) showing more extremity than private behaviors (clicks, views); supports H1b.",
+    "Hand-coded partisan appeal correlates strongly with URL-level audience scores (r=0.75) and much less with domain-level scores (r=0.55); adding domain scores to regression yields minimal improvement in R², supporting H2.",
+    "The proportion of stories whose audience scores are substantively distinct from their domain's average rises sharply as domain scores approach zero; extreme partisan domains (e.g., Breitbart, Daily Kos, Fox News) show consistent audiences while moderate-scoring domains (e.g., Wall Street Journal, Mediaite, NY Post) show high within-domain heterogeneity, supporting H3.",
+    "Illustrative case of the Wall Street Journal: a domain-level score of −0.34 conceals that its most Republican-shared stories are conservative editorials while its most Democratic-shared stories are mainstream reporting unfavorable to Republicans.",
+    "Under domain measures, 28% of unlikely Democrats' political URL sharing appears right-leaning, but under URL-level measures this rises to 39.1%, indicating that some users share stories with right-leaning audiences from generally left-leaning sources."
+  ],
+  "contributions": [
+    "Introduces the concept of 'partisan curation bubbles' as a theoretical framework distinct from echo chambers and filter bubbles, emphasizing networked story-level curation rather than source-level selection.",
+    "Demonstrates a measurement critique: domain-level audience partisanship scores systematically mischaracterize moderate sources by aggregating away substantial story-level partisan heterogeneity.",
+    "Provides cross-platform empirical evidence using both Twitter (voter-file-matched panel) and Facebook (FORT URL Shares) data, validating findings across productive and consumptive curation.",
+    "Reconciles competing literatures: explains how aggregate exposure to politically diverse sources can coexist with substantial partisan homogeneity in actual story consumption.",
+    "Reframes polarized information consumption as partly a feature of democratic participation and identity performance rather than purely a pathology, highlighting trade-offs between cross-cutting exposure and active participation."
+  ],
+  "framing": "The paper positions itself within debates over echo chambers, filter bubbles, and political polarization in online information consumption (Sunstein, Pariser, Bakshy et al., Guess, González-Bailón et al.), and within the 'two-step flow' tradition (Katz and Lazarsfeld). It bridges work on selective exposure, opinion leadership, and the social functions of information sharing (Marwick and boyd, Settle) with computational measurement of partisan audience scores, arguing that prevailing source-level methodologies are misaligned with the networked, story-level reality of social media curation.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper reports on a field experiment in Brazil that examined the effects of deactivating WhatsApp on users' political knowledge, beliefs, and exposure to misinformation. Conducted in the context of Brazilian elections, the study addresses how messaging platforms—distinct from traditional social media feeds—shape political information environments. The authors use a deactivation design to causally estimate WhatsApp's influence on users' informational and attitudinal outcomes.",
+  "key_claims": [
+    "WhatsApp, as an encrypted messaging platform, plays a distinct role in political information ecosystems compared to feed-based social media.",
+    "Deactivating WhatsApp has measurable effects on users' exposure to misinformation and political beliefs in Brazil.",
+    "Understanding misinformation requires looking beyond traditional public-facing social media feeds to private messaging platforms."
+  ],
+  "methods": [
+    "Field experiment using a WhatsApp deactivation design, in which participants were induced to stop using the platform for a period of time.",
+    "Conducted in Brazil, likely around an electoral period, with comparisons between treated (deactivated) and control users.",
+    "Measurement of political knowledge, beliefs, and misinformation exposure as outcomes."
+  ],
+  "findings": [
+    "The paper reports causal effects of WhatsApp deactivation on users' information environments and political attitudes in Brazil (specific magnitudes not available from abstract alone)."
+  ],
+  "contributions": [
+    "Provides experimental causal evidence on the political effects of a major encrypted messaging platform, extending a literature that has focused predominantly on Facebook and Twitter.",
+    "Expands the empirical scope of misinformation research to private, non-feed-based platforms.",
+    "Offers evidence from Brazil, a key non-U.S. context where WhatsApp is central to political communication."
+  ],
+  "framing": "The paper situates itself within the broader literature on social media, misinformation, and democratic politics, while pushing that conversation beyond its typical focus on feed-based platforms like Facebook and Twitter. It contributes to debates about platform effects in the Global South and the comparative role of encrypted messaging apps in shaping political behavior.",
+  "pdf_source": "abstract_only"
+}

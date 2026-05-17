@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper examines how COVID-19 scientific papers circulate across Twitter and news media, analyzing the distinct and intersecting roles of organic users, bots, superspreaders, coordinated accounts, and news outlets. Using 1.24M tweets and 211k news articles referencing pandemic-related preprints, the authors identify a predominantly contrarian coordinated network that amplifies a small set of credentialed anti-consensus experts, while mainstream superspreaders are largely pro-consensus science communicators. The study traces information pathways showing that news coverage of scientific papers typically follows—rather than precedes—superspreader activity on Twitter, with high-trust outlets aligning with conformist superspreaders and low-trust outlets aligning with contrarian ones.",
+  "key_claims": [
+    "Influential Twitter accounts in COVID-19 scientific discourse are predominantly individuals with medical or research credentials, most of whom are pro-consensus (conformist).",
+    "A coordinated retweet network, almost entirely contrarian (96.4%), disproportionately amplifies a small subset of contrarian credentialed experts rather than the most popular accounts overall.",
+    "This coordination is not driven by automation; bot scores do not differ significantly between coordinated and non-coordinated accounts.",
+    "News media coverage of scientific papers tends to temporally follow superspreader activity on Twitter, suggesting a Twitter-to-news information pathway (though not necessarily causal).",
+    "Mainstream/high-trust outlets cover papers similar to those shared by conformist superspreaders, while low-trust, conspiratorial, or pseudoscientific outlets align with contrarian superspreaders.",
+    "Science communication operates through multi-level information pathways linking coordinated amplification, influential individual actors, and news media."
+  ],
+  "methods": [
+    "Analysis of a dataset from Efstratiou et al. (2024) covering 25k+ COVID-19 preprints from bioRxiv/medRxiv, 1.24M tweets from 346k users, and 211k news articles from 2.34k outlets through November 2022.",
+    "Construction of co-retweet similarity networks using 30-minute time windows, TF-IDF weighting, cosine similarity, and eigenvector centrality thresholds (top 1%, with robustness checks at 0.5% and 2%) following Luceri et al. (2024).",
+    "Superspreader detection using DeVerna et al.'s (2024) h-index metric, retaining the top 1% of scores (N=764).",
+    "Bot detection using Botometer historical scores for accounts with ≥10 COVID-19 tweets.",
+    "Bootstrapped independent-samples t-tests (10,000 iterations) and chi-squared tests to compare coordinated and superspreader accounts against random samples.",
+    "BERTopic modeling for paper abstract topics; DistilRoBERTa-based emotion classification of tweets; manual annotation of superspreaders into credential categories (physician, scientist, science communicator, science organization, other).",
+    "Cosine similarity between superspreader and news outlet DOI vectors (TF-IDF), with K-nearest neighbor analysis (K=1,5,10).",
+    "Gaussian kernel density estimation on paper mentions to identify high-density activity intervals and construct directed precedence networks between actor classes, using Youden's J to binarize outlets into low- and high-credibility groups based on trust scores from Lin et al. (2023)."
+  ],
+  "findings": [
+    "Six distinct subclusters emerged in the coordinated network, focused on vaccines/boosters, viral mutations, excess deaths/mortality, and T-cell immunity narratives.",
+    "Coordinated accounts are significantly younger, overwhelmingly contrarian (295 observed vs. 89 expected), and concentrate on a narrower set of topics (Gini=0.80) than the overall network (Gini=0.69).",
+    "75.9% of accounts retweeted by the coordinated network are contrarian; 90.4% of retweeted content originates from contrarian accounts; 78.4% of contrarian superspreaders are retweeted by the coordinated network vs. only 14.6% of conformist superspreaders.",
+    "Superspreaders have substantially more followers, higher verification rates (28% vs. 1.8%), and are predominantly conformist (80.6%); 60% of conformist superspreaders are physicians or scientists, while contrarian superspreaders are more often non-credentialed (55.4%).",
+    "Conformist superspreaders engage across a broader range of topics (Gini=0.58) than contrarians (Gini=0.74); contrarians focus on vaccines, excess mortality, and immunity-related hashtags.",
+    "Emotion analysis shows conformist superspreaders express the most fear (50.4%), while random contrarians use the most anger and sadness; contrarian superspreaders are paradoxically the most neutral.",
+    "Coordinated amplification targets contrarian experts who are not the most popular overall (e.g., top-promoted accounts ranked 37th–385th in the broader network).",
+    "Contrarian superspreaders show stronger alignment with low-credibility outlets than conformists do with high-credibility outlets, with neighboring outlets including mainstream/medical sources for conformists and conspiratorial/pseudoscientific sources for contrarians.",
+    "Both conformist and contrarian superspreaders significantly precede news coverage (median lag ~19-28 hours), while no significant precedence ordering exists between high- and low-quality outlets or between conformist and contrarian superspreaders."
+  ],
+  "contributions": [
+    "Provides a holistic, multi-level characterization of online science communication that jointly analyzes coordinated networks, superspreaders, bots, and news media rather than examining each in isolation.",
+    "Empirically demonstrates how grassroots coordination can centralize influence around perceived experts, offering a mechanism for previously documented phenomena like false consensus and expert centralization in anti-science communities.",
+    "Documents a Twitter-to-news temporal pathway in science dissemination, complicating prior assumptions about news-driven attention cycles.",
+    "Distinguishes coordination from automation in science communication contexts, reinforcing that coordinated behavior need not be bot-driven.",
+    "Offers a methodological template combining co-retweet detection, h-index superspreader identification, kernel density precedence analysis, and outlet trust binarization for cross-platform science communication research."
+  ],
+  "framing": "The paper situates itself within research on online science (mis)communication, collaborative sensemaking, and coordinated inauthentic behavior detection, building on work concerning perceived experts in anti-vaccine communities (Harris et al. 2024), false consensus effects (Efstratiou et al. 2024), and superspreader identification (DeVerna et al. 2024). It positions itself as bridging studies that previously examined platform actors, coordinated networks, and news media in isolation, contributing to debates about how polarized scientific discourse is shaped across the broader information ecosystem.",
+  "pdf_source": "drive"
+}

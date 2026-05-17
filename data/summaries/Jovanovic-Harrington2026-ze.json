@@ -1,0 +1,27 @@
+{
+  "abstract": "This paper investigates coordinated inauthentic behaviour (CIB) tied to Serbia's ruling Serbian Progressive Party (SNS), arguing that its tactics represent a more subtle and harder-to-detect form of digital authoritarianism than the centralised bot farms typical of other autocratic regimes. Through a longitudinal analysis of under-explored, largely non-English secondary sources, the authors show how SNS networks mimic authentic grassroots support and evade standard detection methods. The study calls for new analytical frameworks suited to these evolving manipulation strategies.",
+  "key_claims": [
+    "Digital authoritarianism is evolving toward more subtle forms of online manipulation that existing detection tools struggle to identify.",
+    "SNS-linked CIB networks differ structurally from centralised bot farms by more convincingly mimicking authentic citizen support.",
+    "Because of this mimicry, SNS networks evade detection longer than comparable operations in other autocratic contexts.",
+    "Under-explored, non-English secondary sources offer crucial evidence for understanding such manipulation that mainstream English-language scholarship overlooks."
+  ],
+  "methods": [
+    "Longitudinal qualitative analysis of secondary sources documenting CIB activity linked to the SNS.",
+    "Use of sources rarely translated into English, including materials at risk of being overlooked in mainstream research.",
+    "Comparative framing of SNS tactics against centralised bot-farm models common in other autocratic regimes."
+  ],
+  "findings": [
+    "SNS-linked online networks engage in coordinated inauthentic behaviour that simulates authentic grassroots support.",
+    "These networks evade detection more effectively and for longer than centralised bot-farm operations.",
+    "The Serbian case illustrates a distinct mode of digital authoritarianism that is decentralised and mimetic rather than overtly automated."
+  ],
+  "contributions": [
+    "Provides an in-depth case study of CIB in Serbia, a relatively under-examined context in the digital authoritarianism literature.",
+    "Highlights the methodological value of non-English secondary sources for studying online manipulation.",
+    "Advances conceptual understanding of how authoritarian-leaning parties can evade CIB detection through authenticity mimicry.",
+    "Argues for the development of new analytical tools capable of capturing subtler forms of coordinated manipulation."
+  ],
+  "framing": "The paper situates itself within scholarship on digital authoritarianism, platform manipulation, and coordinated inauthentic behaviour, extending these debates beyond their dominant focus on centralised bot operations. It contributes to comparative political communication research on hybrid and electoral authoritarian regimes, with Serbia as a key case for understanding more covert online influence strategies.",
+  "pdf_source": "abstract_only"
+}

@@ -1,0 +1,42 @@
+{
+  "abstract": "This study links national US survey data (n=1,059) with passive web-tracking and YouTube viewing histories collected over roughly four weeks in late 2023 to examine exposure to low-credibility online health content. The authors find that exposure is overall rare but disproportionately concentrated among adults aged 60+, among those with poorer health-information discernment and more conspiracist worldviews, and among consumers of dubious political news. Exposure pathways are notably not driven by social media or search engines, but instead by referrals from other low-credibility sites, suggesting habitual cross-domain consumption patterns rather than incidental encounters.",
+  "key_claims": [
+    "Exposure to low-credibility online health content is limited in the aggregate but highly concentrated among a small subset of users (top 10% account for 77% of exposure).",
+    "Older adults (60+) are disproportionately exposed to low-credibility health websites, and this gap is not explained by their higher overall volume of health-related browsing.",
+    "Although older adults consume less YouTube content overall, a higher proportion of their health-related YouTube views come from low-credibility sources.",
+    "Exposure to low-credibility health content correlates with poorer headline discernment, greater belief in false cancer risk factors, and stronger conspiracist worldviews, suggesting exposure is not merely incidental.",
+    "Consumption of low-credibility content spans domains and platforms: those exposed to dubious political news are more likely to encounter low-credibility health content, indicating a shared cross-domain consumption profile.",
+    "Traffic to low-credibility health sites comes primarily from other low-credibility sites and business/shopping domains, not from search engines or social media."
+  ],
+  "methods": [
+    "Linked survey and digital trace data from YouGov's Pulse Panel (n=1,059 with web data; survey conducted October-November 2023), approximating the US adult population.",
+    "Passive metering (RealityMine) of 9.7 million web addresses across desktop, mobile, and tablet over approximately 4 weeks per participant.",
+    "Classification of URLs as health-related using YouGov category tags plus OpenAI 'text-embedding-3-small' embeddings; hand-coding of 1,155 health domains for low-credibility status (78 flagged; Krippendorf's alpha = 1.00).",
+    "YouTube viewing data: ~470,000 videos classified for health relevance via embeddings, then 3,902 health videos coded for credibility using a hybrid manual + fine-tuned GPT-4o approach validated against human coders (Cohen's kappa = 0.89-0.97).",
+    "Survey-based measures of cancer headline discernment (18 headlines, accurate vs. inaccurate), cancer risk factor (mis)perceptions (7 true, 7 false items), conspiracism scale, ideology, and demographics.",
+    "OLS regression with robust standard errors and survey weights, supplemented by logistic and negative binomial models; preregistered analyses; outlier-exclusion robustness tests.",
+    "Referrer analysis based on temporal sequence of visits (search engines, social media, chat, business/shopping, other low-credibility sites, partisan news)."
+  ],
+  "findings": [
+    "About 13% of respondents visited any low-credibility health domain during the 4-week window (mean = 0.5 visits; max = 122); ~77% saw any health content (mean = 34 visits).",
+    "Low-credibility visits constituted roughly 3% of all health visits on the web and roughly 10% on YouTube.",
+    "Exposure is highly concentrated: top 1% of users account for 37% of total low-credibility exposure; top 10% account for 77%.",
+    "Respondents 60+ were significantly more likely to be exposed than 18-29 year olds (binary: b=0.18, p<0.001; count: b=1.07, p<0.001), robust to controls for total health visits and total web sessions.",
+    "Poorer cancer headline discernment and greater belief in false cancer risk factors predicted greater exposure; interactions showed effects were strongest among older adults.",
+    "Older conservatives and older adults in the top tercile of right-leaning partisan news consumption showed the highest exposure to low-credibility health sites.",
+    "Referrals to low-credibility health sites came predominantly from other low-credibility sites (especially among 60+), with minimal referral via search engines or social media.",
+    "No significant age differences in absolute YouTube low-credibility health exposure, but older adults' overall lower YouTube use meant such content made up a larger share of their health video diet.",
+    "Cross-platform clustering: dubious political news consumption and low-credibility health website visits both independently predicted low-credibility YouTube health exposure.",
+    "A media literacy treatment from a companion experiment had no significant effects on downstream exposure."
+  ],
+  "contributions": [
+    "Extends the digital-trace misinformation literature beyond political news to the health domain, addressing a major gap in cross-domain generalizability of age effects.",
+    "Provides one of the first studies combining linked survey data with passive web and YouTube tracking specifically for health misinformation exposure.",
+    "Demonstrates that age-based vulnerability to low-credibility content generalizes across topics (politics and health) and platforms (open web and YouTube).",
+    "Introduces a hybrid embedding + LLM-assisted classification pipeline for identifying and credibility-rating health content at scale, validated against human coders.",
+    "Identifies referral pathways (cross-linking among low-credibility sites rather than search/social) that have implications for platform-based intervention design.",
+    "Validates digital trace exposure measures by linking them to survey-based misperception and discernment outcomes."
+  ],
+  "framing": "The paper situates itself within the growing digital-trace literature on age and online misinformation (Guess, Grinberg, Moore, Brashier, and colleagues), which has consistently found older adults engage more with untrustworthy political content. It pushes back against the field's near-exclusive focus on political news, asking whether age patterns generalize to health information—a domain where self-interest and health survey research have suggested older adults might be less susceptible. The work bridges communication research, misinformation studies, and aging/public health, with policy-relevant implications for health information environments serving aging populations.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,26 @@
+{
+  "abstract": "This paper proposes a methodological approach for studying online news circulation that addresses limitations in existing research on partisan news sharing. The authors argue that prior work tends to oversimplify political leaning, focus only on the outlet level, and examine narrow national contexts. They introduce a 'political cartography' framework that maps news sharing on Twitter across story, outlet, and content levels.",
+  "key_claims": [
+    "Existing research on partisan news sharing relies on an overly simplified, often unidimensional measurement of political leaning.",
+    "Most prior studies analyze only the outlet level, neglecting story-level and content-level dynamics of circulation.",
+    "News circulation studies have been overly concentrated in particular national contexts, limiting generalizability.",
+    "A multi-level cartographic approach better captures the political structure of news sharing on social platforms."
+  ],
+  "methods": [
+    "Analysis of news sharing trace data on Twitter.",
+    "Multi-level analysis across story, outlet, and content dimensions.",
+    "Construction of a more nuanced (presumably multi-dimensional) measure of political leaning among news sharers.",
+    "Note: specific datasets, sample sizes, and analytical techniques are not detailed in the available abstract."
+  ],
+  "findings": [
+    "Findings are not specified in the available abstract."
+  ],
+  "contributions": [
+    "Introduces a 'political cartography' framework for mapping news circulation online.",
+    "Advances measurement of political leaning beyond simple left-right scales in news-sharing research.",
+    "Integrates story, outlet, and content levels into a unified analytical approach.",
+    "Provides a methodological critique of dominant approaches in partisan news circulation research."
+  ],
+  "framing": "The paper situates itself within computational communication and political communication research on online news circulation, audience partisanship, and platform-based media exposure. It engages critically with the established literature that uses trace data from social platforms to characterize partisan asymmetries in news sharing.",
+  "pdf_source": "abstract_only"
+}

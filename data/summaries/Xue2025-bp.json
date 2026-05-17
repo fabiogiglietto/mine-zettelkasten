@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper investigates the role of emotionality in fact-checking posts on social media in the United States, examining both how prevalent emotional language is in such posts and how it shapes audience engagement and sentiment toward fact-checked targets. Drawing on social psychological frameworks, the authors analyze message-level factors that influence public response to fact-checking content. The study addresses a tension between fact-checking's normative claim to objectivity and the strategic use of emotional appeals to drive engagement.",
+  "key_claims": [
+    "Fact-checking posts on social media frequently exhibit heightened emotionality despite the practice's association with objective information provision.",
+    "Emotionality functions as a meaningful message-level factor shaping audience engagement with fact-checking content.",
+    "Emotional framing in fact-checks influences public sentiment toward the targets being fact-checked."
+  ],
+  "methods": [
+    "Computational and/or content analysis of fact-checking posts on social media in the U.S. context (specific platforms and corpus details not provided in available abstract).",
+    "Analysis informed by social psychological frameworks on message-level predictors of public engagement.",
+    "Examination of relationships between emotionality features of posts and downstream engagement and sentiment outcomes."
+  ],
+  "findings": [
+    "Fact-checking posts contain substantial emotional content rather than purely neutral, objective framing.",
+    "Emotionality is associated with patterns of audience engagement with fact-checking posts.",
+    "Emotionality in fact-checks shapes public sentiment toward the fact-checked targets (specific directional effects not available from abstract excerpt)."
+  ],
+  "contributions": [
+    "Provides empirical evidence on the prevalence of emotionality in social media fact-checking, a topic the authors identify as understudied.",
+    "Links message-level emotional features to both engagement metrics and target-directed sentiment, bridging fact-checking research and affective communication scholarship.",
+    "Offers practical implications for designing fact-checking strategies that balance objectivity with audience engagement."
+  ],
+  "framing": "The paper sits at the intersection of misinformation/fact-checking research and social psychological theories of persuasive and emotional communication. It positions itself against an implicit norm that fact-checking should be dispassionate and objective, instead asking how emotional appeals operate within this corrective genre on social media.",
+  "pdf_source": "abstract_only"
+}

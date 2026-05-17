@@ -1,0 +1,42 @@
+{
+  "abstract": "This paper reports preregistered experiments testing whether dialogues with large language models (LLMs) can shift voter attitudes in three national elections (2024 US presidential, 2025 Canadian federal, 2025 Polish presidential) and on a 2024 Massachusetts ballot measure to legalize psychedelics. Across all four contexts, brief (3–5 round) human–AI conversations meaningfully changed candidate preference, voting intentions, and ballot-measure support, with effects substantially larger than those typically found for traditional political advertisements. Analyses of persuasion strategies indicate that the AI persuaded primarily through relevant facts and evidence rather than sophisticated psychological tactics, although AI models advocating for right-leaning candidates consistently made more inaccurate claims than those advocating for left-leaning candidates.",
+  "key_claims": [
+    "Conversational AI can produce persuasion effects on candidate preference that exceed those of traditional video or text political advertisements.",
+    "AI persuasion is driven mainly by presenting relevant facts and evidence (central route), not by sophisticated psychological manipulation techniques.",
+    "Personalization is not a necessary ingredient for large AI persuasion effects, contrary to much existing persuasion theory.",
+    "AI dialogues are more effective on out-party participants, challenging strong forms of politically motivated reasoning.",
+    "Roughly one-third of the immediate persuasion effect persists more than a month later.",
+    "Frontier LLMs advocating for right-leaning candidates (Trump, Poilievre, Nawrocki) systematically produce more inaccurate claims than those advocating for left-leaning candidates (Harris, Carney, Trzaskowski), mirroring asymmetries in the broader information environment.",
+    "Inaccuracy of claims is not associated with greater persuasiveness."
+  ],
+  "methods": [
+    "Four preregistered randomized survey experiments with human–AI chat dialogues: US 2024 presidential (n=2,306; ~41-day follow-up n=1,936), Massachusetts psychedelics ballot measure (n=501), Canadian 2025 federal election (n=1,530), Polish 2025 presidential election (n=2,118).",
+    "Participants completed pre-treatment outcome measures (0–100 candidate preference, voting likelihood, categorical vote choice), engaged in a 3–5 round chat with an AI prompted to advocate for an assigned candidate or position, then repeated outcome measures.",
+    "Factorial randomization across persuasion direction, conversation focus (policy vs. personality in US), and persuasion strategy conditions (baseline, no-facts, non-personalized, non-specific) in Canada/Poland.",
+    "Multiple LLMs tested as persuaders (GPT-4o, GPT-4.1, DeepSeek-V3-0324, Llama-4-Maverick) via a custom multi-agent system (Vegapunk).",
+    "Linear regression with heteroscedasticity-robust SEs, Storey–Tibshirani FDR correction, and Bayes factors for null effects.",
+    "Post hoc coding of 27 persuasion strategies in transcripts by two LLMs (GPT-4o and DeepSeek-V3) and lasso regression for feature selection on persuasiveness.",
+    "Fact-checking of 8,134 AI statements using Perplexity AI, validated against professional fact-checkers and politically balanced lay raters."
+  ],
+  "findings": [
+    "In the US election, the pro-Harris and pro-Trump AI conditions significantly shifted candidate preference (main effect b=2.88 on 0–100 scale, p<0.001), with larger effects for policy than personality conversations and for out-party participants (e.g., pro-Harris AI moved Trump supporters 3.90 points on policy).",
+    "Roughly 34% of the immediate preference change persisted at the ~41-day follow-up.",
+    "On the Massachusetts psychedelics ballot measure, the pro-psychedelics AI increased support among strong opponents by ~14.85 points and the anti-psychedelics AI decreased support among strong supporters by ~5.57 points; among non-extreme participants the gap between conditions was ~22.7 points.",
+    "Canadian baseline persuasion effect was ~10 points; Polish baseline effect was ~9.9 points—about three times larger than the US effect.",
+    "Removing facts and evidence from the AI's strategy reduced persuasion effects by more than half in Canada and by ~78% in Poland; removing personalization or giving no specific strategy instructions had no significant effect in Poland.",
+    "Across 27 coded strategies, AI relied most on politeness/civility (0.97), evidence and facts (0.64), optimism/value alignment (0.51), cognitive elaboration (0.45), and empathic listening (0.45); manipulative tactics (anger, social influence, testimonials, name-calling) were rare.",
+    "Lasso analysis identified personalization and evidence/facts as the strongest positive predictors of persuasion; pre-emptive counter-arguments were negatively associated; claim accuracy was not retained as predictive.",
+    "Median accuracy of AI statements was 90/100, but pro-right-leaning AIs were significantly less accurate than pro-left-leaning AIs across all three countries and across 12 different models tested.",
+    "No significant differences in persuasiveness across the LLMs tested (GPT-4.1, DeepSeek-V3-0324, Llama-4-Maverick)."
+  ],
+  "contributions": [
+    "Provides the first large-scale, cross-national experimental evidence that human–AI dialogues can substantively shift attitudes in high-salience presidential and national elections, not just on low-stakes policy issues.",
+    "Empirically isolates the causal role of facts/evidence versus personalization in AI persuasion via direct experimental manipulation of model strategy.",
+    "Documents a systematic political asymmetry in factual accuracy of frontier LLM-generated political arguments, with implications for AI safety and content moderation.",
+    "Offers an empirical benchmark comparing AI dialogue persuasion to canonical political advertising and canvassing effect sizes from prior literature.",
+    "Extends recent findings on AI-driven belief change (e.g., conspiracy debunking) into the domain of electoral persuasion and demonstrates >1-month persistence of effects.",
+    "Releases an analysis framework and validated LLM-based fact-checking and strategy-coding pipeline for studying conversational persuasion at scale."
+  ],
+  "framing": "The paper engages debates about generative AI's threat to democracy and elections, positioning itself against both alarmist predictions and dismissive 'overblown' critiques by providing direct experimental evidence. It speaks to political science literatures on minimal persuasion effects in campaigns, theories of politically motivated reasoning, and the central/peripheral routes to persuasion, while connecting to emerging work on LLM-based interventions for belief change (e.g., conspiracy debunking).",
+  "pdf_source": "drive"
+}

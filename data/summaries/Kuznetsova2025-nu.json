@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper investigates how pro-government Telegram channels in Russia and Belarus engage in coordinated information-sharing behavior to amplify regime-aligned narratives. Using network analysis of message-forwarding patterns, the study identifies clusters of channels operating in apparent coordination. The findings illuminate how authoritarian information ecosystems leverage Telegram's affordances to propagate state-aligned content.",
+  "key_claims": [
+    "Pro-government Telegram channels in Russia and Belarus exhibit identifiable patterns of coordinated activity rather than acting independently.",
+    "Coordination among these channels serves to amplify regime-aligned narratives within authoritarian information environments.",
+    "Telegram's platform affordances, particularly message forwarding, enable and structure this coordinated amplification."
+  ],
+  "methods": [
+    "Analysis of pro-government Telegram channels operating in Russia and Belarus.",
+    "Identification of coordinated behavior through patterns of content sharing and forwarding, likely using network-analytic techniques."
+  ],
+  "findings": [
+    "Distinct clusters of pro-government channels engage in coordinated information sharing.",
+    "Coordination patterns reveal regime-aligned amplification strategies on Telegram in both Russia and Belarus."
+  ],
+  "contributions": [
+    "Provides empirical evidence of coordinated pro-government activity on Telegram, a platform less studied than Western mainstream social media.",
+    "Extends research on coordinated inauthentic or coordinated information behavior into authoritarian contexts.",
+    "Adds comparative insight into how Russian and Belarusian regime-aligned actors operate online."
+  ],
+  "framing": "The paper situates itself within research on coordinated online behavior, computational propaganda, and authoritarian information control, with particular attention to Telegram as a key political communication platform in post-Soviet authoritarian regimes.",
+  "pdf_source": "abstract_only"
+}

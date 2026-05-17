@@ -1,0 +1,41 @@
+{
+  "abstract": "Through three large-scale experiments involving 76,977 responses from 42,357 UK participants, 19 large language models (LLMs), and 707 political issues, the authors systematically test which factors make conversational AI persuasive. They find that post-training methods and prompting strategies boost persuasiveness more (by up to 51% and 27%, respectively) than model scale or personalization, with information density—the volume of fact-checkable claims—emerging as the central mechanism. However, the same levers that increase persuasion also systematically decrease the factual accuracy of AI-generated claims, revealing a troubling persuasion-accuracy trade-off.",
+  "key_claims": [
+    "Post-training techniques (especially reward modeling) and prompting strategies are more powerful levers of AI persuasion than model scale or personalization.",
+    "Information density—the number of fact-checkable claims packed into a conversation—is the primary mechanism driving conversational AI persuasiveness.",
+    "There is a systematic trade-off between persuasiveness and factual accuracy: the same techniques that make AI more persuasive also make it less accurate.",
+    "Subfrontier open-source models, when given persuasion post-training, can match or exceed the persuasiveness of much larger frontier models like GPT-4o.",
+    "Conversational AI is meaningfully more persuasive than static AI-generated messages, and effects persist (36–42% of immediate effect) one month later.",
+    "Personalization based on user data yields real but small persuasive gains (~+0.5 percentage points), challenging strong claims about microtargeting threats."
+  ],
+  "methods": [
+    "Three large-scale preregistered survey experiments with UK adults (N=76,977 responses from 42,357 people) interacting in multi-turn (2–10 turn) conversations with LLMs about political issues.",
+    "Deployment of 19 open- and closed-source LLMs (including GPT-3.5, GPT-4o, GPT-4.5, Grok-3-beta, and Qwen/Llama families) spanning four orders of magnitude in pretraining compute.",
+    "Manipulation of model scale, eight theoretically motivated prompting strategies (e.g., information-based, moral reframing, storytelling, deep canvassing), three personalization methods, and three post-training methods (supervised fine-tuning, reward modeling, and SFT+RM).",
+    "Persuasion post-training using a curated SFT dataset of 9,000 successful dialogues and a reward model trained on 56,283 conversations to select the most persuasive reply via best-of-k reranking.",
+    "Pre/post attitude measurement on a 0–100 agreement scale across 707 politically balanced issues, with persuasive effect measured against a no-conversation control.",
+    "Automated and human fact-checking of 466,769 LLM-generated claims using GPT-4o Search Preview, validated against professional fact-checkers (r = 0.84 for accuracy, r = 0.87 for claim counts).",
+    "Cross-fit machine learning analysis to estimate the joint effect of combining all persuasion-maximizing levers."
+  ],
+  "findings": [
+    "Holding post-training constant (chat-tuned models), each order-of-magnitude increase in compute yielded +1.83 percentage points of persuasion; pooled effect was +1.59 pp.",
+    "Reward-model post-training increased persuasiveness by +2.32 pp on open-source models and +0.63 pp on frontier models; SFT alone had no significant effect.",
+    "The 'information' prompt was the most persuasive strategy (+27% over a basic prompt), while moral reframing and deep canvassing performed worse than the basic prompt.",
+    "Information density correlated strongly with persuasion (r ≈ 0.77), explaining roughly 44% of variance across all conditions and 75% among developer post-trained models.",
+    "Personalization had a small precision-weighted effect of +0.43 pp, never exceeding +1 pp across methods.",
+    "Conversation was substantially more persuasive than static messages (+41–52% over a 200-word static message), and 36–42% of effects persisted at one-month follow-up.",
+    "Information-prompted GPT-4o (March 2025) accuracy dropped from 78% to 62%; GPT-4.5 accuracy was no better than much smaller Llama3.1-8B.",
+    "A maximally optimized persuasion configuration achieved a 15.9 pp average effect (26.1 pp among initial disagreers), with 30% of claims rated inaccurate."
+  ],
+  "contributions": [
+    "Provides the largest and most systematic empirical investigation of AI persuasion to date, mapping which technical levers drive persuasiveness across model families and scales.",
+    "Identifies information density as a unifying mechanism linking model scale, post-training, and prompting effects on persuasion.",
+    "Documents a previously unquantified persuasion-accuracy trade-off with implications for AI safety, misinformation, and policy.",
+    "Demonstrates that subfrontier open-source models can be cheaply converted into highly persuasive agents, broadening the threat model beyond well-resourced labs.",
+    "Advances debates over politically motivated reasoning by showing information-based persuasion outperforms identity-based psychological strategies when delivered by AI.",
+    "Reframes concerns about microtargeting by quantifying personalization's small effect relative to other levers.",
+    "Releases a large dataset and analysis pipeline supporting future research on AI persuasion mechanisms."
+  ],
+  "framing": "The paper situates itself at the intersection of AI safety, political communication, and the psychology of persuasion, engaging with theories of motivated reasoning (Kahan, Taber & Lodge), the elaboration likelihood model (Petty & Cacioppo), Zaller's receive-accept-sample model, and Coppock's 'persuasion in parallel' framework. It positions itself against speculative discourse about AI manipulation and microtargeting (e.g., Cambridge Analytica debates) by providing systematic empirical evidence on the actual mechanisms behind conversational AI persuasion. The work bridges scaling-laws research on LLM capabilities with political science work on human-to-human persuasion.",
+  "pdf_source": "drive"
+}

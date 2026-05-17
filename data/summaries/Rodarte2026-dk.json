@@ -1,0 +1,36 @@
+{
+  "abstract": "This article examines how Brazilian federal parliamentarians waged narrative contests on Twitter during the January 2021 Manaus healthcare-system collapse amid the COVID-19 pandemic. Using network analysis combined with quantitative and qualitative content analysis of 47,728 tweets from 450 deputies, the authors identify three distinct modes by which politicians pursued epistemic authority: derivative reporting by government critics, direct claims to authority by Bolsonaro's allies, and proximity-based brokerage narratives by local Amazonas parliamentarians. The paper argues that these strategies reveal how political elites contest journalistic gatekeeping and legitimate themselves as credible narrators of crises.",
+  "key_claims": [
+    "Politicians actively participate in narrative contests during crises, no longer simply functioning as news sources but as media producers competing for gatekeeping positions.",
+    "Brazilian parliamentarians pursued epistemic authority through three distinguishable orientations—objectivity (via derivative reporting), authority (via direct state-aligned claims), and proximity (via firsthand brokerage)—each justifying truth claims differently.",
+    "Opposition parliamentarians engaged in 'derivative reporting,' repackaging and ideologically inflecting journalistic content while mimicking news formats to borrow journalistic credibility.",
+    "Pro-government parliamentarians severed ties with mainstream news media, attacked the press, and positioned themselves and state institutions as unmediated authoritative sources of truth.",
+    "Local Amazonas parliamentarians sidestepped polarization by constructing brokerage narratives that emphasized situated experience and problem-solving rather than blame.",
+    "Hybrid digital media environments enable political elites to challenge which media sources ought to be trusted, with implications for epistemic crises in democratic communication."
+  ],
+  "methods": [
+    "Computational grounded theory approach combining network analysis with quantitative and qualitative textual analysis.",
+    "Collection of 47,728 tweets from 450 Brazilian federal deputies (88% of the Chamber) over a ten-week period beginning December 2020, retrieved via the 4CAT toolkit.",
+    "Word embedding and pointwise mutual information analysis to identify semantic associations with 'Manaus' and select crisis-relevant tweets via regular expressions.",
+    "Construction of a @mentions network in Gephi using eigenvector centrality, ForceAtlas2 layout, and Louvain community detection (resolution 1.5), identifying two main clusters plus a third group of six Amazonas deputies.",
+    "Inductive development of a codebook covering entities praised/blamed and thematic features; dual coding of 4,427 tweets with intercoder reliability tested using percent agreement and Brennan-Prediger's kappa (98% agreement, κ = 96%).",
+    "Qualitative textual analysis of communicative strategies and visual/formal features in tweets from the top ten most central accounts per group."
+  ],
+  "findings": [
+    "The mentions network split into two polarized clusters—a pro-Bolsonaro 'blue' cluster (126 deputies, ~9,000 tweets) and an opposition 'red' cluster (77 deputies, ~17,719 tweets)—with very low network density (0.001), indicating fragmented conversation.",
+    "Opposition tweets predominantly blamed the Bolsonaro administration (41.3%) and called for impeachment (10%), while pro-government tweets praised the administration (24.4%) and deflected responsibility, often onto the Supreme Court or state governors.",
+    "Six of the top ten URL domains shared by the opposition cluster were news outlets, whereas the pro-government cluster rarely linked to news media and instead favored video streaming and alternative platforms.",
+    "Opposition parliamentarians reproduced journalistic visual conventions—headlines, logos, breaking-news aesthetics, screenshots—while stripping ambiguity from news content (e.g., reframing approval-rating polls as direct evidence for impeachment).",
+    "Pro-government parliamentarians attacked mainstream media credibility, relayed state-produced infographics and ministerial statements as authoritative, and contested Twitter's content moderation as an affront to state authority.",
+    "Amazonas deputies rarely assigned blame (9%) or praise (5%), instead publicizing their own brokerage actions (13.2% of their tweets) and using citizen testimonies and state-level officials as primary references."
+  ],
+  "contributions": [
+    "Introduces the concept of 'derivative reporting' to describe how politicians repackage journalistic content to claim objectivity-based epistemic authority.",
+    "Proposes a tripartite typology—authority, objectivity, and proximity claims—for analyzing how political actors legitimate their narratives in hybrid media.",
+    "Provides empirical evidence on how Brazilian parliamentarians (dis)connect with social media users, addressing a gap in Latin American political communication research.",
+    "Extends gatekeeping and hybrid media theory by showing how non-journalistic actors appropriate journalistic credibility rather than merely bypassing the press.",
+    "Demonstrates a methodological pathway combining word embeddings, network analysis, and qualitative coding to study political narrative contests during crises."
+  ],
+  "framing": "The paper situates itself within hybrid media systems theory (Chadwick), network gatekeeping (Meraz & Papacharissi), and debates over epistemic crises in democratic communication (Waisbord, Benkler et al., Carlson). It treats the Manaus collapse as a 'critical moment' (Quandt & Wahl-Jorgensen) for observing how political elites contest journalistic authority, contributing to scholarship on political information cycles, populist communication, and the legitimation strategies of non-journalistic media producers.",
+  "pdf_source": "drive"
+}

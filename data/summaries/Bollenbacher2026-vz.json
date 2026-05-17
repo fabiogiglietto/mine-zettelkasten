@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper investigates whether exposure to antivaccine content on Twitter (now X) causally reduced COVID-19 vaccination rates in US counties between February and August 2021. The authors develop a novel compartmental epidemic model (SIRVA) that extends SIR with vaccinated and vaccine-hesitant compartments, fit it via Bayesian MCMC to county-level data on cases, vaccinations, and geolocated antivaccine tweets, and use causal graphical modeling to estimate an average treatment effect. They estimate that antivaccine tweets caused approximately 14,086 vaccine refusals, leading to at least 545 additional COVID-19 cases and 8 additional deaths over the observation period.",
+  "key_claims": [
+    "Exposure to antivaccine content on Twitter caused measurable decreases in COVID-19 vaccine uptake in US counties during 2021.",
+    "The geographic distribution of antivaccine tweet exposure across counties explains corresponding reductions in vaccination rates, supporting a causal (not merely correlational) interpretation.",
+    "Accounting for vaccine hesitancy dynamics (SIRVA) yields better predictive fit than simpler models lacking hesitancy compartments (SIRV).",
+    "Approximately 14,000 vaccine refusals, ~545 cases, and ~8 deaths in the US between February-August 2021 are attributable to antivaccine Twitter content (a lower bound).",
+    "The methodology demonstrates a generalizable approach for linking online speech to offline epidemic outcomes."
+  ],
+  "methods": [
+    "Developed SIRVA, an extension of the SIR compartmental epidemic model adding Vaccinated (V) and Antivaccine/hesitant (A = αS) compartments, with a hesitancy conversion rate γ = γ_p + γ_e·E driven partly by antivaccine exposure.",
+    "Built a RoBERTa-based text classifier to identify antivaccine tweets, trained on 4,200 author-annotated tweets plus 2,000 from Mønsted & Lehmann (F1 ≈ 0.74 on hold-out).",
+    "Constructed a county-to-county COVID retweet network and defined per-capita antivaccine exposure E_{i,t} as a weighted sum of antivaccine tweet volumes propagated via retweet ties, normalized by county population.",
+    "Used Bayesian MCMC (NumPyro/NUTS) to infer posterior distributions of model parameters per county and globally, fitting to CDC county-level case, death, and vaccination data plus CoVaxxy tweets (Feb 6–Aug 9, 2021).",
+    "Applied causal graphical modeling (do-calculus) to derive an Average Treatment Effect (ATE) of exposure on per-capita vaccination rate.",
+    "Performed model comparison via PSIS-LOO (ELPD) against SIRV, SIRVA_static, and a word-of-mouth variant; ran robustness checks including county-shuffle nulls and correlation with Meta's Social Connectedness Index."
+  ],
+  "findings": [
+    "The exposure-to-hesitancy coefficient γ_e has posterior mean ≈ 0.18 (95% CI: 0.15–0.22), significantly greater than zero (p = 0.0002).",
+    "Estimated ATE of exposure on vaccination rate is approximately -3.2×10^-4 vaccinations per daily antivaccine tweet per capita (95% CI: -3.8×10^-4 to -2.6×10^-4).",
+    "An estimated 14,086 people (95% CI: 11,414–16,759) refused vaccination due to Twitter antivaccine exposure, against an estimated ~27 million Americans who became vaccine hesitant overall in that window.",
+    "Approximately 545 additional COVID-19 cases and 8 additional deaths are attributable to these Twitter-induced refusals, as a lower bound.",
+    "SIRVA outperforms SIRV in ELPD-LOO by about three standard errors (-171,600 ± 700 vs -173,700 ± 700), indicating better out-of-sample predictive performance.",
+    "Shuffling exposure across counties nullified the effect, and the COVID retweet network was uncorrelated with Meta's Social Connectedness Index, supporting platform-specific causal interpretation."
+  ],
+  "contributions": [
+    "Provides observational causal evidence linking online antivaccine content exposure to real-world vaccination rates, cases, and deaths—going beyond prior lab/intention studies and correlational work.",
+    "Introduces the SIRVA compartmental model integrating vaccine hesitancy dynamics driven by exogenous information exposure.",
+    "Combines Bayesian epidemic modeling with causal graphical modeling to estimate an interpretable Average Treatment Effect of online content.",
+    "Offers a reproducible methodology (with open code and data) for connecting platform-level speech data to offline public health outcomes.",
+    "Provides quantitative estimates that can inform social media moderation policy and public health communication interventions."
+  ],
+  "framing": "The paper sits at the intersection of computational social science, epidemic modeling, and misinformation research, responding to literature that has shown experimental effects of vaccine misinformation on intentions (e.g., Loomba et al. 2021; Allen, Watts & Rand 2024) and correlational links between online misinformation and hesitancy (Pierri et al. 2022). It positions itself as filling the gap between controlled exposure experiments and aggregate epidemic outcomes by providing a causally-grounded, mechanistic link from platform-level antivaccine speech to vaccination behavior and disease burden.",
+  "pdf_source": "drive"
+}

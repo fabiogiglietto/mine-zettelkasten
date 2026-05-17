@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper investigates whether X's (formerly Twitter) recommender system inadvertently learns and uses users' political orientations when generating friend recommendations. Using a data donation program that collected over 2.5 million 'Who to Follow' recommendations from 682 volunteers in France between January 2023 and May 2024, the authors reconstruct an approximation of X's 256-dimensional user embedding space based on publicly known architectural details. They find that a spatial direction in this embedding correlates extremely strongly (Pearson ρ=0.887) with users' Left-Right ideological positions, independently of demographic attributes, and propose a constrained recommendation method that removes this linearly-encoded political information while largely preserving recommendation relevance.",
+  "key_claims": [
+    "Real-world recommender systems on social media can inadvertently learn, represent, and leverage users' political orientations even when not designed to do so.",
+    "X's recommender system encodes a linear spatial direction in its embedding space that is highly correlated with users' Left-Right political leanings (ρ=0.887), and this encoding is not explained by socio-demographic covariates.",
+    "Distinct user attributes (Left-Right leaning, anti-elite rhetoric, age, gender, popularity, news interest) are encoded in largely orthogonal directions in the embedding space.",
+    "The inadvertent learning of political profiles blurs the legal distinction between active and passive profiling, creating tensions with data privacy regulations like the GDPR, LGPD, PIPA, and nFADP.",
+    "Political information can be removed from the embedding via iterative orthogonal projection, increasing ideological diversity of recommendations while largely preserving topical relevance.",
+    "This work provides the first empirical demonstration of the linear representation hypothesis in a large-scale, real-world recommender system serving hundreds of millions of users."
+  ],
+  "methods": [
+    "Data donation campaign using a browser plug-in collecting 2,549,008 'Who to Follow' recommendations from 682 volunteers in France (Jan 2023–May 2024), targeting a study population of 26,509 users.",
+    "Collection of follower networks, profile data, and last 200 posts via X's API for users in the study population.",
+    "Reconstruction of X's embedding via constrained optimization using a TransE scoring function, following X's publicly documented architecture, training a 256-dimensional embedding with gradient descent (Adagrad) and a convex combination of 'Follow' and 'WTF' loss components (optimal α=62.6%).",
+    "Negative edge sampling combining uniform, prevalence-based, and second-neighborhood strategies at a 3:1 negative-to-positive ratio.",
+    "Validation via AUC-ROC (0.700) and Precision@k on held-out recommendations, comparison against three heuristic baselines, and robustness checks across training parameters, demographic skews, temporal splits, and follower-graph changes.",
+    "Inference of user attributes: Left-Right and anti-elite positions via ideology scaling calibrated with the Chapel Hill Expert Survey; age and gender via Wang et al.'s M3 model; topic interests via Antypas et al.'s tweet topic model.",
+    "Canonical Correlation Analysis (CCA) to identify spatial directions in the embedding that maximize correlation with each attribute, with permutation tests for significance.",
+    "Iterative orthogonal projection method (adapted from Bolukbasi et al. and Ravfogel et al.) to remove linearly-encoded ideological information from the embedding, evaluated by comparing diversity and topical relevance of 50 recommendations per user before and after intervention."
+  ],
+  "findings": [
+    "The reconstructed embedding predicts held-out WTF recommendations with AUC-ROC 0.700, Precision@1 0.725, and Precision@3 0.691, far exceeding heuristic baselines.",
+    "CCA-identified directions yield high Pearson correlations with user attributes: Left-Right (0.887), anti-elite rhetoric (0.863), news interest (0.848), popularity (0.730), age (0.562), gender (0.384), all p<0.0001.",
+    "Cosine similarities between attribute directions are mostly low; only age and news interest show statistically significant alignment, indicating largely orthogonal encoding of attributes.",
+    "The Left-Right direction correctly orders followers of French parties (La France Insoumise leftmost, Renaissance center, Rassemblement National rightmost; p<0.0001) and anti-elite direction places followers of FI and RN above followers of RE.",
+    "Spearman correlation between Left-Right and demographic encodings is modest (ρ=0.172 with age, ρ=-0.275 with gender), confirming Left-Right encoding is not reducible to socio-demographics.",
+    "Embedding inference is robust to changes in training parameters, negative sampling, simulated device-coverage bias (up to 39.2% missing recommendations), demographic sub-sampling, temporal splits, and friend-graph evolution.",
+    "Removing the Left-Right direction iteratively increases Left-Right diversity of recommendations (Cohen's d=0.477) while preserving topical relevance (cosine similarity of topic distributions = 0.948) and news interest matching (Cohen's d=-0.009).",
+    "Among all attributes tested, removing the Left-Right encoding produces the largest change in the recommended set."
+  ],
+  "contributions": [
+    "First empirical, quantitative measurement of inadvertent political profiling by a large-scale real-world social media recommender system at the level of individual regular users.",
+    "A reproducible methodology for approximating a closed AI recommender's embedding using donated exposure data and public architectural knowledge, applicable beyond X.",
+    "Empirical demonstration of the linear representation hypothesis in a deployed AI system serving hundreds of millions of users.",
+    "A constrained-recommendation procedure that removes sensitive linearly-encoded attributes while preserving relevance, offering a candidate compliance tool for data privacy regulations (GDPR, LGPD, PIPA, nFADP, DSA).",
+    "A framework for examining how recommender embeddings encode multiple socio-demographic and political attributes and how those encodings interact geometrically.",
+    "Conceptual contribution to legal and regulatory debates by demonstrating that the active/passive profiling distinction is undermined when AI explainability methods can make implicit political profiling explicit."
+  ],
+  "framing": "The paper positions itself at the intersection of computational social science, AI explainability, and data privacy law, extending prior work on recommender audits (which mostly examined item-level diversity or causal effects of policies) toward analyzing the internal representations these systems build of users. It connects to literatures on ideology scaling of social media users (Barberá; Ramaciotti et al.), machine learning bias and protected-attribute removal (Bolukbasi et al.; Ravfogel et al.), and ongoing regulatory debates about algorithmic profiling under the GDPR and Digital Services Act.",
+  "pdf_source": "drive"
+}

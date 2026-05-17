@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper examines 'botting' — repetitive posting that may be manual, semi-automated, or fully automated — through a case study of Reddit's 'Anus_Fungi' accounts, which spammed mushroom emojis across the platform in 2020-2021. Using a mixed-methods analysis of 9,728 Reddit comments and a thematic analysis of the counter-fungi subreddit r/stopanusfungi, the authors show that what was perceived as a bot invasion was largely a human-driven imitative phenomenon embedded in Reddit's participatory culture. The paper challenges binary distinctions between human and automated content, arguing that authenticity is a culturally negotiated performance rather than a technical property.",
+  "key_claims": [
+    "The binary distinction between human and bot-generated content is analytically unstable and obscures hybrid practices of participation.",
+    "'Botting' should be reconceived as a spectrum of repetitive posting practices (manual, semi-automated, automated) shaped by platform vernaculars rather than a purely technical phenomenon.",
+    "On Reddit, which lacks the monetisation and personal branding affordances of platforms like Instagram or YouTube, botting is motivated by playful in-group signalling and participatory culture rather than fame-seeking or commerce.",
+    "Authenticity online is a culturally performed and community-evaluated norm rather than an essential property of human versus machine authorship.",
+    "Community-based, context-sensitive moderation is better suited than technical bot detection for governing repetitive or bot-like content, given high error rates in automated detection."
+  ],
+  "methods": [
+    "Mixed-methods case study of Reddit's 'fungi' accounts and the mushroom emoji phenomenon (Jan 2020–March 2023).",
+    "Computational collection of 9,728 Reddit comments containing a single mushroom emoji via the Pushshift dataset queried through Google BigQuery, validated against the official Reddit API.",
+    "Identification of 155 'fungi' accounts using four criteria: naming conventions, posting patterns, cross-referencing with r/BotDefense and r/BotTerminator ban lists (yielding 62 additional accounts, ~217 total), and manual review of ambiguous cases.",
+    "Descriptive and temporal analysis of posting frequency, account creation rates, and account lifecycles using Python.",
+    "Network analysis with NetworkX and modularity-based community detection in Gephi to map fungi accounts' activity across subreddits.",
+    "Inductive thematic analysis (Braun and Clarke) of the 25 most upvoted posts and associated comment threads in the counter-fungi subreddit r/stopanusfungi, with dual-researcher coding and validation."
+  ],
+  "findings": [
+    "The fungi phenomenon was smaller than its cultural footprint suggested: 83.2% of fungi accounts posted 10 or fewer mushroom comments and only 8.4% posted more than 20.",
+    "Account creation peaked between September 2020 and April 2021, with most accounts following a 'spoke' pattern of posting in their own preferred subreddits rather than coordinated mass campaigns.",
+    "The most-targeted subreddit was the ostensibly anti-fungi r/stopanusfungi, indicating a paradoxical relationship between opposition and propagation.",
+    "Counterpublics formed on both sides: anti-fungi (e.g., r/stopanusfungi) and pro-fungi (e.g., r/AnusFungiFanClub) subreddits, both using the mushroom emoji as a symbolic boundary marker.",
+    "Thematic analysis identified four discussion themes in r/stopanusfungi — reporting the spread, propagating the mushroom, expressing sentiment (often ironic/performative), and speculating about the phenomenon's nature — with little focus on actual moderation.",
+    "Fungi accounts posting in r/stopanusfungi were rarely downvoted and often upvoted, suggesting the community playfully indulged the behaviour it claimed to oppose.",
+    "Whether accounts were technically bots or humans was treated as secondary by community members; cultural relevance and 'freshness' of the meme mattered more than ontological status."
+  ],
+  "contributions": [
+    "Extends Schäfer's (2024) concept of 'botting' beyond automated visibility strategies to encompass manual, playful, and community-driven repetitive posting.",
+    "Provides one of the first platform-specific studies of botting on Reddit, contrasting it with prior research on Instagram, Twitter/X, and YouTube.",
+    "Offers an empirical case study (the Reddit fungi accounts) that illustrates the limits of human/bot binaries and the analytic value of treating classification ambiguity as a finding.",
+    "Argues for a shift from technical provenance detection toward community-based, context-sensitive moderation models in evaluating content authenticity.",
+    "Contributes to theoretical debates on digital authenticity, participatory culture, counterpublics, and platform vernaculars by showing how authenticity is performed and negotiated rather than inherent."
+  ],
+  "framing": "The paper situates itself at the intersection of platform studies, participatory culture theory (Jenkins; Van Dijck et al.), counterpublics theory (Warner), platform vernaculars (Gibbs et al.), and critical bot studies (Gorwa and Guilbeault; Assenmacher et al.). It positions itself against techno-deterministic framings of bots as inherently inauthentic or malicious and against binary authentic/inauthentic distinctions, drawing on work on the 'online authenticity paradox' (Haimson et al.) and algorithmic pedagogy (Liang and Ye) to argue for culturally and platform-specific approaches to understanding automated and bot-like content.",
+  "pdf_source": "drive"
+}

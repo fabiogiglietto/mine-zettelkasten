@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper develops a computational framework for detecting coordinated inauthentic behavior (CIB) on TikTok, addressing a gap in influence-operations research that has largely focused on text-centric platforms. The authors adapt a network-based approach to TikTok's video-first content and interaction structures, building user similarity networks to surface coordinated activity. The work evaluates which behavioral signals are most diagnostic of coordination in this ecosystem and discusses the challenges and opportunities specific to video platforms.",
+  "key_claims": [
+    "Coordinated inauthentic behavior detection methods designed for text-centric platforms do not straightforwardly transfer to video-first platforms like TikTok.",
+    "Network-based user similarity approaches can be adapted to TikTok's distinctive content and interaction structures to detect CIB.",
+    "Video-first ecosystems present both unique challenges and new opportunities for identifying coordinated influence operations."
+  ],
+  "methods": [
+    "Development of a computational framework for CIB detection on TikTok.",
+    "Construction of user similarity networks based on shared behavioral or content traces, adapted from prior CIB detection literature.",
+    "Empirical evaluation of the framework on TikTok data (specific dataset details not given in the abstract)."
+  ],
+  "findings": [
+    "The abstract indicates the framework can detect coordinated activity on TikTok by leveraging platform-specific signals, but specific empirical results are not detailed in the available text."
+  ],
+  "contributions": [
+    "One of the first computational frameworks tailored to detecting coordinated inauthentic behavior on TikTok specifically.",
+    "Extension of network-based CIB detection methodology from text-centric platforms to a video-first ecosystem.",
+    "Identification of the distinctive challenges and opportunities that video platforms pose for influence-operation detection."
+  ],
+  "framing": "The paper situates itself within the literature on online influence operations and coordinated inauthentic behavior detection, which has predominantly examined platforms like Twitter/X and Facebook. It positions TikTok as an underexplored but increasingly consequential venue for influence operations, arguing that video-first platforms require methodological adaptation rather than direct importation of existing techniques.",
+  "pdf_source": "abstract_only"
+}

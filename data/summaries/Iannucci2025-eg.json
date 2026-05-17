@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper proposes a framework for detecting coordinated inauthentic behavior on social media by combining a time-aware collaboration model with a multiplex network representation of user activities. The time-aware model extends Newman's node-normalized collaboration model by weighting co-actions with an exponential decay temporal kernel, while the multiplex layers separately capture different coordination modalities (hashtags, retweets, mentions, URLs). The authors validate the approach on synthetic simulations and benchmark it against state-of-the-art methods on 26 labeled datasets from Seckin et al. (2025), showing that the multiplex time-aware model achieves the best average rank on weighted precision and second-best across all metrics.",
+  "key_claims": [
+    "Integrating temporal patterns and multiple modalities of coordination yields better detection and characterization of collaborative inauthentic behavior than single-modality or time-agnostic methods.",
+    "Both temporal proximity and frequency of co-actions are necessary indicators to distinguish deliberate coordination from coincidental synchronicity.",
+    "Preserving modalities in a multiplex representation, rather than aggregating them, makes detection more robust against dilution tactics where malicious actors mask coordination with irrelevant cross-modality activity.",
+    "Selecting the temporal decay parameter β_a per layer by maximizing modularity allows the model to adapt to different time scales of coordination without prior knowledge of the campaign's strategy.",
+    "The proposed framework is generalizable across platforms because it only requires time-stamped interactions across one or more modalities."
+  ],
+  "methods": [
+    "Extension of Newman's (2001) node-normalized collaboration model with an exponential decay temporal kernel weighting time differences between users' co-actions.",
+    "Construction of multiplex latent collaboration networks with separate layers per action type (hashtag, retweet, mention, URL).",
+    "Per-layer selection of the decay parameter β_a by scanning values (0–10, step 0.01) and choosing the value maximizing modularity of the Leiden partition.",
+    "Multiplex community detection using the Leiden algorithm optimizing multislice weighted modularity (Mucha et al. 2010).",
+    "Computational optimization via a tolerance cutoff Δt_max = -ln(ε)/β_a to keep complexity below quadratic in number of co-actions.",
+    "Synthetic simulations of three coordination patterns: synchronous bursts, alternating bursts with inactivity, and alternating subsets of active accounts.",
+    "Benchmarking against 12+ baselines including co-hashtag sequences (Pacheco et al. 2021), rapid retweets at 10/30/60s, co-retweet cardinality (Linhares et al. 2022), Ratcliff-Obershelp text similarity, synchronized action frameworks (Magelinski et al. 2022; Ng & Carley 2022), AMDN-HAGE and AMDN-HAGE+KMEANS (Sharma et al. 2021), and BLOC (Nwala et al. 2023).",
+    "Evaluation on 26 labeled information operations datasets from Seckin et al. (2025) using F1*, precision*, recall*, homogeneity, NMI, and a custom weighted precision metric WP = Σn_k p_k² / Σn_k p_k."
+  ],
+  "findings": [
+    "On synthetic simulations the time-aware multiplex model achieved perfect scores (F1*, homogeneity, weighted precision = 1.00) across all three coordination patterns, outperforming a random labeler baseline.",
+    "The time-aware multiplex model with 4 layers achieved the best average rank (3.12) on weighted precision across 26 datasets and the second-best average rank (5.10) across all six metrics.",
+    "Individual time-aware monoplex layers (retweet, mention, hashtag) outperformed most single-modality baselines, including methods using fixed time windows for rapid retweets.",
+    "Methods relying on a single modality showed high variance: e.g., co-retweet methods failed on Iran campaigns dominated by text/hashtag coordination, while the multiplex approach remained robust.",
+    "Although methods like Magelinski et al. (2022) and Ng & Carley (2022) sometimes achieved high precision and homogeneity, they often did so by producing trivial (singleton) clusters; the proposed weighted precision metric penalizes this and confirms the multiplex model's practical superiority.",
+    "Multiplex clustering sometimes fragments communities visible in a single layer, producing high precision but reduced recall on the best cluster, indicating a trade-off between integration and within-layer cohesion."
+  ],
+  "contributions": [
+    "A time-aware extension of Newman's node-normalized collaboration model that incorporates exponential temporal decay over the time differences between co-actions.",
+    "A multiplex framework that separates and integrates evidence of coordination across modalities without requiring prior knowledge of which modality is exploited or what time scale of coordination is used.",
+    "A modularity-based, data-driven procedure for choosing the temporal decay parameter β_a per layer.",
+    "A new evaluation metric (weighted precision WP) that penalizes singleton/trivial clusters and rewards correct identification of coordinated groups as cohesive entities.",
+    "A reproducible benchmark of 12+ coordination detection methods across 26 labeled datasets, with open-source implementations released at github.com/letiziaia/time-aware-collaboration."
+  ],
+  "framing": "The paper situates itself within the literature on coordinated inauthentic behavior detection and latent coordination networks (LCNs), building on Starbird et al.'s view of information operations as collaborative work. It explicitly contrasts with single-modality methods, fixed time-window approaches, and aggregated multimodal methods, advocating instead for multiplex temporal representations grounded in network science (multilayer networks, modularity-based community detection) and Newman's collaboration network tradition.",
+  "pdf_source": "drive"
+}

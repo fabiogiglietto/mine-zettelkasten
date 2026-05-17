@@ -1,0 +1,37 @@
+{
+  "abstract": "This study quantifies the scholarly impact of Twitter's APIs by systematically tabulating academic publications that used Twitter data from 2006 to 2024, before and after Twitter restricted access and set Enterprise API pricing at $42,000/month in 2023. Searching eight databases, the authors identified 33,306 studies in 8,914 venues with 610,738 incoming citations across 16 disciplines. They document a median 25% annual growth in Twitter-based research through 2022, followed by stagnation in 2023 and a 13% decline in 2024, arguing this signals a substantial loss of empirical capacity to study online public discourse.",
+  "key_claims": [
+    "Twitter's APIs constituted a 'Golden Age' of open social media research that produced a large, multidisciplinary body of scholarship between 2006 and 2022.",
+    "The 2023 closure of Twitter's free/Academic API and introduction of $42,000/month Enterprise pricing has measurably reduced academic output, with a 13% decline in publications in 2024.",
+    "Restrictions to API access are not merely technical or economic but exercises of platform power that reshape what society can learn about itself.",
+    "Legislative interventions such as the EU Digital Services Act, and proposed U.S. bills like the Platform Accountability and Transparency Act, are needed to preserve researcher access to platform data.",
+    "Future declines in Twitter-based research are likely because much 2024 output still drew on data collected before the API shutdown."
+  ],
+  "methods": [
+    "Systematic literature search across eight databases: Library and Information Science Source/LISTA, Web of Science (SCI-EXPANDED, SSCI, AHCI, ESCI), Global Health, ACM Digital Library, IEEE Xplore, and Engineering Village (Compendex and Inspec).",
+    "Use of a tailored Boolean search string ('twitter NEAR/3 data OR twitter NEAR/3 api OR twitter NEAR/3 dataset NOT survey') adjusted per database, restricted to journal articles, conference papers, dissertations, and preprints.",
+    "Access to Engineering Village's full 43,354-record set via Elsevier's search and retrieval APIs, due to the web interface's 1,000-result download cap.",
+    "Hand-coded relevance sampling (minimum 50 papers per database) to estimate per-database relevance rates (80–97%).",
+    "Deduplication in R via DOI, title, and abstract; citation counts retrieved through the Crossref REST API (with a correction removing erroneous default '999' values from an earlier preprint version).",
+    "Two parallel disciplinary classifications: (1) assigning disciplines to the top 100 publication venues based on venue names/websites, and (2) assigning disciplines to the top 100 most-cited studies based on titles and abstracts.",
+    "Manual thematic analysis of the top-cited papers per discipline to derive common research topics."
+  ],
+  "findings": [
+    "33,306 unique studies were identified in 8,914 venues with 610,738 Crossref citations across 16 disciplines, spanning 2006–2024.",
+    "Twitter-based research grew at a median rate of 25% annually from 2006 to 2022, stagnated in 2023 (+0.6%), and declined 13% in 2024.",
+    "The earliest identified Twitter-data paper is Java et al. (2007), 'Why we twitter,' despite API availability beginning in 2006.",
+    "By venue-based classification: Science/Engineering (27%), Information Science (14%), Computer Science (11%), Data Science (10%), Social Media (9%), Medicine (8%), Social Science and Internet Technology (7% each).",
+    "By study-based classification of top-cited papers: Social Science (24%, ~19,113 citations), Data Science (19%, ~15,033 citations), Social Media Studies (14%, ~10,927 citations), with remaining 43% spread across Public Health, Computer Science, AI, Business, Emergency Response, Information Science, Education, and Psychology.",
+    "Dominant research topics include information dissemination, information integrity (disinformation, fake news, hate speech), big data methodologies (sentiment analysis, topic modeling, neural networks, geolocation), event detection and response (public health crises, disasters), and human behavior (political analysis, marketing, mental health).",
+    "Reports from external sources indicate over 100 research projects were directly impacted in 2023 alone, including the shutdown of the Botometer tool."
+  ],
+  "contributions": [
+    "Provides the most comprehensive cross-disciplinary bibliometric accounting to date of Twitter-data research, surpassing prior reviews (e.g., Karami et al. 2020 with 18,849 studies; Yu & Munoz-Justicia 2020 with 19,205) in scope and database coverage.",
+    "Documents the immediate post-API-closure decline (2023–2024) in Twitter-based scholarship empirically rather than anecdotally.",
+    "Offers a transparent, replicable methodology including code and data via GitHub, plus a corrected citation count addressing an error in the earlier preprint.",
+    "Supplies a dual-discipline classification scheme (venue-based and study-based) that exposes how disciplinary labeling choices shape bibliometric portraits.",
+    "Frames API access as a structural determinant of public knowledge, supplying empirical grounding for policy debates on platform data governance (e.g., DSA, PATA)."
+  ],
+  "framing": "The paper situates itself within ongoing scholarly debates about the 'post-API age' and platform power (Tromble, Bruns, Freelon, van der Vlist), connecting bibliometric evidence to critical literatures on data governance, platform infrastructure, and the political economy of social media research. It functions as both a eulogy and an empirical intervention, mobilizing scientometric data to support arguments for legislative mandates—like the EU Digital Services Act—that preserve researcher access to platform data in the public interest.",
+  "pdf_source": "drive"
+}

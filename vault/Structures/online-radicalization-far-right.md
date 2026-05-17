@@ -1,0 +1,27 @@
+---
+type: structure
+slug: online-radicalization-far-right
+topic: "Online Radicalization and Far-Right Mobilization"
+---
+
+# Online Radicalization and Far-Right Mobilization
+
+## From Content to Ecologies: Rethinking How the Far Right Lives Online
+
+A throughline across these papers is dissatisfaction with the dominant content-moderation paradigm — the idea that radicalization online can be understood, measured, or addressed one post at a time. [[Rothut2026-wt]]'s 25-year scoping review crystallizes this shift: the field has moved decisively away from causal-singular framings ("the internet radicalizes") toward hybrid, socio-technical models in which online and offline are no longer analytically separable, and in which the internet acts as catalyst rather than cause. The other four empirical contributions can be read as instantiations of this turn, each exposing a different layer of the ecology that flat content analysis misses: temporal dynamics ([[Bailard2024-pj]]), affective-aesthetic registers ([[Nangle2026-yo]]), infrastructural and algorithmic affordances ([[Karo2026-dn]]), and cross-platform strategic adaptation ([[Bouchafra2026-ts]]).
+
+## The Online–Offline Loop
+
+[[Bailard2024-pj]] gives the clearest empirical purchase on the online–offline question that [[Rothut2026-wt]] flags as theoretically settled but methodologically thin. Using 31 months of Proud Boys Telegram traffic alongside ACLED event data, the study identifies a roughly four-week reciprocal cycle: nonviolent protest spikes motivational (in-group pride) framing online, which in turn predicts later violent events; diagnostic (grievance) framing independently predicts violence as well. Notably, prognostic frames — explicit calls to action, the exact content moderators are most apt to flag — show no predictive power. This finding directly substantiates [[Rothut2026-wt]]'s claim that proxies for exposure and engagement are still our best tools, and it operationalizes the meso-level emotional-convergence dynamics the review identifies.
+
+## Softening, Memes, and the Aesthetic Front
+
+Where [[Bailard2024-pj]] examines a relatively closed extremist channel, [[Nangle2026-yo]] and [[Bouchafra2026-ts]] turn to mainstream-facing platforms where the work is normalization rather than mobilization of an existing cadre. [[Nangle2026-yo]] theorizes far-right Instagram as an "affective-discursive ecology" in which positive affect, humour, and memetic forms — not overt hostility — do the ideological work, with algorithmic proximity stitching extremist-adjacent content into ordinary feeds. [[Bouchafra2026-ts]] empirically corroborates this aesthetic pivot for an institutional actor: the Sweden Democrats devoted the bulk of their 2024 EU campaign output to TikTok memes (67.5% of all posts were memes; 87% of TikTok posts), targeting young voters with affectively charged, sometimes geographically fabricated, securitising visuals. Together they suggest that "softening" is not incidental decoration but the central mechanism by which far-right discourse migrates from the fringes into everyday vernacular — vindicating [[Rothut2026-wt]]'s observation that mainstreaming has become a defining macro-level concern.
+
+## Platform Architectures and Adversarial Creativity
+
+[[Karo2026-dn]] and [[Bouchafra2026-ts]] converge from opposite ideological poles on a shared structural insight: extremists of all stripes treat platform architecture as a design problem. [[Karo2026-dn]]'s typology of jihadist evasion tactics on TikTok — audio camouflage, meme infiltration, blurred intent, emoji codes, bait-and-switch — describes adversarial creativity exploiting the very vernacular features [[Nangle2026-yo]] identifies as normalising tools. Crucially, [[Karo2026-dn]] notes these tactics are not ideology-specific, recurring across far-right and anti-vaccine communities, which reframes the problem as infrastructural rather than ideological. [[Bouchafra2026-ts]] adds the strategic-communicative complement: the same actor uses different rhetorical registers across Facebook, X, and TikTok, distributing remix templates to supporters in a way that decentralises production while preserving plausible deniability. Both papers thus push against the post-by-post moderation logic that [[Bailard2024-pj]] also rejects on temporal grounds.
+
+## Open Questions and the Shape of the Field
+
+Read together, these papers describe a research front that has largely accepted the hybrid socio-technical premise [[Rothut2026-wt]] formalizes, and is now mapping its consequences: that mobilization is cyclical and emotion-driven [[Bailard2024-pj]]; that normalization is aesthetic and algorithmic [[Nangle2026-yo]]; that evasion is creative and cross-ideological [[Karo2026-dn]]; and that strategic communication is platform-vernacular-specific [[Bouchafra2026-ts]]. The gaps [[Rothut2026-wt]] highlights — longitudinal causal evidence, attention to under-studied platforms (gaming, alt-tech), and integration across micro/meso/macro levels — remain visible here too. In particular, none of the empirical studies links exposure to individual-level attitude or behavioural change; they capture the ecology and the supply side, but the recipient-level mechanisms [[Rothut2026-wt]] flags as decisive are still mostly inferred. The next move for the topic appears to be bridging these ecological accounts with the micro-level pathway evidence that ethical and access constraints continue to make scarce.

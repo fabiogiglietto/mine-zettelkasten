@@ -1,0 +1,43 @@
+{
+  "abstract": "This paper reports a 2023 field experiment with 4,965 active US-based X (formerly Twitter) users who were randomly assigned for seven weeks to either X's algorithmic 'For you' feed or its chronological 'Following' feed. Switching from a chronological to an algorithmic feed increased engagement and shifted political attitudes in a conservative direction on policy priorities, the criminal investigations into Donald Trump, and the war in Ukraine, while switching from algorithmic to chronological had no comparable effect. The authors document that X's algorithm promotes conservative and political-activist content while demoting traditional media, and that exposure causes users to follow conservative activist accounts whom they continue to follow even after the algorithm is switched off — a persistence mechanism that helps reconcile prior null findings from Meta's 2020 study.",
+  "key_claims": [
+    "X's algorithmic feed causally shifts users' political attitudes toward more conservative positions on policy priorities, the Trump investigations, and the Ukraine war.",
+    "The political effects are asymmetric: switching the algorithm on changes attitudes, but switching it off does not reverse them.",
+    "Neither switching the algorithm on nor off significantly affects affective polarization or self-reported partisanship, consistent with the 2020 Meta study.",
+    "X's algorithm systematically promotes conservative content, political activist accounts, and entertainment, while demoting traditional news outlets.",
+    "Algorithmic exposure leads users to follow conservative activist accounts, and these follows persist after the algorithm is turned off, explaining why deactivating the algorithm alone does not undo its effects.",
+    "Feed algorithms shape content exposure more than previously believed because they alter which accounts users choose to follow, not just what is shown."
+  ],
+  "methods": [
+    "Pre-registered randomized controlled trial (AEARCTR-0011464) conducted July–September 2023 with US-based YouGov panelists who were active X users.",
+    "Two simultaneous experiments leveraging X's 2023 'For you' vs 'Following' tab feature: users initially on chronological feed randomized to algorithmic or chronological; users initially on algorithmic feed randomized to either.",
+    "Seven-week treatment phase with pre- and post-treatment surveys measuring engagement, partisanship, affective polarization, policy priorities, views on Trump investigations, attitudes on Ukraine, and life satisfaction.",
+    "Custom Google Chrome extension capturing the first 100 posts each user saw under each feed setting (784 pre-treatment, 599 post-treatment participants).",
+    "Scraping of followed-account lists for 2,387 consenting participants.",
+    "Llama 3-based natural language processing to classify posts and accounts by political leaning (conservative/liberal) and type (political activist, news outlet, entertainment, official), validated against ML classifiers and human annotators.",
+    "Intention-to-treat (ITT) regressions controlling for initial feed setting, with both unconditional specifications and conditional specifications using Generalized Random Forests (GRFs) for covariate adjustment.",
+    "Local Average Treatment Effect (LATE) estimates via two-stage least squares using assignment as instrument for self-reported compliance; Lee bounds for attrition; re-weighting and placebo tests to address selection.",
+    "Poisson pseudo-maximum likelihood and OLS regressions with user and survey-wave fixed effects to estimate algorithm-induced content differences."
+  ],
+  "findings": [
+    "Users switched from chronological to algorithmic feed showed a 0.12 SD increase in conservative policy priorities, 0.08 SD higher belief that Trump investigations are unacceptable, and 0.12 SD more pro-Kremlin attitudes on Ukraine.",
+    "Engagement (first principal component) rose 0.14 SD when the algorithm was switched on; switching it off produced a non-significant 0.06 SD decline.",
+    "Effects were precisely null for partisanship and affective polarization in both directions.",
+    "Switching the algorithm off produced no significant change in any political attitude outcome, confirming asymmetry.",
+    "The algorithm increased likes, reposts, and comments on shown posts by approximately 480%, 408%, and 508% respectively.",
+    "Conservative posts were 2.9 percentage points (19.9%) more likely under the algorithmic feed; news outlet posts were 15.5 percentage points (58.1%) less likely; political activist posts were 5.9 pp (27.4%) more likely; entertainment posts 9.1 pp (21.5%) more likely.",
+    "Users switched onto the algorithm became more likely to follow conservative accounts (+0.17 SD) and conservative political activist accounts (+0.18 SD); these following patterns persisted.",
+    "Effects appear concentrated among Republicans and Independents; Democrats' views were largely unaffected.",
+    "Even on subsequent chronological feeds, users previously exposed to the algorithm saw 9 pp more posts by conservative accounts, indicating that algorithm-induced following choices reshape content exposure persistently."
+  ],
+  "contributions": [
+    "Provides the first independent (non-platform-cooperative) randomized evidence that a major social media feed algorithm causally shifts political attitudes.",
+    "Resolves the apparent puzzle of null effects in the 2020 Meta study by showing that algorithm effects are asymmetric and persist through users' follow choices.",
+    "Documents the partisan slant of X's algorithm post-Musk-acquisition, showing it amplifies conservative and activist content while demoting traditional media.",
+    "Introduces a methodological design exploiting platform-provided feed-choice features to conduct platform-independent randomized experiments.",
+    "Demonstrates that feed algorithms shape exposure not only directly but indirectly by altering whom users follow, broadening the conceptualization of algorithmic influence.",
+    "Distinguishes malleable outcomes (policy attitudes, current-event views) from rigid outcomes (partisanship, affective polarization) in response to algorithmic exposure."
+  ],
+  "framing": "The paper positions itself within the empirical literature on social media's political effects, particularly in dialogue with the 2023 Meta/Facebook–Instagram collaborative studies that found null effects of feed algorithm changes on political attitudes. It also engages with debates about filter bubbles, algorithmic amplification, platform ownership effects, and the methodological tradeoffs between platform-cooperative and independent research designs.",
+  "pdf_source": "drive"
+}

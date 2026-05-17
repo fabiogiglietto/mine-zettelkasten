@@ -1,0 +1,36 @@
+{
+  "abstract": "This brief report analyzes X's Community Notes program to test whether partisan asymmetries in misinformation sharing persist when content is evaluated through a crowdsourced bridging algorithm rather than by professional fact-checkers. Using 218,382 Community Notes written between January 2023 and June 2024, the authors find that posts by Republicans are flagged as misleading 2.3 times more often than posts by Democrats among notes rated helpful. The authors argue this asymmetry cannot be attributed to fact-checker bias, an overrepresentation of Republicans on the platform, or partisan imbalance among note contributors, and thus undermines the rationale given by Musk and Zuckerberg for replacing professional fact-checking with community-based systems.",
+  "key_claims": [
+    "Republicans are flagged for sharing misleading content on X significantly more often than Democrats, even under a crowdsourced evaluation system designed to require cross-partisan agreement.",
+    "The observed partisan asymmetry in misinformation sanctioning cannot be explained by liberal bias among professional fact-checkers, since Community Notes relies on diverse user agreement.",
+    "The asymmetry cannot be attributed to Republicans being overrepresented on X (Democrats still outnumber Republicans in a random sample of tweets) or to Democrats being overrepresented among Community Notes contributors (which would predict the opposite pattern for helpful notes).",
+    "Eliminating professional fact-checking in favor of Community Notes will not eliminate the differential sanctioning of Republican users."
+  ],
+  "methods": [
+    "Analysis of the full open-source dataset of X's Community Notes for English-language notes targeting English tweets between January 2023 and June 2024.",
+    "Final analytic dataset of 218,382 Community Notes covering 162,228 tweets from 39,140 unique users.",
+    "Inference of user partisanship by triangulating three methods: Mosleh & Rand's (2022) follower-based partisan score, Barberá's (2015) Bayesian ideal-point estimation, and GPT-4o mini classification of users' 500 most recent tweets; users were included only if at least two methods agreed.",
+    "Use of the Community Notes bridging algorithm's 'helpful' status as a proxy for whether a flagged tweet was actually misleading.",
+    "Logistic regression predicting helpful status from poster partisanship, controlling for verified status, follower count, tweet volume, and tweet topic.",
+    "Topic classification using Chuai et al.'s (2024) classifier (Politics, Science, Health, Economy, Other).",
+    "Base-rate check using X's Pro API to sample 474,394 random English tweets containing the word 'the' (Jan 2014–Nov 2024) to estimate partisan composition of X users."
+  ],
+  "findings": [
+    "60.05% of proposed Community Notes targeted Republican posts versus 39.95% for Democratic posts.",
+    "Notes proposed on Republican tweets reached 'helpful' status more often (10.41%) than those on Democratic tweets (6.78%); being Republican increased the odds of a note being rated helpful by 63.49% in regression analysis.",
+    "Among the 19,569 notes rated helpful, 69.79% targeted Republican posts and 30.21% targeted Democratic posts — a 2.3:1 ratio.",
+    "The asymmetry is robust to using either partisanship-inference method alone (1.7x with Mosleh & Rand; 2.1x with Barberá).",
+    "Republican overrepresentation in flagged misinformation is largest for Health (81.9%), followed by Politics (73.3%), Science (68.8%), Other (66.9%), and Economy (63.7%).",
+    "Democrats still post more on X than Republicans in a random sample, although the Republican share has grown since Musk's acquisition, ruling out a base-rate explanation."
+  ],
+  "contributions": [
+    "Provides evidence that partisan asymmetry in misinformation sharing holds under a crowdsourced, bridging-algorithm-based evaluation system, not just under professional fact-checking.",
+    "Directly addresses a key political and policy critique — that fact-checking is biased against Republicans — by showing the asymmetry persists when fact-checkers are removed from the loop.",
+    "Extends prior work that relied on domain-level quality scores or URL-containing posts by evaluating specific claims at the tweet level.",
+    "Introduces a methodological approach for inferring user partisanship by combining two follower-based methods with an LLM-based classifier as a tiebreaker.",
+    "Documents topical variation in the partisan asymmetry, with Health-related misinformation showing the largest Republican skew.",
+    "Releases code and a dehydrated tweet dataset for replication."
+  ],
+  "framing": "The paper situates itself within the literature on partisan asymmetries in online misinformation (Grinberg et al. 2019; González-Bailón et al. 2023; Mosleh et al. 2024) and the ongoing policy debate over content moderation, particularly the move by X and Meta away from professional fact-checking toward community-based systems like Community Notes/Birdwatch. It directly engages with claims by Musk and Zuckerberg that fact-checkers are biased against conservatives, using the bridging-algorithm logic developed by Wojcik et al. (2022) and Allen et al. (2022) to argue that crowdsourced evaluation provides a bias-resistant test of partisan differences in misinformation sharing.",
+  "pdf_source": "drive"
+}

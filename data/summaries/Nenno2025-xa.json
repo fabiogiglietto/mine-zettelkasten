@@ -1,0 +1,37 @@
+{
+  "abstract": "This study examines whether news values are differently expressed in perceived misinformation on Facebook across twenty-four WEIRD and non-WEIRD countries. Using a large corpus of URLs flagged by users as containing false news, the authors apply computational tools to detect five news values—conflict, negativity, proximity, individualization, and informativeness—in roughly 82,000 political news items. They find statistically significant but mostly small differences between flagged and unflagged items, and between WEIRD and non-WEIRD countries, with the United States and Brazil emerging as distinctive outliers in clustering analyses.",
+  "key_claims": [
+    "News values are generally more pronounced in perceived misinformation (user-flagged content) than in unflagged content shared on Facebook.",
+    "Differences in the prevalence of news values between WEIRD and non-WEIRD countries are significant for most news values, indicating that findings from WEIRD contexts do not straightforwardly generalize.",
+    "Conflict is the news value most strongly associated with flagged items and is similarly important across WEIRD and non-WEIRD contexts.",
+    "The United States and Brazil constitute a distinct cluster in which news values discriminate especially strongly between flagged and unflagged items, partly reflecting their polarized election contexts (2017 Trump, 2018 Bolsonaro).",
+    "Existing typologies of news values, developed primarily in Western contexts, likely fail to capture salient news values in non-WEIRD (e.g., Asian) media environments, warranting theoretical expansion."
+  ],
+  "methods": [
+    "Sampling of twenty-four countries (12 WEIRD, 12 non-WEIRD) chosen by Facebook market size and a definition of developed/developing economies (UNCTAD).",
+    "Use of the Facebook URL Shares dataset (Messing et al. 2020), sampling roughly 5,000 most-flagged and 25,000 unflagged URLs per country, yielding 773,572 items (2011–2023), with analysis focused on the flagging-reported window January 2017 – July 2019.",
+    "Web scraping of URL content via the Internet Archive (61.8% retrieval rate) and Mozilla Firefox Reader View parsed with Selenium.",
+    "Translation of all texts to English using Meta's NLLB model; topic modeling via BERTopic; zero-shot political/non-political classification using Llama-3, validated against human coders (Krippendorff α = 0.76; F1 = 0.78).",
+    "Final analytical corpus of 82,431 political items (25% flagged).",
+    "Automated detection of five news values: individualization (fine-tuned XLM-R Large NER trained on DBÖS), negativity (RoBERTa continuously fine-tuned on Boukes et al. 2020 plus custom data), conflict (fine-tuned ConfliBERT), proximity (NER + OpenStreetMap matching for domestic locations), and informativeness (idea density à la Brown et al. 2008 / Covington 2009).",
+    "Validation by four student coders on 490 stratified items (mean Krippendorff α = 0.68; weighted F1 around 0.9 except proximity at 0.76).",
+    "Statistical analysis using chi-square tests with Cramer's V for categorical news values, t-tests with Cohen's d for informativeness, and K-Means clustering on per-country effect sizes optimized by Silhouette Score."
+  ],
+  "findings": [
+    "All news values except informativeness are significantly more prevalent in flagged than unflagged items, though effect sizes are small (Cramer's V ≤ 0.04); conflict shows the largest flagged/unflagged gap (56.8% vs. 52.3%).",
+    "Comparing flagged items in WEIRD vs. non-WEIRD countries: individualization is higher in non-WEIRD (41.8% vs. 34.3%), while negativity (44.7% vs. 39.3%), proximity (62.8% vs. 53.8%), and informativeness (0.40 vs. 0.38) are higher in WEIRD; conflict shows no significant WEIRD/non-WEIRD difference.",
+    "Items from non-WEIRD countries reference WEIRD countries (especially the U.S.) more often than the reverse, suggesting asymmetric geographical attention.",
+    "K-Means clustering on per-country effect sizes yields an optimal two-cluster solution: the United States and Brazil form one cluster with markedly stronger flagged/unflagged differences for conflict, negativity, and individualization; all other countries form the second.",
+    "Informativeness shows the largest cross-country variation and, analyzed alone, suggests five clusters with no clear geographical pattern, indicating that the WEIRD/non-WEIRD divide does not capture its variation.",
+    "Despite statistical significance, effect sizes throughout are mostly small, indicating that news value differences are real but modest in magnitude."
+  ],
+  "contributions": [
+    "Provides one of the first large-scale, transnationally comparative analyses of news values in perceived misinformation, explicitly including non-WEIRD countries.",
+    "Introduces and validates an automated pipeline combining NER, fine-tuned transformer models (RoBERTa, ConfliBERT, XLM-R), OpenStreetMap matching, and idea density for measuring five news values in multilingual corpora.",
+    "Empirically demonstrates that news value research grounded in WEIRD contexts does not straightforwardly generalize, calling for theoretical expansion of news value typologies.",
+    "Highlights the unique role of polarized national contexts (U.S., Brazil) in shaping how news values discriminate between flagged and unflagged content.",
+    "Releases the resulting dataset openly, supporting reproducibility and further comparative misinformation research."
+  ],
+  "framing": "The paper situates itself at the intersection of news values theory (Galtung & Ruge; Harcup & O'Neill) and misinformation research (Tandoc et al.; Chen et al.; Humprecht), responding to critiques of the WEIRD bias in both psychology (Henrich et al.) and journalism studies (Hanitzsch; Paul & Sosale). It contributes to computational communication research by operationalizing news values at scale and engages debates about the 'newsness' of fake news and the cross-cultural applicability of Western journalistic concepts.",
+  "pdf_source": "drive"
+}

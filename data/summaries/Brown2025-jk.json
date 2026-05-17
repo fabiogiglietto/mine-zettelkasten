@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper evaluates whether generative LLMs exhibit systematic demographic bias when used to annotate subjective text classification tasks. Across four contentious annotation datasets (NLPositionality toxicity, POPQUORN offensiveness, POPQUORN politeness, and Wikipedia toxicity), three LLMs (GPT-4o mini, Llama 3.3 70B Instruct, Gemini 1.5 Flash), and three semantically equivalent prompts each, the authors compare LLM labels to human annotations and model agreement using logistic regression on annotator demographics (gender, race, education) and label entropy. They find that biases are dataset-specific rather than model-specific, that effect sizes on demographics are small, and that item difficulty (label entropy) is by far the strongest predictor of LLM-human agreement.",
+  "key_claims": [
+    "LLMs do not exhibit systematic, substantial disagreement with annotators based on demographics across subjective annotation tasks.",
+    "When biases do appear, multiple LLMs tend to be biased in the same direction within a given dataset, indicating that bias is dataset-specific rather than model-specific.",
+    "Item difficulty, measured as disagreement (label entropy) among human annotators, is a far stronger predictor of LLM-human agreement than annotator demographics.",
+    "Switching LLMs or prompts produces smaller effects on agreement than label entropy and does not consistently mitigate bias.",
+    "Fairness evaluations for LLM annotation should be contextual, integrate item difficulty, and not rely solely on model selection."
+  ],
+  "methods": [
+    "Used four subjective annotation datasets: NLPositionality (toxicity), POPQUORN Offensiveness, POPQUORN Politeness, and Wikipedia Toxicity (stratified sample of ~2,095 texts based on label entropy).",
+    "Generated annotations with three LLMs: GPT-4o mini (via OpenAI API), Llama 3.3 70B Instruct (via DeepInfra), and Gemini 1.5 Flash (via Google Gemini API), using default hyperparameters.",
+    "Designed three semantically equivalent prompts per dataset, producing nine LLM annotations per text and ~75,223 annotations total.",
+    "Recoded demographics into binary majority/minority categories (man/non-man, white/non-white, college/non-college) for cross-dataset comparability.",
+    "Computed normalized label entropy across human annotators as a measure of task difficulty/disagreement.",
+    "Fit logistic regressions predicting LLM-annotator agreement from annotator demographics, label entropy, prompt version, and LLM choice, with Bonferroni correction; ran robustness checks omitting entropy.",
+    "Used GPT-4o mini in an extraction step to standardize LLM outputs into discrete labels."
+  ],
+  "findings": [
+    "Probabilities of LLM agreement with a particular demographic group ranged narrowly between roughly 0.46 and 0.55, indicating small effect sizes even when statistically significant.",
+    "On NLPositionality, all three LLMs were less likely to agree with college-educated, male, and white annotators (favoring minority groups).",
+    "On POPQUORN Offensiveness, LLMs were less likely to agree with college-educated annotators and more likely to agree with white annotators.",
+    "On POPQUORN Politeness, LLMs tended to agree more with college-educated and white annotators and less with male annotators.",
+    "On Wikipedia toxicity, LLMs agreed more with male annotators; education effects were not significant.",
+    "Within each dataset, the direction of demographic bias was consistent across the three LLMs, but the favored group varied across datasets.",
+    "Label entropy was the dominant predictor: higher disagreement among humans strongly reduced LLM-human agreement, with much larger effect sizes than demographics, model choice, or prompt.",
+    "Removing entropy from the regression did not meaningfully alter demographic coefficients, suggesting entropy was not masking demographic effects."
+  ],
+  "contributions": [
+    "Provides the first systematic, multi-dataset, multi-model, multi-prompt evaluation of demographic bias in LLM annotations on subjective social science tasks.",
+    "Explicitly models item difficulty via label entropy alongside demographic predictors, distinguishing difficulty effects from demographic bias.",
+    "Demonstrates that observed biases are dataset-contextual rather than reflecting a generalized systematic LLM bias toward majority groups.",
+    "Offers practical guidance: fairness audits must be context-specific, model swapping is insufficient to remove bias, persona prompting yields diminishing returns, and item difficulty must be incorporated into bias assessments."
+  ],
+  "framing": "The paper sits at the intersection of literatures on bias in NLP and LLMs, the use of generative LLMs for computational social science text annotation, and research on annotator disagreement in subjective labeling tasks. It engages with concerns that LLM-based annotation may inherit majority-group biases from training data and aggregation, while distinguishing its prompt-based, identity-free approach from persona-prompting and perspective-aware modeling traditions.",
+  "pdf_source": "drive"
+}

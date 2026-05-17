@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper examines the 'production-consumption gap' on social media, where a small minority of highly active users generate most political content while the majority consume passively. The authors argue this skew distorts perceptions of public opinion for both ordinary citizens and researchers who rely on social media data. They frame visible online discourse as merely the 'tip of an iceberg' that obscures the broader, silent public.",
+  "key_claims": [
+    "A small minority of users produces the majority of political content on social media, a pattern that holds across platforms, time periods, and cultural contexts.",
+    "Most users consume content passively and remain silent, making observable online discourse unrepresentative of broader public opinion.",
+    "Both citizens and researchers risk drawing incorrect inferences about public opinion from this skewed visible content.",
+    "The production-consumption gap has substantive and (presumably methodological) implications for understanding democratic discourse."
+  ],
+  "methods": [
+    "Conceptual and synthesis piece drawing on prior empirical findings about user activity distributions across social media platforms (specific methods not detailed in available abstract)."
+  ],
+  "findings": [
+    "The production-consumption asymmetry is a robust, cross-platform, cross-cultural, and temporally consistent phenomenon.",
+    "Visible online political content systematically misrepresents the views of the silent majority."
+  ],
+  "contributions": [
+    "Articulates the 'tip of the iceberg' framing for understanding distortions in social media-based perceptions of public opinion.",
+    "Highlights risks for both lay citizens forming impressions of public opinion and for researchers using social media as a data source.",
+    "Synthesizes evidence of the production-consumption gap as a consistent empirical regularity."
+  ],
+  "framing": "The paper sits at the intersection of political communication, public opinion research, and computational social science, engaging with debates about the validity of using social media traces as proxies for public attitudes and about how online environments shape perceptions of collective opinion.",
+  "pdf_source": "abstract_only"
+}

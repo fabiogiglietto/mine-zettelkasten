@@ -1,0 +1,34 @@
+{
+  "abstract": "This study experimentally tests how different types of climate misinformation affect perceived veracity, likelihood of social media interaction, and climate beliefs, using two complementary frameworks: the content-based CARDS taxonomy of contrarian claims and the logic-based FLICC taxonomy of rhetorical fallacies. The authors exposed a representative US sample (N=1311) to 30 fake Facebook posts crossing five CARDS content categories with six FLICC fallacies. They found no main effect of fallacy type, but content category mattered: misinformation attacking climate solutions was perceived as most veracious, and arguments targeting solutions or scientists were the most politically polarizing.",
+  "key_claims": [
+    "Different categories of climate misinformation vary in their perceived veracity, even when the underlying logical fallacy is held constant.",
+    "Logical fallacy type (across six FLICC techniques tested) does not significantly affect perceived veracity, user interaction, or climate beliefs.",
+    "Misinformation attacking climate solutions (CARDS category 4) is perceived as the most accurate, trustworthy, and credible category.",
+    "Political ideology moderates susceptibility to climate misinformation, with conservatives more strongly influenced than liberals.",
+    "Misinformation targeting climate solutions or attacking climate scientists produces the greatest ideological polarization, making these categories priority targets for debunking efforts."
+  ],
+  "methods": [
+    "Online experiment with an approximately representative US adult sample (N=1311) recruited via the Walr platform.",
+    "5 (CARDS content category) × 6 (FLICC fallacy: misrepresentation, oversimplification, red herring, false equivalence, cherry picking, slothful induction) crossed design plus a control group, yielding 31 conditions.",
+    "Stimuli were 30 fabricated Facebook posts (created with Generatestatus) drawn from a misinformation dataset, with each cell representing a unique fallacy/content combination.",
+    "Outcomes measured: perceived veracity (5-item scale: accuracy, trustworthiness, believability, credibility, informativeness), user interaction likelihood (like/comment/share), and climate beliefs (it's real, it's us, it's bad).",
+    "Analyses included Kruskal–Wallis H tests across conditions and groupings, linear regression with political ideology as a moderator, and simple slopes analysis."
+  ],
+  "findings": [
+    "Significant variation in perceived veracity across the 30 individual stimuli (χ²(29)=60.83, p<.001, η²=.026), but no significant effects on user interaction or overall climate belief.",
+    "When grouped by FLICC fallacy, no significant differences emerged on any dependent variable.",
+    "When grouped by CARDS category, category 4 (climate solutions won't work) was rated significantly more trustworthy, accurate, and credible than other categories; category 2 was rated more credible than category 3.",
+    "Most veracious individual myths included 'No consensus on sea level rise', 'Polar bears are improving', and 'China emits more'; least veracious included 'climate change is like religion' and 'climate sensitivity is low'.",
+    "Political ideology significantly interacted with CARDS categories 4 and 5, with steeper slopes indicating these categories were most polarizing.",
+    "Among conservatives, exposure to CARDS category 4 produced significantly lower climate belief than the control or categories 1–3; no such effect appeared among liberals or moderates."
+  ],
+  "contributions": [
+    "First experimental comparison of climate misinformation impact across two orthogonal frameworks (content-based CARDS and logic-based FLICC).",
+    "Empirical identification of solutions-denial and attacks on scientists as the most polarizing forms of climate misinformation.",
+    "Evidence-based prioritization guidance for fact-checkers, debunkers, and automated AI fact-checking systems on which misinformation types warrant the most urgent response.",
+    "A publicly available stimulus set of 30 crossed misinformation examples and open data on OSF for replication and further analysis.",
+    "Reinforcement and refinement of prior findings on the asymmetric vulnerability of conservative audiences to climate misinformation."
+  ],
+  "framing": "The paper situates itself at the intersection of climate communication, misinformation research, and political polarization scholarship, building explicitly on the CARDS taxonomy (Coan et al., 2021) and the FLICC framework (Cook, 2020). It advances the case for logic-based ('logic-checking') approaches alongside fact-checking, and contributes to ongoing debates about how to prioritize and automate responses to online science denial.",
+  "pdf_source": "drive"
+}

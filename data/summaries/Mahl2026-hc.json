@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper reports on a three-wave Delphi study with 47 international scholars and practitioners aimed at producing an integrative, anticipatory impact assessment of conspiracy theories and misinformation in digital media. The authors map current challenges, anticipate problematic trends over the next five to ten years, and develop intervention strategies across ten thematic areas spanning macro, meso, and micro levels. They argue that effective responses require coordinated action across civil society, journalism, platforms, politics, and science rather than isolated, individual-level fixes, and conclude with methodological reflections on the strengths and limits of expert-driven Delphi designs.",
+  "key_claims": [
+    "Existing research on conspiracy theories and misinformation is fragmented, overly focused on specific issues, stakeholders, or individual-level interventions, and lacks anticipatory impact assessment.",
+    "Conspiracy theories and misinformation are conceptually distinct but practically intertwined and should be analyzed and addressed together.",
+    "Effective mitigation requires integrative, multi-level (macro/meso/micro) and multi-stakeholder approaches; there is 'no silver bullet'.",
+    "Many current challenges (e.g., opaque algorithmic curation, distrust in science, erosion of institutional trust) are expected to persist as future trends.",
+    "Interventions targeting platform governance and journalism/news media ecosystems were rated as slightly more important than individual-level strategies such as prebunking, literacy, or fact-checking.",
+    "Ongoing terminological debates about defining 'misinformation' and 'conspiracy theory' may distract from more pressing research priorities."
+  ],
+  "methods": [
+    "Three-wave Delphi study conducted between May and September 2022.",
+    "Waves 1 and 2 followed a Classic Delphi design using anonymous online surveys: Wave 1 used open-ended exploratory questions; Wave 2 used 4-point Likert ratings (1='not important' to 4='very important') to prioritize challenges and interventions.",
+    "Wave 3 used a Group Delphi design: a two-day on-site workshop with rotating focus groups focused on the DACH region (Germany, Austria, Switzerland).",
+    "Multi-stage sampling combining purposive snowball sampling with maximum variation sampling; 120 experts invited, 47 completed Wave 1 (38 scholars, 9 practitioners), 26 in Wave 2, 9 in the Wave 3 workshop.",
+    "Expert panel spanned 13 countries across Global North and South and multiple disciplines (communication, media studies, history, information science, philosophy, political science, psychology) and practitioner roles (journalists, fact-checkers, think tank communicators, activists, educators).",
+    "Inductive-iterative thematic analysis of open-ended responses and workshop notes using MAXQDA; quantitative descriptive analysis in R."
+  ],
+  "findings": [
+    "Experts identified challenges, trends, and interventions across ten thematic areas: governance of platforms, governance by platforms, platform design, journalism/news media ecosystems, research/science communication ecosystems, societal dynamics, socio-political institutions, individual behavior, prebunking and literacy, and debunking and fact-checking.",
+    "47% of experts expect the situation to worsen, 43% expect it to remain the same, and only 11% expect improvement.",
+    "Key current challenges include lack of effective platform regulation, opaque algorithmic curation, clickbait journalism, limited researcher access to platform data, erosion of trust in socio-political institutions, polarization, and lack of literacy initiatives.",
+    "Anticipated future trends include deepfakes, 'burner' accounts, circumvention of content moderation via subcultural language, 'Uberization' of journalism, growing distrust in science, democracy-threatening populism, and a shift from misinformed citizens to uninformed cynics and nihilists.",
+    "Top-rated intervention areas (mean importance on 4-point scale): governance of platforms (M=3.50) and journalism/news media ecosystems (M=3.50), followed by societal dynamics (3.38), with debunking and fact-checking rated lowest (3.04).",
+    "Recommended interventions include evidence-based transparent platform regulation, an independent monitoring board, algorithm recalibration, disincentivizing clickbait, strengthening science communication, funding literacy programs, and supporting independent fact-checking organizations.",
+    "Generative AI's potential impact on misinformation was notably not anticipated by experts in 2022."
+  ],
+  "contributions": [
+    "Provides one of the first integrative, multi-perspectival, anticipatory impact assessments of conspiracy theories and misinformation that crosses disciplinary, stakeholder, and societal-level boundaries.",
+    "Offers a structured ten-area taxonomy linking current challenges, anticipated trends, and tailored interventions.",
+    "Surfaces underexplored issues such as user strategies to circumvent moderation, the 'Uberization' of journalism, demand-side dynamics for deceptive content, and the rise of cynical nihilism.",
+    "Demonstrates the value and limits of combining Classic and Group Delphi designs for studying complex, fast-moving information-environment issues.",
+    "Generates actionable, context-sensitive policy and practice recommendations, including DACH-specific strategies from the workshop."
+  ],
+  "framing": "The paper situates itself within multidisciplinary debates on information disorder, platform governance, and democratic resilience, responding to reviews and guidelines (e.g., Wardle & Derakhshan; Lewandowsky et al.; Altay and colleagues) that have called for less siloed, more anticipatory, and globally inclusive research. It positions the Delphi method as a corrective to individualistic, present-focused, and Western-centric scholarship on conspiracy theories and misinformation.",
+  "pdf_source": "drive"
+}

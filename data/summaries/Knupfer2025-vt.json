@@ -1,0 +1,41 @@
+{
+  "abstract": "This article introduces the framework of a 'logic of connective faction' to explain how digitally networked elites within political parties forge ties to hyper-partisan media ecosystems, fueling intra-party factionalism and ideological radicalization. Using the sudden rise of 'Critical Race Theory' (CRT) as a right-wing talking point in 2020-2021, the authors analyze a dataset of nearly 2 million news articles, congressional newsletters, and tweets to compare Republicans who adopted the CRT issue with those who did not. They find that 'CRT Republicans' are more ideologically extreme, more deeply connected to right-wing digital networks, and rewarded with greater social media engagement and partisan media attention. The paper extends connective action theory to factional dynamics inside formal political organizations.",
+  "key_claims": [
+    "A 'logic of connective faction' operates when ideological subgroups within parties build connective ties to digital surrogate networks (hyper-partisan media, influencers), strengthening their factional position and radicalizing party politics.",
+    "Factions become empirically visible through informational 'pings' — discursive triggers like the CRT issue — that activate and reinforce ties between elites and aligned digital networks.",
+    "Connectivity to hyper-partisan media is not evenly distributed within parties; it clusters among more ideologically extreme actors who self-select into and are conditioned by these networks.",
+    "Digital networks provide measurable incentives (engagement, attention, visibility) that reward factional behavior and ideological signaling, creating feedback loops that drive radicalization.",
+    "More connectivity does not necessarily produce more pluralistic politics; in this case it narrows discourse toward more reactionary and exclusionary positions.",
+    "Hyper-partisan media increasingly function as quasi-organizational 'digital surrogates' that co-produce factional agendas alongside party elites."
+  ],
+  "methods": [
+    "Theoretical framework development extending Bennett and Segerberg's connective action theory to intra-party factional dynamics.",
+    "Original mixed dataset (n = 1,941,742) covering January 2019 to January 2022, including articles from mainstream outlets (NYT, CBS, CNN) and right-wing news sites (Fox News, Breitbart, Daily Caller) collected via NewsWhip, congressional newsletters from the DC Inbox dataset, and tweets from members of the 116th and 117th Congress via Twitter's Academic API.",
+    "Dictionary-based identification of 'CRT' mentions with manual validation of false positives.",
+    "Comparison of 'CRT Republicans' vs 'Non-CRT Republicans' using ideological proxies: DW-NOMINATE, CFscores, anti-McCarthy speaker vote, and House Freedom Caucus/Liberty Caucus membership.",
+    "Connectivity measures including frequency of references to Fox/Breitbart/Daily Caller, hyperlink-based ideological scaling (following Cowburn & Knüpfer 2024), Media Bias Fact Check-based left-right link ratios, and links to 'questionable sources'.",
+    "Analysis of social media platform profiles linked from official congressional homepages, distinguishing 'mainstream' vs 'alt-tech' platforms (Rumble, Truth Social, Gettr).",
+    "Negative binomial regression with member fixed effects to estimate within-member engagement differences for tweets and articles mentioning CRT.",
+    "Two-tailed t-tests for group comparisons across ideological and connectivity metrics."
+  ],
+  "findings": [
+    "CRT entered right-wing news sites (notably Breitbart) before mainstream media and elite sources, with major spikes in spring/summer 2021 and around the November 2021 Youngkin gubernatorial campaign.",
+    "Over 100 Republican members of Congress adopted CRT in newsletters between spring and autumn 2021; only three Democrats ever used the term.",
+    "CRT Republicans score significantly higher on all four ideological extremity measures (NOMINATE, CFscore, anti-McCarthy vote, ideological caucus membership) than Non-CRT Republicans.",
+    "CRT Republicans show significantly higher engagement with right-wing media across all four connectivity indicators, including more references to Fox/Breitbart/Daily Caller and more links to right-leaning and 'questionable' sources.",
+    "CRT Republicans disproportionately link from official websites to alt-tech platforms (Rumble, Truth Social, Gettr), while mainstream platform usage is similar across groups.",
+    "Tweets mentioning CRT receive significantly more retweets, replies, likes, and quotes than the same member's other tweets.",
+    "Articles about CRT receive significantly more Facebook engagement when published by right-wing news sites but significantly less engagement when published by mainstream outlets.",
+    "Right-wing news sites mention CRT Republicans more often than non-CRT Republicans, while mainstream outlets show the opposite pattern, indicating an attention asymmetry that rewards factional behavior."
+  ],
+  "contributions": [
+    "Introduces a novel theoretical framework — the 'logic of connective faction' — extending connective action theory from social movements to intra-party factional dynamics.",
+    "Provides an original large-scale multi-platform dataset combining mainstream and right-wing news, congressional newsletters, and tweets to empirically trace issue diffusion.",
+    "Demonstrates empirically how digital connectivity, ideological extremity, and issue adoption co-occur and reinforce one another within a single party.",
+    "Develops the concept of 'network pings' as discursive triggers that activate latent factional ties between elites and digital surrogates.",
+    "Bridges literatures on factionalism, hybrid media systems, radicalization, and democratic backsliding, offering a conceptual tool applicable beyond the US case.",
+    "Identifies measurable incentive structures (engagement metrics, media attention) that reward factional ideological signaling, helping explain mechanisms of elite radicalization."
+  ],
+  "framing": "The paper positions itself at the intersection of political communication research on hybrid media systems and hyper-partisan information ecologies, party politics scholarship on factionalism and democratic backsliding, and connective action theory. It engages directly with Bennett and Segerberg's connective action framework and Bennett and Livingston's recent work on 'digital surrogates,' while also building on US-focused work on Republican radicalization (Blum, Cowburn, Hopkins) and right-wing media networks (Benkler, Yang). The framework is offered as transferable to other democracies experiencing far-right radicalization and media fragmentation.",
+  "pdf_source": "drive"
+}

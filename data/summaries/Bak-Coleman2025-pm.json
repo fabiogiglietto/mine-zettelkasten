@@ -1,0 +1,35 @@
+{
+  "abstract": "This Perspective argues that the technology industry exerts substantial and underappreciated influence over the scientific study of its own products, in ways analogous to historical interference by tobacco, fossil fuel, asbestos, and soda industries. Because tech companies uniquely control the data, funding, and access required to study platforms like social media, search, and AI, existing scientific safeguards are inadequate to ensure an impartial evidence base for technology policy. The authors catalog mechanisms of industry influence — including suppression of internal research, selective publishing, design bias, selective funding, restriction of independent data access, and performative collaboration — and propose reforms for journals, funders, scientists, and governments.",
+  "key_claims": [
+    "Tech industry influence on research mirrors historical patterns from tobacco, fossil fuels, and similar industries, but is amplified by unique asymmetries in data and funding.",
+    "Existing safeguards (IRB requirements, conflict-of-interest disclosures, open science practices) are insufficient and sometimes paradoxically disadvantage independent researchers relative to industry-affiliated ones.",
+    "Industry-academic collaborations are often 'performative,' offering reputational benefits to companies while constraining research design, data access, and publishable findings.",
+    "Open science norms such as preregistration, large samples, and experimental causal inference can be selectively leveraged by industry while penalizing independent researchers operating under data-access constraints.",
+    "Mitigating industry influence requires both stronger journal/institutional norms and regulatory action, including mandated data access and disclosure of internal research."
+  ],
+  "methods": [
+    "Conceptual and argumentative Perspective piece synthesizing prior literature on industry-science conflicts.",
+    "Case-based analysis drawing on historical examples (tobacco, asbestos, fossil fuels, soda) and contemporary tech examples (Meta, X/Twitter, Google, Coca-Cola collaborations).",
+    "Examination of leaked internal documents (Frances Haugen, 2025 Meta whistleblower cache) and specific published industry studies on Facebook, Birdwatch, deplatforming, and the 2020 election collaboration.",
+    "Comparison of statistical and methodological choices (e.g., significance thresholds, multiple-comparison corrections, study endpoints) across Meta-affiliated publications.",
+    "Informal bibliometric check using OpenAlex of Meta-funded researchers versus disclosed Meta funding in publications."
+  ],
+  "findings": [
+    "Meta and other companies have suppressed or deleted internal research on harms to children, teen mental health, and VR safety, as documented in leaked documents.",
+    "Industry-affiliated studies tend to apply lenient statistical criteria when measuring benefits (e.g., p<.1) but stricter corrections when measuring harms, producing asymmetric conclusions from comparable effect sizes.",
+    "Randomized controlled trials of short platform breaks systematically underestimate long-term, cumulative, and societal-scale harms of social media use.",
+    "Data access for independent researchers has eroded sharply (CrowdTangle shutdown, X API restrictions, legal threats against scraping projects like NYU Ad Observatory and CCDH).",
+    "The Meta/Social Science One collaboration exhibited design bias, undisclosed platform interventions during study periods, missing user data, and deviations from preregistration.",
+    "Many tech-funded academics fail to disclose industry ties: ~1000+ Meta-funded researchers but only 472 OpenAlex publications acknowledging Meta funding.",
+    "Industry research is frequently exempted from IRB review by journals, an asymmetry that prevents independent replication."
+  ],
+  "contributions": [
+    "Provides a unified taxonomy of mechanisms by which tech firms influence research: burying internal research, selective publishing, design bias, selective funding/industrial selection, inhibition of independent research, and performative collaboration.",
+    "Extends established critiques of industry-science conflicts (Oreskes & Conway, Holman & Bruner) into the domain of digital information technologies.",
+    "Identifies how Open Science reforms can be co-opted or asymmetrically applied to favor industry-produced work.",
+    "Offers concrete policy proposals, including mandatory IRB review for industry research, stronger COI disclosure and auditing, mandated data access (building on the EU Digital Services Act), required disclosure of internal industry studies, dedicated independent funding streams, and an IPCC-like Intergovernmental Panel on Information Technology.",
+    "Provides practical guidance for academics considering industry collaborations, focused on identifying design bias, 'first-peek' risks, and data integrity concerns."
+  ],
+  "framing": "The paper positions itself within the agnotology and political economy of science literature — particularly work by Oreskes, Proctor, O'Connor, Holman and Bruner on industrial selection and merchants of doubt — and extends those frameworks to platform studies, computational social science, and tech policy. It engages debates over Open Science reform, researcher data access (e.g., the EU DSA), and evidence-based technology regulation, arguing that science studying digital technologies faces structurally novel risks that demand new institutional safeguards.",
+  "pdf_source": "drive"
+}

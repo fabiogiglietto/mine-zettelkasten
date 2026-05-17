@@ -1,0 +1,34 @@
+{
+  "abstract": "This article examines U.S. 'ConspiracyTok'—a genre of TikTok videos promoting conspiracy theories—through a qualitative content analysis of 202 highly viewed videos from 153 creators. The authors show that ConspiracyTok is dominated by young, non-White, and/or female creators who diverge from the stereotype of the middle-aged White male conspiracy theorist, and who use platform affordances to construct evidence and intimacy with viewers. They argue that ConspiracyTok functions as a form of 'populist knowledge production' within a 'generous epistemology' that can both empower marginalized standpoints and circulate disinformation.",
+  "key_claims": [
+    "ConspiracyTok challenges the stereotype of the White, male conspiracy theorist, as its creators are disproportionately young, non-White, and/or female.",
+    "Creators use visible identity markers (e.g., Black hairstyles, AAVE, conspiritual aesthetics, 'curated femme' looks) to interpellate audiences and build intimacy and trust.",
+    "Conspiratorial narratives consistently cast institutions (U.S. government, science, celebrities, music industry) as villains and the general public, children, and marginalized groups as victims.",
+    "ConspiracyTok creators construct legitimacy through 'populist knowledge production'—mimicking academic and journalistic forms via visual evidence, deep lore, close readings of fiction, and personal experience—while rejecting institutional epistemic authority.",
+    "This 'generous epistemology' welcomes divergent truths and invites viewers to 'do their own research,' functioning simultaneously as a form of standpoint epistemology for marginalized groups and as a vector for bias, antisemitism, transphobia, and disinformation.",
+    "Conspiracy theories serve as boundary objects that connect otherwise divergent communities (e.g., Black creators and far-right believers) around shared distrust of elites."
+  ],
+  "methods": [
+    "Qualitative content analysis of 202 TikTok videos from 153 unique creators, collected May–September 2022.",
+    "Triangulated sampling: searching conspiracy-related hashtags (#conspiracytok, #conspiracy, #rabbithole, #flatearth, #greatawakening, #nojabforme), tracking prolific conspiratorial creators, identifying frequently used sounds, and following two popular conspiracy-related 'stitches.'",
+    "Two-coder analysis using a codebook (refined via pilot coding of n=20 and n=3) that recorded perceived identity markers (race, gender, age, sexuality, politics, appearance, setting), types of evidence, and victim/villain framings, with denotative coding plus connotative memos.",
+    "Critical, feminist analytic framing drawing on standpoint epistemology and sociology of fringe communities; engagement metrics computed for the 156 non-deplatformed videos (mean ~3.67M views, ~434K likes, ~6,852 comments)."
+  ],
+  "findings": [
+    "Of 153 creators, roughly 33% were women and 36% non-White; about 64% appeared to be in their teens/twenties; the dataset was overwhelmingly U.S.-based and English-language.",
+    "Black creators frequently signaled Blackness through natural hairstyles, headwear, AAVE, and cultural references, suggesting videos addressed to Black audiences; 25 creators displayed 'conspiritual'/bohemian markers linking New Age spirituality to conspiracy.",
+    "Common villains were 'them/powers that be' (n=33), the U.S. government (n=43), science/scientists (n=29), and celebrities (n=29); common victims included the 'unsuspecting public' (n=63), Americans (n=22), children (n=17), and Black artists.",
+    "Evidence was predominantly visual: photographs (74), video clips (61), stock/b-roll (38), search-result screenshots (37), illustrations (34), news screenshots (29), symbols/logos (25), and maps (22); about 53% of videos used 'curated evidence collection,' often via TikTok's greenscreen.",
+    "Creators legitimized claims through documentary-style aesthetics, deep lore drawn from older esoteric books (e.g., Saint-Yves d'Alveyde, David Icke, Zecharia Sitchin), close readings of fictional media (predictive programming, 'occult splashback'), personal anecdotes, and calls to 'do your own research.'",
+    "Some videos articulated factually grounded critiques of state violence (e.g., MOVE bombing, Operation Paperclip, CIA and crack cocaine), aligning with standpoint epistemology; others reinforced antisemitic, transphobic, or QAnon-style tropes."
+  ],
+  "contributions": [
+    "Provides one of the first empirical, identity-focused analyses of conspiracy content on TikTok, documenting a demographic shift away from the stereotypical White male conspiracy theorist.",
+    "Introduces the concepts of 'populist knowledge production' and 'generous epistemology' to describe how ConspiracyTok creators legitimize alternative knowledge claims while mimicking institutional forms.",
+    "Connects feminist standpoint epistemology to disinformation studies, showing how marginalized epistemologies can both critique systemic injustice and amplify falsehoods.",
+    "Identifies genre conventions of ConspiracyTok (curated evidence collection, greenscreen documentary aesthetics, pillow-Tok intimacy, deep lore) as memetic/processural features that sustain the genre across ideological divides.",
+    "Extends literature on 'conspirituality' by demonstrating how it operates as a boundary object linking otherwise dissimilar communities on TikTok."
+  ],
+  "framing": "The paper positions itself at the intersection of feminist standpoint epistemology, critical disinformation studies (following Kreiss and Reddi et al.), and the sociology of conspiracy culture and fringe belief. It engages with scholarship on TikTok genres and 'imitation publics' (Zulli & Zulli; Schellewald) and on conspirituality (Ward & Voas; Ong), reframing conspiracy theorizing as vernacular, identity-inflected knowledge production rather than a pathology of isolated White men.",
+  "pdf_source": "drive"
+}

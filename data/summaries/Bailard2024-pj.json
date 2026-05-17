@@ -1,0 +1,38 @@
+{
+  "abstract": "This study examines how online discourse by the Proud Boys on Telegram relates to their offline violent and nonviolent activities over a 31-month period (January 2020–July 2022). Using a fine-tuned DeBERTa supervised machine learning model to classify collective action frames in over 500,000 messages from 92 Proud Boys-affiliated channels, the authors merge these data with ACLED's US Crisis Monitor event records and apply Granger causality and impulse response analyses. They find that intensifying diagnostic (grievance) messaging predicts subsequent offline violence, while motivational (solidarity/pride) messaging exists in a reciprocal cycle with offline activity—nonviolent protests boost motivational framing online, which in turn predicts later violent events.",
+  "key_claims": [
+    "Diagnostic collective action frames (identifying problems/assigning blame) and motivational frames (boosting in-group pride and solidarity) predict Proud Boys' participation in offline violent events.",
+    "Prognostic frames (explicit calls-to-action) are not predictive of offline events, contrary to expectations.",
+    "There exists a reciprocal 'online messaging–offline action cycle': nonviolent offline protests increase motivational framing online, which then predicts subsequent offline violence.",
+    "Effective analysis of extremist online communication requires moving beyond a content-moderation lens focused on discrete hateful posts to consider the discursive ecosystem and its temporal dynamics.",
+    "Collective action framing theory should be supplemented with theories of 'moralizing' and 'moral convergence' to explain how online speech translates into offline violent mobilization."
+  ],
+  "methods": [
+    "Snowball collection of Telegram data via the Telethon API, identifying ~2,900 Proud Boys-affiliated channels and focusing analysis on a core network of 92 explicitly Proud Boys channels.",
+    "Hand-annotation of 12,189 messages by trained student annotators using a codebook covering diagnostic, prognostic, motivational, injustice, and othering frames (Gwet's AC averaging 0.82, 88% agreement).",
+    "Fine-tuning of a pretrained DeBERTa language model for multi-label classification of collective action frames (macro F1 = 0.80), validated against held-out and blind-annotated samples.",
+    "Merging classified message data with ACLED US Crisis Monitor records of 376 Proud Boys-involved events, aggregated into weekly time-series.",
+    "Vector autoregression (VAR) modeling with Granger causality tests and impulse response functions, after checking stationarity (ADF), lag length (AIC/FPE), and residual diagnostics (LM tests).",
+    "A regional first-difference time-series cross-sectional analysis across 53 region-specific channels as a robustness check, and a structural equation mediation model testing whether motivational framing mediates the nonviolent-to-violent event relationship."
+  ],
+  "findings": [
+    "Diagnostic frames appeared in ~34% of weekly posts on average (injustice 13%, othering 11%), prognostic in 12%, and motivational in 9%.",
+    "Increased proportion of diagnostic frames Granger-causes subsequent offline violent events; injustice and othering subframes show similar but weaker predictive effects (p ≈ 0.07–0.09).",
+    "Increases in both the proportion and frequency of motivational frames predict subsequent violent events.",
+    "Prognostic frames do not predict either violent or nonviolent offline events.",
+    "Nonviolent protests predict an increase in the proportion of motivational frames online in following weeks, but no other frame type shows this responsiveness.",
+    "Impulse response functions suggest a roughly four-week cycle: nonviolent protest → peak motivational framing at ~2 weeks → peak violent event probability ~2 weeks later.",
+    "Structural equation modeling estimates that ~8% of the effect of nonviolent protests on later violent events is mediated by increases in motivational framing.",
+    "Regional first-difference analysis confirms motivational message frequency predicts state-level violent events, while diagnostic framing does not at the regional level."
+  ],
+  "contributions": [
+    "Provides one of the first large-scale empirical analyses linking specific types of right-wing extremist online discourse to offline violent and nonviolent activities over time.",
+    "Introduces a fine-tuned NLP pipeline (DeBERTa) for detecting collective action frames at scale, going beyond standard hate speech or toxicity classifiers.",
+    "Identifies and theorizes a reciprocal 'online messaging–offline action cycle' between offline protest activity and online solidarity messaging.",
+    "Extends collective action framing theory by integrating moralizing and moral convergence frameworks to explain the move from grievance-based mobilization to violence.",
+    "Offers practical implications for content moderation, showing that focusing only on explicit calls-to-action or hateful posts misses the more predictive role of grievance and solidarity-building speech.",
+    "Releases documentation, classified datasets, and analysis scripts via the APSR Dataverse to support replication and further research."
+  ],
+  "framing": "The paper sits at the intersection of political communication, social movement theory, and computational social science, positioning itself within the collective action framing tradition (Snow, Benford, Goffman) and engaging debates about how social media facilitates extremist mobilization. It argues against treating online extremist content as discrete speech acts—the dominant content-moderation paradigm—and advocates instead for theoretically grounded, longitudinal analyses of discursive ecosystems, drawing additionally on social identity theory and work on moral convergence.",
+  "pdf_source": "drive"
+}

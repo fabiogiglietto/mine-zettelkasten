@@ -1,0 +1,43 @@
+{
+  "abstract": "This paper investigates the extent of industry influence in high-profile social media research published in top journals (Science, Nature, PNAS, and their transfer journals). Using publicly available data on funding, collaboration, and employment ties to Meta, X, Google, and Microsoft, the authors find that approximately half of papers have disclosable industry ties, yet most go undisclosed. Industry-tied research garners disproportionate attention, is concentrated among a small group of repeatedly-engaged scientists who also dominate editorial and review roles, and skews topically toward user-focused issues like misinformation sharing while underrepresenting platform dynamics.",
+  "key_claims": [
+    "About half of high-profile social media research has disclosable industry ties, but the majority of these ties are not disclosed in published papers.",
+    "Industry influence is concentrated in a small group of scientists who maintain long-term relationships with technology firms rather than reflecting broad scientific engagement.",
+    "Undisclosed industry ties extend beyond authors to editors and peer reviewers, compromising the integrity of manuscript evaluation.",
+    "Industry-tied research receives roughly twice the citations and public attention of independent work.",
+    "Industry connections correlate with a topical bias toward user-focused topics (e.g., misinformation sharing) and away from platform-scale features (e.g., platform dynamics).",
+    "Once author, editor, and reviewer ties are aggregated, only about one in five papers is likely to be fully independent of industry influence ('industrial saturation' ~80%)."
+  ],
+  "methods": [
+    "Constructed a corpus of 295 articles by 1210 authors via OpenAlex queries for social media-related terms in Science, Nature, PNAS, and their transfer journals, refined using bibliographic coupling.",
+    "Identified disclosable ties (funding, collaboration, employment) to Meta, X, Google, and Microsoft using OpenAlex plus industry-announced RFPs and fellowships, with manual validation of every funding and employment tie.",
+    "Categorized ties as 'disclosable' if they occurred within each journal's disclosure window (3-5 years).",
+    "Combined OpenAlex data with Altmetric scores to assess scholarly, policy, news, social media, and Wikipedia impact.",
+    "Identified 80 academic editors handling 167 manuscripts and supplemented detection with their public CVs to estimate detection sensitivity.",
+    "Analyzed 82 named peer reviewers across 49 papers using publicly available CVs.",
+    "Applied community detection on the bibliographic coupling network to identify topical clusters and compared industry-tie prevalence across them.",
+    "Used Bayesian binomial and logistic regressions to model disclosure rates, industry-tie probability, and editor behavior."
+  ],
+  "findings": [
+    "49% of papers had disclosable industry ties, but only 13% included competing interest declarations and 20% had any identifiable mention of industry ties.",
+    "42% of papers explicitly declaring no competing interests nonetheless had disclosable ties.",
+    "Prior collaboration was the most common tie type, followed by funding; direct employment was rare.",
+    "Industry funding and collaboration is highly concentrated (Gini coefficient 0.919); the top 10% of authors accounted for 79% of total industry investment.",
+    "Authors with 6 or more high-profile social media publications almost invariably had disclosable industry ties.",
+    "34% of editors had disclosable industry ties (about twice the author rate); 35% of papers with academic editors were handled by tied editors, with none disclosed.",
+    "11% of papers handled by industry-tied editors were authored by their recent co-authors; this co-author handling did not occur among independent editors.",
+    "Only 14% of editor funding-years identifiable from CVs were detectable through public data, suggesting the analysis underestimates true industry ties.",
+    "Estimated industrial saturation of the corpus is approximately 80% when authors, editors, and reviewers are combined.",
+    "Misinformation sharing research was over-represented among industry-tied work, while platform dynamics research was under-represented; misinformation papers received fewer per-paper citations but had similar total impact due to greater volume.",
+    "Industry-tied papers receive roughly double the citations, policy mentions, news coverage, social media discussion, and Wikipedia references of independent papers."
+  ],
+  "contributions": [
+    "Provides the first systematic quantitative mapping of industry influence across authorship, editorial handling, and peer review in high-profile social media research.",
+    "Introduces the concept of 'industrial saturation' as a composite measure of industry influence across the full production and evaluation pipeline of scientific publishing.",
+    "Empirically demonstrates a gap between formal competing interest disclosures and identifiable industry ties using public data.",
+    "Documents topical biases consistent with industrial selection effects, linking the metascience of industry influence to specific research domains in social media studies.",
+    "Offers concrete policy recommendations including stronger disclosure norms, corrections to the existing record, and explicit independence statements by unaffiliated authors."
+  ],
+  "framing": "The paper situates itself within the metascience and philosophy-of-science literature on industry influence—drawing parallels to tobacco, pharmaceutical, and nutrition science—and within computational social science debates about platform-dependent research access. It extends prior work (e.g., Abdalla & Abdalla's 'grey hoodie project' and Holman & Bruner on industrial selection) by quantitatively documenting how structural dependence on platforms shapes the social media research literature.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,31 @@
+{
+  "abstract": "This commentary argues that academic research on social media platforms is uniquely vulnerable to industry influence because platforms exclusively control access to the data needed to study them. Drawing parallels with the pharmaceutical, tobacco, and food industries, the authors identify four challenges in platform-academic collaborations—restricted data access, selective funding, hard-to-detect influence, and institutional entanglements—and warn these threaten the independence of evidence used in regulation and policymaking. They advocate a dual response: regulatory reforms exemplified by the EU's Digital Services Act (DSA), and stronger ethical norms and 'research on research' within the social sciences.",
+  "key_claims": [
+    "Social media platforms' exclusive control over data on algorithms, content flows, and engagement makes academic research unprecedentedly dependent on industry, in contrast to fields like food and pharmaceuticals where independent data generation is possible.",
+    "Platform-researcher collaborations create entry points for industry bias analogous to those documented in tobacco, pharma, and food industries.",
+    "Industry influence can be subtle, operate at any stage of the research cycle, and is often institutionalized through long-term funding and intermediary organizations.",
+    "Open science practices like preregistration are insufficient on their own to neutralize platform influence, since data access and research-question framing remain controlled by platforms.",
+    "Addressing the problem requires both policy reform (mandated data access with privacy safeguards, independent funding mechanisms) and a more critically self-reflective social science community."
+  ],
+  "methods": [
+    "Conceptual/analytical commentary rather than empirical study; no datasets generated or analyzed.",
+    "Comparative analogical reasoning drawing on prior literature about industry influence in pharmaceutical, tobacco, and food research (e.g., Bero, Fabbri et al., Schillinger et al.).",
+    "Case-based illustration, notably the Meta–academic 2020 US election partnership, Social Science One, Chan Zuckerberg Initiative, and Jigsaw.",
+    "Synthesis presented through a four-challenge framework summarized in Table 1, mapping challenges to lessons and recommended actions."
+  ],
+  "findings": [
+    "Four key challenges in platform-academic collaborations: (1) restrictive data access, (2) selective funding of researchers and topics, (3) difficulty detecting subtle influence, and (4) institutionalization of influence via long-term partnerships.",
+    "Meta's 2020 election studies illustrate how exclusive data access, undisclosed algorithm changes during the study, and platform framing of results can shape policy-relevant narratives.",
+    "Evidence from other industries (e.g., Schillinger et al. on sugar-sweetened beverages) shows industry-funded studies systematically report more industry-favorable findings.",
+    "Early implementation of DSA Article 40 shows platforms interpret eligibility narrowly, delay or reject applications, and provide inadequate documentation, limiting its effectiveness.",
+    "Reciprocity dynamics mean even small gifts or access provisions can subconsciously bias researchers, undermining safeguards like preregistration."
+  ],
+  "contributions": [
+    "Transposes the well-established 'commercial determinants of science' framework from health-related fields onto social media research.",
+    "Provides a structured four-challenge typology of risks in platform-academic collaborations.",
+    "Offers a concrete policy and community-level agenda: regulated data access, independent funding intermediaries, ethical guidelines, and meta-research on industry-funded social media studies.",
+    "Highlights the DSA as both a model and a cautionary case for implementing researcher data-access regimes."
+  ],
+  "framing": "The piece situates itself at the intersection of communication/platform studies, science and technology studies, and the literature on commercial determinants of health and research integrity. It positions social media research within ongoing debates about platform power, systemic risks, and evidence for regulation (e.g., Haidt vs. Odgers on youth mental health), arguing that lessons from tobacco, pharma, and food research should inform how the field manages industry entanglements.",
+  "pdf_source": "drive"
+}

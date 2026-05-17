@@ -1,0 +1,38 @@
+{
+  "abstract": "This study examines how the source of brand-related misinformation—social media influencers (SMIs) versus regular users—shapes the intensity and nature of toxic audience responses online. Using a mixed-method design that combines automated toxicity detection (Google's Perspective API), Biterm topic modeling, logistic and OLS regression, and thematic analysis on 101 posts and 48,821 comments across six platforms (2020–2023), the authors show that influencer-driven misinformation generates more frequent and qualitatively distinct toxicity than identical content from regular users. They identify five categories of toxicity and two influencer-specific mechanisms—brand-related misinformation legitimation and community enmeshment—that sustain toxic echo chambers by converting credibility and parasocial bonds into collective antagonism.",
+  "key_claims": [
+    "Misinformation source (influencer vs. regular user), not just content, is a primary driver of online toxicity, reframing toxicity as a source-amplified phenomenon.",
+    "Influencer credibility functions not only as a persuasive asset but as an infrastructural mechanism that legitimizes misinformation and lowers normative barriers to incivility.",
+    "Parasocial bonds redirect follower hostility away from the influencer toward external targets (typically the implicated brand), producing more homogeneous, echo-chamber-like toxicity.",
+    "Social influence mechanisms—compliance, identification, and internalization—convert isolated reactions into sustained collective antagonism around influencer misinformation.",
+    "Influencer-driven toxicity is amplified by high engagement, sociopolitical issue salience, and low-pseudonymity (identity-based) platforms, contradicting assumptions that toxicity thrives mainly under anonymity."
+  ],
+  "methods": [
+    "Empirics-first, three-stage sequential mixed-method design integrating top-down automated text analysis, bottom-up topic modeling, and theory-building thematic analysis.",
+    "Construction of a novel multiplatform dataset from Snopes-verified brand-related misinformation (2020–2023), yielding 101 posts and 48,821 comments across 47 brands, 9 industries, and 6 platforms (Facebook, Instagram, TikTok, YouTube, X/Twitter, Reddit).",
+    "Toxicity detection via Google's Perspective API (binary threshold of 0.6), validated through construct, concurrent, convergent, discriminant, predictive, and face validity checks, plus comparison with Detoxify and Hurtlex.",
+    "Logistic regression predicting comment-level toxicity from source type, controlling for 15 post-, brand-, platform-, and comment-level variables; robustness checks including propensity score matching, Gaussian copula for endogeneity, and CPS charts.",
+    "Biterm Topic Model (BTM) on the top quartile of toxic comments (n=11,871), producing 48 topics tuned for coherence, with human verification yielding 41 coherent topics grouped into 5 toxicity categories.",
+    "Category-level OLS regressions with robust standard errors and FDR adjustment to link source type to specific toxicity categories.",
+    "Hybrid thematic analysis (theory-driven plus inductive coding) of 1,800 representative toxic comments and 45 SMI posts, with intercoder reliability checks (κ = 0.87–0.96)."
+  ],
+  "findings": [
+    "Posts by regular users have ~44% lower odds of eliciting toxic comments than influencer posts (OR = 0.56, p < 0.001); predicted toxicity probability is 3.8% for SMIs versus 2.2% for users.",
+    "A toxicity–engagement spiral exists for influencers (higher engagement → more toxicity) but reverses for regular users (engagement aligns with civility).",
+    "Influencers produce significantly more toxicity than users specifically in sociopolitical misinformation (OR = 1.87), with no significant difference for commercial or health/safety content.",
+    "Influencer-driven toxicity is highest on low-pseudonymity (identity-based) platforms like Meta, not on anonymous platforms as commonly assumed.",
+    "Five toxicity categories emerged: anti-brand reactions, consumer-to-consumer (C2C) conflicts, flame-bait firestorms, toxic debunking, and trolling/flaming.",
+    "Regular users elicit more diverse toxicity (anti-brand reactions, toxic debunking) directed at multiple targets, whereas influencers predominantly trigger homogeneous flame-bait firestorms aimed at the implicated brand.",
+    "Two influencer mechanisms sustain toxic echo chambers: brand-related misinformation legitimation (via amplifying and sheltering strategies, activating compliance) and community enmeshment (via bonding and endearing strategies, activating identification and internalization)."
+  ],
+  "contributions": [
+    "Reframes online toxicity as a source-amplified, relational phenomenon rather than a property of message content or cognitive bias alone.",
+    "Extends typologies of online incivility (e.g., Fombelle et al. 2020; Martel et al. 2024) by identifying emergent influencer-specific patterns such as flame-bait firestorms and toxic debunking.",
+    "Integrates source credibility, parasocial interaction, and social influence theories into a unified framework explaining how influencer authority becomes infrastructural to misinformation-driven toxicity.",
+    "Challenges cognition-centric accounts of misinformation by demonstrating that compliance, identification, and internalization operate as collective alignment mechanisms sustaining toxicity.",
+    "Provides actionable, ecosystem-level managerial guidance structured around publishers, platforms, and people for detecting and mitigating influencer-driven harm.",
+    "Introduces a large-scale, multiplatform, cross-industry brand misinformation dataset and a validated mixed-method analytical protocol applicable to similar research."
+  ],
+  "framing": "The paper situates itself at the intersection of misinformation research, influencer marketing, and online incivility scholarship in marketing and consumer behavior. It positions itself against content- and cognition-centric accounts of misinformation (e.g., Pennycook and Rand 2021) by foregrounding source effects, and extends influencer marketing research that has emphasized positive outcomes (e.g., Leung et al. 2022) by theorizing the dark side of credibility and parasocial bonds. The work responds to calls for empirics-first, theory-building inquiry in marketing (Golder et al. 2023).",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,35 @@
+{
+  "abstract": "This study evaluates computational approaches—specifically traditional computer vision models (RetinaFace, FaceNet512, Google Cloud Vision) and a multimodal large language model (GPT-4o)—for analyzing visual political communication on Instagram. Using a corpus of 1,424 stories and 547 posts from the 2021 German federal election campaign, the authors test how well these tools identify front-runner politicians and count individuals in images. GPT-4o substantially outperformed specialized models, achieving macro F1-scores of 0.89 for face recognition and 0.86 for person counting in stories. The paper applies the validated methods to a case study of concentrated visibility, finding distinct visual strategies between candidate and party accounts and between stories and posts.",
+  "key_claims": [
+    "Multimodal LLMs like GPT-4o can outperform specialized computer vision pipelines for face recognition and person counting in political campaign images.",
+    "Prompt-based approaches lower technical barriers for visual political communication research while approaching human-level annotation agreement.",
+    "Candidate accounts feature front-runners more prominently than party accounts, indicating a complementary visual strategy, particularly in Instagram stories.",
+    "Instagram stories and posts serve distinct roles in campaign communication, with significant differences in concentrated visibility patterns between formats.",
+    "Specialized face recognition models showed weaker performance on the only female candidate (Annalena Baerbock), suggesting possible gender bias or differing personalization styles."
+  ],
+  "methods": [
+    "Collection of 1,424 Instagram stories and 547 posts (957 images) from five German parties and five front-runners during Sept 12–25, 2021.",
+    "Comparison of three computational approaches: RetinaFace + FaceNet512 (face detection/recognition), Google Cloud Vision API (object detection), and GPT-4o (multimodal LLM with custom prompts).",
+    "Iterative prompt engineering using ChatGPT for designing GPT-4o prompts for face verification and person counting.",
+    "Two human annotation studies: 13 annotators labeling face identities (Krippendorff's α = 0.86 stories, 0.94 posts) and 5 annotators coding person counts on a 30% subsample (α = 0.81 stories, 0.91 posts) using Label Studio.",
+    "Evaluation via precision, recall, macro/weighted F1, and Krippendorff's alpha treating each model as an additional annotator.",
+    "Case study statistical analysis using chi-squared tests with Bonferroni correction and Cramér's V to compare concentrated visibility across account types, parties, and content formats."
+  ],
+  "findings": [
+    "GPT-4o achieved macro F1 of 0.89 (stories) and 0.91 (posts) for face verification, versus 0.74 and 0.87 for FaceNet512.",
+    "For person counting, GPT-4o achieved macro F1 of 0.86 (stories) and 0.93 (posts), substantially outperforming Google Cloud Vision (0.58/0.44) and RetinaFace (0.48/0.53).",
+    "FaceNet512 performed worst for Annalena Baerbock (F1 = 0.66) compared to male candidates, potentially reflecting bias or distinct visual personalization.",
+    "Party accounts showed front-runners alone in only 12% of stories versus 33.5% in candidate accounts (χ² = 173.24, p < .001, Cramér's V = 0.349).",
+    "Stories and posts differed significantly in front-runner visibility (χ² = 95.20, p < .001), with CDU, CSU, and SPD showing the strongest variation between formats.",
+    "Markus Söder (CSU) showed the largest divergence between his own account and the party account (Cramér's V = 0.53 stories, 0.70 posts)."
+  ],
+  "contributions": [
+    "Provides one of the first systematic benchmarks comparing multimodal LLMs against specialized computer vision tools for visual political communication research.",
+    "Offers a replicable, scalable methodological framework for measuring concentrated visibility using prompt-based classification.",
+    "Extends empirical research on Instagram stories—an underexplored ephemeral format—in political campaigning.",
+    "Releases annotations, prompts, model outputs, and evaluation notebooks via an open GitHub repository (corpus excluded due to copyright).",
+    "Demonstrates practical trade-offs between open-source and proprietary tools (cost, privacy, replicability) to guide methodological choices in computational social science."
+  ],
+  "framing": "The paper situates itself at the intersection of visual political communication research and computational social science, building on calls to move beyond text-based analysis (Schill 2012; Veneti 2023) and on the 'images as data' and 'distant viewing' traditions (Joo & Steinert-Threlkeld 2022; Arnold & Tilton 2023). It engages with theoretical frameworks of personalization, presidentialization, and concentrated visibility (van Aelst et al. 2012) while contributing methodologically to debates about automated visual content analysis (Peng et al. 2024; Schwemmer et al. 2023).",
+  "pdf_source": "drive"
+}

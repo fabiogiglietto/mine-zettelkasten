@@ -1,0 +1,35 @@
+{
+  "abstract": "This study examines how beliefs in electoral misinformation relate to political intolerance during Brazil's contentious 2022 presidential election, using a three-wave panel survey of internet users. The authors find that citizens who believed false claims about electoral fraud became more intolerant toward political opponents over time, and that using messaging apps for news indirectly increased intolerance by strengthening misinformation beliefs. The paper positions electoral misinformation as a key driver of intolerant attitudes that erodes democratic norms beyond merely confusing citizens.",
+  "key_claims": [
+    "Belief in electoral misinformation negatively affects political tolerance, consistently predicting increases in intolerance over the course of an election.",
+    "Using messaging apps for news indirectly fosters political intolerance by increasing susceptibility to electoral misinformation beliefs.",
+    "Electoral misinformation operates not only by eroding institutional trust but also by undermining commitment to democratic norms such as tolerance toward disliked political groups.",
+    "Misinformation acts as an amplifier of pre-existing political cleavages (e.g., antipetismo in Brazil) rather than the sole origin of intolerance.",
+    "Engagement with online disagreement was associated with decreased tolerance during the heated election period, contrasting with classical expectations from interpersonal deliberation theory."
+  ],
+  "methods": [
+    "Three-wave nationally representative panel survey of Brazilian internet users (N=1600 W1, N=1328 W2, N=1034 W3), fielded by Ipec Inteligência with quotas for age, gender, social class, and region.",
+    "Waves timed around the 2022 Brazilian presidential election: W1 (Oct 5-19, after first round), W2 (Nov 8-23, after second round), W3 (Dec 8-21, during anti-democratic protests).",
+    "Political intolerance measured via a variation of the General Social Survey 'least-liked' approach, asking about extending civil rights (voting, protesting, civil service, public speech) to disliked political groups (petistas, bolsonaristas, communists, dictatorship advocates, etc.).",
+    "Electoral misinformation belief measured (W2 only, for ethical reasons) using eight fact-checked false statements plus true and placebo controls.",
+    "Two autoregressive OLS regression models predicting W2 and W3 intolerance while controlling for prior intolerance levels.",
+    "Two structural equation models (SEM) using lavaan in R with bootstrapped 95% confidence intervals (5000 samples) to test mediation of misinformation belief between social media/messaging app news use and intolerance."
+  ],
+  "findings": [
+    "Beliefs in electoral misinformation significantly predicted increases in political intolerance in both W2 (β = -.09, p<.001) and W3 (β = -.10, p<.01).",
+    "Social media news use had no significant effect on tolerance in W2 and only a marginally significant positive effect (more tolerance) in W3.",
+    "Messaging app news use had no significant direct effect on intolerance in either wave.",
+    "SEM analysis confirmed an indirect effect: W1 messaging app news use predicted higher W2 misinformation beliefs, which predicted lower W3 political tolerance (β = -.009, p<.05); no equivalent indirect effect was found for social media news use.",
+    "Engagement with online disagreement was negatively associated with tolerance between W1 and W2 (β = -.07, p<.001) but not between W1 and W3.",
+    "46% of respondents held zero misinformed beliefs, while the mean score was 1.58 out of 8."
+  ],
+  "contributions": [
+    "Provides first empirical evidence linking electoral misinformation beliefs to political intolerance, extending misinformation research beyond effects on knowledge and institutional trust.",
+    "Identifies messaging apps (notably WhatsApp) as an indirect informational pathway to intolerance via heightened misinformation belief, distinguishing them from general social media use.",
+    "Offers a longitudinal panel design in a major non-Western democracy (Brazil), addressing gaps in literature that has focused on authoritarian/hybrid regimes or cross-sectional data.",
+    "Reframes the democratic stakes of electoral misinformation as undermining tolerance norms, not merely confusing citizens.",
+    "Suggests practical implications for misinformation interventions and electoral regulation, arguing fact-checking alone is insufficient."
+  ],
+  "framing": "The paper situates itself at the intersection of misinformation research, political tolerance scholarship (Sullivan, Gibson), and the democratic backsliding literature, engaging debates about whether and how digital media—especially encrypted messaging apps—catalyze antidemocratic attitudes. It responds to mixed evidence on social media's polarizing effects by shifting focus from general platform use to informational uses and downstream attitudinal consequences in a polarized, contested electoral context.",
+  "pdf_source": "drive"
+}

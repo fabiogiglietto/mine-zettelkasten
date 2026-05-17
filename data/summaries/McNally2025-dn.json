@@ -1,0 +1,36 @@
+{
+  "abstract": "This longitudinal study examines how documented changes to Facebook's News Feed algorithm between 2011 and 2020 affected user engagement with news content from The Guardian. Using a corpus of approximately 1 million Guardian articles paired with CrowdTangle engagement metrics, the authors apply time series methods (cross-correlation, Granger causality, and Seasonal Hybrid ESD anomaly detection) to test whether algorithmic ranking updates produced measurable, lagged effects on engagement. They find that strategic interventions significantly affected engagement with hard news but not with Opinion, Lifestyle, Arts, or Sport content, with effects emerging roughly 19-24 days after implementation. The authors argue this challenges the 'black box' framing of recommender systems and supports the case for systemic algorithmic auditing under the EU's Digital Services Act.",
+  "key_claims": [
+    "Facebook's News Feed is not an opaque black box but a sociotechnical system whose strategic interventions can be detected and modeled through their downstream effects on engagement.",
+    "Facebook differentiates news from other content within the News Feed and applies a distinct algorithmic treatment to it.",
+    "Hard news content is significantly more affected by ranking updates than soft news (Opinion, Lifestyle, Arts, Sport), validating the hypothesis of differential algorithmic treatment.",
+    "Algorithmic interventions produce lagged effects on engagement of roughly three weeks, consistent with phased software rollout strategies.",
+    "Current data-access constraints limit independent oversight of recommender systems, and the EU's Digital Services Act (notably Article 40(4)) offers a legal basis for long-run, systemic algorithm audits."
+  ],
+  "methods": [
+    "Constructed a timeline of 52 documented Facebook News Feed ranking updates between 2011-2020 from public announcements, engineering papers, whistleblower disclosures (Frances Haugen), and media leaks.",
+    "Parameterized each algorithmic change by impact level (high/low) and valence (positive, neutral, negative) toward trusted news sources, spanning 1-10 day event windows.",
+    "Collected ~1,020,163 Guardian articles via The Guardian's public API and matched 576,673 to Facebook engagement data via the CrowdTangle API, segmented into five Guardian 'pillars': News, Opinion, Sport, Arts, Lifestyle.",
+    "Applied logarithmic transformation and Augmented Dickey-Fuller tests to ensure stationarity of daily aggregated time series.",
+    "Used cross-correlation function (CCF) analysis to identify optimal lags between algorithmic interventions and engagement.",
+    "Conducted Granger causality tests at lags 1-30 to test predictive relationships between algorithm changes and engagement by section.",
+    "Applied the Seasonal Hybrid ESD (S-H-ESD) algorithm to detect statistically significant anomalies in the engagement series."
+  ],
+  "findings": [
+    "All five content sections showed optimal cross-correlation lags between 19-24 days (News: 19; Opinion: 21; Lifestyle: 23; Arts: 20; Sport: 24).",
+    "Cross-correlation coefficients were highest for News (.35) and Sport (.31), and lower for Opinion (.27), Lifestyle (.24), and Arts (.25).",
+    "Granger causality was statistically significant only for the News section (F = 1.6774, p = .03274 at lag 19); algorithm changes did not Granger-cause engagement for Arts, Lifestyle, Opinion, or Sport.",
+    "Anomalies clustered heavily in 2014-2016, a period of intense algorithmic change, with two-thirds of News-section anomalies occurring in 2016 (especially June 2016, coinciding with prioritization of friends-and-family content).",
+    "Sport anomalies concentrated in July 2014, coinciding with the FIFA World Cup, indicating that external events also drive engagement anomalies.",
+    "The ~19-day lag is consistent with phased software rollout practices used in industry deployment."
+  ],
+  "contributions": [
+    "Provides one of the first decade-long longitudinal empirical assessments of how Facebook News Feed ranking updates affect engagement with news content.",
+    "Compiles a publicly documented timeline of 52 significant Facebook News Feed algorithm changes (2011-2020) with parameterized impact and valence codings.",
+    "Demonstrates a replicable methodological approach—combining CCF, Granger causality, and S-H-ESD anomaly detection—for auditing the lagged effects of platform algorithm changes.",
+    "Offers empirical support for treating recommender systems as sociotechnical artifacts shaped by institutional decisions rather than opaque black boxes.",
+    "Articulates how the Digital Services Act, particularly Article 40(4) and Recital 85, can enable long-run independent audits of very large online platforms."
+  ],
+  "framing": "The paper positions itself within digital journalism and platform studies debates over algorithmic gatekeeping, intervening against the dominant 'black box' metaphor (Pasquale; Burrell) by foregrounding sociotechnical accounts of algorithms (Ananny; Seaver; Gillespie). It builds on prior work examining specific Facebook News Feed updates (Tandoc & Maitra; Cornia et al.; Meese & Hurcombe; Bailo et al.) and connects this scholarship to emerging EU regulatory frameworks for platform accountability.",
+  "pdf_source": "drive"
+}

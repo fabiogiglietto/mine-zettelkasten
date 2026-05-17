@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper examines red-teaming as an emerging safety practice for generative AI systems, framing it as a sociotechnical activity that engages publics in identifying harms and vulnerabilities. Drawing on 26 semi-structured interviews and participant observation at three public red-teaming events, the authors explore how red-teaming can serve the public interest beyond its origins in cybersecurity and military contexts. The work analyzes the practices, participants, and institutional contexts that shape how red-teaming functions as a mechanism for AI accountability.",
+  "key_claims": [
+    "Red-teaming of generative AI systems is not merely a technical security exercise but a sociotechnical practice with public-interest dimensions.",
+    "Public red-teaming events can democratize AI safety work by bringing diverse perspectives into vulnerability identification.",
+    "The framing and institutional context of red-teaming significantly shape what counts as a harm or vulnerability worth identifying."
+  ],
+  "methods": [
+    "26 semi-structured interviews with red-teaming practitioners and stakeholders.",
+    "Participant observation at three public red-teaming events focused on generative AI systems.",
+    "Qualitative analysis situating red-teaming within broader genAI governance and accountability practices."
+  ],
+  "findings": [
+    "Red-teaming practices vary significantly depending on organizational context, participant expertise, and the framing of public interest.",
+    "Adversarial methods borrowed from cybersecurity require adaptation to address the distinct harms posed by generative AI.",
+    "Public-facing red-teaming events surface considerations beyond those typical of internal or industry red-teaming."
+  ],
+  "contributions": [
+    "Provides an empirical, qualitative account of how red-teaming is practiced in public-interest contexts for generative AI.",
+    "Articulates red-teaming as a sociotechnical practice rather than purely a technical safety method.",
+    "Informs ongoing regulatory and technologist debates about how to operationalize AI safety and accountability."
+  ],
+  "framing": "The paper positions itself within sociotechnical and critical AI studies scholarship on AI accountability, governance, and safety, engaging with debates among regulators, technologists, and civil society about how to anticipate and mitigate harms from generative AI. It draws connections between red-teaming's origins in cybersecurity and military practice and its emerging role in public-interest AI oversight.",
+  "pdf_source": "abstract_only"
+}

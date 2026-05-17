@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper investigates how false and misleading information about U.S. elections in 2020 and 2022 was sustained through collective sensemaking on Twitter, focusing on the contextual storytelling dynamics that surround individual rumors. The authors qualitatively coded thousands of tweets across ten major election-related incidents using two complementary codebooks—one at the tweet level and one at the incident level—combined with thematic analysis and temporal visualizations. They argue that influencers, political elites, and audiences collaboratively performed evolving 'deep stories' in which the how of telling (style, allusion, cueing) is as constitutive of meaning as the what. The paper offers a theoretical, empirical, and methodological framework for studying participatory disinformation that single-post analyses miss.",
+  "key_claims": [
+    "Deep stories are defined not only by their content but by how they are told; storytelling style is itself a critical component of what a story means to its audience.",
+    "Online storytelling around elections is a collaborative performance among influencers, political elites, and audiences, shaped by platform affordances and the attention economy.",
+    "Between 2020 and 2022, the style of election rumoring shifted: in 2020 tweets more often explained 'story specifics' (how alleged fraud occurred), whereas in 2022 tweets more often presented artifacts/events with little explanation, relying on audiences to fill in meaning via the established deep story.",
+    "Audiences in 2022 interpreted novel, ambiguous events through the lens of the 2020 deep story of voter fraud, with influencer cues activating that interpretive frame.",
+    "Misinformation dynamics cannot be adequately assessed from individual posts alone because much of what makes content misleading lives in the surrounding narrative context.",
+    "Combining theories of participatory disinformation, collective sensemaking, and deep stories yields a more contextual framework for evaluating false and misleading information."
+  ],
+  "methods": [
+    "Interpretive, grounded analysis of election-related Twitter discourse from the 2020 and 2022 U.S. national elections, drawing on Election Integrity Partnership datasets (over a billion tweets total, with millions sorted into 'incidents').",
+    "Purposive sampling of the top five largest incidents per election year (10 incidents total), refining 2020 incidents to event-specific subsets comparable to 2022 incidents.",
+    "Two sampling strategies per incident: a per-tweet sample (~100 tweets: top 25 retweeted, 25 random, 50 quote tweets) and a larger per-incident sample (~350 tweets: top 50 retweeted, 100 random, 250 quote tweets).",
+    "Development of two iterative qualitative codebooks—one applied to individual tweets (e.g., 'Explains story specifics,' 'Presents artifact/event without describing meaning,' framing codes) and one applied at the incident level (story specifics and meta-frames).",
+    "Multi-coder process with arbitration by an outside expert coder, consensus coding, and inter-rater reliability testing (Cohen's kappa .78 and .73 on key codes).",
+    "Thematic analysis combined with quantitative temporal visualizations of tweet volume and code distributions, plus in-depth case study interpretation."
+  ],
+  "findings": [
+    "Across all 2020 incidents, 'Explains story specifics' was more prevalent than 'Presents artifact/event without describing meaning,' indicating substantial work spent constructing the mechanics of alleged fraud.",
+    "Across conservative-leaning 2022 incidents, 'Presents artifact/event without describing meaning' was more prevalent than 'Explains story specifics,' suggesting reliance on audiences' prior knowledge of the deep story to interpret ambiguous content.",
+    "In Maricopa County 2022 (tabulator issues, treasurer-vs-governor vote totals, Kari Lake amplifying voter testimonials), influencers shared events and footage with minimal explicit interpretation, while audiences supplied fraud framings consistent with the 2020 narrative.",
+    "In the USPS/DeJoy case, 2020 discourse built an intersubjective narrative of intentional sabotage, while 2022 discourse mostly invoked that narrative as common knowledge to mobilize calls to 'Fire DeJoy.'",
+    "Deep-story dynamics were often invisible at the level of single tweets but became legible when analyzed at the incident level, motivating the dual codebook approach.",
+    "Storytelling cues (e.g., naming 'Box 3,' 'Sharpie,' 'Dominion,' 'DeJoy') functioned as allusive triggers that activated the deep story without requiring explicit claims."
+  ],
+  "contributions": [
+    "Theoretical: extends the concept of 'deep stories' (Hochschild; Polletta and Callahan) by arguing that how stories are told—their style, allusiveness, and platform-mediated performance—is constitutive of their meaning, and integrates deep stories with collective sensemaking and participatory disinformation.",
+    "Empirical: longitudinal, cross-cycle examination of election rumoring on Twitter showing how the storytelling style shifted from explanation-heavy in 2020 to allusion- and cue-heavy in 2022 as the deep story matured.",
+    "Methodological: a dual-codebook design pairing tweet-level and incident-level qualitative coding with quantitative visualizations, offering a template for studying ambiguous, context-dependent misinformation that resists single-post measurement."
+  ],
+  "framing": "The paper situates itself within CSCW and HCI scholarship on collective sensemaking, online rumoring, and participatory disinformation, building directly on Starbird et al. and Prochaska et al.'s work on elite-influencer-audience collaboration in election denial discourse. It engages debates about whether misinformation's impact is overstated by reframing the question around contextual, narrative dynamics rather than discrete claims, drawing on Weick's sensemaking, Klein's data-frame theory, Shibutani's rumor theory, and Hochschild's 'deep story' to bridge sociology of narrative with social computing.",
+  "pdf_source": "drive"
+}

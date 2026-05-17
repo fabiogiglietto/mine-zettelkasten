@@ -1,0 +1,43 @@
+{
+  "abstract": "This study examines the organizational structure and evolution of the St Petersburg Internet Research Agency (IRA), the 'troll factory' owned by Yevgeny Prigozhin, between 2013 and 2021. Using an open-source intelligence (OSINT) approach, the authors analyze 350 CVs self-published by former IRA employees on Russian job search platforms HeadHunter and SuperJob. The analysis reveals demographic patterns, recruitment dynamics, a five-level hierarchy, and the IRA's integration into Russia's media labor market. The IRA, along with Prigozhin's Patriot Media Group, was dissolved following the Wagner Group's June 2023 mutiny and Prigozhin's death in August 2023.",
+  "key_claims": [
+    "The IRA primarily recruited young (early twenties), inexperienced individuals with degrees from St Petersburg universities, contradicting some prior reports about its workforce composition.",
+    "A significant spike in recruitment coincided with Russia's annexation of Crimea in March 2014, suggesting the IRA was not primarily created to target the 2016 US presidential election.",
+    "The IRA operated as a covert organization structurally similar to a medium-sized media or PR company, with a five-level hierarchy and both stable and project-based subunits.",
+    "The IRA was integrated into the Russian media labor market, with former employees moving seamlessly into sales, marketing, social media marketing, and journalism positions.",
+    "The IRA is best understood as 'outsourced trolls' privately operated by Prigozhin with Kremlin approval, rather than as directly state-funded, distinguishing it from Chinese state-led models or Russian intelligence-embedded units.",
+    "The IRA's activities extended beyond disinformation narrowly defined to include covert ('black') propaganda, PR, marketing, and promotional culture work."
+  ],
+  "methods": [
+    "Open-source intelligence (OSINT) approach using publicly available data.",
+    "Manual collection of 393 (later deduplicated to 350) CVs of former IRA employees from HeadHunter (hh.ru) and SuperJob (superjob.ru) in late 2021 and early 2022.",
+    "Searching CVs by known IRA-affiliated entity names (e.g., GlavSet, MediaSintez, Internet-issledovaniya, etc.).",
+    "Automated extraction of structured data using JavaScript code, followed by manual coding of variables (education, university location, job categories) with inter-coder reliability testing (Krippendorff's α = 0.947).",
+    "Qualitative coding of free-text job description fields in MaxQDA using a grounded theory approach with open and axial coding.",
+    "Ethics protocol approved by University of Passau IRB, with pseudonymization and restricted data sharing.",
+    "Explicit assessment of potential self-selection, temporal, and social desirability biases."
+  ],
+  "findings": [
+    "The IRA workforce was 52% male and 48% female; median age was 26; 98.7% Russian citizens; median tenure 2.3 years.",
+    "78.3% held university degrees, with 78.3% of those from St Petersburg universities; most common fields were economics/management (22.2%) and journalism/PR/advertising (19.2%).",
+    "27.4% had no prior work experience when hired; only 14.3% reported advanced English skills, indicating limited capacity for foreign-language operations.",
+    "Recruitment peaked in early-to-mid 2014 (51 hires in Q1 2014 alone), aligning with the Crimea annexation; a sharp decline occurred in summer 2016 before the US election.",
+    "The IRA had broadly six functional task areas: mimicking ordinary citizens, mimicking journalism, advertising/marketing, media monitoring/analysis, visual propaganda, and administrative/technical support.",
+    "A five-level hierarchy was identified: specialists, content managers/journalists, team leaders/editors, deputy heads/editors-in-chief, and CEOs.",
+    "The IRA targeted a wide range of platforms including Twitter, Facebook, Instagram, Telegram, YouTube, TikTok, Tumblr, VK, OK, LiveJournal, Yandex services, and Pikabu, operating VK groups (AKULA, Derzkii kvadrat) and YouTube channels (Meet Bob, Chto esli, Kratkaya istoriya) still active in 2025.",
+    "The IRA used sophisticated advertising tools (Google AdWords, Yandex.Direct, CPA networks, teaser networks) and in-house tools like a Russian-language synonymizer and Telegram/VK bots.",
+    "32 CVs documented transitions from the IRA to Prigozhin's Patriot Media Group, often with identical job descriptions.",
+    "Camouflage companies continued employing staff even after their formal closure between 2017 and 2019."
+  ],
+  "contributions": [
+    "First systematic academic study of the IRA's organizational structure, workforce, and evolution rather than its content output.",
+    "Introduces a novel OSINT-based methodology using self-published CVs to study covert disinformation organizations, applicable to comparable cases globally.",
+    "Provides reliable demographic data resolving prior contradictions in journalistic reports about the IRA workforce.",
+    "Documents the IRA's five-level hierarchy and six functional task categories in detail.",
+    "Demonstrates the IRA's integration into the legitimate Russian media labor market, extending Ayeb and Bonini's (2024) framing of disinformation-for-hire organizations as embedded in national media industries.",
+    "Offers an empirically grounded characterization of the IRA as Kremlin-aligned 'outsourced' rather than state-funded, with implications for theorizing state-private disinformation arrangements.",
+    "Supports Harsin's (2024) call to broaden disinformation-for-hire scholarship beyond narrow definitions to include propaganda, PR, promotion, political consulting, and post-truth."
+  ],
+  "framing": "The paper positions itself within the emerging interdisciplinary literature on the global 'disinformation-for-hire' industry (Grohmann & Ong 2024; Ong & Cabañes 2019; Ayeb & Bonini 2024), critiquing the field's overwhelming reliance on content analysis of platform-released datasets and its consequent neglect of organizational dimensions. It draws on production studies, OSINT methodology from intelligence studies, and propaganda theory (Jowett & O'Donnell; Harsin) to recast troll factories as labor-market actors embedded in national media ecosystems rather than as isolated covert operations.",
+  "pdf_source": "drive"
+}

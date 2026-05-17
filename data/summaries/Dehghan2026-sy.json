@@ -1,0 +1,38 @@
+{
+  "abstract": "This study examines cross-ideological communication across 11 major political subreddits over 16 years, analyzing overlaps in users, information sources, cross-posting, cross-commenting, subreddit links, and discursive identities. The authors find minimal overlap across all these indicators, even among discursively resonant subreddits, challenging the view of r/politics as a cross-ideological 'town square.' They argue that polarization on Reddit emerges from an entanglement of platform design, moderation practices, user agency, discourses, and socio-political context, producing what they call the 'sedimentation of polarisation.'",
+  "key_claims": [
+    "Political subreddits exhibit minimal cross-ideological interaction, with overlaps far below statistically expected levels even between discursively similar communities.",
+    "r/politics does not function as a Habermasian public sphere or town square for cross-ideological deliberation; truly partisan users largely do not participate there.",
+    "Polarization on Reddit is irreducible to discourse, platform design, or moderation alone—it arises from a 'discursive-digital entanglement' of these factors.",
+    "Polarization is 'sedimented' as a precondition rather than an outcome: political subreddits operate as if already in opposition to all others, regardless of actual discursive similarity.",
+    "Fragmentation extends beyond a simple left-right binary, occurring even between ideologically aligned subreddits (e.g., r/Conservative vs. r/conservatives).",
+    "Moderation practices, both human and automated (e.g., AutoModerator), materially shape and constrain communicative possibilities within each subreddit."
+  ],
+  "methods": [
+    "Mixed-methods analysis of 16 years of submissions and comments from 11 major political subreddits (e.g., r/politics, r/Conservative, r/Libertarian, r/progressive, r/democrats, r/Republican, r/esist, r/DemocraticSocialism).",
+    "Construction of a Normalised Similarity Score (NSS) comparing observed overlaps to expected overlaps based on geometric means of contribution rates and contributor counts.",
+    "Analysis of overlaps across multiple dimensions: shared domains, shared URLs, linked subreddits in submissions and comments, cross-submitting users, and cross-commenting users.",
+    "Corpus-assisted discourse analysis using keyness analysis (log-likelihood) in AntConc 4.3.1, with r/politics as the reference corpus against each subreddit as a target corpus.",
+    "Thematic analysis of subreddit page descriptions, rules widgets, and wikis by two independent coders to identify moderation features."
+  ],
+  "findings": [
+    "No subreddit pair achieved an NSS ≥ 1.0 on shared domains; highest overlaps occurred between discursively resonant pairs (e.g., r/progressive and r/DemocraticSocialism at 0.879).",
+    "URL-level overlaps were dramatically lower than domain-level overlaps (e.g., r/progressive–r/DemocraticSocialism dropped from 0.879 to 0.094), indicating different specific stories are shared even from common sources.",
+    "Cross-posting between subreddits never exceeded NSS = 0.206; cross-commenting never exceeded NSS = 0.280, indicating users rarely contribute outside their 'homebase.'",
+    "r/politics shows uniformly low overlaps with both left- and right-leaning subreddits, contradicting claims of clear left-leaning bias and undermining its framing as a bridging space.",
+    "Right-leaning subreddits cluster around shared antagonists ('woke,' 'cancel culture,' 'the left'), while r/Conservative emphasizes culture-war topics and r/Republican focuses more on policy and immigration.",
+    "Left-leaning subreddits show greater topical diversity: r/Liberal focuses on gun control and gender; r/democrats on electoral politics; r/progressive on economic/social reform; r/DemocraticSocialism on Marxist-inflected economic critique; r/esist on anti-Trump resistance.",
+    "Moderation rules visibly shape linguistic style: subreddits with strict civility rules (r/Liberal, r/Republican) show little derogatory language, while less-moderated spaces (r/republicans) use more loaded terms ('libtards,' 'demoncraps').",
+    "Subreddit splits (e.g., r/conservatives forming as a 'minimally moderated' alternative to r/Conservative) demonstrate that intra-ideological polarization can emerge from moderation conflicts."
+  ],
+  "contributions": [
+    "Introduces the concept of 'sedimentation of polarisation' as a discursive-digital condition that serves as the precondition rather than outcome of polarized communication.",
+    "Develops a Normalised Similarity Score (NSS) methodology for comparing cross-community overlaps while accounting for differing subreddit sizes and activity levels.",
+    "Provides large-scale empirical evidence that r/politics does not function as a cross-ideological public sphere, challenging a recurring framing in the literature.",
+    "Extends polarization research beyond the left-right dichotomy by demonstrating fragmentation among ideologically similar subreddits.",
+    "Advances a non-hierarchical analytical framework integrating platform design, moderation, user agency, and discourse as entangled co-constituents of polarization.",
+    "Contributes to the comparatively underdeveloped empirical literature on Reddit as a site of political communication."
+  ],
+  "framing": "The paper positions itself against two dominant tendencies in digital political communication research: the overemphasis on Twitter/Facebook and the privileging of user discourse/agency over platform materiality. Drawing on Laclau and Mouffe's discourse theory (especially Laclau's notion of sedimentation), assemblage thinking, and critiques of Habermasian public sphere theory, it argues for a 'discursive-digital entanglement' approach that treats platform features, moderation, and discourse as inseparable co-constituents of political communication dynamics.",
+  "pdf_source": "drive"
+}

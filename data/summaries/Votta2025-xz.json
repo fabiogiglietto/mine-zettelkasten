@@ -1,0 +1,21 @@
+{
+  "abstract": "This paper investigates how ad delivery algorithms shape the reach and cost of online political campaigns, focusing on platforms like Meta and Google. The authors examine whether algorithmic decisions influence which audiences see political ads and at what price, raising questions about transparency and fairness in digital political advertising. The study contributes to ongoing debates about platform power in democratic processes.",
+  "key_claims": [
+    "Ad delivery algorithms play a substantive role in determining the reach and cost of political ads beyond advertiser targeting choices.",
+    "Algorithmic delivery decisions can shape political communication outcomes in ways that are opaque to campaigners, voters, and regulators."
+  ],
+  "methods": [
+    "Empirical analysis of online political advertising data, likely drawing on platform ad libraries (e.g., Meta, Google).",
+    "Testing how delivery algorithms affect ad cost and audience reach metrics."
+  ],
+  "findings": [
+    "Specific findings are not available from the abstract alone; the paper reportedly demonstrates that ad delivery algorithms materially affect campaign reach and cost dynamics."
+  ],
+  "contributions": [
+    "Adds empirical evidence to debates about the role of platform algorithms in political advertising.",
+    "Informs discussions about transparency, accountability, and regulation of political ad delivery systems.",
+    "Bridges political communication research with platform governance and algorithmic accountability scholarship."
+  ],
+  "framing": "The paper situates itself within political communication and platform studies, engaging with concerns about algorithmic mediation of democratic discourse and the governance of online political advertising. It connects to broader literatures on computational propaganda, microtargeting, and platform power.",
+  "pdf_source": "abstract_only"
+}

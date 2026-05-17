@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper studies the partisan consequences of Brazil's 2024 nationwide ban on X (formerly Twitter), imposed by the Supreme Court following disputes over misinformation. Using an event-study design on a panel of politically engaged users with ideal-point estimates of ideology, the authors show that conservative users disproportionately circumvented the ban while liberal users went silent, shifting the platform's news environment rightward. These effects persisted months after the ban was lifted, suggesting that platform bans in democracies can produce durable partisan 'sorting ratchets' that deepen polarization.",
+  "key_claims": [
+    "Platform bans in polarized democracies create a 'sorting ratchet' that segments the digital public sphere along partisan lines.",
+    "Compliance with a politicized platform ban is shaped by partisan identity through both reputational (expressive) and instrumental (informational) incentives.",
+    "Conservative (anti-government) users in Brazil were more likely to circumvent the X ban, while liberal users were more likely to comply by going silent or leaving.",
+    "The partisan composition and news content on X shifted rightward during the ban and remained more right-leaning even after the ban was lifted, indicating durable rather than fully reversible effects.",
+    "Democratic platform bans aimed at curbing misinformation may unintentionally deepen polarization and reshape information environments long-term."
+  ],
+  "methods": [
+    "Case study of Brazil's August 30 – October 8, 2024 nationwide ban on X following Supreme Court action.",
+    "Collected ~14 million Portuguese-language tweets with URLs via the X Decahose API for 90 days pre-ban to estimate ideology.",
+    "Estimated ideal points for users and news domains using correspondence analysis on a user-by-domain news-sharing matrix (9,061 users; 242 political domains), with GPT-4o zero-shot classification plus manual review to identify political/news domains.",
+    "Validated ideology scores against survey-based audience ideology measures from Mont'Alverne et al. (2024), obtaining a Pearson correlation of 0.85.",
+    "Scraped timelines (June 1–December 31, 2024) for 7,471 politically engaged users via Nitter, yielding ~6.7M tweets and ~430K political news shares.",
+    "Poisson event-study (flexible difference-in-differences) models with user and day fixed effects, clustered standard errors, estimating monthly partisan differences in posting and news-sharing rates; robustness checks with OLS, varying bandwidths (10/30 days), alternative ideology cutoffs, and engagement outcomes (likes, replies, quotes, retweets).",
+    "Descriptive analyses of user dropout, distributional shifts in user ideology, news-environment ideology over time, and concentration of engagement across the ideological spectrum."
+  ],
+  "findings": [
+    "Overall posting and news sharing on X collapsed during the ban (daily averages fell from ~37,207 tweets and 2,587 news shares to ~11,305 and 395, respectively).",
+    "Right-leaning users increased their posting rate by roughly 5.8 times relative to left-leaning users during the ban (β=1.76, z=12.6); similar but noisier patterns held for news-domain sharing.",
+    "The weighted median ideology of shared news rose from 0.27 (pre-ban) to 1.26 (during ban) and remained elevated at 0.30 after, with the during-ban environment ~1.05 SD more right-leaning.",
+    "Of 7,291 pre-ban active users, 2,346 went silent during the ban and 656 never returned; left-leaning users disproportionately dropped out, shifting the active user base rightward.",
+    "Engagement (likes, retweets, quotes, replies) became highly concentrated among right-leaning users: their share of likes rose from ~73% pre-ban to ~90% during the ban and remained around 80% post-ban.",
+    "Partisan divergence in activity began before formal enforcement, coinciding with the escalation of the legal conflict in mid-August 2024.",
+    "Results are robust across alternative bandwidths, ideology cutoffs, OLS specifications, and multiple engagement outcomes."
+  ],
+  "contributions": [
+    "Provides one of the first causal analyses of a social-media platform ban in a democratic, polarized context, extending a literature dominated by authoritarian cases.",
+    "Introduces and empirically documents the concept of a 'sorting ratchet': asymmetric partisan compliance that durably reshapes platform composition even after restrictions end.",
+    "Combines correspondence-analysis-based ideal-point estimation of users and news domains with an event-study design to measure partisan effects on information environments.",
+    "Demonstrates that platform-level governance interventions, not just within-platform algorithmic dynamics, can produce platform-wide polarization and persistent shifts in news ecosystems.",
+    "Highlights a policy trade-off for democratic regulators: misinformation-targeting bans may reallocate, rather than neutralize, partisan control of information environments."
+  ],
+  "framing": "The paper situates itself at the intersection of research on information control (largely studied in authoritarian regimes), partisan compliance with public policy, and the political consequences of platform moderation in polarized democracies. It extends political communication scholarship on echo chambers and platform polarization by shifting the focus from within-platform sorting to between-platform sorting induced by state regulation, engaging debates on democratic digital governance and the politicization of platform rules.",
+  "pdf_source": "drive"
+}

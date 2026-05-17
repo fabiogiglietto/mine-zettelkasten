@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper investigates whether government control of media influences the outputs of large language models (LLMs) via their training data. Through six interlocking studies—five focused on China as a case study and one cross-national audit covering 37 language-exclusive countries—the authors show that state-coordinated media content appears in widely-used training corpora, is memorized by commercial LLMs, and causes models to produce more pro-regime responses when queried in languages associated with countries that have lower media freedom. The findings suggest that LLMs can 'launder' state-manipulated content into seemingly objective answers, with implications for how powerful institutions may strategically shape AI outputs.",
+  "key_claims": [
+    "State control of media is already reflected in LLM training data and influences commercial model outputs, representing a distinct form of institutional influence separate from direct regulatory control.",
+    "LLMs exhibit stronger pro-government valence when queried in the languages of countries with lower media freedom than in languages of countries with higher media freedom.",
+    "Chinese state-coordinated (scripted and curated) media is present in open-source training datasets and is memorized by widely-used commercial LLMs at higher rates than common Chinese-language phrases.",
+    "Additional pretraining on Chinese state-scripted news causes open-weight models (Llama 2 13b) to produce more favorable responses toward Chinese political institutions and leaders, especially when prompted in Chinese, with spillover to languages sharing tokens.",
+    "Commercial models (GPT-3.5, GPT-4o, Claude Sonnet, Claude Opus) produce more pro-China responses when prompted in Chinese than in English, with spillover favorability toward Russia and North Korea.",
+    "Powerful institutions have strategic incentives—and may have growing technical capacity—to exploit training data pathways to influence LLM outputs."
+  ],
+  "methods": [
+    "Study 1: Five-word gram cosine similarity matching of ~189 million Chinese-language CulturaX documents against 530,694 scripted news articles and 198,872 Xuexi Qiangguo articles, with politically salient keyword filtering.",
+    "Study 2: Memorization audit of commercial LLMs (Claude Sonnet/Opus, GPT-3.5 Instruct, GPT-4, GPT-4o), using lasso regression to identify 20-word phrases distinctive of state-coordinated media vs. CulturaX, then prompting models with first 10 words and measuring edit distance to true completions.",
+    "Study 3: Continued pretraining experiments on Llama 2 13b (replicated on Llama 3.1) using LoRA, comparing three corpora—scripted state news, non-scripted state-controlled news matched on topic/date, and random CulturaX samples—followed by English instruction fine-tuning and GPT-4o-judged favorability evaluation across multiple languages.",
+    "Study 4: Pre-registered audit comparing English vs. Chinese prompts on political questions, evaluated by nine human research assistants (for GPT-3.5) and LLM-as-judge (Claude Opus, GPT-4o) across six countries.",
+    "Study 5: Replication of Study 4 design using real-user prompts from WildChat (ChatGPT logs), Baidu Zhidao, and Zhihu that reference Xi Jinping or the CCP.",
+    "Study 6: Cross-national audit with 6,051 prompts across 37 language-exclusive countries (where >70% of speakers live in one country), comparing target-language vs. English completions against World Press Freedom Index scores."
+  ],
+  "findings": [
+    "Approximately 1.64% of Chinese-language CulturaX documents have substantial textual overlap with state-coordinated media; rates rise to 3.28–23.98% for documents containing politically salient keywords (e.g., Xi Jinping, Party Congress, CCP).",
+    "State-coordinated 20-word phrases are memorized by major commercial LLMs at rates of 3–10%, equal to or higher than common CulturaX phrases.",
+    "After only 6,400 additional pretraining examples of scripted news, Llama 2 produces more pro-Chinese-government responses than the base model ~80% of the time; scripted news produces stronger effects than non-scripted state-controlled news or random CulturaX content.",
+    "Pretraining effects spill over most strongly to traditional Chinese, Japanese, and Korean, languages with token overlap with simplified Chinese.",
+    "Human raters judged GPT-3.5's Chinese-prompted responses as more favorable to China 75.3% of the time (vs. ~50% for non-China prompts); larger models showed stronger Chinese-prompt favorability (e.g., 88.2% for Claude Opus vs. 68.8% for Claude Sonnet).",
+    "Real-user prompts from WildChat, Baidu Zhidao, and Zhihu replicate the cross-language favorability gap.",
+    "Across 37 countries, lower media freedom correlates with greater favorability of target-language responses relative to English; high-media-freedom countries show flat or even negative associations."
+  ],
+  "contributions": [
+    "Provides the first systematic empirical evidence that state media control shapes commercial LLM outputs via training data, rather than through direct regulation.",
+    "Introduces a multi-study triangulation design (open data analysis, memorization audits, pretraining experiments, cross-language audits, and cross-national audits) for tracing institutional influence on LLMs.",
+    "Bridges social science literature on media systems and propaganda with computer science work on multilingual training, memorization, and model bias.",
+    "Demonstrates a generalizable mechanism—language exclusivity combined with institutional content production—that extends beyond China and beyond state actors (illustrated with a vaccine-schedule mini-case study).",
+    "Releases a public project website replicating key studies on newer models and providing interactive access to data."
+  ],
+  "framing": "The paper situates itself at the intersection of research on LLM persuasion, algorithmic bias and training data, and political communication scholarship on authoritarian media control and propaganda. It extends critiques of training-data-driven bias (e.g., 'stochastic parrots,' algorithmic oppression) into the geopolitical domain, arguing that political power embedded in media environments—not just design choices or cultural variation—shapes generative AI. The work positions itself against narrower debates about direct model regulation (e.g., DeepSeek, Grok, Gemini) by highlighting an indirect, possibly unintentional pathway of institutional influence.",
+  "pdf_source": "drive"
+}

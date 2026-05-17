@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper presents a case study of the #IStandWithPutin hashtag campaign on social media, examining how pro-Kremlin propaganda leveraged platform features and information ecosystems to spread its message. Graham argues that contemporary propaganda does not merely circumvent truth-verification systems but actively exploits the very infrastructures designed to support credible information. The study contributes to critical media and communication scholarship on disinformation, platform governance, and influence operations.",
+  "key_claims": [
+    "Propaganda campaigns like #IStandWithPutin succeed by exploiting, rather than evading, the platform infrastructures that underpin truthful communication.",
+    "The architecture of social media platforms — including hashtags, algorithmic amplification, and verification systems — can be weaponized to lend credibility and reach to propaganda.",
+    "Understanding propaganda today requires attention to how it parasitizes the 'infrastructure of truth' rather than simply producing falsehoods."
+  ],
+  "methods": [
+    "Case study approach focused on the #IStandWithPutin hashtag campaign.",
+    "Analysis of social media data and platform dynamics surrounding the campaign (specific datasets and analytic techniques not specified in the abstract).",
+    "Critical media studies framing applied to the empirical material."
+  ],
+  "findings": [
+    "The #IStandWithPutin campaign exhibited features consistent with coordinated propaganda operations.",
+    "Platform infrastructures intended to facilitate authentic discourse were instrumentalized to amplify pro-Kremlin narratives.",
+    "Propaganda's effectiveness derived in part from mimicking and co-opting trust signals and structural affordances of platforms."
+  ],
+  "contributions": [
+    "Provides an empirical case study advancing the theoretical claim that propaganda exploits truth infrastructures.",
+    "Bridges critical media studies with disinformation and platform studies scholarship.",
+    "Offers a conceptual framework for analyzing how influence operations leverage rather than bypass platform architectures."
+  ],
+  "framing": "The paper is situated within critical studies of media and communication, engaging debates on disinformation, propaganda, and platform power. It positions itself against accounts that frame propaganda as purely external to or in opposition to truthful information ecosystems, instead arguing for an infrastructural and parasitic understanding of contemporary influence operations.",
+  "pdf_source": "abstract_only"
+}

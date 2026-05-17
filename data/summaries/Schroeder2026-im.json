@@ -1,0 +1,35 @@
+{
+  "abstract": "This Science Policy Forum article argues that the fusion of large language models (LLMs) with multi-agent (agentic) AI architectures enables a new class of threat—malicious AI swarms—that can autonomously coordinate, infiltrate online communities, mimic human social dynamics, and fabricate consensus at scale. The authors map five emerging swarm capabilities and trace pathways by which they could harm democracy, including manufactured consensus, segmented realities, training-data poisoning ('LLM grooming'), coordinated harassment, and erosion of institutional trust. They propose a layered governance and technical response combining continuous detection, provenance tools, defensive AI under strict oversight, an international 'AI Influence Observatory,' and commercial-incentive levers to disrupt manipulation markets.",
+  "key_claims": [
+    "The combination of LLM reasoning with autonomous multi-agent systems constitutes a qualitative leap beyond prior botnets, enabling persistent, adaptive, cross-platform influence operations.",
+    "Malicious AI swarms can engineer synthetic consensus that undermines the independence of judgment on which 'wisdom of crowds' and democratic deliberation depend.",
+    "Swarms threaten democracy not only via direct persuasion but through pathways including epistemic vertigo, training-data contamination, coordinated harassment, attention concentration on elites, and corrosion of procedural trust in institutions.",
+    "Symmetric 'pro-social swarms' cannot reliably counter malicious ones because the attention economy rewards outrage and ethical actors are constrained from using manipulative tactics.",
+    "Voluntary platform compliance is insufficient; pragmatic interventions must target commercial incentives, provenance infrastructure, and independent oversight while avoiding the risks of state-controlled speech regulation.",
+    "The next few years and upcoming elections offer a critical window to operationalize governance mechanisms before swarm-driven manipulation becomes entrenched."
+  ],
+  "methods": [
+    "Conceptual and policy analysis (Science Policy Forum format) rather than empirical study.",
+    "Synthesis of literature on influence operations, multi-agent LLM systems, social contagion, coordinated inauthentic behavior detection, and democratic theory.",
+    "Historical framing comparing print, broadcast, and digital media eras to situate AI swarms in the evolution of the public sphere.",
+    "Case-based reasoning drawing on examples such as the 2016 IRA Twitter operation, the pro-Kremlin 'Pravda' network, and 2024 election cycles in Taiwan, India, Indonesia, and the US.",
+    "Distinction between documented trends, projections, and uncertainties, with countervailing dynamics noted (supplementary materials)."
+  ],
+  "findings": [
+    "Defining features of malicious AI swarms: persistent identities/memory, coordinated objectives with varied tone, real-time adaptation, minimal human oversight, and cross-platform deployment.",
+    "Five capability advances enable swarm threats: fluid real-time coordination (toward emergent 'hive' behavior), social-network mapping and community infiltration, human-level mimicry that evades synchrony-based detectors, self-optimization via real-time A/B testing, and persistent around-the-clock presence.",
+    "Empirical precedent (e.g., IRA 2016) shows human-driven botnets had limited measurable persuasive effect, but AI removes prior cost, cadence, and iteration constraints.",
+    "'LLM grooming' via flooded fabricated content (e.g., Pravda-like networks) appears designed to poison future model training data, embedding adversarial narratives in model weights.",
+    "Detection-based defenses face an arms race; the goal should be raising attacker cost and complexity rather than perfect prevention.",
+    "Provenance mechanisms (passkeys, cryptographic attestations, verified-anonymous posting) raise manipulation costs but cannot fully resolve trade-offs involving privacy, dissident safety, and unverified populations."
+  ],
+  "contributions": [
+    "Introduces and operationalizes the concept of 'malicious AI swarms' as a distinct category beyond coordinated inauthentic behavior or generative-AI disinformation.",
+    "Provides a taxonomy of swarm capabilities and a typology of democratic harm pathways (synthetic consensus, segmented realities, LLM grooming, harassment, FUD/disengagement, elite attention concentration, antidemocratic mobilization, legitimacy erosion).",
+    "Proposes a multilayered governance agenda: always-on detection with public audits, optional user-side 'AI shields,' agent-based simulation stress-tests, watermarked defensive counternarratives under democratic oversight, strengthened provenance, and a distributed 'AI Influence Observatory.'",
+    "Argues for shifting from voluntary compliance to commercial-incentive levers (delisting, no-revenue policies for swarm content, audited bot-traffic metrics) to disrupt the manipulation economy.",
+    "Bridges computer science, political science, communication, and psychology in a cross-disciplinary policy framework authored by a broad expert coalition."
+  ],
+  "framing": "The paper sits at the intersection of AI safety, computational social science, and democratic theory, extending Habermasian concerns about the public sphere into the era of agentic AI. It engages debates on coordinated inauthentic behavior, misinformation, and platform governance, while explicitly positioning itself against both naive market-based solutions and heavy-handed state speech regulation, advocating instead for procedural-legitimacy and incentive-based interventions.",
+  "pdf_source": "drive"
+}

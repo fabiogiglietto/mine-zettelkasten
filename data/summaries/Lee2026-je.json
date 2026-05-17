@@ -1,0 +1,45 @@
+{
+  "abstract": "This paper investigates whether large language models (LLMs) can infer users' political alignment from their online posts, including discussions that are not explicitly political. Using debate arguments from Debate.org and comments from Reddit, the authors evaluate GPT-4o and Llama-3.1-8B on text-level and user-level political alignment inference, comparing against traditional supervised machine learning baselines. They find that LLMs reliably infer political alignment, outperform supervised baselines, and exploit subtle lexical cues — including ostensibly nonpolitical cultural references — that correlate with partisanship. The results highlight both the analytical utility and the privacy risks of LLM-based trait inference.",
+  "key_claims": [
+    "LLMs can reliably infer hidden political alignment from online conversations, including from general (nonpolitical) discourse.",
+    "LLMs significantly outperform traditional supervised machine learning classifiers on this inference task, especially when predictions are aggregated to the user level.",
+    "Aggregating multiple text-level predictions per user, particularly using LLM-reported confidence scores (confidence-weighted or maximum-confidence aggregation), substantially improves inference accuracy.",
+    "Inference performance varies systematically by topical category in ways that are stable across models and platforms, reflecting properties of the discourse rather than artifacts of specific models.",
+    "Categories with greater semantic similarity to political discourse and greater user-participation overlap with political communities yield more accurate political alignment inferences.",
+    "LLMs leverage not only explicitly political vocabulary but also culturally politicized terms (e.g., 'Tesla,' 'Taylor Swift,' 'boomer'), and high model confidence in a word predicts its partisan informativeness.",
+    "These capabilities pose substantive privacy risks, including enabling scalable political micro-targeting from seemingly innocuous public content."
+  ],
+  "methods": [
+    "Constructed two datasets: 3,511 self-identified partisan users (1,776 Republican, 1,735 Democrat) from Debate.org (DDO) with 22,265 arguments across 18,602 debates in 23 categories; and 2,000 Reddit users (1,000 each) labeled via positive-score activity in r/Conservative and r/democrats, yielding ~46,000 subreddit-aggregated texts.",
+    "Validated Reddit labels with a five-annotator human classification study (mean accuracy 0.85, majority-vote 0.92, Fleiss κ = 0.576).",
+    "Used GPT-4o (gpt-4o-2024-08-06) and Llama-3.1-8B-Instruct in zero-shot prompting to predict 'Republican' or 'Democratic' alignment along with an integer confidence score (1–5), via structured JSON outputs.",
+    "Classified Reddit subreddits into the 23 DDO categories using GPT-4o on subreddit descriptions to enable cross-platform comparison.",
+    "Compared three user-level aggregation strategies: majority vote, confidence-weighted average, and maximum-confidence average.",
+    "Benchmarked against supervised ML baselines (Naive Bayes, Logistic Regression, SVM, Random Forest, XGBoost) using TF-IDF and Sentence-BERT (all-mpnet-base-v2) features with 5-fold cross-validation.",
+    "Measured semantic proximity between categories using cosine similarity of Sentence-BERT embeddings (content and title/description), and social proximity using Jaccard similarity and normalized pointwise mutual information (NPMI) of user participation.",
+    "Conducted word-level analyses computing mean LLM confidence per word and category, partisan log-odds via Monroe et al.'s Dirichlet-prior method, and relative partisan usage ratios for word-cloud visualization.",
+    "Performed sensitivity analyses filtering explicit political content from general categories using trained political content classifiers."
+  ],
+  "findings": [
+    "At the text level, GPT-4o achieves macro F1 of 0.647 (DDO) and 0.624 (Reddit); Llama-3.1-8B achieves 0.619 and 0.534, all well above the 0.5 random baseline.",
+    "Model-reported confidence correlates monotonically with accuracy: highest-confidence text groups exceed F1 = 0.8, while lowest-confidence groups perform near chance.",
+    "User-level aggregation improves performance; on Reddit general texts, GPT-4o's maximum-confidence aggregation reaches F1 = 0.799, a 0.193 gain over text-level inference.",
+    "GPT-4o consistently outperforms all supervised ML baselines (best traditional model F1 ≈ 0.612 on DDO, 0.579 on Reddit); Llama-3.1-8B matches or exceeds them at the user level.",
+    "Category-level F1 scores correlate strongly between GPT-4o and Llama-3.1-8B (r = 0.758 on DDO, r = 0.837 on Reddit) and across platforms (r = 0.673 for GPT-4o), indicating stable topical effects.",
+    "'Politics' yields the highest inference accuracy, but 'Religion,' 'Economics,' 'Science,' 'Society,' and 'Health' also enable strong inference (e.g., F1 = 0.742 for DDO Religion with GPT-4o).",
+    "Semantic embedding similarity and user overlap (Jaccard, NPMI) with the Politics category positively correlate with category-level inference performance.",
+    "Higher word-level confidence corresponds to stronger partisan signal; informative high-confidence words include both explicitly political terms (abortion, tax, climate) and politicized cultural terms (Tesla, Taylor Swift, boomer), often used with balanced partisan frequency.",
+    "Results are robust to stricter filters that remove explicit political content from general-topic texts."
+  ],
+  "contributions": [
+    "Demonstrates that off-the-shelf LLMs can perform reliable zero-shot political alignment inference without task-specific training data, surpassing supervised ML baselines.",
+    "Introduces and evaluates confidence-based user-level aggregation methods (confidence-weighted and maximum-confidence averaging) that substantially improve inference accuracy.",
+    "Provides a cross-platform (Debate.org and Reddit) and cross-model (GPT-4o, Llama-3.1-8B) analysis showing that topical informativeness for political inference is a stable property of discourse.",
+    "Links inference performance to interpretable category-level features — semantic similarity and user overlap with political discourse — offering a framework for understanding cross-domain political signal leakage.",
+    "Develops a word-level confidence analysis that surfaces politicized non-political vocabulary, suggesting a methodology for tracking the politicization of culture over time.",
+    "Highlights privacy and democratic risks posed by LLM-enabled trait inference, contributing to ethical and policy debates on micro-targeting and surveillance.",
+    "Releases anonymized data and replication code to support further research."
+  ],
+  "framing": "The paper situates itself at the intersection of computational social science research on inferring private traits from digital traces (e.g., Kosinski et al.'s Facebook Likes work) and emerging work on LLMs' capacity to encode socio-cultural and ideological correlates. It engages debates on political micro-targeting, surveillance, and AI-driven manipulation (e.g., post–Cambridge Analytica concerns) while drawing on text-as-data and embedding-based approaches to political ideology detection. The authors frame LLM-based inference as both a methodological advance for studying politicization of culture and a privacy threat warranting ethical and regulatory attention.",
+  "pdf_source": "drive"
+}

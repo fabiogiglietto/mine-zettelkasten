@@ -1,0 +1,36 @@
+{
+  "abstract": "This perspective argues that public involvement—particularly engagement with lived-experience experts—can improve the scientific rigor of AI evaluation, not merely its social acceptance. The authors situate AI systems as sociotechnical artifacts whose reliability, performance, and security depend on multiple social and organizational layers that purely technical evaluations often miss. Drawing on participatory science literature, case studies from healthcare, policing, child welfare, social media, and the authors' own work, they identify five stages of quantitative AI evaluation where public participation strengthens the science: equipoise, measurement, explanation, inference, and interpretation.",
+  "key_claims": [
+    "AI systems are fundamentally sociotechnical, so reliable evaluation requires accounting for social, organizational, and political layers beyond technical performance.",
+    "Public involvement is not merely a political concession but can materially improve the scientific quality, validity, and reliability of AI evaluations.",
+    "Common scientific concerns about participatory research (lack of generality, subjectivity, reduced reliability, cost/pace/scale) can be addressed through established methods from participatory science.",
+    "Lived-experience expertise contributes uniquely to AI evaluation through situated knowledge that professional scientists typically cannot supply.",
+    "Equipoise, measurement, explanation, inference, and interpretation are five distinct evaluation activities each improved by public participation.",
+    "Trustworthy AI depends on trustworthy science, which in turn depends on inclusive, participatory processes."
+  ],
+  "methods": [
+    "Conceptual and review-based perspective synthesizing literature on participatory science, AI evaluation, fairness, and sociotechnical systems.",
+    "Case study analysis drawing on the authors' fifteen+ years of work in generative AI evaluation, human rights investigations, algorithm audits, predictive policing analyses, and field experiments on human-algorithm behavior.",
+    "Illustrative examples from healthcare (Kaiser Permanente nursing protests, organ allocation), criminal justice (Chicago police complaints via Invisible Institute, Allegheny Family Screening Tool), truth commissions (Guatemala, Colombia with HRDAG), and social media (Reddit field experiments).",
+    "Review of models of public engagement: contributory science, cocreated science, participatory governance."
+  ],
+  "findings": [
+    "Mission-critical AI faces interlocking challenges of reliability, contextual performance, security, and transparency that purely technical evaluation cannot resolve.",
+    "Contributory citizen-science models in AI raise issues of consent and worker treatment but can produce robust data when participants find meaning in contribution.",
+    "Cocreated evaluation has surfaced flaws missed by developers, e.g., HRDAG/ACLU's reanalysis of the Allegheny Family Screening Tool revealed bipartite-ranking bias against Black families that the original AUC-based evaluation missed.",
+    "Community labeling of Chicago police complaints uncovered allegations of sexual violation hidden by official single-category coding.",
+    "Participatory hypothesis testing in a Reddit field experiment yielded a sociotechnical theory of how human fact-checking can affect recommender algorithms.",
+    "Equipoise enables adversarial parties (e.g., truth commissions, organ allocation stakeholders) to commit to evidence-based processes despite competing interests.",
+    "Community debriefing can preserve study validity by identifying mid-study platform changes and unobserved confounders."
+  ],
+  "contributions": [
+    "Articulates a five-part framework (equipoise, measurement, explanation, inference, interpretation) for integrating public involvement into quantitative AI evaluation.",
+    "Bridges qualitative/critical sociotechnical scholarship with quantitative AI evaluation practice.",
+    "Systematically addresses and rebuts common scientific objections to participatory AI research.",
+    "Provides a typology of public-involvement models (contributory, cocreated, participatory governance) as applied to AI.",
+    "Offers concrete case studies demonstrating how lived-experience expertise has improved measurement, inference, and interpretation in real AI evaluations.",
+    "Frames trustworthy AI as dependent on trustworthy, participatory science."
+  ],
+  "framing": "The paper positions itself at the intersection of participatory/civic science, sociotechnical systems scholarship, and AI evaluation methodology, responding both to public demands (e.g., the California Nursing Association protests) for inclusion in AI governance and to scientists' own struggles to produce reliable evaluations. It engages with debates in fairness/ML, algorithm auditing, science and technology studies, and the philosophy of science (notably Popperian falsification and equipoise from medical ethics) to argue that participatory methods are central rather than peripheral to rigorous AI science.",
+  "pdf_source": "drive"
+}

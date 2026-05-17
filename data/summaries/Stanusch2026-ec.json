@@ -1,0 +1,37 @@
+{
+  "abstract": "This article examines how the AI industry imagined and discussed artificial intelligence during the November 2023 controversy surrounding the firing and rehiring of OpenAI CEO Sam Altman. Using controversy mapping and digital methods across LinkedIn and X/Twitter, the authors identify dominant AI imaginaries—Longtermism, Regulatory Ambivalence, and Techno-Hagiography—and analyze how the industry handles the issues these imaginaries raise. They argue the AI industry uses two strategies, 'premediation' (externalizing concerns into a speculative future) and 'preclusion' (internalizing critiques by positioning itself as best able to resolve them), to occupy the future and absorb the present, though counter-imaginaries on X/Twitter show this monopolization is incomplete.",
+  "key_claims": [
+    "The Altman firing/rehiring controversy functioned as a critical moment that surfaced broader AI imaginaries and issuefied concerns about AI accountability, regulation, and futures.",
+    "Three dominant AI imaginaries emerge from industry-aligned discourse: Longtermism, Regulatory Ambivalence, and Techno-Hagiography.",
+    "The AI industry manages controversy through 'premediation' (deflecting present critiques into speculative futures) and 'preclusion' (absorbing critiques by positioning itself as the appropriate problem-solver).",
+    "Imaginaries should be studied as occasions of issuefication—as actively doing work in shaping which concerns become salient and which are made invisible.",
+    "Counter-imaginaries on X/Twitter (Governing Urgency, Intersectionality, Technological Sublime) demonstrate that the AI industry's monopolization of AI's future framing is not yet complete.",
+    "Present-day concerns such as climate impact, labor effects, and historical comparison were notably absent from the discourse during the controversy."
+  ],
+  "methods": [
+    "Controversy mapping in the Latourian tradition, treating the Altman incident as an opportune moment for tracing actor associations.",
+    "Cross-platform digital methods analysis of LinkedIn and X/Twitter posts about Sam Altman and OpenAI (Nov 2023–Jan 2024).",
+    "Data scraping via the Zeeschuimer browser extension, using research accounts due to API closures; LinkedIn queries [Sam Altman], [#samaltman], [@samaltman] yielded ~1,900 posts.",
+    "For X/Twitter, scraping ~1,700 posts from accounts compiled via Google queries on AI research/safety/ethics/justice/risk/harms, listing 101 organizations and selecting three associated accounts each.",
+    "Network analysis in Gephi: co-hashtag and mention networks for LinkedIn; retweet networks for X/Twitter, with the 4CAT toolkit used for filtering.",
+    "Three-step inductive qualitative coding: ethnographic content analysis of posts, identification of keywords/actors/issues, and labeling of emergent imaginaries.",
+    "Ethical anonymization through paraphrasing post content and removing usernames."
+  ],
+  "findings": [
+    "On LinkedIn, three imaginaries dominated: Longtermism (focused on AGI, superalignment, existential risk), Techno-Hagiography (mythologizing Altman as a lone-genius hero), and Regulatory Ambivalence (acknowledging need for regulation while resisting external oversight).",
+    "LinkedIn also featured substantial 'LinkedIn Talk' (self-promotion, recruitment, tech innovation) and Cryptocurrency-related discourse leveraging the controversy.",
+    "On X/Twitter, counter-imaginaries emerged: Governing Urgency (demanding strong governmental regulation and distrusting Big Tech self-regulation) and Intersectionality (highlighting white male dominance, racism, and anti-Palestinian bias, including the Tal Broda controversy).",
+    "An imaginary of the Technological Sublime emerged around copyright issues and the black-boxed unpredictability of AI capability.",
+    "Issues such as AI's environmental costs, labor implications, slow AI alternatives, and historical comparisons were notably absent from the controversy discourse.",
+    "Longtermism's roots trace to early-2000s effective altruism, x-risk, and AI Safety communities, which displace present-day harms with speculative future threats."
+  ],
+  "contributions": [
+    "Introduces a framework analyzing imaginaries as sites of issuefication and identifies 'premediation' and 'preclusion' as concrete tactics by which the AI industry manages controversy.",
+    "Provides an empirical, cross-platform mapping of AI imaginaries during a discrete and high-visibility AI controversy.",
+    "Extends controversy mapping and digital methods to the study of AI industry self-representation on professional and discourse-oriented platforms.",
+    "Demonstrates platform specificity: LinkedIn as an aspirational space reinforcing industry imaginaries versus X/Twitter as a more contested discourse space hosting counter-imaginaries.",
+    "Contributes to critical AI studies and Big Tech concentration literature by showing how industry actors absorb and redirect critique."
+  ],
+  "framing": "The paper situates itself at the intersection of critical AI studies, Science and Technology Studies, and digital methods, drawing on Jasanoff and Kim's sociotechnical imaginaries, Latour's actor-network theory and controversy mapping, Marres and Rogers's concept of issuefication, and Grusin's notion of premediation. It positions itself within debates about Big Tech concentration and the 'responsibility turn' in AI governance, arguing that industry imaginaries must be studied as active, issue-shaping participants rather than mere narratives.",
+  "pdf_source": "drive"
+}

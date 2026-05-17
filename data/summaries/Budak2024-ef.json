@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper argues that public discourse about online misinformation has diverged significantly from the empirical scientific evidence. The authors identify three widespread misperceptions held by journalists, public intellectuals, and commentators regarding the prevalence of problematic content, the role of algorithms in driving exposure, and the relationship between social media and broader societal harms. They contend that correcting these misperceptions is necessary to align public debate and policy responses with what research actually shows.",
+  "key_claims": [
+    "Public discourse about the harms of online misinformation is inconsistent with much of the current empirical evidence.",
+    "Average exposure to problematic content online is lower than commonly claimed.",
+    "Algorithms are not the primary driver of exposure to misinformation as often assumed.",
+    "Claims that social media is a primary cause of broad societal harms are overstated relative to evidence."
+  ],
+  "methods": [
+    "Review and synthesis of existing empirical literature on online misinformation exposure and effects.",
+    "Critical analysis comparing claims made in public discourse against research findings."
+  ],
+  "findings": [
+    "Exposure to false or problematic content is concentrated among a small subset of users rather than being widespread on average.",
+    "Algorithmic recommendation systems play a smaller role in misinformation exposure than commonly asserted, with user choice and social networks also contributing.",
+    "Causal links between social media use and large-scale societal outcomes are weaker or more contested than public narratives suggest."
+  ],
+  "contributions": [
+    "Articulates and names three specific misperceptions that recur in public commentary about online misinformation.",
+    "Highlights the gap between popular narratives and scientific consensus on misinformation harms.",
+    "Provides a framework for journalists, policymakers, and researchers to more accurately characterize the harms of online misinformation."
+  ],
+  "framing": "The paper positions itself within ongoing debates in communication research, political science, and science-policy interfaces about how to characterize the societal effects of social media and misinformation. It engages with the tension between alarmist public narratives and a growing body of empirical work that finds more limited or heterogeneous effects.",
+  "pdf_source": "abstract_only"
+}

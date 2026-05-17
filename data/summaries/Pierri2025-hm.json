@@ -1,0 +1,32 @@
+{
+  "abstract": "This commentary, written by researchers involved in EU policy discussions on the Digital Services Act (DSA), examines the opportunities and obstacles facing Article 40, which grants vetted researchers access to data from very large online platforms (VLOPs) and search engines (VLOSEs). The authors draw on their experience in an 18-month ERC-supported pilot program with DG-CONNECT and national Digital Services Coordinators, plus a roundtable with major platforms. They identify misaligned incentives, power and resource asymmetries, and implementation bottlenecks as central challenges, and propose three recommendations: streamlining access procedures, supporting independent research, and closing regulatory blind spots such as large language models.",
+  "key_claims": [
+    "Article 40 of the DSA is a landmark mechanism for platform transparency and accountability, but significant legal, technical, and organizational barriers persist in practice.",
+    "Platform-led 'independence by permission' research models are insufficient because industry-led research tends to produce findings aligned with corporate interests.",
+    "Severe asymmetries in resources, information, legal capacity, and public reach between platforms and academic researchers threaten the DSA's effectiveness.",
+    "A circular resource problem disadvantages early-career and under-resourced researchers: data access is needed to win grants, but funding is needed to pursue data access.",
+    "Large language models (e.g., ChatGPT, Grok) meet the DSA's criteria for systemic risk and constitute a regulatory blind spot that should be urgently addressed.",
+    "Without robust enforcement, industry resistance risks weakening the DSA's transparency goals."
+  ],
+  "methods": [
+    "Collective expert commentary synthesizing the authors' direct participation in EU policy processes.",
+    "Insights from an 18-month ERC-supported pilot program connecting researchers, DG-CONNECT, and national Digital Services Coordinators (DSCs).",
+    "Roundtable discussions with major online platforms and the European Commission.",
+    "Review of relevant literature on platform research, industry influence in AI, and DSA legal scholarship."
+  ],
+  "findings": [
+    "Platforms have expressed varying degrees of reluctance to direct data sharing, sometimes alluding to potential legal action against researchers and NGOs.",
+    "A documented case (Meta's collaboration with researchers around the 2020 US election) shows undisclosed algorithmic changes can bias the conclusions of platform-mediated research.",
+    "National DSCs and local university Data Protection Officers face a likely mismatch in language and expectations with researchers and platforms, slowing first data requests.",
+    "Industry AI research has overtaken public research in financial and infrastructural resources, while social media campaigns framing the DSA as censorship have reached tens of millions of users.",
+    "The first decisions on data access requests via the DSA portal are expected in late February 2026."
+  ],
+  "contributions": [
+    "Provides an informed practitioner-perspective on the operational state of DSA Article 40 implementation as of late 2025.",
+    "Articulates three categories of challenges—misaligned incentives, resource asymmetries, and implementation bottlenecks—structuring policy debate.",
+    "Offers three concrete recommendations: streamlining access procedures with standardized data-sharing frameworks; supporting independent research through dedicated funding and community coordination; and extending DSA scope to LLMs.",
+    "Frames LLMs as intermediary services that should fall within DSA oversight, identifying a specific regulatory gap."
+  ],
+  "framing": "The piece situates itself within ongoing EU digital governance debates and the broader scholarly conversation on platform accountability, independent research access, and systemic online risks. It positions the DSA as a distinctively European model contrasting with US-based deregulatory trends, and argues that successful implementation is essential for transparency, public trust, and democratic oversight of digital infrastructures.",
+  "pdf_source": "drive"
+}

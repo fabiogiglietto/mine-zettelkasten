@@ -1,0 +1,30 @@
+{
+  "abstract": "In this anniversary reflection for Social Media + Society, Nancy Baym revisits her 2015 manifesto 'Social Media and the Struggle for Society' and assesses how the four threats she identified—wealth inequality, opaque algorithmic feeds, precarious creative labor, and unchecked data extraction—have intensified over the past decade. She argues that despite extensive critical scholarship, conditions have worsened, with tech 'broligarchs' amassing unprecedented wealth, generative AI exploiting user data, and platforms amplifying outrage. Baym calls on researchers to move beyond critique-for-its-own-sake toward interdisciplinary, cross-sector collaboration that can actually shape more just sociotechnical futures.",
+  "key_claims": [
+    "The four social media threats Baym identified in 2015—wealth inequality, algorithmic opacity, precarious labor, and data extraction—have all significantly worsened over the past decade.",
+    "Concentrated tech wealth has translated into political power, exemplified by the rise of the 'broligarchy' and figures like Musk, Zuckerberg, and Brin.",
+    "Platform algorithms were never genuinely optimized for prosocial outcomes, and they enable and amplify harm even if they are not the sole cause of democratic decline.",
+    "The aspirational influencer economy mirrors the unattainable startup-billionaire dream while fueling platform power through precarious labor.",
+    "User-generated content has been appropriated for generative AI training, producing new harms ranging from non-consensual deepfakes to a general crisis of authenticity.",
+    "Critique and celebration alone are insufficient; researchers must reckon with their own limited impact and engage collaboratively across disciplines and sectors to effect change."
+  ],
+  "methods": [
+    "Reflective essay revisiting and reassessing the author's own 2015 manifesto in Social Media + Society.",
+    "Synthesis of prior scholarship (Baym 2015, 2018; Burgess & Baym 2020; Phillips 2015; Dean 2005; Gillespie 2023) and contemporary examples (Forbes billionaire rankings, Musk's Twitter/X acquisition, Grok-generated deepfakes)."
+  ],
+  "findings": [
+    "Zuckerberg's net worth grew from $44 billion in 2015 to $216 billion by 2026; Brin reached $237 billion and Musk $730.6 billion, illustrating accelerating wealth concentration.",
+    "Twitter/X shifted from fostering ephemeral connection to amplifying outrage well before its rebranding, per Burgess & Baym (2020).",
+    "Generative AI tools like Grok are producing non-consensual violent imagery of women and children from social media data.",
+    "Covert AI content is eroding trust in social media feeds, prompting widespread skepticism about authenticity even of mundane material.",
+    "Some glimmers of alternatives persist in decentralized platforms (Mastodon, BlueSky), mutual aid networks, and enduring online communities of care."
+  ],
+  "contributions": [
+    "Offers a longitudinal, personal-scholarly reassessment of social media's trajectory over a decade as documented in Social Media + Society.",
+    "Articulates a self-critical challenge to the field: researchers have failed to meaningfully influence platform outcomes and must change their approach.",
+    "Advocates for interdisciplinary, cross-sector, industry-engaged research collaboration (with NGOs, governments, worker organizations, platforms) as the field's most promising path forward.",
+    "Names emerging concerns—broligarchy, generative AI appropriation of user data, the authenticity crisis—as priorities for future social media research."
+  ],
+  "framing": "The essay sits within critical platform studies and the political economy of social media, drawing on concepts like Jodi Dean's 'communicative capitalism' and Tarleton Gillespie's diagnostic approach to sociotechnical problems. It positions itself as both a retrospective on the journal's intellectual trajectory and an exhortation to reorient internet research from critique toward engaged, collaborative intervention.",
+  "pdf_source": "drive"
+}

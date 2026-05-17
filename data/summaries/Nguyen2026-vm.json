@@ -1,0 +1,42 @@
+{
+  "abstract": "This study examines how English-language news media frame large language models (LLMs) and generative AI (GenAI), focusing on mentalistic-agentic framings that attribute human-like cognitive capabilities to these systems. Using a mixed computational and manual content analysis of 18,032 articles from 15 outlets across Europe, Asia, and North America (2022–2024), the authors map thematic emphases, identify LLM-centric coverage, and assess anthropomorphic metaphors. They find that mentalistic framings exist but are not uniformly dominant, varying by outlet and editorial style rather than strictly by region, and that such framings serve diverse rhetorical purposes including critique. The paper situates these findings within debates on AI imaginaries, public epistemology, and critical AI literacy in journalism.",
+  "key_claims": [
+    "News media play a central role in shaping public epistemology of LLMs and GenAI by co-producing dominant sociotechnical imaginaries.",
+    "Mentalistic-agentic framings of LLMs are present in journalistic discourse but coexist with more technical, ambivalent, and critical framings rather than dominating coverage.",
+    "Anthropomorphic language in AI news is not inherently problematic; it can serve uncritical reproduction of tech-business narratives, routine explanatory simplification, or adversarial critique of inflated AI claims.",
+    "Variation in mentalistic-agentic framing is driven more by organizational-editorial and individual journalistic practices than by broad cultural or regional differences.",
+    "A techno-capitalist master frame dominates global AI news, though secondary emphases (risks/ethics vs. economic utility) diverge across world regions.",
+    "Coverage of LLMs spiked around the launch of ChatGPT (late 2022–early 2023) and is heavily concentrated on OpenAI's products."
+  ],
+  "methods": [
+    "Mixed-methods design combining computational NLP with manual content analysis.",
+    "Corpus of 18,032 English-language news articles from 15 outlets across Asia, North America, Europe, and the Middle East, retrieved from Nexis (Jan 2022–Aug 2024).",
+    "Preprocessing in Python 3.9 using SpaCy's transformer model (en_core_web_trf) for tokenization, lemmatization, and dependency parsing.",
+    "BERTopic topic modeling (with sentence-transformers/all-MiniLM-L6-v2) run 20 times for robustness; pairwise Jaccard similarity (mean 0.75) used to assess cluster stability; 316-cluster solution selected and labeled inductively into emphasis frames and 24 meta-frames.",
+    "RegEx-based keyword classifier to identify 1,631 LLM-centric articles (validated at >95% accuracy on a 10% sample).",
+    "Sentence-level dependency parsing to detect LLMs as grammatical subjects (nsubj/nsubjpass), yielding 2,188 subject-sentences.",
+    "Manual coding for agentic framing (Krippendorff's alpha = 0.76) and mentalistic/experiential framing using Schweitzer et al.'s Mind Perception Dictionary (alpha = 0.78).",
+    "Word2Vec embeddings to explore semantic neighborhoods around keywords like 'ChatGPT' and 'Bard/Gemini'.",
+    "Chi-square tests and Cramér's V to assess associations between framing and region/outlet."
+  ],
+  "findings": [
+    "AI-related articles are a small share of total news output (e.g., 0.9% of NYT articles) but grew over the sampled period.",
+    "The global AI news agenda is dominated by economic-commercial themes; secondary themes vary regionally—European/North American outlets emphasize risks and ethics, while Asian outlets emphasize education, applications, and industry (χ²(46) = 1399.64, p < 0.001).",
+    "Only 9.2% of AI articles (N=1,631) are LLM-centric; ChatGPT is mentioned in 82.5% of these, far exceeding Gemini/Bard (15.7%), Claude (2.5%), and Mistral (1%).",
+    "Top meta-frames for LLM coverage include chatbots/tech design (13.4%), R&D (11.9%), economics (11.8%), applications/industries (11%), and education (9%).",
+    "45.5% of LLM articles present the technology as agentic, but only 8.8% (144 articles, 0.8% of full corpus) deploy explicitly mentalistic-agentic framings; no experiential (emotional) framings were identified.",
+    "Distribution of mentalistic-agentic framings differed by outlet (χ²(12) = 74.00, p < 0.001; Cramér's V = 0.06) with NYT, Straits Times, and Agence France Presse over-represented, but not by region (p = 0.75).",
+    "Only 6.19% of articles with LLMs as subjects contain negated (denying agency) constructions, indicating critical denials are rare.",
+    "Anthropomorphic framings serve multiple functions: uncritical reproduction of corporate narratives, conventional explanation, and adversarial critique (e.g., calling chatbots 'dumb' or 'bullshitters').",
+    "Word embeddings show ChatGPT clusters strongly with education-related terms, while Bard/Gemini clusters more around user interaction and limitations like 'hallucination'."
+  ],
+  "contributions": [
+    "Provides a fine-grained, text-level analysis of how LLMs specifically (rather than AI broadly) are linguistically constructed in news media.",
+    "Offers an empirical basis for engaging with normative concerns about anthropomorphic AI language, showing it is not uniformly tied to hype.",
+    "Adds a comparative cross-cultural dimension assessing whether framings are globally uniform or culturally differentiated.",
+    "Develops a replicable mixed-methods pipeline combining BERTopic, dependency parsing, dictionary-based detection, and manual coding for AI framing research.",
+    "Contributes to debates on AI imaginaries, public epistemology, and journalism's role in fostering critical AI literacy."
+  ],
+  "framing": "The paper situates itself at the intersection of media framing theory, science and technology studies (sociotechnical imaginaries, Jasanoff; Bareis and Katzenbach), and research on anthropomorphism in human-computer interaction. It engages with critiques of AI hype (Bender and Hanna; Shanahan) while resisting a one-dimensional condemnation of anthropomorphic language, positioning journalism as a key site where public epistemologies of AI are negotiated.",
+  "pdf_source": "drive"
+}

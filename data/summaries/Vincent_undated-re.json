@@ -1,0 +1,25 @@
+{
+  "abstract": "This brief reports findings from a second round of measurements assessing the prevalence of misinformation and disinformation on major online platforms operating in Europe. TikTok again exhibits the highest exposure-weighted share of mis/disinformation content, with prevalence rising from approximately 20% in the first measurement to about 25% in the second. Across most platforms, low-credibility accounts continue to enjoy an interaction advantage over high-credibility accounts, a gap that has persisted or widened since the initial study.",
+  "key_claims": [
+    "TikTok has the highest prevalence of mis/disinformation among major platforms in Europe, at roughly 25% of exposure-weighted posts.",
+    "Mis/disinformation prevalence on TikTok increased between the first and second measurement rounds (from ~20% to ~25%).",
+    "Low-credibility accounts receive more engagement than high-credibility ones on most platforms, and this disparity has not improved."
+  ],
+  "methods": [
+    "Repeat (second-round) measurement study of mis/disinformation prevalence on major platforms operating in Europe.",
+    "Exposure-weighted analysis of posts to estimate prevalence.",
+    "Comparison of interaction levels between low-credibility and high-credibility accounts across platforms."
+  ],
+  "findings": [
+    "TikTok shows the highest mis/disinformation prevalence (~25% of exposure-weighted posts).",
+    "Prevalence on TikTok rose by roughly 5 percentage points relative to the first measurement.",
+    "The interaction advantage of low-credibility over high-credibility accounts persisted or worsened on most platforms."
+  ],
+  "contributions": [
+    "Provides longitudinal evidence on the evolution of mis/disinformation prevalence across major European platforms.",
+    "Documents platform-level differences, highlighting TikTok as the worst performer.",
+    "Quantifies the persistent engagement gap favoring low-credibility sources, relevant to regulatory and platform accountability discussions."
+  ],
+  "framing": "The paper situates itself within ongoing empirical monitoring of platform information integrity in Europe, likely connected to obligations under frameworks such as the EU Digital Services Act and the Code of Practice on Disinformation. It contributes to a measurement-driven literature that holds platforms accountable through repeated, comparable assessments of harmful content exposure.",
+  "pdf_source": "abstract_only"
+}

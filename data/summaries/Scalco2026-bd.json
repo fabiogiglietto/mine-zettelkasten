@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper proposes a quantitative method for detecting and measuring 'information voids' — periods when reliable content fails to meet public demand for information on a topic — by leveraging longitudinal data from social media and web searches. The authors operationalize voids as anomalous imbalances between information supply (Facebook, Twitter, GDELT news) and demand (Wikipedia page-views, Google Trends), constructing an 'information delta' time series and applying STL decomposition with IQR-based anomaly detection. Applied to COVID-19 vaccine discourse across six European countries (January 2020–April 2021), the method identifies persistent voids around key vaccine-related events and shows that these voids correlate with reduced circulation of high-credibility content and increased prevalence of misinformation.",
+  "key_claims": [
+    "Information voids can be operationalized and quantitatively detected as statistically anomalous negative imbalances between information demand and supply in the online ecosystem.",
+    "The online information ecosystem can be classified into five regimes — Void, Lack, Balance, Abundance, Overabundance — based on the magnitude of demand–supply imbalance.",
+    "Information voids tend to persist longer than periods of overabundance, indicating asymmetric recovery dynamics in the information ecosystem.",
+    "Information voids are empirically associated with a lower share of highly credible content and a higher prevalence of misinformation, supporting their inclusion in mechanistic explanations of misinformation emergence.",
+    "Major external events (vaccine roll-outs, EMA authorizations, AstraZeneca suspension) trigger immediate and measurable disruptions in the demand–supply balance."
+  ],
+  "methods": [
+    "Data science pipeline combining time-series rescaling by expected value, computation of an 'information delta' (rescaled supply minus rescaled demand), STL (Seasonal–Trend decomposition using Loess), and IQR-based anomaly detection on the remainder component.",
+    "Supply proxies: Facebook posts (via CrowdTangle), Twitter posts (v2 full-archive academic API), and online news articles (GDELT Summary database); demand proxies: Wikipedia page-views and Google Trends.",
+    "Keyword-based data collection across five COVID-19 vaccine brands (AstraZeneca, Moderna, Pfizer, Johnson & Johnson, Sputnik V) for six countries (Denmark, France, Germany, Italy, Spain, UK), January 2020–April 2021.",
+    "Validation of the pipeline on synthetic Gaussian time series with injected anomalies (1σ to 15σ), measuring precision and F1 score.",
+    "Integration with NewsGuard credibility scores (0–100) to assess content quality across non-anomaly, void, and overabundance periods on Facebook and Twitter.",
+    "Case study analyses around EMA Moderna authorization and AstraZeneca suspension/reinstatement events."
+  ],
+  "findings": [
+    "On synthetic data, the method achieves mean precision >90% for anomaly magnitudes above 6σ and mean F1 score >0.68 above 9σ.",
+    "Empirically, the percentage of anomalous days ranged from ~7.9% to ~9.9% across countries and platforms, with notable differences in the balance of positive vs. negative anomalies by country.",
+    "Information voids reached durations of up to 29 consecutive days (e.g., Twitter for Sputnik V in Germany; Facebook for Moderna in Italy), generally outlasting overabundance episodes.",
+    "Cumulative anomalies rose sharply around the Moderna EMA authorization (e.g., Facebook anomalies in Italy rising from 30% to 81% within a month) and around the AstraZeneca suspension (e.g., 35% to 88% in Italy).",
+    "During voids, highly credible content (NewsGuard score = 100) dropped to 20.84% on Facebook and 23.87% on Twitter (versus 33.68% and 31.62% in non-anomalous periods), while content from highly unreliable sources rose to 6.1% on Facebook and 27.28% on Twitter.",
+    "Cross-correlations between demand and supply series peaked at lag 0, indicating largely synchronous responsiveness of the ecosystem."
+  ],
+  "contributions": [
+    "Introduces the first systematic, replicable quantitative pipeline for operationalizing and detecting information voids using longitudinal multi-platform data.",
+    "Proposes a five-regime taxonomy (Void, Lack, Balance, Abundance, Overabundance) of information ecosystem states grounded in supply–demand dynamics.",
+    "Provides empirical evidence linking information voids to degraded information quality and elevated misinformation prevalence, motivating their inclusion in mechanistic models of misinformation.",
+    "Offers a domain-agnostic, reproducible methodology applicable to public health, politics, environmental issues, and emerging crises, with implications for infodemic management and risk communication preparedness.",
+    "Validates the approach on both synthetic data and a real-world case study of COVID-19 vaccine discourse across six European countries."
+  ],
+  "framing": "The paper positions itself within the literature on the attention economy, misinformation diffusion on social media, and infodemic management, building on prior work conceptualizing the online information environment as a market shaped by supply and demand. It explicitly addresses the gap identified in recent discussions (Golebiewski & boyd; Purnat et al.; Nature editorials) about the absence of operational definitions and measurement tools for 'data voids' or 'information voids', moving the concept from qualitative assessment toward quantitative, mechanistic analysis.",
+  "pdf_source": "drive"
+}

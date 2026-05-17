@@ -1,0 +1,37 @@
+{
+  "abstract": "This longitudinal study examines how strategic interventions to Facebook's News Feed algorithm between 2011 and 2020 affected user engagement with news content from The Guardian. Using a timeline of 52 documented algorithmic ranking updates and time series analysis of approximately 1 million Guardian articles matched to CrowdTangle engagement data, the authors test whether algorithmic changes produced detectable, lagged effects on engagement across different content categories. They find that hard news content was significantly affected by these interventions, while soft news categories (Opinion, Lifestyle, Arts, Sport) were not, challenging the framing of recommender systems as inscrutable 'black boxes.' The paper argues for greater algorithmic auditing and points to the EU's Digital Services Act as an opportunity to expand independent research access.",
+  "key_claims": [
+    "Facebook's News Feed is not a 'black box' but a sociotechnical system whose strategic interventions can be detected and modeled from outside the platform.",
+    "Significant ranking updates to the News Feed produce measurable, lagged effects on engagement with news content, particularly hard news.",
+    "Facebook differentially treats news as a content category, applying distinct algorithmic logics to hard news compared to soft news (Opinion, Lifestyle, Arts, Sport).",
+    "Algorithmic changes function as a form of gatekeeping with downstream effects on news distribution, consumption, and production.",
+    "Independent, longitudinal auditing of recommender systems is necessary and feasible, and the EU's Digital Services Act (notably Article 40(4)) provides a legal basis to enable it."
+  ],
+  "methods": [
+    "Compiled a timeline of 52 documented Facebook News Feed ranking updates (2011–2020), parameterized by impact level (high/low) and valence (positive/neutral/negative) toward trusted news.",
+    "Collected ~1,020,163 Guardian articles via the Guardian Open Platform API, segmented into five sections: News, Opinion, Sport, Arts, Lifestyle.",
+    "Retrieved Facebook engagement data (likes, shares, comments, Reactions) for 576,673 matched Guardian URLs via the CrowdTangle API.",
+    "Applied logarithmic transformation and Augmented Dickey–Fuller tests to ensure stationarity of time series.",
+    "Used cross-correlation function (CCF) analysis to identify lagged relationships between algorithmic interventions and engagement.",
+    "Conducted Granger causality tests at lags identified by CCF to assess predictive relationships.",
+    "Applied the Seasonal Hybrid ESD (S-H-ESD) algorithm for anomaly detection in the engagement time series.",
+    "Performed analyses in R; analyses aggregated daily across 10 years yielding 20,075 observations across five content sections."
+  ],
+  "findings": [
+    "Cross-correlation analysis found optimal lags between algorithmic changes and engagement effects of 19–24 days across sections, consistent with phased software roll-out strategies.",
+    "News and Sport sections showed statistically significant cross-correlations (ACF .35 and .31), while Opinion, Lifestyle, and Arts were weaker (.27, .24, .25).",
+    "Granger causality was significant only for the News section (F = 1.6774, p = .0327 at lag 19), indicating algorithmic changes predict engagement specifically for hard news.",
+    "Anomaly detection identified clusters of anomalies in 2014–2016, particularly mid-2016, coinciding with major News Feed updates prioritizing friends and family content.",
+    "Sport anomalies clustered around July 2014, attributable to the FIFA World Cup rather than algorithmic interventions.",
+    "Engagement with Guardian content rose steadily from 2011–2016, then declined following major algorithmic changes."
+  ],
+  "contributions": [
+    "Provides the first longitudinal (10-year) empirical model of how Facebook News Feed ranking updates affect engagement with news, segmented by content type.",
+    "Demonstrates a replicable methodological framework combining timelines of documented algorithm changes with CCF, Granger causality, and anomaly detection.",
+    "Offers empirical evidence that platforms apply differentiated algorithmic treatment to hard news versus soft news.",
+    "Reframes recommender systems from opaque 'black boxes' to auditable sociotechnical assemblages shaped by institutional decision-making.",
+    "Articulates a policy-relevant case for using the Digital Services Act (Article 40(4) and Recital 85) to enable long-run independent audits of platform algorithms."
+  ],
+  "framing": "The paper positions itself within digital journalism studies and platform/algorithm scholarship, engaging debates on algorithmic gatekeeping, the 'black box' metaphor, and the sociotechnical character of recommender systems. It builds on prior work examining Facebook's relationship with news organizations (Nielsen and Ganter; Tandoc and Maitra; Meese and Hurcombe; Bailo et al.) and contributes to emerging conversations about platform governance and data access under the EU Digital Services Act.",
+  "pdf_source": "drive"
+}

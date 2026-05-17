@@ -1,0 +1,38 @@
+{
+  "abstract": "This article introduces the concept of protest-facilitated mainstreaming (PFM), arguing that protest movements can create meso-level communicative conditions that make radical and extremist ideas more accessible to broader publics through content and connective mechanisms on social media. Using the German anti-COVID-19 measures movement Querdenken as a case, the authors triangulate longitudinal content analysis, URL analysis, and network analysis of Telegram data (April 2020–April 2022). They find that protest communication was dominated by anti-elite and conspiratorial narratives, that outlinking shifted toward alternative/partisan media ecosystems, and that protest channels were structurally embedded in German and international far-right and conspiracist communities. The paper concludes that protest movements can lower the threshold for encountering and recirculating fringe frames and actors over time.",
+  "key_claims": [
+    "Protest movements can function as meso-level conduits for mainstreaming radical and extremist ideologies by linking broader publics to extreme circles.",
+    "Mainstreaming via protest operates through two distinct but complementary sets of mechanisms: content mechanisms (how communication renders radical frames repeatable and legitimate) and connective mechanisms (how protest infrastructures route attention toward radical actors and information environments).",
+    "The Querdenken movement, though initially grassroots and heterogeneous, became progressively entangled with far-right and conspiracist networks on Telegram.",
+    "Shared anti-elite and anti-establishment framing, rather than explicit ideological commitments, served as the primary bridge between moderate protest sympathizers and far-right milieus.",
+    "Mainstreaming should be understood as a gradual, discursive, boundary-shifting process distinct from but potentially overlapping with individual-level radicalization."
+  ],
+  "methods": [
+    "Conceptual development of the protest-facilitated mainstreaming (PFM) framework drawing on mainstreaming theory, social movement theory, and platform affordance research.",
+    "Triangulated quantitative-computational design analyzing Telegram data over two years (April 2020–April 2022).",
+    "Longitudinal content analysis: 200 channels with 'Querdenken' in the name scraped via Telethon (630,966 posts); 4,160 most-viewed posts (40/week) coded by four trained coders for mainstreaming markers (far-right ideology, conspiracy narratives, populist intergroup relations, victimization, alternative media references, false information, humor, visual content); intercoder reliability Holsti .77–1.00.",
+    "Time-series trend analysis using Sieve bootstrap-based Student's t-test, Mann-Kendall, and WAVK tests (R funtimes package).",
+    "Longitudinal URL analysis: extraction of 785,887 URLs from the full corpus, focusing on 327,420 external domain-level URLs and categorizing the top 100 domains over time.",
+    "Network analysis: snowball sampling of forwarding connections, manual classification of 6,008 public channels, disparity-filter backbone extraction (5,535 nodes, 79,404 edges from 7,034,838 forwards), Louvain community detection, HITS algorithm for hub/authority scores, and visualization in Gephi with Force-Atlas."
+  ],
+  "findings": [
+    "Anti-elitism was the most prevalent content feature (80% of posts), rising sharply early in the pandemic, with government (52%) and specific politicians (31%) most frequently targeted.",
+    "Conspiracy narratives appeared in 32% of posts, dominated by COVID-19-related (68%) but also including general (31%) and far-right (18%) conspiracies, with non-monotonic increases.",
+    "Explicit far-right ideological elements were rare (3%) but significantly increased over time, with nationalism and exclusionism most frequent.",
+    "False information was present in 46% of posts; visual content in 62% and significantly increased over time.",
+    "External outlinking shifted significantly away from broadly-used social media and toward alternative social media and alternative/partisan news outlets (e.g., Reitschuster, Epoch Times, DLive); YouTube accounted for over 20% of all external links.",
+    "Network analysis identified 11 substantive communities; Querdenken was not the network's center—a community of prominent German far-right figures occupied the central brokerage position, linking protesters to German-language and international (QAnon-heavy) conspiracy communities.",
+    "Additional communities included Austrian right-wing channels, neo-Nazi parties, pro-Russian channels, alternative medicine advocates, and Italian-language clusters, indicating broad ideological and transnational entanglement.",
+    "Topic focus showed tentative non-linear evidence of moving away from pandemic-only content over time, suggesting discursive broadening beyond the movement's initial theme."
+  ],
+  "contributions": [
+    "Conceptualization of protest-facilitated mainstreaming (PFM) as a meso-level process bridging individual motivations and macro-level discursive shifts.",
+    "Analytical distinction between content mechanisms and connective mechanisms in mainstreaming research.",
+    "Methodological contribution through triangulation of longitudinal content analysis, URL analysis, and network analysis on a large Telegram dataset.",
+    "Empirical mapping of how a grassroots anti-measures protest movement became structurally embedded in far-right and conspiracist networks.",
+    "Propositions extending findings beyond the Querdenken case to other protest movements (e.g., Yellow Vests, Brexit, Occupy, anti-vaccine activism), focusing on broad-issue framing, anti-establishment stances, and size-perception/social proof dynamics.",
+    "Implications for platform governance, content moderation, and democratic resilience against the protest-mediated diffusion of extremist ideology."
+  ],
+  "framing": "The paper situates itself within the growing scholarship on mainstreaming of the far right (Brown, Mondon, Wodak, Rothut et al.), bridging it with social movement theory (framing, mobilization, protest opportunity structures) and platform affordance research (van Dijck & Poell, Kakavand). It positions mainstreaming as a discursive, boundary-shifting process distinct from individual radicalization, and intervenes in debates about how online infrastructures—particularly fringe platforms like Telegram—enable the cross-pollination between heterogeneous protest publics and extremist milieus.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,33 @@
+{
+  "abstract": "This longitudinal study examines a decade (2013-2023) of Facebook posts from Norway's Progress Party and its two consecutive leaders, Siv Jensen and Sylvi Listhaug, to assess how post sentiment relates to user engagement over time. Using a hybrid content analysis combining GPT-4 zero-shot classification with human validation, the author classified 11,160 posts as negative, positive, or neutral, then analyzed engagement via shares, comments, and likes. Findings show that negative sentiment has increased over time—especially under Listhaug's leadership—and consistently drives more shares and comments, while likes are more associated with positive content. The study contributes both empirical insights on the supply and demand sides of populist digital politicking and a methodological demonstration of LLM-assisted content analysis in a non-English language.",
+  "key_claims": [
+    "The share of Facebook posts featuring negative campaigning by the Progress Party and its leaders has increased over the studied decade, particularly following Sylvi Listhaug's ascendance to party leadership in 2021.",
+    "Negative sentiment posts consistently generate higher levels of shares and comments than positive or neutral posts, supporting the strategic value of 'going negative' on Facebook.",
+    "Likes follow a different logic than shares and comments: positive content increasingly drives likes, suggesting that this 'lightweight' engagement form is qualitatively distinct.",
+    "Party leaders exert noticeable influence on party-level communication style, with Listhaug's negative posting style appearing to shape the broader party page after her takeover.",
+    "The traditional concentration of political social media activity around election years is weakening, suggesting a shift toward more permanent campaigning patterns."
+  ],
+  "methods": [
+    "Longitudinal collection via CrowdTangle of 11,160 public Facebook posts (2013-2023) from three pages: the Progress Party (5,941), Sylvi Listhaug (2,791), and Siv Jensen (2,428).",
+    "Hybrid content analysis combining zero-shot text annotation by GPT-4 (gpt-4-0314) with human annotation for reliability testing, using a Norwegian-language prompt to classify posts as negative, positive, or neutral campaigning.",
+    "Reliability assessment: intracoder reliability via LLM re-coding of 20% sample (Krippendorff's α = .91); intercoder reliability via human coding of 5% sample (α = .82).",
+    "Statistical analysis of engagement metrics (shares, comments, likes) using medians, Kruskal-Wallis rank sum tests, and Dunn's tests given non-normal distributions, supplemented by data visualizations across account, sentiment, and year."
+  ],
+  "findings": [
+    "Posting volume reflects leadership trajectories: Listhaug's posting frequency rose after becoming leader in 2021, while Jensen's declined.",
+    "Listhaug's content shifted from largely positive (2013-2016) to predominantly negative from 2017 onward; the Progress Party's content stayed positive until 2021, then shifted negative.",
+    "Negative posts consistently received the highest median shares across all three accounts and most years (H2a confirmed).",
+    "Negative posts also drove more comments, with significant differences for most years and accounts, though the 2021 election year stood out as an exception (H2b largely confirmed).",
+    "For likes, the pattern diverged: positive content emerged as the dominant driver of likes for Jensen (2020-2023) and for Listhaug around 2021-2022, contrasting with shares and comments.",
+    "Election years (2013, 2017, 2021) no longer reliably produced engagement surges, indicating shifting temporal rhythms of Facebook political engagement."
+  ],
+  "contributions": [
+    "Provides rare longitudinal (10-year) empirical evidence on sentiment trends and engagement in populist political Facebook communication outside Anglo-American contexts.",
+    "Demonstrates a reproducible hybrid LLM + human coding workflow for sentiment annotation in a non-English (Norwegian) language with high reliability.",
+    "Differentiates among engagement types, showing that likes operate distinctly from shares and comments in relation to sentiment.",
+    "Integrates supply-side (content production) and demand-side (audience engagement) analyses within a single longitudinal design.",
+    "Offers evidence relevant to debates on negative campaigning, populism, permanent campaigning, and political professionalization on social media."
+  ],
+  "framing": "The paper situates itself within political communication scholarship on negative campaigning, populist communication styles, and 'dark politics,' while engaging with theories of affective publics, social media amplification, and the two-step flow of communication. It explicitly responds to calls for longitudinal, non-U.S. studies of digital politicking and for combining supply-and-demand perspectives, also positioning itself as a methodological contribution to LLM-based computational content analysis in non-English contexts.",
+  "pdf_source": "drive"
+}

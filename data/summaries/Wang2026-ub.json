@@ -1,0 +1,40 @@
+{
+  "abstract": "This study examines the attempted migration of academic users from Twitter to Mastodon following Elon Musk's 2022 acquisition, focusing on 7,542 self-identified academic early adopters tracked over one year. Using longitudinal data, network analysis, cross-platform comparison, and Cox proportional hazards survival modeling, the authors find that despite forming well-connected internal networks, most academic migrants reduced activity or returned to Twitter. Retention was strongly associated with diverse cross-server engagement, field-specific server communities, and discoverable profiles, while users with large pre-existing Twitter networks faced higher attrition risk.",
+  "key_claims": [
+    "Even a highly motivated, coordinated group of early academic adopters largely failed to sustain migration from Twitter to Mastodon over a one-year period.",
+    "Strong internal network connectivity among migrating academics was insufficient to maintain user engagement on Mastodon.",
+    "Field- or discipline-specific Mastodon servers (e.g., infosec.exchange) fostered substantially higher retention than general-purpose servers.",
+    "Users with large pre-existing Twitter networks faced higher attrition risk on Mastodon, suggesting the difficulty of replicating established social capital in decentralized ecosystems.",
+    "Diverse cross-server interaction (federated engagement entropy) is a robust protective factor for long-term retention on Mastodon.",
+    "Competition from alternative platforms like Bluesky and Threads, along with Mastodon's decentralized affordances (moderation, discoverability), contributed to fragmented and incomplete migration."
+  ],
+  "methods": [
+    "Curated a sample of 7,542 academic Mastodon accounts from a public GitHub repository of voluntarily listed scholars across 50 disciplines, focusing on those present by November 2022.",
+    "Collected weekly Mastodon profile and engagement data (followers, following, posts, activity timestamps) from November 2022 to October 2023 via a customized Mastodon API.",
+    "Retrospectively collected interaction data (replies, boosts, mentions, favorites) in December 2025 for the observation window.",
+    "Matched 3,131 scholars to Twitter accounts using self-reported handles and gathered profile and recent posting data via the Twitter Basic API for cross-platform analysis.",
+    "Constructed follower-followee and interaction networks aggregated by academic field and by Mastodon server instance.",
+    "Categorized users into one-time visitors, short-term, long-term, and persistent adopters based on quartiles of active span distribution.",
+    "Collected migration-related discourse: 1,497 filtered tweets via Zeeschuimer and 129 Mastodon posts using migration hashtags.",
+    "Fitted Cox proportional hazards models (Mastodon-centric and cross-platform variants) with L2 penalization, using Shannon entropy of target-server interactions as a federated diversity covariate, with sensitivity checks across 14-, 30-, 60-day windows and first 50 interactions."
+  ],
+  "findings": [
+    "Active monthly academic users declined from 7,505 in November 2022 to 2,398 by October 2023, with 10-20% monthly attrition; a brief July 2023 resurgence coincided with Twitter's posting limits and rebrand to X.",
+    "Approximately 79.7% of matched scholars remained active on Twitter and only ~7.4% were both persistent/long-term Mastodon users and inactive/locked on Twitter, indicating most migrations were incomplete.",
+    "Information Security scholars, concentrated on the field-specific infosec.exchange server, showed ~40.9% persistent users—markedly higher than comparably sized disciplines on general-purpose servers like Education and Communication & Media Studies.",
+    "Mastodon's follower network exhibited a hub structure centered on mastodon.social (hosting 21.3% of academics), with cross-server ties supplemented by interaction networks (boosts, mentions, comments).",
+    "In the Mastodon-centric Cox model (concordance 0.69), protective factors included initial followers (HR=0.72), posts (HR=0.74), topic-specific server (HR=0.84), multidisciplinary identity (HR=0.59), discoverable profile (HR=0.93), and 30-day interaction diversity (HR=0.84); high server out-degree ratio was a risk factor (HR=1.80).",
+    "In the cross-platform model, larger Twitter following (HR=1.13) and followers (HR=1.11) predicted higher Mastodon attrition, while more Twitter posts (HR=0.92) and older Twitter accounts (HR=0.88) predicted retention.",
+    "Of 626 scholars mentioning Mastodon in Twitter profiles, 308 also referenced Bluesky and 69 referenced Threads, indicating diffuse multi-platform exploration rather than concentrated migration.",
+    "Public discourse about academic migration spiked in November 2022 and declined sharply thereafter on both platforms, with engagement remaining higher on Twitter."
+  ],
+  "contributions": [
+    "Provides a targeted longitudinal case study of a coordinated professional community's migration attempt, complementing prior general-population studies of Twitter-to-Mastodon migration.",
+    "Introduces a federated interaction diversity metric (Shannon entropy over target servers) and demonstrates its robustness as a retention predictor across multiple temporal windows.",
+    "Combines longitudinal, network, cross-platform, and survival-analytic methods to identify measurable predictors of sustained engagement on decentralized platforms.",
+    "Offers empirical evidence that field-specific server communities outperform general-purpose servers in retaining migrated users, informing platform design and community-building strategies.",
+    "Documents divergent effects of prior Twitter network size versus posting history on retention, illuminating the role of accumulated social capital as a barrier to platform substitution."
+  ],
+  "framing": "The paper situates itself within research on cross-platform user migration (push-pull-mooring frameworks), studies of decentralized social media (Mastodon and the Fediverse), and the sociology of academic communication on Twitter. It contributes to ongoing debates about whether decentralized alternatives can sustain professional communities after platform ownership shocks, extending prior Twitter-to-Mastodon migration studies by focusing on a highly motivated, coordinated subpopulation.",
+  "pdf_source": "drive"
+}

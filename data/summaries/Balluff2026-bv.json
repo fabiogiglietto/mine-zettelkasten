@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper investigates the Austrian 'Inseratenaffäre' scandal, in which former chancellor Sebastian Kurz allegedly arranged for the tabloid OE24 to receive government advertising revenue in exchange for favorable news coverage and the publication of manipulated polls. Using automated content analysis of 222,659 political news articles from 17 Austrian outlets (2012–2021) and a difference-in-differences design, the authors test whether OE24's coverage of Kurz diverged from comparable outlets after the alleged 2016 start of the scheme. They find a substantial increase in Kurz's visibility in OE24, no significant boost in his favorability, but more negative coverage of his political competitors, patterns consistent with 'paying positive to go negative' dynamics in media capture.",
+  "key_claims": [
+    "Government advertising can function as a covert bribery mechanism through which political actors capture media outlets in established Western democracies, not only in Central/Eastern European or hybrid regimes.",
+    "Following the alleged 2016 onset of arrangements between Kurz and OE24, the visibility of Kurz in OE24 increased substantially and significantly relative to other outlets and to other politicians.",
+    "The favorability of coverage of Kurz did not significantly increase, but coverage of his competitors in OE24 became more negative, consistent with a 'pay positive to go negative' advertising pressure pattern.",
+    "Quasi-experimental computational designs can detect patterns of media bias consistent with media capture even when the underlying transactions are secret.",
+    "Austria's regulatory framework on government advertising (especially the 2012 Media Transparency Law) is insufficient to prevent such influence, exposing structural vulnerabilities in democratic-corporatist media systems."
+  ],
+  "methods": [
+    "Automated content analysis of 222,659 political news articles from 17 Austrian print and online outlets (2012–2021), sourced via the Austrian Press Agency (APA) archive and targeted web scraping.",
+    "Article filtering with validated Lucene-style Boolean search strings (drawn from AUTNES) identifying mentions of Kurz, Mitterlehner, Strache, and the sequence of SPÖ leaders (Faymann, Kern, Rendi-Wagner).",
+    "Paragraph-level actor visibility measured via word-proximity search using the R package corpustools; visibility aggregated to monthly outlet-level counts and log-transformed.",
+    "Sentiment/favorability measured using a fine-tuned GottBERT German language model trained on AUTNES manual content analysis data (2017, 2019), with counterfactual data augmentation by swapping politician names; classification F1 = 0.77, regression RMSE = 0.65.",
+    "Difference-in-differences (DiD) estimation of Average Treatment Effect on the Treated (ATET), treating OE24 as the treated outlet and others as controls, with 2015 as baseline; placebo tests in 2012–2015 to assess the common trend assumption.",
+    "Robustness checks including: party-level (rather than actor-level) analyses on a separate sample of 250,442 articles; inclusion of Kronen Zeitung and Heute in the control group; and a synthetic difference-in-differences estimator (Arkhangelsky et al. 2018) that relaxes the common trend assumption."
+  ],
+  "findings": [
+    "Pre-2016 visibility trends across OE24 and control outlets were largely parallel, supporting the common trend assumption.",
+    "After 2016, paragraphs mentioning Kurz in OE24 roughly doubled relative to the counterfactual, with highly statistically significant ATETs across all post-treatment years.",
+    "No comparable visibility effects were observed for Mitterlehner or the SPÖ leader; Strache showed significant positive effects only in two election years and at smaller magnitudes than Kurz.",
+    "Favorability ATETs for Kurz in OE24 were not statistically significant, but coverage of all other candidates trended more negative in OE24 after 2016.",
+    "Synthetic DiD yielded an average increase of about 50% in Kurz's visibility in OE24 over 2016–2019 relative to a weighted control, statistically significant at the 1% level.",
+    "Party-level robustness checks showed a general increase in OE24 coverage of all parties but no party-specific effect, indicating the bias was actor-focused (on Kurz) rather than partisan."
+  ],
+  "contributions": [
+    "Provides rare empirical evidence of media capture mechanisms within a Western European established democracy, extending a literature focused largely on CEE and developing contexts.",
+    "Introduces an innovative quasi-experimental computational pipeline (combining transformer-based sentiment analysis with DiD and synthetic DiD) for detecting irregularities in news coverage consistent with covert political-media arrangements.",
+    "Develops and validates a fine-tuned GottBERT sentiment model using counterfactual data augmentation to reduce actor-specific bias.",
+    "Documents the 'pay positive to go negative' pattern (Blasco et al. 2016) in a political rather than purely commercial advertiser context.",
+    "Offers a transferable methodological template for analyzing alleged media capture in other countries and cases, and contributes to policy debates on regulating government advertising and protecting media independence."
+  ],
+  "framing": "The study situates itself within media capture theory (Besley and Prat; Schiffrin; Bajomi-Lazar) and the literature on media bias, party-press parallelism, and advertiser pressure (Hallin and Mancini; Eberl et al.; Di Tella and Franceschelli). It frames Austria as a 'most likely case' within the democratic-corporatist model that nonetheless exhibits polarized-pluralist features, using the 'Inseratenaffäre' to empirically probe mechanisms of political-media corruption that typically evade measurement.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "This article proposes 'practice mapping' as an analytical approach for studying social media interactions, using vector embeddings of network actions to identify commonalities and divergences in user practices. The method is presented as an advance over conventional network analysis and visualization, particularly because it can integrate multiple modes of interaction into a single map. The authors position this framework as a way to overcome longstanding limitations of network visualizations such as the 'hairball' or 'furball' problem.",
+  "key_claims": [
+    "Conventional social network analysis and visualization have methodological limitations when applied to multimodal social media interactions.",
+    "Vector embeddings of network actions and interactions can be used to map similarities and differences in user practices.",
+    "Practice mapping enables the integration of multiple distinct interaction modes into a single analytical representation.",
+    "The approach offers a methodological advance over existing network visualization techniques."
+  ],
+  "methods": [
+    "Introduction of a methodological framework called 'practice mapping'.",
+    "Use of vector embeddings to represent network actions and interactions of social media users.",
+    "Mapping commonalities and disjunctures across user practices within a unified analytical space."
+  ],
+  "findings": [
+    "Findings are not detailed in the available abstract excerpt; the article primarily introduces and outlines the framework rather than reporting specific empirical results."
+  ],
+  "contributions": [
+    "Introduces practice mapping as a novel analytical approach for social media research.",
+    "Provides a framework for incorporating multimodal interaction data into integrated visual analyses.",
+    "Offers a methodological alternative to conventional, often illegible, network 'furball' visualizations."
+  ],
+  "framing": "The paper positions itself within debates in social network analysis, digital methods, and social media research, responding to long-acknowledged limitations of network visualization (the 'hairball'/'furball' problem). It contributes to ongoing methodological innovation around representing complex, multimodal online interactions.",
+  "pdf_source": "abstract_only"
+}

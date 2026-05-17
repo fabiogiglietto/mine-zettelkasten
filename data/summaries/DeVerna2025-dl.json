@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper evaluates 15 recent large language models (LLMs) from OpenAI, Google, Meta, and DeepSeek on their ability to fact-check more than 6,000 political claims from PolitiFact using a six-point veracity scale. The authors compare standard models against reasoning-enabled and web-search-enabled variants, both with and without a curated retrieval-augmented generation (RAG) system built on GPT-3.5 summaries of PolitiFact articles. They find that standard and reasoning models perform poorly, web search yields only moderate gains, but providing curated context dramatically improves macro F1 scores by an average of 233%. The study also analyzes citation patterns of search-enabled models, finding a tendency to cite credible but left-leaning sources.",
+  "key_claims": [
+    "Mainstream LLMs, even with reasoning capabilities, perform poorly at political fact-checking when relying on internal knowledge alone.",
+    "Built-in web search provides only moderate and provider-specific improvements to fact-checking accuracy.",
+    "A curated RAG system using high-quality fact-checking summaries dramatically outperforms zero-shot, reasoning, and web-search-enabled approaches.",
+    "Search-enabled LLMs exhibit ideological skew, predominantly citing credible but left-leaning sources.",
+    "Fact-checking is not a task that will be automatically solved by general improvements in LLM capabilities; access to curated evidence is the key bottleneck."
+  ],
+  "methods": [
+    "Collected the complete PolitiFact archive (2007-October 2024), yielding 24,611 claims with six-point Truth-O-Meter verdicts after filtering.",
+    "Built a curated RAG pipeline by generating GPT-3.5-turbo summaries of fact-checking articles, embedding them with Sentence-BERT (all-MiniLM-L6-v2), and storing them in a Chroma vector database.",
+    "Validated summary faithfulness via dual-annotator coding of 100 sampled summaries (97% agreement, all rated faithful or minor inaccuracies).",
+    "Evaluated 15 LLMs from OpenAI, Google, Meta, and DeepSeek across three categories: standard, reasoning, and web-search-enabled.",
+    "Tested models in zero-shot and curated RAG conditions (k=3, 6, 9) on stratified samples of 12,275 (12k) and 6,137 (6k) claims with temperature set to zero.",
+    "Augmented the six-point Truth Scale with a 'Not Enough Information' abstention label and measured macro precision, recall, and F1.",
+    "Analyzed citation patterns of search-enabled models using domain-type classification, NewsGuard reliability scores, and DomainDemo political leaning scores; conducted sensitivity analysis with Lin et al. (2023) quality ratings."
+  ],
+  "findings": [
+    "Zero-shot macro F1 scores for standard models were uniformly low (approximately 0.1-0.3) across all providers.",
+    "Curated RAG raised macro F1 by 21-351% (mean 233%), with top configurations reaching F1 of 0.90 (GPT-4o) and 0.89 (DeepSeek-V3) at k=9.",
+    "Reasoning models showed only minimal improvements over baselines (average +0.06), and sometimes performed worse.",
+    "GPT search models substantially outperformed their non-search variants (+0.50 for GPT-4o, +0.35 for GPT-4o mini), while Gemini search models underperformed due to rarely producing citations.",
+    "Retrieval was highly accurate: top-k accuracy was 0.96 at k=3 and 0.98 at k=6 or 9; median retrieval rank was 1.",
+    "GPT search models cited URLs in 59-72% of responses, with 44-59% linking directly to the matching PolitiFact article; PolitiFact, AP, Snopes, FactCheck.org, and Wikipedia were the most-cited sources.",
+    "Cited sources skewed toward high NewsGuard reliability and left-leaning political orientation, a pattern that persisted after excluding PolitiFact and when using alternative reliability ratings.",
+    "Models rarely used the 'Not Enough Information' label (typically <10% of claims), and used it more often for 'Pants on Fire' claims where retrieval accuracy was lower."
+  ],
+  "contributions": [
+    "A large-scale benchmark comparing 15 LLMs from four major providers on six-label PolitiFact fact-checking, including open-weight and commercial models.",
+    "Systematic evaluation of reasoning and web-search capabilities both with and without curated RAG augmentation.",
+    "Construction and validation of a curated RAG pipeline using GPT-3.5 summaries of 24,451 PolitiFact fact-checking articles.",
+    "Empirical analysis of citation practices in search-enabled LLMs, including domain types, reliability, and ideological orientation.",
+    "Evidence that fact-checking limitations stem primarily from evidence access rather than reasoning capability, with policy implications for deploying LLMs in verification workflows."
+  ],
+  "framing": "The paper positions itself within ongoing debates about LLMs as both vectors and potential mitigators of misinformation, building on prior end-to-end fact-checking studies (Hoes et al. 2023; Quelle and Bovet 2024; Bombassei De Bona et al. 2025) and the broader literature on retrieval-augmented generation and automated fact verification (FEVER, LIAR, ClaimBuster). It also engages with concerns about LLM ideological bias and citation reliability, arguing for caution as professional fact-checkers and platforms increasingly integrate LLMs into verification workflows.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "This paper introduces a method for estimating the ideological position of political YouTube videos as a latent variable. The authors leverage Reddit posting behavior—specifically, which subreddits share which YouTube videos—to place videos on an ideological scale through correspondence analysis. The approach extends prior latent ideology estimation work, which has typically focused on legislators, social media users, political elites, or media outlets, to a new domain of video content.",
+  "key_claims": [
+    "The ideology of political YouTube videos can be recovered as a latent variable from patterns of sharing across politically heterogeneous Reddit communities.",
+    "Reddit linking behavior provides a useful signal for placing video-level content on a left-right ideological dimension.",
+    "Extending latent ideology estimation from actors (legislators, users, media sources) to video content is both feasible and substantively informative."
+  ],
+  "methods": [
+    "Construct a matrix of political Reddit posts that link to YouTube videos, capturing which subreddits share which videos.",
+    "Apply correspondence analysis (or analogous latent dimension estimation technique) to this matrix to derive ideological scores.",
+    "Build on prior latent variable ideology estimation approaches developed for legislators, ordinary users, elites, and media sources."
+  ],
+  "findings": [
+    "The method produces ideological estimates for political YouTube videos derived from cross-subreddit sharing patterns.",
+    "Results align with the broader literature showing that social media sharing behavior encodes recoverable ideological signal."
+  ],
+  "contributions": [
+    "Provides a new method for scaling the ideology of YouTube videos, a content type previously underexplored in latent ideology estimation.",
+    "Bridges the literatures on ideal point estimation, media slant measurement, and platform-based ideology inference.",
+    "Offers a resource potentially useful for studying political content consumption, recommendation dynamics, and polarization on YouTube."
+  ],
+  "framing": "The paper situates itself within the literature on latent variable estimation of ideology, which has progressed from legislators (ideal point models) to ordinary social media users, political elites, and media sources. It extends this trajectory by treating individual pieces of video content as objects of ideological scaling, contributing to growing interest in measuring slant of online political media.",
+  "pdf_source": "abstract_only"
+}

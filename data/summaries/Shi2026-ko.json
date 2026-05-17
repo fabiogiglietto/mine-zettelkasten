@@ -1,0 +1,33 @@
+{
+  "abstract": "This article examines how European professional fact-checkers rhetorically defend their funding and collaborative partnerships with major platform companies such as Meta, Alphabet, and ByteDance. Based on 12 semi-structured interviews with fact-checkers from 12 organisations across 12 European countries, the authors apply rhetorical apologia theory to identify recurring justificatory arguments. They identify four modes of differentiation and three modes of transcendence that fact-checkers use to assert editorial independence and legitimacy while acknowledging dependence on platform funding. The study reframes these defences as boundary work that negotiates the contested epistemic authority of fact-checking in a platform-dependent media ecosystem.",
+  "key_claims": [
+    "European fact-checkers adopt a predominantly defensive rhetorical posture when discussing platform-company partnerships, due to persistent criticism from journalists, far-right actors, and within their own industry.",
+    "Fact-checkers' defensive rhetoric primarily relies on transformative apologia strategies — differentiation and transcendence — rather than denial or simple bolstering.",
+    "Rhetorical boundary work allows fact-checkers to claim editorial autonomy and epistemic authority despite material dependence on platform funding.",
+    "The rhetorical boundaries fact-checkers draw are inconsistent across organisations and countries, revealing internal tensions and the still-emergent nature of the field.",
+    "Apologia theory, when combined with boundary-work theory, productively illuminates how fact-checkers negotiate institutional dependencies while constructing professional identity."
+  ],
+  "methods": [
+    "12 qualitative semi-structured interviews conducted between November 2023 and March 2024 with one professional fact-checker from each of 12 European fact-checking organisations (Czech Republic, Estonia, Germany, Greece, Hungary, Latvia, Norway, Poland, Portugal, Slovakia, Spain, Sweden).",
+    "All organisations are certified members of the EFCSN and IFCN and had received funding from platform companies between 2021 and early 2024.",
+    "Interview guide covered six themes: organisational structure, audience, societal role, editorial independence, potentials/challenges, and the role of platform companies; interviews averaged 71 minutes.",
+    "Automated transcription on a local server followed by manual transcription, yielding 107,529 words; four-phase coding in NVivo (inductive theme coding, theme-based coding, application of Ware and Linkugel's apologia framework, and quote grouping).",
+    "Anonymisation of interviewees and organisations to mitigate risks to current partnerships and to protect against harassment."
+  ],
+  "findings": [
+    "Four modes of differentiation: (D1) distinguishing fact-checking organisations from platform companies to assert independence; (D2) distinguishing between platform companies, often rejecting TikTok/ByteDance while accepting Meta or Alphabet; (D3) distinguishing platform companies as a whole from particular employees or divisions perceived as well-intentioned; (D4) distinguishing platform funding from state funding, defending the former as less compromising.",
+    "Three modes of transcendence: (T1) appeal to a counterfactual worse reality in which unmitigated misinformation would spread without fact-checkers; (T2) appeal to broad alliances against disinformation ('we can't fight alone'); (T3) appeal to the possibility of improving platform companies from within.",
+    "Funding landscape across the sample: Meta (n=9), Alphabet (n=8), ByteDance/TikTok (n=2), Twitter (n=2), Spotify/Kinzen (n=2).",
+    "Fact-checkers frequently report harassment and accusations of censorship, collusion, or serving 'globalist' interests, often citing platform or Soros-linked funding as supposed evidence.",
+    "Boundary-drawing is not uniform: some organisations refuse TikTok or state funding while others accept both, indicating that defences sometimes implicitly critique peers."
+  ],
+  "contributions": [
+    "First application of rhetorical apologia theory to fact-checkers' defences of platform partnerships.",
+    "Develops a typology (four differentiation + three transcendence modes) usable for analysing institutional defences in adjacent journalism contexts.",
+    "Extends Graves et al. (2023) by shifting focus from internal boundaries within fact-checking to external boundaries between fact-checkers and platform companies.",
+    "Addresses a geographic gap by focusing on European fact-checkers, who are underrepresented relative to North American counterparts despite Europe hosting the largest number of fact-checking institutions.",
+    "Integrates apologia theory with boundary-work theory (Karlsson and Örnebring's 'wall' and 'membrane' metaphors) to provide finer-grained analysis of rhetorical autonomy claims."
+  ],
+  "framing": "The paper sits at the intersection of journalism studies, platform studies, and rhetorical theory, drawing on scholarship on fact-checking as an emergent institution (Graves and colleagues), journalistic boundary work and autonomy (Schudson and Anderson; Örnebring and Karlsson), and Ware and Linkugel's apologia framework. It positions itself within debates about platform power, editorial independence, and the legitimacy of fact-checking amid criticism from across the political spectrum and the recent retrenchment of Meta's Third-Party Fact-Checking Program.",
+  "pdf_source": "drive"
+}

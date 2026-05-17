@@ -1,0 +1,29 @@
+{
+  "abstract": "This systematic review synthesizes 129 studies on echo chambers and filter bubbles to understand why scholars disagree about whether these phenomena exist and what causes or follows from them. The authors construct a taxonomy of conceptualizations and operationalizations, showing how differences in measurement, region, political context, culture, and platform shape divergent findings. They argue that inconsistency in definitions and methods—rather than the phenomena themselves—largely explains conflicting results in the literature.",
+  "key_claims": [
+    "Disagreement in echo chamber and filter bubble research stems in significant part from heterogeneous conceptualizations and operationalizations rather than purely from empirical reality.",
+    "Measurement approaches systematically shape whether studies detect echo chambers or filter bubbles.",
+    "Regional, political, cultural, and platform-specific biases in study samples contribute to varying outcomes across the literature.",
+    "A unified taxonomy of conceptualizations and operationalizations is needed to compare findings meaningfully across studies."
+  ],
+  "methods": [
+    "Systematic literature review following structured synthesis methodology.",
+    "Analysis of 129 studies on echo chambers and filter bubbles.",
+    "Development of a taxonomy classifying conceptualizations and operationalizations used across studies.",
+    "Comparative analysis of how measurement choices and contextual variables correlate with reported outcomes."
+  ],
+  "findings": [
+    "Studies vary substantially in how they define and measure echo chambers and filter bubbles.",
+    "Outcomes (existence, antecedents, effects) differ systematically with measurement approach.",
+    "Regional, political, cultural, and platform-specific biases are key contributors to divergent findings.",
+    "The literature lacks shared standards, making cross-study comparison difficult."
+  ],
+  "contributions": [
+    "Provides a taxonomy of conceptualizations and operationalizations of echo chambers and filter bubbles.",
+    "Offers a systematic explanation for why prior studies reach conflicting conclusions.",
+    "Identifies sources of bias (regional, political, cultural, platform) that future research should address.",
+    "Establishes a reference framework for designing and comparing future studies on online information environments."
+  ],
+  "framing": "The paper positions itself within ongoing debates in communication studies, computational social science, and digital media research about the prevalence and impact of echo chambers and filter bubbles on democratic discourse. It engages with methodological critiques of the field by reframing empirical dissent as in large part a problem of conceptual and operational inconsistency.",
+  "pdf_source": "abstract_only"
+}

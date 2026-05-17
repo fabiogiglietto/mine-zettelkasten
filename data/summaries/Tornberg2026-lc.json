@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper argues that the 'social media' paradigm, which has structured two decades of digital communication scholarship, is unraveling. Three interlocking dynamics—a shift from social-graph to interest-based algorithmic recommendation, the rise of generative AI producing synthetic content, and user retreat into private/closed spaces—are dissolving the configuration of user-generated content circulating through social networks. The authors propose that three distinct 'post-social' formations are emerging in its place: algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication. They call for a reorientation of digital media studies with new concepts, methods, and normative frameworks suited to this transformed landscape.",
+  "key_claims": [
+    "The 'social media' concept is losing its adequacy as a unifying analytical framework for digital communication research.",
+    "Major platforms have shifted from social-graph-based circulation to algorithmic recommendation, transforming the 'user' into a 'user-spectator' or algorithmic viewer.",
+    "Generative AI is severing the constitutive link between platforms and human content production, enabling 'platforms without users.'",
+    "Users are retreating from public platforms into semi-private, bounded communicative spaces oriented around trust and reciprocity rather than scale.",
+    "AI chatbots constitute an emerging media form that produces neither shared texts nor publics, privatizing communicative functions.",
+    "Three distinct post-social formations—algorithmic broadcasting, semi-private spheres, and AI-mediated communication—now coexist and require analytically distinct approaches.",
+    "These transformations erode the shared epistemic infrastructure on which democratic public discourse has depended."
+  ],
+  "methods": [
+    "Conceptual/theoretical synthesis rather than empirical demonstration.",
+    "Reconstruction of the 'social media paradigm' through review of foundational scholarship (e.g., networked publics, participatory culture, platformization, surveillance capitalism).",
+    "Diagnostic reading of contemporary developments, including a legal filing by Meta in the FTC antitrust case as a key illustrative case.",
+    "Integration of secondary evidence such as Pew survey data, Gallup polls, Elon University AI usage surveys, and prior empirical work (e.g., Törnberg 2026 on declining posting rates).",
+    "Comparative analysis of three emergent platform/communication formations to derive corresponding methodological implications."
+  ],
+  "findings": [
+    "Meta's own court-submitted data shows only 7% of Instagram time and 17% of Facebook time involves content from friends/followed accounts—evidence that platforms have ceased to function primarily as social networks.",
+    "Recommendation systems privilege passive metrics (watch time, dwell time, completion rate) over active social signals (likes, shares, follows), redefining engagement.",
+    "TikTok's 'For You Page' model has driven industry-wide convergence toward interest-based, algorithmically curated feeds across Meta, YouTube, and X.",
+    "Posting and viewing on Facebook and Twitter/X dropped nearly 50% between 2020 and 2024 (citing Törnberg 2026).",
+    "AI chatbot use (52% of US adults in 2025) now exceeds active posting on major social platforms (35% Facebook, 20% Instagram, 11% Twitter/X).",
+    "Synthetic content (e.g., 'Shrimp Jesus') circulates and scales within engagement-optimized systems with limited platform incentive to distinguish human from AI content.",
+    "Established methods—network analysis, content analysis, API-based data collection—are increasingly misaligned with the structures of post-social formations."
+  ],
+  "contributions": [
+    "Proposes 'post-social media' as a conceptual framework marking a rupture in the organizing assumptions of digital communication research.",
+    "Articulates a typology of three post-social formations: algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication.",
+    "Introduces or consolidates concepts such as 'algorithmic publics,' 'imitation publics,' and 'user-spectator' to replace 'networked publics.'",
+    "Outlines a research agenda specifying distinct methodological needs for each formation: flow analysis and rhythmanalysis for broadcasting platforms; ethnography and bounded-place theory for semi-private spheres; AI auditing and experimental approaches for chatbot media.",
+    "Identifies cross-cutting normative stakes around power concentration, epistemic fragmentation, and democratic communication, calling for new regulatory and ethical frameworks."
+  ],
+  "framing": "The paper positions itself within platform studies, digital sociology, and media/communication theory, building on but seeking to move beyond foundational frameworks such as networked publics (boyd, Papacharissi), participatory culture (Jenkins), platformization (van Dijck, Helmond), and surveillance capitalism (Zuboff). It engages with emerging conversations on algorithmic media (Gerbaudo), human–machine communication (Guzman & Lewis), bounded social media places (Malhotra), and critical studies of generative AI (Törnberg & Uitermark), arguing for a paradigmatic reorientation of the field.",
+  "pdf_source": "drive"
+}

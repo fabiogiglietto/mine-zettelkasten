@@ -1,0 +1,36 @@
+{
+  "abstract": "This editorial introduces a special issue of Digital Journalism examining AI hype as a systemic, structuring force within journalism rather than merely a discursive bubble or cultural narrative. The authors define AI hype as exaggerated promises and anticipatory narratives that mobilize resources, redistribute legitimacy, and configure sociotechnical futures before they materialize. Drawing on contributions to the special issue, they analyze how AI hype is embedded in journalistic communities of practice, recurring narratives, sourcing patterns, and geopolitical framings, and they call for breakdown-and-repair approaches that render hype visible and open space for alternatives.",
+  "key_claims": [
+    "AI hype should be understood as a pervasive systemic infrastructure that shapes decisions, redistributes resources, and legitimizes actors, not merely as discourse or a transient bubble.",
+    "Hype is embedded in journalism's community of practice, where new technologies are adopted under professional anxiety and managerial pressure without full understanding of risks and affordances.",
+    "Journalists both produce and police hype, occupying a contradictory dual role as hype makers (through reporting choices) and hype watchers (through watchdog scrutiny).",
+    "Repetitive sourcing patterns—favoring tech executives and self-proclaimed experts—are a central mechanism through which journalists sustain AI hype and render alternative actors invisible.",
+    "AI hype operates simultaneously through temporal narratives of inevitability and through nationally-specific geopolitical framings (e.g., US, China, Germany, Brazil, Chile, Africa).",
+    "Hype renders invisible the hidden labor (data annotators, content moderators), environmental costs, and material infrastructures that sustain AI systems.",
+    "Debunking hype is insufficient; scholars and journalists must engage in 'breakdown and repair' by making hype's mechanisms visible and imagining alternative futures."
+  ],
+  "methods": [
+    "Editorial synthesis and theoretical framing of contributions to a special issue of Digital Journalism on AI hype.",
+    "Drawing on Star's (1999) ethnography of infrastructure and Lave & Wenger's (1991) community of practice theory.",
+    "Integrative review of the special issue's empirical studies, which include ethnography of the Associated Press AI initiative, interviews with Chinese journalists, comparative content analysis of US/Dutch/Brazilian/German/Chilean/African media, and analysis of media union responses to GenAI.",
+    "Comparative historical analogy with prior hype cycles (Hyperloop, metaverse) to contextualize AI hype."
+  ],
+  "findings": [
+    "Actors within newsrooms strategically leverage AI hype to secure funding and legitimacy (e.g., reframing automation projects as AI projects in the AP initiative).",
+    "Media unions have negotiated GenAI-related protections but with vague language that reproduces invisibility for marginalized media workers.",
+    "Sourcing in AI coverage has shifted from government officials and administrators (in 'automation' era reporting) to tech executives once 'AI' became the dominant framing (Shorey & Rodriguez).",
+    "Coverage of the metaverse was largely uncritical, with only ~11% of articles employing critical framing (Maddocks et al. 2024).",
+    "Journalistic discourse frames AI through 'open-ended technological inevitability,' foreclosing questions about whether AI futures should arrive at all (Magalhães & Smit).",
+    "National framings vary: Chinese journalists position as 'loyal-facilitators' aligned with state strategy; German coverage emphasizes 'European values' against US/China competitors.",
+    "AI hype obscures contradictions, such as labeling systems 'fully automated' while requiring constant human supervision."
+  ],
+  "contributions": [
+    "Provides a working definition of AI hype as a structuring sociotechnical force rather than mere discourse or expectation.",
+    "Reframes the scholarly question from whether AI hype is justified to how it functions, mobilizes resources, and reconfigures journalism labor.",
+    "Synthesizes insights across the special issue into an integrated framework covering communities of practice, recurring narratives, reach and scope, and breakdown and repair.",
+    "Offers concrete recommendations: diversify expert sources, practice active reflexivity, and produce more critical scholarship on environmental, labor, and societal impacts of AI.",
+    "Bridges journalism studies with STS infrastructure scholarship by applying 'infrastructural inversion' to AI hype."
+  ],
+  "framing": "The piece is positioned at the intersection of journalism studies, science and technology studies (STS), and critical AI/communication research. It draws on infrastructure studies (Star), community-of-practice theory (Lave & Wenger), and the sociology of expectations and hype cycles (van Lente et al.) to argue that journalism scholarship has under-theorized how AI hype is enacted within professional fields, treating it instead as abstract narrative or policy instrument.",
+  "pdf_source": "drive"
+}

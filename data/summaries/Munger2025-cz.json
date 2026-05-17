@@ -1,0 +1,34 @@
+{
+  "abstract": "Munger offers a meta-scientific critique of the Meta2020 research partnership, in which 17 academics collaborated with Meta to run large-scale field experiments on Facebook and Instagram during the 2020 US election. While praising the studies' methodological ambition and craft, he argues that they generate narrow numerical estimates whose external validity is unclear, given that the platforms change too rapidly to permit replication. He concludes that empirical social science is structurally incapable of keeping pace with social media platforms, and that proactive regulation requiring platforms to know and disclose their own effects is therefore necessary.",
+  "key_claims": [
+    "The Meta2020 collaboration represents the apex of empirical social science on social media but exposes the inherent limits of that mode of inquiry.",
+    "One-off field experiments on rapidly changing platforms have low 'temporal validity' — their findings decay too quickly to support rigorous generalization, and the papers themselves punt on external validity.",
+    "The collaboration lacks 'poetic validity': core concepts like 'echo chamber' are operationalized inconsistently across papers, making it unclear what was learned versus what was already known.",
+    "Operationalizing theoretical concepts into platform-level interventions imports an alien machine ontology that social scientists, and even Meta, do not fully understand.",
+    "Big, consensus-based science introduces tradeoffs (slow publication, methodological compromise) that produced an underpowered design unable to detect electorally meaningful effects.",
+    "Strict pre-registration and multiple-comparison adjustments combined with many outcomes biased the project toward null findings, which conveniently aligns with Meta's interests.",
+    "Because platforms cannot be effectively studied reactively, social media must be regulated proactively, with companies legally obligated to characterize their own products' effects."
+  ],
+  "methods": [
+    "Meta-scientific essay and critical review of the five published Meta2020 papers (Allcott et al. 2024; Guess et al. 2023a, 2023b; Nyhan et al. 2023; González-Bailón et al. 2023).",
+    "Conceptual analysis of how key constructs (e.g., 'echo chamber') are defined and operationalized across the collaboration's papers.",
+    "Reflection on the sociology and political economy of large-scale academic-industry partnerships, drawing on Munger's prior work on temporal and poetic validity."
+  ],
+  "findings": [
+    "Across the Meta2020 papers, treatments include Facebook/Instagram deactivation, chronological feed, removal of reshared content, and a one-third reduction in like-minded sources, each producing numerical effect estimates often near or below significance thresholds.",
+    "The deactivation experiment's estimated effect on Trump vote (−0.026) was 'large enough to be meaningful in a close election' but failed the preregistered Q<0.05 threshold, indicating the study was underpowered for electorally consequential effects.",
+    "Different papers in the same collaboration define 'echo chamber' differently — as exposure to like-minded sources versus as social curation processes — undermining internal conceptual coherence.",
+    "External validity disclaimers in the papers effectively concede that proposed replications across time and political systems are impossible.",
+    "Meta reportedly spent ~$20–25 million on the project, roughly 0.019% of its 2023 revenue, suggesting platform self-knowledge is severely under-resourced.",
+    "Descriptive papers translating platform data into human-language categories have lagged behind experimental papers in publication and attention."
+  ],
+  "contributions": [
+    "Provides a structured meta-scientific evaluation of the most prominent academic-industry social media research collaboration to date.",
+    "Develops and applies the concepts of 'temporal validity' and 'poetic validity' as criteria for evaluating social media research.",
+    "Reframes the ethics debate from 'should such studies be permitted?' to 'should they be legally mandated?'.",
+    "Argues for a shift from reactive empirical social science to proactive regulatory frameworks (e.g., FTC, EU Digital Services Act) requiring platforms to characterize their own effects.",
+    "Highlights tensions between Open Science reforms (pre-registration, multiple-comparison corrections) and the practical realities of large, expensive field experiments."
+  ],
+  "framing": "The piece situates itself within political communication, science and technology studies, and metascience, engaging debates over external validity, the replication crisis, and academic-industry partnerships. It extends Munger's prior arguments about temporal and poetic validity into a critique of platform research, positioning empirical social science as structurally inadequate for governing rapidly evolving digital infrastructures.",
+  "pdf_source": "drive"
+}

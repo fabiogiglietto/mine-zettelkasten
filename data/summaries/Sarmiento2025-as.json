@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper proposes an unsupervised methodology for identifying and characterizing frames in polarized online discussions on social media. The approach combines machine learning, network analysis algorithms, and natural language processing tools to surface emergent and subtle framing patterns without relying on pre-defined frame categories. The authors argue this integrative pipeline advances the study of online polarization by making latent framing structures visible at scale.",
+  "key_claims": [
+    "Frames in polarized online discourse are often emergent, complex, and subtle, requiring methods that can detect them without predefined categories.",
+    "An integrated pipeline combining machine learning, network analysis, and NLP can effectively identify and characterize such frames.",
+    "Studying frames in this way contributes new insight into the dynamics of polarization on social media."
+  ],
+  "methods": [
+    "An unsupervised analytical methodology for frame detection in social media discourse.",
+    "Integration of machine learning techniques with natural language processing tools.",
+    "Use of network analysis algorithms to characterize relationships among frames or actors in polarized conversations."
+  ],
+  "findings": [
+    "The abstract does not report specific empirical findings; it presents the methodology and its proposed analytical capabilities."
+  ],
+  "contributions": [
+    "A comprehensive, unsupervised methodology for frame identification in polarized social media discourse.",
+    "A bridging of computational techniques (ML, NLP, network analysis) with framing theory applied to online polarization.",
+    "An extension of conceptual understanding of how frames emerge and gain prominence in polarized online conversations."
+  ],
+  "framing": "The paper situates itself at the intersection of communication research on framing theory and computational social science approaches to online polarization. It positions framing analysis as a tool for understanding polarized discourse dynamics on social media platforms.",
+  "pdf_source": "abstract_only"
+}

@@ -1,0 +1,38 @@
+{
+  "abstract": "This chapter presents a critical audit of YouTube's content moderation during the 2024 European Parliamentary elections, focusing on two pillars of the platform's stated commitments: raising authoritative sources and removing harmful content. Combining browser-based scraping of search results in the Netherlands, Germany, and France with a YouTube API sample of 8,142 election-related videos, the authors examine which sources are algorithmically prioritized, how the 'News Funding Notice' (publisher context label) is applied, and how content removals are communicated. They find that legacy media and Public Service Media (PSM) dominate search results, that publisher context labels are inconsistently applied across broadcasters and entirely absent in several EU languages, and that removal statements are vague and opaque. The chapter calls for expanded researcher data access via the YouTube Research Program to enable scalable content moderation audits.",
+  "key_claims": [
+    "YouTube's search algorithm during the 2024 EU Parliamentary elections favors legacy media and Public Service Media over natively digital creators, reflecting a shift toward 'authoritative' sources.",
+    "YouTube's 'News Funding Notice' (publisher context label) is applied inconsistently across international broadcasters (e.g., TRT Français lacks a label while other TRT channels have one), subsidiary channels (e.g., RTBF vs. RTBF Info), and regional public broadcasters.",
+    "Publisher context labels are entirely absent in several EU languages including Basque, Catalan, Danish, Finnish, Galician, Greek, and Portuguese, undermining uniform transparency across the EU.",
+    "YouTube's removal statements to users are deliberately vague, referencing Terms of Service rather than Community Guidelines, and obscure the platform's role in content moderation decisions.",
+    "Current data access for independent researchers—via YouTube's API and the DSA Transparency Database—is insufficient for robust, event-specific content moderation auditing.",
+    "Transparency should be reconceived as 'observability,' attending to the conditions and infrastructures that make platform knowledge production possible."
+  ],
+  "methods": [
+    "Critical hybrid audit combining API-based and web scraping approaches, drawing on Sandvig et al.'s typology of algorithm audits.",
+    "Country-specific browser-based data collection (provided by AI Forensics) from May 2 to July 7, 2024, capturing top-20 YouTube search results in the Netherlands, Germany, and France using local IP addresses, for both 'neutral' and 'adversarial' (anti-immigration) election queries.",
+    "Weekly YouTube API queries for 'European Parliamentary election' from April 23 to July 15, 2024, yielding 8,142 unique videos, with later metadata retrieval (October 23, 2024) to identify removed content.",
+    "Classification of channels into six categories: Public Service Media, Legacy Media, Government, Political Parties, Natively Digital, and Other.",
+    "Systematic testing of News Funding Notice visibility across EU countries and language settings using VPNs and YouTube region settings.",
+    "Scraping of YouTube removal statements and comparison with channel-level explanations; use of the Internet Archive for metadata of unavailable videos.",
+    "Comparative case using a query on banned influencer Andrew Tate (N=65,159) to benchmark removal rates."
+  ],
+  "findings": [
+    "Public Service Media dominate top search results in the Netherlands and Germany, while legacy media is more prominent in France; 91% of PSM videos in the dataset carried a News Funding Notice.",
+    "News Funding Notices are inconsistently applied: TRT Français lacks one while other TRT branches have it; RTBF has one but its subsidiary RTBF Info does not; the Dutch broadcaster Ongehoord Nederland and regional broadcasters like L1 Limburg and Omroep Flevoland are unlabeled.",
+    "News Funding Notices are absent in Finnish, Greek, Danish, Catalan, Basque, Galician, and (European) Portuguese language settings, though available for Brazilian Portuguese.",
+    "Of 8,142 election-related videos sampled, 486 (6%) became unavailable, compared with 26% in the Andrew Tate comparison sample.",
+    "Removal statements fall into six categories, with most attributing unavailability to channel-level terminations; only four videos were explicitly flagged for Terms of Service violations.",
+    "YouTube communicates about removals via Terms of Service rather than Community Guidelines, and provides more detailed information on channel pages than on the removed video link itself.",
+    "Two ToS-removal case studies (WealthHub reuploading Andrew Tate content, and DDGeopolitics featuring Russia Today/Sputnik-affiliated material) show YouTube removing specific videos while permitting borderline channels to remain active."
+  ],
+  "contributions": [
+    "Provides an empirical, election-focused audit of YouTube moderation under the EU's Digital Services Act regime.",
+    "Documents previously underreported inconsistencies in YouTube's publisher context labeling across broadcasters and EU languages.",
+    "Develops a 'critical audit' methodology that combines API and scraping techniques while reflexively examining the conditions of platform observability.",
+    "Offers a comparative empirical baseline for content removal rates (election vs. banned-influencer queries) on YouTube.",
+    "Advances concrete policy recommendations: integrating News Funding Notice and removal-statement data into the YouTube Research API, adding a 'historical mode' to address recency bias, and linking the DSA Transparency Database to video/channel IDs."
+  ],
+  "framing": "The chapter situates itself within platform governance and content moderation scholarship (Gillespie, Grimmelmann, Gorwa), algorithm auditing literature (Sandvig et al.; Rieder & Hofmann's notion of 'observability'), and ongoing debates about YouTube's role as a 'great radicalizer' versus its post-Adpocalypse shift toward authoritative-source promotion. It engages directly with the regulatory context of the EU Digital Services Act and contributes to emerging European-focused research on the visibility of Public Service Media on platforms.",
+  "pdf_source": "drive"
+}

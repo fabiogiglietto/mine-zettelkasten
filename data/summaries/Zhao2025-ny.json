@@ -1,0 +1,22 @@
+{
+  "abstract": "This paper examines 'hashtag hijacking' as a tactic in online public opinion contests, focusing on how attention dynamics, competing narratives, and social bots interact to redirect or appropriate hashtags. Published in Information, Communication & Society, the study situates hashtag hijacking within broader debates about platform-mediated political communication and automated influence. The authors analyze the mechanisms by which hijackers capture attention and reshape the discursive frames associated with trending hashtags.",
+  "key_claims": [
+    "Hashtag hijacking is a strategic move in public opinion games rather than incidental noise",
+    "Attention dynamics, narrative framing, and social bot activity jointly shape hijacking outcomes",
+    "Social bots play a non-trivial role in amplifying or redirecting hashtag-based discourse"
+  ],
+  "methods": [
+    "Conceptual and empirical analysis of hashtag hijacking episodes (specific data and techniques not specified in the available abstract)"
+  ],
+  "findings": [
+    "Hijacking succeeds through a combination of attention capture and narrative substitution",
+    "Bot-driven amplification is implicated in shifting the trajectory of hashtag conversations"
+  ],
+  "contributions": [
+    "Provides a framework for understanding hashtag hijacking as a public opinion strategy",
+    "Integrates attention, narrative, and automated agents into a single analytic lens",
+    "Advances the study of social bots' role in contested online discourse"
+  ],
+  "framing": "The paper engages with literatures on platform politics, computational propaganda, and the sociology of attention, positioning hashtag hijacking within ongoing discussions about how public opinion is contested on social media.",
+  "pdf_source": "abstract_only"
+}

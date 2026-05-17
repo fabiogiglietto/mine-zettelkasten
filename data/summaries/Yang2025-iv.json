@@ -1,0 +1,26 @@
+{
+  "abstract": "This paper develops a new method for detecting coordinated link-sharing behavior on Facebook that goes beyond reliance on post-timing, which manipulators can easily alter. The authors exploit statistical regularities in the speed and frequency of link sharing across accounts to identify coordination. They validate the approach on a corpus of 11.2 million Facebook link posts drawn from roughly 16,000 sources.",
+  "key_claims": [
+    "Existing coordination detection methods are vulnerable to evasion because they depend heavily on post-timing signals that are trivially manipulable.",
+    "Speed and frequency of link sharing exhibit highly regular statistical patterns that can serve as more robust indicators of coordination.",
+    "These statistical regularities can be operationalized into a detection method that improves on prior timing-based approaches."
+  ],
+  "methods": [
+    "Analysis of a large-scale Facebook dataset comprising 11.2 million link posts.",
+    "Sourcing of posts from a curated list of approximately 16,000 accounts or domains.",
+    "Statistical modeling of sharing speed and frequency distributions to identify coordinated activity.",
+    "Empirical validation of the detection approach on the Facebook corpus."
+  ],
+  "findings": [
+    "Link-sharing speed and frequency display consistent statistical regularities across accounts.",
+    "These regularities can be leveraged to detect coordinated sharing behavior on Facebook.",
+    "The approach is validated on a large empirical dataset of Facebook link posts."
+  ],
+  "contributions": [
+    "A methodological advance in coordination detection that reduces dependence on easily manipulated post-timing features.",
+    "Introduction of speed- and frequency-based statistical signatures as detection signals.",
+    "Empirical application and validation at scale using millions of Facebook link posts."
+  ],
+  "framing": "The paper situates itself within the literature on detecting coordinated inauthentic behavior and social media manipulation, responding to known weaknesses in timing-based coordination detection. It contributes to computational social science and platform integrity research by proposing more evasion-resistant detection signals.",
+  "pdf_source": "abstract_only"
+}

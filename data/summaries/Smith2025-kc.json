@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper introduces the concept of the 'attention broker' (tertius amplificans, or 'third who amplifies'), extending Obstfeld's tertius iungens to social media contexts where users can amplify content with attribution at scale. Using a novel technique that exploits the Twitter/X V1 API cursor parameter to obtain time-bounded follower events, the authors apply a difference-in-differences design to two case studies—Jorts the Cat and J.K. Rowling—to causally identify how retweets by influential accounts drive the formation of transitive triads. They find that amplification by these brokers significantly accelerates the rate at which their followers form following ties to amplified accounts, beyond background virality, offering a local causal mechanism for the well-documented tendency toward triad transitivity in directed social networks.",
+  "key_claims": [
+    "Triad transitivity in directed social networks is partly produced by an endogenous, local causal mechanism in which a high-degree node amplifies another user's content with attribution, prompting followers to form new ties to the amplified account.",
+    "This mechanism—'attention brokerage' or the tertius amplificans—is a novel extension of the tertius iungens orientation suited to sociotechnical systems with many-to-many amplification affordances.",
+    "Attention brokerage operates through exposure rather than persuasion, accelerating ties to accounts followers were predisposed to follow, thereby reshaping the local distribution of attentional/social capital.",
+    "The process generalizes beyond Twitter/X to any system with attributed resharing, sticky attention, and an overwhelming pool of potential targets (e.g. citation networks, TikTok duets, corporate memos)."
+  ],
+  "methods": [
+    "Two-case comparative case study design contrasting Jorts the Cat (pro-union, ~200K followers, Dec 2021–Mar 2022) with J.K. Rowling (TERF advocacy, ~14M followers, Jun 2018–Mar 2023).",
+    "Novel data collection exploiting the Twitter/X V1 API's cursor parameter (a modified Unix nanosecond timestamp) to retrieve time-bounded following events—pinpointing when ties were formed within narrow windows around amplification events.",
+    "Collection of attention brokers' full timelines via the focalevents package, filtering for simple retweets (excluding quote tweets to avoid 'dunking').",
+    "Hand-labeling of 646 (Jorts) and 534 (Rowling) retweeted accounts by four coders along dimensions of cause-alignment (union/non-union; TERF/non-TERF) and interest-actor status, with a third coder resolving disagreements.",
+    "Construction of treatment (transitive triads: follower-broker-retweeted) and control (open triads: nonfollower-broker-retweeted) motifs over 2-week pre/post windows around each retweet.",
+    "Estimation of attentive population sizes using the POPAN implementation of the Jolly-Seber mark-recapture model in Project MARK.",
+    "Two-stage difference-in-differences event study (following Gardner) with account and time fixed effects, plus Rambachan and Roth sensitivity analysis for violations of parallel trends."
+  ],
+  "findings": [
+    "For both attention brokers, the treatment effect on day 0 (the retweet day) is positive and statistically significant: followers of the broker follow the amplified account at much higher rates than nonfollowers.",
+    "Effects are heterogeneous across account types: Jorts's brokerage is strongest for union-related accounts; Rowling's effect is significant across all account types but largest for TERF interest-actor accounts.",
+    "Smaller positive pre-retweet effects suggest incidental prior exposure also contributes to follower accumulation, while a post-spike decline in following rates suggests amplification accelerates ties that would have eventually formed, depleting the pool of latent followers.",
+    "Rambachan-Roth sensitivity analyses indicate the main effects are robust: violations of parallel trends would have to be more than four times larger post-retweet than pre-retweet to overturn key results (especially for union and TERF-interest-actor accounts).",
+    "Estimated attentive populations differ substantially across groups (e.g. ~164K Jorts followers vs. ~17.9M nonfollowers; ~841K Rowling followers vs. ~2.68M nonfollowers in the sampled attentive set)."
+  ],
+  "contributions": [
+    "Theoretical: introduces 'attention brokerage' / tertius amplificans as a scaled, amplification-based extension of the tertius iungens, applicable wherever attributed resharing occurs.",
+    "Methodological: documents and operationalizes a Twitter/X V1 API cursor technique that yields time-bounded follower events, enabling precise temporal analysis of tie formation.",
+    "Empirical: provides causal (difference-in-differences) evidence that amplification by influential accounts produces transitive triads in a directed social network, using two ideologically and structurally divergent cases.",
+    "Conceptual link between local micro-mechanisms and macro-level network properties, offering a causal explanation for the well-known prevalence of transitivity in social networks.",
+    "Publicly released anonymized dataset (SOMAR/ICPSR) and code repository documenting the cursor-based collection method."
+  ],
+  "framing": "The paper situates itself at the intersection of social network theory (triad transitivity, structural balance, brokerage, tertius iungens/gaudens, structural holes, social capital) and computational social science of social media (virality, gatekeeping, influencer effects, platform affordances). It positions attention brokerage as a causal complement to Schelling-style work on how local processes generate global network structure, and as a corrective to brokerage literatures that emphasize structural position without identifying causal mechanisms of triad closure.",
+  "pdf_source": "drive"
+}

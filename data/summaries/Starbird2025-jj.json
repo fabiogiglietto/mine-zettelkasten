@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper develops an evidence-frame framework for analyzing online rumors about election integrity, adapting Klein's data-frame theory of sensemaking to social media discourse. Using a grounded, mixed-method analysis of 479 sampled tweets from a 1.8M-tweet corpus collected during the 2022 U.S. midterm election in Arizona, the authors show that misleading election rumors are produced through interactions between (often factually accurate) evidence and politically-charged frames, rather than simply through false facts. They argue that the conversational structure of quote tweets and comments makes these evidence-frame dynamics visible and analyzable.",
+  "key_claims": [
+    "Misleading rumors about election integrity are as much about political framing as they are about faulty facts; the locus of the misinformation problem lies in interactions between evidence and distorted frames.",
+    "Online rumoring can be productively analyzed as collective sensemaking decomposable into two interacting components: evidence sharing and framing.",
+    "Twitter's quote-tweet/comment structure functions as a site where framing actions (adding, echoing, escalating, countering frames) operate on shared evidence, often transforming true evidence into misleading rumors.",
+    "Highly influential accounts often share evidence without explicit framing, relying on partisan audiences to supply the intended frame in comments — a 'call and response' rumoring strategy.",
+    "Five salient election-integrity frames cluster under two countervailing meta-frames: 'robust election integrity' (trustworthy elections, GOP misinformation) and 'poor election integrity' (election mess, untrustworthy elections, election fraud)."
+  ],
+  "methods": [
+    "Grounded, interpretive, mixed-method analysis combining qualitative content coding with quantitative descriptive analysis, drawing on constructivist grounded theory.",
+    "Data collected in real time via the Twitter Streaming API using a broad set of election- and location-related search terms, yielding a focused subset of 1.8M tweets ('AZ Midterm Voting/Election Tweets') covering Nov 8–9, 2022.",
+    "Five-stage research process: exploratory analysis, iterative coding scheme development, stratified sampling, closed coding with three trained coders, and integrated qualitative/quantitative analysis.",
+    "Novel coding scheme operationalizing rumors via four dimensions — relevance, evidence (asserted vs. referenced), interpretations (mapped to frames), and framing (support/counter, explicit/implicit) — applied separately to quoted tweets and their comments.",
+    "Sampling design of ten strata: top-20, random-top-100, and random-top-500 quoted tweets, each with top and random comments, plus a 60-tweet random sample (n=479 total).",
+    "Inter-rater reliability assessed via Krippendorff's Alpha; disagreements resolved through majority-rule and consensus arbitration; quantitative comparisons via chi-square tests and one-way ANOVA."
+  ],
+  "findings": [
+    "About 70% of sampled voting-related tweets concerned election administration, indicating election integrity dominated discourse over candidates or outcomes.",
+    "Highly quoted tweets disproportionately contained asserted evidence (82% vs. 45% in the random sample), suggesting evidence-bearing posts attract amplification and reframing.",
+    "94% of election-administration tweets contained a frame, but only ~39% framed explicitly; framing was less explicit in highly quoted tweets, consistent with influencers leaving frames implicit.",
+    "The 'poor election integrity' meta-frame dominated (78% of coded tweets), with election fraud the most common specific frame; 'robust election integrity' framing was rare (12%).",
+    "Comments most often added, echoed, escalated, or countered frames; 17% of comments escalated frames (e.g., from election mess to fraud), and 27% countered the quoted frame.",
+    "Quoted tweets with no explicit frame frequently attracted comments that uniformly supplied a poor-election-integrity frame, revealing implicit frames through audience response.",
+    "Aggregate framing actions correlated with engagement: quoted tweets whose comments added or escalated frames showed significantly different retweet-to-comment ratios than those countered or aligned with.",
+    "A specific embedded 'poll worker' video, shared by conservative influencers (Bowyer, Kirk, Johnson), became central evidence that was repeatedly reframed into untrustworthy elections and election fraud narratives despite the tweets themselves containing largely accurate information."
+  ],
+  "contributions": [
+    "Theoretical: adapts Klein et al.'s data-frame theory of sensemaking to online rumoring, integrating it with Entman's and Benford & Snow's framing theory to bridge individual sensemaking and collective rumor dynamics.",
+    "Methodological: introduces a replicable coding scheme and sampling design for analyzing evidence-frame interactions in quote-tweet/comment structures on social media.",
+    "Empirical: provides a detailed case study of how true evidence about Arizona's 2022 voting machine problems was transformed into false 'rigged election' rumors through framing.",
+    "Conceptual reframing of the misinformation problem: shifts focus from veracity of isolated claims to the interplay between evidence and political frames, with implications for fact-checking, platform design, and research operationalization."
+  ],
+  "framing": "The paper positions itself against dominant operationalizations of misinformation as merely 'false facts' or links to low-quality sites, engaging instead with CSCW and sociological traditions on rumoring, collective sensemaking (Shibutani, Weick, Klein), and framing theory (Goffman, Entman, Benford & Snow). It contributes to ongoing CSCW conversations about how social media affordances shape collaborative meaning-making during crises and contested political events.",
+  "pdf_source": "drive"
+}

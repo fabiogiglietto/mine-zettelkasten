@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper reports two studies testing whether 'balanced news chatbots' — conversational agents that present an equal mix of mainstream and alternative/conspiratorial perspectives on climate change — are accepted by users with differing levels of conspiracy belief. Using a custom chatbot called 'Infobot' and an adapted Technology Acceptance Model (TAM), the authors compared individuals with high vs. low generic conspiracy belief (Study 1, n=177) and high vs. low climate-specific conspiracy belief (Study 2, n=58). Across both studies, perceived usefulness and trust predicted positive attitudes and intention to use the chatbot, and, contrary to the authors' initial hypothesis, individuals with higher conspiracy beliefs rated the chatbot more positively than those with lower conspiracy beliefs.",
+  "key_claims": [
+    "Balanced news chatbots are a promising tool for piercing information bubbles and reducing polarization by exposing users to diverse perspectives on contested issues like climate change.",
+    "Within the TAM framework applied to chatbots, perceived usefulness and trust are the dominant predictors of user attitudes, while perceived ease of use and perceived risks contribute less.",
+    "Contrary to expectations derived from prior literature on conspiracy thinking and distrust, individuals with higher conspiracy beliefs (both generic and climate-specific) trust and accept balanced news chatbots more than individuals with lower conspiracy beliefs.",
+    "Attitudes toward the chatbot strongly predict behavioral intention to use it in the future.",
+    "Mainstream-believing users may also exhibit selective engagement, suggesting that resistance to attitude-incongruent information is not unique to conspiracy believers."
+  ],
+  "methods": [
+    "Two preregistered online survey experiments (OSF) using Qualtrics with US panel participants recruited by DVJ Insights.",
+    "Custom chatbot 'Infobot' built with Rasa, HTML/CSS/JS, presenting 8 climate-change article headlines (4 mainstream, 4 alternative/conspiratorial) in a randomized carousel; participants were required to read at least 4 article summaries.",
+    "Study 1 (final n=177): groups split via Generic Conspiracist Beliefs Scale (GCBS; Brotherton et al., 2013) into low (<2) and high (>4) generic conspiracy belief.",
+    "Study 2 (final n=58): groups split via a self-constructed 4-item climate-change-specific conspiracy belief scale (α=.83).",
+    "Measures adapted from prior work for perceived ease of use, perceived usefulness, perceived risks, trust, attitude toward chatbot, and intention to use (7-point Likert scales).",
+    "Analysis via structural equation modeling (lavaan in R) with robust ML estimation, evaluated through CFI, RMSEA, SRMR; Welch's t-tests for group comparisons; exploratory analyses of article selection counts and reading times."
+  ],
+  "findings": [
+    "SEM in both studies showed perceived usefulness (β=.64 Study 1; β=.80 Study 2) and trust (β=.35; β=.40) significantly predicted attitude, explaining ~91% of variance; perceived ease of use and perceived risks were non-significant.",
+    "Attitude toward the chatbot strongly predicted intention to use it (β=.98 Study 1; β=.97 Study 2), explaining 94–96% of variance.",
+    "Participants with higher conspiracy beliefs reported significantly greater trust (e.g., 5.48 vs. 4.39 in Study 1; 5.54 vs. 4.54 in Study 2), more positive attitudes, and stronger intentions to use the chatbot than those with lower conspiracy beliefs.",
+    "Higher-conspiracy participants were significantly more politically conservative in both studies, though Study 1 showed no difference in belief in anthropogenic climate change between groups.",
+    "In Study 1, participants overall read more mainstream than alternative articles; high-conspiracy participants spent significantly less time reading three of four mainstream articles and one alternative article, suggesting selective engagement.",
+    "In Study 2, participants read more alternative than mainstream articles overall, with no reading-time differences (contrary to Study 1).",
+    "A negatively worded trust item cross-loaded onto perceived risk in both studies and was dropped to improve measurement model fit."
+  ],
+  "contributions": [
+    "Extends the Technology Acceptance Model to balanced news chatbots, identifying trust and perceived usefulness as key levers for adoption.",
+    "Provides empirical evidence that conspiracy-believing users can respond favorably to tools offering balanced/diverse information, challenging assumptions that they reject counter-attitudinal sources outright.",
+    "Introduces and tests a working balanced news chatbot prototype ('Infobot') as a depolarization intervention.",
+    "Suggests that mainstream-believing users may themselves be a barrier to balanced information exposure, reframing debates about echo chambers.",
+    "Offers a replicated SEM model and a preregistered design, with materials and analyses shared via OSF."
+  ],
+  "framing": "The paper situates itself at the intersection of human–computer interaction (chatbots, TAM), political communication on polarization and echo chambers, and the psychology of conspiracy belief (motivated reasoning, reactance, selective exposure). It engages with debates about whether technological interventions can pierce ideological information bubbles, and explicitly tests assumptions from the conspiracy-belief literature that predict defensiveness toward counter-attitudinal information.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper quantifies how web scraping distorts measurements of online news consumption in web-tracking research. The authors compare HTML content captured in-situ (via a browser extension during user interaction) to content scraped ex-situ at varying time delays (0, 30, 60, 90 days) for 34,108 news article visits by 412 German participants. They find that the ex-situ collection environment itself introduces ~33.8% content disparity, while temporal delays add only ~6.5 percentage points over 90 days, and that these errors are systematically (non-uniformly) distributed across news categories, biasing downstream analyses.",
+  "key_claims": [
+    "The collection environment (in-situ vs. ex-situ) is the dominant source of discrepancy in scraped news content, not the time delay emphasized in prior work.",
+    "Scraping errors are not randomly distributed but systematically biased across news domains, URL-based categories, and content-based (ML) categories, threatening the validity of web-tracking studies.",
+    "Most ex-situ measurement error stems from web elements requiring user interaction (paywalls, logins, cookie consents) rather than from textual changes to articles.",
+    "Standard bias-mitigation strategies (raising classifier thresholds, dropping problematic domains) fail to correct distortions; only removing the most affected content categories aligns ex-situ with in-situ distributions.",
+    "In-situ web-tracking that captures content directly in the user's environment is necessary to obtain accurate measures of online news exposure."
+  ],
+  "methods": [
+    "Two-wave web-tracking study (July–December 2023) with 534 German participants recruited via GESIS panel and ALLBUS, using a desktop browser extension (Chrome/Firefox/Edge) to capture URLs, HTML, and timestamps in-situ.",
+    "Parallel ex-situ scraping of each visited URL in near real-time using two Python libraries randomly assigned per URL: trafilatura (fixed user agent) and requests (randomized user agents).",
+    "Post-hoc re-scraping of last 30 days of wave 2 at 30, 60, and 90-day delays calibrated to each user's original visit timestamp.",
+    "Filtering to 34,108 news article visits using URL-pattern heuristics (validated against 1,005 manually annotated URLs; F1 = .937).",
+    "Computed normalized Levenshtein distances between in-situ and ex-situ content at three representations: cleaned text (trafilatura), raw text (selectolax), and full HTML.",
+    "Three news categorization schemes: domain-based (Stier et al. 2020 typology), URL-keyword-based (16 categories), and content-based ML classifier trained on party press releases (Erfort et al. 2023).",
+    "Statistical analysis via linear regression, ANOVA, Tukey HSD pairwise comparisons (emmeans), Pearson correlations, and chi-square tests."
+  ],
+  "findings": [
+    "Mean Levenshtein distance between in-situ and near-real-time ex-situ content was 40.1% for cleaned text, 49.9% for raw text, and 71.8% for HTML.",
+    "Wave 1 distance (33.8%) was lower than wave 2 (45.4%), suggesting carry-over deterioration from cumulative scraping load.",
+    "Post-hoc delay added only 6.5 percentage points over 90 days, with most of the increase (5.5 pp) occurring in the first 30 days and a non-linear, plateauing trajectory.",
+    "Trafilatura was blocked by spiegel.de between waves due to its consistent user agent; randomized user agents (requests library) proved more robust.",
+    "Discrepancies varied systematically by news type: legacy press and tabloids showed larger gaps than commercial broadcasters and hyperpartisan outlets, consistent with paywall prevalence.",
+    "77.5% of in-situ Domestic Commerce pages were misclassified as Non-thematic in ex-situ data; 84% of the top 100 most misclassified articles involved pages requiring user interaction (73% paywalls/logins).",
+    "Only excluding Domestic Commerce, Technology, and Non-thematic categories produced statistically equivalent in-situ and ex-situ distributions (χ²(19) = 16.87, p = .599)."
+  ],
+  "contributions": [
+    "Provides the first direct quantification of the gap between in-situ and ex-situ web-tracking by holding URLs constant and comparing the actual content seen by users to what scrapers retrieve.",
+    "Separates and benchmarks two distinct sources of scraping error — the collection environment and temporal delay — showing the environment dominates, contrary to prior emphasis.",
+    "Demonstrates that scraping bias is systematic across multiple categorization schemes, with implications for measurement of selective exposure, fragmentation, and media effects.",
+    "Evaluates and largely rules out simple bias-mitigation strategies, identifying interaction-required pages (paywalls/logins) as the central problem to solve.",
+    "Offers concrete methodological recommendations for ex-situ scraping infrastructure (user-agent rotation, rate spreading, dynamic-content handling) and lays groundwork for error-correction frameworks in web-tracking research."
+  ],
+  "framing": "The paper positions itself in computational communication and media-effects research that has shifted from survey self-reports to web-tracking digital trace data (Scharkow, Stier, Guess, Parry). It extends a methodological critique of post-hoc scraping (Dahlke et al. 2023; Foerderer 2023) by arguing that in-situ content capture is qualitatively different from — and substantially more valid than — ex-situ scraping, and connects measurement error to substantive concerns about media exposure, polarization, and audience fragmentation.",
+  "pdf_source": "drive"
+}

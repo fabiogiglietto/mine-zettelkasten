@@ -1,0 +1,36 @@
+{
+  "abstract": "This article examines how the Sweden Democrats (SD), an authoritarian populist party, deployed visual securitising discourse across Facebook, X, and TikTok during their 2024 EU election campaign, organised around the slogan 'My Europe Builds Walls: Against Immigration, Against Criminal Gangs, Against Islamists.' Using a cross-platform multimodal critical discourse analysis (MCDA) of 293 posts, the authors show that SD tailored content to each platform's functionalities and audiences: text-laden, argumentative, and seemingly informative posts on Facebook and X, but predominantly memes on TikTok despite its smaller follower base. The TikTok memes typically paired short clips of non-white men engaged in violence, vandalism, or protests with a cartoon brick wall gradually appearing, often using footage from outside Sweden (and even outside the EU) to manufacture a sense of crisis aimed at younger audiences.",
+  "key_claims": [
+    "Authoritarian populist parties strategically adapt securitising visual discourse to the functionalities and perceived audiences of different social media platforms.",
+    "SD prioritised TikTok over its larger, better-established Facebook and X accounts, indicating deliberate targeting of younger voters with memetic, affectively charged content.",
+    "Visual securitisation operates differently across platforms: as persuasion/legitimisation on Facebook and X, and as affective, performative, viral threat construction on TikTok.",
+    "By distributing meme templates for supporters to remix, SD enacted 'audience agency' in securitisation, decentralising narrative production while maintaining plausible deniability over potentially racist or misleading content.",
+    "SD's use of foreign (including non-EU) footage to depict supposed Swedish/EU immigration consequences constitutes a form of disinformation embedded in its visual campaign."
+  ],
+  "methods": [
+    "Manual collection of 293 posts from SD's official Facebook (78), X (92), and TikTok (123) accounts across the six-week campaign period (25 April – 9 June 2024), filtered by mentions of 'EU', 'Europe', 'election', or the campaign slogan.",
+    "Cross-platform comparative analysis grounded in Bossetta's (2018) digital architecture framework, focusing on the functionality dimension (hardware, supported media, cross-platform integration, broadcast feed/GUI).",
+    "Operationalisation into four analytical categories: media type, slogan-integrated references, content origin (original vs reshared), and platform temporal integration (cross-posting patterns).",
+    "Multimodal Critical Discourse Analysis (MCDA) using Machin and Mayr's (2012) toolkit combined with Kress and van Leeuwen's visual grammar, examining referential, predicational, and argumentation strategies, viewer-actor interaction, composition, and Martinec and Salway's (2005) image-text relations.",
+    "Reverse video searches to identify the geographic origin of clips embedded in TikTok memes."
+  ],
+  "findings": [
+    "Memes accounted for 67.5% of all campaign posts; videos 17%; image-based content ~13.5%; text-only posts only 1.3% (exclusively on X).",
+    "TikTok hosted the majority of campaign content (123 posts) and 87% of TikTok posts were memes, despite SD's much smaller follower base there (~50,000) compared to Facebook (~350,000) and X (~140,000).",
+    "91% of posts were original SD content; reposts (9%) appeared almost exclusively on X and frequently included hyperlinks to mainstream and alternative news.",
+    "Hashtags appeared in 45% of posts overall, but SD used hashtags in original content only on TikTok, leveraging virality tags like #fördig (#foryou).",
+    "The slogan appeared in both visual and textual modes in 82% of posts; on TikTok it never appeared in text only, whereas Facebook and X sometimes carried it solely in captions.",
+    "Text-image relations differed by platform: 'relay' and 'enhancement/extension' relations on Facebook and X; 'exemplification' on TikTok.",
+    "TikTok memes frequently used footage from France, Germany, Spain, Ireland, and even post-Brexit England, presented without geographic markers to imply Swedish/EU conditions.",
+    "SD's voter share among Swedish 18-24-year-olds rose from 9% (2019) to 15% (2024 EU election) even as its overall EU vote share declined."
+  ],
+  "contributions": [
+    "Extends research on populist political communication to a genuinely cross-platform, visually centred analysis, addressing a gap in studies of how authoritarian populists construct securitisation across digital settings.",
+    "Operationalises Bossetta's digital architecture framework into four concrete analytical categories linking platform functionalities to discursive practices.",
+    "Provides one of the first analyses of a Swedish political party's strategic use of TikTok during an election campaign.",
+    "Introduces the notion that authoritarian populist securitisation is platform-dependent and increasingly co-produced with audiences through remixable visual templates.",
+    "Raises concerns about how AI-generated visual content may intensify these dynamics, with implications for misinformation, affective polarisation, and democratic deliberation."
+  ],
+  "framing": "The article positions itself at the intersection of populism studies, securitisation theory (Copenhagen School), and digital political communication, drawing especially on Bossetta's digital architecture framework and multimodal critical discourse analysis. It responds to calls within security studies for sustained attention to visual threat construction and to calls within political communication research for cross-platform analyses of campaigning, particularly on emerging platforms like TikTok.",
+  "pdf_source": "drive"
+}

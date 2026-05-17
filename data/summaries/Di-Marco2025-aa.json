@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper proposes a post-hoc framework for quantifying the influence exerted by a subset of nodes (representing coordinated accounts) in directed trees representing information cascades. The authors develop two algorithms—an unconstrained optimal placement and a greedy strategy with a fixed number of coordinated nodes—and apply them to ~50K Twitter/X retweet cascades from the 2019 UK general election. They find that observed coordinated accounts achieve influence far below both optimal and greedy benchmarks, with placement patterns closely resembling random assignment. The results suggest that Coordinated Inauthentic Behaviour (CIB) may be less pivotal in information diffusion than commonly assumed, due to both resource scarcity and lack of strategic placement.",
+  "key_claims": [
+    "The influence of coordinated accounts in information cascades can be formally modeled and bounded using a binary node-labeling framework on directed trees.",
+    "Maximum influence over a tree can typically be achieved using a relatively small number of coordinated accounts (~30% of nodes), whose effective count depends heavily on tree height.",
+    "Observed coordinated accounts on X exert influence substantially lower than both unconstrained optimal and resource-matched greedy benchmarks.",
+    "The placement of real coordinated accounts statistically resembles random placement more than any strategic configuration.",
+    "Coordinated Inauthentic Behaviour may play a less pivotal role in shaping information diffusion than prevailing narratives suggest, owing to limited resources and poor placement strategy."
+  ],
+  "methods": [
+    "Formal graph-theoretic framework defining influence I_l(T) as the count of non-coordinated out-neighbors of coordinated (1-labeled) nodes in a directed tree.",
+    "Algorithm 1 (TreeMaxInfluence): a dynamic-programming, post-order traversal computing optimal influence in O(|V|) time, paired with Algorithm 2 to prune redundant 1-nodes.",
+    "Algorithm 4: a greedy heuristic for a fixed budget k of coordinated nodes, using a 'switch' operator (Algorithm 3) to iteratively improve influence.",
+    "Synthetic simulations on random directed trees varying node count (5–100) and height to characterize growth rates of optimal influence I* and minimum coordinated set size k*.",
+    "Phase-diagram analysis enumerating all (25 choose 7) labelings of a 25-node tree to assess rarity of optimal placements via (m10, m11) edge counts.",
+    "Empirical case study on ~49K retweet cascades reconstructed from ~1.4M tweets about the 2019 UK general election, using the De Nies et al. heuristic for cascade reconstruction and Nizzoli et al.'s coordination-detection pipeline.",
+    "Kullback–Leibler divergence comparing the empirical influence distribution with greedy and random-placement distributions."
+  ],
+  "findings": [
+    "On random trees, optimal influence I* scales roughly linearly with node count at slope ~0.6, while optimal coordinated-set size k* scales at slope ~0.28 (R² = 0.99, p < 0.001).",
+    "Optimal influence drops sharply as tree height increases for fixed n, stabilizing only after heights around 20.",
+    "Optimal and greedy labelings occupy rare, boundary regions of the (m10, m11) phase diagram, indicating non-strategic placements are unlikely to achieve high influence.",
+    "In the X dataset, influence from real coordinated accounts is roughly 10% of cascade size in large cascades versus the ~60% predicted by the optimal model.",
+    "Only ~1% of nodes in large cascades are coordinated, far below the ~30% needed for optimal influence.",
+    "KL divergence: D_KL(p_real || q_random) = 0.097 vs. D_KL(p_real || q_greedy) = 4.278, indicating real placements are statistically close to random and far from greedy-optimal."
+  ],
+  "contributions": [
+    "A general post-hoc framework for evaluating the influence of a labeled node subset in directed trees, applicable beyond CIB to any binary-label tree influence problem.",
+    "An exact O(|V|) dynamic-programming algorithm for optimal influence maximization without resource constraints, plus a pruning procedure for minimal coordinated-set size.",
+    "A greedy switch-based heuristic for the constrained k-node placement problem.",
+    "Empirical evidence that coordinated accounts during the 2019 UK elections exerted limited influence relative to theoretical optima, attributable to both limited resources and absence of strategic placement.",
+    "Quantitative evidence (via KL divergence and phase diagrams) that observed coordinated placements are statistically indistinguishable from random."
+  ],
+  "framing": "The paper situates itself at the intersection of information-cascade modeling and the emerging literature on Coordinated Inauthentic Behaviour, social bots, and trolls on social media. It contributes a graph-theoretic, algorithmic perspective to debates—largely conducted in computational social science and network science—about whether coordinated or automated accounts genuinely shape online discourse, aligning with skeptical findings (e.g., Vosoughi et al., Ruths) about bot influence.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper argues that the most consequential risk of generative AI is not isolated deepfakes but the emergence of 'synthetic realities'—coherent, interactive, personalized information environments in which content, identity, and social interaction are jointly fabricated. Ferrara formalizes synthetic reality as a four-layer stack (content, identity, interaction, institutions), expands a taxonomy of GenAI harms, identifies qualitative shifts (cost collapse, throughput, customization, micro-segmentation, provenance gaps, trust erosion), and compiles a case bank of 2023–2025 incidents. The paper proposes a layered mitigation stack and a research agenda for 'epistemic security,' concluding with the Generative AI Paradox: as synthetic media becomes ubiquitous, societies may rationally discount all digital evidence, raising the cost of truth itself.",
+  "key_claims": [
+    "GenAI risk extends beyond isolated synthetic artifacts to coherent, interactive, personalized synthetic realities that erode shared epistemic ground.",
+    "Synthetic reality is best understood as a layered stack: content, identity, interaction, and institutions, with harms escalating from artifact-level forgery to systemic institutional failure.",
+    "GenAI differs from prior deception technologies (e.g., Photoshop) through seven mutually reinforcing mechanisms: cost collapse, scale/throughput, customization, micro-segmentation, automated social engineering, provenance gaps, and trust erosion.",
+    "Societies face a paradox: as synthetic content proliferates, rational actors may discount all digital evidence, empowering strategic denial and plausible deniability while imposing an 'epistemic tax' on institutions.",
+    "Mitigation cannot rely on any single tool (detection, watermarking, or takedowns) and must be a defense-in-depth stack spanning provenance, platform governance, institutional redesign, public resilience, and policy accountability.",
+    "Research priorities should shift from artifact authenticity toward measurable 'epistemic security'—the capacity of socio-technical systems to sustain shared reality under adversarial pressure."
+  ],
+  "methods": [
+    "Conceptual/theoretical framework development, formalizing 'synthetic reality' as a four-layer stack (content, identity, interaction, institutions).",
+    "Taxonomic expansion of GenAI harm categories (personal, financial, informational, socio-technical, and epistemic/institutional integrity).",
+    "Mechanism analysis identifying seven qualitative shifts introduced by GenAI relative to prior deception technologies.",
+    "Construction of a 'case bank' of representative 2023–2025 risk realizations selected for documentation quality, mechanism diversity, and linkage to stack layers (fraud, elections, harassment, document fabrication, model supply-chain compromise).",
+    "Synthesis of mitigation strategies mapped to the synthetic reality stack and articulation of a research agenda with proposed measurement constructs."
+  ],
+  "findings": [
+    "Five recurring case categories illustrate synthetic reality harms: (A) high-conviction impersonation fraud (e.g., Arup Hong Kong ~$25M deepfake video conference scam), (B) election-adjacent synthetic outreach (e.g., AI-generated Biden robocalls in New Hampshire), (C) non-consensual synthetic sexual imagery (e.g., Taylor Swift deepfake incident), (D) fabricated everyday documentation (AI-generated receipts/invoices and expense fraud), and (E) compromised generative pipelines (malicious model uploads, backdoors, data poisoning).",
+    "A common operational pattern emerges across cases: cheap high-conviction artifact production, insertion at workflow choke points, scale-driven exposure, lagging correction, and institutional absorption of verification externalities.",
+    "Detection and watermarking are brittle in open ecosystems due to compression, re-encoding, adversarial perturbations, and unauthenticated generation, creating a persistent 'provenance gap.'",
+    "Trust erosion produces dual failure modes—credulity (believing fakes) and cynicism (dismissing truths)—both of which benefit strategic actors who exploit plausible deniability.",
+    "Harms are unevenly distributed: marginalized communities and those without access to authenticated channels face disproportionate verification burdens and exposure."
+  ],
+  "contributions": [
+    "Formalization of 'synthetic reality' as a four-layer stack (content, identity, interaction, institutions) mapping attack surfaces to defensive levers.",
+    "An expanded taxonomy of GenAI harms that adds epistemic and institutional integrity as a cross-cutting harm category.",
+    "Articulation of seven qualitative shifts (cost collapse, throughput, customization, micro-segmentation, synthetic interaction, provenance gap, trust erosion) explaining why GenAI is not merely 'more misinformation.'",
+    "A compact, mechanism-focused case bank of 2023–2025 incidents linking documented harms to stack layers.",
+    "A layered mitigation framework spanning provenance, platform governance, institutional process redesign, public resilience, and policy accountability.",
+    "A research agenda for epistemic security with candidate operational metrics (authenticity coverage, correction latency, manipulation susceptibility, verification load, attribution stability) and interactive-manipulation benchmarks.",
+    "Formulation of the 'Generative AI Paradox' as a testable thesis about systemic discounting of digital evidence."
+  ],
+  "framing": "The paper positions itself within socio-technical and computational social science scholarship on misinformation, AI safety, and information integrity, extending these conversations beyond 'deepfakes' and content authenticity toward institutional resilience, epistemic security, and democratic accountability. It engages with debates in platform governance, provenance/content credentials (e.g., C2PA-style infrastructure), and AI risk taxonomies, while drawing on prior work by the author on nefarious uses of GenAI and election interference.",
+  "pdf_source": "drive"
+}

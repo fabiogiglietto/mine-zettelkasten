@@ -1,0 +1,35 @@
+{
+  "abstract": "This theoretical paper examines how generative AI challenges traditional notions of factuality by producing outputs that are plausible but not anchored in empirical evidence. Using fact-checking as an epistemic lens, the authors analyze three established categories of facts—evidence-based, interpretative, and rule-based—and argue they are insufficient for AI-generated content. They propose a new category, 'emergent facts,' drawn from emergence theory and complex systems thinking, to capture the probabilistic, context-dependent, and opaque nature of GenAI outputs, and offer four indicators (accuracy, verifiability, contextual relevance, consistency) for evaluating them.",
+  "key_claims": [
+    "Generative AI outputs cannot be adequately assessed through traditional epistemological frameworks of factuality because they are probabilistic recombinations rather than retrievals of verified information.",
+    "Three conventional fact categories used in fact-checking—evidence-based (positivist), interpretative (constructivist), and rule-based (institutional)—each illuminate aspects of factuality but fail when applied to AI-generated content.",
+    "A new category, 'emergent facts,' is needed to describe outputs that arise from dynamic interactions between training data, model architecture, and user prompts.",
+    "Emergent facts are plausible but unverified, context-dependent, highly variable, and epistemically opaque, and thus require relational assessment rather than binary true/false judgments.",
+    "Fact-checking epistemology provides a productive lens for evaluating AI-generated content and supporting AI literacy in computational knowledge environments.",
+    "Emergent facts differ from 'algorithmic truth' in that they demand external validation and epistemic scrutiny rather than judgment based purely on coherence or plausibility."
+  ],
+  "methods": [
+    "Theoretical and conceptual analysis rather than empirical study.",
+    "Literature-based synthesis drawing on philosophy of science (correspondence, coherence, pragmatic theories of truth), sociology of knowledge (Durkheim, Searle, Latour & Woolgar, Foucault), and journalism/fact-checking scholarship.",
+    "Comparative epistemological mapping of three fact categories (evidence-based, interpretative, rule-based) against the characteristics of large language models.",
+    "Construction of a conceptual framework introducing 'emergent facts' and four evaluative indicators (accuracy, verifiability, contextual relevance, consistency), summarized in Table 1 and Figure 1."
+  ],
+  "findings": [
+    "Positivist/evidence-based fact-checking fails for GenAI outputs because they lack ontological referents and traceable provenance.",
+    "Constructivist/interpretative approaches highlight how facts are negotiated, but GenAI outputs emerge from opaque probabilistic processes rather than shared social practices.",
+    "Institutional/rule-based facts depend on collective agreements and verification protocols that GenAI systems mimic linguistically without actually adhering to.",
+    "Emergent facts occupy a distinct epistemic category: computationally constructed, prompt-dependent, variable across models, and not reducible to brute facts.",
+    "The four proposed indicators—accuracy, verifiability, contextual relevance, and consistency—offer a structured way to evaluate AI outputs while addressing known limitations like hallucination and bias.",
+    "The framework prioritizes evaluation over technical intervention and supports AI literacy and risk mitigation in fact-sensitive contexts."
+  ],
+  "contributions": [
+    "Introduces the concept of 'emergent facts' as a novel epistemic category for AI-generated content.",
+    "Provides a conceptual framework with four indicators (accuracy, verifiability, contextual relevance, consistency) for evaluating GenAI outputs.",
+    "Distinguishes emergent facts from 'algorithmic truth,' clarifying differing epistemic orientations.",
+    "Extends fact-checking epistemology from human-centered journalism into computational/AI contexts.",
+    "Bridges philosophy of science, AI ethics, and media/information studies by reframing factuality as a dynamic sociotechnical outcome.",
+    "Supports AI literacy by offering a structured method to critically assess GenAI limitations."
+  ],
+  "framing": "The paper situates itself at the intersection of epistemology, AI ethics, and media/information studies, engaging debates on truth, objectivity, and verification in journalism while drawing on philosophy of science (positivism, constructivism, institutional facts, emergence theory). It positions fact-checking not just as a journalistic practice but as an epistemological lens for understanding how knowledge is produced and stabilized in AI-mediated sociotechnical systems, contributing to discussions on 'algorithmic truth' and computational epistemology.",
+  "pdf_source": "drive"
+}

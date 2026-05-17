@@ -1,0 +1,29 @@
+{
+  "abstract": "This paper introduces IOHunter, a graph foundation model designed to detect coordinated information operations (IOs) on social media platforms. The approach combines language models with graph neural networks to identify IO drivers across diverse campaigns, addressing the challenge of generalization across different operations and platforms. The authors evaluate the model on datasets from six different state-sponsored campaigns on X (formerly Twitter), demonstrating improved performance in both supervised and out-of-distribution scenarios.",
+  "key_claims": [
+    "Existing IO detection methods struggle to generalize across different information operations and require labeled data that is often scarce.",
+    "A graph foundation model approach combining language models and graph neural networks can effectively identify IO drivers across heterogeneous campaigns.",
+    "IOHunter achieves state-of-the-art performance in detecting coordinated IO drivers, including in out-of-distribution and few-shot settings.",
+    "Foundation models for graph-based social network analysis represent a promising direction for combating online manipulation."
+  ],
+  "methods": [
+    "Development of IOHunter, a model integrating language models with graph neural networks (GNNs).",
+    "Evaluation on six datasets of state-sponsored information operations originating from different countries on X (Twitter).",
+    "Testing under supervised learning conditions as well as out-of-distribution and generalization scenarios.",
+    "Comparison against existing baselines for IO driver detection."
+  ],
+  "findings": [
+    "IOHunter outperforms baseline methods in identifying IO drivers across multiple campaign datasets.",
+    "The model demonstrates strong generalization capabilities to unseen information operations.",
+    "Combining textual (language model) and structural (graph) signals yields better detection than either modality alone.",
+    "The approach is effective even with limited labeled data, supporting few-shot detection scenarios."
+  ],
+  "contributions": [
+    "Introduction of a graph foundation model paradigm for online information operations detection.",
+    "A unified framework integrating language and graph representations for coordinated behavior detection.",
+    "Empirical demonstration of cross-campaign generalization across six state-sponsored IO datasets.",
+    "Advancement of tools for protecting democratic discourse and combating coordinated manipulation on social media."
+  ],
+  "framing": "The paper situates itself at the intersection of computational social science, graph machine learning, and online safety research. It positions information operations detection within the emerging paradigm of foundation models, extending their promise from language and vision to graph-structured social data, and contributes to ongoing efforts to safeguard democratic processes from coordinated online manipulation.",
+  "pdf_source": "abstract_only"
+}

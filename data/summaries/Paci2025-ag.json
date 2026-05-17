@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper investigates whether current Large Language Models (LLMs) can interpret manipulative implicit content—specifically implicatures and presuppositions—in Italian political discourse. Using the IMPAQTS corpus of annotated Italian political speeches, the authors construct a novel dataset (IMPAQTS-PID) of ~30K implicit passages with expert explanations and test four multilingual LLMs through a multiple-choice task and an open-ended generation task. Results show all models struggle: the best model (GPT-4o-mini) falls over 20 points below the estimated ceiling on multiple choice and produces fully correct explanations in only about one-quarter of open-ended cases, though Chain-of-Thought prompting offers modest improvements.",
+  "key_claims": [
+    "Current LLMs lack the pragmatic competence required to accurately interpret highly implicit, context-dependent language characteristic of political discourse.",
+    "While LLMs perform above chance on identifying implicit content, there is a substantial gap between their outputs and expert human interpretations of implicatures and presuppositions.",
+    "Chain-of-Thought prompting improves model performance on pragmatic reasoning tasks more than few-shot prompting does.",
+    "Models do not perform systematically better on implicatures versus presuppositions; both phenomena pose comparable difficulty.",
+    "Distractor design substantially affects multiple-choice evaluation outcomes, suggesting MCG setups can introduce confounds in pragmatic evaluation.",
+    "Enriching LLMs with contextual and world knowledge (e.g., about speakers, political affiliations, historical setting) is a promising direction for improving implicit-content interpretation."
+  ],
+  "methods": [
+    "Leveraged the IMPAQTS corpus of 1,500 Italian political speeches (1946–2023) with expert annotations of manipulative implicit content (non-bona-fide true).",
+    "Constructed IMPAQTS-PID, a dataset of 31,822 samples (14,932 implicatures; 16,890 presuppositions) paired with expert explanations and four sentences of preceding linguistic context.",
+    "Conducted a human validation study with 9 expert linguists across 3 LimeSurvey questionnaires (126 sentences) to empirically determine that four left-hand context sentences suffice for interpretation.",
+    "Evaluated four multilingual LLMs suitable for Italian: GPT-4o-mini, Aya Expanse 8B, LLAMA3.1 8B, and LLAMA3.2 3B.",
+    "Multiple-Choice Generation (MCG) task: models choose among four candidate explanations, with distractors selected via topic modeling (450 topics + residual) to create hard- and easy-negative subsets; evaluated by accuracy against chance (25%), an estimated ceiling (91%), and a BLEU-4 n-gram similarity baseline (64%).",
+    "Open-Ended Generation (OEG) task: GPT-4o-mini prompted in zero-shot, few-shot (4 examples), and Chain-of-Thought settings; 150 samples per setting evaluated by 10 expert linguists using a 5-point judgment scale (totally correct, correct among options, partially correct, totally wrong, no answer).",
+    "Supplementary evaluations on IronITA (Italian irony detection) and the INVALSI pragmatics benchmark; an LLM-as-judge analysis using GPT-4o for comparison."
+  ],
+  "findings": [
+    "On MCG, GPT-4o-mini achieved 70% accuracy, substantially outperforming Aya Expanse 8B (62%), LLAMA3.1 8B (56%), and LLAMA3.2 3B (43%); only GPT-4o-mini consistently surpassed the 64% n-gram baseline, but remained ~20 points below the 91% estimated ceiling.",
+    "All models scored higher on easy-negative than hard-negative distractor subsets (e.g., GPT-4o-mini: 73% vs. 65%), showing distractor selection significantly affects measured performance.",
+    "LLAMA models exhibited positional bias favoring the last option and occasional refusal behavior on politically sensitive content (LLAMA3.1 8B refused 45 times; LLAMA3.2 3B 91 times).",
+    "In OEG, GPT-4o-mini produced fully correct explanations in only 21% (zero-shot), 21% (few-shot), and 27% (CoT) of cases; 'totally wrong' answers occurred in 39%, 38%, and 33% respectively.",
+    "CoT prompting reduced totally wrong answers and increased totally correct ones relative to zero-shot; few-shot prompting provided no meaningful improvement.",
+    "Model performance was similar across implicatures and presuppositions (e.g., CoT yielded 64% vs. 65% 'acceptable' explanations respectively).",
+    "Qualitative analysis showed CoT helps models identify the target of implicit content and partial meaning, though they still miss some specifics like attributing responsibility to particular political actors.",
+    "An LLM-as-judge (GPT-4o) evaluation rated outputs even more harshly than human experts, judging ~60% as totally wrong.",
+    "GPT-4o-mini achieved 66% on IronITA (irony detection) and 83% on the INVALSI pragmatics subtask, indicating pragmatic competence is uneven across artificial vs. naturalistic settings."
+  ],
+  "contributions": [
+    "First application of the IMPAQTS corpus within NLP research for evaluating LLM pragmatic understanding.",
+    "Release of IMPAQTS-PID, a new dataset of ~31.8K implicit passages (implicatures and presuppositions) from Italian political speeches with expert-written explanations and validated context windows.",
+    "A methodological framework for evaluating LLM interpretation of manipulative implicit content via paired multiple-choice and open-ended generation tasks, including an expert-based human evaluation protocol.",
+    "Empirical evidence that current state-of-the-art LLMs (for Italian) fall well short of expert performance on naturalistic pragmatic interpretation, in contrast to stronger results on artificially constructed pragmatic benchmarks.",
+    "Demonstration that Chain-of-Thought prompting partially mitigates pragmatic limitations, and identification of contextual/world knowledge integration as a promising direction.",
+    "Public release of data and code at https://github.com/WalterPaci/IMPAQTS-PID."
+  ],
+  "framing": "The paper situates itself at the intersection of computational pragmatics and political discourse analysis, building on Gricean theories of implicature and presupposition (Grice; Sperber & Wilson; Strawson; Ducrot) and on prior NLP work probing LLMs' pragmatic competence (Jeretic et al., 2020; Zheng et al., 2021; Hu et al., 2023; Kim et al., 2023; Ruis et al., 2024). It positions itself as a step beyond prior studies that used artificially constructed stimuli, arguing that ecological, semi-spontaneous political speech provides a more rigorous testbed for pragmatic reasoning and engages with NLP literatures on political language analysis.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper addresses the problem of detecting coordinated bot activity on Bluesky, an emerging decentralized social media platform. The authors argue that coordinated networks of bots play a major role in amplifying misinformation through viralization, making real-time detection essential. The work proposes an approach for identifying such coordinated bot behavior as it occurs on the platform.",
+  "key_claims": [
+    "Misinformation on social media is often perceived as credible once content goes viral.",
+    "Viralization is frequently driven by coordinated activity rather than organic spread.",
+    "Coordinated bot networks pose a significant threat to information integrity, distinct from benign organic coordination.",
+    "Real-time detection of coordinated bots is feasible and necessary on platforms like Bluesky."
+  ],
+  "methods": [
+    "Focus on the Bluesky social media platform as the case study.",
+    "Real-time detection approach for coordinated bot networks (specific algorithmic details not available from the abstract)."
+  ],
+  "findings": [
+    "Specific empirical findings are not provided in the available abstract."
+  ],
+  "contributions": [
+    "Addresses bot detection on Bluesky, a relatively new and understudied platform compared to X, Instagram, and TikTok.",
+    "Frames the detection task around coordination in real time rather than retrospective or per-account analysis.",
+    "Distinguishes between organic coordination and malicious coordinated bot activity as a conceptual framing for detection."
+  ],
+  "framing": "The paper situates itself within the literature on misinformation, social bot detection, and coordinated inauthentic behavior on social media. It extends this conversation to Bluesky, contrasting it with more established platforms, and emphasizes real-time detection as a response to the role of viralization in spreading misinformation.",
+  "pdf_source": "abstract_only"
+}

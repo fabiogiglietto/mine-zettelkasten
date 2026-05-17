@@ -1,0 +1,39 @@
+{
+  "abstract": "This paper presents the first comparative analysis of how six major social media platforms (YouTube, Meta, TikTok, Twitter/X, Snapchat, and LinkedIn) allocate human content moderators across languages, using transparency data mandated by the EU's Digital Services Act (DSA). The authors document substantial cross-lingual disparities both in language coverage and in moderator-to-content ratios, finding that millions of EU users on smaller platforms post in languages with no human oversight. Even where moderators exist, 'Global South' languages such as Spanish, Portuguese, and Arabic receive proportionally fewer moderators than English, ranging from 55% of English's allocation on YouTube to just 7.5% on Twitter/X. The authors call for more meaningful, globally inclusive transparency requirements.",
+  "key_claims": [
+    "Major social media platforms exhibit substantial cross-lingual disparities in content moderation workforce allocation, both in language coverage and in moderator-to-content ratios.",
+    "Smaller platforms (Twitter/X, LinkedIn, Snapchat) have significant 'blind spots' with no human moderators for several EU official languages, leaving millions of users without moderation in their national language.",
+    "Languages predominantly spoken in the Global South (Arabic, Spanish, Portuguese) receive consistently fewer moderators relative to content volume than English across platforms.",
+    "Platforms differ markedly in allocation strategy: Twitter/X prioritizes English disproportionately, while YouTube invests proportionally more in non-English EU languages.",
+    "There is a mismatch between languages platforms officially support in their user interface and those they invest in for moderation, suggesting incomplete recognition of user safety needs.",
+    "Current DSA transparency reporting is insufficient for independent assessment because platforms do not release content-volume-per-language data needed for normalization."
+  ],
+  "methods": [
+    "Collection of moderator counts per language from DSA-mandated platform transparency reports (Summer 2023 to Fall 2024) for six platforms: YouTube, Meta (Facebook/Instagram), TikTok, Twitter/X, Snapchat, and LinkedIn.",
+    "Averaging moderator counts across reporting periods; treating non-reported EU languages as having zero moderators.",
+    "Normalization of moderator counts by content volume per language using independent representative datasets: the TwitterDay dataset (375 million tweets from September 21, 2022) for Twitter/X and a random sample of 25,953 YouTube videos (April 2005–June 2024) for YouTube.",
+    "Language identification on tweet text and YouTube video titles/descriptions using fastText, with calibration of inference scores via isotonic regression against native-speaker annotations across multiple score thresholds.",
+    "Bootstrap resampling (1,000 samples) to estimate expected post/video counts per language with confidence intervals.",
+    "Mapping of Twitter/X user self-reported locations to countries via the Google Geocoding API to compute country-level language shares.",
+    "Use of DSA-reported EU country-level user counts to estimate how many users lack moderators for their national language, categorized using the UN geoscheme."
+  ],
+  "findings": [
+    "YouTube, Meta, and TikTok have moderators for nearly all EU official languages, while Twitter/X, LinkedIn, and Snapchat have multiple language blind spots especially in Southern, Eastern, and Northern Europe.",
+    "Approximately 16 million EU-based Twitter/X users (14% of its EU base), 8 million LinkedIn users (16%), and 7 million Snapchat users (7%) have no moderators for their national language.",
+    "In countries where they are official, languages subject to Twitter/X moderation blind spots represent on average 31% of tweets during the sampled day.",
+    "On Twitter/X, only Bulgarian and German have more moderators than English relative to content volume; Italian and Bulgarian have similar moderator counts despite Italian content being 78 times more prevalent.",
+    "On Twitter/X, Portuguese receives 9%, Arabic 7%, and Spanish 7% of English's moderator-per-content allocation.",
+    "On YouTube, most covered EU languages receive proportionally more moderators than English; only Spanish and Portuguese receive less, indicating reduced investment in Latin American user bases.",
+    "Across platforms, Global South languages average 55% of English's allocation on YouTube down to 7.5% on Twitter/X.",
+    "Some languages (e.g., Greek, Czech, Romanian) are supported in platform user interfaces but lack dedicated moderation staff, while some languages with moderators (e.g., Tagalog) lack interface support."
+  ],
+  "contributions": [
+    "First comparative empirical analysis of cross-lingual moderator workforce allocation across six major DSA-regulated platforms.",
+    "Novel methodology combining DSA transparency disclosures with independently constructed, calibrated content-volume estimates to normalize moderator counts by language.",
+    "Quantification of the number of EU users left without national-language moderation on specific platforms.",
+    "Empirical evidence extending and nuancing prior reports (e.g., Haugen disclosures, Global Witness) about platform underinvestment in non-English moderation.",
+    "Concrete policy recommendations for more meaningful transparency: requiring platforms to report content volume per language, moderator workload capacity, harmful-content prevalence, and to extend transparency obligations beyond the EU."
+  ],
+  "framing": "The paper situates itself within scholarship on content moderation, platform governance, and algorithmic and linguistic inequities, building on work documenting underinvestment in non-English and low-resource languages (e.g., Roberts, Gillespie, Global Witness, Elswah). It positions DSA-mandated transparency as a pivotal but incomplete advance, and contributes to ongoing debates about platform accountability and equitable user protection across global linguistic communities.",
+  "pdf_source": "drive"
+}

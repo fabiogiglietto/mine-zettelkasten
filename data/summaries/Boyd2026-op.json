@@ -1,0 +1,31 @@
+{
+  "abstract": "In this anniversary essay for Social Media + Society, danah boyd argues that the platforms once labeled 'social media' have fundamentally changed character over the past two decades. Where early-2000s platforms supported reciprocal sociality, identity work, and community-building, contemporary platforms reward scrolling over posting, algorithmically curated and professionally produced content over peer-to-peer exchange, and one-sided attention to influencers over mutual friendship. boyd proposes that scholars deprecate the term 'social media' in favor of 'parasocial media' to better capture this shift and its implications for governance, inequality, and digital sociality.",
+  "key_claims": [
+    "The 'social' in 'social media' has become a misnomer: contemporary platforms are dominated by passive consumption of strategically produced content rather than reciprocal peer interaction.",
+    "Parasociality—one-sided emotional engagement with distant figures—has become the central mode of engagement on major platforms, warranting a renaming to 'parasocial media.'",
+    "This transformation was not inevitable but resulted from corporate financialization, platform consolidation, and algorithmic incentives that reward influencers and polished content.",
+    "Calling these platforms 'social media' has biased normative interpretation of their practices and obscured what they have actually become.",
+    "Parasocial media cannot produce the social fabric that genuine sociality once did, and may exacerbate loneliness, objectification, and toxicity even as users spend more time engaged.",
+    "Scholarly tools for analyzing governance, inequality, and sociality must evolve to match this new genre of media."
+  ],
+  "methods": [
+    "Reflective, historically grounded essay drawing on the author's two decades of participant-observation, blogging, and consulting in the social media industry.",
+    "Conceptual and terminological analysis tracing the genealogy of labels such as 'social computing,' 'social software,' 'Web 2.0,' 'social network sites,' and 'social media.'",
+    "Synthesis of secondary literature spanning platform studies, influencer studies, parasocial interaction theory, and political economy of platforms."
+  ],
+  "findings": [
+    "Posting behavior on major platforms has declined while scrolling dominates user activity (citing John, 2024).",
+    "Feeds are increasingly populated by professionalized creator and advertiser content rather than peer updates from friends.",
+    "Doctorow's three-stage 'enshittification' framework captures how platforms have shifted from user-serving to investor-serving, with current platforms in the third stage.",
+    "Algorithmic incentives have transformed 'creators' into 'influencers' producing assetizable content, while ordinary users face privacy, reputational, and social risks that make posting less attractive.",
+    "Parasocial engagement, though emotionally intense, fails to generate reciprocal social fabric and can coexist with loneliness and toxicity."
+  ],
+  "contributions": [
+    "Introduces and argues for 'parasocial media' as a replacement terminology for 'social media' in the contemporary platform era.",
+    "Provides a first-person historical account of how the term 'social media' emerged and consolidated in the mid-2000s.",
+    "Connects parasocial interaction theory (Horton & Wohl, 1956) to current debates on platform political economy, influencer culture, and enshittification.",
+    "Calls on the field to revise its analytic vocabulary and reframe governance, inequality, and sociality debates accordingly."
+  ],
+  "framing": "The essay sits at the intersection of platform studies, internet history, and critical political economy of media, engaging conversations about participatory culture, networked publics, influencer industries, and platform governance. boyd writes self-consciously as both a longtime participant in coining social-media-era vocabulary and a critic revisiting those terminological choices, positioning the piece as a corrective intervention within the journal's twentieth-anniversary reflection.",
+  "pdf_source": "drive"
+}

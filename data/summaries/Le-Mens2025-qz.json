@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper proposes a simple method for placing political texts on policy and ideological dimensions using instruction-tuned large language models such as GPT-4, Llama 3, MiXtral, and Aya. The approach asks the LLM to locate a tweet or sentence on a focal dimension and averages many such responses to produce position estimates for political actors or longer texts. The authors report high correlations between these LLM-based estimates and established benchmarks across multiple cases and languages.",
+  "key_claims": [
+    "Instruction-tuned LLMs can be used directly, via prompting and averaging, to place political texts in policy and ideological spaces.",
+    "Averaging LLM responses across many short texts (tweets, sentences) yields reliable position estimates for political actors and longer documents.",
+    "The method generalizes across languages and types of political text, including US Senators' tweets, UK party manifestos, and multilingual EU policy speeches."
+  ],
+  "methods": [
+    "Prompting instruction-tuned LLMs (GPT-4, Llama 3, MiXtral, Aya) to rate where a given tweet or sentence falls on a specified policy or ideological dimension.",
+    "Aggregating (averaging) the LLM-generated position scores across texts to estimate the position of a political actor or document.",
+    "Applying the procedure to multiple corpora: US Senators' tweets, UK party manifestos, and EU policy speeches in 10 languages.",
+    "Validating estimates by correlating them with established benchmark measures of political positions."
+  ],
+  "findings": [
+    "LLM-derived position estimates correlate strongly with benchmark measures of political positioning.",
+    "The approach works across different LLMs, text types, and languages, including in multilingual settings such as EU speeches."
+  ],
+  "contributions": [
+    "Introduces a straightforward 'ask and average' methodology for scaling political texts using off-the-shelf instruction-tuned LLMs.",
+    "Demonstrates cross-lingual and cross-context applicability for political text analysis without bespoke model training.",
+    "Provides empirical validation against established political positioning benchmarks across several case studies."
+  ],
+  "framing": "The paper sits within the political text scaling and text-as-data literature in political science, proposing LLM-based prompting as an alternative to traditional supervised or unsupervised scaling methods like Wordscores or Wordfish. It contributes to a growing conversation about using generative LLMs as measurement tools in the social sciences.",
+  "pdf_source": "abstract_only"
+}

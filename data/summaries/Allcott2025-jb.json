@@ -1,0 +1,31 @@
+{
+  "abstract": "This study examines the causal effects of political advertising on Facebook and Instagram during the lead-up to the 2020 US presidential election. Researchers randomly assigned subsets of 36,906 Facebook users and 25,925 Instagram users to have political ads removed from their feeds for six weeks. The intervention produced no detectable effects across a range of political attitudes, knowledge, and behaviors, though the authors note statistical power limitations for assessing turnout and vote choice.",
+  "key_claims": [
+    "Most presidential ads on Facebook and Instagram were targeted at the parties' own supporters rather than persuadable voters.",
+    "Fundraising ads were the most common category of political advertising on these platforms.",
+    "Removing political ads from users' feeds for six weeks before the 2020 election had no detectable effects on political knowledge, polarization, perceptions, turnout, or vote choice.",
+    "The study was statistically underpowered to detect small effects on turnout and vote choice specifically."
+  ],
+  "methods": [
+    "Randomized controlled experiment with 36,906 Facebook users and 25,925 Instagram users.",
+    "Treatment condition removed political ads from participants' news feeds for six weeks prior to the 2020 US presidential election.",
+    "Descriptive analysis of presidential ad targeting patterns and ad content categories.",
+    "Outcome measures included political knowledge, polarization, perceptions, turnout, and vote choice."
+  ],
+  "findings": [
+    "Presidential ads were predominantly targeted at co-partisan supporters.",
+    "Fundraising appeals constituted the most common type of political ad.",
+    "No detectable effects of ad removal on political knowledge.",
+    "No detectable effects on affective or issue polarization.",
+    "No detectable effects on political perceptions.",
+    "Effects on turnout and vote choice could not be ruled out due to limited statistical power."
+  ],
+  "contributions": [
+    "Provides large-scale experimental causal evidence on the effects of social media political advertising during a major US election.",
+    "Documents descriptive patterns in how presidential campaigns targeted ads and what content (especially fundraising) dominated.",
+    "Contributes to debates about platform regulation and the persuasive power of digital political advertising by showing null effects on attitudinal outcomes.",
+    "Establishes a methodological template (platform-collaborative randomized ad removal) for studying advertising effects in situ."
+  ],
+  "framing": "The paper positions itself within ongoing scholarly and policy debates about the influence of social media advertising on democratic outcomes, contributing to a literature that has often relied on observational or smaller-scale evidence. It is part of a broader collaborative research effort with Meta to study platform effects on the 2020 US election.",
+  "pdf_source": "abstract_only"
+}

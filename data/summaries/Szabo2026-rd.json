@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper introduces Conversational Inoculation, a method for building resistance to misinformation through structured dialogue with an LLM-powered chatbot. The authors developed MindFort, a web-based system implementing three conditions—Reading (supportive defense), Writing (traditional refutation), and Chatbot (conversational inoculation via an agent named 'Forty')—and evaluated it in a within-subjects experiment with 65 participants across four topics (exercise/mental health, binge drinking, dental hygiene, and protecting nature). Results show that the Chatbot condition produced significantly greater resistance to misinformation than a no-treatment Control, and outperformed Reading and Writing when controlling for individual baseline susceptibility. Qualitative and linguistic analyses identified adaptability, independent thinking, trust-building, and interactional friction as key factors shaping the inoculation process.",
+  "key_claims": [
+    "Conversational Inoculation, delivered via an LLM-powered chatbot, is a viable novel method for building resistance to misinformation.",
+    "When controlling for individual baseline susceptibility, conversational inoculation outperforms traditional Reading and Writing inoculation approaches.",
+    "The conversational format sustains user motivation and engagement at levels comparable to traditional methods without sacrificing effectiveness.",
+    "Effectiveness depends not only on argument content but on interaction design factors: scaffolding independent thinking, building trust through partnership, and minimizing interactional friction.",
+    "Inoculation effectiveness varies by topic, suggesting prompt and tone design should be tailored to subject matter."
+  ],
+  "methods": [
+    "Developed MindFort, a Flask-based web application using GPT-4o (gpt-4o-2024-11-20, temperature 1) to implement a chatbot persona ('Forty') engineered via a structured system prompt grounded in inoculation theory and prompt-engineering literature.",
+    "Within-subjects online experiment with 65 participants (61 after exclusions) recruited via Prolific from English-speaking countries, compensated £12, with sample size justified by G*Power for Wilcoxon signed-rank test (d=.5, α=.05).",
+    "Each participant completed four lessons (one per topic: exercise/mental health, binge drinking, dental hygiene, protecting nature) in counterbalanced Latin Square order across four conditions: Control, Reading, Writing, Chatbot.",
+    "Each lesson followed a 5-stage inoculation protocol: pre-treatment certainty rating (15-point McGuire scale), treatment, mid-lesson certainty rating, strong counterattitudinal attack, post-attack certainty rating plus Intrinsic Motivation Inventory (IMI).",
+    "Quantitative analysis using Friedman tests, Bonferroni-corrected Wilcoxon signed-rank tests, and a linear mixed-effects model (lme4) with participants and topics as random effects.",
+    "Qualitative deductive content analysis of chatbot conversations and open feedback, plus LIWC-22 linguistic analysis benchmarked against the LMSYS-Chat-1M dataset (N=10,000 reference conversations)."
+  ],
+  "findings": [
+    "Chatbot condition produced significantly less post-attack certainty loss than Control (p=.001, r=-.33); pairwise differences with Reading (p=.07) and Writing (p=.08) were not significant.",
+    "When controlling for individual susceptibility (Inoculation Effectiveness measure), Chatbot significantly outperformed both Reading (p=.004) and Writing (p=.033).",
+    "The Chatbot treatment slightly increased mid-lesson certainty while the Writing treatment decreased it (difference significant, r=-.30, p=.006).",
+    "Inoculation effects varied by topic: exercise/mental health and binge drinking showed larger certainty drops than dental hygiene and protecting nature.",
+    "IMI scores did not differ significantly between conditions on most subscales; post-debriefing scores showed significant increases in Interest/Enjoyment, Perceived Competence, and Value/Usefulness.",
+    "LIWC analysis showed chatbot conversations were less Analytic, more Authentic, higher in Cognition, Conflict, Emotion, and Health words compared to reference chatbot dialogues, and significantly longer in word count.",
+    "For the binge drinking topic, LIWC 'Achieve' language strongly correlated with inoculation effectiveness (Spearman ρ=0.92, p=.008); no significant linguistic correlates emerged overall after Bonferroni correction.",
+    "Qualitative themes identified four mechanisms: adaptability of the chatbot to user attitudes, fostering of independent research and thinking, trust-building through partnership rather than authority, and interactional friction (technical glitches, disengagement) as a key barrier."
+  ],
+  "contributions": [
+    "Introduces and operationalizes the concept of Conversational Inoculation as a paradigm distinct from traditional passive or written inoculation approaches.",
+    "Provides MindFort, an open-source web-based prototype and accompanying participant dataset for reproducibility and future research.",
+    "Offers empirical validation that LLM-powered conversational agents can deliver effective cognitive inoculation against health-related misinformation.",
+    "Identifies design factors (adaptability, trust, independence-fostering, friction reduction) that shape conversational inoculation outcomes, informing future HCI design.",
+    "Proposes future directions including multi-bot inoculation architectures separating threat and facilitation roles, personalized adaptive strategies, and inoculation targeting cognitive biases or self-efficacy rather than specific topics."
+  ],
+  "framing": "The paper situates itself at the intersection of Cognitive Inoculation Theory (McGuire, Banas & Rains, Compton) and HCI research on conversational agents and misinformation interventions. It positions Conversational Inoculation as a response to limitations of traditional inoculation methods—particularly their inability to adapt to individual attitudes—and as an extension of recent gamified and LLM-assisted inoculation work (e.g., Bad News, Tang & Sergeeva, Malek et al.). The contribution is framed as advancing scalable, human-centered defenses against misinformation in an era of generative AI.",
+  "pdf_source": "drive"
+}

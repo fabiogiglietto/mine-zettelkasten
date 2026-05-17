@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper proposes a method for measuring 'narrative similarity' across documents — the extent to which texts make the same claims about the same events — using large language models to distill texts into core claims and subjects before performing pairwise comparisons. The authors combine concept-guided chain-of-thought summarization, SBERT-based candidate pair generation, and zero-shot or fine-tuned GPT-4o annotation to make the approach tractable at scale. They validate the method against exact text reuse, topic modeling, standalone SBERT, and a relational (Relatio) approach using hand-coded gold standard data, then apply it to track the diffusion of Russian claims about Ukrainian U.S.-funded 'biolabs' across Russian state, Ukrainian, mainstream U.S., and low-quality U.S. news sources in early 2022.",
+  "key_claims": [
+    "Narrative similarity — whether texts make the same claims about the same events — is a distinct estimand from lexical overlap, topical similarity, or semantic similarity, and existing methods conflate these.",
+    "An LLM-based pairwise pipeline that distills documents into claims and subjects can measure narrative similarity more faithfully than text reuse, topic modeling, semantic role labeling/Relatio, or standalone SBERT.",
+    "Exact text reuse methods have high precision but severely limited recall (under 7%), making them inappropriate for studying narrative diffusion outside direct syndication.",
+    "Fine-tuning the LLM annotator on purposively sampled boundary cases substantially improves precision (from 37% to ~79%) with only modest recall loss, yielding the best F1.",
+    "Low-quality U.S. news websites were substantially more likely than mainstream U.S. outlets to publish stories sharing narratives with Russian state media on the Ukrainian 'biolabs' story (14.1% vs 5.4%).",
+    "Exact text reuse estimators would have entirely missed the phenomenon of mainstream U.S. outlets sharing narratives with Russian state media, demonstrating that estimator choice has substantive downstream consequences."
+  ],
+  "methods": [
+    "Assembled a multilingual corpus of 692,560 news articles from 45 sources (4 Russian state, 18 mainstream U.S., 11 low-quality U.S., 12 Ukrainian) covering Jan 1–Apr 30, 2022.",
+    "Filtered to 3,491 articles related to Ukrainian bioweapons claims using keyword filtering.",
+    "Used GPT-4o with concept-guided chain-of-thought prompts to (a) summarize each article in 7–10 English sentences, (b) enumerate subjects (people, places, objects, events), and (c) enumerate descriptive, normative, causal, and conceptual claims.",
+    "Generated candidate pairs using a two-stage SBERT pipeline: bi-encoder cosine similarity (cutoff 0.7) followed by cross-encoder scoring (cutoff 0.5), reducing 6.09M possible pairs to ~64,677.",
+    "Used GPT-4o zero-shot prompts to label whether candidate pairs shared the same subjects and the same claims, then fine-tuned a version using purposively sampled boundary cases (622 pairs, 161 positive/451 negative).",
+    "Validated via human annotation: built a recall set of 1,631 ranked-and-coded pairs (121 positive) plus a 47-pair holdout, and used majority-vote annotation of randomly sampled positive predictions to estimate precision.",
+    "Compared the method against four alternative estimators: 5-gram cosine similarity text reuse, structural topic modeling with binarized topic vectors, standalone SBERT cross-encoder, and Relatio-based semantic role labeling features."
+  ],
+  "findings": [
+    "Fine-tuned SBERT-LLM achieved the best overall performance (F1=60.4, precision=78.8, recall=48.9 on the holdout).",
+    "Zero-shot SBERT-LLM achieved the highest recall (66.0%) but lower precision (37.0%), F1=47.4.",
+    "Exact 5-gram text reuse at 0.2 cosine similarity achieved only 6.4% recall despite 52.7% precision (F1=11.4).",
+    "Topic modeling clustering achieved recall of 27.7% and precision of 10.0% (F1=14.7).",
+    "Relatio-based estimator achieved recall of 34.0% but precision of only 10.5% (F1=16.0).",
+    "Standalone SBERT cross-encoder reached F1=35.6 — better than other alternatives but well below the full pipeline.",
+    "In the bioweapons application, 14.1% of low-quality U.S. articles shared narratives with Russian state media versus 5.4% of mainstream articles.",
+    "The ngram estimator detected zero mainstream U.S. articles sharing narratives with Russian state media, whereas SBERT-LLM detected ~10% on average — revealing a phenomenon invisible to lexical methods.",
+    "Coverage spiked around March 11 (Russia's UN Security Council request) and March 24 (Hunter Biden funding allegations)."
+  ],
+  "contributions": [
+    "Introduces 'narrative similarity' as a precisely defined estimand distinct from lexical, semantic, or topical similarity, grounded in the sociology of narrative.",
+    "Provides a scalable three-stage pipeline (LLM distillation → SBERT candidate filtering → LLM pairwise annotation) for measuring narrative similarity across large multilingual corpora.",
+    "Develops an out-of-sample validation strategy — including a ranked human-in-the-loop recall set with a stopping rule — that yields supervised-learning metrics (precision, recall, F1) for an effectively unsupervised task.",
+    "Demonstrates substantial gains from purposive-sample fine-tuning on boundary cases.",
+    "Provides empirical evidence on the laundering of Russian state media narratives by low-quality versus mainstream U.S. news outlets during the 2022 Ukraine invasion.",
+    "Offers a general framework applicable to studying propaganda, misinformation, policy diffusion, and cultural diffusion beyond the specific case."
+  ],
+  "framing": "The paper positions itself at the intersection of computational sociology, political communication, and international relations research on strategic narratives and narrative diffusion, while contributing to the methodological literature on text-as-data and LLM-based measurement. It engages explicitly with debates about estimand-estimator alignment (Lundberg et al. 2021) and with the validation challenges of unsupervised text methods (Grimmer and King 2011), proposing LLMs as a tool that finally makes faithful measurement of narrative-level similarity feasible.",
+  "pdf_source": "drive"
+}

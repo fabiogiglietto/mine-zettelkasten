@@ -1,0 +1,35 @@
+{
+  "abstract": "This study provides the first systematic empirical documentation of targeted digital voter suppression advertising during the 2016 US Presidential Election, including ads later attributed to Russia's Internet Research Agency. Using a custom real-time ad tracking tool (EScope) deployed to a sample resembling the US voting-age population, the authors directly measured individual exposure to voter suppression ads, linked it to survey data and verified voter turnout records, and analyzed targeting patterns and turnout effects. They find clear geo-racial targeting—non-Whites in racial minority counties of battleground states received disproportionately more suppression ads—and that exposure was associated with reduced turnout, with the largest declines concentrated among the targeted segments.",
+  "key_claims": [
+    "Undisclosed digital voter suppression ads in 2016 exhibited systematic geo-racial targeting, concentrating on non-White voters in minority-majority counties of battleground states.",
+    "Exposure to voter suppression ads was associated with a small but statistically significant decrease in voter turnout (approximately 1.86 percentage points on average).",
+    "Heterogeneous treatment effects were substantial: turnout depression was largest (up to ~17%) among non-Whites in minority counties of battleground states, the segment most heavily targeted.",
+    "Average treatment effect analyses can obscure the real-world impact of microtargeted campaigns; heterogeneous effects on targeted subpopulations are essential for understanding digital political advertising.",
+    "Prior null findings on Russian interference may stem from reliance on indirect exposure proxies and self-reported outcomes rather than direct exposure measurement and verified turnout records."
+  ],
+  "methods": [
+    "Deployment of EScope, a user-based real-time ad tracking browser tool that captures ads and metadata as participants are exposed to them, used for approximately six weeks before the November 8, 2016 election.",
+    "Recruitment via GfK (Knowledge Panel) of ~13,500 consenting participants representative of the US voting-age population; 10,441 completed the baseline survey.",
+    "Dictionary-based identification of four voter suppression ad types (election boycott, deception, third-party candidate promotion, same-side candidate attack), validated by human coders (Krippendorff's alpha = 0.93), yielding 59,771 suppression ads.",
+    "Linking individual ad exposure to survey responses, geographic context (e.g., minority-majority counties, battleground states with <5% margin), and verified voter turnout records matched via TargetSmart voter files using PII held by third parties.",
+    "Hierarchical Linear Models (HLM) to test targeting patterns controlling for individual covariates.",
+    "Entropy balancing with 35 covariates to estimate Average Treatment Effects and Heterogeneous Treatment Effects on turnout; PU-learning to impute missing turnout labels.",
+    "Robustness checks including exact matching, full matching with CBPS, alternative control/counterfactual groups, sensitivity analyses for unobserved confounders, false-shock tests, and placebo tests using 2012 turnout."
+  ],
+  "findings": [
+    "Non-White voters in minority counties of battleground states received significantly more voter suppression ads than counterparts, even after controlling for income, education, and party ID (HLM interaction b = 0.24, p = 0.04).",
+    "Exposure to voter suppression ads was associated with a 1.86 percentage point lower turnout (67.75% vs 65.89%), translating to roughly 4.7 million fewer votes nationally; Cohen's d = 0.059.",
+    "Among non-Whites in minority counties of battleground states, exposure was associated with a 17.3% lower turnout (Cohen's d ≈ -0.515); the gap versus unexposed Whites in non-minority, non-battleground counties reached 14.2%.",
+    "Non-suppression political ad exposure was associated with increased turnout, indicating suppression effects are distinct from generic political advertising effects.",
+    "Results were robust across multiple counterfactual comparisons, sensitivity analyses for unobserved confounders, placebo tests on 2012 turnout, and alternative matching/identification techniques."
+  ],
+  "contributions": [
+    "Provides the first independent, individual-level empirical evidence on digital voter suppression targeting and its turnout effects, independent of governments and platform companies.",
+    "Introduces a methodological framework combining user-based real-time ad tracking, survey data, and verified turnout records to overcome platform data access limitations and self-report biases.",
+    "Demonstrates the importance of analyzing heterogeneous treatment effects in microtargeted advertising research, challenging reliance on average treatment effects in digital media studies.",
+    "Documents the operation of undisclosed campaigns—including foreign interference—exploiting microtargeting in the absence of disclosure requirements, with normative implications for election integrity.",
+    "Offers publicly archived data and replication materials via ICPSR for further research on targeted political advertising."
+  ],
+  "framing": "The paper situates itself at the intersection of political communication, voting rights scholarship, and computational social science on social media effects, responding to debates about Russian election interference and the largely null findings of prior IRA studies (e.g., Bail et al. 2020; Eady et al. 2023). It positions historical voter suppression literature alongside contemporary microtargeting and marketing research to argue that digital-era suppression operates through narrowly targeted exposure that average treatment effect designs systematically miss.",
+  "pdf_source": "drive"
+}

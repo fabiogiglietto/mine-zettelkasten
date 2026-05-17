@@ -1,0 +1,37 @@
+{
+  "abstract": "Joan Donovan traces the social construction of 'misinformation-at-scale' through the content moderation practices social media companies developed between 2016 and 2021, a period when platform harms to public health and democratic processes became a central public concern. She argues that misinformation-at-scale—false information amplified by densely networked actors such as politicians, journalists, and celebrities—is an inherent feature of engagement-driven platform business models, not a bug. The paper documents how platforms shifted from non-intervention to behavioral moderation (e.g., 'coordinated inauthentic behavior'), expanded interventions during COVID-19 and the 2020 U.S. election, and then retreated after political backlash, leaving users without reliable access to what Donovan calls TALK (timely, accurate, local knowledge).",
+  "key_claims": [
+    "Misinformation becomes a structural problem—'misinformation-at-scale'—only when amplified by densely networked actors whose engagement turns falsehoods into public controversies with negative externalities.",
+    "Misinformation-at-scale is a built-in feature of social media platforms designed to reward engagement regardless of veracity, not an anomaly to be corrected at the margins.",
+    "Content moderation has effectively migrated everyday governance of speech from governments to private platform companies, whose CEOs' personal ideologies shape what counts as acceptable expression.",
+    "Platforms preferred behavioral interventions (e.g., CIB detection, demotion, labeling) over truth assessment because addressing veracity directly conflicts with their advertising-based business model.",
+    "Framing misinformation as a public health issue during COVID-19 gave platforms a politically palatable rationale for moderation that political misinformation never offered.",
+    "Users seek TALK (timely, accurate, local knowledge), but platforms surface popularity-driven, advertising-laden content instead, making truthful local knowledge difficult to discover.",
+    "Mitigating misinformation-at-scale requires a whole-of-society approach—civil society coalitions, advertiser pressure, journalistic strategic silence, and pre-bunking—because platforms alone will not solve a problem central to their revenue model."
+  ],
+  "methods": [
+    "Comparative historical analysis of platform content moderation policies from 2016 to 2024.",
+    "Ethnographic case studies of misinformation events including Charlottesville, COVID-19, the 2020 U.S. election, January 6th, and the Hunter Biden laptop story.",
+    "Conceptual/typological work, including a taxonomy (Figure 1) of fourteen content moderation methods classified by which actors (individuals, groups, platforms, governments) can deploy them.",
+    "Participant-observation and collaboration with civil society organizations such as the Disinformation Defense League and engagement with the Election Integrity Partnership.",
+    "Synthesis of investigative journalism, congressional hearings, whistleblower disclosures (Frances Haugen), and prior scholarly literature on platform governance."
+  ],
+  "findings": [
+    "Of fourteen catalogued moderation methods, nine specifically target amplification rather than removal, reflecting platforms' preference for limiting scale over policing content.",
+    "Facebook's CIB framework allowed it to act on behavioral signals without adjudicating truth, repurposing existing spam/fraud detection tools.",
+    "Labeling Trump's tweets on Twitter reduced engagement on-platform but increased cross-platform engagement, a phenomenon Donovan calls 'platform filtering.'",
+    "Platforms moderated medical misinformation more aggressively than political misinformation, using information displacement (e.g., Facebook's COVID information centers) to surface authoritative sources.",
+    "After 2021, both Meta and X scaled back trust-and-safety investments: Meta laid off 11,000 employees, Musk dismantled X's civic integrity and ethics teams, and Google cut 6% of staff in 2023.",
+    "Misinformation actors adapt rapidly through coded language (e.g., 'va33ine,' 'pizza' for Pfizer), backup accounts, and migration to less moderated platforms.",
+    "The deplatforming of President Trump in January 2021 marked a watershed inversion of political power, signaling that platform corporations could challenge state authority."
+  ],
+  "contributions": [
+    "Introduces and operationalizes the concept of 'misinformation-at-scale' as a sociotechnical event distinct from individual rumor or falsehood.",
+    "Introduces the concept of TALK (timely, accurate, local knowledge) as the public good that platform design fails to deliver.",
+    "Provides a comparative taxonomy of content moderation methods mapped to the actors empowered to use them, clarifying the distribution of speech-governance power.",
+    "Offers a historical periodization of platform content moderation (2016–2021) tracing the arc from non-intervention to active moderation to retrenchment.",
+    "Synthesizes platform governance, public health communication, and democratic theory to argue for whole-of-society mitigation strategies including advertiser pressure, CSO coalitions, strategic silence, and pre-bunking."
+  ],
+  "framing": "The paper situates itself within critical internet studies, platform governance research, and sociology of misinformation, drawing on Shirky's claim that 'more is different,' Noble's critique of advertising-driven search, Kelty's theory of recursive participation, and Zuckerman's work on institutional mistrust. Donovan positions misinformation-at-scale as a sociotechnical and political problem rooted in advertising infrastructures, pushing back against both technosolutionist and purely individualist accounts of online falsehood.",
+  "pdf_source": "drive"
+}

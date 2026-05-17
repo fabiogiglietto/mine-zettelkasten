@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper introduces a hybrid, human-in-the-loop methodological framework for analyzing qualitative interview data by integrating topic modeling, LLM prompt engineering, and human-derived codes. The authors apply the framework to focus group transcripts from 13 U.S. middle and high school teachers discussing the conceptualization and assessment of communication and digital literacy skills within competency-based education (CBE). They argue that combining semantic clustering, LLM-assisted topic labeling, and iterative codebook refinement preserves interpretive depth while enabling scalable analysis, and they demonstrate how the approach refined a human-derived codebook into a more structured version.",
+  "key_claims": [
+    "Hybrid human-AI workflows can support qualitative analysis at scale without sacrificing interpretive depth or epistemological integrity.",
+    "Topic modeling provides mathematically grounded, reproducible theme identification that offers greater transparency than opaque neural approaches, making it a useful foundation for LLM-augmented coding.",
+    "LLMs (specifically GPT-4-based ChatGPT-4o and Copilot) can generate stable and semantically aligned topic labels when guided by clear prompts and representative cluster inputs.",
+    "Human oversight remains essential to ensure construct alignment, mitigate hallucination, and maintain theoretical coherence in AI-assisted qualitative work.",
+    "Applied to CBE contexts, the framework surfaces nuanced teacher perspectives on communication and digital literacy as multimodal, context-dependent competencies that pose distinct assessment challenges."
+  ],
+  "methods": [
+    "Six semi-structured Zoom focus group interviews conducted during 2023–2024 with 13 U.S. middle and high school teachers across varied subjects, regions, and experience levels.",
+    "Manual transcript cleaning, segmentation by skill (communication, digital literacy) and topic (framework, assessment), and sentence-level units of analysis.",
+    "Preliminary grounded human coding to produce an initial codebook (Version 1) based on study aims and interview protocol.",
+    "Topic modeling pipeline using SentenceBERT embeddings, Affinity Propagation clustering (yielding ~78–79 first-level clusters and 32 higher-level superclusters per skill), cosine similarity filtering (threshold 0.5), and identification of representative 'bestwords' per cluster.",
+    "LLM prompting (adapted from Barany et al., 2024) with ChatGPT-4o and Copilot to generate topic labels and descriptions from representative sentences and bestwords, using default model parameters.",
+    "Quality assurance via cross-model comparison: exact-match rates for labels and cosine similarity between LLM-generated labels and descriptions.",
+    "Iterative mapping of human-derived themes onto data-derived clusters to refine the codebook (Version 2)."
+  ],
+  "findings": [
+    "Topic modeling produced 14 meaningful H-clusters for communication and 16 for digital literacy after removing thematic outliers reflecting conversational filler.",
+    "LLM label agreement across ChatGPT-4o and Copilot: 33.3% identical labels for communication H-clusters and 43.8% for digital literacy; average cosine similarities were 0.835 (communication labels), 0.827 (descriptions), 0.848 (digital literacy labels), and 0.880 (descriptions).",
+    "No clear hallucinations were observed in LLM outputs upon human review; divergent labels mostly involved minor phrasing differences.",
+    "Teachers framed communication as inherently multimodal (speaking, listening, writing, presenting) with audience awareness and social-emotional dimensions, and called for clearer, less 'squishy' frameworks.",
+    "Digital literacy was characterized as fluid and rapidly evolving, with strong emphasis on information evaluation, digital citizenship, and ethical engagement amid AI and misinformation.",
+    "Teachers reported assessment challenges around validity, subjectivity, equity, and the difficulty of capturing nuanced interpersonal and ethical dimensions in standardized formats.",
+    "Disciplinary variation emerged (e.g., STEM emphasis on technical precision vs. humanities emphasis on audience adaptation), and student skill development was reported as highly variable.",
+    "The codebook transition from Version 1 to Version 2 introduced finer subcategories (e.g., separating whole-skill from subskill prioritization), added new categories like 'teaching', consolidated redundant codes, and made contextual dimensions more explicit."
+  ],
+  "contributions": [
+    "A replicable, multi-stage hybrid framework integrating grounded human coding, SentenceBERT-based topic modeling with Affinity Propagation, and LLM prompt engineering for qualitative analysis.",
+    "Demonstration of cross-model LLM consistency checks (ChatGPT-4o vs. Copilot) as a quality-assurance strategy for AI-assisted topic labeling.",
+    "Documentation of LLM configurations, prompts (in supplemental materials), and a worked example of codebook refinement to support transparency and reproducibility.",
+    "Substantive insights into how teachers conceptualize and assess communication and digital literacy within CBE, informing assessment design and professional development.",
+    "Contribution to emerging best practices for integrating AI tools into qualitative educational research while preserving human interpretive authority."
+  ],
+  "framing": "The paper positions itself within ongoing methodological debates about AI-augmented qualitative research, drawing on thematic analysis (Braun & Clarke), grounded theory (Glaser & Strauss), and recent work on hybrid human-LLM coding (e.g., Barany et al., 2024; Xiao et al., 2023). It engages with concerns about LLM opacity, reproducibility, and epistemological integrity, advocating a human-in-the-loop paradigm in which topic modeling provides interpretive transparency and LLMs augment, rather than replace, human analysts. The substantive application is framed within competency-based education and 21st-century skills assessment scholarship.",
+  "pdf_source": "drive"
+}

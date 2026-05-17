@@ -1,0 +1,34 @@
+{
+  "abstract": "Sadler argues that disinformation studies has used the concept of 'narrative' loosely and intuitively, treating stories' meanings as self-evident and reducible to true/false judgments. He proposes a 'hermeneutic realist' approach—drawing on Ricoeur and narratology—in which stories 'disclose' rather than simply reflect or construct reality, combined with Phelan's narrative ethics to evaluate the ethics of telling and the told. The framework is demonstrated through a case study of Spanish-language tweets by Venezuelan influencer Roi López Rivas, which blame NATO enlargement for Russia's 2022 invasion of Ukraine, showing that content can be referentially and ethically problematic without being straightforwardly false.",
+  "key_claims": [
+    "Existing disinformation research uses 'narrative' in conceptually naïve ways, relying on common-sense intuitions and producing telegraphic plot summaries that treat narrative meaning as self-evident.",
+    "The dominant true/false and information/disinformation binaries are inadequate for assessing potentially misleading content that does not rely on outright false claims.",
+    "A hermeneutic realist account—where narratives 'disclose' aspects of reality rather than mirroring or constructing them—offers a more nuanced view of narrative truth than either naïve realism or constructivism.",
+    "Ethical appraisal should sit alongside factual accuracy: factual accuracy is typically necessary but insufficient for ethically legitimate storytelling.",
+    "Narratological tools (sjuzhet/fabula, disnarration, sideshadowing, narratorial voice) combined with Phelan's distinctions among reporting, interpreting, and evaluating provide a rigorous framework for analyzing suspect narratives.",
+    "Even 'benign' counter-disinformation narratives (e.g., NATO's debunking pages) can be ethically dubious if they reduce complex events to simple monological causes."
+  ],
+  "methods": [
+    "Conceptual and theoretical synthesis drawing on narrative theory (Ricoeur's threefold mimesis, Bakhtin's dialogism, Bal/Chatman/Genette on narratology, Phelan's narrative ethics).",
+    "Critical literature review of qualitative and quantitative disinformation studies and of the 'strategic narrative' tradition (Miskimmon et al.).",
+    "Single-case qualitative narrative analysis of five Spanish-language tweets (Feb 2022–Aug 2023) by Venezuelan political influencer Roi López Rivas concerning NATO enlargement and the Russian invasion of Ukraine.",
+    "Analytical procedure that moves between fabula and sjuzhet to identify what is reported, interpreted, and evaluated—including disnarrated and sideshadowed events—and then appraises the narrative on referential and ethical grounds."
+  ],
+  "findings": [
+    "López Rivas's tweets contain few outright false statements but rely on imprecision, ambiguous referents, and quotation of others' voices to avoid direct commitment to questionable claims.",
+    "His narratives use sideshadowing to attribute agency and contingency to the US/NATO while disnarrating Russian agency, producing a deterministic account in which Russia 'had no other option.'",
+    "Apparent multivocality (quoting Putin, Biden, Brand, Stoltenberg) functions monologically in Bakhtin's sense, channeling diverse voices toward a single interpretation despite a professed commitment to multipolarity.",
+    "Evaluation is delivered implicitly via presupposed moral principles (e.g., self-defense is legitimate, broken promises are bad) that audiences are invited to apply asymmetrically to Russia and the US.",
+    "The narrative is therefore referentially and ethically problematic—reducing a complex event to a single cause, exhibiting Manichean evaluation, and using disingenuous narrative technique—without being demonstrably 'false.'",
+    "Counter-disinformation materials such as NATO's own debunking pages can mirror these ethically problematic simplifications."
+  ],
+  "contributions": [
+    "Provides a theoretically grounded definition of narrative (temporally and causally related happenings) that distinguishes it from discourses, themes, and structures often loosely labeled 'narratives' in disinformation research.",
+    "Introduces a 'hermeneutic realist' position as a middle path between naïve realism and constructivism for disinformation studies.",
+    "Adapts Phelan's narrative ethics—ethics of the told vs. the telling, and the triad of reporting/interpreting/evaluating—as an analytical framework for assessing suspect narratives.",
+    "Offers a worked analytical method combining fabula/sjuzhet analysis with ethical appraisal, illustrated on a non-elite, Spanish-language, Global South case underrepresented in the field.",
+    "Contributes to nascent debates on disinformation ethics and challenges the field's 'cryptonormativity' by making evaluative criteria explicit and defeasible."
+  ],
+  "framing": "The article positions itself within communication theory and disinformation studies, while drawing extensively on narratology, hermeneutic philosophy (Ricoeur, Heidegger, Levinas), and historiographical debates about narrative truth. It engages critically with the 'strategic narrative' literature (Miskimmon, Roselle, Szostek) and with recent critiques of disinformation studies' infocentrism and cryptonormativity (Harsin), seeking to bring narrative theory's resources to bear on questions of reference, ethics, and the limits of the information/disinformation binary.",
+  "pdf_source": "drive"
+}

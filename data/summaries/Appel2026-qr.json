@@ -1,0 +1,42 @@
+{
+  "abstract": "This study analyzes 49 deceptive online networks identified by Meta that targeted US users on Facebook and Instagram around the 2020 elections, combining platform-level exposure data with individual-level survey data from the US 2020 Facebook and Instagram Election Study (FIES). The networks reached at least 37 million Facebook users (15% of adult active users) and 3 million Instagram users (2%), with just three networks accounting for over 70% of total reach. Critically, most exposure occurred indirectly when non-network accounts reshared deceptive content, and viewers tended to be older, more conservative, more exposed to untrustworthy sources, and heavier Facebook users—regardless of whether networks pursued political or financial goals.",
+  "key_claims": [
+    "Deceptive online networks should be conceptualized as coordinated efforts using identity deception, regardless of whether their motives are political or financial.",
+    "Financially motivated operations (FMOs) that produce political content deserve scholarly and platform scrutiny on par with politically motivated influence operations, and have historically been understudied.",
+    "Reach of deceptive networks is highly concentrated: a small number of networks (3 of 49) account for the majority of user exposure.",
+    "Reshares by non-network (unaffiliated) accounts—not direct posting by network accounts—drive most of the reach of the highest-impact networks on Facebook.",
+    "Users exposed to deceptive networks share similar characteristics (older, more conservative, heavier platform use, more exposure to untrustworthy sources) regardless of network type or exposure pathway.",
+    "Observed correlations between exposure/engagement and outcomes like factual discernment, election legitimacy beliefs, and partisan news clicks largely disappear after controlling for pre-exposure user characteristics, and cannot be credibly interpreted as causal."
+  ],
+  "methods": [
+    "Pre-registered observational study using platform-level aggregated data from Meta on 49 deceptive networks (13 CIB and 36 FMO) targeting US users between 26 June 2020 and 15 February 2021.",
+    "Analysis of direct exposure (via network accounts) versus indirect exposure (via reshares by non-network accounts), including cascade size, depth, breadth, and structural virality measures.",
+    "Topic classification of network content using Meta's Topic and Civic classifiers for English and Spanish posts.",
+    "Individual-level survey and behavioral data from ~73,000 consenting Facebook/Instagram users across five survey waves (Aug–Dec 2020), administered by NORC.",
+    "Entropy balancing to reweight non-exposed participants for pre-exposure covariate balance, with sequential addition of covariate sets across nine model specifications.",
+    "Pre-registered sensitivity analyses for unobserved confounding in causal estimates.",
+    "Post hoc exploratory analysis of FIES experimental interventions (no-reshare feed, chronological feed, reduced like-minded content) on exposure to deceptive networks."
+  ],
+  "findings": [
+    "Networks reached ~37 million unique Facebook users (14.85%) and ~3 million Instagram users (1.86%) over the 8-month study period, generating 175 million Facebook and 70 million Instagram views.",
+    "Three networks—Rally Forge (CIB9, US-based), FMO27 (Kosovo), and FMO34—accounted for nearly 80% of unique Facebook viewers; one network (CIB10) accounted for ~95% of Instagram viewers.",
+    "Networks originated globally: CIB networks came mostly from Russia, the US, and Iran; FMO networks concentrated in the Balkans (16) and South Asia (11).",
+    "Politics and social issues comprised 65% of CIB and 32% of FMO direct content on Facebook, despite FMO networks being financially motivated.",
+    "On Facebook, 1% of users accounted for 55% of all network content exposures; on Instagram, 1% accounted for 96%.",
+    "For the most-reaching network (CIB9/Rally Forge), 13 million of 13.4 million viewers were reached indirectly via reshares by non-network accounts versus only 1.3 million directly.",
+    "Only 5.67% of Facebook users and 0.34% of Instagram users exposed to network content reshared it, yet these users disproportionately amplified reach.",
+    "Network content represented on average only 0.3% of political content views for exposed participants in the 41 days before the election.",
+    "After controlling for pre-exposure characteristics via entropy balancing, associations between exposure/engagement and factual discernment, election legitimacy, and partisan news clicks largely vanished; sensitivity analyses indicated estimates are vulnerable to unobserved confounding.",
+    "Experimental feed interventions (no reshares, chronological) reduced exposure to deceptive networks but also reduced overall engagement; effects were underpowered."
+  ],
+  "contributions": [
+    "Introduces the broader concept of 'deceptive online networks' encompassing both politically and financially motivated coordinated identity-deception operations.",
+    "Provides the first large-scale measurement of actual exposure (not proxy engagement) to deceptive networks across an entire major platform user base during a US election.",
+    "Documents the central role of unaffiliated 'non-network' reshares in amplifying deceptive content, shifting analytic focus from network actors to user amplification dynamics.",
+    "Demonstrates that financially motivated networks producing political content can reach more users than politically motivated ones and warrant equal scholarly attention.",
+    "Releases a de-identified dataset on deceptive networks via the Social Media Archive (SOMAR/ICPSR) to enable further research.",
+    "Offers methodological caution about causal inference from observational exposure data, illustrating how user-characteristic confounding can produce spurious associations."
+  ],
+  "framing": "The paper situates itself within the literature on influence operations, disinformation, and coordinated inauthentic behavior—particularly studies of the Russian Internet Research Agency and the 2016 election—while critiquing that work for focusing narrowly on politically motivated foreign actors and on engagement proxies rather than actual exposure. It positions itself as part of the US 2020 Facebook and Instagram Election Study (FIES) collaboration between Meta and external researchers, contributing to debates on platform transparency, data sharing, and how to conceptualize and measure threats to democratic discourse.",
+  "pdf_source": "drive"
+}

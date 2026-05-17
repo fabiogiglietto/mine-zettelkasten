@@ -1,0 +1,33 @@
+{
+  "abstract": "In this anniversary essay, Anne Helmond revisits the concept of 'platformization' a decade after she coined it, tracing its evolution from describing platforms' infrastructural expansion across the web to capturing a broader sociotechnical condition in which platforms organize digital life. Using two illustrative cases—Facebook's discontinuation of the Like button in February 2026 and Google's 'Project Suncatcher' space-based AI infrastructure—she argues that platformization is entering a new AI-centered phase. She warns that the term has eroded analytically through conflation with 'digitization,' and proposes redefining platformization as a platform-specific form of 'transcoding' through which domains are made 'platform-ready.'",
+  "key_claims": [
+    "Platformization has shifted from describing infrastructural expansion across the open web to capturing an AI-centered transformation of platform business models.",
+    "The retirement of Facebook's Like button signals the decline of the social graph paradigm and the open web as a site for capturing behavioral signals, in favor of AI-driven inference and content recommendation.",
+    "The term 'platformization' has suffered conceptual erosion through overuse and conflation with 'digitization,' weakening its analytical precision.",
+    "Platformization should be redefined as a situated, platform-specific form of Manovich's 'transcoding'—the process of making practices and domains platform-ready.",
+    "Platformization is not top-down but unfolds collaboratively through third parties (webmasters, app developers, sectoral partners) drawn in under promises of mutual benefit.",
+    "The next decade of platformization will involve new actors (e.g., Nvidia, Anduril, Palantir), new sectors (military, energy, space), and Big Tech's repositioning around AI ('Big AI')."
+  ],
+  "methods": [
+    "Conceptual and theoretical essay revisiting and refining the author's earlier framework of platformization.",
+    "Use of two illustrative empirical cases: Meta's retirement of the Like and Comment plugins (announced 2025, effective February 2026) and Google's Project Suncatcher space-based AI initiative.",
+    "Synthesis and engagement with adjacent frameworks including sphere transgression (Sharon & Gellert), intellectual monopolization (Rikap), Big Techification (Hendrikse et al.), and transcoding (Manovich).",
+    "Drawing on the author's forthcoming co-authored book 'Platforms: A Critical Introduction' (Helmond & van der Vlist, 2026)."
+  ],
+  "findings": [
+    "Meta no longer needs Like-button signals from the open web because it now relies on in-app behavioral data, third-party app integrations, its ad network, and AI-generated inferences.",
+    "The Like button's retirement marks Meta's decoupling from the social graph model and a turn toward TikTok-style content recommendation and AI personal assistants.",
+    "Google's Project Suncatcher, planning prototype satellite launches in 2027, illustrates Big Tech's move from 'platform earth' to space as a frontier for AI compute, driven by limits on terrestrial energy, water, and data center capacity.",
+    "Platformization unfolds unevenly across regions and sectors (e.g., Chinese society, Dutch education, food delivery, housing, military) and depends on local intermediaries and partnerships.",
+    "Big Tech firms are reorienting from platform-as-infrastructure toward integrated AI ecosystems ('Big AI'), with new entrants like Nvidia and defense startups (Anduril, Palantir, Shield AI) adopting platform models."
+  ],
+  "contributions": [
+    "Refines and reclaims the concept of platformization by redefining it as platform-specific transcoding, distinguishing it from generic digitization.",
+    "Provides a periodization of platformization, marking the transition from the social-web/social-graph era to the AI-platform era.",
+    "Argues for empirical and historical specificity in platform studies, foregrounding 'actually existing platformization' and the role of third-party collaboration.",
+    "Sets a research agenda for the next decade of platform studies, including Big Tech–state relations, military and energy platformization, super apps, and AI infrastructures.",
+    "Connects platformization theory to adjacent critical frameworks (sphere transgression, intellectual monopolization, Big Techification, hyperscalers)."
+  ],
+  "framing": "The essay positions itself within critical platform studies and internet/media infrastructure research, building on Gillespie's politics of platforms and Manovich's new media theory while extending the author's own decade-old intervention. It contributes to ongoing debates about platform power, infrastructure, and the political economy of Big Tech, pushing back against technologically deterministic and universalizing accounts in favor of situated, historically grounded analysis.",
+  "pdf_source": "drive"
+}

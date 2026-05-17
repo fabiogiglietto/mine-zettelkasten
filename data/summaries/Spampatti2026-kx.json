@@ -1,0 +1,35 @@
+{
+  "abstract": "This Comment article draws on the more mature field of climate psychology to offer six insights for advancing misinformation research. The authors argue that climate change and misinformation are interconnected crises sharing collective-action dilemmas and facing organised opposition from vested interests. They distill lessons regarding intervention design, behavioural measurement, contextual generalisability, systems thinking, company collaborations, and collective organisation among researchers.",
+  "key_claims": [
+    "Climate change and misinformation are distinct but interconnected global crises that share tensions between individual versus collective interests, short- versus long-term incentives, and local versus global coordination.",
+    "Climate psychology has matured under organised denial and can therefore offer transferable lessons to misinformation research, which faces similar attacks from vested interests.",
+    "Information provision alone is insufficient; misinformation interventions should engage motivational, emotional, and social drivers in addition to cognitive ones.",
+    "Misinformation research overemphasises cognitive proxies and should prioritise real-world, high-impact behavioural outcomes.",
+    "Generalisable, policy-relevant insights require attention to cross-country variability and heterogeneity across misinformation domains, outcomes, and offline versus online settings.",
+    "Individual-level and system-level analyses must be integrated to understand and intervene in misinformation dynamics.",
+    "Company collaborations are often necessary but require safeguards because corporate incentives can distort research agendas, data access, and findings.",
+    "Researchers should organise into formal networks to increase scientific impact and build resilience against coordinated attacks from vested interests."
+  ],
+  "methods": [
+    "Comment/perspective article synthesising literature across climate psychology and misinformation research.",
+    "Comparative analysis drawing parallels between the trajectories of the two fields.",
+    "Distillation of six insights with accompanying actionable recommendations summarised in Box 1."
+  ],
+  "findings": [
+    "Fewer than 1% of misinformation studies measure real-world, high-impact behavioural outcomes.",
+    "Political ideology strongly predicts climate attitudes in the US but is a weaker predictor in non-native-English-speaking countries, illustrating limits of generalisability.",
+    "Corrections of misinformation can be effective for some outcomes (e.g., belief) and domains (e.g., conservation) but less so for others (e.g., sharing, climate change).",
+    "Academic reports funded by fossil fuel interests tend to be more favourable toward hazardous energy sources than renewables, illustrating risks of company-funded research.",
+    "Misinformation research has focused heavily on US partisanship and online social media, with offline and cross-national contexts comparatively understudied.",
+    "Organised collaborations like ManyLabs studies and the IPCC demonstrate how coordination can strengthen evidence quality and resilience."
+  ],
+  "contributions": [
+    "Provides a cross-disciplinary bridge between climate psychology and misinformation research.",
+    "Identifies six concrete insights and a structured recommendation table (Box 1) to guide future misinformation studies.",
+    "Highlights underexplored areas including offline misinformation, non-Western contexts, state-driven disinformation, and system-level interventions like middleware.",
+    "Frames researcher organisation and resilience-building as integral to studying contested topics targeted by vested interests.",
+    "Advocates for methodological practices such as intervention tournaments, ManyLabs collaborations, and measurement of real-world behaviours."
+  ],
+  "framing": "The paper positions itself at the intersection of environmental/climate psychology and misinformation studies, within a broader conversation about collective behaviour in global crises (e.g., Bak-Coleman et al., 2021). It treats misinformation research as a younger field that can accelerate its policy relevance and resilience by adopting lessons from climate psychology's experience with organised denial and vested interests.",
+  "pdf_source": "drive"
+}

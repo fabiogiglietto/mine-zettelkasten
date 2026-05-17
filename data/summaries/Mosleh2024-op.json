@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper examines cross-platform variation in news sharing behavior across seven social media platforms, addressing a gap in research that has predominantly focused on Twitter/X or Facebook. The authors analyze how user engagement relates to the political orientation and quality of news domains being shared. The study aims to characterize the broader, increasingly fragmented social media landscape with respect to partisan and low-quality news dissemination.",
+  "key_claims": [
+    "Patterns of engagement with partisan and low-quality news diverge meaningfully across different social media platforms",
+    "Single-platform studies (especially of Twitter/X) provide an incomplete picture of news sharing dynamics in the contemporary social media ecosystem",
+    "Cross-platform comparison is necessary for understanding the role of social media in news dissemination"
+  ],
+  "methods": [
+    "Comparative analysis of user engagement with news content across seven social media platforms",
+    "Examination of the relationship between engagement metrics and news domains' political orientation",
+    "Examination of the relationship between engagement metrics and news domains' quality ratings"
+  ],
+  "findings": [
+    "Engagement patterns with partisan and low-quality news vary significantly across platforms (specific findings not available from abstract alone)"
+  ],
+  "contributions": [
+    "Provides one of the first systematic cross-platform comparisons of news sharing behavior spanning seven social media platforms",
+    "Expands empirical knowledge beyond the dominant focus on Twitter/X and Facebook",
+    "Offers evidence relevant to understanding misinformation and partisan content spread in a fragmented platform landscape"
+  ],
+  "framing": "The paper situates itself within research on misinformation, news sharing, and political communication on social media, critiquing the field's overreliance on Twitter/X and Facebook as proxies for 'social media' broadly. It contributes to debates about platform-specific affordances and their consequences for the quality and partisanship of news circulating online.",
+  "pdf_source": "abstract_only"
+}

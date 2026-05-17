@@ -1,0 +1,36 @@
+{
+  "abstract": "This article investigates how supporters of jihadist organizations like ISIS and al-Qaeda exploit TikTok's algorithmic recommendations and evade its content moderation, despite the platform's stated zero-tolerance policy on violent extremism. Using a modified grounded theory approach and algorithmically assisted snowball sampling from a dedicated research account, the authors inductively develop a typology of five communicative strategies used to embed extremist propaganda within TikTok's vernacular culture. They argue these tactics constitute a form of 'everyday extremism' that collapses spectacle and ritual, exposing structural vulnerabilities in TikTok's architecture and the limits of current moderation and regulation.",
+  "key_claims": [
+    "Jihadist supporters strategically exploit TikTok's affordances, recommendation systems, and participatory culture to circulate propaganda while evading moderation.",
+    "Pro-jihadist content on TikTok represents 'everyday extremism'—embedded in platform vernaculars, memes, and pop culture rather than functioning as traditional terrorist spectacle.",
+    "TikTok's moderation design has basic flaws: simple textual alterations (e.g., '1S1 S') bypass keyword filters that block direct searches for terms like 'ISIS'.",
+    "Adversarial creative strategies are not ideology-specific; similar evasion tactics appear across far-right, anti-vaccine, and jihadist communities, indicating broader platform-structural dynamics.",
+    "Effective response requires shifting focus from content removal to infrastructural critique, plus coordinated public-private governance and culturally informed moderation."
+  ],
+  "methods": [
+    "Modified grounded theory approach informed by prior literature on jihadist symbolism and content moderation evasion.",
+    "Created a dedicated anonymous TikTok research account accessed via a US-based VPN to 'radicalize' the algorithmic feed.",
+    "Algorithmically assisted snowball sampling: searching English and Arabic hashtags, emojis, and references to canonical jihadist figures/events, then liking content to extend recommendations.",
+    "Bookmarked over 300 pro-jihadist videos between January and July 2024; iterative constant comparison, observational notes, and screenshots used to develop categories.",
+    "Multimodal analysis treating strategies as configurations of semiotic resources (sound, text, visuals, editing, platform features), drawing on Kress and Van Leeuwen.",
+    "Follow-up check in October 2025 found only 25 of the original bookmarked videos remained, used as analytical evidence of platform ephemerality."
+  ],
+  "findings": [
+    "Identified five communicative strategies for evading moderation: audio camouflage, meme infiltration, blurred intent, emoji codes, and bait-and-switch.",
+    "Audio camouflage: pitch/tempo manipulation of nasheeds (e.g., ISIS's 'Dawlati Baqiah,' al-Qaeda's 'Tora-Bora') plus disguised audio metadata titles like 'Contains: My Love'.",
+    "Meme infiltration: extremist messaging embedded in Roblox, Fortnite, Inside Out 2 memes, and trending sounds (e.g., Mareux's 'Lovers from the Past' used to glorify the Sri Lanka attacker).",
+    "Blurred intent: deliberate visual obfuscation of banned figures (Bin Laden, al-Baghdadi, al-Adnani) and ISIS flags to bypass image-based detection while remaining legible to in-groups.",
+    "Emoji codes: heavy use of the black flag emoji and raised index finger (tawhid) to signal allegiance and bypass text-based moderation.",
+    "Bait-and-switch: videos open with innocuous or celebratory content (Pride Month, July 4th fireworks, Ronaldo highlights) before pivoting to extremist messaging.",
+    "Strategies frequently overlap within single videos and align with TikTok's wider participatory vernacular, making them appear mundane rather than spectacular."
+  ],
+  "contributions": [
+    "Provides one of the first in-depth empirical analyses of jihadist activity on TikTok, addressing a gap in extremism research focused largely on far-right content.",
+    "Develops an adaptable, ideology-independent typology of five moderation-evasion strategies usable for cross-platform and cross-group comparison.",
+    "Introduces the concept of 'everyday extremism' to describe how spectacle and ritual collapse into mundane platform vernaculars.",
+    "Shifts analytical focus from content removal toward infrastructural critique of recommendation loops and uneven moderation.",
+    "Offers concrete policy recommendations including TikTok's inclusion in GIFCT, hiring of contextually expert moderators, and user-driven annotation mechanisms like Community Notes."
+  ],
+  "framing": "The paper positions itself within platform governance, content moderation, and terrorism/extremism studies, extending scholarship on 'digital jihad' (Lakomy, Weimann) and 'jihadi cool' (Huey, Picart) into the TikTok context. It engages with debates on algorithmic culture, adversarial creativity, and platforms as 'global security actors' (Borelli), while critiquing voluntary industry self-regulation and arguing for infrastructural rather than purely content-based responses.",
+  "pdf_source": "drive"
+}

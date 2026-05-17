@@ -1,0 +1,26 @@
+{
+  "abstract": "This paper analyzes how content—particularly misinformation—diffused and reached audiences on Facebook during the U.S. 2020 presidential election. Using diffusion trees from approximately 1 billion re-shared posts by U.S. adults between July 1, 2020 and February 1, 2021, the authors compare the spread patterns of misinformation against other content types. They characterize virality, audience reach, and the role of specific platform actors in propagation.",
+  "key_claims": [
+    "Misinformation diffuses differently on Facebook than other categories of content, exhibiting distinctive virality and reach patterns.",
+    "Only a small fraction of posts achieve mass reach, but misinformation is disproportionately represented among highly viral content.",
+    "Particular actors and structural features of the platform play an outsized role in amplifying misinformation during the election period."
+  ],
+  "methods": [
+    "Large-scale analysis of diffusion trees on Facebook covering roughly 1 billion posts re-shared at least once by U.S.-based adult users.",
+    "Observation window spanning July 1, 2020 to February 1, 2021, covering the U.S. presidential election and its aftermath.",
+    "Classification of content into misinformation versus other categories to enable comparative analysis of propagation dynamics.",
+    "Measurement of virality and audience exposure across diffusion cascades."
+  ],
+  "findings": [
+    "Most posts reach limited audiences, while a small subset achieves viral, mass-scale diffusion.",
+    "Misinformation shows distinctive diffusion dynamics compared with other content types in terms of how it propagates and accumulates reach.",
+    "Exposure to viral misinformation is concentrated and shaped by identifiable platform actors and sharing patterns."
+  ],
+  "contributions": [
+    "Provides one of the largest empirical characterizations of information diffusion on Facebook during a major U.S. election.",
+    "Offers a comparative framework distinguishing misinformation diffusion from broader content diffusion at platform scale.",
+    "Informs ongoing debates about the prevalence, reach, and amplification mechanisms of misinformation on social media."
+  ],
+  "framing": "The paper sits within the interdisciplinary literature on misinformation, political communication, and computational social science, engaging with debates about whether misinformation is uniquely viral and how social media platforms shape democratic information ecosystems. It contributes to empirical efforts—often constrained by data access—to quantify the actual reach and structure of misinformation diffusion at scale.",
+  "pdf_source": "abstract_only"
+}

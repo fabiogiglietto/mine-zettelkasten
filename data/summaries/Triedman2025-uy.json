@@ -1,0 +1,43 @@
+{
+  "abstract": "This paper presents the first large-scale comparative analysis of Grokipedia, the AI-generated encyclopedia launched by Elon Musk on 27 October 2025, against English Wikipedia. The authors scraped 883,858 Grokipedia articles (99.8% of the corpus) and used embedding-based similarity, citation analysis, and external reliability datasets to evaluate how the two services differ in content, length, and sourcing. They find that Grokipedia is heavily derivative of Wikipedia—especially in its CC-licensed subset (56% of articles)—but is longer, cites roughly twice as many sources, and draws more heavily on low-quality and 'blacklisted' domains, particularly in articles on controversial topics and elected officials. The authors release their full Grokipedia scrape and embeddings as public datasets.",
+  "key_claims": [
+    "Grokipedia is highly derivative of English Wikipedia, with CC-licensed articles showing ~90% chunk similarity and non-CC-licensed articles ~77% similarity to their Wikipedia counterparts.",
+    "Grokipedia articles are substantially longer than Wikipedia equivalents (median non-CC article ~4.6x longer by outline length) and cite roughly twice as many sources.",
+    "Grokipedia cites a higher proportion of sources deemed 'generally unreliable' or 'blacklisted' by the English Wikipedia community, including dozens of citations to Stormfront and InfoWars that do not appear on Wikipedia.",
+    "Non-CC-licensed Grokipedia articles are 3.2x more likely to cite 'generally unreliable' sources and 13x more likely to cite 'blacklisted' sources than their Wikipedia counterparts.",
+    "Articles on controversial topics and elected officials show greater divergence from Wikipedia and a stronger ideological slant, often aligned with Musk's stated political views.",
+    "Grokipedia focused its rewriting effort on Wikipedia's highest-quality articles (Featured and Good Articles), with topic biases toward biography, politics, society, and history.",
+    "Grokipedia engages in a novel form of 'LLM auto-citogenesis,' citing Grok chatbot conversations and @grok/@elonmusk X posts as sources."
+  ],
+  "methods": [
+    "Scraped 883,858 Grokipedia articles (99.8% of the corpus) between 28-30 October 2025 using a structured Markdown-based parser via parallel processing on Google Cloud with proxy routing.",
+    "Compared against the 28 October 2025 Wikimedia Enterprise English Wikipedia dump, joined on exact article title matches.",
+    "Generated 250-token chunks with 100-token overlap and embedded them using Google's EmbeddingGemma (300M parameter model), computing pairwise cosine similarity within articles.",
+    "Detected CC-license status via string match on the standard attribution footer.",
+    "Joined with external data sources: WMF monthly pageview and geo-pageview aggregations; English Wikipedia's Perennial Sources list; Lin et al. (2023) domain reliability scores; Wikidata queries for US Congress and UK 59th Parliament members; Wikipedia's controversial topics category (yielding 2,056 articles).",
+    "Used WMF's language-agnostic article quality and topic classification models on a random subsample of 30,000 articles."
+  ],
+  "findings": [
+    "496,058 Grokipedia articles (56%) carry a CC-BY-SA license; these are far more similar to Wikipedia than the 385,139 non-CC articles, suggesting different generation prompts.",
+    "Wikipedia equivalents of Grokipedia articles accounted for ~4.9 billion (69%) of English Wikipedia non-bot pageviews in October 2025, indicating Grokipedia prioritized popular articles.",
+    "Chunk similarity is highest at the beginning of articles and decreases roughly linearly toward the end.",
+    "57 of the top 100 most-cited domains overlap; Grokipedia cites more academic sources (19 vs 2 in top 100), more UGC platforms, and fewer mainstream news outlets (29 vs 40).",
+    "Wikimedia Foundation domains appear only 445 times on Grokipedia (~1 in 100,000 citations) despite the heavy textual derivation.",
+    "'Generally reliable' sources fall from 12.7% of Wikipedia citations to 7.7% on Grokipedia; 'generally unreliable' rise from 2.9% to 5.4%; 'blacklisted' rise from 0.04% to 0.1%.",
+    "5.5% of Grokipedia articles cite at least one 'blacklisted' source (a 9x increase over Wikipedia); for non-CC articles this rises to 11.7%.",
+    "Grokipedia includes 12,522 citations to domains with Lin et al. quality scores 0.0-0.2, including 42 to Stormfront and 34 to InfoWars (zero on Wikipedia).",
+    "Grokipedia cites @grok 232 times and @elonmusk 186 times on X; it also contains ~1,050 citations to shared Grok chatbot conversations.",
+    "Controversial-topic articles show much lower similarity (mean 0.73 vs 0.82) and 93.1% lack the CC license; 85.5% cite a 'generally unreliable' source and 21.7% cite a 'blacklisted' one.",
+    "Featured and Good Articles on Wikipedia are disproportionately rewritten into non-CC Grokipedia versions with lower similarity, while Stub/Start/C-class articles tend to be CC-licensed near-copies.",
+    "Topic analysis shows STEM and pop-culture subtopics are largely CC-licensed copies, while Biography, Philosophy and Religion, Politics, History, Society, and Geography.Regions are predominantly non-CC and rewritten."
+  ],
+  "contributions": [
+    "First comprehensive, full-corpus comparative analysis of Grokipedia versus English Wikipedia.",
+    "Public release of a structured scrape of ~99.8% of Grokipedia and embeddings of the full corpus on HuggingFace, plus analysis code on GitHub.",
+    "Empirical evidence characterizing Grokipedia as both a 'synthetic derivative' of Wikipedia and an ideological project, particularly in controversial and political domains.",
+    "Documentation of a novel 'LLM auto-citogenesis' pattern in which an AI-built encyclopedia cites outputs from its own underlying chatbot.",
+    "A framework combining embedding similarity with multiple external reliability datasets (Perennial Sources, Lin et al. domain scores) to audit AI-generated encyclopedic content."
+  ],
+  "framing": "The paper situates itself within emerging scholarship on AI-generated knowledge platforms and politically motivated forks of Wikipedia, building directly on Yasseri's (2025) preliminary comparison and Trokhymovych et al.'s (2025) analysis of the Russian Ruwiki fork. It engages debates about source reliability, editorial norms, and ideological capture in online encyclopedias, treating Grokipedia as a test case for whether AI-mediated alternatives to crowdsourced knowledge introduce systematic shifts in content and sourcing.",
+  "pdf_source": "drive"
+}

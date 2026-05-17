@@ -1,0 +1,35 @@
+{
+  "abstract": "This reflective essay argues that explanations of democratic backsliding need to integrate two largely siloed literatures: a 'technocentric' paradigm focused on disinformation and algorithmic amplification, and an 'institutionalist' paradigm focused on parties, elites, and surrogate organizations. Bennett and Livingston propose a 'communication-as-organization' framework in which digitally networked publics function as new 'digital surrogate organizations' that pull conservative parties toward illiberalism. Using the rise of Donald Trump and the MAGA transformation of the Republican Party as their central case—and pointing to parallels in Europe—they show how memes, influencers, partisan media, political operatives, and tax-exempt nonprofits weave together once-scattered extremist factions into electorally consequential networks.",
+  "key_claims": [
+    "Technocentric explanations of democratic backsliding, focused on individual-level cognitive effects of mis/disinformation, are insufficient because they elide institutions, power, and how scattered individuals become organized.",
+    "Institutionalist accounts (e.g., Ziblatt's 'conservative dilemma' and surrogate organization theory) underplay the transformative role of digitally networked organizations in radicalizing parties.",
+    "Digital platforms enable a new category of 'digital surrogate organizations' (e.g., QAnon, Proud Boys, Stop the Steal networks) that compete with traditional surrogates and erode party gatekeeping.",
+    "Right-wing networks coalesce more successfully than left-wing ones because shared core values (nationalism, patriarchy, religion, racial identity) and well-resourced media/political infrastructure enable hybrid 'organizationally enabled connective action.'",
+    "The radicalization of the Republican Party reflects a failure of institutional 'distancing capacity' from violence and an irresolvable form of the conservative dilemma under conditions of networked extremism.",
+    "Similar dynamics combining transnational networks, shared illiberal narratives, and structural strains operate in other democracies, making the framework comparatively applicable."
+  ],
+  "methods": [
+    "Conceptual synthesis and critical literature review across political communication, misinformation studies, and comparative democratization.",
+    "Critique of the 'technocentric paradigm,' including assessment of replication problems in cognitive/social psychology research on backfire effects and correction.",
+    "Critique and extension of institutionalist accounts (Ziblatt, Levitsky, Hacker & Pierson, Bermeo) regarding conservative parties and surrogate organizations.",
+    "Application of Bennett and Segerberg's 'connective action' / communication-as-organization continuum (brokered → organizationally enabled → crowd-enabled) to right-wing mobilization.",
+    "Illustrative case analysis of the MAGA movement, the 2020 'Stop the Steal' campaign, January 6, and the 2024 election, drawing on secondary sources, journalism, DFRLab data, and comparative European studies (AfD, Orbán, EU campaigns)."
+  ],
+  "findings": [
+    "Mis/disinformation research is conceptually fragmented (fake news, computational propaganda, misinformation, etc.) and dominated by individual-level cognitive approaches that have produced mixed and often non-replicable results (e.g., the disputed backfire effect).",
+    "Large-scale funding (~$70 million, 2016–2021) has channeled academic attention toward individual-level correction strategies at the expense of institutional and organizational analysis.",
+    "The Republican Party's boundaries have become 'porous,' absorbing extremist digital surrogates (QAnon, militia groups, anti-vaccine networks) alongside traditional surrogates like Fox News and the Koch network.",
+    "The 'Stop the Steal' meme generated over 70 million online engagements between September 2020 and February 2021, illustrating how memes operate as networking mechanisms across platforms.",
+    "Belief in Biden's legitimate 2020 victory declined from 69% (2021) to 61% (2024) overall, and only 31% of Republicans accepted it by 2024, showing the durability of disinformation despite correction.",
+    "Comparative evidence (AfD in Germany, Orbán in Hungary, Swedish radical-right voting, EU parliamentary campaigns) shows parallel patterns of networked illiberal mobilization around nativism, anti-gender politics, and 'lost greatness' narratives."
+  ],
+  "contributions": [
+    "Proposes an integrated framework bridging technocentric and institutionalist explanations of democratic backsliding via the concept of 'digital surrogate organizations.'",
+    "Extends Ziblatt's surrogate organization theory to include digitally networked, crowd-enabled actors that radicalize conservative parties.",
+    "Operationalizes 'communication as organization' for analyzing party transformation rather than individual persuasion effects.",
+    "Identifies five interlocking networking mechanisms—partisan media/influencers, tax-exempt nonprofits, political operatives, elected leaders, and spreadable memes/disinformation—through which extremist factions are integrated into party politics.",
+    "Offers a comparative agenda for studying illiberal public spheres and connective radicalization across democracies."
+  ],
+  "framing": "The paper positions itself at the intersection of political communication and comparative democratization, intervening in debates on democratic backsliding (Levitsky, Ziblatt, Bermeo, Waldner & Lust) and on digital disinformation (Tucker et al., Benkler et al.). It builds explicitly on Bennett and Segerberg's 'logic of connective action' to argue that platform-enabled organization—not just platform-enabled persuasion—is the missing link between media effects and institutional erosion.",
+  "pdf_source": "drive"
+}

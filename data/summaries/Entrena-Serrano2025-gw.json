@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper evaluates TikTok's Research API, which was expanded in Europe in July 2023 to comply with the Digital Services Act (DSA) requirements that Very Large Online Platforms facilitate data access for independent researchers. The authors examine whether the expanded API actually delivers the transparency and data accessibility the DSA envisions. Their findings indicate that significant limitations and inconsistencies persist in the API, undermining its utility for systemic risk research.",
+  "key_claims": [
+    "TikTok's expanded Research API does not adequately fulfill the data accessibility obligations imposed by the DSA.",
+    "Notable limitations and inconsistencies in the API hinder independent research on systemic risks.",
+    "Compliance gestures by VLOPs may fall short of the substantive transparency goals of the DSA."
+  ],
+  "methods": [
+    "Empirical assessment and testing of TikTok's Research API access in the European context.",
+    "Analysis of API limitations, inconsistencies, and gaps relative to DSA transparency requirements (specific methodological details not available from the abstract)."
+  ],
+  "findings": [
+    "Despite the July 2023 expansion, TikTok's Research API exhibits persistent limitations and inconsistencies.",
+    "These shortcomings constrain researchers' ability to study transparency and systemic risks on the platform (further specifics not provided in the abstract)."
+  ],
+  "contributions": [
+    "Provides an early empirical evaluation of TikTok's DSA-driven Research API expansion.",
+    "Documents concrete shortcomings of platform-provided research access mechanisms under the DSA.",
+    "Contributes to ongoing policy and academic debates about effective platform transparency and researcher data access."
+  ],
+  "framing": "The paper is situated within the emerging literature on platform governance and the implementation of the EU Digital Services Act, particularly debates over researcher access to platform data as a tool for accountability and systemic risk assessment.",
+  "pdf_source": "abstract_only"
+}

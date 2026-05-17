@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper bridges HCI scholarship and EU regulation by mapping 59 known dark patterns from Gray et al.'s unified ontology onto the three autonomy violation types prohibited under Article 25 of the EU Digital Services Act (DSA): deception, manipulation, and distortion/impairment. Through iterative qualitative coding, the authors identify eight design factors—spanning an 'Information Space' and a 'Choice Space'—that explain why a given dark pattern constitutes a specific autonomy violation. The resulting 'law-to-design' framework is demonstrated through application to attention-capture damaging patterns and an ongoing EU Commission enforcement case against X (formerly Twitter) concerning paid blue checkmarks.",
+  "key_claims": [
+    "DSA Article 25 protects user autonomy by prohibiting three distinct types of violations (deception, manipulation, distortion/impairment), and dark patterns can be systematically mapped to these categories.",
+    "Eight design factors—two each for deception and distortion/impairment, and four for manipulation—can be used to justify why a particular design practice constitutes a specific autonomy violation.",
+    "Dark patterns typically implicate multiple autonomy violations simultaneously rather than single violation types; only 17 of 59 patterns analyzed map to a single violation.",
+    "HCI methods and reasoning frameworks can play a central role in regulatory design auditing, supporting both enforcement by regulators and compliance-by-design by platforms.",
+    "Deception and manipulation often present as a continuum of influence separated by severity, while distortion/impairment is conceptually more distinct."
+  ],
+  "methods": [
+    "Qualitative analysis of 59 meso- and low-level dark patterns from Gray et al.'s (2024) unified ontology, excluding the five high-level abstract strategies.",
+    "Adoption of Santos et al.'s (2024) tripartite legal interpretation of DSA Article 25 autonomy violations as the coding framework.",
+    "Iterative independent coding by two authors using AirTable, with three structured rounds of discrepancy resolution for autonomy violation labels.",
+    "Inductive identification of design factors from rationale memos, followed by deductive re-coding of 34 low-level patterns against an eight-factor codebook (Cohen's κ = 0.679, substantial agreement).",
+    "Final reasoning validation by additional co-authors, producing structured rationales for each pattern.",
+    "Two demonstration applications: extending the framework to 11 Attention Capture Damaging Patterns (ACDPs) from Monge Roffarello et al., and an in-situ case study of X's paid blue checkmarks under EU Commission proceedings."
+  ],
+  "findings": [
+    "Of 59 dark patterns, 17 mapped to a single autonomy violation and 42 to multiple violations (31 to two, 11 to all three).",
+    "All Sneaking patterns map to deception, all Obstruction patterns to distortion/impairment, and all Social Engineering patterns to manipulation—indicating strong internal consistency within these high-level categories.",
+    "Forced Action is the most diverse high-level category in terms of autonomy violations triggered; Interface Interference shows manipulation as dominant with deception secondary.",
+    "The deception-manipulation pairing is the largest combination subset (22 patterns), while the manipulation-distortion pair is the smallest (2 patterns).",
+    "Eight design factors are organized into an Information Space (Information Availability, Correctness, Framing, Presentation) and a Choice Space (Choice Simplification, Presentation, Availability, Effort).",
+    "Multiple autonomy violations can co-occur separately (one or the other), sequentially (temporal progression, e.g., drip pricing), or reinforcingly (e.g., Sneak into Basket)."
+  ],
+  "contributions": [
+    "A comprehensive mapping of 59 dark patterns to the three DSA Article 25 autonomy violation types, with explicit reasoning for each.",
+    "Identification and definition of eight design factors that operationalize when and why a dark pattern constitutes a specific autonomy violation.",
+    "A 'law-to-design' framework that translates legal provisions into design-oriented reasoning, complementing prior 'design-to-law' efforts.",
+    "Demonstration of framework extensibility through application to Attention Capture Damaging Patterns not covered in the Gray et al. ontology.",
+    "An applied case study of X's paid blue checkmarks under ongoing EU Commission enforcement, illustrating practical regulatory utility.",
+    "A shared interdisciplinary vocabulary bridging HCI scholarship with legal/regulatory practice on dark pattern governance."
+  ],
+  "framing": "The paper positions itself at the intersection of HCI dark patterns scholarship and emerging EU platform regulation, building directly on Gray et al.'s unified dark patterns ontology and Santos et al.'s legal interpretation of DSA Article 25. It contributes to the growing field of regulatory design auditing and HCI-law translational research, departing from prior 'design-to-law' analyses by working in the reverse direction—from legal provisions toward design reasoning.",
+  "pdf_source": "drive"
+}

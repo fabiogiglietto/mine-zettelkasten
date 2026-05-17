@@ -1,0 +1,40 @@
+{
+  "abstract": "This study examines how media exposure and political predispositions jointly contributed to the formation of COVID-19 conspiracy beliefs at the pandemic's outset. By coincidentally fielding a two-wave panel survey in Germany and German-speaking Switzerland (March-May 2020) bracketing a web tracking phase, the authors traced actual online exposure to conspiracy content via BERT-classified browsing data and linked it to preexisting populism and political mistrust. They find both direct contagion effects (alternative media supporting conspiracies) and mitigation effects (mainstream media debunking), as well as indirect pathways through selective engagement, selective avoidance, reinforcement, and counterarguing.",
+  "key_claims": [
+    "Conspiracy belief formation reflects a 'marriage' of media information and predispositions, requiring a holistic model integrating alternative media, mainstream media, and conspiracy predispositions.",
+    "Alternative media exposure to conspiracy-supporting content produces contagion effects, while mainstream media exposure to conspiracy-opposing content produces mitigation/debunking effects.",
+    "People with populist attitudes and political mistrust selectively engage with alternative media and selectively avoid mainstream media when it comes to conspiracy content.",
+    "Predispositions indirectly increase conspiracy beliefs through two pathways: reinforcement via selectively chosen alternative media and counterarguing/backfire when populists encounter debunking in mainstream media.",
+    "Even mainstream quality media circulated substantial conspiracy-supporting content during the pandemic, though such exposure did not on average increase conspiracy beliefs in the general population."
+  ],
+  "methods": [
+    "Two-wave online panel surveys in Germany (n=573) and German-speaking Switzerland (n=574) with quota sampling by gender, age, education, and region, fielded March 2020 (T1) and May 2020 (T2).",
+    "Web tracking via a custom Chrome/Firefox plugin (WebTrack) capturing HTML content of desktop browsing between waves, yielding 3,531,606 documents.",
+    "Sentence-level automated content classification using fine-tuned German BERT models to detect (a) pandemic conspiracy content and (b) supporting vs. opposing stance, validated against a 498-sentence gold standard (macro F1 = 0.94 for detection; 0.78-0.82 for stance).",
+    "Manual coding of 12,745 training sentences by two coders (Krippendorff's α = .85 for conspiracy detection; .80 for stance).",
+    "Source classification matching URLs to lists of mainstream quality/tabloid outlets, hyperpartisan alternative conspiracy (HAC) media, and major social media platforms.",
+    "Survey measures of populism (Schulz et al. 9-item scale), political mistrust (3 ANES items), and 8-item COVID-19 conspiracy belief scale.",
+    "OLS regression and bootstrapped mediation analyses (10,000 iterations) testing direct and indirect effects, with pooled German-Swiss data and country control."
+  ],
+  "findings": [
+    "On average 7.2% of visited documents contained conspiracy-related content; participants averaged 113 conspiracy-related documents during the tracking period.",
+    "Conspiracy-supporting content was more prevalent than conspiracy-opposing content across all media types, including mainstream media (rejecting H1b).",
+    "Exposure variables across sources were positively correlated, indicating most users encountered conspiracy content across multiple sources rather than via single-source selectivity.",
+    "Contagion effect confirmed: conspiracy-supporting alternative media exposure increased conspiracy beliefs (b=0.14, p<.001).",
+    "Mitigation effect confirmed: conspiracy-opposing mainstream media exposure decreased conspiracy beliefs (b=-0.05, p=.001).",
+    "Populism (b=0.38) and political mistrust (b=0.20) directly predicted conspiracy beliefs (both p<.001).",
+    "Populists selectively engaged with conspiracy-supporting alternative media (b=0.76) and avoided conspiracy-opposing mainstream media (b=-0.91); mistrust effects were weaker.",
+    "Significant indirect (reinforcement) effects of populism and mistrust on conspiracy beliefs via conspiracy-supporting alternative media exposure.",
+    "Significant indirect (counterarguing/backfire) effect: populism reduced mainstream media exposure, but the exposure populists did encounter increased rather than decreased their conspiracy beliefs.",
+    "Roughly 25-30% of respondents saw at least some truth in COVID-19 conspiracies or were uncertain about their veracity."
+  ],
+  "contributions": [
+    "Provides one of the first real-time, behavioral-tracking based studies of emerging conspiracy beliefs during the onset of a global crisis, overcoming retrospective and self-report limitations.",
+    "Integrates content-level exposure measurement (source plus stance) with panel measurement of predispositions and beliefs, addressing a major methodological gap identified by Broda & Strömbäck (2024) and Enders et al. (2023).",
+    "Develops and empirically tests a holistic model uniting alternative media, mainstream media, and predispositions, including selective engagement/avoidance and reinforcement/counterarguing pathways.",
+    "Demonstrates empirically that mainstream media debunking can succeed for the general population but backfire among individuals with strong populist predispositions.",
+    "Releases methodological infrastructure (WebTrack plugin, BERT classifiers for German-language conspiracy detection) for future research on online conspiracy exposure."
+  ],
+  "framing": "The paper positions itself within debates on the media's role in conspiracy dissemination, bridging contrasting accounts that cast alternative/social media as vectors of contagion versus mainstream media as mitigating debunkers. It draws on Zaller's (1992) information-plus-predispositions opinion-formation framework and motivated reasoning theory (Kunda 1990; Lodge & Taber 2000), and contributes to literatures on misinformation correction, selective exposure, and the populism-conspiracy nexus.",
+  "pdf_source": "drive"
+}

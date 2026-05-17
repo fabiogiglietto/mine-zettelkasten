@@ -1,0 +1,34 @@
+{
+  "abstract": "This theoretical paper addresses the under-studied 'attribution problem' in research on coordinated social media manipulation (CSMM)—the challenge of identifying the covert principals who commission manipulative campaigns. The authors propose a consolidated definition of CSMM, synthesize observable and hidden campaign characteristics from a literature review, develop a rational choice model for inferring principals' strategic decisions, and present a typology of eight CSMM campaign types. The framework links variations in campaign scale, elaborateness, and disguise to principals' resources, stakes, and influence strategies, offering heuristic tools for attribution under data scarcity.",
+  "key_claims": [
+    "Existing concepts like 'coordinated inauthentic behavior' (CIB) are analytically inadequate because they conflate inauthenticity with manipulative intent and are tailored to platforms with real-name policies.",
+    "Manipulative intent—not inauthenticity per se—is the normatively problematic feature of coordinated campaigns and must be central to any definition.",
+    "CSMM campaigns face a tradeoff between two operational imperatives: maximizing influence and minimizing detectability.",
+    "Principals' strategic decisions can be reconstructed from observable campaign features (scale, elaborateness, disguise) using a rational choice expected-utility framework.",
+    "Variations in disguise sophistication specifically reveal what is at stake for the principal, while scale and elaborateness signal available resources and influence strategy.",
+    "Attribution should focus on structural features rather than campaign content, which can be intentionally misleading."
+  ],
+  "methods": [
+    "Conceptual synthesis and theory-building drawing on disinformation, cybersecurity, and strategic communication literatures.",
+    "Systematic literature review across Web of Science and EBSCOhost yielding 515 articles, screened by four researchers and one student coder, with 62 empirical studies retained.",
+    "Adaptation of Esser's (1999) rational choice framework to formalize a principal's expected-utility function (EU_i = p_Wi*U_W - (1-p_Wi)*C_F - p_Di*p_Pi*C_P - C_i).",
+    "Construction of a three-stage decision model (principal, agents, audience) and a 2x2x2 typology based on dichotomized scale, elaborateness, and disguise.",
+    "Illustrative application of the typology to documented cases (e.g., IRA, Chinese '50c party', South Korean NIS, Saudi Twitter campaigns, Adani coal mine lobbying)."
+  ],
+  "findings": [
+    "Three observable characteristics—scale (number of accounts, posts, platforms, duration), elaborateness (sophistication of content), and disguise (camouflage techniques)—consistently emerge across the empirical literature.",
+    "Hidden characteristics relevant for attribution include principal type (political vs. nonpolitical, government-backed vs. independent), agent organization (in-house vs. outsourced, human vs. automated), target audience location and resources, and influence strategy.",
+    "Existing CSMM strategy typologies (boosting, pollution, bullying, polarization, distraction) are not mutually exclusive and lack conceptual consistency.",
+    "The eight-type typology yields recognizable empirical exemplars for seven types (e.g., high-stakes mass persuasion = IRA foreign operations; low-stakes mass persuasion = Chinese 50c party; high-stakes targeting = Russian GRU Syria operation; low-stakes niche amplifying = Adani coal mine campaign), while 'low-stakes targeting' has no clear documented case, suggesting a detection gap.",
+    "Ground-truth data availability is heavily skewed toward Twitter releases; Meta and Reddit have provided far less raw data, limiting comparative attribution research."
+  ],
+  "contributions": [
+    "A consolidated definition of CSMM organized around three dimensions: coordination, social media, and manipulation (with influence and deception subdimensions).",
+    "A review-based catalogue of key observable (scale, elaborateness, disguise) and hidden (resources, stakes, influence strategy) CSMM characteristics.",
+    "A rational choice model formalizing the principal's commissioning decision and generating bridging hypotheses linking campaign features to hidden actor attributes.",
+    "An eight-cell typology of CSMM campaigns with worked examples and inferred principal characteristics.",
+    "An interdisciplinary research agenda emphasizing methodological triangulation, data access (e.g., via the EU Digital Services Act), and integration of computational and social-scientific approaches."
+  ],
+  "framing": "The paper positions itself at the intersection of disinformation studies, political communication, and cybersecurity—particularly Rid and Buchanan's work on cyber attribution and Keller et al.'s principal–agent analysis of political astroturfing. It critically engages with platform-derived concepts like Meta's 'coordinated inauthentic behavior' and seeks to ground CSMM research in a rational choice tradition (Esser) suitable for comparative, theory-driven inquiry into strategic communication.",
+  "pdf_source": "drive"
+}

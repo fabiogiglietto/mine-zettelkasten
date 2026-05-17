@@ -1,0 +1,36 @@
+{
+  "abstract": "This study analyzes coordinated link sharing behavior (CLSB) on Facebook in the UK and US during the COVID-19 pandemic to compare how pro- and anti-vaccine narratives were disseminated. Using a dataset of 3,469,719 public Facebook posts, the authors apply transfer learning for stance classification, network analysis via the CooRnet package, fact-checking of shared URLs, and structural topic modeling to characterize coordinated actors, their network structures, content authenticity, and thematic emphases. They find that anti-vaccine CLSB networks were denser and more engaged in the UK while pro-vaccine networks dominated in the US, and that UK anti-vaccine discourse focused on vaccine safety whereas US anti-vaccine discourse emphasized individual freedom. The paper argues that CLSB is not inherently malicious but can serve both misinformation and credible public health communication, depending on actor alignment and national context.",
+  "key_claims": [
+    "Anti-vaccine and pro-vaccine communities both engage in coordinated link sharing behavior, but with markedly different strategies, content sources, and credibility profiles.",
+    "In the UK, anti-vaccine entities formed denser CLSB networks with higher engagement, while in the US pro-vaccine networks were larger and more cohesive.",
+    "Anti-vaccine CLSB disseminates a disproportionately higher share of problematic or unverifiable content, while pro-vaccine CLSB largely circulates content from credible institutions (NHS, CDC, NIH).",
+    "Vaccine discourse is shaped by national political culture: UK anti-vaccine narratives center on safety/scientific skepticism, while US anti-vaccine narratives emphasize individual freedom and government distrust.",
+    "CLSB is ideologically agnostic: it can amplify misinformation but also serve as a tool for scaling evidence-based public health communication."
+  ],
+  "methods": [
+    "Collection of 3,469,719 English-language public Facebook posts from UK and US sources (Jan 2020–Oct 2022) via CrowdTangle using COVID-19 and vaccine-related keywords/hashtags.",
+    "Stance classification using a CT-BERT transfer-learning model trained on 5,000 manually annotated posts (Cohen's κ = 0.86), producing four subsets: UK-Anti, UK-Pro, US-Anti, US-Pro.",
+    "Detection of CLSB using the R package CooRnet, which identifies entities sharing identical URLs within unusually short time intervals; analysis of network components and structure.",
+    "A six-metric framework (unique URLs, linked posts, entity count, component count, avg coordinated shares, avg subscribers) plus network attributes (density, modularity, clustering, diameter) to characterize coordination patterns.",
+    "Manual fact-checking of unique URLs using Google's Fact Check Explorer, coded as Problematic, True, or Unknown (inter-coder agreement 94.6%).",
+    "Structural Topic Modeling (STM) with publication date and country as covariates, selecting 14-topic models for both anti- and pro-vaccine corpora based on coherence and exclusivity."
+  ],
+  "findings": [
+    "CLSB accounted for a substantial share of network activity: 61.5% of nodes in UK-Anti, 38.5% in UK-Pro, 49.8% in US-Anti, and 57.6% in US-Pro networks.",
+    "UK anti-vaccine networks had the highest density (0.01) and average degree (21.88); US pro-vaccine networks had the highest average degree (27.54) and largest entity count.",
+    "Fact-checking showed only 9.6% of UK-Anti URLs verified as true vs. 45.6% in UK-Pro; in the US, 12% of anti-vaccine URLs were verified vs. 40.4% of pro-vaccine URLs; anti-vaccine networks had high proportions (~74–80%) of 'Unknown' content.",
+    "Anti-vaccine topic modeling produced three clusters: Vaccine Safety Issues (59.1%), Vaccine Refusal (27.3%), and Criticism of Politicians/Big Pharma (13.5%).",
+    "Pro-vaccine topics centered on Vaccine Effectiveness and Safety (38.5%), Vaccination Progress (34.2%), and Vaccine Efficacy Evidence (27.2%).",
+    "UK anti-vaccine discourse emphasized safety/trial concerns (e.g., AstraZeneca); US anti-vaccine discourse foregrounded vaccination freedom and religious exemptions; UK pro-vaccine messaging stressed centralized rollout while US pro-vaccine messaging stressed incentives and grassroots efforts.",
+    "Anti-vaccine networks in the UK tend to be ideologically driven (liberty advocates, conspiracy groups), while US anti-vaccine networks span Republican, Democratic, religious, and local political pages; pro-vaccine networks are more institutionally grounded (NHS, CDC, hospitals)."
+  ],
+  "contributions": [
+    "Provides one of the first systematic cross-national comparisons of CLSB in vaccine discourse on Facebook across the UK and US.",
+    "Complicates the prevailing framing of CLSB as inherently malicious by showing its dual use for both misinformation and credible public health communication.",
+    "Develops a six-metric framework (extending Xu and Wang) for characterizing the scope and structure of coordinated link sharing networks.",
+    "Integrates network analysis, fact-checking, and structural topic modeling to jointly map who coordinates, how authentic the content is, and what narratives are amplified.",
+    "Offers implications for designing culturally and politically tailored public health communication strategies that leverage CLSB constructively."
+  ],
+  "framing": "The paper situates itself at the intersection of research on coordinated inauthentic behavior, health misinformation, and political polarization in digital media, drawing on Benkler et al.'s notion of asymmetric polarization and prior CLSB scholarship (Giglietto et al., Gruzd et al.). It frames vaccine discourse as shaped by both digital coordination tactics and broader socio-political contexts, arguing for a comparative, context-sensitive approach to understanding misinformation ecosystems.",
+  "pdf_source": "drive"
+}

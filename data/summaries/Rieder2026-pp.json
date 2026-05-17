@@ -1,0 +1,34 @@
+{
+  "abstract": "This article examines how Andrew Tate's content continues to circulate on YouTube after the August 2022 removal of his official channels. Combining a qualitative analysis of top-ranked search results from 2022 and 2024 with a large-scale dataset of 112,466 videos collected over a year, the authors map a decentralized ecosystem of interviews, remixes, and YouTube-native formats that sustain Tate's visibility. They argue this forms a 'Tate-space'—an ambient ideological environment fusing motivational rhetoric, aspirational masculinity, and far-right talking points—that YouTube's moderation efforts cannot effectively contain because recommendation-driven circulation outpaces removal.",
+  "key_claims": [
+    "Despite deplatforming, Tate is more visible on YouTube than before, sustained by a diffuse network of thousands of channels rather than coordinated influencers.",
+    "Tate's presence on YouTube operates as 'ambient ideology': motivational, wealth, and fitness content circulates alongside misogynistic and conspiratorial material, normalizing his worldview without requiring explicit endorsement.",
+    "YouTube's moderation apparatus is structurally outpaced by its own recommendation system, which amplifies low-subscriber channels to millions of views before removals occur.",
+    "Replatforming is not mere reuploading but an interpretive, evolutionary process in which interviewers, remixers, and memers adapt Tate's message to new contexts and audiences.",
+    "Deplatforming as a governance technique is symbolically significant but insufficient to disrupt the cultural and logistical dynamics sustaining a deplatformed figure's influence."
+  ],
+  "methods": [
+    "Two search-based 'visibility' snapshots using YouTube Data Tools queries for [Andrew Tate], collecting 397 videos (Dec 2022) and 425 videos (April 2024), plus channel searches using Tate's banned channel names.",
+    "Qualitative coding (predefined categories and open coding following Corbin and Strauss) of top-ranked, most-viewed, and random samples of 30 videos from each visibility dataset.",
+    "Large-scale data collection via the YouTube Data Tools 'daily search' feature, querying weekly between April–November 2024 for videos published after October 2023, producing 121,921 videos filtered with 'Tatewords' to 112,466 relevant videos.",
+    "BERTopic topic modeling on video titles using all-mpnet-base-v2 embeddings and HDBSCAN clustering (min_cluster_size = 350), producing 60 topics inductively grouped into 10 higher-level themes.",
+    "Custom web scraping in December 2024 to identify removed/unavailable videos and channels, supplemented by SocialBlade for reconstructing data on missing channels."
+  ],
+  "findings": [
+    "The 2024 sample showed mean and median view counts three to four times higher than 2022, with Shorts rising from 28.5% to 52.6% of content.",
+    "Three recurring content categories structure the Tate-space: long-form interviews (e.g., Piers Morgan, Patrick Bet-David, George Janko), ripped/remixed/reposted clips (often Shorts with manosphere-coded keywords), and YouTube-native formats (sketches, gaming, reactions) where Tate is 'memefied'.",
+    "Interview channels are rarely moderated due to their size and journalistic framing, while smaller minion-style channels face heavy removal—9 of 15 most-viewed 2022 videos were inaccessible by 2024.",
+    "In the large-scale dataset, 70.1% of videos were Shorts; 31.8% of videos were missing by December 2024, yet removed videos still accumulated substantial views, indicating slow moderation relative to recommendation speed.",
+    "Thematic analysis shows motivation, wealth, fighting, and society topics dominate (over half of videos), reflecting aspirational rather than overtly ideological framings; interviews score highest on views, comments, and duration.",
+    "Channels like WealthTeachers achieved nearly 10% of total views from 93 Shorts despite modest subscriber counts, suggesting heavy algorithmic amplification before eventual removal."
+  ],
+  "contributions": [
+    "Introduces the concept of the 'Tate-space' and 'ambient ideology' to describe how deplatformed figures persist through distributed, atmospheric circulation rather than coordinated networks.",
+    "Distinguishes this configuration from Lewis's (2018) Alternative Influence Network by showing a larger, less coordinated, and more entrepreneurial 'content delivery system.'",
+    "Empirically documents the tension between YouTube's recommendation 'freshness' mandate and its moderation capacity, demonstrating that removal lags systematically behind viral exposure.",
+    "Refines the concept of replatforming to include interpretive, aesthetic, and 'memecry'-style reworking by non-ideological content entrepreneurs.",
+    "Contributes to platform governance literature by showing that deplatforming addresses individual accounts but not the vernacular and cultural diffusion of ideology across the platform."
+  ],
+  "framing": "The paper situates itself within platform governance and content moderation scholarship (Gillespie, Gorwa, Poell, Roberts), engaging debates on deplatforming's effectiveness (Rogers, Innes and Innes, Rauchfleisch and Kaiser) and connecting to research on the manosphere, alternative influence networks, and YouTube's radicalization dynamics (Lewis, Ging, Ribeiro, Haslop et al.). It frames moderation as a question not only of removing content but of governing circulation, vernaculars, and recommendation-driven visibility.",
+  "pdf_source": "drive"
+}

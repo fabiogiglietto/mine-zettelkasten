@@ -1,0 +1,27 @@
+{
+  "abstract": "This survey examines how Large Language Models (LLMs) such as GPT-4 can be leveraged to automate data annotation and synthesis, tasks that have traditionally been labor-intensive and costly. It positions itself as the first dedicated review of LLM-based annotation and synthesis, distinguishing itself from prior surveys focused on LLM architecture or general training. The paper organizes the field around methodologies for LLM-generated annotations, learning strategies that use such annotations, and challenges or ethical issues that arise.",
+  "key_claims": [
+    "LLMs offer an unprecedented opportunity to automate data annotation and synthesis processes that were previously manual and expensive.",
+    "A dedicated synthesis of LLM-based annotation methods is currently missing from the literature, despite the rapid growth of work in this area.",
+    "Effective use of LLM-generated annotations requires careful methodological choices in both how data is generated and how downstream models learn from it.",
+    "There are distinctive challenges and ethical concerns associated with using LLMs as annotators that warrant focused attention."
+  ],
+  "methods": [
+    "Literature survey and taxonomy-building covering LLM-based data annotation and synthesis.",
+    "Categorization along three primary axes: (1) LLM-Based Annotation Generation, (2) LLM-Generated Annotations Assessment, and (3) LLM-Generated Annotations Utilization.",
+    "Review of learning paradigms that consume LLM-generated annotations, with a typology including supervised settings and other downstream uses."
+  ],
+  "findings": [
+    "The literature can be coherently organized into generation, assessment, and utilization of LLM-produced annotations.",
+    "Multiple learning strategies have emerged for leveraging LLM-generated labels in training downstream models.",
+    "Recurring challenges include quality assurance of generated annotations and ethical risks tied to automated labeling."
+  ],
+  "contributions": [
+    "Provides what the authors describe as the first comprehensive survey focused specifically on LLM-based data annotation and synthesis.",
+    "Proposes a structured taxonomy of methodologies spanning annotation generation, assessment, and downstream utilization.",
+    "Reviews learning strategies that integrate LLM-generated annotations into model training.",
+    "Identifies open challenges and ethical considerations to guide future research in the area."
+  ],
+  "framing": "The paper situates itself at the intersection of LLM research and the long-standing problem of data labeling in machine learning, positioning LLM-based annotation as a distinct subfield deserving its own synthesis. It is framed as complementary to existing surveys on LLM architecture and training, filling a gap by focusing on annotation and synthesis as application domains.",
+  "pdf_source": "abstract_only"
+}

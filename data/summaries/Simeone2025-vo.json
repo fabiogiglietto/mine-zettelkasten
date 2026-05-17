@@ -1,0 +1,35 @@
+{
+  "abstract": "This study examines the in-situ effects of Twitter's July 2021 deplatforming of eight accounts promoting state-level 2020 election 'audits,' focusing on the Arizona Election Review (AER) community. Using network analysis and corpus linguistics on tweets collected one month before and after the suspensions, the authors find that the bans produced ripple effects far exceeding the simple removal of banned accounts and their followers. The right-leaning AER cluster lost its hub/authority structure, participation dropped sharply, and discourse shifted from active recruitment and ballot surveillance toward abstract defiance and meta-conspiracies about deplatforming itself. The authors argue this demonstrates the efficacy of targeted 'network interventions' in content moderation, with implications for current visibility-reduction approaches under Twitter/X's new ownership.",
+  "key_claims": [
+    "Deplatforming a small number of central accounts produced disproportionate, network-wide effects that cannot be explained by the mechanical loss of banned nodes and their direct followers.",
+    "The suspensions destroyed the hub/authority structure of the right-leaning AER cluster while the left-leaning cluster's structure was comparatively strengthened, effectively flipping the network's authority configuration.",
+    "After deplatforming, recruiting calls and coordinated mobilization around the audit largely ceased, even though conspiracy content from high-profile verified accounts persisted in more diffuse and abstract forms.",
+    "The observed effects were not attributable to coordinated inauthentic behavior (bots), implying real human users disengaged after the bans.",
+    "Targeted deplatforming functioned as a 'network intervention' and was likely more effective at curtailing mobilization than visibility-reduction approaches now favored under Elon Musk's Twitter."
+  ],
+  "methods": [
+    "Collected tweets via Netlytic.org using the Boolean query '(arizona AND audit) OR #ArizonaAudit OR #fraudit' for June 27–August 27, 2021, yielding 264,412 tweets before and 117,014 tweets after the July 27, 2021 suspensions.",
+    "Constructed directed, weighted edgelists from retweets, replies, quotes, and @mentions, then extracted main components of before, after, and a counterfactual 'before-minus-banned-accounts' network.",
+    "Applied conductance cutting (granularity 0.025) to identify left- and right-leaning clusters in each network.",
+    "Computed network measures including in/out degree distributions and Kleinberg hub and authority scores to compare structural change.",
+    "Adapted CooRNet methodology to Twitter retweet timing (10-second threshold) to detect coordinated inauthentic behavior.",
+    "Performed corpus linguistic analysis comparing before/after tweet corpora using log-likelihood keyness scores, Keywords-in-Context (KWIC), and collocation analysis."
+  ],
+  "findings": [
+    "The after network had ~46% fewer nodes and ~55% fewer links than the before network, with declines far larger than removing banned accounts alone would predict.",
+    "The right cluster shrank dramatically (6,380 to 1,395 nodes; 7,676 to 1,437 links) while the left cluster shrank only modestly (2,623 to 2,223 nodes).",
+    "Hub concentration in the top 20 nodes collapsed in the right cluster from before to after, while authority concentration patterns reversed between the two camps.",
+    "Only 10 accounts met the threshold for coordinated retweeting behavior, indicating CIB was not a meaningful driver of AER network activity.",
+    "Before-corpus keywords emphasized ballot surveillance, retweet solicitations, and audit mobilization (e.g., 'ballots,' 'forensic,' 'retweet'); after-corpus keywords centered on suspensions, defiance, and platform migration (e.g., 'suspended,' 'accounts,' 'comply,' 'distracted,' 'Gab').",
+    "Post-ban discourse relied more heavily on a small number of high-profile verified accounts (e.g., George Papadopoulos, Wendy Rogers, Arizona GOP) producing high-impact tweets rather than distributed grassroots recruitment."
+  ],
+  "contributions": [
+    "Provides an in-situ case study of deplatforming effects on the network and discourse left behind, complementing the more common 'platform transition' studies.",
+    "Empirically demonstrates that targeted account suspensions can function as effective network interventions, disrupting hub-and-authority structures supporting election-denial mobilization.",
+    "Links deplatforming research to literature on the 'insurrectionist playbook,' showing how moderation can interrupt the social-media amplification stage of election-conspiracy mobilization.",
+    "Offers a comparative framework (before, after, and counterfactual 'before-minus-banned') for distinguishing direct removal effects from emergent ripple effects.",
+    "Raises policy-relevant concerns about whether visibility-reduction strategies can match deplatforming's effectiveness against already-popular mobilizing accounts."
+  ],
+  "framing": "The paper situates itself within content-moderation scholarship and research on online extremism and election-related disinformation, particularly the 'insurrectionist playbook' literature (Bastos & Recuero; Malkki). It positions deplatforming as a form of network intervention (Valente; Gillespie) and explicitly addresses a gap between platform-transition studies and the less-developed in-situ effects literature on users who remain after bans.",
+  "pdf_source": "drive"
+}

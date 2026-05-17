@@ -1,0 +1,29 @@
+{
+  "abstract": "This reflective essay by Alice Marwick revisits the lived experience of early internet culture—particularly LiveJournal in the early 2000s—to argue that today's platform-dominated environment has foreclosed forms of intimacy, community, and meaningful sociality that once flourished online. Drawing on autobiographical fieldnotes from Prodigy, IRC, university bulletin boards, and LiveJournal, Marwick contrasts the reciprocal, semi-private, subcultural writing communities of the old internet with what she describes as the alienating, extractive, and hostile environments of contemporary social media. She argues that the current political economy of platforms—driven by advertising, surveillance, consolidation, and algorithmic optimization—was not inevitable, and that alternative design and governance choices might have cultivated more humane digital publics. Despite the essay's title referring to disinformation, the actual content is a personal reflection on internet history and community.",
+  "key_claims": [
+    "Early internet platforms like LiveJournal enabled deep, reciprocal community formation and affective support in ways contemporary social media does not.",
+    "The trajectory of social media toward scale, virality, and surveillance was not inevitable but the result of specific political-economic and design choices.",
+    "Contemporary platforms are alienating, extractive, and hostile to vulnerability, foreclosing the small, semi-private, socially coherent spaces that once enabled genuine community.",
+    "If online community has a future, it will not come from replicating mega-platforms (e.g., Bluesky mimicking Twitter) but from reimagining infrastructures supporting reciprocity, vulnerability, and small-scale sociality.",
+    "Social media should have been conceived as social infrastructure requiring stewardship, safety, and care, rather than as a commercial product optimized for advertising and engagement."
+  ],
+  "methods": [
+    "Autobiographical reflection and personal fieldnotes drawn from the author's two-decade experience of online communication.",
+    "Historical recollection of specific platforms including Prodigy, IRC, VAX/VMS bulletin boards, and especially LiveJournal in the early 2000s.",
+    "Critical-essayistic reflection rather than empirical study; situates personal experience within broader critique of platform political economy."
+  ],
+  "findings": [
+    "LiveJournal supported sustained reciprocal writing, audience management via granular privacy filters, and the formation of lifelong friendships and romantic partnerships.",
+    "Features like fine-grained friends-only filters enabled trust and vulnerability rarely available on today's platforms.",
+    "The subcultural character of early internet use (small user base, niche communities) was integral to its intimacy and is difficult to reproduce at platform scale.",
+    "Contemporary platforms produce harassment, polarization, and corporate capture, leading users like the author to retreat to ambient, ephemeral, or encrypted-chat communication."
+  ],
+  "contributions": [
+    "Offers a first-person historical account contributing to the cultural memory and historiography of pre-platform internet sociality.",
+    "Advances a normative critique of social media's political economy and argues for alternative infrastructural imaginaries.",
+    "Provides a generative provocation for scholars of social media to consider what has been lost and what design/governance alternatives remain possible.",
+    "Adds to the growing literature reframing social media as infrastructure rather than as a commercial product."
+  ],
+  "framing": "The essay positions itself within internet history, platform studies, and critical political economy of social media, contributing to an anniversary issue of Social Media + Society. It engages debates over platform governance, surveillance capitalism, and the loss of community-oriented computer-mediated communication, while drawing on the author's longstanding work on self-presentation, networked privacy, and online culture.",
+  "pdf_source": "drive"
+}

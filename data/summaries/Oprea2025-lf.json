@@ -1,0 +1,36 @@
+{
+  "abstract": "This study investigates the use of Facebook accounts exhibiting inauthentic behavior during the 2024 European Parliament election campaign in Romania. Using Oprea's Authenticity Matrix tool, the authors manually analyzed the three most-shared posts from the official pages of the four leading political parties/alliances (PSD, PNL, AUR, USR) between May 10 and June 8, 2024. They found that hyperactive users (HAUs) accounted for substantial proportions of shares—up to 45% on some posts—and identified characteristic profile features of inauthentic accounts. The paper argues that while Meta's Community Standards prohibit such manipulation, platforms fail to take sufficient measures to prevent it during elections.",
+  "key_claims": [
+    "Facebook accounts with inauthentic behavior were used to amplify political messages during the 2024 Romanian European Parliament election campaign on the pages of all four leading political parties/alliances.",
+    "Hyperactive sharing behavior on political pages constitutes manipulation of public opinion and political discussion as defined by Meta's own Community Standards.",
+    "Although OSN platforms condemn inauthentic behavior in policy, they do not take sufficient measures to effectively reduce it during elections.",
+    "Identifiable dominant characteristics of HAU accounts (e.g., lack of human profile features, posting only political content, no disclosed affiliation despite political sharing) can help researchers, fact-checkers, and users recognize them.",
+    "Restrictive API policies on platforms like Facebook prevent automated detection by independent researchers, creating space for inauthentic actors to operate undetected."
+  ],
+  "methods": [
+    "Manual data collection from Facebook between December 2024 and May 2025 using four personal accounts, due to API restrictions.",
+    "Analysis of the three most-shared posts on each of the four official party/alliance Facebook pages (PSD, PNL, AUR, USR) during the campaign period (May 10–June 8, 2024).",
+    "Corpus of 4,476 viewable shares out of 70,293 total shares (6.7% of all campaign-period shares).",
+    "Application of Oprea's Authenticity Matrix tool, a feature-based detection instrument using a 0–100 Likert-style scale across three dimensions (personal info, account activity, likes/interactions).",
+    "Classification of users into Normal (NU), Moderately Active (MAU), Hyperactive (HAU, ≥4 shares), and Super-active (SAU, ≥10 shares) categories.",
+    "Qualitative-comparative approach supported by descriptive statistics, with cross-checking to mitigate human coding error."
+  ],
+  "findings": [
+    "Overall, 23.2% of shares analyzed were made by hyperactive users (HAUs) sharing the same post 4+ times.",
+    "For specific posts, HAU shares reached up to 45% (USR2), with SAU shares (10+ times) reaching 33.9% on that same post.",
+    "Per-page HAU share ranges: PSD 0–17.1%, PNL 0–26.2%, AUR 20.6–28.1%, USR 14.2–45%.",
+    "Some accounts shared the same post 31 or 22 times; some posted up to 187 posts per day or 75 posts in 10 minutes.",
+    "Profile traits of HAUs: 95.5% did not disclose political affiliation; 61.6% posted more than 4 times/day or were inactive 30+ days; 45.5% posted 10+ times/day; 40.2% posted only political/civic content; 27.7% displayed political support via images; 18.8% lacked human profile/cover photos; 17% had fewer than 10 friends; 7.1% used non-human names.",
+    "Applying the Authenticity Matrix to HAUs: 38.4% appeared authentic, 42.9% showed average probability of inauthenticity, and 18.8% were classified as inauthentic.",
+    "Findings align with prior research (Papakyriakopoulos et al., 2020; Oprea, 2023) showing comparable HAU proportions in political engagement."
+  ],
+  "contributions": [
+    "Provides empirical evidence of inauthentic sharing behavior on official political party pages during a European-level election in Romania.",
+    "Develops a profile of dominant characteristics of HAU accounts that can aid identification by researchers, fact-checkers, and the public.",
+    "Demonstrates the practical value of the Authenticity Matrix as a manual tool that can operate despite Facebook's API restrictions.",
+    "Highlights the gap between Meta's stated commitments and actual enforcement of policies on inauthentic behavior.",
+    "Argues for policy interventions such as share-count limits, enhanced researcher data access, and stronger co-regulatory measures."
+  ],
+  "framing": "The paper situates itself within scholarship on political communication, social media manipulation, and disinformation during electoral periods, drawing on concepts of 'hyperactive users' (Papakyriakopoulos et al.), 'cyber troops' (Bradshaw & Howard), and Meta's own categories of 'inauthentic behavior' and 'coordinated inauthentic behavior.' It engages with debates over algorithmic governance and platform accountability in democratic processes, particularly in the context of EU regulatory efforts (Digital Services Act, Code of Practice on Disinformation) and Romania's vulnerable information ecosystem.",
+  "pdf_source": "drive"
+}

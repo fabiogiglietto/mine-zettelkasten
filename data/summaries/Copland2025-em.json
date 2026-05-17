@@ -1,0 +1,36 @@
+{
+  "abstract": "This article analyses how Sky News Australia, a low-rated right-wing Australian cable channel owned by News Corporation, transformed itself into an internationally influential digital media operation between 2020 and 2021. Drawing on data from YouTube and Facebook (via CrowdTangle), the authors use temporal analysis, network analysis, and BERTopic topic modelling to trace how Sky News Australia content was disseminated and to whom. They find that the channel operates a two-pronged strategy: serving committed Australian right-wing audiences with native Facebook content while inserting itself into the US right-wing propaganda pipeline via YouTube videos, including by amplifying conspiracy theories about COVID-19, the 2020 US election, and the 'Great Reset'.",
+  "key_claims": [
+    "Sky News Australia has transitioned from a niche Australian cable channel into an international right-wing propaganda machine with global digital reach.",
+    "The channel functions as a node in a transnational 'network propaganda' system (per Benkler et al., 2018), bridging Australian and US right-wing media ecosystems.",
+    "Sky News Australia deploys a dual content strategy: parochial Australian content for domestic audiences on native Facebook, and US-centric/conspiracist content on YouTube that achieves viral overseas reach.",
+    "The channel serves as a vector for disinformation and conspiracy theories, including content on voter fraud, hydroxychloroquine, climate denial, the Hunter Biden laptop, and the 'Great Reset'.",
+    "Sky News Australia exemplifies novel forms of 'infrastructural', 'computational', and 'participatory' propaganda that adapt classical propaganda strategies (Bernays, Lippmann, Ellul, Herman & Chomsky) to algorithmic and networked digital platforms."
+  ],
+  "methods": [
+    "Collection of the 20,000 most recent Sky News Australia YouTube videos as of 21 January 2021, covering 30 March 2020 to 21 January 2021, via the Digital Methods Initiative's YouTube Data Tools.",
+    "Querying CrowdTangle for Facebook posts (1 April 2020 to 31 January 2021) containing links to these YouTube videos, and for native Facebook video posts originating from the Sky News Australia page.",
+    "Text-matching method to identify equivalences between YouTube video descriptions and Facebook post 'message' fields, linking video instances across platforms.",
+    "Temporal analysis of posting patterns by hour and week, including breakdown by administrator country for public Facebook pages.",
+    "Network analysis and visualisation using Gephi with the Force Atlas 2 algorithm to map video-sharing relationships between videos and Facebook spaces.",
+    "BERTopic topic modelling (using KeyBERTInspired representation, UMAP dimensionality reduction, HDBSCAN clustering, and 1–3 n-grams) on 19,957 YouTube video descriptions, yielding 111 topics."
+  ],
+  "findings": [
+    "Of 20,000 Sky News Australia YouTube videos, only 3,470 were shared on Facebook (22,282 posts in 7,955 spaces); 11,660 native Facebook videos generated 37,350 posts in 5,184 spaces.",
+    "Native Facebook videos are shared mostly within Australian time zones (peak 18:00–midnight AEST), whereas YouTube video sharing is globally distributed with a slight peak corresponding to US daytime.",
+    "Top sharers of native Facebook videos are Australian right-wing pages and Sky presenters (e.g. Peta Credlin, Alan Jones, Mark Latham, Stand Up For Australia); top YouTube video sharers include US-centric right-wing pages (e.g. Tucker Carlson, Lauren Southern, Mark Levin, Kayleigh McEnany Fan Club).",
+    "YouTube sharing roughly doubled from October 2020 onward, coinciding with the US presidential election and Trump's voter-fraud claims, with a notable increase in sharing by US-administered Facebook pages.",
+    "Network visualisation shows two distinct clusters: a dense Australian-focused cluster sharing native Facebook videos, and a more dispersed, US-focused cluster sharing YouTube videos, with a transitional zone of globally themed conspiracist content shared in both forms.",
+    "The top 20 topics (60.66% of videos) fall into four themes: COVID-19/anti-lockdown, political bias and critique (pro-Trump/anti-Biden, pro-LNP/anti-Labor), global and national concerns (especially China), and economic/energy policy (pro-fossil fuel).",
+    "Five topics (1.94% of videos, ~1 in 50) explicitly disseminate misinformation or conspiracy claims: 2020 US voter fraud, climate denial and the Great Reset, hydroxychloroquine promotion, the Hunter Biden laptop, and climate denial framing of US wildfires—these often received the highest sharing counts."
+  ],
+  "contributions": [
+    "Provides the first systematic empirical mapping of Sky News Australia's transnational digital dissemination across Facebook and YouTube.",
+    "Extends Benkler et al.'s (2018) network propaganda framework geographically, demonstrating that asymmetric right-wing media ecosystems span national boundaries.",
+    "Introduces a methodological combination of CrowdTangle data, cross-platform video matching via text comparison, network visualisation, and BERTopic modelling that could be replicated for other partisan outlets.",
+    "Develops and applies concepts of 'infrastructural propaganda' and 'participatory disinformation' to a non-US case, showing how digital platforms recalibrate classical propaganda dynamics.",
+    "Offers a replicable case study and research agenda for examining comparable channels such as Fox News, GB News, and Rebel News."
+  ],
+  "framing": "The paper situates itself within propaganda studies and digital media research, bridging classical theorists (Bernays, Lippmann, Ellul, Herman & Chomsky) with contemporary frameworks of computational, participatory, and network propaganda (Woolley & Howard; Wanless & Berk; Starbird et al.; Benkler et al.). It contributes to debates on transnational right-wing media ecosystems and platform-enabled disinformation, with particular attention to the Australian media landscape's connection to US partisan media flows.",
+  "pdf_source": "drive"
+}

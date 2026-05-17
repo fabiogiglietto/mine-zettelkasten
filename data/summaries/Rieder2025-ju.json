@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper conducts a systematic audit of the search endpoint of YouTube's Data API (v3), a widely used tool for academic research that has received little methodological scrutiny. Through weekly searches over six months using eleven queries spanning health, political, and popular culture topics, the authors document major problems with completeness, representativeness, consistency, and bias. They find a severe temporal decay effect where findable videos drop sharply after 20-60 days post-publication, substantial differences between ranking parameters, and inconsistent results across identical repeated queries. The authors conclude the API is inadequate for robust academic research—particularly for meeting Digital Services Act obligations—and offer mitigation strategies alongside recommendations for YouTube.",
+  "key_claims": [
+    "YouTube's Data API search endpoint is 'forgetful by design,' systematically prioritizing recent content (freshness) over comprehensive retrieval, making it function more as a recommendation engine than a traditional information retrieval system.",
+    "The 'relevance' (default) and 'date' ranking parameters produce substantially different results, with relevance yielding more videos but much lower precision, often including off-topic content.",
+    "Search coverage exhibits a three-phase temporal decay pattern (head ~20 days, middle ~40 days, flat tail), causing dramatic loss of findable videos for historical timeframes even when those videos remain publicly available on the platform.",
+    "Identical queries run at different times produce inconsistent video sets, undermining replicability of research.",
+    "These limitations make the API inadequate for studying systemic risks under the EU Digital Services Act and compromise many existing research designs that retrospectively analyze events on YouTube.",
+    "Structural fixes require YouTube to improve both the search endpoint (e.g., include all public videos or provide a dedicated researcher endpoint) and its documentation of ranking behaviors."
+  ],
+  "methods": [
+    "A 'maximalist' data collection strategy using the YouTube Data Tools' 'one search per day' technique to circumvent the 500-results-per-query limit.",
+    "Weekly searches over six months (starting April 2024) for eleven queries covering health, political, and popular culture topics: 'Andrew Tate,' 'Angela Merkel,' 'Carles Puigdemont,' 'European Parliament election,' 'Eurovision,' 'Gaza ceasefire,' 'Geert Wilders,' 'Mukbang,' 'Obesity,' 'Ukraine war,' and 'Ursula von der Leyen.'",
+    "Each search ran from a fixed start date (October 15, 2023), with primary focus on the 'relevance' ranking parameter and comparison against 'date' ranking.",
+    "Quantitative analysis of three dimensions: query precision (via keyword filtering of titles, descriptions, and tags), temporal coverage (drop-off as a function of distance from publication), and sample consistency across repeated extractions.",
+    "A qualitative case study on the 2024 European Parliament elections with five search dates spaced five weeks apart, applied to a one-month observation window before the June 9 election."
+  ],
+  "findings": [
+    "Relevance ranking retrieves substantially more videos than date ranking (up to 8x more for 'European Parliament election'), but with much lower precision—e.g., 17.2% vs. 57.6% keyword match rate for that query.",
+    "Three distinct temporal phases appear consistently across queries: a 20-day 'head' averaging ~450 videos/day, a 40-day 'middle' averaging ~130 videos/day, and a long 'tail' with fewer than 20 videos/day.",
+    "The temporal decay affects videos that are still publicly available, indicating the loss is a search-indexing/ranking artifact, not video deletion.",
+    "Higher-volume queries show stronger decay effects under relevance ranking; lower-volume queries searched by date show less drop-off.",
+    "Repeated searches over identical timeframes produce different result sets, with each new run yielding previously unseen videos (e.g., a small experiment with [chatgpt] found 773 videos across ten consecutive searches versus 456 in a single search).",
+    "In the European Parliament case study, waiting five weeks after the election reduced retrievable on-topic videos by ~41% (with filtering) and 64% (without); waiting ten weeks reduced them by 76% and 92% respectively.",
+    "Highly-viewed videos are not immune: only 5 of the top 10 most-viewed videos from the immediate post-election search remained findable four months later, despite still being live on YouTube."
+  ],
+  "contributions": [
+    "Provides the first systematic empirical audit of YouTube Data API's search endpoint, addressing a major gap given the platform's centrality and the widespread use of this endpoint in academic research.",
+    "Documents and names a previously unquantified 'temporal decay' problem (head/middle/tail phases) that has direct implications for historical and event-based research designs.",
+    "Demonstrates concrete consistency and replicability problems in API-based YouTube research through a case study of the 2024 European Parliament elections.",
+    "Offers practical mitigation strategies for researchers (early collection, repeated searches, multiple keyword combinations, alternative methods like crawling and random sampling, keyword filtering of results).",
+    "Provides policy-relevant evidence that current API access does not meet Digital Services Act requirements for studying systemic risks of very large online platforms, with specific recommendations to YouTube for improving the search endpoint and documentation.",
+    "Extends the literature on API audits (previously focused on Twitter, Facebook, TikTok) to YouTube."
+  ],
+  "framing": "The paper situates itself within ongoing critical scholarship on APIs as opaque, business-driven 'black boxes' that nonetheless serve as primary research infrastructure—building on the 'APIcalypse' and 'Post-API Age' debates (Bruns, Freelon, Tromble) and prior audits of Twitter (Morstatter, Pfeffer), Facebook (Rieder, Ho), and TikTok (Pearson). It frames YouTube's API as a critical but understudied case, and ties methodological critique directly to the emerging regulatory context of the EU Digital Services Act and its researcher access provisions.",
+  "pdf_source": "drive"
+}

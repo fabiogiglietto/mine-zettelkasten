@@ -1,0 +1,36 @@
+{
+  "abstract": "This preregistered U.S. survey experiment (N=2144) tests whether perceptions of political bias undermine the persuasive power of conversational AI. Participants held one of six economic misconceptions and engaged in a three-round conversation with ChatGPT (GPT-4.1) after being randomly assigned to receive either no information, a non-directional bias warning, or one of two warnings (light or heavy) claiming the model was biased against their party. Compared to the neutral control, brief out-party bias warnings reduced belief correction by roughly 23–28%, with transcript analysis showing respondents pushed back more and argued more rather than disengaging. The authors conclude that LLM persuasion is politically contingent on perceived neutrality.",
+  "key_claims": [
+    "Conversational LLMs are persuasive at correcting economic misconceptions, but this persuasion is meaningfully attenuated when users are told the model is politically biased against their party.",
+    "A short out-party bias cue reduces persuasion by approximately 28% (heavy condition) and 23% (light condition) relative to a no-information control.",
+    "The attenuation operates by changing how users engage with the LLM (more argumentation, more pushback) rather than through disengagement or dismissiveness, consistent with directional motivated reasoning.",
+    "Because the LLM was instructed to remain truthful, the effect appears to stem from perceptions of the messenger rather than from any change in argument content.",
+    "Perceived neutrality should be considered an additional lever of LLM persuasion alongside interactivity, personalization, and information volume identified in prior work."
+  ],
+  "methods": [
+    "Preregistered four-arm between-subjects online survey experiment fielded on Prolific in December 2025–January 2026 with a U.S. quota sample (N=2144 analytic).",
+    "Two-stage measurement of six economic misconceptions (household-government budget analogy, rent control, zero-sum immigration, trade deficits, tax cuts paying for themselves, Buy American) to reduce acquiescence bias.",
+    "Random assignment to (i) no-information control, (ii) non-directional bias warning, (iii) light out-party bias warning, or (iv) heavy out-party bias warning that added information and an image linking OpenAI CEO Sam Altman to the respondent's out-party.",
+    "Three-round conversation with GPT-4.1 (gpt-4.1-2025-04-14, temperature 1) prompted to persuade respondents toward the academic-economist consensus while remaining truthful.",
+    "OLS models of post-treatment misconception agreement with topic fixed effects and pretreatment agreement; bootstrap CIs for attenuation ratios; tests for heterogeneous effects by partisanship, alignment, affective polarization, AI trust, and topic knowledge.",
+    "Transcript analysis using an LLM-as-judge (gpt-5-mini) pairwise comparison method scaled via a Bayesian Bradley–Terry model to estimate latent argumentativeness and dismissiveness, with uncertainty propagated via Rubin's Rules."
+  ],
+  "findings": [
+    "Mean pre–post change in misconception agreement was −1.20 (SE=0.06) in control, −0.93 in light treatment, and −0.86 in heavy treatment on a 0–4 scale.",
+    "Full opinion reversals dropped from 34.4% in control to 22.1% in the heavy treatment group.",
+    "Effects were broadly distributed across topics, with positive (persuasion-undermining) point estimates in four of six topics.",
+    "Bias warnings increased perceptions of out-party bias for both Democrats and Republicans, eliminating baseline partisan differences in perceived bias.",
+    "No statistically significant heterogeneous effects by partisan strength, misconception-party alignment, affective polarization, AI trust, or self-reported topic knowledge.",
+    "Heavy-treatment respondents wrote more and were rated as more argumentative, but not more dismissive, contradicting a pure low-effort heuristic-discounting account.",
+    "Treatments also reduced rated persuasiveness of the LLM (d=−0.31), willingness to use AI again to challenge beliefs (d=−0.20), general trust in AI chatbots (d=−0.10), and support for politicians using AI (d=−0.24)."
+  ],
+  "contributions": [
+    "Provides the first experimental (rather than correlational) evidence that manipulating perceived political bias of an LLM causally attenuates its persuasive effect.",
+    "Extends classic source-credibility and motivated-reasoning theories to human–LLM interaction, identifying perceived neutrality as a boundary condition for AI persuasion.",
+    "Introduces a transcript-scaling approach combining LLM-as-judge pairwise comparisons with Bayesian Bradley–Terry estimation to measure latent conversational behaviors like argumentativeness and dismissiveness.",
+    "Highlights policy-relevant asymmetries: elite politicization of AI can blunt the epistemic benefits of LLM-based fact-checking and may distribute those benefits unevenly across the political spectrum.",
+    "Offers preregistered evidence relevant to ongoing debates about AI's impact on democracy, misinformation, and political campaigning."
+  ],
+  "framing": "The paper situates itself at the intersection of the rapidly growing LLM-persuasion literature (Costello et al., Hackenburg et al., Lin et al., Argyle et al.) and longstanding political science work on source credibility, partisan motivated reasoning, and elite-driven polarization (Hovland, Zaller, Lodge & Taber, Druckman). It argues that prior LLM persuasion experiments have been conducted in an artificially apolitical context and reframes LLM persuasion as politically contingent, contributing to discussions about AI's role in democratic information environments.",
+  "pdf_source": "drive"
+}

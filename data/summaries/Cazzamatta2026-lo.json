@@ -1,0 +1,39 @@
+{
+  "abstract": "This article investigates what happens to false content on Meta platforms after fact-checker verification, and how fact-checkers themselves view content moderation practices, in the wake of Mark Zuckerberg's January 2025 decision to end Meta's Third-Party Fact-Checking Program and his framing of fact-checkers as agents of censorship. Combining a content analysis of 2,053 debunking articles from 16 Meta-partner organizations across eight European and Latin American countries with 30 expert interviews, the study finds that content removal occurs in only about 30% of cases, while most verified content is either labeled or remains online unaltered. Fact-checkers broadly favor transparency, counter-speech, and visibility reduction over deletion, reject an 'anything goes' view of free speech, and express skepticism about Community Notes as a replacement for professional verification.",
+  "key_claims": [
+    "Zuckerberg's portrayal of fact-checkers as censors is empirically unfounded, since fact-checkers have never had authority to remove or downrank content—only to verify it.",
+    "Content removal after fact-checking is relatively rare (around 30% of cases) and often cannot be attributed to platforms rather than the original spreaders themselves.",
+    "Fact-checkers generally endorse a liberal approach to moderation that prioritizes transparency, labeling, and counter-speech over deletion, while rejecting unrestricted algorithmic reach.",
+    "Removal is considered justified by some fact-checkers only in exceptional cases such as illegal content, incitement to violence, false criminal accusations, or harmful health misinformation.",
+    "Meta's shift from 'preemptive cooperation' with fact-checkers toward 'conflictual cooperation' signals a turn toward oligarchic, politically aligned moderation that threatens evidence-based regulation, particularly in regions with weak regulatory frameworks like Latin America.",
+    "Community Notes is viewed skeptically by fact-checkers as vulnerable to politically motivated manipulation and unlikely to effectively replace professional fact-checking."
+  ],
+  "methods": [
+    "Comparative quantitative content analysis of 2,053 debunking articles published in 2022 by 16 Meta-partner fact-checking organizations across eight countries (Germany, Portugal, Spain, UK, Argentina, Chile, Brazil, Venezuela), sampled via stratified selection from 11,636 collected links.",
+    "Inductive codebook development through a 500-article pre-test, with categories capturing post-verification outcomes (warning labels, removal, court orders, no action, residual footprint, fact-checker pressure on sources, voluntary corrections).",
+    "Coding by eight native-language research assistants over eight months, with intercoder agreement ranging from 77% (Spanish) to 93% (Portuguese).",
+    "Correspondence analysis (CA) to map associations between countries and moderation outcomes, accounting for 85% of variance.",
+    "30 semi-structured qualitative expert interviews with fact-checkers across both regions (August 2024–March 2025), analyzed inductively using NVivo following Tracy's qualitative textual analysis approach.",
+    "Country selection based on Hallin and Mancini's media system typology for Europe and levels of deliberative democracy plus market size for Latin America."
+  ],
+  "findings": [
+    "Correspondence analysis revealed no strong country-specific patterns in post-verification outcomes; most variables clustered near the null point indicating cross-national uniformity.",
+    "Content removal ranged from 21% in Venezuela to 45% in Portugal, with most countries clustering around 30%, but it is often unclear whether Meta or the original spreader removed the content.",
+    "Platform labeling of debunked content varied widely—from 10% in Portugal and 0% in Argentina (where Chequeado uses screenshots) to 56% in Brazil.",
+    "In many cases no action was taken and false posts remained accessible without labels, undermining censorship narratives.",
+    "Successful fact-checker requests for corrections from public figures were rare across all countries.",
+    "Fact-checkers emphasize ten key arguments against removal, foremost protecting freedom of speech while distinguishing it from 'freedom of reach,' and stress concerns about opaque takedown criteria fueling conspiracy theories.",
+    "European fact-checkers welcome the Digital Services Act and collective EU-level advocacy via the EFCSN; Latin American fact-checkers express more pessimism about regulation and funding.",
+    "Fact-checkers express concern that Community Notes can be weaponized via coordinated voting, citing experiences on X."
+  ],
+  "contributions": [
+    "Provides the first empirical evidence on what actually happens to content after fact-checker verification on Meta platforms, directly testing censorship claims.",
+    "Offers a cross-regional comparative perspective spanning the two regions (Europe and Latin America) specifically targeted in Zuckerberg's January 2025 speech.",
+    "Combines large-scale content analysis with practitioner interviews to triangulate platform behavior with insider perspectives.",
+    "Documents fact-checkers' normative positions on free speech, transparency, and moderation, situating them within debates on platform regulation.",
+    "Extends Rone's framework of preemptive versus conflictual platform cooperation by applying it to the dismantling of the Third-Party Fact-Checking Program.",
+    "Raises empirically grounded concerns about replacing professional fact-checking with Community Notes, especially in politically polarized, under-regulated contexts."
+  ],
+  "framing": "The paper situates itself within platform governance and content moderation scholarship (Gillespie, Rone, Flew and Martin, Kleinen-von Königslöw and Wessler), debates over disinformation regulation and the EU's Digital Services Act, and the literature on fact-checking as journalistic practice. It engages with critiques of (neo)liberal 'anything goes' free-speech ideals and the instrumentalization of censorship rhetoric by right-wing populists and tech leaders. By centering fact-checkers as specialized mediators in disrupted public spheres, it contributes to discussions on co-regulation, platform accountability, and the political economy of disinformation.",
+  "pdf_source": "drive"
+}

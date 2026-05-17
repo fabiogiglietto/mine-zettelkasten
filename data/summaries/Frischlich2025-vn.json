@@ -1,0 +1,33 @@
+{
+  "abstract": "This perspective paper argues that popular analogies for misinformation—'infodemic,' 'information warfare,' and 'information pollution'—obscure the multilevel complexity of how misinformation propagates, leading to incomplete policy responses. The authors propose a four-level framework (micro, meso-I social groups, meso-II platforms, macro societal systems) for mapping misinformation dynamics as a complex adaptive system. They systematically map each analogy onto this framework to reveal its 'conceptual mileage' and 'conceptual baggage,' and call for portfolio-style, complexity-aware interventions analogous to those used in climate change policy.",
+  "key_claims": [
+    "Misinformation propagates through a complex, multilevel adaptive system that cannot be captured by single analogies.",
+    "Dominant analogies (infodemic/virus, information warfare/weapon, information pollution/toxin) each illuminate only part of the system while systematically obscuring other levels and actors.",
+    "Interventions derived from a single analogy can backfire—e.g., oversimplified media literacy training can increase generalized distrust and susceptibility to misinformation.",
+    "Effective responses require a coordinated portfolio of interventions spanning individual cognition, social groups, platform design, and macro-level institutions.",
+    "Misinformation research must move beyond linear causal inference toward iterative, complexity-informed evaluation, akin to climate change research."
+  ],
+  "methods": [
+    "Conceptual/theoretical synthesis adapting integrative belief dynamics models (Galesic et al. 2021; Dalege et al. 2025) to misinformation.",
+    "Construction of a four-level framework (micro, meso-I social groups, meso-II digital platforms, macro societal systems) with prototypical actors and ties.",
+    "Systematic mapping exercise: co-developed codebook applied by multidisciplinary author team to evaluate three analogies (infodemic, information warfare, information pollution) plus 'fake news' against the framework, with iterative consensus revision (codebook and codings in Supplementary Material S.1–S.4).",
+    "Bibliometric scoping using Web of Science and Google Scholar hit counts for each analogy term.",
+    "Google Trends analysis of normalized search interest for the analogies from January 2005 to May 2025."
+  ],
+  "findings": [
+    "Web of Science searches (May 2025) returned 1275 results for 'infodemic,' 1258 for 'information war*,' and 103 for 'information pollution' in titles/abstracts; Google Scholar showed ~41,900, ~69,300, and ~6,280 hits respectively.",
+    "The virus/infodemic analogy captures micro-level transmission and supports inoculation interventions but ignores social embedding, platform contexts, macro political systems, and strategic motivations.",
+    "The information-warfare analogy highlights macro-level state strategic action but treats society as monolithic, downplays individual agency, non-political motives, and feedback loops.",
+    "The information-pollution analogy best represents systemic and multilevel dynamics and tipping points but underplays recipient agency, intergroup dynamics, and platform-specific affordances.",
+    "No single analogy adequately represents the recursive coupling of psychological, social, technical, and political factors that characterizes misinformation."
+  ],
+  "contributions": [
+    "Introduces an integrative four-level (micro/meso-I/meso-II/macro) framework specifically tailored to misinformation dynamics, extending belief-dynamics modeling.",
+    "Provides a structured methodology and codebook (in supplementary materials) for evaluating analogies against complexity criteria.",
+    "Offers a comparative diagnostic of the three dominant misinformation analogies, making their blind spots explicit.",
+    "Translates the framework into concrete policy guidance, advocating multilevel intervention portfolios and complexity-aware evaluation methods.",
+    "Identifies future research priorities including meta-dynamics, cross-platform and cross-regime comparison, longitudinal feedback effects, and qualitative work to mitigate ecological fallacy."
+  ],
+  "framing": "The paper positions itself within complexity science and the interdisciplinary study of belief dynamics, communication research, and misinformation policy. It builds on Olsson & Galesic's notion of analogies as carrying both 'conceptual mileage' and 'baggage,' and engages ongoing debates over whether misinformation threats are overstated or underappreciated, arguing that a complexity-informed framing can reconcile these disputes.",
+  "pdf_source": "drive"
+}

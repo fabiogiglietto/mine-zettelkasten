@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper develops a 'law-to-design' framework that bridges HCI scholarship on dark patterns with Article 25 of the EU Digital Services Act (DSA), which prohibits design practices that deceive, manipulate, or distort/impair user autonomy. The authors qualitatively map 59 meso- and low-level dark patterns from Gray et al.'s unified ontology onto these three autonomy violation types and identify eight underlying design factors organized into an 'information space' and a 'choice space'. They demonstrate the framework's extensibility by applying it to attention-capture damaging patterns and to an ongoing EU Commission case against X (formerly Twitter) regarding its paid blue checkmarks.",
+  "key_claims": [
+    "Demonstrating DSA Article 25 violations requires design-oriented reasoning that explains why a specific design constitutes deception, manipulation, or distortion/impairment.",
+    "The 59 meso- and low-level dark patterns in Gray et al.'s ontology can be systematically mapped onto the three autonomy violation types articulated by Santos et al., with most patterns (42 of 59) implicating multiple violation types.",
+    "Eight design factors—split across an 'Information Space' (Information Availability, Correctness, Framing, Presentation) and a 'Choice Space' (Choice Availability, Effort, Simplification, Presentation)—can ground reasoning about which autonomy violation(s) a given pattern triggers.",
+    "The framework is extensible to dark patterns beyond the Gray et al. ontology (e.g., attention-capture damaging patterns) and applicable to live regulatory enforcement cases such as the EU Commission's proceedings against X.",
+    "HCI methods and conceptual labor can contribute to a new field of regulatory design auditing, supporting both enforcement and compliance-by-design."
+  ],
+  "methods": [
+    "Selected the Gray et al. (2024) unified hierarchical ontology of dark patterns as the analytical corpus, focusing on 59 meso- and low-level patterns (excluding 5 high-level strategies).",
+    "Adopted Santos et al.'s legally grounded interpretation of DSA Article 25, defining deception (interfering with perceptions of truth), manipulation (steering behavior), and distortion/impairment (constraining behavior) as the autonomy violation codebook.",
+    "Conducted iterative qualitative coding: two authors independently labeled each pattern with autonomy violations using AirTable, then resolved discrepancies in three rounds of consensus discussion.",
+    "Inductively derived design factors from coders' rationale memos, then deductively re-coded 34 low-level patterns against the 8-factor codebook (Cohen's Kappa = 0.679, substantial agreement).",
+    "Produced and cross-validated structured natural-language reasoning for each of the 59 patterns, with a third and fourth author refining labels and rationale.",
+    "Tested external validity by applying the framework to 11 attention-capture damaging patterns from Monge Roffarello et al. and to the EU Commission's case against X over paid blue checkmarks."
+  ],
+  "findings": [
+    "17 of 59 dark patterns map to a single autonomy violation type, while 42 implicate multiple types, with 11 patterns triggering all three.",
+    "The deception–manipulation pair is the largest combination subset (22 patterns), suggesting these two violations often lie on a continuum, whereas manipulation–distortion combinations are rare (only 2 patterns).",
+    "High-level strategies show internal consistency: all Sneaking patterns involve deception, all Obstruction patterns involve distortion/impairment, and all Social Engineering patterns involve manipulation; Forced Action is the most diverse category.",
+    "Autonomy violations can co-occur in three modes: separately ('one or the other'), through temporal progression (e.g., initial deception transitioning into manipulation as in drip pricing), or by reinforcing each other (e.g., Sneak into Basket).",
+    "Eight design factors were identified: Information Availability and Information Correctness drive deception; Information Framing, Information Presentation, Choice Simplification, and Choice Presentation drive manipulation; Choice Availability and Choice Effort drive distortion/impairment.",
+    "Meso-level patterns sometimes carry fewer autonomy violation labels than their constituent low-level patterns because low-level definitions specify additional execution details.",
+    "Applied to X's paid blue checkmarks, the framework supports reasoning that the redesigned verification icon constitutes deception under Article 25."
+  ],
+  "contributions": [
+    "A systematic mapping of 59 dark patterns from the Gray et al. ontology to the three DSA Article 25 autonomy violation types, providing the first comprehensive 'law-to-design' alignment of its kind.",
+    "An eight-factor design vocabulary (organized into Information Space and Choice Space) that gives regulators, scholars, and practitioners concrete criteria for diagnosing autonomy violations.",
+    "Detailed, structured reasoning templates explaining why each pattern constitutes a given violation, released as both appendix text and a supplementary CSV.",
+    "Demonstration of how the framework extends to emerging dark pattern categories (attention-capture damaging patterns) and supports analysis of live enforcement cases (X's blue checkmarks).",
+    "A translational contribution to HCI-law scholarship, articulating how HCI methods can underpin regulatory design auditing and compliance-by-design under the DSA."
+  ],
+  "framing": "The paper positions itself at the intersection of HCI dark patterns scholarship and emerging EU digital regulation, building on taxonomic work (Brignull, Mathur, Gray et al.) and legal interpretive work (Santos et al., Raue) on DSA Article 25. It departs from prior design-to-law approaches by working in the reverse direction—from legal categories to design factors—and frames autonomy through the DSA's three violation types rather than broader philosophical accounts, arguing that HCI should help operationalize regulatory concepts for enforcement and compliance.",
+  "pdf_source": "drive"
+}

@@ -1,0 +1,43 @@
+{
+  "abstract": "This scoping review synthesizes 25 years of scholarship (2000-2025) on the internet's role in radicalization, analyzing 382 publications to map research trends, conceptual frameworks, and identified mechanisms. The authors propose a definition of radicalization as an incremental, multi-factor process leading to adoption of radical/extremist ideologies and/or acceptance of violent action, and they organize the literature using two analytical lenses: macro/meso/micro levels and the Lasswell communication-process elements (communicator, content, medium, recipient). They argue that while the internet can accelerate radicalization, strictly separating online and offline domains is no longer tenable in contemporary digital society. The review identifies persistent gaps (especially in longitudinal and causal work) and calls for multi-faceted research, policy, and prevention approaches.",
+  "key_claims": [
+    "Radicalization is best understood as an incremental process shaped by multiple interacting factors, not by a single cause, leading to adoption of radical/extremist ideologies and/or growing support for ideologically motivated (violent) action.",
+    "The internet functions as a catalyst rather than a root cause of radicalization, accelerating dynamics through information, contact, and infrastructural affordances.",
+    "Separating 'online' from 'offline' radicalization is conceptually untenable; radicalization occurs within hybrid socio-technical environments.",
+    "Radicalization mechanisms operate simultaneously across macro (societal/discursive), meso (group), and micro (individual) levels and can be productively mapped onto the Lasswell communication-process elements.",
+    "The field has undergone an 'empirical turn' since 2018 and increasing phenomenological differentiation (e.g., misogynist/Manosphere, conspiracy-driven, and anti-system radicalization) that does not fit neatly into traditional left-right categories.",
+    "Robust causal and longitudinal evidence remains scarce; most studies use proxies (exposure, engagement, content patterns) due to ethical and access constraints."
+  ],
+  "methods": [
+    "Scoping literature review covering January 2000 to December 2025.",
+    "Systematic search across Web of Science Core Collection, Communication and Mass Media Complete (EBSCOhost), ACM Digital Library, the VOX-Pol library, and Google Scholar (pages 1-10).",
+    "Boolean keyword search combining English and German terms for radicalization/extremism/terrorism and internet/platform-related terms.",
+    "Two-stage screening (title/abstract then full-text) of an initial 3,532 records, yielding 382 included publications after excluding duplicates, inaccessible items, purely methodological/technical work, and prevention-focused work.",
+    "Quantitative coding of field descriptives (year, type, geography, phenomenon, methods), conceptual categories (definitions, salience), and analytical lenses (macro/meso/micro; communicator/content/medium/recipient), plus qualitative extraction of findings, factors, and implications.",
+    "Intracoder reliability testing on a 10% random subsample (n=38), Krippendorff's alpha 0.90-1.00.",
+    "Analytical framework combining the Lasswell formula with a multi-level (macro/meso/micro) perspective."
+  ],
+  "findings": [
+    "Of 382 publications, 76.7% were peer-reviewed journal articles; gray literature (reports, etc.) made up a substantial minority reflecting the field's applied orientation.",
+    "Geographic focus skews Western, with the UK, Germany, and the US most studied; over 50% of publications addressed radicalization in non-country-specific terms.",
+    "Output grew sharply from 2014 onward, peaking at 47 publications in 2025; 193 of the 382 were published in 2021-2025.",
+    "Islamist extremism dominates the corpus (34%), followed by far-right (20.2%), with growing attention since 2022 to misogynist/Incel, QAnon/conspiracy, and anti-system radicalization.",
+    "Empirical studies (71.7%) became dominant after 2018; qualitative methods lead, but computational and mixed-methods approaches are rising. Longitudinal studies remain rare (n=34).",
+    "Less than half of publications (47.4%) explicitly define radicalization; only 15.7% offer a dedicated online-radicalization definition; 53.4% treat online radicalization only as a secondary focus.",
+    "Macro-level studies (48.2%) emphasize information and contact functions of the internet, algorithmic curation, and mainstreaming of extremist ideas.",
+    "Meso-level studies (18.6%) highlight intra- and intergroup dynamics, echo chambers, co-radicalization, and emotional convergence within communities.",
+    "Micro-level studies (30.9%) suggest hybrid and online pathways are increasingly common, with online environments especially salient for socially isolated individuals and 'lone wolves'; some evidence indicates radicalization timelines have shortened.",
+    "Twitter/X (n=36), YouTube (n=22), Facebook (n=21), and increasingly Telegram (n=17) dominate platform-specific research; alternative platforms (Gab, 4chan, BitChute) and gaming environments remain understudied despite relevance.",
+    "Recipient-level work indicates that single short-term exposure rarely produces radicalization; effects depend on prior attitudes, identification, social dominance orientation, authoritarianism, trait aggression, need for significance, and protective factors like media literacy and democratic trust."
+  ],
+  "contributions": [
+    "Provides the broadest temporal (2000-2025) and cross-phenomenological synthesis of online radicalization research to date (382 publications).",
+    "Proposes an integrative definition of radicalization emphasizing its processual, multi-factor, and multi-outcome nature.",
+    "Introduces a dual analytical framework combining macro/meso/micro levels with the Lasswell communication-process elements to disaggregate 'the internet' into specific, analyzable factors.",
+    "Maps research trends, geographic and phenomenological biases, methodological developments, and platform coverage in the field.",
+    "Compiles a typology of recurring factor clusters (algorithmic curation, content strategies, communicator tactics, exposure/engagement, etc.) discussed in relation to online radicalization.",
+    "Identifies key research gaps (longitudinal designs, causal inference, understudied platforms, non-Western contexts) and outlines implications for policy and prevention."
+  ],
+  "framing": "The paper situates itself within communication, media, and radicalization studies, engaging debates over whether the internet is a cause, catalyst, or distinct sphere of radicalization. It advances a hybrid, socio-technical view aligned with scholars like Whittaker, Valentini, and Mølmen & Ravndal, while drawing on classic communication theory (Lasswell) and multi-level radicalization models (Doosje, McCauley & Moskalenko) to integrate fragmented interdisciplinary findings.",
+  "pdf_source": "drive"
+}

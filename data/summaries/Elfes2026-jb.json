@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper introduces the concept of 'narrative polarisation' to measure how partisan groups assign opposing roles to key actors in contested issues, going beyond conventional measures of opinion or interaction-based polarisation. Using Greimas' Actantial Model operationalised via a large language model (DeepSeek-R1-Distill-Qwen-32B), the authors analyse 212 YouTube videos and 90,029 comments on the Israeli-Palestinian conflict retrieved through partisan search queries. They find that while videos exhibit highly polarised narratives, comments substantially reduce surface-level narrative divergence between partisan groups, yet deeper 'narrative motifs' continue to encode partisan differences in how actors are characterised.",
+  "key_claims": [
+    "Polarisation should be understood not only as divergence between people but as divergence between narratives that shape collective identity and interpretation.",
+    "Narrative polarisation—diverging perceptions of key actors via their positioning in popular narratives—is a measurable and distinct dimension of online polarisation.",
+    "On YouTube, video content propagates strongly polarised narratives about the Israeli-Palestinian conflict, particularly regarding who perpetrates violence and who has security or rights claims.",
+    "User comments harmonise surface-level narratives across partisan groups, reducing the polarisation seen in videos, contradicting the expectation that comments reinforce echo chambers.",
+    "Beneath this surface convergence, recurring narrative motifs (convergent, adversarial, and dependent) reveal persistent partisan differences in actor complexity, justification of violence, and dependency relations.",
+    "Narrative may be partially orthogonal to user ideology, meaning audiences of polarised content can be less polarised than the content itself suggests."
+  ],
+  "methods": [
+    "Formalisation of narrative using structuralist narratology, specifically Greimas' Actantial Model with six roles (Subject, Object, Sender, Receiver, Helper, Opponent).",
+    "Construction of partisan search queries derived from offline protest claims (via the Crowd Counting Consortium) plus neutral baseline queries, used to retrieve YouTube videos.",
+    "Collection of 212 English-language YouTube videos (107 Israeli-leaning, 105 Palestinian-leaning) published between Oct 7, 2023 and Oct 1, 2024, plus 90,029 top-level comments (25–600 words).",
+    "Transcription of videos using OpenAI Whisper (whisper-large-v3) and segmentation of transcripts at 150-word boundaries.",
+    "LLM-based annotation of actantial roles using DeepSeek-R1-Distill-Qwen-32B with a curated set of 21 actor labels and 7 object labels.",
+    "Validation against two expert human annotators on 292 comments, reporting micro F1 (avg 0.73), macro F1, and Krippendorff's alpha (avg 0.59).",
+    "Quantitative analyses using an overlap coefficient for Subject–Object distributions, a 'subject divergence' measure for attribution skew between partisan groups, and permutation tests with Bonferroni and FDR corrections.",
+    "Identification and comparison of three narrative motifs (convergent, adversarial, dependent) combined with qualitative close reading of sampled comments."
+  ],
+  "findings": [
+    "Comments showed moderate within-group alignment with videos (overlap 0.71 Israeli-leaning, 0.68 Palestinian-leaning), but between-group overlap was higher for comments (0.80) than for transcripts (0.63).",
+    "Average absolute subject divergence dropped from 0.19 in transcripts to 0.07 in comments, with the largest reduction for 'violence' (from -0.43 to -0.05).",
+    "Videos diverged strongly on attribution of violence (PA-skewed in Israeli-leaning videos) and of security/safety and rights/freedoms (IS-skewed), with statistically significant effects.",
+    "Comments showed a notable IS-skew on 'peace' that was absent in transcripts, likely reflecting in-group appeals subsumed under generic 'both sides' peace narratives.",
+    "Convergent motifs were more prevalent for Israeli security in Israeli-leaning discourse (often critical of Israel's failures) and for Palestinian rights/freedoms in Palestinian-leaning discourse.",
+    "Adversarial motifs structured discussions of violence with reactionary framings, often justifying violence as retaliation against the opposing side.",
+    "Dependent motifs appeared predominantly with Palestinian subjects under Israeli-leaning videos, emphasising Israeli control over Palestinian rights, security, and territory.",
+    "Inter-coder agreement between the LLM and human annotators was comparable to that between the two human annotators, and exceeded prior LLM-based narrative annotation benchmarks."
+  ],
+  "contributions": [
+    "Introduces and formalises 'narrative polarisation' as a new construct complementing affective and ideological polarisation.",
+    "Demonstrates scalable computational application of Greimas' Actantial Model to social media discourse beyond its traditional folktale domain.",
+    "Provides an LLM-based pipeline (with codebook, validation data, and OSF repository) for extracting actantial roles from text.",
+    "Develops measures (overlap coefficient, subject divergence, narrative motifs) for quantifying narrative-level polarisation across partisan information environments.",
+    "Offers empirical evidence that user comments can mitigate content-level narrative polarisation on the surface while sustaining deeper polarisation through motifs.",
+    "Connects computational narrative analysis with narrative theory, identity formation, and polarisation research."
+  ],
+  "framing": "The paper situates itself at the intersection of polarisation research, computational social science, and structuralist narratology, arguing that existing interaction- and opinion-based polarisation measures miss the rhetorical and narrative mechanisms by which groups construct opposing realities. It builds on echo chamber and selective exposure literatures while drawing on Greimas and narrative identity theorists (e.g., Somers, Polletta) to reframe polarisation as occurring between narratives as well as between people.",
+  "pdf_source": "drive"
+}

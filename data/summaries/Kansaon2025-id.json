@@ -1,0 +1,40 @@
+{
+  "abstract": "This paper investigates coordinated inauthentic behavior in Brazilian political WhatsApp groups during the 2022 presidential election and its aftermath, analyzing 13 million messages from 1,444 public groups between July 2022 and January 2023. Using a network-based 'Rapid Spread Network' approach adapted from prior Twitter coordination research, the authors identify accounts that post identical messages within short time windows. They find substantial evidence of coordinated activity disseminating misinformation and news content, with coordinated accounts playing a role in mobilizing real-world protests, including attacks on Supreme Court justices and the January 8, 2023 events.",
+  "key_claims": [
+    "Coordinated accounts are demonstrably active on Brazilian political WhatsApp groups, with 1,575 identified accounts amplifying over 14,440 messages.",
+    "Coordinated activity focuses heavily on news dissemination, with approximately 70% of coordinated messages being news-related and 26% originating from known misinformation websites.",
+    "Images constitute a significant portion (15.54%) of coordinated content and are used to spread misleading or out-of-context information.",
+    "Coordinated WhatsApp activity translated into real-world political mobilization, including doxxing of Supreme Court justices and organizing post-election protests calling for military intervention.",
+    "WhatsApp's existing countermeasures (forwarding limits, account bans) are insufficient because coordinated accounts largely bypass forwarding mechanisms—58.9% of coordinated messages were not forwarded."
+  ],
+  "methods": [
+    "Collected 13,452,039 messages from 1,444 public Brazilian political WhatsApp groups over seven months (July 2022–January 2023) via invitation-link discovery and periodic local extraction.",
+    "Used MD5 hashing for deduplication of text and media, and perceptual hashing (pHash) for images.",
+    "Adapted Pacheco et al.'s Rapid Retweet Network to build a 'Rapid Spread Network' where users are linked if they post identical messages within a 60-second window.",
+    "Applied an elbow-method threshold (minimum edge weight of 5) and used Louvain community detection to identify coordinated clusters.",
+    "Performed sensitivity analyses on the time window (30s, 60s, 90s) to validate threshold choice.",
+    "Conducted comparative analysis against 35 random samples of non-coordinated messages with 95% confidence intervals.",
+    "Manually labeled URL domains in coordinated messages using an iteratively refined codebook (five categories).",
+    "Used BERTopic with PTT5 Portuguese embeddings, UMAP, HDBSCAN, and c-TF-IDF to model 15 topics in coordinated text messages.",
+    "Performed qualitative case studies on two topics: Supreme Federal Court attacks and Electoral Fraud narratives."
+  ],
+  "findings": [
+    "Identified 1,575 coordinated nodes and 1,491 edges forming 450 components, with 73.7% being pairs and one large connected component containing 332 nodes (21% of the network).",
+    "27.2% of coordinated accounts produced 80% of coordinated messages, indicating concentrated activity.",
+    "Text dominates coordinated messaging (70.24% vs. 43.78% in non-coordinated samples), and 97.31% of coordinated text messages contain embedded URLs (vs. 16.91% in non-coordinated).",
+    "85.11% of URLs in coordinated messages link to news sites; 26% of links come from two misinformation sites (pensandodireita and terrabrasilnoticias) flagged by Aos Fatos.",
+    "Stickers appeared more frequently in coordinated messages and were used in flooding attacks (e.g., three users sent 1,200 duplicate stickers in seven minutes).",
+    "Topic modeling revealed 15 topics dominated by Supreme Court attacks (42.9%), credit/financial content, election fraud, and military intervention narratives.",
+    "Case study 1: A coordinated doxxing message revealing the New York hotel of Supreme Court ministers was shared 144 times across 102 groups, leading to in-person harassment on November 13, 2022.",
+    "Case study 2: A coordinated message interpreting Bolsonaro's post-election speech as endorsing military intervention spread to 74 groups and helped mobilize street protests at military posts."
+  ],
+  "contributions": [
+    "Provides the first large-scale empirical study of rapid, synchronous coordination on WhatsApp using a 13-million-message dataset.",
+    "Adapts the Rapid Retweet Network methodology to WhatsApp's closed messaging architecture, offering a more restrictive definition of coordination than prior content-similarity-only approaches.",
+    "Documents a direct link between digital coordination on WhatsApp and offline political mobilization in Brazil, including the events surrounding the January 8, 2023 attacks.",
+    "Demonstrates the limitations of WhatsApp's current anti-virality mechanisms (forwarding limits) given that coordinated actors largely avoid the forwarding feature.",
+    "Offers policy implications calling for platform transparency, simultaneous-posting detection, and collaboration with electoral authorities."
+  ],
+  "framing": "The paper situates itself within the literature on coordinated inauthentic behavior and computational propaganda detection (Pacheco et al., Nizzoli et al., Giglietto et al.), extending this work from public platforms like Twitter and Facebook into the encrypted, closed ecosystem of WhatsApp. It contributes to ongoing debates about election integrity, misinformation, and platform governance, particularly in the Global South context of Brazilian politics where WhatsApp serves as a dominant communication infrastructure.",
+  "pdf_source": "drive"
+}

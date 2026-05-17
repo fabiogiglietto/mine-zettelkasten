@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper describes an independent auditing system deployed during the 2018 Brazilian elections to monitor political advertising on Facebook/Meta. Using a browser plugin installed by over 2,000 volunteers, the authors collected ads from users' timelines and analyzed them to detect potentially irregular electoral advertising. The system was motivated by concerns about targeted ad abuse similar to that observed in the 2016 U.S. presidential election.",
+  "key_claims": [
+    "Independent, volunteer-based auditing of social media advertising is feasible and can surface potentially irregular electoral ads.",
+    "Facebook's political advertising during the 2018 Brazilian elections exhibited patterns warranting regulatory and academic scrutiny.",
+    "Browser-plugin crowdsourcing is a viable methodology for transparency auditing of targeted ads in contexts where platforms do not provide adequate disclosure."
+  ],
+  "methods": [
+    "Adaptation of a browser plugin to scrape advertisements appearing on volunteers' Facebook timelines.",
+    "Recruitment and deployment of the tool to more than 2,000 volunteer users in Brazil.",
+    "Collection and analysis of political ads served during the 2018 Brazilian election period.",
+    "Identification and classification of ads as potentially irregular electoral advertising."
+  ],
+  "findings": [
+    "The auditing system successfully gathered a corpus of political ads from real Facebook users during the Brazilian election.",
+    "A subset of collected ads were flagged as potentially irregular under Brazilian electoral rules."
+  ],
+  "contributions": [
+    "Design and deployment of an independent ad-auditing infrastructure tailored to the Brazilian electoral context.",
+    "Empirical evidence on political advertising practices on Meta during the 2018 Brazilian elections.",
+    "A methodological template for crowdsourced platform auditing applicable to other electoral contexts."
+  ],
+  "framing": "The work situates itself within the post-2016 literature on platform accountability, targeted political advertising, and algorithmic transparency, extending these concerns from the U.S. context to the Brazilian electoral environment. It contributes to ongoing debates about how independent researchers can audit opaque advertising systems on major social media platforms.",
+  "pdf_source": "abstract_only"
+}

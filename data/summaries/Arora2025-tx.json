@@ -1,0 +1,28 @@
+{
+  "abstract": "This paper proposes a multi-modal approach to analyzing framing in political news communication, jointly considering textual, visual, and multi-modal cues rather than text alone with predefined frame sets. The authors apply discourse-analytic framing categories across modalities to a corpus of news articles about gun violence in the U.S., extracting both per-modality and cross-modal frames. They demonstrate how this richer framing extraction enables analyses of how outlets across the political spectrum differ in their editorial framing choices.",
+  "key_claims": [
+    "Existing automated frame analysis is overly narrow because it relies on fixed predefined frames and ignores visual context.",
+    "News framing is inherently multi-modal, encompassing text, accompanying images, and their interaction, all of which reflect editorial choices.",
+    "Discourse-analytic framing categories can be operationalized and extracted automatically across modalities and their combinations.",
+    "Multi-modal framing analysis reveals systematic differences in how outlets across the political spectrum frame the same topic."
+  ],
+  "methods": [
+    "Construction of a U.S. gun violence news corpus paired with accompanying images.",
+    "Automated extraction of frames separately from text, from images, and from text-image combinations.",
+    "Use of discourse-analytic framing categories rather than a fixed predefined frame inventory.",
+    "Comparative analysis of extracted frames across news outlets of differing political orientation."
+  ],
+  "findings": [
+    "Frames can be reliably extracted at the textual, visual, and multi-modal levels using the proposed approach.",
+    "Different outlets exhibit distinct framing patterns across modalities when covering gun violence, varying with political leaning.",
+    "Visual and cross-modal cues capture editorial framing information that purely textual analysis misses."
+  ],
+  "contributions": [
+    "Introduces a multi-modal framework for automated framing analysis of news that integrates text, images, and their interaction.",
+    "Moves beyond fixed frame typologies by leveraging discourse-analytic framing categories.",
+    "Provides a case study and corpus on U.S. gun violence coverage demonstrating the framework's analytical value.",
+    "Offers a methodological resource for computational social science research on political communication."
+  ],
+  "framing": "The work positions itself within computational social science and NLP research on automated frame analysis of political communication, critiquing the field's reliance on text-only methods and predefined frame sets. It draws on discourse-analytic traditions of framing theory and extends them with multi-modal computational methods to better capture editorial decision-making in news media.",
+  "pdf_source": "abstract_only"
+}

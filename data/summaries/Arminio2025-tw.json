@@ -1,0 +1,40 @@
+{
+  "abstract": "This paper tests whether Vision-and-Large-Language-Models (VLLMs) can improve semantic image clustering for computational social science by generating connotative textual descriptions of images that are then embedded and clustered. Using a dataset of 11,873 Instagram images related to climate change, the authors compare a VLLM-based pipeline (GPT-4-turbo, with LLaVA as an open alternative) against a CNN-based pipeline (VGG16), evaluating both denotative and connotative cluster quality as well as interpretability. They find that the VLLM-based approach substantially improves connotative clustering quality and offers high interpretability via TF-IDF keyword summaries of clusters, at a small cost to denotative coherence.",
+  "key_claims": [
+    "Semantic clustering for social science should be framed as connotative clustering—grouping images by socially and culturally embedded meaning rather than by depicted objects.",
+    "CNN-based clustering pipelines, currently dominant in computational social science, capture denotative content well but miss connotative meaning and lack interpretability.",
+    "VLLMs can generate textual descriptions that capture connotative meaning of images (including memes and culturally complex visuals), enabling text-based clustering pipelines.",
+    "A VLLM-to-text-to-embedding-to-clustering pipeline produces significantly higher connotative cluster quality than a CNN-based pipeline, with only a small loss in denotative quality.",
+    "The intermediate textual representations make clusters human-interpretable via TF-IDF keyword summaries, addressing a key limitation of CNN-based approaches.",
+    "The improvement holds (though at lower absolute quality) when using an open-source VLLM (LLaVA) instead of a proprietary one (GPT-4-turbo), suggesting the finding is about the class of model rather than a specific implementation."
+  ],
+  "methods": [
+    "Dataset: 11,873 Instagram images related to climate change (Zhang & Peng, 2022a), previously used for clustering benchmarks.",
+    "VLLM-based pipeline: generate one-paragraph connotative descriptions via GPT-4-turbo (and LLaVA-1.5-7b-hf for open replication), embed text with BERT (all-MiniLM-L6-v2), reduce dimensions, and cluster.",
+    "CNN-based baseline pipeline: VGG16 feature extraction, dimensionality reduction, and clustering.",
+    "Dimensionality reduction: UMAP (5/10 components; 5/15/30 nearest neighbors) and PCA (5/10/20 components, plus 80% variance).",
+    "Clustering: HDBSCAN with minimum cluster sizes of 50, 100, and 200, allowing outliers.",
+    "Evaluation of cluster quality: adaptation of Grimmer & King (2011) cluster quality measure, splitting similarity into denotative and connotative dimensions; 500 image pairs rated by expert human coders on a 3-point scale, with two consensus rounds (Krippendorff's α improving from .55/.56 to .81/.71).",
+    "Interpretability evaluation: TF-IDF keyword summaries generated per cluster; three human evaluators matched 160 random image sets (3 images each) to cluster descriptions, with inter-rater Cohen's Kappa averaging .74.",
+    "Robustness checks: alternative embedding models (OpenAI text-embedding-3-small), alternative CNNs, and alternative prompts reported in the appendix."
+  ],
+  "findings": [
+    "VLLM-based clustering achieves substantially higher connotative quality scores than CNN-based clustering across all tested minimum cluster sizes.",
+    "CNN-based clustering achieves marginally higher denotative quality, reflecting an expected trade-off when prioritizing connotative meaning.",
+    "Larger minimum cluster sizes increase variance and can degrade connotative quality for the VLLM pipeline by merging connotatively distinct but visually similar images.",
+    "Qualitative comparison shows the VLLM pipeline clusters wind turbines and solar panels together (connotative coherence: renewable energy), while the CNN pipeline groups visually similar Earth imagery despite semantic heterogeneity.",
+    "Open-source LLaVA replicates the trend of VLLM-based connotative gains over CNNs but with lower absolute scores; LLaVA was less accurate at reading text and missed some symbolic cues (e.g., a runic eco-fascist symbol identified by GPT-4).",
+    "Interpretability test: average precision and recall of .83 (accuracy .83) for matching image sets to TF-IDF cluster descriptions, versus ~.03 expected by chance; rising to .87 after merging semantically adjacent clusters.",
+    "18 of 32 clusters achieved perfect precision and 19 perfect recall, with errors concentrated on semantically overlapping cluster pairs (e.g., nature/water variants, protest/youth-activism)."
+  ],
+  "contributions": [
+    "Reframes semantic clustering for social science explicitly as connotative clustering, drawing on Barthes' denotation/connotation distinction.",
+    "Proposes and evaluates a VLLM-to-text image clustering pipeline as a drop-in alternative to CNN feature extraction, enabling direct comparison.",
+    "Introduces an adaptation of the Grimmer & King cluster quality measure that separately quantifies denotative and connotative validity using human-annotated image pairs.",
+    "Provides empirical evidence that VLLM-based pipelines deliver both higher connotative quality and substantially improved interpretability for visual clustering in social science contexts.",
+    "Demonstrates the approach using a publicly available climate-communication image dataset, enabling comparison with prior benchmarks (Zhang & Peng, 2024).",
+    "Identifies trade-offs, biases, and future directions—including prompt engineering, topic modeling on VLLM descriptions, and handling outliers—for VLLM-based visual analysis."
+  ],
+  "framing": "The paper positions itself within computational social science and visual political communication, responding to the 'visual turn' in social media research and the limitations of CNN-based image clustering for studying meaning-laden visual content like memes and protest imagery. It engages with prior semantic clustering literature (SIC, BoVP, CLIP-based methods) and recent computer-science work on text-guided clustering (Stephan et al., 2024), but differentiates itself by foregrounding connotative meaning, social-science interpretability, and Barthesian semiotic theory rather than benchmark-driven object recognition.",
+  "pdf_source": "drive"
+}

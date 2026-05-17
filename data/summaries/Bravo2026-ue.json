@@ -1,0 +1,28 @@
+{
+  "abstract": "This paper presents a systematic and scoping literature review combined with content analysis of research on climate change visualizations in traditional and digital media from 2005 to 2024. The authors map the current state of the field, identifying imbalances in media type and geographic coverage, and highlight methodological and substantive gaps. They argue for greater attention to social media imagery, non-Western contexts, and computational approaches to image analysis.",
+  "key_claims": [
+    "Climate change visualizations in media are central to public awareness, information transmission, and mobilization of action.",
+    "Existing research disproportionately focuses on traditional media while underexamining social media visuals.",
+    "The literature is geographically skewed toward Western contexts, leaving non-Western media visualization underexplored.",
+    "Methodological and thematic gaps remain that future research, including computational and cross-cultural approaches, should address."
+  ],
+  "methods": [
+    "Systematic literature review covering publications from 2005 to 2024.",
+    "Scoping review to map the breadth of research on climate change visualizations.",
+    "Content analysis of the reviewed studies to characterize media types, regions, methods, and themes."
+  ],
+  "findings": [
+    "Most studies examine traditional media (e.g., newspapers, television) rather than social or digital media.",
+    "Research is dominated by case studies of Western countries, with limited representation of the Global South.",
+    "There is limited use of computational or large-scale image analysis methods in the existing literature.",
+    "Substantive gaps exist regarding how visualizations shape audience perception across cultural contexts."
+  ],
+  "contributions": [
+    "Provides a comprehensive 2005–2024 overview of the climate change visualization literature in media studies.",
+    "Identifies key methodological, geographic, and media-type gaps in the field.",
+    "Outlines a future research agenda emphasizing social media, non-Western contexts, and computational methods.",
+    "Offers a structured framework combining systematic and scoping review methodology with content analysis."
+  ],
+  "framing": "The paper situates itself at the intersection of climate communication, media studies, and visual studies, contributing to debates on how imagery mediates public understanding of climate change. It engages with concerns about Western-centric scholarship and calls for methodological innovation in analyzing visual climate discourse.",
+  "pdf_source": "abstract_only"
+}

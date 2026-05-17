@@ -1,0 +1,31 @@
+---
+type: structure
+slug: problematic-health-information
+topic: "Problematic Health Information Online"
+---
+
+# Problematic Health Information Online
+
+## The Shape of the Problem: From Exposure to Ecosystem
+
+A first cluster of papers under this topic pushes back against the assumption that low-quality health content saturates the average user's feed. [[Lyons2026-ca]] combines survey data with passive web and YouTube tracking to show that exposure to low-credibility health content in the US is, in aggregate, rare — yet startlingly concentrated: the top 10% of users account for 77% of exposure, and older adults dominate that tail. Crucially, referrals come not from search or social platforms but from *other* low-credibility sites, suggesting habituated cross-domain consumption rather than algorithmic accident. This reframes the policy problem away from "everyone is drowning in misinformation" toward a model of niche but consequential audiences moving through parallel information environments.
+
+[[Scalco2026-bd]] supplies a complementary, supply-side lens. Rather than measure what users see, it asks when the credible *doesn't* show up: it operationalizes "information voids" as statistical anomalies in the balance between demand (searches, Wikipedia views) and supply (Facebook, Twitter, news) across six European countries during the COVID-19 vaccine rollout. Voids persist longer than overabundance episodes and correlate with sharp drops in highly credible content and rises in misinformation. Read alongside [[Lyons2026-ca]], the picture sharpens: dedicated consumers seek out low-credibility ecosystems, *and* moments of credible undersupply open windows in which problematic content fills the gap.
+
+## Coordination, Superspreaders, and Asymmetric Networks
+
+A second strand foregrounds the actors and structures that move content. [[Efstratiou2026-ij]] traces COVID-19 preprints across Twitter and news media and finds a coordinated retweet network that is 96.4% contrarian, amplifying a small set of *credentialed* anti-consensus experts who would not otherwise rank near the top of the conversation. Bot scores don't distinguish these coordinated accounts — the manipulation is human and strategic. News coverage tends to follow superspreader activity, with high-trust outlets aligning with conformist superspreaders and low-trust outlets with contrarians: a bifurcated information pathway from platform to press.
+
+[[Song2025-yh]] extends the coordination story to Facebook, applying CooRnet-style coordinated link sharing behavior (CLSB) analysis to UK and US vaccine discourse. Both pro- and anti-vaccine camps coordinate, but the political-cultural framing of their messaging diverges sharply: UK anti-vaccine CLSB concentrates on safety and trial skepticism (a frame attached to the AstraZeneca controversies that [[Scalco2026-bd]] flags as void triggers), while US anti-vaccine CLSB centers on individual freedom and religious exemption. The paper's normative move — that coordination is ideologically agnostic and also undergirds credible NHS/CDC messaging — usefully complicates the "coordinated = inauthentic" reflex that has dominated platform policy. Together with [[Efstratiou2026-ij]], it suggests that the asymmetry lies less in *whether* actors coordinate than in *what kind of source material* they pull into circulation.
+
+## From Speech to Outcomes
+
+[[Bollenbacher2026-vz]] is the most direct attempt to close the loop between online content and offline harm. Using a SIRVA compartmental model fit to county-level data on cases, vaccinations, and geolocated antivaccine tweets, the authors estimate that antivaccine Twitter exposure caused roughly 14,000 vaccine refusals, ~545 cases, and ~8 deaths in the US over six months of 2021 — a lower bound, but causally identified via shuffling tests and Bayesian model comparison. Read against [[Lyons2026-ca]]'s findings of concentrated exposure, the estimate may seem modest; but it materializes the mechanism that voids ([[Scalco2026-bd]]) and contrarian amplification networks ([[Efstratiou2026-ij]], [[Song2025-yh]]) are otherwise theorized to produce.
+
+## Movements, Mainstreaming, and the Wider Discursive Drift
+
+[[Rothut2026-or]] zooms out from health proper to ask what protest mobilization *around* health policy does to the broader information ecosystem. Tracking the German Querdenken movement on Telegram over two years, it shows how anti-COVID-measures protest channels became structurally embedded in far-right and conspiracist networks: outlinks shifted from mainstream toward alternative/partisan outlets, and a community of far-right brokers — not Querdenken itself — occupied the network's center. The argument for "protest-facilitated mainstreaming" articulates a mechanism the other papers gesture at: shared anti-elite framing, more than ideological commitment, is the connective tissue that lets contrarian health communities ([[Efstratiou2026-ij]]), liberty-coded anti-vaccine coalitions ([[Song2025-yh]]), and dedicated consumers of cross-domain low-credibility content ([[Lyons2026-ca]]) be drawn into adjacency with extremist milieus.
+
+## An Emerging Synthesis
+
+Taken together, these papers trace a layered account of problematic health information online. At the user level, exposure is concentrated rather than diffuse ([[Lyons2026-ca]]). At the ecosystem level, asymmetric supply–demand dynamics create temporal openings for misinformation ([[Scalco2026-bd]]). At the network level, coordinated communities — frequently anchored by credentialed contrarians — exploit those openings and shape downstream news coverage ([[Efstratiou2026-ij]], [[Song2025-yh]]). At the behavioral level, the cumulative effect is measurable in vaccination rates and epidemic outcomes ([[Bollenbacher2026-vz]]). And at the political level, the same communicative infrastructures serve as conduits for the mainstreaming of radical frames well beyond the original health topic ([[Rothut2026-or]]). The open methodological frontier — visible across the set — is integrating these scales: linking void detection to coordinated amplification, coordinated amplification to individual-level exposure trajectories, and exposure trajectories to both health behavior and longer-run ideological drift.

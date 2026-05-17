@@ -1,0 +1,33 @@
+{
+  "abstract": "This study analyzes how 10.1 million U.S. Facebook users with self-reported ideological affiliations encounter politically diverse news on the platform, tracing the flow of content from friend networks through algorithmic ranking to individual clicks. The authors find that while friend networks are partisan, they contain substantial cross-cutting ties, and that individual choices about what to click suppress exposure to ideologically discordant content more than Facebook's News Feed algorithm does. The work pushes back against strong 'filter bubble' and 'echo chamber' claims while documenting meaningful, asymmetric ideological sorting in social media news consumption.",
+  "key_claims": [
+    "Facebook friend networks are ideologically homophilous but still contain substantial cross-cutting ties, with the median liberal having ~20% conservative friends and the median conservative ~18% liberal friends (among friends who report affiliation).",
+    "The News Feed ranking algorithm modestly reduces exposure to cross-cutting content, with risk ratios of about 5% for conservatives and 8% for liberals.",
+    "Individual click choices reduce exposure to cross-cutting content more strongly than the algorithm does (risk ratios of 17% for conservatives and 6% for liberals).",
+    "The composition of users' friend networks is the single largest factor shaping the ideological mix of news they encounter on Facebook.",
+    "Liberals are exposed to less cross-cutting content via their networks than conservatives are, indicating asymmetric ideological sorting."
+  ],
+  "methods": [
+    "Constructed a deidentified dataset of 10.1 million active U.S. Facebook users who self-reported ideological affiliation, over a six-month period (7 July 2014 – 7 January 2015).",
+    "Collected ~7 million distinct shared URLs, classifying them as 'hard' (politics, national, world news) vs. 'soft' (entertainment, sports) using a support vector machine trained on unigram, bigram, and trigram text features.",
+    "Restricted analysis to ~226,000 hard-content URLs shared by at least 20 users with declared affiliation, yielding ~3.8 billion potential exposures, 903 million News Feed exposures, and 59 million clicks.",
+    "Defined a content 'alignment' score (A) by averaging the self-reported ideology of users who shared each article, and validated it against well-known partisan outlets (e.g., FoxNews.com, HuffingtonPost.com).",
+    "Decomposed exposure into stages — random baseline, potential from friend network, algorithmically ranked News Feed exposure, and clicked content — and computed risk ratios for cross-cutting vs. ideologically consistent content, adjusting for position effects in News Feed."
+  ],
+  "findings": [
+    "Hard news shared on Facebook is substantially polarized, with top-shared links clearly aligned with either liberal or conservative populations.",
+    "Under random sharing, liberals would see ~45% cross-cutting content and conservatives ~40%; in practice, liberals' friends share 24% cross-cutting hard news and conservatives' friends share 35%.",
+    "Algorithmic ranking slightly lowers cross-cutting exposure relative to what friends share (5% reduction for conservatives, 8% for liberals).",
+    "Click behavior further reduces cross-cutting consumption (17% reduction for conservatives, 6% for liberals), even after controlling for News Feed position.",
+    "On average, users click on about 7% of the hard-content links available in their feeds, leaving considerable headroom for greater cross-ideological consumption."
+  ],
+  "contributions": [
+    "Provides the first large-scale, platform-internal measurement of ideological exposure across friend network, algorithmic ranking, and individual choice stages on Facebook.",
+    "Introduces an 'alignment' measure of content partisanship based on the ideological mix of sharers, validated against known partisan outlets.",
+    "Empirically separates the contributions of network composition, algorithmic curation, and user selection to filter-bubble-like effects, finding individual choice plays a larger role than the algorithm.",
+    "Offers an empirical counterweight to strong claims about social-media echo chambers, while documenting asymmetries between liberals and conservatives.",
+    "Releases replication code, classifiers, and aggregate statistics via the Harvard Dataverse for further research."
+  ],
+  "framing": "The paper situates itself within debates in political communication and democratic theory about 'echo chambers' and 'filter bubbles' (Sunstein, Pariser) and the normative value of cross-cutting exposure for democratic deliberation. It speaks to long-standing questions about selective exposure, homophily, and media diversity, extending them to algorithmically mediated social platforms and to the empirical literature on online news consumption.",
+  "pdf_source": "drive"
+}
