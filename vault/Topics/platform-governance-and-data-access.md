@@ -16,6 +16,7 @@ Critical analysis of platform policies (Meta's political content reduction, Crow
 - [[Bastos2025-ol]]
 - [[Bastos2025-ya]]
 - [[Bouchaud2026-lr]]
+- [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
 - [[De2026-ld]]
 - [[Donovan2025-ws]]

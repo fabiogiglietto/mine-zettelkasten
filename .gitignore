@@ -23,3 +23,6 @@ data/.cache/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Obsidian editor / session state — the vault content is committed, the UI state is not
+vault/.obsidian/

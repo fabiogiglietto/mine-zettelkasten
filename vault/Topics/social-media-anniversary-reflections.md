@@ -12,6 +12,7 @@ Reflective essays for Social Media + Society's anniversary issue that revisit th
 
 - [[Baym2026-tr]]
 - [[Boyd2026-op]]
+- [[Bruns2026-yv]]
 - [[Marwick2026-qd]]
 - [[Marwick2026-ss]]
 - [[Swartz2026-zb]]

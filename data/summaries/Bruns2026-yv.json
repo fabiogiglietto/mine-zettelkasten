@@ -1,0 +1,33 @@
+{
+  "abstract": "This feature essay traces the rise, decline, and ultimate 'death' of Twitter as a space for public debate, from its 2006 launch through Elon Musk's 2022 acquisition and rebranding as X. Bruns argues that Twitter's flat, open network structure once enabled uniquely prosocial forms of public communication—crisis reporting, hashtag activism, and direct elite-public interaction—but that mismanagement, commercial pressures, and weaponised disinformation campaigns progressively eroded these affordances. The article evaluates emerging successor platforms (Mastodon, Threads, Bluesky) and argues that simply cloning Twitter is insufficient: new platforms must embed robust moderation and genuine community engagement to sustain online public debate.",
+  "key_claims": [
+    "Twitter's distinctive flat, open, and largely public network structure made it uniquely valuable for news circulation, hashtag-based connective action, and prosocial public debate, despite its comparatively small userbase.",
+    "Twitter was never well-managed; its leadership progressively abandoned its stated mission of barrier-free conversation in pursuit of revenue, while failing to act against abuse, disinformation, and coordinated inauthentic behaviour.",
+    "The instrumentalisation of platform affordances by reactionary actors—through 'participatory disinformation' and updated agit-prop tactics—has materially undermined online public debate globally.",
+    "Elon Musk's takeover accelerated Twitter's 'enshittification' into a far-right fringe platform, leaving a vacant niche in the social media ecology.",
+    "Successor platforms (Mastodon, Threads, Bluesky) largely replicate Twitter's form without solving its underlying moderation and governance failures, representing a missed opportunity for genuine innovation.",
+    "Effective, consistent moderation and meaningful user consultation should be treated as core platform design features, not afterthoughts."
+  ],
+  "methods": [
+    "Historical and critical narrative analysis of Twitter's twenty-year trajectory as a platform.",
+    "Synthesis of prior scholarship on Twitter, social media, public sphere theory, and disinformation.",
+    "Illustrative case examples including #Robodebt, #MeToo, #BlackLivesMatter, the Arab Spring, Brexit, the 2016 US election, and platform incidents under Musk's ownership.",
+    "Comparative assessment of emerging post-Twitter platforms (Mastodon, Threads, Bluesky) in terms of affordances, governance, and moderation."
+  ],
+  "findings": [
+    "Twitter's openness, retweet mechanics, and hashtag culture supported serendipitous discovery, crowdsourced prominence for non-elite voices, and longer-term issue tracking.",
+    "Social and phatic uses—not news or hashtag activism—accounted for the majority of daily Twitter activity, complicating elite-focused accounts of the platform.",
+    "Twitter's rhetoric shifted from open-conversation idealism (2013 SEC filing) to revenue-focused language by 2015, paralleling restrictions on third-party developers and researchers.",
+    "The 2016 shift from chronological to algorithmic feeds was later shown to amplify right-wing content (Huszár et al.).",
+    "Under Musk, algorithmic boosting of his own posts, the sale of verification, and monetisation of far-right accounts accelerated platform decline and bot proliferation.",
+    "Replacement platforms inherit Twitter's vulnerabilities: Threads is compromised by Meta's inconsistent moderation, Mastodon depends on under-resourced volunteer instance operators, and Bluesky's moderation approach remains underdeveloped."
+  ],
+  "contributions": [
+    "Provides a synthesising historical account of Twitter's lifecycle and its specific role in enabling (and then losing) open public debate.",
+    "Frames Twitter's decline within broader patterns of platform 'enshittification', participatory disinformation, and democratic backsliding.",
+    "Articulates design and governance principles—open APIs, user co-design, embedded moderation—that successor platforms should adopt.",
+    "Critiques the lack of imagination in current Twitter replacements and calls for genuinely novel platform models rather than clones."
+  ],
+  "framing": "The article situates itself within media and communication scholarship on social media, the public sphere (engaging Habermas), and platform studies, drawing on concepts such as Bennett and Segerberg's 'connective action', Starbird et al.'s 'participatory disinformation', and Doctorow's 'enshittification'. It contributes to debates on the health of online public debate, platform governance, and the conditions under which digital infrastructures can sustain democratic discourse.",
+  "pdf_source": "drive"
+}

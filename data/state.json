@@ -1902,8 +1902,19 @@
       "content_hash": "38635edbd35b0b25f4273b60c97a4ed2f599949c742f4270a29b57bc55866483",
       "podcast_linked": false,
       "last_processed": "2026-05-17T10:31:30.271017+00:00"
+    },
+    "bibtex:Bruns2026-yv": {
+      "note_path": "Papers/Bruns2026-yv.md",
+      "topics": [
+        "platform-governance-and-data-access",
+        "social-media-anniversary-reflections"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "65bbd56d9ddcf882a336fb187f17756a5eb8d8a3e26888b322fc22e1502b8056",
+      "podcast_linked": false,
+      "last_processed": "2026-05-17T17:49:53.160079+00:00"
     }
   },
   "last_full_cluster": "2026-05-17T10:31:30.222500+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }
