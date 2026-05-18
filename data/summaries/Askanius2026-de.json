@@ -1,0 +1,42 @@
+{
+  "abstract": "This study maps the Swedish far-right 'alternative influence network' (AIN) on YouTube during the Covid-19 pandemic (April 2020–March 2022), examining how influencers, organised groups, and hyper-partisan alternative news media connect through digital practices. Using a mixed-methods approach combining social network analysis of 52 channels and 1,512 videos with qualitative case analysis, the authors show how guest appearances, hyperlinking, and in-video mentions weave together a cohesive yet ideologically diverse ecosystem. The paper argues that far-right actors fuse commercial self-branding, marketing, and monetisation with political propaganda, reflecting a professionalisation and hybridisation of online extremism during a period of pandemic-driven political instability.",
+  "key_claims": [
+    "The Swedish far-right on YouTube forms a cohesive alternative influence network (AIN) connected through systematic guest appearances, hyperlinks, and in-video mentions.",
+    "The Covid-19 pandemic catalysed an expansion and ideological diversification of the Swedish far-right, forging new alliances with the 'Freedom Movement', anti-vaccine groups, conspiracy theorists, and wellness/spiritual communities.",
+    "Far-right actors hybridise activist tactics with influencer techniques — including microcelebrity self-branding, sponsorships, donations, and merchandise — fusing political propaganda with commercial logics.",
+    "YouTube functions as a gateway platform: a 'sanitised' mainstream entry point that funnels audiences toward more extreme content on alt-tech platforms, particularly in response to content moderation.",
+    "Hybridisation of online extremism unfolds at three levels — actors, practices, and content — blurring boundaries between mainstream conservatism, fringe extremism, and apolitical lifestyle content.",
+    "Deplatforming and moderation are reframed by actors as evidence of censorship, fuelling persecution narratives while creative workarounds (coded language, on-screen URLs, 'phantom videos') sustain visibility."
+  ],
+  "methods": [
+    "Mixed-methods design combining social network analysis with qualitative case study of media practices.",
+    "Purposeful sampling of 25 preselected far-right YouTube channels (groups, influencers, alternative media), expanded via snowball sampling to 52 channels until data saturation.",
+    "Dataset of 8,531 videos posted April 2020–March 2022; manual coding focused on 1,512 videos from three sampled months (April 2020, January 2021, January 2022).",
+    "Coding for three connective practices: guest appearances, hyperlinking (in-description and in-video), and in-video mentions (in 347 videos from selected weeks).",
+    "Network properties computed and visualised in Gephi (e.g., directed networks with in-degree node sizing, weighted edges).",
+    "Close reading and qualitative analysis of self-branding, monetisation, and influencer tactics in selected videos.",
+    "Informed by Lewis's AIN concept, Petersen and Johansen's hybridisation framework, and Lindgren's integration of distant and close reading."
+  ],
+  "findings": [
+    "Over 90% of analysed videos referenced another AIN actor through at least one connective practice, indicating high internal connectivity.",
+    "Guest appearance network: 151 nodes, 228 directed links, 480 guest cases; structured as star-like clusters around bridging hosts rather than one tight community.",
+    "Hyperlinking was the most common connective practice, with 6,172 hyperlinks logged (294 nodes, 557 directed links), pointing largely to alternative news media, advertisers, and alt-tech platforms.",
+    "Alternative media outlets (e.g., Riks, FriaTider, Samnytt) function as central legitimising hubs, hosting influencers as 'alternative experts'.",
+    "A self-named 'Swedish Tube Family' subcluster (7.3% of nodes, 19.7% of links) produced 55.6% of sampled content through coordinated mutual promotion.",
+    "In-video mentions are densely concentrated and largely unidirectional (only 17 of 334 ties were reciprocal); the Sweden Democrats was the most-mentioned actor.",
+    "Influencers used microcelebrity practices — strategic authenticity, signature greetings, group labels ('Sweden friends', 'Tube family'), consistent branding — to cultivate parasocial intimacy.",
+    "Monetisation strategies included sponsored content, Swish/PayPal/Bitcoin donations, YouTube Super Chat livestream donations, Patreon paywalls, and merchandise sales.",
+    "Actors evaded moderation through on-screen URLs, intentional misspellings, coded euphemisms (e.g., 'kanelbulle' for vaccines), and 'phantom videos' redirecting to Swebbtube, Rumble, Odysee, BitChute.",
+    "The Swedish AIN is transnationally connected, notably with US, UK, and German far-right and pandemic-protest actors; several Swedish channels operate in English."
+  ],
+  "contributions": [
+    "Provides the first systematic mapping of the Swedish-language far-right AIN on YouTube during the pandemic period.",
+    "Extends Lewis's AIN framework to a Nordic context and adapts it to capture pandemic-era hybridisation with the Freedom Movement.",
+    "Operationalises Petersen and Johansen's hybridisation framework empirically across actors, practices, and content.",
+    "Demonstrates the methodological value of combining social network analysis with qualitative close reading for studying online extremism.",
+    "Contributes empirical insights on the commercialisation and professionalisation of far-right activism, including monetisation infrastructures.",
+    "Documents adaptive responses to platform moderation, advancing understanding of how deplatforming reshapes rather than eliminates extremist visibility."
+  ],
+  "framing": "The paper situates itself within scholarship on the digital far-right, alternative media, and platform studies, drawing especially on Lewis's concept of the alternative influence network and Petersen and Johansen's framework for hybridised online extremism. It contributes to ongoing debates about the mainstreaming, professionalisation, and commercialisation of far-right politics, and about how social media platforms — as both technology and culture — reshape the boundaries of extremism. The Swedish case is positioned as both nationally specific and indicative of broader transnational trends in pandemic-era reactionary politics.",
+  "pdf_source": "drive"
+}
