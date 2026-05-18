@@ -17,9 +17,9 @@
         "online-radicalization-far-right"
       ],
       "pdf_source": "drive",
-      "content_hash": "ae89b3b45db2e06d4a463f05b7ec1910e814cce529640329677c2d51a3713092",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.224736+00:00"
+      "content_hash": "da9607d5cff7f690d6849954536517d9836460e024f273c8caa0145dfc75df9c",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677256+00:00"
     },
     "bibtex:Adam2026-tz": {
       "note_path": "Papers/Adam2026-tz.md",
@@ -27,9 +27,9 @@
         "information-disorder"
       ],
       "pdf_source": "drive",
-      "content_hash": "5681bab6063daf77e9360c7a7f823c07b668fb93109115e491ca9d62b0572bac",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.225283+00:00"
+      "content_hash": "f6a2057412428f70117deff0054d4f08f055089a0e4c1675a8070605ebbd31ba",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677261+00:00"
     },
     "bibtex:Spampatti2026-kx": {
       "note_path": "Papers/Spampatti2026-kx.md",
@@ -58,9 +58,9 @@
         "generative-ai-and-llms"
       ],
       "pdf_source": "drive",
-      "content_hash": "2afaf20d76ecffdb0ba61492c7141e6fc7eff58833f26ff0d8a867f44c063f78",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.226906+00:00"
+      "content_hash": "7fa71fb10eb35853cc8957d907f8e40bb974fdd116bfd8effdbbe2092d8c369b",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677265+00:00"
     },
     "bibtex:Waight2026-ts": {
       "note_path": "Papers/Waight2026-ts.md",
@@ -88,9 +88,9 @@
         "computational-social-science-methods"
       ],
       "pdf_source": "drive",
-      "content_hash": "83055ff4d70b02c8783267974e8ef7d49cb04b3a872c608845c5c132f825ae27",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.228292+00:00"
+      "content_hash": "27cd569bd7534b66be44078ef8960bb85cbd7570481de3f6ecb7e8d5a8099b21",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677269+00:00"
     },
     "bibtex:Rothut2026-or": {
       "note_path": "Papers/Rothut2026-or.md",
@@ -140,9 +140,9 @@
         "tiktok-platform-culture"
       ],
       "pdf_source": "drive",
-      "content_hash": "1e16d668dc763980af16afc4829549380e1542f592bdea80ec169cc950598137",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.231020+00:00"
+      "content_hash": "d9a0fb8bb8450b9662a87b1dcfd6adcb9e02bd7be95f66c22d69b81fc7f85fe8",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677273+00:00"
     },
     "bibtex:Tornberg2026-lc": {
       "note_path": "Papers/Tornberg2026-lc.md",
@@ -151,9 +151,9 @@
         "generative-ai-and-llms"
       ],
       "pdf_source": "drive",
-      "content_hash": "da11ce46e98cc7c0b60a34bde15060bb1d6e23f88bdcb3c4f51539b97f60f777",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.231578+00:00"
+      "content_hash": "eff92779375593d2cf8b25f44ba730a6650d28371e91cfcd70bad33792747049",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677277+00:00"
     },
     "bibtex:Rothut2026-wt": {
       "note_path": "Papers/Rothut2026-wt.md",
@@ -181,9 +181,9 @@
         "platform-governance-and-data-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "b98da40bd326a44cc15d33b853dfbf2646e91ff68413aac3831fba46f5306d28",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.232908+00:00"
+      "content_hash": "4d545d7373c5c93d2f1cd506404f6ad878a6838f252a0d530c1ed9f8ea27d12d",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677282+00:00"
     },
     "bibtex:Marwick2026-ss": {
       "note_path": "Papers/Marwick2026-ss.md",
@@ -211,9 +211,9 @@
         "polarization-partisanship-hyperpartisan-media"
       ],
       "pdf_source": "drive",
-      "content_hash": "70a1d160e7ece8aa7a713917e75898d37b7c2c48e14020f3931f1572320b83ec",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.234591+00:00"
+      "content_hash": "7ff2e91a0194e7b7a879f07093f74f984de1f801bc0eec6ed64912fa60c1e91b",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677286+00:00"
     },
     "bibtex:Li2026-wq": {
       "note_path": "Papers/Li2026-wq.md",
@@ -241,9 +241,9 @@
         "computational-social-science-methods"
       ],
       "pdf_source": "drive",
-      "content_hash": "e1bdce7f75f5b06c2fe93fe1aa8fcd1fdf6abffcc4daef40f211dd0515b407a3",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.235987+00:00"
+      "content_hash": "a1fb805d9eb1c801ce2b4aac80d3904c6ce48fbe14014a6f104ed4c21cb63e8d",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677291+00:00"
     },
     "bibtex:Marwick2026-qd": {
       "note_path": "Papers/Marwick2026-qd.md",
@@ -1694,9 +1694,9 @@
         "generative-ai-and-llms"
       ],
       "pdf_source": "drive",
-      "content_hash": "04edfb11cbf7826f1f3a0f382671123aee7cb84da7a0d6fb91860fed1e36c7c5",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.268022+00:00"
+      "content_hash": "3fe0f4603f7c03f57d59f4c7e9a207fd85b5ac99f6e57ad018cb2fd6705f1d38",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677294+00:00"
     },
     "bibtex:Nenno2025-xa": {
       "note_path": "Papers/Nenno2025-xa.md",
@@ -1910,20 +1910,31 @@
         "social-media-anniversary-reflections"
       ],
       "pdf_source": "drive",
-      "content_hash": "65bbd56d9ddcf882a336fb187f17756a5eb8d8a3e26888b322fc22e1502b8056",
-      "podcast_linked": false,
-      "last_processed": "2026-05-17T17:49:53.160079+00:00"
+      "content_hash": "ff39db25c51f68b6ad4b3620a5256659b81200d5429fb728853e34d5d289c308",
+      "podcast_linked": true,
+      "last_processed": "2026-05-18T08:43:50.677252+00:00"
     },
     "bibtex:Ng2026-og": {
       "note_path": "Papers/Ng2026-og.md",
       "topics": [],
       "pdf_source": "drive",
-      "content_hash": "e2a52f45e007236d59b4fe673f121f9a7a6d175876e772890e5e28fbd08f5917",
+      "content_hash": "f49f19f083ea39768dd17d05887ca731145b5e747c3a98f0a79ac25d72d27522",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-05-18T08:43:50.677244+00:00"
+    },
+    "bibtex:Askanius2026-de": {
+      "note_path": "Papers/Askanius2026-de.md",
+      "topics": [
+        "online-radicalization-far-right"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "efb992503cdebd5fec830349a6413b51961c05bb909e3ed430fb6cee38c06555",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-05-18T06:09:26.434784+00:00"
+      "last_processed": "2026-05-18T08:43:50.677215+00:00"
     }
   },
   "last_full_cluster": "2026-05-17T10:31:30.222500+00:00",
-  "papers_since_cluster": 2
+  "papers_since_cluster": 3
 }

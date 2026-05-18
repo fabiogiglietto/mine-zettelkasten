@@ -9,7 +9,7 @@ topics: [platform-governance-and-data-access, computational-social-science-metho
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/yexp6_v1
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Yang2026-tq.mp3
 pdf_available: true
 discovery_date: 2026-05-09T17:26:23.924172Z
 ---
@@ -18,31 +18,36 @@ discovery_date: 2026-05-09T17:26:23.924172Z
 
 ## Summary
 
-This systematic review maps fifteen years (2010–2024) of empirical social media research across 59 journals in five social science disciplines plus interdisciplinary venues. Using a human-in-the-loop LLM annotation pipeline applied to ~860,000 publications, the authors estimate that 0.78% of papers (3.15% in social science journals proper) draw on social media data, with research overwhelmingly concentrated on Twitter/X and Facebook. The central argument is twofold: the field grew rapidly through the early 2020s but has plateaued and begun declining since 2022, coinciding directly with platform API restrictions; and the platforms most studied bear little resemblance to those most used by the public, raising urgent questions about what social knowledge is being produced — and foreclosed — by data access regimes.
+This systematic review maps fifteen years (2010–2024) of empirical social media research across 59 journals spanning Communication, Economics, Political Science, Psychology, Sociology, and interdisciplinary outlets. Using a human-in-the-loop LLM annotation pipeline applied to nearly 860,000 publications, the authors estimate that 0.78% of papers in their corpus (3.15% within social science journals proper) rely on social media data, with Twitter/X and Facebook dominating to a degree wildly disproportionate to their public popularity. The paper's central argument is that the field is at an inflection point: empirical social media research roughly tripled from 2010 into the early 2020s but plateaued and declined in 2022–2024 in lockstep with API closures, foreshadowing a structural transformation in how — and whether — social scientists can study platforms.
 
 ## Key Contributions
 
-- First multi-platform, multi-disciplinary baseline of empirical social media research spanning 15 years and 59 journals, moving beyond Twitter-centric prior reviews.
-- A validated, reproducible human-in-the-loop LLM annotation pipeline (with released codebook, prompts, and code) for large-scale meta-scientific analysis.
-- Empirical demonstration that Web of Science substantially under-reports relevant papers, motivating a journal-website search alternative.
-- Quantitative documentation of the publishing impact of API closures and emerging shifts toward YouTube, TikTok, and user-donated/archived data.
-- A topical map identifying which substantive research areas (COVID-19, social movements, political communication, misinformation) are most exposed to platform data restrictions.
-- Concrete calls for journal-level metadata standardization to support future meta-science.
+- First multi-platform, multi-disciplinary systematic baseline of empirical social media research across 15 years and 59 journals, moving beyond the Twitter-centric framing of prior reviews.
+- Demonstrates that Web of Science substantially under-reports relevant papers and develops an alternative discovery pipeline using full-text journal-website search.
+- Validates a reproducible human-in-the-loop LLM annotation methodology (codebook, prompts, and code released) for large-scale meta-scientific work.
+- Quantifies the empirical footprint of the "post-API" turn, documenting how data access restrictions are reshaping publishing patterns and pushing researchers toward alternative platforms and data-donation paradigms.
+- Maps the topical landscape (COVID-19, social movements, political communication, misinformation, body image, etc.) to identify which substantive areas are most exposed to platform data access restrictions.
+- Calls for indexing standardization (uniform tagging of publication types, mandatory author keywords) to enable future meta-science.
 
 ## Methods
 
-The authors searched 59 top-ranked journals (Google Scholar h5-index + Web of Science) for mentions of eight platforms across 2010–2024, yielding 27,951 candidate papers. A stratified sample of 5,218 papers was annotated in two stages — identifying empirical papers and identifying which platforms provided data — using six human coders to develop codebooks with Krippendorff's α reliability checks. Three LLMs were evaluated against human ground truth; o4-mini (100% accuracy on empirical identification, ≥91% on platforms) was applied to the full sample, and counts were scaled to the matched corpus using journal-year sampling ratios. Topical structure was recovered via an ensemble Louvain community detection (1,000 runs) over an author-keyword co-occurrence network from Scopus.
+A keyword search across 59 h5-index-ranked journals (10 per discipline plus interdisciplinary, minus an excluded outlier) for eight platform names yielded 27,951 matched papers; stratified sampling produced an analytical set of 5,218. Two-stage annotation — (1) is the paper empirical? (2) which platforms supplied data? — was developed with six coders and assessed with Krippendorff's α. Three LLMs were benchmarked against human gold standards; o4-mini (100% accuracy on empirical identification, ≥91% on platform identification) was deployed on the full sample, and journal-year sampling ratios scaled estimates to the matched corpus. Topic structure was recovered via ensemble Louvain community detection (1,000 runs) on Scopus keyword co-occurrence.
 
 ## Findings
 
-- Empirical social media research is 0.78% of all papers (3.15% in social science journals); disciplinary prevalence ranges from <0.7% in Economics to 12.86% in Communication.
-- Twitter/X (50.86%) and Facebook (36.28%) dominate; YouTube (17.11%) and Reddit (5.66%) follow; TikTok, Instagram, and LinkedIn remain small.
-- Platform usage in research is sharply misaligned with public adoption — Twitter/X is overrepresented (21% of Americans use it) and YouTube underrepresented (84% of Americans).
-- 82.59% of papers use only a single platform; multi-platform research remains rare.
-- The share of social media papers rose ~235% in social science disciplines from 2010 to the early 2020s, then plateaued and declined in 2022–2024, driven by drops in Twitter/X and Facebook studies after API closures.
-- TikTok and YouTube show recent upward trajectories, suggesting partial substitution.
-- COVID-19 is the dominant topic (>60% of Economics papers using social media data); other concentrations include social movements, political communication, journalism, body image (Psychology), and disinformation. Communication has the most balanced topic distribution (Gini 0.38); Economics the most concentrated (0.72).
+- 0.78% of all papers (3.15% in social science-only journals) use social media data empirically; Communication leads at 12.86%, followed by Political Science (5.11%), Psychology (1.22%), Economics (<0.7%), interdisciplinary (<0.3%).
+- Twitter/X appears in 50.86% of empirical social media papers and Facebook in 36.28%; YouTube (17.11%), Reddit (5.66%), TikTok, Instagram, and LinkedIn trail far behind.
+- Research-versus-public misalignment is stark: Twitter/X is overrepresented (used by ~21% of Americans) and YouTube dramatically underrepresented (used by ~84% of Americans).
+- Single-platform studies dominate at 82.59%; multi-platform research is rare.
+- Empirical social media research grew ~235% from 2010 into the early 2020s before plateauing and declining in 2022–2024, with the drop driven by Twitter/X and Facebook following API closures.
+- Twitter/X usage spikes around 2015–2016 (U.S. election) and 2020–2022 (COVID-19, 2020 election); TikTok and YouTube show recent upward trends.
+- COVID-19 is the single most prominent topic (over 60% of Economics papers using social media data); other clusters include social movements, political communication, journalism, body image (heavily Psychology), ideology, and disinformation.
+- Topical diversity varies sharply by discipline: Communication is the most balanced (Gini = 0.38), Economics the most concentrated (Gini = 0.72).
 
 ## Connections
 
-This paper provides the quantitative backbone for the broader "post-API age" conversation animated by [[Freelon2024-sc]] and developed in work on data access regimes such as [[Rieder2025-ju]], [[Rieder2026-pp]], and [[Ohme2026-nv]]. It extends and broadens earlier Twitter-focused meta-reviews — most directly [[Murtfeldt2025-wu]] — and complements emerging alternatives the authors flag, including user-donated data approaches ([[Ohme2026-nv]]) and shifts toward TikTok, YouTube, and Instagram studied in [[Achmann-Denkler2026-lx]], [[Bouchaud2026-lr]], and [[Pierri2025-hm]]. It also speaks to methodological infrastructure work like [[Helmond2026-ll]] and [[Ventura2026-yc]] on what becomes knowable when platform data access is reconfigured.
+This paper provides the quantitative meta-scientific backbone for the broader "post-API age" conversation, directly extending [[Freelon2024-sc]] and complementing the Twitter-focused review in [[Murtfeldt2025-wu]]. Its documentation of API-closure effects connects to work probing what remains feasible under restricted access and data-donation paradigms — see [[Ohme2026-nv]], [[Bak-Coleman2025-pm]], [[Rieder2025-ju]], and [[Rieder2026-pp]] — as well as TikTok- and YouTube-focused efforts that exemplify the platform shift the authors identify, such as [[Pierri2025-hm]], [[Bouchaud2026-lr]], and [[Ulloa2024-jm]]. The framing also dovetails with platform governance and DSA-era data access debates represented by [[Vincent_undated-re]] and [[Helmond2026-ll]].
+
+## Podcast
+
+A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Yang2026-tq.mp3)

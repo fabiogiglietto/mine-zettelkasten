@@ -9,7 +9,7 @@ topics: [platform-governance-and-data-access, social-media-anniversary-reflectio
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.5204/mcj.3247
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bruns2026-yv.mp3
 pdf_available: true
 discovery_date: 2026-05-17T17:46:25.410213Z
 ---
@@ -18,28 +18,32 @@ discovery_date: 2026-05-17T17:46:25.410213Z
 
 ## Summary
 
-Bruns offers a feature-length obituary for Twitter as a venue for public debate, tracing its arc from the 2006 launch through Musk's 2022 acquisition and rebranding to X. He argues that Twitter's flat, open, largely public network once supported uniquely prosocial communicative practices — crisis reporting, hashtag-based connective action, and direct elite–public exchange — but that chronic mismanagement, commercial drift, algorithmic shifts, and the weaponisation of platform affordances by reactionary actors progressively destroyed these affordances. Assessing Mastodon, Threads, and Bluesky as candidate successors, Bruns concludes that cloning Twitter's form without solving its moderation and governance failures squanders the moment, and that meaningful moderation and user co-design must be treated as core design features rather than afterthoughts.
+Bruns offers a synthesising obituary for Twitter as a venue for public debate, tracing its arc from the 2006 launch through Musk's 2022 acquisition and rebranding as X. The essay argues that Twitter's flat, open, largely public network structure once enabled distinctive prosocial uses — crisis reporting, hashtag-based connective action, and direct elite-public exchange — but that chronic mismanagement, commercial drift, algorithmic restructuring, and weaponised disinformation progressively hollowed these affordances out. Surveying Mastodon, Threads, and Bluesky as would-be successors, Bruns contends that cloning Twitter's form without rethinking moderation and governance squanders the moment, and that robust moderation and genuine user consultation should be treated as core design features rather than afterthoughts.
 
 ## Key Contributions
 
-- A synthesising historical narrative of Twitter's twenty-year lifecycle as a public-debate infrastructure.
-- A framing of Twitter's decline through 'enshittification', participatory disinformation, and democratic backsliding.
-- A normative set of design and governance principles — open APIs, user co-design, embedded moderation — for successor platforms.
-- A pointed critique of the imaginative poverty of current Twitter clones.
+- A historical-critical account of Twitter's twenty-year lifecycle, foregrounding its specific role in sustaining open public debate.
+- A framing of Twitter's decline through the joint lenses of enshittification, participatory disinformation, and democratic backsliding.
+- Design and governance principles for successor platforms: open APIs, user co-design, embedded moderation.
+- A pointed critique of the imaginative poverty of current Twitter replacements, calling for genuinely novel models rather than reskins.
 
 ## Methods
 
-Historical and critical narrative analysis combined with synthesis of prior scholarship on social media, the public sphere, and disinformation. Bruns illustrates his account through cases including #Robodebt, #MeToo, #BlackLivesMatter, the Arab Spring, Brexit, and the 2016 US election, and conducts a comparative assessment of Mastodon, Threads, and Bluesky on affordances, governance, and moderation.
+Historical and critical narrative analysis, synthesising prior scholarship on Twitter, the public sphere, and disinformation. Bruns illustrates the argument through cases such as #Robodebt, #MeToo, #BlackLivesMatter, the Arab Spring, Brexit, the 2016 US election, and incidents under Musk's ownership, and comparatively assesses Mastodon, Threads, and Bluesky on affordances, governance, and moderation.
 
 ## Findings
 
-- Twitter's openness, retweet mechanics, and hashtag culture enabled serendipitous discovery, crowdsourced visibility for non-elite voices, and sustained issue tracking.
-- Social and phatic uses, not news or activism, dominated everyday Twitter activity, complicating elite-centric narratives.
-- Corporate rhetoric shifted from open-conversation idealism (2013 SEC filing) to revenue-focused framing by 2015, alongside curbs on third-party developers and researchers.
+- Twitter's openness, retweet mechanics, and hashtag culture enabled serendipitous discovery, crowdsourced visibility for non-elite voices, and longitudinal issue tracking.
+- Social and phatic uses, not news or activism, dominated daily activity — complicating elite-centric accounts of the platform.
+- Corporate rhetoric shifted from open-conversation idealism (the 2013 SEC filing) to revenue-focused framings by 2015, accompanied by restrictions on third-party developers and researchers.
 - The 2016 move from chronological to algorithmic feeds was later shown to amplify right-wing content.
-- Under Musk, algorithmic self-boosting, paid verification, monetisation of far-right accounts, and bot proliferation accelerated decline.
-- Successor platforms inherit Twitter's vulnerabilities: Threads is hobbled by Meta's inconsistent moderation, Mastodon by under-resourced volunteer admins, and Bluesky by an underdeveloped moderation regime.
+- Under Musk, self-boosting, paid verification, and monetisation of far-right accounts accelerated decline and bot proliferation.
+- Successor platforms reproduce Twitter's vulnerabilities: Threads is constrained by Meta's inconsistent moderation, Mastodon leans on under-resourced volunteer admins, and Bluesky's moderation remains underdeveloped.
 
 ## Connections
 
-This essay sits at the centre of the platform-anniversary register and shares its concerns with several adjacent contributions: [[Baym2026-tr]] and [[Helmond2026-ll]] on platform lifecycles and infrastructural change, [[Rieder2025-ju]] and [[Rieder2026-pp]] on platform governance and APIs, and [[Tornberg2025-ir]] / [[Tornberg2026-lc]] on the structural conditions of online public debate. Its account of participatory disinformation and far-right capture connects to [[Marwick2026-ss]], [[Marwick2026-qd]], [[Donovan2025-ws]], and [[Freelon2024-sc]], while the assessment of Bluesky and Mastodon as Twitter successors resonates with [[Jurg2025-ur]] and [[Bak-Coleman2025-pm]].
+This piece sits at the centre of the current wave of Twitter/X post-mortems and platform-succession analyses: it speaks directly to enshittification and platform-decline arguments in [[Rieder2025-ju]] and [[Bastos2025-ya]], to migration and successor-platform studies such as [[Jurg2025-ur]], [[Bastos2025-ol]] and [[Hurcombe2025-cs]], and to API/data-access closure narratives in [[Freelon2024-sc]] and [[Murtfeldt2025-wu]]. Its account of participatory disinformation and algorithmic amplification connects to [[Bak-Coleman2025-pm]], [[Lewandowsky2026-ob]], and [[Donovan2025-ws]], while its concern with moderation as core design resonates with [[Marwick2026-ss]] and [[Tornberg2025-ir]].
+
+## Podcast
+
+A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bruns2026-yv.mp3)

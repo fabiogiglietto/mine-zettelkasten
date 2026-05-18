@@ -10,6 +10,7 @@ Empirical and review work on how extremist and far-right actors mobilize, normal
 
 ## Papers
 
+- [[Askanius2026-de]]
 - [[Bailard2024-pj]]
 - [[Bouchafra2026-ts]]
 - [[Karo2026-dn]]

@@ -9,7 +9,7 @@ topics: [platform-governance-and-data-access]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/20563051261436101
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Helmond2026-ll.mp3
 pdf_available: true
 discovery_date: 2026-04-19T07:50:56.967183Z
 ---
@@ -18,28 +18,33 @@ discovery_date: 2026-04-19T07:50:56.967183Z
 
 ## Summary
 
-In this anniversary essay, Anne Helmond revisits the concept of "platformization" ten years after coining it, arguing that the framework needs both periodization and conceptual sharpening as platforms enter an AI-centered phase. Through two illustrative cases — Meta's 2026 retirement of the Like and Comment plugins, and Google's Project Suncatcher plan for space-based AI compute — she charts a shift from platforms extending across the open web via social-graph signals to platforms reorganizing themselves around AI inference, recommendation, and new infrastructural frontiers. Concerned that "platformization" has eroded through conflation with "digitization," Helmond proposes redefining it as a *platform-specific* form of Manovich's transcoding: the situated process of making domains, practices, and sectors "platform-ready."
+In this anniversary essay, Anne Helmond revisits the concept of "platformization" a decade after she coined it, arguing it has entered a new AI-centered phase while simultaneously suffering conceptual erosion through conflation with "digitization." Working through two illustrative cases — Meta's February 2026 retirement of the Like and Comment plugins, and Google's Project Suncatcher initiative to put AI compute infrastructure in orbit — she traces how platforms have shifted from extending tendrils across the open web to building integrated AI ecosystems that no longer depend on social-graph signals. To restore analytical precision, she proposes redefining platformization as a platform-specific form of Manovich's "transcoding": the situated, collaborative process through which practices, sectors, and domains are made "platform-ready."
 
 ## Key Contributions
 
-- Reclaims and tightens "platformization" by redefining it as platform-specific transcoding, distinct from generic digitization.
+- Reclaims and refines "platformization" by recasting it as platform-specific *transcoding*, distinct from generic digitization.
 - Offers a periodization marking the transition from the social-graph/open-web era to the AI-platform era ("Big AI").
-- Foregrounds *actually existing platformization*: uneven, regionally and sectorally specific, and co-produced with third parties under promises of mutual benefit.
-- Sets a research agenda spanning Big Tech–state entanglements, military and energy platformization, super apps, and orbital AI infrastructure.
-- Bridges platformization with adjacent critical frameworks: sphere transgression, intellectual monopolization, Big Techification, and hyperscaler studies.
+- Foregrounds "actually existing platformization" — situated, uneven, and dependent on third-party collaboration (webmasters, app developers, sectoral partners).
+- Connects platformization to adjacent critical frameworks: sphere transgression, intellectual monopolization, Big Techification, and hyperscalers.
+- Sets a forward research agenda spanning Big Tech–state relations, military and energy platformization, super apps, and orbital AI infrastructures.
 
 ## Methods
 
-A conceptual and theoretical essay that revisits the author's prior framework and refines it through two illustrative empirical cases (Meta's plugin retirement; Google's Project Suncatcher). Helmond synthesizes recent critical theory (Sharon & Gellert; Rikap; Hendrikse et al.; Manovich) and draws on her forthcoming co-authored book *Platforms: A Critical Introduction* (Helmond & van der Vlist, 2026).
+A conceptual/theoretical essay revisiting the author's earlier framework, anchored in two illustrative empirical cases (the Like button's retirement and Project Suncatcher). Helmond synthesizes adjacent frameworks (Sharon & Gellert; Rikap; Hendrikse et al.; Manovich) and draws on her forthcoming co-authored *Platforms: A Critical Introduction*.
 
 ## Findings
 
-- Meta's retirement of the Like button signals the end of dependence on open-web behavioral signals; in-app data, ad networks, third-party SDKs, and AI inference now substitute for the social graph.
-- The move aligns Meta with TikTok-style algorithmic recommendation and an AI-assistant-centered product strategy.
-- Project Suncatcher (prototype satellites planned for 2027) exemplifies Big Tech's expansion from "platform earth" into orbital compute, driven by terrestrial limits on energy, water, and data center siting.
-- Platformization unfolds unevenly across regions and sectors (Chinese society, Dutch education, food delivery, housing, military), mediated by local partners and intermediaries.
-- New entrants — Nvidia, Anduril, Palantir, Shield AI — are adopting platform logics, signaling a reorganization of Big Tech into "Big AI."
+- Meta has decoupled from the social-graph paradigm: in-app behavioral data, ad network signals, third-party app integrations, and AI inference now substitute for Like-button data harvested from the open web.
+- The Like button's retirement signals a turn toward TikTok-style algorithmic recommendation and AI personal assistants over social signals.
+- Project Suncatcher (prototype launches planned for 2027) exemplifies Big Tech's move from "platform earth" to space, driven by terrestrial limits on energy, water, and data-center capacity.
+- Platformization unfolds unevenly across regions and sectors — Chinese society, Dutch education, food delivery, housing, military — mediated by local intermediaries.
+- New entrants (Nvidia, Anduril, Palantir, Shield AI) are adopting platform models, while incumbents reorient from platform-as-infrastructure toward integrated AI ecosystems.
+- "Platformization" has eroded analytically through overuse; recovering its specificity requires distinguishing platform-driven transcoding from broader digitization.
 
 ## Connections
 
-This essay provides conceptual scaffolding for the empirical and methodological concerns running through this topic cluster. Its account of the closing open web and Meta's decoupling from third-party signals resonates with critiques of shrinking platform data access in [[Freelon2024-sc]], [[Rieder2025-ju]], and [[Bak-Coleman2025-pm]], while its framing of "Big AI" and infrastructural repositioning connects to [[Rieder2026-pp]] and platform-governance work like [[Bastos2025-ya]] and [[Bastos2025-ol]]. The emphasis on situated, third-party-mediated platformization also speaks to studies of sectoral platform entanglement such as [[Jurg2025-ur]].
+This essay sits at the conceptual core of critical platform studies and resonates strongly with [[Rieder2025-ju]] and [[Rieder2026-pp]] on platform infrastructure and governance, as well as with [[Bruns2026-yv]] on the shifting terrain of platform research. Its diagnosis of the post-API, post-social-graph moment — where access to platform signals collapses just as AI inference takes over — speaks directly to data-access debates explored in [[Ohme2026-nv]], [[Murtfeldt2025-wu]], and Davis-style work on researcher access such as [[Freelon2024-sc]]. The argument about "Big AI" and new sectoral entrants also dovetails with infrastructural and governance concerns raised in [[Tornberg2026-lc]] and [[Munger2025-cz]].
+
+## Podcast
+
+A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Helmond2026-ll.mp3)

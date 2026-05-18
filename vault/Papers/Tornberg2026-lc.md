@@ -9,7 +9,7 @@ topics: [platform-governance-and-data-access, generative-ai-and-llms]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/6nue7_v1
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2026-lc.mp3
 pdf_available: true
 discovery_date: 2026-04-24T11:07:01.017741Z
 ---
@@ -18,30 +18,34 @@ discovery_date: 2026-04-24T11:07:01.017741Z
 
 ## Summary
 
-Törnberg and Rogers argue that "social media" — as both a phenomenon and an organizing concept for two decades of communication scholarship — is dissolving. Three interlocking shifts are responsible: the move from social-graph circulation to interest-based algorithmic recommendation, the spread of generative AI producing synthetic content at scale, and user retreat into semi-private spaces. In place of the unified "social media" object, they propose three coexisting *post-social* formations — algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication — each demanding its own concepts, methods, and normative frameworks. The paper is a programmatic call for paradigmatic reorientation rather than empirical demonstration.
+This conceptual paper argues that the "social media" paradigm — built on user-generated content circulating through social graphs to form networked publics — has been hollowed out, and that digital media studies needs a corresponding paradigm shift. Törnberg and Rogers identify three interlocking dynamics dissolving the old configuration: a move from social-graph to interest-based algorithmic recommendation, generative AI flooding platforms with synthetic content, and user retreat into semi-private spaces. In its place they map three distinct "post-social" formations — algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication — each requiring its own concepts, methods, and normative apparatus. The intervention is diagnostic and programmatic rather than empirical, calling for a wholesale reorientation of the field.
 
 ## Key Contributions
 
-- Articulates "post-social media" as a rupture in digital communication research's organizing assumptions.
-- Offers a tripartite typology of emergent formations: algorithmic broadcasting, semi-private spheres, and AI-mediated communication.
-- Proposes conceptual replacements for "networked publics," including *algorithmic publics*, *imitation publics*, and *user-spectator*.
-- Specifies differentiated methodological agendas: flow analysis/rhythmanalysis for broadcasting platforms, ethnography and bounded-place theory for semi-private spheres, and auditing/experimental methods for chatbot media.
-- Frames cross-cutting normative stakes around epistemic fragmentation, power concentration, and the erosion of shared democratic discourse.
+- A "post-social media" framework that names a rupture in the organizing assumptions of two decades of digital communication scholarship.
+- A typology of three coexisting post-social formations, each analytically distinct: algorithmic broadcasting, semi-private spheres, and AI-mediated chatbot communication.
+- Conceptual vocabulary updates: replacing "networked publics" with notions like "algorithmic publics," "imitation publics," and the "user-spectator."
+- A method agenda matched to each formation: flow analysis and rhythmanalysis for broadcasting platforms; ethnographic and bounded-place approaches for micro-communities; auditing and experimental designs for chatbot media.
+- A normative framing centered on epistemic fragmentation, platform power, and the erosion of shared democratic infrastructure.
 
 ## Methods
 
-A conceptual and theoretical synthesis. The authors reconstruct the "social media paradigm" through foundational platform studies literature, then diagnose its dissolution using secondary empirical evidence — notably Meta's FTC antitrust filings, Pew and Gallup survey data, Elon University's AI usage data, and prior empirical work on posting decline. A comparative reading of the three emergent formations grounds the methodological prescriptions.
+The paper is a theoretical synthesis. It reconstructs the foundational social-media paradigm (networked publics, participatory culture, platformization, surveillance capitalism), then diagnoses contemporary transformations through secondary evidence — including Meta's own FTC antitrust filings, Pew and Gallup survey data, Elon University AI usage figures, and prior empirical work on declining posting rates — and develops a comparative analysis across the three emergent formations to derive methodological implications.
 
 ## Findings
 
-- Per Meta's own court-submitted data, only 7% of Instagram time and 17% of Facebook time involves content from friends or followed accounts.
-- Engagement metrics have shifted from active social signals (likes, shares, follows) to passive ones (watch time, dwell, completion).
-- TikTok's For You Page has triggered industry-wide convergence on interest-based algorithmic feeds across Meta, YouTube, and X.
-- Posting and viewing on Facebook and Twitter/X dropped roughly 50% between 2020 and 2024.
-- AI chatbot use (52% of US adults in 2025) now exceeds active posting on the major platforms (35% Facebook, 20% Instagram, 11% X).
-- Synthetic content (e.g., "Shrimp Jesus") thrives in engagement-optimized systems with little platform incentive to discriminate human from AI output.
-- Established methods — network analysis, content analysis, API scraping — are increasingly misaligned with how post-social formations actually circulate communication.
+- Meta's court-submitted data: only 7% of Instagram time and 17% of Facebook time involves content from friends/followed accounts — major platforms no longer function primarily as social networks.
+- Recommendation systems privilege passive engagement signals (watch time, dwell, completion) over active social signals (likes, shares, follows).
+- TikTok's "For You Page" logic has driven industry-wide convergence toward algorithmic, interest-based feeds.
+- Posting and viewing on Facebook and Twitter/X fell roughly 50% between 2020 and 2024.
+- AI chatbot use (52% of US adults in 2025) now exceeds active posting on Facebook (35%), Instagram (20%), and Twitter/X (11%).
+- Synthetic content scales effectively within engagement-optimized systems, with weak platform incentives to distinguish human from AI authorship.
+- Established methods — network analysis, content analysis, API-based collection — are increasingly misaligned with post-social structures.
 
 ## Connections
 
-This paper is closely tied to [[Tornberg2025-ir]], whose empirical findings on collapsing posting rates ground its core diagnosis, and it extends the same author's broader critique of generative AI's role in platform ecologies. It resonates with [[Munger2025-cz]] on the obsolescence of inherited media-studies frameworks, with [[Rieder2025-ju]] and [[Helmond2026-ll]] on platformization and the politics of platform infrastructures, and with [[Bak-Coleman2025-pm]] and [[Bak-Coleman2026-mk]] on the epistemic and democratic stakes of algorithmically mediated information environments. Work on AI-generated content circulation ([[DeVerna2025-dl]], [[Bouchaud2026-lr]]) and on shifting access regimes for studying platforms ([[Freelon2024-sc]], [[Ohme2026-nv]]) maps directly onto the methodological reorientation the paper calls for.
+This piece serves as a programmatic umbrella for several adjacent strands in the register: it shares its diagnosis of declining posting and platform decay with [[Tornberg2025-ir]] and [[Bruns2026-yv]], and its concern about AI saturating platform content with [[DeVerna2025-dl]], [[Bouchaud2026-lr]], and [[Schroeder2026-im]]. Its claim that chatbots constitute a new media form lacking shared texts or publics resonates with experimental and auditing work on LLM influence such as [[Hackenburg2025-dj]] and [[Le-Mens2025-qz]], while its methodological pessimism about API-based research connects to ongoing data-access debates exemplified by [[Freelon2024-sc]], [[Ohme2026-nv]], and [[Rieder2025-ju]].
+
+## Podcast
+
+A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2026-lc.mp3)
