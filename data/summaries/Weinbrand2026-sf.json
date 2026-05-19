@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper analyses how Google's AI Overviews (AIOs) — generative AI summaries placed atop search results launched in May 2024 — are discursively framed by three industry actors: Google, technology journalists, and SEO marketers. Using a corpus of 613 English-language texts published between May 2024 and May 2025, the authors combine Leximancer concept mapping with critical discourse analysis to identify four dominant thematic frames. They argue that AIOs are not merely a technical upgrade but a contested redefinition of search, trust, authority, and platform power, in which Google positions itself as both commercial platform and public information infrastructure.",
+  "key_claims": [
+    "AI Overviews represent a major inflection point in web search, shifting Google from indexical gatekeeper to generative epistemic authority.",
+    "AIOs are discursively constructed rather than neutrally adopted, with Google, journalists, and SEO marketers competing to legitimise or contest their meaning.",
+    "Google frames AIOs as seamless, user-friendly innovations while strategically hedging accountability through 'experimental' labels.",
+    "Journalists construct a more critical, cautionary discourse emphasising misinformation, hallucinations, and epistemic risk; SEO marketers frame AIOs through commercial anxiety about visibility and traffic.",
+    "The discourse is marked by significant absences — notably the user's voice and concerns about democratic, societal, and environmental implications of AI-generated summaries.",
+    "AIOs exemplify a hybrid platform/infrastructure logic that extends the 'Googlization of knowledge' and reinforces platform power over online information."
+  ],
+  "methods": [
+    "Mixed-methods discourse analysis combining computational concept mapping with qualitative critical discourse analysis.",
+    "Custom web scraping to collect 613 English-language texts published May 2024–May 2025 containing variants of the query 'Google AI Overview'.",
+    "Classification of texts by domain into three actor categories: Google (30), tech journalism (253), and marketing/SEO (330).",
+    "Leximancer concept mapping to extract themes, concept co-occurrences, and sentiment likelihoods at the level of context blocks (2–3 sentence units).",
+    "Qualitative critical discourse analysis of representative texts using Fairclough's three-level model (text, discourse practice, sociocultural context) and van Leeuwen's framework."
+  ],
+  "findings": [
+    "Four dominant thematic frames structure the discourse: (1) Generative AI Technologies and AI-Platform Wars, (2) Reconfiguring Search — Let Google Do the Searching for You, (3) Commercial Implications of AIOs, and (4) AI Overviews — Utopia versus Dystopia.",
+    "Sentiment patterns differ markedly by actor: Google's discourse is largely neutral-positive (5% favourable vs 4% unfavourable likelihood); SEO marketers are highly engaged but conflicted (66% favourable vs 52% unfavourable); journalists are cautiously critical (22% favourable vs 40% unfavourable).",
+    "Top concepts vary by actor: Google emphasises Gemini, model, people, AI; SEO marketers emphasise search, engine, content, AI overviews; journalists emphasise Google, search, AI, company.",
+    "Google uses metaphors like 'supersmart, superfast librarian' and language of help, quality, and seamlessness; journalists invoke 'disaster,' 'mistakes,' and hallucination examples (e.g., glue on pizza, eating rocks); SEO actors report dramatic clickthrough drops and pivot toward Generative Engine Optimization (GEO).",
+    "The user's perspective, environmental costs of LLMs, and ethical/democratic implications are largely absent from the discourse across all three actor groups."
+  ],
+  "contributions": [
+    "Provides one of the first systematic discourse analyses of Google's AI Overviews across multiple stakeholder groups during its rollout year.",
+    "Demonstrates the analytic value of combining Leximancer with critical discourse analysis for studying platform discourse at scale.",
+    "Extends platformisation and 'Googlization of knowledge' theories to generative AI-powered search, framing AIOs as a hybrid platform-infrastructure phenomenon.",
+    "Identifies discursive exclusions (users, environment, ethics) as a structural feature of industry framing of AI search.",
+    "Contributes to scholarship on platform studies, AI communication, sociotechnical imaginaries, and the politics of search infrastructure."
+  ],
+  "framing": "The paper situates itself at the intersection of platform studies (Gillespie, Plantin et al., van Dijck, Poell) and post-structuralist discourse theory (Howarth, Laclau and Mouffe, Fairclough), supplemented by media logic theory (Altheide and Snow) and AI communication/sociotechnical imaginaries scholarship (Jasanoff and Kim, Crawford). It positions AIOs as a discursive and infrastructural project rather than a neutral technical upgrade, contributing to debates about platform power, epistemic authority, and the platformisation of knowledge in the AI era.",
+  "pdf_source": "drive"
+}
