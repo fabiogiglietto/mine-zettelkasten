@@ -2071,8 +2071,20 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-05-20T18:50:58.353821+00:00"
+    },
+    "bibtex:Van_Erkel2026-mk": {
+      "note_path": "Papers/Van_Erkel2026-mk.md",
+      "topics": [
+        "information-disorder",
+        "polarization-partisanship-hyperpartisan-media"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "cda7345c7a829e061ac4aa574b72f96d2909054a6da8c6de3fd617ffeada936c",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-05-21T06:44:53.624033+00:00"
     }
   },
   "last_full_cluster": "2026-05-17T10:31:30.222500+00:00",
-  "papers_since_cluster": 6
+  "papers_since_cluster": 7
 }

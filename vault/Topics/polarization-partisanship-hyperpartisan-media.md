@@ -34,6 +34,7 @@ Measurement of partisan attention, insularity, cross-partisan exposure and hyper
 - [[Simeone2025-vo]]
 - [[Starbird2025-jj]]
 - [[Tai2026-qk]]
+- [[Van_Erkel2026-mk]]
 - [[Ventura2026-yc]]
 - [[Yoo2026-ev]]
 - [[van-Eck2026-xg]]
