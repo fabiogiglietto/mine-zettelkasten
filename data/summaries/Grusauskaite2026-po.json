@@ -1,0 +1,38 @@
+{
+  "abstract": "This article examines how participants in online discussions of the 'Great Reset' (GR) conspiracy theory construct collective identities through symbolic boundary work across six major social media platforms. Using multimodal discourse analysis of 524 posts and nearly 68,000 comments from Facebook, Instagram, Twitter/X, YouTube, Reddit, and TikTok, the authors show that users define themselves as 'critical thinkers,' reclaim the stigmatized label 'conspiracy theorist,' and transform personal hardships into shared narratives against a 'mainstream other.' The study argues that conspiracy cultures are sustained as much by relational identity work and affective solidarity as by platform affordances or ideological content.",
+  "key_claims": [
+    "Online conspiracy cultures are constituted through symbolic boundary work, not merely through platform-driven echo chambers or shared ideological content.",
+    "Participants in GR discussions construct a collective 'we' by reclaiming the stigmatized label 'conspiracy theorist' as a badge of honor and self-defining as autonomous 'critical thinkers.'",
+    "Affective sharing of personal struggles (economic hardship, exclusion) functions as social glue, transforming individual grievances into a collective oppositional identity.",
+    "The GR debate brings together ideologically distinct groups—secular–libertarian and religious-Christian—into a situational 'diagonal' coalition unified by anti-institutionalism.",
+    "Symbolic boundary work against an imagined 'mainstream other' (depicted as 'sheeple') sustains in-group cohesion and motivates a perceived moral duty to 'awaken' others.",
+    "Identity formation, rather than informational content, should be central to the study of conspiracy cultures on social media."
+  ],
+  "methods": [
+    "Qualitative multimodal discourse analysis (following Norris, 2004) of online posts, comments, images, and video content.",
+    "Cross-platform case study of the 'Great Reset' conspiracy theory on Facebook, Instagram, Twitter/X, YouTube, Reddit, and TikTok, selected for public accessibility, popularity (MAU), and English-language dominance.",
+    "Data collection between the WEF annual meetings of May 22, 2022 and January 20, 2023 via keyword search using Octoparse web scraping and manual archiving; ~100 top posts per platform (24 on YouTube due to volume), filtered for English and GR relevance.",
+    "Final corpus of 524 original posts with 67,848 comments; YouTube videos transcribed in full.",
+    "Iterative coding: inductive open coding (117 initial codes), axial coding into core categories, and closed coding with 32 final codes grouped into in-group construction, out-group construction, and discursive practices.",
+    "Theoretical framing drawing on Lamont's symbolic boundary work, Goffman's stigma, and Jenkins's social identity theory."
+  ],
+  "findings": [
+    "Across platforms, GR discourse is characterized by 'deep state phobia' and shared anti-institutional worldviews despite ideological diversity among participants.",
+    "Two ideal-typical ideological positions—secular–libertarian (focused on freedom from state overreach) and religious-Christian (interpreting GR as biblical apocalypse)—overlap and converge around the GR.",
+    "Users construct in-group identity by self-defining as 'critical thinkers' and using collective 'we' language, paradoxically grounding group identity in claims to individual autonomy.",
+    "The label 'conspiracy theorist' is reclaimed as a 'badge of honor,' inverting stigma into a source of pride, solidarity, and epistemic superiority.",
+    "Personal stories about economic precarity, bills, and family hardship are reworked into 'deep stories' (Hochschild) that bind users through affective solidarity and mutual care alongside resentment.",
+    "Out-group construction frames the 'mainstream' as ignorant 'sheeple,' brainwashed by media and government, justifying an in-group sense of moral duty to 'wake them up.'",
+    "Despite expectations of platform-specific differences, discursive strategies of boundary work were remarkably consistent across the six platforms."
+  ],
+  "contributions": [
+    "Introduces symbolic boundary work as an analytical framework for studying identity formation in online conspiracy cultures, complementing infrastructural and platform-affordance accounts.",
+    "Provides cross-platform empirical evidence (six major platforms) of shared discursive identity strategies, suggesting conspiracy identity work transcends individual platform affordances.",
+    "Identifies and documents the formation of 'diagonal movements' online, where ideologically divergent groups form situational coalitions around anti-institutional narratives.",
+    "Highlights the role of affective solidarity and shared personal hardship—not just shared belief—as the glue holding online conspiracy communities together.",
+    "Contributes to a 'cultural sociology of social media' (Ostertag) by foregrounding meaning-making and identity over informational content.",
+    "Offers policy-relevant insight suggesting that debunking strategies miss the relational and emotional grounding of conspiracy belief."
+  ],
+  "framing": "The paper positions itself within media sociology and the cultural sociology of social media, pushing back against techno-centric explanations of conspiracy spread (echo chambers, filter bubbles, algorithmic radicalization) in favor of an interactionist, meaning-making approach. It draws on a long sociological tradition of symbolic boundary work (Lamont, Bourdieu, Gieryn, Becker, Elias, Goffman, Jenkins) to bridge studies of conspiracy cultures, online subcultures, and identity formation, engaging conversations about participatory conspiracy culture, diagonal political movements, and affective polarization online.",
+  "pdf_source": "drive"
+}
