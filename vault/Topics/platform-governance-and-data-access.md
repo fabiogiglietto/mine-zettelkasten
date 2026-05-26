@@ -44,6 +44,7 @@ Critical analysis of platform policies (Meta's political content reduction, Crow
 - [[Rieder2026-pp]]
 - [[Rossi2023-847d5a9f]]
 - [[Schiffrin_undated-gi]]
+- [[Schulte2026-df]]
 - [[Shi2026-ko]]
 - [[Simeone2025-vo]]
 - [[Tonneau2025-bv]]

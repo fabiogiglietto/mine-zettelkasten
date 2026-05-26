@@ -552,9 +552,9 @@
         "ai-hype-imaginaries-discourse"
       ],
       "pdf_source": "drive",
-      "content_hash": "1ba95bfd26f3fcfbdef4ab316a4c97923b1b78469a0d98db2f5da66a02dd58ad",
+      "content_hash": "389a43158a93ce90e744c17a922a8a9abc764fc24863fe412f070e56df514817",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.244653+00:00"
+      "last_processed": "2026-05-26T17:31:41.341651+00:00"
     },
     "bibtex:Dierickx2026-tw": {
       "note_path": "Papers/Dierickx2026-tw.md",
@@ -2092,8 +2092,20 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-05-21T10:46:10.287253+00:00"
+    },
+    "bibtex:Schulte2026-df": {
+      "note_path": "Papers/Schulte2026-df.md",
+      "topics": [
+        "platform-governance-and-data-access",
+        "computational-social-science-methods"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "a47ebe0a693a1df58f41561911025be7d5f0e2eb261efc32431c39a40ecd2f5f",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-05-26T17:31:41.341628+00:00"
     }
   },
   "last_full_cluster": "2026-05-17T10:31:30.222500+00:00",
-  "papers_since_cluster": 8
+  "papers_since_cluster": 9
 }

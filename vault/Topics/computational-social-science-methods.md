@@ -47,6 +47,7 @@ Methodological reflections and toolbuilding for digital trace data, social netwo
 - [[Rieder2025-ju]]
 - [[Sarmiento2025-as]]
 - [[Scalco2026-bd]]
+- [[Schulte2026-df]]
 - [[Smith2025-kc]]
 - [[Ulloa2024-jm]]
 - [[Wang2026-ub]]
