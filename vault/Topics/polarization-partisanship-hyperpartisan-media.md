@@ -20,6 +20,7 @@ Measurement of partisan attention, insularity, cross-partisan exposure and hyper
 - [[Esau2025-tf]]
 - [[Gaisbauer2025-by]]
 - [[Ghezzi2023-8bebc91f]]
+- [[Giglietto2026-632ef967]]
 - [[Green2025-ap]]
 - [[Hartmann2025-px]]
 - [[Kalsnes2025-zb]]

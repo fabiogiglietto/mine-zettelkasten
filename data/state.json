@@ -2116,6 +2116,18 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-05-26T19:42:35.750848+00:00"
+    },
+    "bibtex:Giglietto2026-632ef967": {
+      "note_path": "Papers/Giglietto2026-632ef967.md",
+      "topics": [
+        "platform-governance-and-data-access",
+        "polarization-partisanship-hyperpartisan-media"
+      ],
+      "kind": "own",
+      "pdf_source": "drive",
+      "content_hash": "6f4eb4ac163f1b9e3b9d0d3227aef04d6887c04366a77a62f0b50235c643e011",
+      "podcast_linked": false,
+      "last_processed": "2026-05-27T10:58:35.012481+00:00"
     }
   },
   "last_full_cluster": "2026-05-17T10:31:30.222500+00:00",
