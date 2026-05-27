@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper argues that AI development is best understood as a 'Project of AI'—a world-building endeavor in which financiers and corporations assemble networks of power, infrastructure, and capital to restructure markets and political economies in their favor. The authors contend that critiques of AI typically focus on 'decoys'—seemingly substantive concerns that actually distract from and co-construct the underlying political economy. Drawing on communication theory, science and technology studies (STS), and economic sociology, the paper identifies five such decoys and proposes alternative anchoring frames for accountability research, particularly for the FAccT community.",
+  "key_claims": [
+    "AI is not primarily a technological phenomenon but a world-building 'Project' through which capitalized actors consolidate networks of power, wealth, and infrastructure.",
+    "Critiques and accountability efforts that focus on technical particulars of AI function as 'decoys' that misdirect attention from the material political economy enabling AI.",
+    "Five interlocking decoys—ontological, inevitability, disruption, safety, and regulatory—each appear to challenge AI but actually co-constitute and stabilize the Project of AI.",
+    "Even well-intentioned scholars, journalists, regulators, and participatory design efforts are enrolled into supporting the Project of AI when they engage these decoys at face value.",
+    "Meaningful fairness and accountability require shifting analysis to the financialization, infrastructural assembly, and network power underlying AI rather than to algorithmic artifacts.",
+    "Networks of power 'shape-shift,' displacing agency and accountability across nodes (CEOs, boards, supply chains, offshore labor), making singular intervention points ineffective."
+  ],
+  "methods": [
+    "Conceptual and theoretical synthesis rather than empirical study.",
+    "Draws on Manuel Castells' theory of network power and 'network-making power' from communication studies.",
+    "Uses Actor-Network Theory and 'material political economy' frameworks from STS.",
+    "Integrates economic sociology on market-making, uncertainty, valuation, and inter-firm relations (e.g., Fligstein, Beckert).",
+    "Analyzes contemporary examples including OpenAI, Anthropic, Microsoft, DeepSeek, the EU AI Act and DMA, and U.S. regulatory developments to illustrate the decoy framework."
+  ],
+  "findings": [
+    "The 'ontological decoy' traps critics in debates over what AI is, while strategic ambiguity enables AI brokers to capture funding and reshape markets.",
+    "The 'inevitability decoy' uses temporal projections (AGI, geopolitical races) to normalize risk, mobilize resources, and foreclose alternative futures, even enrolling participatory design into legitimation.",
+    "The 'disruption decoy' frames workforce automation as the central change while obscuring corporate restructuring, offshoring of labor, and concentration of infrastructural power among elites.",
+    "The 'safety decoy' uses ambiguous and existential-risk framings of AI safety to deflect from immediate harms and legitimize the dominance of AI companies as the sole arbiters of risk.",
+    "The 'regulatory decoy' shows how AI brokers strategically court regulation (e.g., Altman's Senate testimony, engagement with the EU AI Act) to entrench incumbents, whereas market-structure regulation like the EU's DMA more directly targets network power.",
+    "Decoys facilitate 'network shape-shifting,' allowing flows of capital, data, and labor (e.g., ghost work, supply chains) to evade oversight."
+  ],
+  "contributions": [
+    "Introduces the concept of 'the Project of AI' as a world-building, political-economic endeavor distinct from AI-as-technology.",
+    "Develops a typology of five decoys (ontological, inevitability, disruption, safety, regulatory) for diagnosing how AI critique can be co-opted.",
+    "Bridges communication studies, STS, and economic sociology to provide an integrated political-economy framework for FAccT scholarship.",
+    "Proposes four 'anchoring frames' for future research: material sites of network assembly, financing as technopolitical work, global flows over bounded objects, and resisting siloed/social solutionism.",
+    "Reframes accountability and transparency goals away from algorithmic artifacts toward the networks, infrastructures, and financial relations producing AI."
+  ],
+  "framing": "The paper positions itself at the intersection of communication, science and technology studies, and economic sociology, intervening in the FAccT community's discourse on AI fairness, accountability, and transparency. It pushes back against techno-legal and algorithmic solutionism by foregrounding political economy, network power (Castells), and material assemblage (ANT, market-making sociology). The argument is offered as a corrective framework to ensure that critical AI scholarship does not inadvertently legitimize the industry it seeks to hold accountable.",
+  "pdf_source": "drive"
+}
