@@ -1,0 +1,35 @@
+{
+  "abstract": "This article analyzes how researchers can access social media data for studying elections, compiling and categorizing 72 data access tools and programs along two dimensions: independent-versus-collaborative collection methods and content-versus-consumption data types. The authors identify a 'price, proficiency, or permission' problem that determines who can actually use these tools, and document the ephemerality of platform-permission-based access, the scarcity of consumption-data programs, and the WEIRD-centric nature of available infrastructure. They argue for a plurality of data access approaches and offer policy recommendations to sustain election research, including multi-institutional archives and stronger regulatory mandates modeled on the EU Digital Services Act.",
+  "key_claims": [
+    "Effective election research on social media requires a plurality of data access approaches rather than reliance on any single method or platform-permission regime.",
+    "Access to social media data is structured by three barriers — price (financial cost), proficiency (technical/programming skill), and permission/privilege (platform approval and geographic eligibility) — that systematically exclude less-resourced and non-Western researchers.",
+    "Platform-permission-based data access is inherently ephemeral and constitutes 'independence by permission,' making it an unreliable foundation for cumulative election scholarship.",
+    "Consumption (demand-side) data is severely underrepresented compared to production (supply-side) data, creating epistemological gaps in understanding how social media affects voters.",
+    "Policy regulators, not platforms, should set standards for researcher data access, with the EU's GDPR and DSA serving as emerging models.",
+    "Election researchers are uniquely positioned to advocate for expanded data access and to build multi-institutional, global archives (e.g., of politicians' social media activity)."
+  ],
+  "methods": [
+    "Compiled a list of data access tools and programs by combining the Institute for Data, Democracy & Politics (IDDP) platform transparency tracker at George Washington University with Brandon Silverman's list of research tools, supplemented by SCOPUS and Google Scholar keyword searches.",
+    "Filtered Silverman's 253-tool list to those that facilitate data collection and have been used in at least one peer-reviewed study or preprint, yielding a final combined dataset of 72 unique data access tools/programs.",
+    "Manually coded each tool along 10 dimensions: active status, platforms covered, collection method, independent vs. collaborative, content vs. consumption data, pricing structure, geographic availability, dashboard availability, start date, and end date.",
+    "Organized analysis around a 2x2 theoretical framework crossing the independent-to-platform-provided axis with the production-to-consumption axis, producing four quadrants for interpretive analysis.",
+    "Used qualitative case analysis of notable programs (e.g., CrowdTangle, Meta Content Library, Pushshift, Social Science One, Meta 2020 Election Project, National Internet Observatory) to illustrate quadrant dynamics."
+  ],
+  "findings": [
+    "Of 72 tools analyzed, 66 focus on production data and only 6 on consumption data, demonstrating a substantial imbalance in what researchers can study.",
+    "Platform-provided production tools (24 tools, 33.3%) dominate the permission-based quadrant, but many DSA-mandated programs remain in beta and are restricted to EU-based researchers.",
+    "Independent collection (n=42) is the largest category, but splits into paid third-party services (favoring price), scraping/unofficial APIs (favoring proficiency), and data donation tools — each with distinct access barriers.",
+    "Meta has cycled through four major data-access initiatives (Social Science One, CrowdTangle, FORT, Meta Content Library), illustrating the instability of platform-led access regimes; CrowdTangle's August 2024 shutdown disrupted research just before the U.S. election.",
+    "Independent consumption data efforts (e.g., National Internet Observatory, PORT, data donation studies) are promising but face challenges of small/skewed samples, high infrastructure costs, and rigorous ethical requirements.",
+    "Most access programs are oriented toward U.S. and European researchers, reinforcing WEIRD-centric inequities in global election research."
+  ],
+  "contributions": [
+    "Introduces a two-dimensional analytical framework (independent vs. collaborative; production vs. consumption) for categorizing social media data access approaches.",
+    "Provides a curated and coded inventory of 72 election-relevant data access tools, included as a public appendix for the research community.",
+    "Articulates the 'price, proficiency, permission' heuristic as a diagnostic for inequities in social media research access.",
+    "Offers concrete policy recommendations, including support for plural access regimes, legal protections for independent collection methods, and the creation of a global public archive of politicians' social media activity.",
+    "Connects methodological concerns about data access to epistemological consequences for what election research can and cannot learn about democratic processes."
+  ],
+  "framing": "The paper situates itself within ongoing 'post-API age' debates in computational social science and political communication about how platform power shapes research possibilities. It builds on prior work by Freelon, Tromble, Ohme et al., and Breuer et al. on user-centric versus platform-centric data access, extending these conversations into the domain of elections research and contributing to scholarship on platform governance, the Digital Services Act, and digital democracy.",
+  "pdf_source": "drive"
+}
