@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: coordinated-inauthentic-behavior
+slug: coordinated-inauthentic-behaviour
 emergent: false
 ---
 
-# Coordinated Inauthentic Behavior
+# Coordinated Inauthentic Behaviour
 
-Detection, evolution, and mitigation of coordinated link sharing and inauthentic networks on social media platforms. The PI's signature research line, anchored by CooRnet and the CLSB methodology, spanning elections in Italy, Germany, Brazil, India, and Nigeria.
+Detection, conceptualisation and longitudinal study of coordinated link sharing and inauthentic networks on social platforms, including the CooRnet methodological lineage and its application to elections and problematic content.
 
 ## Papers
 
@@ -20,7 +20,6 @@ Detection, evolution, and mitigation of coordinated link sharing and inauthentic
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
-- [[Goel2025-iq]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
 - [[Hurcombe2025-cs]]
@@ -40,7 +39,6 @@ Detection, evolution, and mitigation of coordinated link sharing and inauthentic
 - [[Schroeder2026-im]]
 - [[Song2025-yh]]
 - [[Thiele2025-ol]]
-- [[Unknown2023-9137f448]]
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
 
@@ -48,6 +46,6 @@ Detection, evolution, and mitigation of coordinated link sharing and inauthentic
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "coordinated-inauthentic-behavior")
+WHERE contains(topics, "coordinated-inauthentic-behaviour")
 SORT discovery_date DESC
 ```

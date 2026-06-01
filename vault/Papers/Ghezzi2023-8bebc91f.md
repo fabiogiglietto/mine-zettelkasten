@@ -6,7 +6,7 @@ year: 2023
 doi: 10.31235/osf.io/4cyfu
 bibtex_key: Ghezzi2023-8bebc91f
 kind: own
-topics: [polarization-partisanship-hyperpartisan-media, problematic-health-information]
+topics: [health-misinformation, news-ecosystems-and-partisanship]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.31235/osf.io/4cyfu

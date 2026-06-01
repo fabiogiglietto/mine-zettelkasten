@@ -5,7 +5,7 @@ authors: ["Paul Balluff", "Justin Chun-ting Ho", "Johannes B. Gruber", "Sean Pal
 year: 2026
 doi: 10.1080/10584609.2026.2618486
 bibtex_key: Balluff2026-if
-topics: [generative-ai-and-llms, computational-social-science-methods]
+topics: [computational-methods-and-llms, digital-methods-and-research-ethics]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2618486

@@ -5,7 +5,7 @@ authors: ["Emilio Ferrara"]
 year: 2026
 doi: 10.3390/fi18020073
 bibtex_key: Emilio2026-ik
-topics: [generative-ai-and-llms, information-disorder]
+topics: [generative-ai-and-media, information-disorder]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.3390/fi18020073

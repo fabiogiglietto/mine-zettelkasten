@@ -4,32 +4,28 @@ slug: information-disorder
 emergent: false
 ---
 
-# Information Disorder and Fact-Checking
+# Information Disorder and Disinformation
 
-Conceptualisation and empirical study of mis/disinformation, fake news, problematic information and counter-strategies (fact-checking, debunking) within the hybrid media system. Foundational to the PROMPT and MINE-FACTS projects and to the PI's most cited theoretical contributions.
+Empirical and conceptual work on misinformation, disinformation and 'fake news' within hybrid media systems, including problematic health content and narrative monitoring across European contexts.
 
 ## Papers
 
 - [[Adam2026-tz]]
-- [[Appel2026-qr]]
 - [[Arceneaux2026-xk]]
 - [[Bennett2025-xs]]
 - [[Bollenbacher2026-vz]]
 - [[Bosch2024-hj]]
+- [[Bruns2026-yv]]
 - [[Budak2024-ef]]
 - [[Cazzamatta2026-lo]]
 - [[Choi2026-bz]]
 - [[Copland2025-em]]
-- [[DeVerna2025-dl]]
 - [[Di-Domenico2026-zq]]
-- [[Dierickx2026-tw]]
 - [[Donovan2025-ws]]
 - [[Emilio2026-ik]]
-- [[F2020-6278a4aa]]
 - [[Farkas2026-lr]]
 - [[FitzGerald2025-nv]]
 - [[Frischlich2025-vn]]
-- [[Gardam2025-er]]
 - [[Gattermann2025-yx]]
 - [[Giglietto2019-e9be81c1]]
 - [[Goel2025-iq]]
@@ -38,10 +34,9 @@ Conceptualisation and empirical study of mis/disinformation, fake news, problema
 - [[Hameleers2026-mc]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
-- [[Kansaon2025-id]]
 - [[Kim2026-wg]]
-- [[Lieu2025-nl]]
 - [[Luhring2025-od]]
+- [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
 - [[Marwick2025-ov]]
 - [[Mosleh2024-op]]
@@ -49,14 +44,17 @@ Conceptualisation and empirical study of mis/disinformation, fake news, problema
 - [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
 - [[Renault2025-uh]]
-- [[Rodarte2026-dk]]
 - [[Rohrbach2026-rc]]
 - [[Rossi2023-847d5a9f]]
 - [[Rossini2026-jn]]
+- [[Rothut2026-or]]
 - [[Sadler2025-vu]]
+- [[Scalco2026-bd]]
 - [[Shi2026-ko]]
 - [[Spampatti2026-kx]]
 - [[Starbird2025-jj]]
+- [[Suau_Martinez2026-lv]]
+- [[Szabo2026-rd]]
 - [[Tai2026-qk]]
 - [[Thiele2025-ol]]
 - [[Triedman2025-uy]]

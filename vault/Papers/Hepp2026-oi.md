@@ -5,7 +5,7 @@ authors: ["Andreas Hepp"]
 year: 2026
 doi: 10.1177/01634437261454515
 bibtex_key: Hepp2026-oi
-topics: [platform-governance-and-data-access, computational-social-science-methods]
+topics: [elections-and-political-communication, platform-governance-and-apis]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/01634437261454515

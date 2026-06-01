@@ -1,0 +1,54 @@
+---
+type: topic
+slug: computational-methods-and-llms
+emergent: false
+---
+
+# Computational Methods and LLMs for Communication Research
+
+Development and validation of computational pipelines — embeddings, LLM-in-the-loop classification, network analysis — for political discourse and news studies, addressing reliability and reproducibility.
+
+## Papers
+
+- [[Achmann-Denkler2026-lx]]
+- [[Allen2025-ot]]
+- [[Arminio2025-tw]]
+- [[Arora2025-tx]]
+- [[Bailard2024-pj]]
+- [[Balluff2026-if]]
+- [[Brown2025-jk]]
+- [[Bruns2025-fz]]
+- [[DeVerna2025-dl]]
+- [[DiGiuseppe2025-es]]
+- [[Elfes2026-jb]]
+- [[Fan2025-ut]]
+- [[Gaisbauer2025-by]]
+- [[Gerard2025-br]]
+- [[Giglietto2024-cbeb3f70]]
+- [[Iannucci2025-eg]]
+- [[Iris2026-pg]]
+- [[Kulichkina2026-zk]]
+- [[Lai2024-to]]
+- [[Larsson2026-ro]]
+- [[Le-Mens2025-qz]]
+- [[Lee2026-je]]
+- [[Mannocci2025-ig]]
+- [[Marino2024-2fbc690f]]
+- [[Meher2025-qb]]
+- [[Minici2024-tf]]
+- [[Nenno2025-xa]]
+- [[Paci2025-ag]]
+- [[Pante2025-pq]]
+- [[Sarmiento2025-as]]
+- [[Tan2024-vl]]
+- [[Ulloa2024-jm]]
+- [[Waight2025-al]]
+- [[Yang2025-iv]]
+
+## All papers (Dataview)
+
+```dataview
+LIST FROM "Papers"
+WHERE contains(topics, "computational-methods-and-llms")
+SORT discovery_date DESC
+```

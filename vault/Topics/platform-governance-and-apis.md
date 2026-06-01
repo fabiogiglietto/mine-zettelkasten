@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: platform-governance-and-data-access
+slug: platform-governance-and-apis
 emergent: false
 ---
 
-# Platform Governance and Research Data Access
+# Platform Governance, APIs and Data Access
 
-Critical analysis of platform policies (Meta's political content reduction, CrowdTangle shutdown), the Digital Services Act era, and the shifting infrastructure of social media research APIs and tools. Increasingly central as legacy data sources collapse.
+Studies of platform policy changes (e.g. Meta's political content reduction, CrowdTangle shutdown), the DSA-era research API landscape, and the methodological consequences of walled-garden access for social media research.
 
 ## Papers
 
@@ -15,26 +15,25 @@ Critical analysis of platform policies (Meta's political content reduction, Crow
 - [[Bak-Coleman2026-mk]]
 - [[Bastos2025-ol]]
 - [[Bastos2025-ya]]
-- [[Bouchaud2026-lr]]
+- [[Brady2026-ln]]
 - [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
 - [[De2026-ld]]
 - [[Donovan2025-ws]]
 - [[Efstratiou2025-gs]]
 - [[Entrena-Serrano2025-gw]]
-- [[Farkas2026-lr]]
 - [[Freelon2024-sc]]
+- [[Gauthier2026-iq]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]
 - [[Giglietto2025-1e9a0917]]
 - [[Giglietto2026-632ef967]]
 - [[Heiss2026-qv]]
-- [[Helmond2026-ll]]
 - [[Hepp2026-oi]]
 - [[Hurcombe2025-cs]]
-- [[Inacio-da-Silva2026-zf]]
 - [[Jurg2025-ur]]
 - [[Lewandowsky2026-ob]]
+- [[Lukito2026-nb]]
 - [[Mahl2026-hc]]
 - [[McNally2025-dn]]
 - [[Moran2025-qn]]
@@ -46,25 +45,21 @@ Critical analysis of platform policies (Meta's political content reduction, Crow
 - [[Pierri2025-hm]]
 - [[Rieder2025-ju]]
 - [[Rieder2026-pp]]
-- [[Rossi2023-847d5a9f]]
 - [[Schiffrin_undated-gi]]
 - [[Schulte2026-df]]
-- [[Shi2026-ko]]
 - [[Simeone2025-vo]]
 - [[Tonneau2025-bv]]
-- [[Tornberg2025-ir]]
 - [[Tornberg2026-lc]]
 - [[Unknown2025-ed60bc90]]
 - [[Ventura2026-yc]]
-- [[Vincent_undated-re]]
 - [[Votta2025-xz]]
-- [[Wang2026-ub]]
+- [[Weinbrand2026-sf]]
 - [[Yang2026-tq]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "platform-governance-and-data-access")
+WHERE contains(topics, "platform-governance-and-apis")
 SORT discovery_date DESC
 ```

@@ -5,7 +5,7 @@ authors: ["Marco T. Bastos"]
 year: 2025
 doi: 10.2139/ssrn.5206365
 bibtex_key: Bastos2025-ya
-topics: [platform-governance-and-data-access, computational-social-science-methods]
+topics: [platform-governance-and-apis, news-ecosystems-and-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.2139/ssrn.5206365

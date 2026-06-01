@@ -5,7 +5,7 @@ authors: ["Yiru Shi"]
 year: 2026
 doi: 10.1080/17544750.2026.2623075
 bibtex_key: Shi2026-ko
-topics: [information-disorder, platform-governance-and-data-access]
+topics: [information-disorder]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/17544750.2026.2623075

@@ -5,7 +5,7 @@ authors: ["Zhen Tan", "Dawei Li", "Song Wang", "Alimohammad Beigi", "Bohan Jiang
 year: 2024
 doi: 
 bibtex_key: Tan2024-vl
-topics: [generative-ai-and-llms]
+topics: [computational-methods-and-llms]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2402.13446v3

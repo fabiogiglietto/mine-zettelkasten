@@ -5,7 +5,7 @@ authors: ["Anya Schiffrin", "Alice E. Marwick", "Navya Sinha", "Anusha Wangnoo",
 year: 2026
 doi: 10.69985/enbp3007
 bibtex_key: Schiffrin_undated-gi
-topics: [platform-governance-and-data-access, generative-ai-and-llms]
+topics: [generative-ai-and-media, platform-governance-and-apis]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.69985/enbp3007
