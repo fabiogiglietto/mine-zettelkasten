@@ -2298,10 +2298,10 @@
         "elections-and-political-communication"
       ],
       "pdf_source": "drive",
-      "content_hash": "d9a5bc7902004dadf36c28d9d2357c92c87ba23f0132014b6f581e3c52f7196d",
-      "podcast_linked": false,
+      "content_hash": "28096bd26582f298fe78b83f9624889e18f0933b226016bd907ba5659b7962a3",
+      "podcast_linked": true,
       "slack_posted": true,
-      "last_processed": "2026-06-01T09:28:10.397859+00:00"
+      "last_processed": "2026-06-03T20:08:01.555775+00:00"
     },
     "bibtex:Suau_Martinez2026-lv": {
       "note_path": "Papers/Suau_Martinez2026-lv.md",

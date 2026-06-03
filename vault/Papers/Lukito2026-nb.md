@@ -9,7 +9,7 @@ topics: [platform-governance-and-apis, elections-and-political-communication]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2026.2667921
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lukito2026-nb.mp3
 pdf_available: true
 discovery_date: 2026-06-01T08:21:13.645475Z
 ---
@@ -18,29 +18,33 @@ discovery_date: 2026-06-01T08:21:13.645475Z
 
 ## Summary
 
-This article surveys the landscape of social media data access for election researchers, inventorying 72 tools and programs and organizing them along two axes: independent versus collaborative collection, and production (content) versus consumption (exposure/behavior) data. Lukito and Mimizuka argue that access is gated by a "price, proficiency, or permission" trilemma that systematically excludes less-resourced and non-Western scholars, and that platform-mediated access regimes are too ephemeral and too narrowly content-focused to sustain cumulative election scholarship. They call for a pluralistic access ecosystem backed by regulatory mandates (modeled on the EU DSA) and multi-institutional archives rather than dependence on any single platform's goodwill.
+This article maps the landscape of social media data access tools available to election researchers, cataloguing 72 programs and analyzing them along two axes: independent versus collaborative collection, and content (production) versus consumption data. Lukito and Mimizuka argue that access is gated by a triad of barriers — **price, proficiency, and permission** — that systematically disadvantage less-resourced and non-Western scholars. They document the chronic instability of platform-permission regimes (epitomized by Meta's serial cycling through Social Science One, CrowdTangle, FORT, and the Meta Content Library), the near-absence of consumption-data infrastructure, and the WEIRD-centric geography of available tools. Rather than endorsing any single solution, they advocate a plurality of access approaches sustained through multi-institutional archives and regulatory mandates modeled on the EU's Digital Services Act.
 
 ## Key Contributions
 
-- A 2×2 framework crossing independent/collaborative collection with production/consumption data types, yielding four quadrants for diagnosing access regimes.
+- A two-dimensional framework (independent↔collaborative × production↔consumption) for classifying data access regimes.
 - A curated, publicly released inventory of 72 election-relevant data access tools, coded along 10 dimensions.
-- The "price, proficiency, permission" heuristic for naming structural inequities in research access.
-- Policy recommendations including legal protection for independent collection, plural access regimes, and a global public archive of politicians' social media activity.
-- A link between methodological access constraints and the epistemological limits of what election research can know.
+- The "price, proficiency, permission" heuristic as a diagnostic for structural inequities in computational election research.
+- Policy recommendations including legal protections for independent collection, plural access regimes, and a proposed global public archive of politicians' social media activity.
+- An argument linking methodological access constraints to epistemological limits on what election research can know.
 
 ## Methods
 
-The authors merged the IDDP platform transparency tracker with Brandon Silverman's tool list, supplemented by SCOPUS and Google Scholar searches, then filtered to tools used in at least one peer-reviewed study or preprint to produce 72 unique entries. Each tool was hand-coded for active status, platforms, collection method, independent vs. collaborative, content vs. consumption, pricing, geography, dashboard availability, and start/end dates. Interpretation proceeds through qualitative case analysis of representative programs (CrowdTangle, Meta Content Library, Pushshift, Social Science One, the Meta 2020 Election Project, National Internet Observatory) within each quadrant.
+The authors merged the IDDP platform transparency tracker with Brandon Silverman's list of 253 research tools, supplemented by SCOPUS and Google Scholar searches, filtering to tools used in at least one peer-reviewed study or preprint. This produced 72 unique programs, each manually coded on dimensions including active status, platforms covered, collection method, data type, pricing, geographic availability, and lifespan. Analysis proceeds via the 2×2 framework, with qualitative case studies of pivotal programs (CrowdTangle, Meta Content Library, Pushshift, Social Science One, the Meta 2020 Election Project, the National Internet Observatory) illustrating each quadrant's dynamics.
 
 ## Findings
 
-- Production data dominates overwhelmingly: 66 of 72 tools target content, only 6 target consumption — a striking epistemological imbalance.
-- Platform-provided production tools (33.3% of the inventory) form the largest permission-gated category, but many DSA-mandated programs remain in beta and restrict access to EU-based researchers.
-- Independent collection (n=42) is the largest category overall, but fractures into paid third-party services, scraping/unofficial APIs, and data donation tools — each instantiating a different barrier (price, proficiency, ethics/infrastructure).
-- Meta has cycled through four major access initiatives (Social Science One, CrowdTangle, FORT, Meta Content Library), and CrowdTangle's August 2024 shutdown disrupted research immediately before the U.S. election — vivid evidence of "independence by permission."
-- Consumption-data efforts (NIO, PORT, donation studies) face small/skewed samples, costly infrastructure, and heavy ethical overhead.
-- Access programs skew WEIRD, reinforcing global inequities in election research capacity.
+- Only 6 of 72 tools focus on consumption data versus 66 on production — a stark epistemological asymmetry for understanding how social media affects voters.
+- Platform-provided production tools (24, or 33.3%) dominate the permission quadrant; many DSA-mandated programs remain in beta and EU-restricted.
+- Independent collection is the largest category (n=42) but fragments into paid third-party services, scraping/unofficial APIs, and donation tools — each privileging a different barrier (price, proficiency, or participant access).
+- Meta has cycled through four major access initiatives; CrowdTangle's August 2024 shutdown disrupted research immediately before the U.S. election, exemplifying "independence by permission."
+- Independent consumption efforts (NIO, PORT, donation studies) are promising but constrained by sample skew, infrastructure cost, and ethical complexity.
+- Most programs serve U.S. and European researchers, reinforcing WEIRD inequities.
 
 ## Connections
 
-No other papers have yet been registered under the platform-governance-and-apis or elections-and-political-communication topics in this Zettelkasten, so there are no genuine intellectual connections to link at present. The paper's natural neighbors would be work on the "post-API age" (Freelon, Tromble), data donation methodologies (Ohme, Breuer), and DSA Article 40 implementation studies — to be linked as such notes are added.
+This paper sits squarely in the "post-API age" conversation about platform power over research, complementing [[Freelon2024-sc]] and [[Gonzalez-Bailon2024-rq]] on the precarity of platform-mediated access, and [[Ohme2026-nv]] on user-centric data donation as an alternative paradigm. Its critique of permission regimes resonates with [[Rieder2025-ju]] and [[Rieder2026-pp]] on API politics, while its DSA-oriented policy turn connects to [[Lewandowsky2026-ob]] and broader European regulatory scholarship; the documentation of CrowdTangle's collapse echoes concerns developed in [[Bak-Coleman2025-pm]] and [[Murtfeldt2025-wu]] about reproducibility under unstable platform infrastructures.
+
+## Podcast
+
+A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lukito2026-nb.mp3)
