@@ -2300,8 +2300,7 @@
       "pdf_source": "drive",
       "content_hash": "d9a5bc7902004dadf36c28d9d2357c92c87ba23f0132014b6f581e3c52f7196d",
       "podcast_linked": false,
-      "slack_posted": false,
-      "slack_pending": true,
+      "slack_posted": true,
       "last_processed": "2026-06-01T09:28:10.397859+00:00"
     },
     "bibtex:Suau_Martinez2026-lv": {
@@ -2312,8 +2311,7 @@
       "pdf_source": "abstract_only",
       "content_hash": "97dd3877f03503d3f8805512052897dbc8c46d01d580f04bb1cbc3b3c924c940",
       "podcast_linked": false,
-      "slack_posted": false,
-      "slack_pending": true,
+      "slack_posted": true,
       "last_processed": "2026-06-01T09:28:11.867238+00:00"
     }
   },
