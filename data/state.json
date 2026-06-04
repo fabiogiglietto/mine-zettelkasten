@@ -2313,8 +2313,19 @@
       "podcast_linked": false,
       "slack_posted": true,
       "last_processed": "2026-06-01T09:28:11.867238+00:00"
+    },
+    "bibtex:de-Vreese2026-zx": {
+      "note_path": "Papers/de-Vreese2026-zx.md",
+      "topics": [
+        "platform-governance-and-apis"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "4b7cefb217bade99ee70dedf4edb142776dfd8498ac275bd8896d5c3873dd915",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-04T09:20:03.068884+00:00"
     }
   },
   "last_full_cluster": "2026-06-01T09:47:07.310381+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }

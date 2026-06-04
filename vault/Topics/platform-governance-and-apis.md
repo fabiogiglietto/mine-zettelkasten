@@ -55,6 +55,7 @@ Studies of platform policy changes (e.g. Meta's political content reduction, Cro
 - [[Votta2025-xz]]
 - [[Weinbrand2026-sf]]
 - [[Yang2026-tq]]
+- [[de-Vreese2026-zx]]
 
 ## All papers (Dataview)
 
