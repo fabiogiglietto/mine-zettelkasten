@@ -1,0 +1,33 @@
+{
+  "abstract": "This Forum article assesses the state of social media data access for political communication research as of early 2026, focusing on the European Union's Digital Services Act (DSA) and its Article 40 provisions for vetted researcher access. De Vreese and Tromble argue that current turbulence — platform resistance, procedural friction, and political contestation — should not be read as regulatory failure but as evidence that binding regulation is finally beginning to constrain entrenched platform power. They urge scholars and policymakers not to abandon hard-won frameworks but to stand firm on implementation, monitoring, and optimization.",
+  "key_claims": [
+    "Current instability in platform data access reflects a combination of 'moving targets' (shifting platform architectures) and 'moving politics' (evolving regulatory and geopolitical pressures), not regulatory overreach.",
+    "Platform pushback against DSA Article 40 — through legal smokescreens, delays, controlled access infrastructures, and narrow interpretations — is predictable and signals that the regulation is targeting the right asymmetries of informational power.",
+    "Voluntary instruments like the Code of Practice on Disinformation demonstrated the limits of self-regulation when platforms' core commercial and political interests are at stake.",
+    "Meaningful data access requires institutional scaffolding (trusted intermediaries, secure environments, shared standards), not only legal mandates.",
+    "Retreating from binding frameworks now would restore platform discretion and consolidate platform power at the moment it is finally being challenged.",
+    "The appropriate strategic posture is a 'marathon' of sustained implementation, enforcement, and complementary infrastructure-building rather than redesigning the regulatory architecture."
+  ],
+  "methods": [
+    "Analytical commentary and policy review rather than empirical study.",
+    "Tracing the historical evolution of EU platform data access governance from 2010s API/scraping practices through voluntary codes to the DSA.",
+    "Drawing on early implementation experiences of DSA Article 40 and the late-2024 Delegated Act.",
+    "Reflection on the authors' involvement in the European Digital Media Observatory (EDMO) working group on data access."
+  ],
+  "findings": [
+    "The 2010s research environment produced a profound informational asymmetry between platforms and external researchers, with access treated as a fact of life rather than a governance failure.",
+    "The EDMO working group reframed data access as a public policy issue and helped articulate a shared Code of Conduct linked to DSA provisions.",
+    "The DSA's Article 40 marks a qualitative shift by making data access a binding legal right for vetted researchers studying systemic risks, balanced against privacy, security, and trade-secret concerns.",
+    "Early monitoring of Article 40 implementation reveals opaque procedures, inconsistent timelines, unclear contact points, under-resourced regulators, and strategic ambiguity from platforms.",
+    "Implementation now unfolds within a politicized geopolitical context in which data access becomes entangled with free speech debates and transatlantic tensions."
+  ],
+  "contributions": [
+    "Offers a state-of-play assessment of EU social media data access governance as of early 2026 for the political communication field.",
+    "Reframes current friction in DSA implementation as a sign of regulatory effectiveness rather than failure.",
+    "Articulates a strategic agenda — 'stand firm' — emphasizing implementation, monitoring, and complementary infrastructures over regulatory redesign.",
+    "Situates Article 40 within a longer trajectory from voluntary codes to binding obligations, providing historical context for ongoing debates.",
+    "Warns against 'regulatory fatigue' as disproportionately benefiting large platforms and undermining democratic research infrastructure."
+  ],
+  "framing": "The article positions itself within debates on platform governance, regulatory political economy, and research infrastructure for political communication, and contributes to a Forum that includes companion pieces by Ohme and Sellig on Article 40. It frames data access as a question of informational power asymmetries between platforms and the public interest, drawing on EU regulatory theory and the lived experience of researchers navigating the Digital Services Act.",
+  "pdf_source": "drive"
+}
