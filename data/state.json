@@ -1183,9 +1183,9 @@
         "platform-governance-and-apis"
       ],
       "pdf_source": "drive",
-      "content_hash": "20aff88a27a7beb3ed6acf82ca706ed9e2f209efb97322a71384f94b6ec6c855",
+      "content_hash": "c67d282037b4dace2e6157b258215a7dcefda0dee5de04fac2e3e0d778f672ad",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.262099+00:00"
+      "last_processed": "2026-06-06T11:18:21.419745+00:00"
     },
     "bibtex:Arminio2025-tw": {
       "note_path": "Papers/Arminio2025-tw.md",
@@ -1369,9 +1369,9 @@
         "information-disorder"
       ],
       "pdf_source": "drive",
-      "content_hash": "054eb961afa2bd9e6896b8e81a0c6cdeaa1abe04b434f21a7453ae8d3e43e5b2",
+      "content_hash": "51303ffaa46f35663af534b596cc94450ac514e14877d744924e910ed94bbcee",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.264333+00:00"
+      "last_processed": "2026-06-06T11:18:21.419753+00:00"
     },
     "bibtex:Ventura2025-sw": {
       "note_path": "Papers/Ventura2025-sw.md",
@@ -1514,9 +1514,9 @@
       "note_path": "Papers/Smith2025-kc.md",
       "topics": [],
       "pdf_source": "drive",
-      "content_hash": "e3e94bdabfbe685d42f0cc9a97e93bd07ca353167d85fb551e0e80deea57e5a1",
+      "content_hash": "80e4839ebd99482c32397ff2e22fba3c8bc9b694edcf3a7a790c87c229feed92",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.266049+00:00"
+      "last_processed": "2026-06-06T11:18:21.419757+00:00"
     },
     "bibtex:Moran2025-qn": {
       "note_path": "Papers/Moran2025-qn.md",
@@ -2324,8 +2324,20 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-04T09:20:03.068884+00:00"
+    },
+    "bibtex:Fan2026-af": {
+      "note_path": "Papers/Fan2026-af.md",
+      "topics": [
+        "computational-methods-and-llms",
+        "digital-methods-and-research-ethics"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "3bd195a02387172096cd7d82c037145b44445aff3db57d9974ab6c5517b1e3f7",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-06T11:18:21.419723+00:00"
     }
   },
   "last_full_cluster": "2026-06-01T09:47:07.310381+00:00",
-  "papers_since_cluster": 1
+  "papers_since_cluster": 2
 }

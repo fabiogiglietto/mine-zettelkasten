@@ -22,6 +22,7 @@ Development and validation of computational pipelines — embeddings, LLM-in-the
 - [[DiGiuseppe2025-es]]
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
+- [[Fan2026-af]]
 - [[Gaisbauer2025-by]]
 - [[Gerard2025-br]]
 - [[Giglietto2024-cbeb3f70]]

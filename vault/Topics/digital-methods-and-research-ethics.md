@@ -14,6 +14,7 @@ Methodological contributions on using Facebook, Twitter and YouTube as research 
 - [[Bak-Coleman2026-mk]]
 - [[Balluff2026-if]]
 - [[Bruns2025-fz]]
+- [[Fan2026-af]]
 - [[Freelon2024-sc]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Heiss2026-qv]]
