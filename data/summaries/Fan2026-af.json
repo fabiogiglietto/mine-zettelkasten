@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper proposes a new research framework for communication scholars that leverages the fine-grained timestamps in digital trace data (DTD) to analyze time-evolving 'user-sequences,' preserving hyper-longitudinal information rather than aggregating it into cross-sectional measures. The authors review six computational approaches—sequence analysis, event history analysis, hidden Markov models, network analysis, process mining, and language-based models—and illustrate them via a case study using 1,262,775 timestamped traces donated by 309 German users across Facebook, Instagram, TikTok, and YouTube over three months in 2024. The study assesses how each method addresses analytical challenges such as data volume, complexity, incompleteness, and cross-platform alignment, and argues for a conceptual reorientation toward the temporal dimension in communication research.",
+  "key_claims": [
+    "There is a longstanding gap between communication theory's treatment of communication as a dynamic process and the predominantly non-dynamical, time-aggregated methods used empirically.",
+    "Digital trace data combined with computational methods enable a new analytical paradigm that preserves second-order behavioral attributes such as temporal patterns, path dependencies, and behavioral motifs.",
+    "Representing user activity as chronologically ordered 'user-sequences' provides a flexible analytical lens that can zoom between individual-level processes and group-level behaviors across time scales.",
+    "Different analytical approaches uncover distinct facets of temporal dynamics, and no single method comprehensively addresses all challenges posed by hyper-longitudinal DTD.",
+    "Language-based (neural embedding) models are especially promising because they capture sequence-level patterns and handle many DTD challenges, but they require large, high-quality, multimodal datasets that the field currently lacks."
+  ],
+  "methods": [
+    "Conceptual development of a 'user-sequence' framework that chronologically orders user interactions and applies computational methods to study inter-activity dependencies.",
+    "Method review of six analytical approaches: sequence analysis, event history (survival) analysis, hidden Markov models (HMM), network analysis, process mining, and language-based (embedding) models.",
+    "Case study applying all six methods to a dataset of 1,262,775 timestamped traces from 309 users (May 1–August 1, 2024) across Facebook, Instagram, TikTok, and YouTube, collected via Data Download Package donation as part of a 2-wave panel study of German platform users (recruited via Bilendi, oversampling 18–27 year-olds).",
+    "Specific techniques implemented: optimal matching with hierarchical clustering for sequence analysis; sliding-window subsequence (n-gram) mining; Kaplan-Meier estimator and Cox proportional hazards model for event history analysis; HMM with AIC/BIC selection of hidden states; weighted directed network construction with Clauset-Newman-Moore community detection; BPMN process discovery and directly-follows graphs; 100-dimensional word2vec-style embeddings visualized with t-SNE."
+  ],
+  "findings": [
+    "Sequence analysis revealed that most users' donated sequences were dominated by a single platform; optimal-matching clustering yielded 20 clusters but suffered from extreme variation in sequence lengths.",
+    "Subsequence mining showed that the most frequent significant motifs were identical consecutive activities, plus within-platform transitions (e.g., Instagram like→share, TikTok watch→favorite); results were sensitive to the chosen time window (10 vs. 20/30 minutes).",
+    "Event history analysis showed most sessions ended within two hours; Facebook and Instagram sessions had significantly higher hazards of platform-switching than YouTube, while TikTok sessions were slightly less likely to switch.",
+    "A four-state HMM converged on daily sequences, with each hidden state corresponding largely to activity on one of the four platforms and high probabilities of remaining in the same state.",
+    "Network analysis found all platforms interconnected with no strong directional bias; TikTok login had highest in-degree and TikTok video-watching highest out-degree; modularity analysis (Q=0.34) split activities into a TikTok+YouTube-watching community and a Facebook/Instagram/YouTube-search community.",
+    "Process mining revealed within-platform transitions are much faster than cross-platform ones (e.g., Facebook→Instagram averaged 3.4 hours, Instagram→Facebook over 9 hours); identified two stylized daily routines (a TikTok path and a Facebook/Instagram path), with YouTube typically at the end of daily routines.",
+    "The embedding model organized event logs primarily by platform, and captured semantically meaningful local structure such as geographic similarity in Facebook search queries about nearby Bavarian towns and thematic clustering of TikTok entertainment content."
+  ],
+  "contributions": [
+    "Introduces the 'user-sequence' framework as a conceptual and methodological reorientation toward temporal dynamics in communication research.",
+    "Provides an integrated method review situating six analytical approaches in relation to communication research questions.",
+    "Offers an empirical demonstration using a large, original multi-platform data-donation dataset, including code released via OSF.",
+    "Delivers a structured assessment (Table 3) mapping each method's strengths and weaknesses against six practical challenges of DTD (volume, complexity, incompleteness/skewness, time window, data alignment, data volatility).",
+    "Highlights the potential of language-based sequence models for causal inference and person-level summarization in communication research, and calls for collaborative efforts to build large, high-quality training datasets."
+  ],
+  "framing": "The paper situates itself within ongoing debates about the 'temporal turn' in communication research (Wells et al., 2019; Lee & Peng, 2023), critiquing the field's reliance on the time-budget paradigm and cross-sectional aggregation of digital trace data. It engages with conceptual discussions about media effects, intraindividual change, and processual theorizing (Brinberg & Lydon-Staley; Baumgartner) while drawing methodological inspiration from sociology, computational science, process mining, and NLP to bridge theoretical dynamicality with empirical practice.",
+  "pdf_source": "drive"
+}
