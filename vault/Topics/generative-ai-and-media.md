@@ -4,14 +4,15 @@ slug: generative-ai-and-media
 emergent: false
 ---
 
-# Generative AI and Media Manipulation
+# Generative AI and Media
 
-Emerging line on generative-AI-enabled persuasion, synthetic media in coordinated promotion (e.g. gambling), and AI-assisted verification tools for journalists and fact-checkers.
+Investigation of how generative AI reshapes visual persuasion, news production, and online manipulation, including synthetic content in coordinated gambling promotion and the agentic framing of AI in news. Combines a research strand with a dedicated Master's course.
 
 ## Papers
 
+- [[Achmann-Denkler2026-lx]]
+- [[Arminio2025-tw]]
 - [[Choi2026-bz]]
-- [[DeVerna2025-dl]]
 - [[DiGiuseppe2026-pu]]
 - [[Dierickx2026-tw]]
 - [[Dodds2026-df]]
@@ -20,13 +21,13 @@ Emerging line on generative-AI-enabled persuasion, synthetic media in coordinate
 - [[Hackenburg2025-dj]]
 - [[Hameleers2026-mc]]
 - [[Lin2025-xp]]
+- [[Marwick2025-ov]]
 - [[Nguyen2026-vm]]
 - [[Orlando2025-ul]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Stanusch2026-ec]]
 - [[Tornberg2025-ir]]
-- [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
 - [[Waight2026-ts]]
 - [[Wang2025-zy]]

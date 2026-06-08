@@ -5,7 +5,7 @@ authors: ["Joseph Bak-Coleman", "Cailin O'Connor", "Carl Bergstrom", "Jevin West
 year: 2025
 doi: 
 bibtex_key: Bak-Coleman2025-pm
-topics: [platform-governance-and-apis, digital-methods-and-research-ethics]
+topics: [platform-governance-and-data-access, social-media-research-methods]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2510.19894v2

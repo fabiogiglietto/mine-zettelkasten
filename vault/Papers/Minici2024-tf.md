@@ -5,7 +5,7 @@ authors: ["Marco Minici", "Luca Luceri", "Francesco Fabbri", "Emilio Ferrara"]
 year: 2024
 doi: 
 bibtex_key: Minici2024-tf
-topics: [coordinated-inauthentic-behaviour, computational-methods-and-llms]
+topics: [coordinated-inauthentic-behavior, computational-methods-and-llms]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2412.14663v2

@@ -5,7 +5,7 @@ authors: ["Bernhard Rieder", "Bastian August", "Brogan Latil"]
 year: 2026
 doi: 10.1177/14614448251409209
 bibtex_key: Rieder2026-pp
-topics: [platform-governance-and-apis, news-ecosystems-and-partisanship]
+topics: [platform-governance-and-data-access, information-disorder]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448251409209

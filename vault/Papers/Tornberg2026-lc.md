@@ -5,7 +5,7 @@ authors: ["Petter Törnberg", "Richard Rogers"]
 year: 2026
 doi: 10.31235/osf.io/6nue7_v1
 bibtex_key: Tornberg2026-lc
-topics: [generative-ai-and-media, platform-governance-and-apis]
+topics: [internet-studies-and-social-theory, platform-governance-and-data-access]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/6nue7_v1

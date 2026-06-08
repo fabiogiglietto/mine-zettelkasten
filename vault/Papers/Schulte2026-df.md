@@ -5,7 +5,7 @@ authors: ["Ludwig Schulte", "Dino Pasic", "Catalina Goanta", "Adriana Iamnitchi"
 year: 2026
 doi: 10.1145/3795513.3807440
 bibtex_key: Schulte2026-df
-topics: [platform-governance-and-apis, elections-and-political-communication]
+topics: [social-media-research-methods, platform-governance-and-data-access]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1145/3795513.3807440

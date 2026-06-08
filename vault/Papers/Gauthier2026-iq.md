@@ -5,7 +5,7 @@ authors: ["Germain Gauthier", "Roland Hodler", "Philine Widmer", "Ekaterina Zhur
 year: 2026
 doi: 10.1038/s41586-026-10098-2
 bibtex_key: Gauthier2026-iq
-topics: [news-ecosystems-and-partisanship, platform-governance-and-apis]
+topics: [platform-governance-and-data-access, news-consumption-and-partisan-attention]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1038/s41586-026-10098-2

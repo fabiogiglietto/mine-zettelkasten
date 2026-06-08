@@ -5,7 +5,7 @@ authors: ["JON GREEN", "STEFAN MCCABE", "SARAH SHUGARS", "HANYU CHWE", "LUKE HOR
 year: 2025
 doi: 10.1017/s0003055424000984
 bibtex_key: Green2025-ap
-topics: [news-ecosystems-and-partisanship]
+topics: [news-consumption-and-partisan-attention, social-media-research-methods]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.1017/s0003055424000984

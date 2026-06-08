@@ -1,11 +1,11 @@
 [
   {
-    "slug": "coordinated-inauthentic-behaviour",
-    "name": "Coordinated Inauthentic Behaviour",
-    "description": "Detection, conceptualisation and longitudinal study of coordinated link sharing and inauthentic networks on social platforms, including the CooRnet methodological lineage and its application to elections and problematic content.",
+    "slug": "coordinated-inauthentic-behavior",
+    "name": "Coordinated Inauthentic Behavior",
+    "description": "Detection, conceptualisation, and longitudinal study of coordinated link sharing and inauthentic networks on social media platforms. This is the PI's signature research line, anchoring CooRnet, vera.ai WP4, and a series of election studies across Italy, Germany, Brazil, India, and Nigeria.",
     "source_signals": [
-      "_data/publications.yml",
       "_data/projects.yml",
+      "_data/publications.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
@@ -13,149 +13,134 @@
   {
     "slug": "information-disorder",
     "name": "Information Disorder and Disinformation",
-    "description": "Empirical and conceptual work on misinformation, disinformation and 'fake news' within hybrid media systems, including problematic health content and narrative monitoring across European contexts.",
+    "description": "Studies of misinformation, disinformation, fake news, and problematic content circulation within hybrid media systems, including narrative monitoring and fact-checking infrastructure. Central to PROMPT, MINE-FACTS, and the PI's conceptual work on the hybrid news system.",
+    "source_signals": [
+      "_data/projects.yml",
+      "_data/publications.yml",
+      "_data/news.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "platform-governance-and-data-access",
+    "name": "Platform Governance and Data Access",
+    "description": "Critical analysis of platform policies, algorithmic governance, content moderation, and the shifting landscape of social media research APIs in the DSA era. Covers Meta's political content reduction, the CrowdTangle shutdown, and the methodological consequences for independent research.",
     "source_signals": [
       "_data/publications.yml",
-      "_data/projects.yml",
+      "_data/news.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "platform-governance-and-apis",
-    "name": "Platform Governance, APIs and Data Access",
-    "description": "Studies of platform policy changes (e.g. Meta's political content reduction, CrowdTangle shutdown), the DSA-era research API landscape, and the methodological consequences of walled-garden access for social media research.",
-    "source_signals": [
-      "_data/publications.yml",
-      "scripts/data/bio-seed.md"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "elections-and-political-communication",
-    "name": "Elections and Political Communication",
-    "description": "Mapping of news coverage, partisan attention and platform dynamics around Italian, German, Brazilian and European elections — the core empirical terrain of the MINE programme.",
+    "slug": "italian-elections-and-political-communication",
+    "name": "Italian Elections and Political Communication",
+    "description": "Empirical mapping of Italian political coverage, partisan attention, hyperpartisan networks, and campaign dynamics on social media across the 2018, 2019, and 2022 election cycles. The longest-running empirical thread of the MINE programme.",
     "source_signals": [
       "_data/projects.yml",
       "_data/publications.yml",
-      "scripts/data/bio-seed.md"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "mine-programme",
-    "name": "MINE — Mapping Italian News",
-    "description": "The institutional and intellectual umbrella for the PI's research line since 2017, encompassing successive sub-projects on Italian media, elections and social platforms.",
-    "source_signals": [
-      "_data/projects.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
     "slug": "computational-methods-and-llms",
-    "name": "Computational Methods and LLMs for Communication Research",
-    "description": "Development and validation of computational pipelines — embeddings, LLM-in-the-loop classification, network analysis — for political discourse and news studies, addressing reliability and reproducibility.",
+    "name": "Computational Methods and LLMs in Communication Research",
+    "description": "Development and validation of computational pipelines — including large language models, embedding models, and LLMs-in-the-loop workflows — for text classification, annotation, and clustering in communication studies. A growing methodological agenda visible in recent publications and the new MA course on Generative AI and Media.",
     "source_signals": [
       "_data/publications.yml",
       "_data/teaching.yml",
-      "scripts/data/bio-seed.md"
+      "_data/news.yml"
     ],
     "is_emergent": false
   },
   {
     "slug": "generative-ai-and-media",
-    "name": "Generative AI and Media Manipulation",
-    "description": "Emerging line on generative-AI-enabled persuasion, synthetic media in coordinated promotion (e.g. gambling), and AI-assisted verification tools for journalists and fact-checkers.",
+    "name": "Generative AI and Media",
+    "description": "Investigation of how generative AI reshapes visual persuasion, news production, and online manipulation, including synthetic content in coordinated gambling promotion and the agentic framing of AI in news. Combines a research strand with a dedicated Master's course.",
     "source_signals": [
       "_data/publications.yml",
-      "_data/projects.yml",
-      "_data/teaching.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "news-ecosystems-and-partisanship",
-    "name": "News Ecosystems, Partisanship and Polarisation",
-    "description": "Analyses of partisan attention scores, hyperpartisan networks, alternative influence networks and audience insularity around news on Facebook and other platforms.",
-    "source_signals": [
-      "_data/publications.yml",
-      "scripts/data/bio-seed.md"
+      "_data/teaching.yml",
+      "_data/news.yml"
     ],
     "is_emergent": false
   },
   {
     "slug": "health-misinformation",
-    "name": "Health Misinformation and COVID-19",
-    "description": "Research on problematic health content circulation, COVID-19 fact-checking infrastructures, and coordinated networks around health information in Italy, India and Nigeria.",
+    "name": "Health Misinformation and Online Health Information",
+    "description": "Cross-national studies of problematic health content circulation, COVID-19 fact-checking, vaccine and pandemic discourse, and the role of online gatekeepers in shaping health information. Anchored in MINE-FACTS and the Gates-funded India/Nigeria project.",
     "source_signals": [
-      "_data/publications.yml",
-      "_data/projects.yml"
+      "_data/projects.yml",
+      "_data/publications.yml"
     ],
     "is_emergent": false
   },
   {
-    "slug": "internet-studies-theory",
-    "name": "Internet Studies and Sociocybernetics",
-    "description": "Foundational and theoretical reflections bridging social systems theory, sociocybernetics and internet studies, including the epistemology of digital social data.",
+    "slug": "social-media-research-methods",
+    "name": "Social Media Research Methods and Digital Traces",
+    "description": "Methodological work on using digital traces — Facebook ads for survey recruitment, URL Shares datasets, user-sequence mining, multi-platform analysis — as research instruments, including their limits, ethics, and reproducibility. Bridges the PI's long-standing engagement with computational social science.",
     "source_signals": [
       "_data/publications.yml",
-      "_data/teaching.yml",
+      "_data/news.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "social-tv-and-audiences",
-    "name": "Social TV, Second Screen and Networked Audiences",
-    "description": "Long-running line on TV audience participation, second-screen engagement and networked intimacy on Twitter and Facebook, including the seminal Second Screen and Participation study.",
+    "slug": "news-consumption-and-partisan-attention",
+    "name": "News Consumption and Partisan Attention",
+    "description": "Analyses of how news circulates and is engaged with on Facebook and Instagram, including partisan alignment, journalistic quality, insularity, cross-partisan exposure, and the European newsfeed. Includes work on the Multi-Party Media Partisanship Attention Score.",
+    "source_signals": [
+      "_data/publications.yml",
+      "scripts/data/bio-seed.md"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "social-tv-and-audience-engagement",
+    "name": "Social TV and Audience Engagement",
+    "description": "Earlier and continuing line of work on second-screen practices, Twitter conversations around television, and audience participation across genres. Still surfaces in encyclopedic entries and provides historical depth to the PI's digital-platforms agenda.",
     "source_signals": [
       "_data/publications.yml"
     ],
     "is_emergent": false
   },
   {
-    "slug": "digital-methods-and-research-ethics",
-    "name": "Digital Methods and Research Ethics",
-    "description": "Methodological contributions on using Facebook, Twitter and YouTube as research data sources, Facebook Ads for survey recruitment, and the ethics of computational social science.",
+    "slug": "internet-studies-and-social-theory",
+    "name": "Internet Studies and Social Theory",
+    "description": "Conceptual and theoretical reflection on digital media, sociocybernetics, and the social construction of online environments — the disciplinary frame of the PI's chair and PhD/MA teaching in Internet Studies.",
     "source_signals": [
+      "_data/teaching.yml",
       "_data/publications.yml",
-      "_data/teaching.yml"
+      "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "online-radicalization-and-extremism",
-    "name": "Online Radicalization, Extremism, and the Far Right on Social Media",
-    "description": "Empirical and review studies examining how extremist and radicalizing content is produced, circulated, and moderated across social media platforms, including jihadist evasion of TikTok moderation, far-right affective normalization on Instagram, and a 25-year scoping review of online radicalization research.",
+    "slug": "ai-red-teaming-sociotechnical",
+    "name": "Red-Teaming Generative AI as Sociotechnical Practice",
+    "description": "Papers that conceptualize red-teaming of generative AI not as a narrow technical security exercise but as a sociotechnical and participatory practice, examining its labor arrangements, value judgments, public-interest dimensions, and how lived-experience or public involvement can strengthen AI evaluation and accountability.",
     "source_signals": [],
     "is_emergent": true
   },
   {
-    "slug": "climate-communication-and-denial",
-    "name": "Climate Communication, Visualization, and Misinformation",
-    "description": "Studies investigating how climate change is communicated, visualized, denied, or contested across media, including systematic reviews of climate visualization, experimental tests of climate misinformation, megastudies of persuasive climate messages, and visual-first analysis of climate denial on Instagram.",
+    "slug": "online-radicalization-far-right",
+    "name": "Online Radicalization and Far-Right Mainstreaming",
+    "description": "Studies examining how digital platforms enable the radicalization process and the mainstreaming of far-right and extremist content, including reviews of the online-radicalization research field and empirical analyses of how affective, memetic, and platform-specific strategies normalize extremist worldviews.",
     "source_signals": [],
     "is_emergent": true
   },
   {
-    "slug": "platform-affordances-and-publics",
-    "name": "Platform Affordances and the Transformation of Social Media Publics",
-    "description": "Reflective and empirical essays examining how platform architectures, affordances, and political economies are reshaping online publics—covering TikTok's algorithmic clustering, the decade-long trajectory of platformization, scam-saturated platform economies, and nostalgic critiques of the old internet.",
+    "slug": "climate-communication-persuasion",
+    "name": "Climate Change Communication and Misinformation",
+    "description": "Empirical and review studies on how climate change is communicated, contested, and persuaded about in media environments, including message-testing megastudies, experimental work on climate misinformation and fallacies, and systematic reviews of visual climate communication.",
     "source_signals": [],
     "is_emergent": true
   },
   {
-    "slug": "ai-accountability-and-red-teaming",
-    "name": "Sociotechnical AI Evaluation, Red-Teaming, and Public Participation",
-    "description": "Essays and perspectives framing AI safety, evaluation, and accountability as inherently sociotechnical problems requiring labor analysis, public involvement, and critical attention to political economy rather than purely technical fixes.",
-    "source_signals": [],
-    "is_emergent": true
-  },
-  {
-    "slug": "polarization-and-deliberation",
-    "name": "Polarization, Depolarization, and Deliberative Online Discourse",
-    "description": "Studies addressing polarization in online and political contexts, including systematic review of depolarization recommendations, theoretical proposals for deliberative reciprocity, and experimental evaluation of balanced news chatbots for users with conspiratorial beliefs.",
+    "slug": "polarization-depolarization-online",
+    "name": "Polarization and Depolarization in Online Political Communication",
+    "description": "Papers analyzing the dynamics of political polarization in digital environments and theorizing or evaluating routes toward depolarization, spanning systematic reviews of depolarization recommendations, empirical analyses of cross-ideological (non-)interaction on platforms, and normative-theoretical proposals for deliberative reciprocity online.",
     "source_signals": [],
     "is_emergent": true
   }

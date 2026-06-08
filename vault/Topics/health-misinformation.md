@@ -4,9 +4,9 @@ slug: health-misinformation
 emergent: false
 ---
 
-# Health Misinformation and COVID-19
+# Health Misinformation and Online Health Information
 
-Research on problematic health content circulation, COVID-19 fact-checking infrastructures, and coordinated networks around health information in Italy, India and Nigeria.
+Cross-national studies of problematic health content circulation, COVID-19 fact-checking, vaccine and pandemic discourse, and the role of online gatekeepers in shaping health information. Anchored in MINE-FACTS and the Gates-funded India/Nigeria project.
 
 ## Papers
 
@@ -15,9 +15,7 @@ Research on problematic health content circulation, COVID-19 fact-checking infra
 - [[Efstratiou2026-ij]]
 - [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2022-0e951ac5]]
-- [[Li2026-wq]]
 - [[Lyons2026-ca]]
-- [[Rodarte2026-dk]]
 - [[Scalco2026-bd]]
 - [[Song2025-yh]]
 - [[Unknown2023-9137f448]]
