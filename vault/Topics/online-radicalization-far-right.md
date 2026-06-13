@@ -11,6 +11,7 @@ Studies examining how digital platforms enable the radicalization process and th
 ## Papers
 
 - [[Bouchafra2026-ts]]
+- [[Brown2026-br]]
 - [[Nangle2026-yo]]
 - [[Rothut2026-wt]]
 

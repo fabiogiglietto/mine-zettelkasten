@@ -837,9 +837,9 @@
         "information-disorder"
       ],
       "pdf_source": "drive",
-      "content_hash": "a840eeefc5f03dde8dd775180ebb9623d82460f264f10e27f2928055f13c0e13",
+      "content_hash": "9ef7537163e024c1e86968dcdc2afa0a1cc878d2a7f0fb0f00c733adab9a56d5",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.258332+00:00"
+      "last_processed": "2026-06-13T22:50:28.902734+00:00"
     },
     "bibtex:Iris2026-pg": {
       "note_path": "Papers/Iris2026-pg.md",
@@ -2332,8 +2332,20 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-06T11:18:21.419723+00:00"
+    },
+    "bibtex:Brown2026-br": {
+      "note_path": "Papers/Brown2026-br.md",
+      "topics": [
+        "polarization-depolarization-online",
+        "online-radicalization-far-right"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "351d02496539ed51d03daf75f65a228dc382d93793db7c22de6a1f94e510598a",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-13T22:50:28.902712+00:00"
     }
   },
   "last_full_cluster": "2026-06-08T09:13:49.180668+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }

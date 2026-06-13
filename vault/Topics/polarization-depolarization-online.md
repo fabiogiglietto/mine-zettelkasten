@@ -10,6 +10,7 @@ Papers analyzing the dynamics of political polarization in digital environments 
 
 ## Papers
 
+- [[Brown2026-br]]
 - [[Dehghan2026-sy]]
 - [[Esau2025-tf]]
 - [[van-Eck2026-xg]]
