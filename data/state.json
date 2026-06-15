@@ -2356,8 +2356,17 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-15T05:47:37.294216+00:00"
+    },
+    "bibtex:Wedel2026-ix": {
+      "note_path": "Papers/Wedel2026-ix.md",
+      "topics": [],
+      "pdf_source": "drive",
+      "content_hash": "b0aaae110e467b7ded580d948af4a125f1077743793c7fca0b1afe1cf31513b3",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-15T17:07:10.861127+00:00"
     }
   },
   "last_full_cluster": "2026-06-15T10:43:05.902693+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }
