@@ -5,7 +5,7 @@ authors: ["Megan A. Brown", "James Bisbee", "Angela Lai", "Richard Bonneau", "Jo
 year: 2026
 doi: 10.1080/10584609.2026.2671765
 bibtex_key: Brown2026-br
-topics: [polarization-depolarization-online, online-radicalization-far-right]
+topics: [platform-governance-data-access, social-network-analysis]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2671765

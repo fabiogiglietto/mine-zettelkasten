@@ -5,7 +5,7 @@ authors: ["David Hartmann", "Sonja Mei Wang", "Lena Pohlmann", "Bettina Berendt"
 year: 2025
 doi: 10.1007/s42001-025-00381-z
 bibtex_key: Hartmann2025-px
-topics: [news-consumption-and-partisan-attention, social-media-research-methods]
+topics: [information-disorder]
 citation_count: 30
 open_access: false
 source_url: https://doi.org/10.1007/s42001-025-00381-z

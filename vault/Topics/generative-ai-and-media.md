@@ -6,13 +6,12 @@ emergent: false
 
 # Generative AI and Media
 
-Investigation of how generative AI reshapes visual persuasion, news production, and online manipulation, including synthetic content in coordinated gambling promotion and the agentic framing of AI in news. Combines a research strand with a dedicated Master's course.
+Emerging research and teaching agenda on generative AI as both an object of study (synthetic visuals in influence operations, AI in political economy) and a methodological instrument. Reflects new courses and 2026 publications.
 
 ## Papers
 
 - [[Achmann-Denkler2026-lx]]
 - [[Arminio2025-tw]]
-- [[Choi2026-bz]]
 - [[DiGiuseppe2026-pu]]
 - [[Dierickx2026-tw]]
 - [[Dodds2026-df]]
@@ -20,15 +19,17 @@ Investigation of how generative AI reshapes visual persuasion, news production, 
 - [[Giglietto2026-9b6a992d]]
 - [[Hackenburg2025-dj]]
 - [[Hameleers2026-mc]]
+- [[Helmond2026-ll]]
 - [[Lin2025-xp]]
-- [[Marwick2025-ov]]
 - [[Nguyen2026-vm]]
 - [[Orlando2025-ul]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Stanusch2026-ec]]
 - [[Tornberg2025-ir]]
+- [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
+- [[Vertesi2026-lv]]
 - [[Waight2026-ts]]
 - [[Wang2025-zy]]
 - [[Weinbrand2026-sf]]

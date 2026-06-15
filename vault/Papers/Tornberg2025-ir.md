@@ -5,7 +5,7 @@ authors: ["Petter Törnberg", "Juliana Chueri"]
 year: 2026
 doi: 10.1177/19401612241311886
 bibtex_key: Tornberg2025-ir
-topics: [internet-studies-and-social-theory, generative-ai-and-media]
+topics: [platform-governance-data-access, generative-ai-and-media]
 citation_count: 21
 open_access: false
 source_url: https://doi.org/10.1177/19401612241311886

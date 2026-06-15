@@ -5,7 +5,7 @@ authors: ["Phillip Arceneaux", "Joshua Anderson", "Josephine Lukito", "Mansi Sha
 year: 2026
 doi: 10.1080/1062726x.2025.2606676
 bibtex_key: Arceneaux2026-xk
-topics: [information-disorder, coordinated-inauthentic-behavior]
+topics: [elections-political-communication, information-disorder]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.1080/1062726x.2025.2606676

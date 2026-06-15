@@ -4,26 +4,27 @@ slug: information-disorder
 emergent: false
 ---
 
-# Information Disorder and Disinformation
+# Information Disorder & Problematic Content
 
-Studies of misinformation, disinformation, fake news, and problematic content circulation within hybrid media systems, including narrative monitoring and fact-checking infrastructure. Central to PROMPT, MINE-FACTS, and the PI's conceptual work on the hybrid news system.
+Studies of misinformation, disinformation, hyperpartisan and low-quality news, and problematic health content circulating in hybrid media systems. Covers conceptual taxonomies of 'fake news' as well as empirical mappings across countries.
 
 ## Papers
 
 - [[Adam2026-tz]]
-- [[Appel2026-qr]]
+- [[Anwar2024-34dba628]]
 - [[Arceneaux2026-xk]]
 - [[Askanius2026-de]]
+- [[Bakshy2015-rn]]
 - [[Bennett2025-xs]]
 - [[Bollenbacher2026-vz]]
 - [[Bosch2024-hj]]
+- [[Bruns2026-yv]]
 - [[Budak2024-ef]]
 - [[Cazzamatta2026-lo]]
 - [[Choi2026-bz]]
 - [[Copland2025-em]]
 - [[DeVerna2025-dl]]
 - [[Di-Domenico2026-zq]]
-- [[Dierickx2026-tw]]
 - [[Donovan2025-ws]]
 - [[Elfes2026-jb]]
 - [[Emilio2026-ik]]
@@ -32,26 +33,27 @@ Studies of misinformation, disinformation, fake news, and problematic content ci
 - [[Frischlich2025-vn]]
 - [[Gardam2025-er]]
 - [[Gattermann2025-yx]]
-- [[Gaw2025-ru]]
+- [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2019-e9be81c1]]
+- [[Giglietto2026-632ef967]]
 - [[Goel2025-iq]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Graham2025-gp]]
 - [[Hameleers2026-mc]]
+- [[Hartmann2025-px]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
-- [[Kansaon2025-id]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]
+- [[Li2026-wq]]
+- [[Lieu2025-nl]]
 - [[Luhring2025-od]]
 - [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
 - [[Marwick2025-ov]]
-- [[Marwick2025-vx]]
-- [[Marwick2026-qd]]
 - [[Mosleh2024-op]]
+- [[Nangle2026-yo]]
 - [[Nenno2025-xa]]
-- [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
 - [[Renault2025-uh]]
 - [[Rieder2026-pp]]
@@ -62,12 +64,9 @@ Studies of misinformation, disinformation, fake news, and problematic content ci
 - [[Rothut2026-or]]
 - [[Sadler2025-vu]]
 - [[Scalco2026-bd]]
-- [[Shi2026-ko]]
-- [[Simeone2025-vo]]
 - [[Spampatti2026-kx]]
 - [[Starbird2025-jj]]
 - [[Suau_Martinez2026-lv]]
-- [[Szabo2026-rd]]
 - [[Tai2026-qk]]
 - [[Thiele2025-ol]]
 - [[Triedman2025-uy]]
@@ -79,7 +78,6 @@ Studies of misinformation, disinformation, fake news, and problematic content ci
 - [[Waight2026-ts]]
 - [[Xue2025-bp]]
 - [[Yoo2026-ev]]
-- [[Zhao2025-ny]]
 - [[van-der-Linden2026-jt]]
 
 ## All papers (Dataview)

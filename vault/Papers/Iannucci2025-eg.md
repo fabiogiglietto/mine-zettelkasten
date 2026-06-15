@@ -5,7 +5,7 @@ authors: ["Letizia Iannucci", "Elisa Muratore", "Antonis Matakos", "Mikko Kivel√
 year: 2025
 doi: 
 bibtex_key: Iannucci2025-eg
-topics: [coordinated-inauthentic-behavior, social-media-research-methods]
+topics: [coordinated-inauthentic-behavior, social-network-analysis]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2512.19677v1

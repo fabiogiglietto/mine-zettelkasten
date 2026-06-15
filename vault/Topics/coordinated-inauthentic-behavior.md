@@ -6,12 +6,11 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection, conceptualisation, and longitudinal study of coordinated link sharing and inauthentic networks on social media platforms. This is the PI's signature research line, anchoring CooRnet, vera.ai WP4, and a series of election studies across Italy, Germany, Brazil, India, and Nigeria.
+Detection, conceptualization, and longitudinal study of coordinated link sharing and inauthentic networks on social media platforms. Anchors the CooRnet line of work and remains the researcher's signature contribution to disinformation studies.
 
 ## Papers
 
 - [[Appel2026-qr]]
-- [[Arceneaux2026-xk]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
@@ -21,6 +20,7 @@ Detection, conceptualisation, and longitudinal study of coordinated link sharing
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
+- [[Goel2025-iq]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
 - [[Hurcombe2025-cs]]
