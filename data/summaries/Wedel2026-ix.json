@@ -1,0 +1,39 @@
+{
+  "abstract": "This paper proposes 'informativeness' as an audience-centered concept to capture how young adults subjectively evaluate online media content as new and/or useful, moving beyond institutional definitions of news. Using a two-step qualitative design—individual at-home ranking tasks and eight online focus groups with 44 young German adults (ages 18–35) across YouTube, Instagram, and TikTok—the study identifies five dimensions through which audiences decode informativeness. The findings show that journalistic norms are extended and reinterpreted beyond professional journalism, and that platform logics and personal relevance shape what counts as informative.",
+  "key_claims": [
+    "Current journalism research suffers from a conceptual mismatch in which institutional notions of news fail to capture what young audiences actually perceive as informative.",
+    "Existing audience-centered concepts (e.g., news-ness, information orientation, information-ness) remain partially tied to journalistic norms or to specific platforms/objects and thus do not provide a holistic decoding framework.",
+    "'Informativeness'—defined as the continuous subjective attribution of media content as new and/or useful—offers a more adequate audience-centered concept that decouples from traditional news as a normative baseline.",
+    "Young adults' informativeness judgments are structured by five core dimensions: informative practices and norms, relevance and relatability, actor-specific cues, usefulness, and platform-specific cues.",
+    "Perceived expertise and thematic substance, rather than formal journalistic certification, drive attributions of informativeness to actors such as influencers and public figures.",
+    "The concept is portable beyond journalism studies to domains such as misinformation, health, and political information online."
+  ],
+  "methods": [
+    "Two-step qualitative research design conducted via the Kernwert online platform (November–December 2023) in Germany.",
+    "Step 1: Individual at-home tasks where participants listed and ranked up to five actor and content types they considered informative on audio-visual social media, without a provided definition of 'informative'.",
+    "Type-forming analysis of the lists to construct group-specific typologies of actors and content ordered along an informativeness scale, used as anchor material for discussion.",
+    "Step 2: Eight online focus groups (4–6 participants each; mean relevant discussion length ~21.7 minutes) using a semi-structured guide probing agreement with the typology, reasoning, and contributing factors.",
+    "Sample of 44 young German adults stratified by age cohort (Gen Z 18–26; Gen Y 27–35) and education (with/without Abitur), yielding two groups per age-education combination.",
+    "Reflexive thematic analysis (Braun & Clarke) of transcripts in OpenQDA, with inductive coding close to participants' terminology before synthesis into broader dimensions.",
+    "Multi-platform framing covering YouTube, Instagram, and TikTok to capture differences in selection mechanisms and sociality."
+  ],
+  "findings": [
+    "At-home tasks yielded recurring actor categories (e.g., news media, journalists, influencers, family/friends, celebrities, political actors, comedians, brand pages) and five content types (news, tips and tricks, facts and knowledge, funny content, advertisements).",
+    "Highly educated participants more often ranked traditional and alternative journalistic actors as informative; lower-educated participants rarely cited traditional news media.",
+    "Influencers were ranked both very high and very low depending on whether they were seen as topic-focused experts or self-representational; quasi-journalistic influencers were consistently rated highly.",
+    "Informative practices and norms (recency, factuality, source transparency, detail, objectivity) were applied to non-journalistic actors, sometimes more favorably than to legacy news.",
+    "Relevance and relatability operated through four subtypes: thematic relevance, societal relevance, geo-local relatability, and personal relatability (the latter especially salient for Gen Z regarding friends/family).",
+    "Actor-specific factors—trustworthiness, thematic focus over self-representation, and perceived expertise—shaped informativeness independent of professional status.",
+    "Usefulness, tied to practical applicability, learning, self-improvement, and conversational value, was a major driver, particularly contrasted with pure entertainment; Gen Y emphasized life-challenge content while Gen Z emphasized everyday educational content.",
+    "Platform-specific dynamics mattered: a spectrum of selection (self-selection on YouTube, actor-mediated on Instagram, algorithmic on TikTok) and Instagram's sociality shaped what platform was deemed suitable for which informative purposes; TikTok was often framed as a 'guilty pleasure'."
+  ],
+  "contributions": [
+    "Introduces 'informativeness' as a novel audience-centered concept that addresses the conceptual mismatch between institutional news definitions and audience perceptions.",
+    "Empirically derives a five-dimensional decoding schema (informative practices and norms; relevance and relatability; actor-specific; usefulness; platform-specific) grounded in young German adults' perceptions.",
+    "Provides a conceptual model of the audience's decoding process from media piece through perceptual cues (actor, content, platform) and decoding dimensions to perceived informativeness.",
+    "Offers a framework portable beyond journalism studies to misinformation, health, and political information research, and applicable to media literacy interventions.",
+    "Highlights implications for journalism practice, suggesting that reconnecting with young audiences depends on aligning with the evaluative logics of informativeness (substance, expertise, relevance) rather than reasserting institutional authority."
+  ],
+  "framing": "The paper situates itself within the 'radical audience turn' in journalism studies and draws on Stuart Hall's encoding/decoding model from reception studies to argue that audience schemas, not institutional definitions, should anchor research on news use. It engages with and seeks to move beyond related concepts such as news-ness, information orientation, and information-ness, positioning informativeness as a more holistic, platform- and actor-agnostic audience concept.",
+  "pdf_source": "drive"
+}
