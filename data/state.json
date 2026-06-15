@@ -2344,8 +2344,19 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-13T22:50:28.902712+00:00"
+    },
+    "bibtex:Alizadeh2026-es": {
+      "note_path": "Papers/Alizadeh2026-es.md",
+      "topics": [
+        "computational-methods-and-llms"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "7571ea58b6dc8a7b5f7741622777a75c50f0a16fbc344a2bce3c410cf253d109",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-15T05:47:37.294216+00:00"
     }
   },
   "last_full_cluster": "2026-06-08T09:13:49.180668+00:00",
-  "papers_since_cluster": 1
+  "papers_since_cluster": 2
 }
