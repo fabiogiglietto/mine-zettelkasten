@@ -23,6 +23,7 @@ Emerging research and teaching agenda on generative AI as both an object of stud
 - [[Lin2025-xp]]
 - [[Nguyen2026-vm]]
 - [[Orlando2025-ul]]
+- [[Richter2026-bt]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Stanusch2026-ec]]

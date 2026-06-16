@@ -1,0 +1,34 @@
+{
+  "abstract": "This article traces the evolution of academic data access to Twitter/X, situating it within broader trends across major social media platforms. Giglietto and Puschmann identify three phases—an open 'Wild West' API era, a brief 'Golden Age' of the Academic API, and the post-Musk commercial paywall era—before examining how the EU's Digital Services Act (DSA), particularly Article 40, has attempted to reframe data access as a regulatory right rather than platform philanthropy. They argue that progress toward research transparency is non-linear and fragile, dependent on a contested negotiation between platforms, regulators, and researchers.",
+  "key_claims": [
+    "Platform data access for research has evolved non-linearly from informal data philanthropy to formalized APIs to commercial paywalls, with progress easily reversible by changes in ownership or corporate strategy.",
+    "Twitter/X's trajectory exemplifies a structural pattern across platforms (Meta's CrowdTangle closure, Reddit's API pricing, TikTok's restrictions) rather than being idiosyncratic.",
+    "Voluntary, platform-led access regimes are inherently fragile, as demonstrated by Musk's dismantling of the Academic API in 2023.",
+    "The EU's DSA Article 40 represents a paradigm shift from discretionary philanthropy to regulatory obligation, but suffers from uneven implementation and structural information asymmetries.",
+    "The current bifurcated access regime (expensive commercial APIs vs. DSA legal channels) disproportionately excludes Global South researchers, early-career scholars, and civil society, creating a 'data abyss'.",
+    "Independent research into platform effects should be treated as a public good requiring sustained institutional support, not platform generosity."
+  ],
+  "methods": [
+    "Historical-analytical review of the evolution of social media data access policies.",
+    "Case-study approach centered on Twitter/X, with comparative reference to Meta, Reddit, TikTok, Yahoo Webscope, AOL, and Microsoft Research.",
+    "Periodization into three phases (2006–2020 open API; 2020–2023 Academic API; 2023–present commercial curtain).",
+    "Analysis of regulatory frameworks, particularly DSA Article 40, drawing on EDMO reports and early enforcement actions."
+  ],
+  "findings": [
+    "Early 'data philanthropy' (e.g., Facebook's 61-million-person experiment, Emotional Contagion study, Twitter Data Grants, Yahoo Webscope) was criticized as opaque and relationship-based, exemplifying 'independence by permission'.",
+    "The 2014 Twitter Data Grants and 2020 Academic API briefly created sanctioned, merit-based access regimes hailed as best-practice.",
+    "Musk's 2023 closure of the Academic API and disbanding of policy teams returned access to a financially-determined regime.",
+    "DSA implementation shows highly uneven platform responses: response times ranging from 2 to 100+ days, boilerplate denials, conflation of access tracks, and offers of mere whitelisting for scraping in lieu of structured data.",
+    "The European Commission has opened formal proceedings against X, TikTok, and Meta; preliminary 2025 findings determined TikTok and Meta breached Article 40.12 obligations.",
+    "The DSA's EU-only reach creates a two-tier global research system; data donations, browser-based collection, and scraping have emerged as alternative but limited methods."
+  ],
+  "contributions": [
+    "Provides a synthesized periodization of Twitter/X data access spanning two decades, useful for scholars of platform governance and digital methods.",
+    "Situates Twitter's trajectory within a broader cross-platform structural pattern, generalizing the case beyond a single company.",
+    "Offers an early empirical assessment of DSA Article 40 implementation challenges, drawing on recent EDMO findings.",
+    "Articulates concrete forward-looking proposals: academic consortia for collective bargaining, public investment in data intermediaries/trusts, multi-method research resilience, and extension of DSA-like frameworks beyond the EU.",
+    "Frames platform research access as a public good requiring institutional infrastructure rather than platform discretion."
+  ],
+  "framing": "The article is positioned within platform governance, digital methods, and internet policy scholarship, engaging with the 'APIcalypse' debate (Bruns, Puschmann), the 'post-API age' (Freelon et al.), and the 'data abyss' concept (de Vreese and Tromble). It contributes to ongoing discussions about how to balance user privacy, platform commercial interests, and democratic accountability in the regulation of Very Large Online Platforms.",
+  "pdf_source": "drive"
+}

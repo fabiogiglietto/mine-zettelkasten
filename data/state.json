@@ -625,9 +625,9 @@
         "social-network-analysis"
       ],
       "pdf_source": "drive",
-      "content_hash": "a70ae877401964bb57802ca36190ee1e41c0807234785a6ffb5ce024f1b4f182",
+      "content_hash": "4f8003f130ea1c1e23994d27955a03cc1049afa100a089c5f7b47d62e5988c2e",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.255635+00:00"
+      "last_processed": "2026-06-16T11:06:24.188018+00:00"
     },
     "bibtex:Yoo2026-ev": {
       "note_path": "Papers/Yoo2026-ev.md",
@@ -2365,8 +2365,31 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-15T17:07:10.861127+00:00"
+    },
+    "bibtex:Richter2026-bt": {
+      "note_path": "Papers/Richter2026-bt.md",
+      "topics": [
+        "generative-ai-and-media"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "56d30dcb2e865022d66edf7377e089b6a1a9fb24dcc1c953beac06a5f99f808c",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-16T11:06:24.187999+00:00"
+    },
+    "bibtex:Giglietto2026-855a54cb": {
+      "note_path": "Papers/Giglietto2026-855a54cb.md",
+      "topics": [
+        "platform-governance-data-access",
+        "computational-social-science-methods"
+      ],
+      "kind": "own",
+      "pdf_source": "drive",
+      "content_hash": "946cdaf1a586f653b55b2920324849e62e5ea2fcf52dac5ee41fdeb430edc583",
+      "podcast_linked": true,
+      "last_processed": "2026-06-16T11:07:34.672250+00:00"
     }
   },
   "last_full_cluster": "2026-06-15T10:43:05.902693+00:00",
-  "papers_since_cluster": 1
+  "papers_since_cluster": 2
 }

@@ -25,6 +25,7 @@ Reflexive and methodological contributions on digital traces, social media APIs,
 - [[Freelon2024-sc]]
 - [[Gaisbauer2025-by]]
 - [[Giglietto2022-b30e8b4e]]
+- [[Giglietto2026-855a54cb]]
 - [[Iannelli2018-ebd918b7]]
 - [[Lai2024-to]]
 - [[Lee2026-je]]
