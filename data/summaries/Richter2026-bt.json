@@ -1,0 +1,39 @@
+{
+  "abstract": "This paper examines which stakeholders drove the public AI discourse on Twitter in the US and Germany during the formative decade of 2012-2021, prior to the GenAI boom. The authors propose a two-dimensional stakeholder typology that combines stakeholder type (industry, government, advocacy, academia, media, other civil society) with organisational level (networks, organisations, sub-organisations, individuals), and apply it to top accounts identified via social network analysis. They find sharply diverging trajectories: Germany shifted toward institutionalisation and a diverse mix of academic, advocacy, and governmental actors, while the US became dominated by industry and, increasingly, individual tech influencers. These early patterns are argued to have shaped each country's subsequent GenAI regulation and discourse.",
+  "key_claims": [
+    "AI discourse in its formative phase (2012-2021) was not uniformly dominated by industry; stakeholder composition varied substantially by country and over time.",
+    "A two-dimensional typology (stakeholder type x organisational level) yields more nuanced insight into power dynamics in AI discourse than one-dimensional categorisations.",
+    "The German AI Twitter discourse underwent progressive institutionalisation, with research, advocacy, and governmental organisational accounts gaining dominance after 2018.",
+    "The US AI Twitter discourse shifted toward individualisation, with tech influencers increasingly overshadowing corporate accounts while industry-affiliated voices remained dominant overall.",
+    "Country-specific stakeholder trajectories established in the 2010s continue to shape post-2022 GenAI development, implementation, and regulation in each context.",
+    "Cultural and regulatory differences (e.g., German uncertainty avoidance and EU embedding vs. US risk tolerance and influencer economy) help explain the divergence."
+  ],
+  "methods": [
+    "Conceptual framework synthesising governance triangle literature and Gorwa's (2022) platform governance stakeholder typology, extended inductively from trial coding.",
+    "Collection of tweets via the Twitter Academic API using academictwitteR R package for hashtags #AI, #ArtificialIntelligence (English) and #AI, #ArtificialIntelligence, #KI, #KuenstlicheIntelligenz (German), Jan 2012-Dec 2021.",
+    "Corpus of 761,590 German and 13,441,714 English tweets.",
+    "Social network analysis using igraph R package, constructing retweet-based 'name networks' and selecting the top 100 accounts per year per language by in-degree centrality.",
+    "Manual content coding of accounts by two independent coders for stakeholder type, organisational level, and country (Cohen's kappa = 0.85), with Wayback Machine used to recover deleted/suspended accounts.",
+    "Agresti-Coull confidence intervals computed to estimate uncertainty in yearly stakeholder proportions.",
+    "Comparative longitudinal analysis between US and German datasets."
+  ],
+  "findings": [
+    "In Germany, individual accounts dominated early (2012) but declined to ~25% of top accounts by 2021, indicating institutionalisation.",
+    "By 2021, the German top accounts were led by academia (~25%) and advocacy (~20%), with industry, government, and media each around 10-20%; tech influencers remained marginal (~5%).",
+    "Governmental accounts in Germany rose sharply around 2018 (~15%), coinciding with EU-level AI regulatory debates.",
+    "In the US, industry dominance grew from 2012 to 2017, peaking at roughly 70% of top accounts, with tech influencers adding another ~15%.",
+    "From 2016 onward in the US, individual accounts rose to more than three-quarters of top accounts by 2021, driven by the rise of tech influencers.",
+    "By 2021 the US discourse was largely a tech-influencer discourse with little academic, traditional media, or advocacy presence among top accounts.",
+    "Media and lay accounts dominated early years (2012) in both countries but rapidly declined as industry and other professional actors entered.",
+    "Standard errors of yearly proportions mostly fell below 5%, supporting the robustness of the observed trends."
+  ],
+  "contributions": [
+    "Introduction of a two-dimensional AI stakeholder typology combining sector type and organisational level for analysing public AI discourse.",
+    "First systematic longitudinal (2012-2021) cross-country mapping of AI stakeholders on Twitter for Germany and the US.",
+    "Empirical nuancing of the prevailing claim of industry dominance in AI discourse, showing it is uneven across contexts and increasingly mediated by individual figureheads in the US.",
+    "Identification of distinct institutionalisation (Germany) vs. individualisation (US) trajectories that prefigure post-GPT regulatory and discursive divergence.",
+    "A reusable analytic framework applicable to other socio-technical discourses (e.g., climate, energy) where stakeholder composition shifts over time."
+  ],
+  "framing": "The paper sits at the intersection of critical AI studies, platform/technology governance, and science communication, drawing on work on sociotechnical imaginaries, AI narratives, and stakeholder analyses of platform governance (notably Gorwa). It positions itself against literature that broadly identifies industry dominance in AI discourse, arguing for finer-grained, multi-level, longitudinal, and comparative approaches to understanding who shapes AI's public formation.",
+  "pdf_source": "drive"
+}
