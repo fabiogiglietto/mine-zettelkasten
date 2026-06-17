@@ -19,32 +19,32 @@ discovery_date:
 
 ## Summary
 
-This paper investigates how generative AI has reshaped coordinated organic gambling promotion on Facebook. Drawing on 2,323 images from 223 coordinated public groups identified via the Vera AI alerts workflow, the authors build a typology of visual persuasion drivers and trace how ChatGPT's release coincides with an exponential surge in posting activity. Their central argument is that generative AI does not invent new persuasion strategies but acts as an *accelerant*, intensifying and recombining established drivers (aspirational wealth, manufactured trust, FOMO, gamification, cultural localization) at industrial scale — a dynamic enabled by Meta's asymmetric governance, which polices paid gambling ads but permits permissive organic promotion, and by algorithmic amplification infrastructures that remain a regulatory blind spot.
+This paper examines how coordinated networks of Facebook groups promote online gambling through visual persuasion, and how the public release of generative AI tools has reshaped that promotional ecosystem. Analyzing 2,323 images drawn from 223 coordinated public groups detected via the Vera AI alerts workflow, the authors build a typology of persuasive visual "drivers" — aspirational wealth, manufactured trust, FOMO, gamification, celebrity endorsement, social-relations exploitation, and cultural localization — and show that these drivers operate synergistically rather than in isolation. They argue that generative AI did not invent new persuasion strategies but dramatically intensified and industrialized existing ones, producing an exponential surge in coordinated posting after ChatGPT's launch. The paper frames algorithmic amplification and Meta's asymmetric treatment of paid versus organic gambling content as the central governance failures enabling this harm.
 
 ## Key Contributions
 
-- An empirically grounded typology of visual persuasion drivers in coordinated organic gambling promotion.
-- Evidence that generative AI intensifies, rather than replaces, existing persuasion architectures.
-- A reproducible mixed-methods pipeline combining VLM image description, dual denotative/connotative embeddings, HDBSCAN clustering, and human qualitative coding for large-scale visual analysis.
-- Identification of the paid/organic regulatory asymmetry on Meta and of algorithmic amplification as the central governance gap.
-- A reflexive methodological note on using LLMs as analytical instruments for studying content these same technologies help produce.
+- An empirically grounded typology of visual persuasion drivers in organic, coordinated gambling promotion on Facebook.
+- Evidence that generative AI acts as an accelerant and recombinator of established persuasion architectures, not a source of wholly novel tactics.
+- A reproducible mixed-methods pipeline pairing vision-language model descriptions, dual denotative/connotative embeddings, HDBSCAN clustering, and human qualitative coding for large-scale visual analysis.
+- Identification of the paid/organic regulatory asymmetry on Meta and of algorithmic amplification as the principal governance blind spot.
+- A reflexive critique of using LLMs simultaneously as analytic instruments and as the technology producing the manipulative artifacts under study.
 
 ## Methods
 
-The authors identified 223 coordinated Facebook groups via the Vera AI workflow (14-second link-sharing window, 0.995 edge weight), seeded from accounts spreading fact-checker-flagged content. Posts and images (10,671 posts; 2,323 images; 2017–2024) were collected through the Meta Content Library plus a custom image downloader. Each image received denotative and connotative descriptions from `gpt-4o-2024-08-06`, which were embedded with `text-embedding-3-small`, reduced via UMAP, and clustered with HDBSCAN (101 denotative, 51 connotative clusters). A co-occurrence matrix across 366 cluster pairs was qualitatively coded by four researchers until saturation. Posting-volume dynamics were modeled with t-tests, Wilcoxon tests, interaction-term regression, and structural break detection, using ChatGPT's November 2022 launch as the intervention point.
+The 223-group network was identified through Vera AI's coordinated link-sharing detection (14-second window, 0.995 edge weight) seeded from accounts spreading fact-checker-flagged content. Posts and images (10,671 posts; 2,323 unique images, 2017–2024) were collected via the Meta Content Library and a custom image downloader. GPT-4o generated paired denotative and connotative descriptions of each image, which were embedded with text-embedding-3-small, reduced via UMAP, and clustered with HDBSCAN, yielding 101 denotative and 51 connotative clusters. Four coders qualitatively analyzed 85 cluster co-occurrence combinations (≥6 images) to thematic saturation. Monthly post volumes (Jan 2017–Sep 2024) were modeled with two-sample tests, interaction-term regression, and structural break detection, using ChatGPT's launch as the intervention.
 
 ## Findings
 
-- Aspirational wealth/hyper-masculine status motifs appear in ~55% of analyzed cluster combinations; transactional "trust proof" visuals (payment receipts, cash-out screenshots) in ~37%.
-- Core drivers include aspirational wealth, manufactured trust, FOMO/urgency, gamification, celebrity endorsements (e.g., Manny Pacquiao), exploitation of social relations, and cultural/linguistic localization (Filipino, Urdu).
-- The Urdu-language cluster embeds gambling in conservative cultural framings via depictions of women in distress and family-moral conflict — an ideologically inflected localization strategy.
-- Mean monthly posts rose from 2,121 (pre-ChatGPT) to 280,952 (post-ChatGPT), a 13,242% increase; regression confirmed both level shift and slope change (p<0.0001), with a structural break in July 2023.
-- Post-2022 visuals display AI-generation markers (hyper-real lighting, smoothed surfaces, improbable symbolic juxtapositions like sharks with slot machines) and stack multiple persuasion drivers in single images.
-- Two emblematic AI-generated posts reached 4.3M and 3.3M views and were widely reshared across coordinated groups.
+- Aspirational wealth and hyper-masculine status motifs appeared in ~55% of analyzed cluster combinations; transactional "trust proof" visuals (receipts, cash-out screenshots) in ~37%.
+- Persuasion drivers were typically layered within single images, combining aspirational fantasy, transactional proof, urgency, gamified low-barrier entry, celebrity endorsements (e.g., Manny Pacquiao), and exploitation of family/social ties.
+- Cultural localization was pronounced: an Urdu-language cluster embedded gambling within conservative moral narratives featuring women in distress and family conflict, while Filipino-language content used local celebrity registers.
+- Mean monthly posts rose from 2,121 pre-ChatGPT to 280,952 post-ChatGPT (a 13,242% increase); regression confirmed both a level shift and a steep slope change (p<0.0001), with a structural break in July 2023.
+- Post-2022 imagery exhibited consistent generative-AI stylistic markers — hyper-real lighting, smoothed surfaces, dreamlike saturation, improbable juxtapositions (e.g., sharks with slot machines) — and AI-generated characters that sidestep influencer accountability.
+- Two emblematic AI-generated posts reached 4.3M and 3.3M views with thousands of cross-group shares, indicating substantial algorithmic amplification.
 
 ## Connections
 
-This work extends the Vera AI / CooRnet lineage of coordinated link-sharing detection — see [[Giglietto2022-0e951ac5]], [[Giglietto2023-fa71a001]], [[Giglietto2024-cbeb3f70]], and Marino2024-a678b03f — by applying its alert pipeline to a non-political harm domain. On the generative-AI side, it complements studies of AI-generated images and synthetic media in influence and coordinated operations such as [[DiGiuseppe2026-pu]], [[DiGiuseppe2025-es]], [[Kansaon2025-id]], and [[Achmann-Denkler2026-lx]], and shares concerns with broader work on AI-enabled coordinated campaigns like [[Luceri2025-tr]] and [[Yang2025-iv]]. Its emphasis on algorithmic amplification over moderation resonates with platform-governance critiques in [[Hurcombe2025-cs]] and [[Graham2025-gp]].
+This paper builds directly on the authors' prior work on coordinated link-sharing detection and CIB methodology ([[Giglietto2020-9d8acdd7]], [[Giglietto2022-0e951ac5]], [[Giglietto2023-fa71a001]]), extending that infrastructure from political to commercial-harm contexts. It connects to broader research on AI-generated imagery in influence and propaganda campaigns ([[Achmann-Denkler2026-lx]], [[DiGiuseppe2026-pu]], [[Stanusch2026-ec]], [[Goel2025-iq]]) and to studies treating generative AI as an industrial accelerant of coordinated activity rather than a qualitatively new threat ([[Luceri2025-tr]], [[Gerard2025-br]], [[Yang2025-iv]]). Methodologically, its VLM-plus-embedding-plus-clustering pipeline for large-scale visual analysis resonates with emerging multimodal approaches in the same register ([[Kansaon2025-id]], [[Minici2024-tf]]).
 
 ## Podcast
 
