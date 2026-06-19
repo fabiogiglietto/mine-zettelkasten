@@ -2388,8 +2388,17 @@
       "content_hash": "946cdaf1a586f653b55b2920324849e62e5ea2fcf52dac5ee41fdeb430edc583",
       "podcast_linked": true,
       "last_processed": "2026-06-16T11:07:34.672250+00:00"
+    },
+    "bibtex:Fattorini2026-bo": {
+      "note_path": "Papers/Fattorini2026-bo.md",
+      "topics": [],
+      "pdf_source": "drive",
+      "content_hash": "dbbe555e589a6dd7a51d4ec9c200d0288d040bd3cb8a01acd53c97daa498d8c9",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-19T16:45:23.053151+00:00"
     }
   },
   "last_full_cluster": "2026-06-15T10:43:05.902693+00:00",
-  "papers_since_cluster": 2
+  "papers_since_cluster": 3
 }
