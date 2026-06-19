@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper examines Italian public perceptions of artificial intelligence using two nationally representative surveys (2023 and 2024) from the Observa Science in Society Monitor. It analyzes how Italians access AI information, their self-assessed knowledge, their use of AI tools, and their attitudes toward AI's societal implications. The authors find a persistent gap between exposure and understanding, rapid growth in AI tool use (especially generative AI), and context-dependent acceptance shaped by age, gender, education, and direct experience. They characterize Italian attitudes as 'critical ambivalence' rather than technophobia.",
+  "key_claims": [
+    "Italian public attitudes toward AI reflect critical ambivalence rather than simple technophobia, combining expectations of usefulness with concerns about risks and regulation.",
+    "There is a persistent gap between exposure to AI and perceived understanding: despite increased media visibility, most Italians report low levels of information.",
+    "Public acceptance of AI is highly context-dependent—high in safety/security domains but low in journalism, education, artistic production, and worker management.",
+    "Symbolic representations of AI (e.g., humanoid robots) remain salient especially among respondents with less direct experience of AI applications.",
+    "Socio-demographic factors (age, education, gender) and practical engagement with AI significantly shape how AI is imagined and evaluated, with women and older/less-educated respondents expressing more caution.",
+    "Science communication about AI is best understood as a 'social conversation' that occupies different configurations (dissemination, dialogue, participation) simultaneously for different social groups."
+  ],
+  "methods": [
+    "Analysis of two nationally representative surveys conducted by the Observa Science in Society Monitor in May 2023 (n=1,011; 995 weighted) and April 2024 (n=1,000; 998 weighted).",
+    "Mixed-mode data collection via CATI (20%) and CAWI (80%), with samples proportional to the Italian population aged 15+ by gender, age, and area of residence.",
+    "Survey instruments included 6 questions/16 items on AI in 2023 and 9 questions/26 items in 2024.",
+    "Univariate descriptive analysis, bivariate analyses by gender, age, and education, and binomial multivariate logistic regressions on 2024 data.",
+    "Dependent variables included mental imagery of AI (humanoid robots, voice assistants, chatbots), Likert-scale attitudes, views on automated text-composition systems, and perceived long-term societal impact; independent variables included demographics, self-perceived knowledge, and use of four AI-related technologies."
+  ],
+  "findings": [
+    "Self-reported information levels remain low: 58.4% of Italians in 2024 felt 'a little' informed and only ~3% felt highly informed; those feeling 'not at all' informed dropped from 15.8% (2023) to 4.9% (2024).",
+    "Use of AI tools rose sharply from 2023 to 2024: voice assistants 41.3%→49.0%, chatbots 11.1%→25.1%, smart home devices 21.2%→29.0%.",
+    "TV/radio (70.5%) remain the dominant information source on AI, followed by social media (54.2%) and press (40.0%).",
+    "Humanoid robots remain the most common AI image (27.4% in 2024, down from 30.6%); chatbots as the dominant association grew from 15.6% to 25.8%.",
+    "Perceiving AI as a threat to humanity rose from 35.8% (2023) to 51.0% (2024); belief that machines will replace human activities rose from 33.3% to 46.6%.",
+    "Support for AI is highest for security applications (76.5% in favor) and lowest for worker selection/management (25.6%), journalism (35.7%), and artistic production (39.6%).",
+    "69% in 2024 believe generative text systems should be permitted but strictly regulated (up ~15 points from 2023); only 16.6% want them banned.",
+    "Regression results: university education reduces association of AI with humanoid robots (OR=0.498); chatbot users are far more likely to associate AI with chatbots (OR=3.546); the 45–59 age group is most likely to view AI as a threat (OR=2.405); women are less likely to expect positive societal effects (OR=0.536) and more likely to expect negative effects (OR=1.821); chatbot use lowers perceptions of AI as threatening or negative.",
+    "Only 20.1% of Italians expect mostly positive long-term societal effects from AI; 27.7% expect mostly negative, and 51% expect mixed effects."
+  ],
+  "contributions": [
+    "Provides empirical evidence on Italian public perceptions of AI across two consecutive years, capturing the early diffusion phase of generative AI.",
+    "Applies and extends Bucchi and Trench's 'social conversation around science' framework to AI, showing that an issue can occupy multiple communication configurations simultaneously for different publics.",
+    "Demonstrates that AI perceptions are socially stratified by age, gender, education, and practical engagement rather than uniformly distributed.",
+    "Offers implications for AI governance and communication policy, arguing for context-sensitive, differentiated communication strategies rather than uniform information transmission.",
+    "Situates the Italian case within broader European and international comparative research on AI attitudes."
+  ],
+  "framing": "The paper is positioned within science and technology studies and science communication research, drawing on the 'social conversation around science' model (Bucchi & Trench) and co-evolutionary perspectives on science-technology-society (Bijker, Wynne & Felt). It engages with comparative literature on public attitudes toward AI (Eurobarometer, Pew, Ipsos) and Italian scholarship on science communication, framing AI perceptions as products of media, institutional discourse, cultural imaginaries, and everyday experience rather than mere information deficits.",
+  "pdf_source": "drive"
+}
