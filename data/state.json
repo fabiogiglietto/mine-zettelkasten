@@ -1952,9 +1952,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "f2c5c99ba774c8e3dd39f84f62e95eab7c0629c58f4cb504d78c5f77f05e48b7",
       "podcast_linked": false,
-      "last_processed": "2026-06-19T11:26:27.697798+00:00"
+      "last_processed": "2026-06-19T20:25:05.145411+00:00"
     },
     "bibtex:Rossi2023-847d5a9f": {
       "note_path": "Papers/Rossi2023-847d5a9f.md",
@@ -2397,8 +2397,18 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-19T16:45:23.053151+00:00"
+    },
+    "bibtex:noauthor_undated-jo": {
+      "note_path": "Papers/noauthor_undated-jo.md",
+      "topics": [],
+      "pdf_source": "abstract_only",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": true,
+      "last_processed": "2026-06-19T20:24:59.666359+00:00"
     }
   },
   "last_full_cluster": "2026-06-15T10:43:05.902693+00:00",
-  "papers_since_cluster": 3
+  "papers_since_cluster": 4
 }
