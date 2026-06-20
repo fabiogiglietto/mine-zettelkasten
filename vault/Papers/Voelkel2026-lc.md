@@ -55,4 +55,4 @@ This paper is the methodological and empirical anchor for the current wave of la
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Voelkel2026-lc.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Voelkel2026-lc.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-a-registered-report-megastudy-on/id1866587707?i=1000745538253)

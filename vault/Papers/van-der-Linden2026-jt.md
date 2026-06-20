@@ -51,4 +51,4 @@ This study extends the inoculation/prebunking literature into Instagram's native
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/van-der-Linden2026-jt.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/van-der-Linden2026-jt.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-prebunking-can-short-videos-fight/id1866587707?i=1000748973761)

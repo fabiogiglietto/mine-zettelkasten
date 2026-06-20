@@ -53,4 +53,4 @@ This paper extends end-to-end LLM fact-checking work and connects to broader con
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/DeVerna2025-dl.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/DeVerna2025-dl.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-ai-fact-check-fail-the-bias/id1866587707?i=1000751701628)

@@ -49,4 +49,4 @@ This commentary sits naturally alongside critical work on the limits of platform
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Heiss2026-qv.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Heiss2026-qv.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-social-media-research-are-platforms/id1866587707?i=1000749917755)

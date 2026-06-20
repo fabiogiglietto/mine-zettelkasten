@@ -52,4 +52,4 @@ This meta-level critique sits above the empirical contributions in the topic clu
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/van-Eck2026-xg.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/van-Eck2026-xg.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-polarization-paradox-when/id1866587707?i=1000769812226)

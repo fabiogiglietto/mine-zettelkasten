@@ -51,4 +51,4 @@ This work belongs to the latent-coordination-network strand of CIB detection and
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Iannucci2025-eg.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Iannucci2025-eg.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-detecting-coordinated-activities/id1866587707?i=1000743818634)

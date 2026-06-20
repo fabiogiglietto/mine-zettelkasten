@@ -53,4 +53,4 @@ This study speaks directly to ongoing debates about generative-AI-driven disinfo
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hameleers2026-mc.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hameleers2026-mc.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-visual-lies-when-videos-and-ai/id1866587707?i=1000746813238)

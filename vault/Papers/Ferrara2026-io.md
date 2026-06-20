@@ -51,4 +51,4 @@ No other papers have been registered under this note's topics yet, so there are 
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Ferrara2026-io.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Ferrara2026-io.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-echo-breaking-down-walls-to-find/id1866587707?i=1000752849472)

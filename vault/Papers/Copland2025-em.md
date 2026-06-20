@@ -52,4 +52,4 @@ This study sits alongside other work on transnational right-wing media ecosystem
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Copland2025-em.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Copland2025-em.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-sky-news-australia-from-niche-cable/id1866587707?i=1000743818633)

@@ -52,4 +52,4 @@ This paper sits squarely within the online-radicalization-far-right literature t
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Brown2026-br.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Brown2026-br.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-whos-really-driving-youtubes-rabbit/id1866587707?i=1000772632531)

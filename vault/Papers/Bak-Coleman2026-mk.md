@@ -53,4 +53,4 @@ This paper extends the same authors' broader critique of platform-dependent rese
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bak-Coleman2026-mk.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bak-Coleman2026-mk.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-social-media-research-how-biased/id1866587707?i=1000746176106)

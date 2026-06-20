@@ -52,4 +52,4 @@ This piece sits in productive tension with work that examines how creators and u
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Gerbaudo2026-fo.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Gerbaudo2026-fo.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-from-friends-to-algorithms-how-tiktok/id1866587707?i=1000769474750)

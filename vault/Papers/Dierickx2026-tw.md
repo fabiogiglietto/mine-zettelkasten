@@ -51,4 +51,4 @@ This piece sits among other theoretically and normatively oriented work on factu
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dierickx2026-tw.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dierickx2026-tw.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-ai-generated-facts-truth-or-illusion/id1866587707?i=1000754408314)

@@ -52,4 +52,4 @@ This paper sits within a growing strand of TikTok-as-political-discourse researc
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hollingshead2026-vx.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hollingshead2026-vx.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-tiktoks-immigration-battle-positive/id1866587707?i=1000747874861)

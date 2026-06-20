@@ -55,4 +55,4 @@ This paper provides organizational ground-truth that complements content- and be
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Poliakoff2026-fa.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Poliakoff2026-fa.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-prigozhins-propaganda-team-the-st/id1866587707?i=1000744665554)

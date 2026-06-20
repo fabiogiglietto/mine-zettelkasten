@@ -54,4 +54,4 @@ This work sits in the computational-methods-and-LLMs cluster alongside studies p
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Alizadeh2026-es.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Alizadeh2026-es.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-when-ai-agents-replicate-science/id1866587707?i=1000772806829)

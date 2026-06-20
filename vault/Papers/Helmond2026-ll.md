@@ -51,4 +51,4 @@ This essay sits at the conceptual core of critical platform studies and resonate
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Helmond2026-ll.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Helmond2026-ll.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-from-like-buttons-to-satellites/id1866587707?i=1000769683573)

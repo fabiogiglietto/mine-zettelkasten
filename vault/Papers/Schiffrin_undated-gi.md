@@ -53,4 +53,4 @@ This brief contributes a financial-harm angle to the broader platform-governance
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Schiffrin_undated-gi.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Schiffrin_undated-gi.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-deepfake-fraud-when-ai-scams-go-global/id1866587707?i=1000755058728)

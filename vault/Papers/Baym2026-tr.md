@@ -50,4 +50,4 @@ Baym's call to move past pure critique resonates directly with companion anniver
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Baym2026-tr.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Baym2026-tr.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-social-media-its-bad-now-what/id1866587707?i=1000753721567)

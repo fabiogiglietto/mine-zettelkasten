@@ -51,4 +51,4 @@ This paper sits alongside other recent attempts to use scalable interventions �
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dubey2026-bl.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dubey2026-bl.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-investigating-perceived-trust-and/id1866587707?i=1000745538358)

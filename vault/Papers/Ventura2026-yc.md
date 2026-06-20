@@ -51,4 +51,4 @@ This paper speaks directly to platform governance work on the political conseque
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Ventura2026-yc.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Ventura2026-yc.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-banned-no-more-how-platform-bans/id1866587707?i=1000757761797)

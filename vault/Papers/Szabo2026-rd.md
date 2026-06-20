@@ -53,4 +53,4 @@ This work sits in the HCI corner of misinformation-resistance research, compleme
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Szabo2026-rd.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Szabo2026-rd.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-chatbots-vs-fake-news-inoculating/id1866587707?i=1000748800904)
