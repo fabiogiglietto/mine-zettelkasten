@@ -52,4 +52,4 @@ This piece serves as a programmatic umbrella for several adjacent strands in the
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2026-lc.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-end-of-social-media-as-we-know-it/id1866587707?i=1000769474609)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2026-lc.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-end-of-social-media-as-we-know-it/id1866587707?i=1000769474609)

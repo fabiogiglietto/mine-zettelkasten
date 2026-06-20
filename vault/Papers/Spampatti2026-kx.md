@@ -52,4 +52,4 @@ This piece sits naturally alongside meta-level critiques of the misinformation f
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Spampatti2026-kx.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-climate-psychologys/id1866587707?i=1000768096465)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Spampatti2026-kx.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-climate-psychologys/id1866587707?i=1000768096465)

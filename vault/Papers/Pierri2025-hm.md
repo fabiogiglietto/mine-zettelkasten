@@ -50,4 +50,4 @@ This commentary speaks directly to ongoing scholarship critiquing platform-led t
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Pierri2025-hm.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-decoding-the-dsa-can-research-tame/id1866587707?i=1000743818439)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Pierri2025-hm.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-decoding-the-dsa-can-research-tame/id1866587707?i=1000743818439)

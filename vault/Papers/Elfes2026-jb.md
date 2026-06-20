@@ -52,4 +52,4 @@ This paper extends polarisation research beyond opinion- and interaction-based m
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Elfes2026-jb.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-narrative-warfare-how-stories-fuel/id1866587707?i=1000748224708)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Elfes2026-jb.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-narrative-warfare-how-stories-fuel/id1866587707?i=1000748224708)

@@ -54,4 +54,4 @@ This paper sits squarely within the emerging experimental literature on LLM pers
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lin2025-xp.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-persuading-voters-using-human-artificial/id1866587707?i=1000743818522)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lin2025-xp.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-persuading-voters-using-human-artificial/id1866587707?i=1000743818522)
