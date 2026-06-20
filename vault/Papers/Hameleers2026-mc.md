@@ -16,7 +16,7 @@ discovery_date: 2026-01-27T05:48:02.219127Z
 
 # Beyond textual disinformation: Comparing the effects of textual disinformation to AI-generated and video-based visual disinformation across different issues
 
-> Hameleers, M., & Meer, T. V. D. (2026). Beyond textual disinformation: Comparing the effects of textual disinformation to AI-generated and video-based visual disinformation across different issues. *New Media & Society*. https://doi.org/10.1177/14614448251409208
+> Hameleers, M., & van der Meer, T. (2026). Beyond textual disinformation: Comparing the effects of textual disinformation to AI-generated and video-based visual disinformation across different issues. *New Media & Society*. https://doi.org/10.1177/14614448251409208
 >
 > [View paper](https://doi.org/10.1177/14614448251409208)
 

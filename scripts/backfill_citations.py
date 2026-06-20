@@ -21,8 +21,12 @@ from src import feed_client, note_builder
 
 _FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 _BODY_H1 = re.compile(r"^# .+?[ \t]*$", re.MULTILINE)
-# A note already carrying a citation: a blockquote within ~2 lines of the H1.
-_HAS_BLOCK = re.compile(r"^# .+\n\n> ", re.MULTILINE)
+# The title H1 (group 1) immediately followed by an existing citation blockquote
+# (group 2 — the contiguous run of `>`-prefixed lines). Used to re-render the
+# block in place so parser improvements reach already-built notes.
+_H1_THEN_BLOCK = re.compile(
+    r"(^# .+$\n\n)(>[^\n]*(?:\n>[^\n]*)*)", re.MULTILINE
+)
 
 
 def _key_of(text: str, fallback: str) -> str:
@@ -44,32 +48,37 @@ def main() -> int:
     print(f"loaded {len(by_key)} papers from feeds")
 
     papers_dir = Path(cfg["vault"]["path"]) / cfg["vault"]["papers_dir"]
-    spliced = skipped = unmatched = already = 0
+    inserted = rerendered = unchanged = unmatched = skipped = 0
 
     for note in sorted(papers_dir.glob("*.md")):
         text = note.read_text(encoding="utf-8")
-        if _HAS_BLOCK.search(text):
-            already += 1
-            continue
         paper = by_key.get(_key_of(text, note.stem))
         if paper is None:
             print(f"  WARN: no feed match for {note.stem}")
             unmatched += 1
             continue
-        match = _BODY_H1.search(text)
-        if not match:
-            print(f"  WARN: no H1 in {note.stem}")
-            skipped += 1
-            continue
         block = note_builder.render_citation_block(paper)
-        insert_at = match.end()
-        new_text = f"{text[:insert_at]}\n\n{block}{text[insert_at:]}"
+        existing = _H1_THEN_BLOCK.search(text)
+        if existing:
+            # Replace the current citation blockquote in place (idempotent).
+            new_text = text[: existing.start(2)] + block + text[existing.end(2):]
+            if new_text == text:
+                unchanged += 1
+                continue
+            rerendered += 1
+        else:
+            match = _BODY_H1.search(text)
+            if not match:
+                print(f"  WARN: no H1 in {note.stem}")
+                skipped += 1
+                continue
+            new_text = f"{text[:match.end()]}\n\n{block}{text[match.end():]}"
+            inserted += 1
         note.write_text(new_text, encoding="utf-8")
-        spliced += 1
 
     print(
-        f"done: {spliced} spliced, {already} already had a block, "
-        f"{unmatched} unmatched, {skipped} skipped"
+        f"done: {inserted} inserted, {rerendered} re-rendered, "
+        f"{unchanged} unchanged, {unmatched} unmatched, {skipped} skipped"
     )
     return 0
 

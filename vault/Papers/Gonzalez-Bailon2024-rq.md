@@ -16,7 +16,7 @@ discovery_date: 2024-12-15T00:00:00Z
 
 # The diffusion and reach of (mis)information on Facebook during the U.s. 2020 election
 
-> González-Bailón, S., Lazer, D., Barberá, P., Godel, W., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A., Iyengar, S., Kim, Y., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C., Settle, J., Thorson, E., Tromble, R., Wilkins, A., Wojcieszak, M., Jonge, C. K. D., Franco, A., Mason, W., Stroud, N., & Tucker, J. (2024). The diffusion and reach of (mis)information on Facebook during the U.s. 2020 election. *Sociological Science*, *11*, 1124–1146. https://doi.org/10.15195/v11.a41
+> González-Bailón, S., Lazer, D., Barberá, P., Godel, W., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A., Iyengar, S., Kim, Y., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C., Settle, J., Thorson, E., Tromble, R., Wilkins, A., Wojcieszak, M., de Jonge, C. K., Franco, A., Mason, W., Stroud, N., & Tucker, J. (2024). The diffusion and reach of (mis)information on Facebook during the U.s. 2020 election. *Sociological Science*, *11*, 1124–1146. https://doi.org/10.15195/v11.a41
 >
 > [View paper](https://doi.org/10.15195/v11.a41)
 

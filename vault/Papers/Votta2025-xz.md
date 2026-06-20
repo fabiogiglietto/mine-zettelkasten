@@ -16,7 +16,7 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # The cost of reach: Testing the role of ad delivery algorithms in online political campaigns
 
-> Votta, F., Dobber, T., Guinaudeau, B., Helberger, N., & Vreese, C. D. (2025). The cost of reach: Testing the role of ad delivery algorithms in online political campaigns. *Political Communication*, *42*, 476–508. https://doi.org/10.1080/10584609.2024.2439317
+> Votta, F., Dobber, T., Guinaudeau, B., Helberger, N., & de Vreese, C. (2025). The cost of reach: Testing the role of ad delivery algorithms in online political campaigns. *Political Communication*, *42*, 476–508. https://doi.org/10.1080/10584609.2024.2439317
 >
 > [View paper](https://doi.org/10.1080/10584609.2024.2439317)
 

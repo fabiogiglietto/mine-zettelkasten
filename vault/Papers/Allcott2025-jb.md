@@ -16,7 +16,7 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # The effects of political advertising on Facebook and Instagram before the 2020 US election
 
-> Allcott, H., Gentzkow, M., Levy, R., Crespo-Tenorio, A., Dumas, N., Mason, W., Moehler, D., Barbera, P., Brown, T., Cisneros, J. C., Dimmery, D., Freelon, D., González-Bailón, S., Guess, A., Kim, Y. M., Lazer, D., Malhotra, N. A., Nair-Desai, S., Nyhan, B., Queiroz, A. C. P. D., Pan, J., Settle, J., Thorson, E., Tromble, R., Velasco, C., Wittenbrink, B., Wojcieszak, M., Yang, S., Zahedian, S., Franco, A., Jonge, C. K. D., Stroud, T., & Tucker, J. A. (2025). The effects of political advertising on Facebook and Instagram before the 2020 US election. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5259653
+> Allcott, H., Gentzkow, M., Levy, R., Crespo-Tenorio, A., Dumas, N., Mason, W., Moehler, D., Barbera, P., Brown, T., Cisneros, J. C., Dimmery, D., Freelon, D., González-Bailón, S., Guess, A., Kim, Y. M., Lazer, D., Malhotra, N. A., Nair-Desai, S., Nyhan, B., de Queiroz, A. C. P., Pan, J., Settle, J., Thorson, E., Tromble, R., Velasco, C., Wittenbrink, B., Wojcieszak, M., Yang, S., Zahedian, S., Franco, A., de Jonge, C. K., Stroud, T., & Tucker, J. A. (2025). The effects of political advertising on Facebook and Instagram before the 2020 US election. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5259653
 >
 > [View paper](https://doi.org/10.2139/ssrn.5259653)
 

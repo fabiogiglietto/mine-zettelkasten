@@ -16,7 +16,7 @@ discovery_date: 2026-05-15T05:52:01.125378Z
 
 # Six insights from climate psychology for the study of misinformation
 
-> Spampatti, T., Većkalov, B., Geiger, S. J., Linden, S. V. D., Lewandowsky, S., & Hornsey, M. (2026). Six insights from climate psychology for the study of misinformation. https://doi.org/10.31234/osf.io/swdrq_v1
+> Spampatti, T., Većkalov, B., Geiger, S. J., van der Linden, S., Lewandowsky, S., & Hornsey, M. (2026). Six insights from climate psychology for the study of misinformation. https://doi.org/10.31234/osf.io/swdrq_v1
 >
 > [View paper](https://doi.org/10.31234/osf.io/swdrq_v1)
 

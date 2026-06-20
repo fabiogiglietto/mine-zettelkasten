@@ -28,19 +28,27 @@ def _year_of(paper) -> str:
 
 def _format_author(name: str) -> str:
     """An author name in APA form: "Eytan Bakshy" -> "Bakshy, E.",
-    "Lada A. Adamic" -> "Adamic, L. A.".
+    "Lada A. Adamic" -> "Adamic, L. A.", "Claes H. de Vreese" -> "de Vreese, C. H.".
 
-    Heuristic: the last whitespace-separated token is the surname, the rest
-    become initials. Good for ordinary "First [Middle] Last" names; surnames
-    with particles (van/de) or "Last, First" ordering may format imperfectly.
+    Heuristic: the surname is the last token plus any immediately preceding
+    run of lowercase nobiliary particles (de, van, von, della, ...); the
+    remaining leading tokens become initials. "Last, First" ordering may still
+    format imperfectly.
     """
     parts = name.split()
     if not parts:
         return ""
     if len(parts) == 1:
         return parts[0]
-    surname = parts[-1]
-    initials = " ".join(f"{p[0].upper()}." for p in parts[:-1] if p)
+    # Grow the surname backwards over any trailing run of lowercase particles.
+    i = len(parts) - 1
+    while i > 0 and parts[i - 1].islower():
+        i -= 1
+    surname = " ".join(parts[i:])
+    given = parts[:i]
+    if not given:
+        return surname
+    initials = " ".join(f"{p[0].upper()}." for p in given if p)
     return f"{surname}, {initials}"
 
 

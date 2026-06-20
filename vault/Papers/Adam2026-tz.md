@@ -16,7 +16,7 @@ discovery_date: 2026-05-16T09:10:27.779284Z
 
 # How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic
 
-> Adam, S., Rohrbach, T., Keller, F., Makhortykh, M., León, E. D., Valli, C., Baghumyan, A., & Sydorova, M. (2026). How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic. *Journal of Communication*, *76*, 119–133. https://doi.org/10.1093/joc/jqaf033
+> Adam, S., Rohrbach, T., Keller, F., Makhortykh, M., de León, E., Valli, C., Baghumyan, A., & Sydorova, M. (2026). How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic. *Journal of Communication*, *76*, 119–133. https://doi.org/10.1093/joc/jqaf033
 >
 > [View paper](https://doi.org/10.1093/joc/jqaf033)
 

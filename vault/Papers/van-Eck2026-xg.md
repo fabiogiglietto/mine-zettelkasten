@@ -16,7 +16,7 @@ discovery_date: 2026-04-15T06:15:06.075218Z
 
 # What to do about polarization? Evaluating the evidence base of recommendations for depolarization
 
-> Eck, C. W. V., Meyer, H. M. A., & Brüggemann, M. (2026). What to do about polarization? Evaluating the evidence base of recommendations for depolarization. *Annals of the International Communication Association*. https://doi.org/10.1093/anncom/wlag012
+> van Eck, C. W., Meyer, H. M. A., & Brüggemann, M. (2026). What to do about polarization? Evaluating the evidence base of recommendations for depolarization. *Annals of the International Communication Association*. https://doi.org/10.1093/anncom/wlag012
 >
 > [View paper](https://doi.org/10.1093/anncom/wlag012)
 

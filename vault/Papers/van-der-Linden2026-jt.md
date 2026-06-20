@@ -16,7 +16,7 @@ discovery_date: 2026-02-09T06:52:57.031866Z
 
 # Prebunking misinformation techniques in social media feeds: Results from an Instagram field study
 
-> Linden, S. V. D., Louison-Lavoy, D., Blazer, N., Noble, N. S., & Roozenbeek, J. (2026). Prebunking misinformation techniques in social media feeds: Results from an Instagram field study. *Harvard Kennedy School Misinformation Review*. https://doi.org/10.37016/mr-2020-193
+> van der Linden, S., Louison-Lavoy, D., Blazer, N., Noble, N. S., & Roozenbeek, J. (2026). Prebunking misinformation techniques in social media feeds: Results from an Instagram field study. *Harvard Kennedy School Misinformation Review*. https://doi.org/10.37016/mr-2020-193
 >
 > [View paper](https://doi.org/10.37016/mr-2020-193)
 
