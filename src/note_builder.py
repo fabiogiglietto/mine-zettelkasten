@@ -109,6 +109,35 @@ def render_citation_block(paper) -> str:
     return "\n".join(lines)
 
 
+def render_podcast_block(episode: Optional[dict], kind: Optional[str] = None) -> str:
+    """The `## Podcast` section for a paper note, or "" when no episode exists.
+
+    Always offers the standalone MP3. Spotify and Apple Podcasts links are added
+    only when present in the episode record and the note is not an own
+    publication (`kind == "own"`) — own-pub episodes are excluded from
+    research-radio's public feed, so they never reach Spotify/Apple. Shared by
+    `build_paper_note` and the one-time backfill so new and existing notes stay
+    consistent.
+    """
+    if not episode or not episode.get("audio_url"):
+        return ""
+    platforms = []
+    if kind != "own":
+        if episode.get("spotify_url"):
+            platforms.append(f"[Spotify]({episode['spotify_url']})")
+        if episode.get("apple_url"):
+            platforms.append(f"[Apple Podcasts]({episode['apple_url']})")
+    lead = "A research-radio episode discusses this paper:"
+    if not platforms:
+        # MP3 alone — keep the plain "Listen" form (byte-identical to notes
+        # built before per-platform links existed).
+        body = f"{lead} [Listen]({episode['audio_url']})"
+    else:
+        links = [f"[MP3]({episode['audio_url']})", *platforms]
+        body = f"{lead} 🎧 " + " · ".join(links)
+    return f"## Podcast\n\n{body}\n"
+
+
 def render_frontmatter(fields: dict[str, Any]) -> str:
     """Render a YAML frontmatter block. Lists become `[a, b]`."""
     lines = ["---"]
@@ -231,7 +260,7 @@ def build_paper_note(
     summary: dict,
     topics: list[str],
     related_keys: list[str],
-    podcast_url: Optional[str],
+    podcast: Optional[dict],
     claude,
     model: str,
     kind: Optional[str] = None,
@@ -240,8 +269,8 @@ def build_paper_note(
 
     Claude writes the body — summary, contributions, methods, findings, a
     "Connections" section with inline [[bibtex-key]] links to `related_keys`,
-    and a "Podcast" section when `podcast_url` is set. Filename is the bibtex
-    key; the readable title goes in frontmatter `aliases`.
+    and a "Podcast" section when `podcast` (an `episodes_client` record) is set.
+    Filename is the bibtex key; the readable title goes in frontmatter `aliases`.
 
     `kind` adds a frontmatter `kind:` field when set — used to mark the
     author's own publications (`kind: own`); toread papers leave it unset.
@@ -263,7 +292,7 @@ def build_paper_note(
             "citation_count": academic.get("citation_count", 0),
             "open_access": bool(academic.get("open_access", False)),
             "source_url": paper.url or "",
-            "podcast_url": podcast_url or "",
+            "podcast_url": (podcast or {}).get("audio_url") or "",
             "pdf_available": summary.get("pdf_source") == "drive",
             "discovery_date": paper.discovery_date or "",
         }
@@ -291,12 +320,9 @@ def build_paper_note(
     ).strip()
 
     note = f"{fm}\n\n# {paper.title}\n\n{render_citation_block(paper)}\n\n{body}\n"
-    if podcast_url:
-        note += (
-            f"\n## Podcast\n\n"
-            f"A research-radio episode discusses this paper: "
-            f"[Listen]({podcast_url})\n"
-        )
+    podcast_block = render_podcast_block(podcast, kind)
+    if podcast_block:
+        note += f"\n{podcast_block}"
     return note
 
 
