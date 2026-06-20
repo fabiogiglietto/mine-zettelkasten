@@ -17,6 +17,10 @@ discovery_date:
 
 # The State of Social Media Research APIs &amp; Tools in the Digital Service Act Era
 
+> (2025). The State of Social Media Research APIs &amp; Tools in the Digital Service Act Era. *Zenodo*. https://doi.org/10.5281/zenodo.16269197
+>
+> [View paper](https://doi.org/10.5281/zenodo.16269197)
+
 ## Summary
 
 This 2025 work surveys the landscape of social media research APIs and tools in the era of the European Union's Digital Services Act (DSA). Because no abstract or body text was provided, the substantive arguments cannot be reconstructed here; the title alone signals an intervention into ongoing debates about researcher data access, the shifting infrastructure of platform research, and how the DSA's mandated access regime (notably Article 40) is reshaping — or failing to reshape — what social media scholarship is practically possible.

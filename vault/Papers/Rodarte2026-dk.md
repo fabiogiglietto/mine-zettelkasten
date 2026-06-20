@@ -16,6 +16,10 @@ discovery_date: 2026-05-17T08:06:58.350420Z
 
 # Who controls the narrative? How Brazilian parliamentarians pursue epistemic authority in times of crisis
 
+> Rodarte, A. K., Kuahara, C. V., & Arif, A. (2026). Who controls the narrative? How Brazilian parliamentarians pursue epistemic authority in times of crisis. *Digital Journalism*, 1–26. https://doi.org/10.1080/21670811.2026.2669534
+>
+> [View paper](https://doi.org/10.1080/21670811.2026.2669534)
+
 ## Summary
 
 This article investigates how Brazilian federal deputies competed to define the narrative of the January 2021 Manaus oxygen crisis on Twitter, treating the moment as a critical window onto how political elites contest journalistic gatekeeping during a public health collapse. Drawing on hybrid media systems theory and gatekeeping scholarship, Rodarte, Kuahara, and Arif argue that parliamentarians no longer merely act as sources for the press but operate as media producers vying for epistemic authority. From a network and content analysis of 47,728 tweets by 450 deputies, they distill three distinct legitimation strategies — objectivity-by-derivation, direct claims of authority, and proximity-based brokerage — each underwritten by a different theory of why their account of the crisis should be believed.

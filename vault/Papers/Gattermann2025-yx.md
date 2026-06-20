@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # The role of far-right party performance in shaping disinformation concerns of European voters: evidence from the 2024 European Parliament elections
 
+> Gattermann, K., Hoogen, E. V. D., & Vreese, C. D. (2026). The role of far-right party performance in shaping disinformation concerns of European voters: evidence from the 2024 European Parliament elections. *Journal of European Public Policy*, 1–26. https://doi.org/10.1080/13501763.2025.2489088
+>
+> [View paper](https://doi.org/10.1080/13501763.2025.2489088)
+
 ## Summary
 
 This paper examines whether the electoral performance of far-right parties in the 2024 European Parliament elections shaped how European voters perceive disinformation as a threat. Moving beyond individual-level predictors of disinformation concern, the authors leverage cross-national variation in far-right vote shares across EU member states to argue that the electoral context itself conditions citizens' worry about information integrity. The study thus situates disinformation concern as not only a psychological or media-use phenomenon, but also a politically contingent attitude tied to the visible success of parties associated with contested information practices.

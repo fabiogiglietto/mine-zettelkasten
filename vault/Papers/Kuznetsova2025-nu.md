@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Amplifying the regime: identifying coordinated activity of pro-government Telegram channels in Russia and Belarus
 
+> Kuznetsova, D. (2025). Amplifying the regime: identifying coordinated activity of pro-government Telegram channels in Russia and Belarus. *Journal of Information Technology & Politics*, 1–17. https://doi.org/10.1080/19331681.2025.2540822
+>
+> [View paper](https://doi.org/10.1080/19331681.2025.2540822)
+
 ## Summary
 
 This paper examines how pro-government Telegram channels in Russia and Belarus coordinate to amplify regime-aligned narratives. Treating Telegram as a critical but understudied venue for political communication in post-Soviet authoritarian contexts, Kuznetsova uses network analysis of message-forwarding patterns to show that these channels do not operate independently but cluster into identifiable coordination structures. The argument is that Telegram's forwarding affordance is actively leveraged by regime-aligned actors as infrastructure for narrative amplification, making coordinated behavior a constitutive feature of authoritarian information ecosystems on the platform.

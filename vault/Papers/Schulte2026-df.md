@@ -16,6 +16,10 @@ discovery_date: 2026-05-26T17:18:00.349369Z
 
 # Multi-platform analysis of electoral discourse on social media as a research infrastructure problem
 
+> Schulte, L., Pasic, D., Goanta, C., & Iamnitchi, A. (2026). Multi-platform analysis of electoral discourse on social media as a research infrastructure problem. *Companion Publication of the 2026 18th ACM Web Science Conference*, 66–69. https://doi.org/10.1145/3795513.3807440
+>
+> [View paper](https://doi.org/10.1145/3795513.3807440)
+
 ## Summary
 
 Using the 2025 German federal election as a case study, this paper recasts multi-platform electoral discourse analysis as a research infrastructure problem rather than a sequence of standalone empirical studies. The authors collected 81,866 X posts and 43,597 TikTok videos across seven German parties, applied BERTopic for topic modeling, and built a multimodal pipeline combining facial, vocal, and textual analysis on diarized TikTok segments. They argue that the central obstacle to studying electoral harms is not a lack of studies but the absence of consolidated, reusable tools, workflows, and documentation for cross-platform observability under increasingly constrained platform access. The paper closes with four recommendations on data standardization, quality, content-type-tailored analysis, and interdisciplinary collaboration.

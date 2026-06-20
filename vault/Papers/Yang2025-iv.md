@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # Coordinated link sharing on Facebook
 
+> Yang, Y., Paudel, R., McShan, J., Hindman, M., Huang, H. H., & Broniatowski, D. (2025). Coordinated link sharing on Facebook. *Scientific Reports*, *15*, 15684. https://doi.org/10.1038/s41598-025-00233-w
+>
+> [View paper](https://doi.org/10.1038/s41598-025-00233-w)
+
 ## Summary
 
 This paper proposes a new method for detecting coordinated link-sharing behavior on Facebook that reduces reliance on post-timing signals, which adversaries can easily manipulate. The authors argue that the *speed* and *frequency* of link sharing across accounts follow consistent statistical regularities, and that deviations from these regularities provide a more evasion-resistant signature of coordination. They validate the approach on a large corpus of 11.2 million Facebook link posts drawn from roughly 16,000 sources, positioning the work as a methodological contribution to platform integrity research and the broader study of coordinated inauthentic behavior.

@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Rabble-rousers in the new king&#x27;s court: Algorithmic effects on account visibility in pre-X twitter
 
+> Efstratiou, A., Duskin, K., Starbird, K., & Spiro, E. (2025). Rabble-rousers in the new king&#x27;s court: Algorithmic effects on account visibility in pre-X twitter. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2512.06129v2)
+
 ## Summary
 
 This paper audits Twitter's "For You" recommendation algorithm during a narrow but pivotal window in February 2023 — after Musk's acquisition but before the X rebrand — by comparing the algorithmic and reverse-chronological feeds that 806 real users saw simultaneously. The headline finding is that while right-leaning accounts did receive disproportionate algorithmic exposure (replicating prior audits), this apparent ideological bias largely dissolves once one controls for three behavioral factors: posting agitating content, being engaged with by Elon Musk, and verification type. The algorithmic feed was also far more centralized than the chronological one, with Musk himself emerging as the dominant node, and legacy-verified institutional accounts (mainstream news, government) systematically losing visibility. The authors argue that the algorithm rewards controversy-stirring and proximity to the platform owner, undermining "neutral town square" framings of X.

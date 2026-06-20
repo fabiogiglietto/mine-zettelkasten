@@ -16,6 +16,10 @@ discovery_date: 2026-03-22T08:20:48.605728Z
 
 # Dark patterns and the EU digital services act: Mapping autonomy violations and design factors
 
+> Ahuja, S., Gunawan, J., Bielova, N., & Santos, C. (2025). Dark patterns and the EU digital services act: Mapping autonomy violations and design factors. *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), April 13â•ﬁ17, 2026, Barcelona, Spain*. https://doi.org/10.2139/ssrn.5555765
+>
+> [View paper](https://doi.org/10.2139/ssrn.5555765)
+
 ## Summary
 
 This paper builds a "law-to-design" framework bridging HCI dark patterns research and Article 25 of the EU Digital Services Act, which prohibits interfaces that deceive, manipulate, or distort/impair user autonomy. Working in the reverse direction of most prior work, the authors start from legal categories and ask which design properties trigger them. Through iterative qualitative coding of the 59 meso- and low-level dark patterns in Gray et al.'s unified ontology, they map each pattern onto the three autonomy-violation types from Santos et al. and inductively derive eight underlying design factors split across an "Information Space" and a "Choice Space." They argue this vocabulary equips regulators, designers, and HCI researchers to reason concretely about why a given interface violates Article 25, and demonstrate extensibility on attention-capture patterns and the EU Commission's case against X over paid blue checkmarks.

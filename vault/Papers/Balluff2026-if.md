@@ -16,6 +16,10 @@ discovery_date: 2026-02-20T13:52:33.451450Z
 
 # Newer, larger, better? A critique of the unreflective LLM adoption in communication research
 
+> Balluff, P., Ho, J. C., Gruber, J. B., Palicki, S., Palmer, A., Rossi, L., Shklovski, I., & Chan, C. (2026). Newer, larger, better? A critique of the unreflective LLM adoption in communication research. *Political Communication*, 1–10. https://doi.org/10.1080/10584609.2026.2618486
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2618486)
+
 ## Summary
 
 This opinion piece offers a critical overview of how large language models (LLMs) have been adopted in political communication research, identifying underacknowledged epistemic, environmental, infrastructural, and ethical trade-offs across three application domains: text analysis, synthetic data generation, and experiments/simulations. The authors do not call for rejecting LLMs but for *reflexive*, task-appropriate use — arguing that researchers should adopt a "trade-off mindset" in which the least resource-intensive method capable of handling a task's complexity is preferred. They warn that the field's rapid embrace of commercial LLMs risks compromising reproducibility, scholarly autonomy, and open science, while obscuring substantial environmental costs and demographic biases.

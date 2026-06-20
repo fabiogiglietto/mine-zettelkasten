@@ -16,6 +16,10 @@ discovery_date: 2026-02-25T06:36:53.218205Z
 
 # Elected officials’ online sharing of misinformation: Institutional and ideological checks
 
+> Tai, Y. C., Lin, Y., & Desmarais, B. A. (2026). Elected officials’ online sharing of misinformation: Institutional and ideological checks. *Political Communication*, 1–19. https://doi.org/10.1080/10584609.2026.2613661
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2613661)
+
 ## Summary
 
 This study investigates how institutional roles and ideological positions condition the online sharing of misinformation by U.S. elected officials. Rather than treating elite misinformation diffusion as a uniform partisan phenomenon, the authors ask whether features of the political context — the office a politician holds and where they sit ideologically — function as systematic checks that constrain or enable the circulation of low-credibility content. Published in *Political Communication*, the paper argues that elite-driven misinformation is patterned: institutional and ideological structures meaningfully moderate which officeholders amplify dubious information on social media.

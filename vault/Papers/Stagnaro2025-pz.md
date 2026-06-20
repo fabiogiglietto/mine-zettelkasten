@@ -16,6 +16,10 @@ discovery_date: 2026-03-19T18:07:58.545277Z
 
 # Representativeness and response validity across nine opt-in online samples
 
+> Stagnaro, M. N., Druckman, J., Berinsky, A. J., Arechar, A. A., Willer, R., & Rand, D. G. (2025). Representativeness and response validity across nine opt-in online samples. *PsyArXiv*. https://doi.org/10.31234/osf.io/h9j2d_v2
+>
+> [View paper](https://doi.org/10.31234/osf.io/h9j2d_v2)
+
 ## Summary
 
 This paper provides a head-to-head empirical comparison of nine widely used opt-in online survey platforms (N=13,053), evaluating each on response validity (attention, effort, honesty, speeding, attrition), representativeness against the 2020 ANES benchmark, and respondent professionalism. The authors document a central trade-off: samples that rely on demographic quotas (notably Lucid and Forthright) better approximate the population — including on non-demographic attitudes — but exhibit weaker response validity, largely because their respondents disproportionately use mobile phones. They show that two trivial front-end attention checks substantially improve validity without harming representativeness, and that post-stratification weights can recover average treatment effects but not heterogeneous ones. The paper argues that opt-in samples should not be treated as a homogeneous category, and offers decision-oriented guidance for matching platform to research goal.

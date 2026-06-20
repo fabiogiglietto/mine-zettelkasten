@@ -16,6 +16,10 @@ discovery_date: 2026-03-12T08:47:21.087868Z
 
 # Amplifying division: Electoral misinformation and political intolerance in Brazil
 
+> Rossini, P., Kalogeropoulos, A., & Mont’Alverne, C. (2026). Amplifying division: Electoral misinformation and political intolerance in Brazil. *Social Media + Society*. https://doi.org/10.1177/20563051261419393
+>
+> [View paper](https://doi.org/10.1177/20563051261419393)
+
 ## Summary
 
 This paper investigates how belief in electoral misinformation shaped political intolerance during Brazil's polarized 2022 presidential election. Drawing on a three-wave panel survey timed around the runoff and the subsequent anti-democratic protests, Rossini, Kalogeropoulos, and Mont'Alverne show that Brazilians who accepted false claims about electoral fraud became measurably less willing to extend civil rights to disliked political groups. They further argue that messaging apps — particularly WhatsApp — operate as an indirect pathway to intolerance by elevating misinformation beliefs, distinguishing them from general social media use. The authors reframe electoral misinformation not as a problem of confused citizens but as a corrosive force on democratic norms themselves, one that amplifies pre-existing cleavages like Brazilian *antipetismo*.

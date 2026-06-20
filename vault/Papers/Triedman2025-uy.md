@@ -16,6 +16,10 @@ discovery_date: 2025-11-15T00:00:00Z
 
 # What did Elon change? A comprehensive analysis of Grokipedia
 
+> Triedman, H., & Mantzarlis, A. (2025). What did Elon change? A comprehensive analysis of Grokipedia. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2511.09685v1)
+
 ## Summary
 
 This paper presents the first large-scale comparative audit of Grokipedia, the AI-generated encyclopedia launched by Elon Musk on 27 October 2025, against English Wikipedia. By scraping virtually the entire Grokipedia corpus (883,858 articles) and combining embedding-based similarity with citation and reliability analyses, the authors show that Grokipedia is overwhelmingly derivative of Wikipedia — to the point of near-copying for its CC-licensed subset — yet systematically longer, more heavily cited, and significantly more reliant on low-quality and outright blacklisted sources. Divergence from Wikipedia concentrates in articles on controversial topics, politics, and biographies, where the rewrites exhibit an ideological slant aligned with Musk's stated views, supporting the framing of Grokipedia as both a synthetic derivative and an ideological project.

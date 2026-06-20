@@ -16,6 +16,10 @@ discovery_date: 2025-01-01T00:00:00Z
 
 # Platform polarization. Do alternative platforms drive discursive polarization?
 
+> Bæk, K. J., & Bæk, K. J. (2025). Platform polarization. Do alternative platforms drive discursive polarization?. *Comun. Politica*.
+>
+> [View paper](https://scholar.google.com/scholar?q=Platform%20polarization.%20Do%20alternative%20platforms%20drive%20discursive%20polarization%3F)
+
 ## Summary
 
 Kristensen asks whether *alternative* social media platforms — the non-mainstream venues that have emerged alongside (and often in opposition to) the dominant platforms — are themselves drivers of discursive polarization. Rather than treating polarization as a property of users or content alone, the paper frames platforms as actors whose architecture and user composition may shape the tenor of political discourse. Situated in the broader debate over platformization and the fragmentation of the public sphere, it raises the question of whether platform migration is a cause, symptom, or amplifier of ideological division online.

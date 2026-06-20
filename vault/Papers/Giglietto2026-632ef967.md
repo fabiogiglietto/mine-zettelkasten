@@ -17,6 +17,10 @@ discovery_date:
 
 # Beyond the share button: How partisan alignment, journalistic quality, and algorithmic governance shape what millions see on Facebook
 
+> Giglietto, F., & Marino, G. (2026). Beyond the share button: How partisan alignment, journalistic quality, and algorithmic governance shape what millions see on Facebook. *Platforms & Society*. https://doi.org/10.1177/29768624261452529
+>
+> [View paper](https://doi.org/10.1177/29768624261452529)
+
 ## Summary
 
 This paper leverages Meta's Privacy-Protected Full URLs Dataset to examine the relationship between sharing and viewership for 130,448 highly circulated URLs on Facebook in the US between 2017 and 2022. While shares reliably predict views, the authors show that this amplification is significantly dampened for content with strongly partisan audiences and boosted for content from sources meeting professional journalistic standards. Crucially, these effects are not stable: their sharp temporal fluctuations align with documented Facebook governance interventions—most notably the 2020 "break the glass" measures—providing quantitative evidence that the platform operates as an active curator whose algorithmic calibrations shift in response to political crises and reputational pressure, rather than as a neutral conduit.

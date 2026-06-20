@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Multimodal coordinated online behavior: Trade-offs and strategies
 
+> Mannocci, L., Cresci, S., Magnani, M., Monreale, A., & Tesconi, M. (2025). Multimodal coordinated online behavior: Trade-offs and strategies. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2507.12108v3)
+
 ## Summary
 
 This paper systematically compares five ways of operationalizing the detection of *multimodal* coordinated online behavior — i.e., coordination that unfolds simultaneously across multiple action types such as retweets, replies, mentions, hashtags, and URLs. Using a Twitter dataset from the 2019 UK General Election, the authors construct a five-layer multiplex coordination network and evaluate monomodal analysis, independent layers, union flattening (the field's default), multiplex community detection via Generalized Louvain, and intersection flattening. They identify a fundamental trade-off between how strongly modalities are integrated and how inclusive the resulting detection is, and argue that multiplex community detection offers the best balance — preserving monomodal findings, discovering new cross-layer communities, and retaining structurally central actors that flattening tends to discard.

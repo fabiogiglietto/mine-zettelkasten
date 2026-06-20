@@ -16,6 +16,10 @@ discovery_date: 2026-03-03T07:13:16.098918Z
 
 # ECHO: Encoding Communities via High-order Operators
 
+> Ferrara, E. (2026). ECHO: Encoding Communities via High-order Operators. *arXiv [cs.LG]*.
+>
+> [View paper](http://arxiv.org/abs/2602.22446v1)
+
 ## Summary
 
 ECHO is a self-supervised graph learning framework for attributed community detection that targets two complementary failure modes of GNN-based approaches: a *Semantic Wall* (over-smoothing and heterophilic poisoning from rigid inductive biases) and a *Systems Wall* (the O(N²) memory cost of dense pairwise similarity clustering). The system routes each graph to an Isolating (MLP) or Densifying (GraphSAGE) encoder via unsupervised structural heuristics, applies attention-guided K-step diffusion to throttle information flow across heterophilic edges, trains with a memory-sharded full-batch InfoNCE objective, and extracts communities through chunked O(N·K) top-k similarity feeding into modularity maximization. On LFR benchmarks up to 1M nodes and real attributed graphs including Pokec (1.6M nodes, 30M edges), ECHO reaches state-of-the-art NMI on several datasets while sustaining >2,800 nodes/sec on a single A100.

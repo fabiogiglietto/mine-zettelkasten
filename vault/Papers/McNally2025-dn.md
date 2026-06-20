@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # The news feed is not a black box: A longitudinal study of Facebook’s algorithmic treatment of news
 
+> McNally, N., & Bastos, M. (2025). The news feed is not a black box: A longitudinal study of Facebook’s algorithmic treatment of news. *Digital Journalism*, 1–20. https://doi.org/10.1080/21670811.2025.2450623
+>
+> [View paper](https://doi.org/10.1080/21670811.2025.2450623)
+
 ## Summary
 
 This paper challenges the prevailing "black box" framing of recommender systems by demonstrating that Facebook's News Feed algorithm changes leave detectable, measurable traces in downstream engagement data. Using a decade-long corpus of ~1 million Guardian articles paired with CrowdTangle engagement metrics and a hand-compiled timeline of 52 documented News Feed ranking updates (2011–2020), McNally and Bastos apply time-series methods to test whether algorithmic interventions produced lagged effects on user engagement. They find that hard news engagement is significantly affected by ranking updates roughly three weeks after implementation, while soft news categories (Opinion, Lifestyle, Arts, Sport) are not — evidence that Facebook applies differential algorithmic treatment to news content and that recommender systems can be audited as sociotechnical artifacts shaped by institutional decisions.

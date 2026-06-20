@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # Using co-sharing to identify use of mainstream news for promoting potentially misleading narratives
 
+> Goel, P., Green, J., Lazer, D., & Resnik, P. S. (2025). Using co-sharing to identify use of mainstream news for promoting potentially misleading narratives. *Nature Human Behaviour*, 1–18. https://doi.org/10.1038/s41562-025-02223-4
+>
+> [View paper](https://doi.org/10.1038/s41562-025-02223-4)
+
 ## Summary
 
 This paper challenges the dominant source-level paradigm in misinformation research, which classifies content as "fake" based on the domain that publishes it. The authors argue this approach misses a larger phenomenon: users selectively sharing factually accurate mainstream news articles to advance misleading narratives. Using a 1.6M-user Twitter panel matched to a U.S. voter file (2018–2021), they identify mainstream articles disproportionately co-shared with fake news and show these articles are significantly more likely than control articles from the same outlets to contain narrative structures present in fake news and fact-checked false claims. Because co-shared mainstream articles reach roughly twice the audience of fake news itself, the authors contend that misinformation ecosystems are substantially broader than fake-news-domain metrics suggest.

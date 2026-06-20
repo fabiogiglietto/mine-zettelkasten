@@ -16,6 +16,10 @@ discovery_date: 2026-05-13T05:42:18.649186Z
 
 # Posting what you know and caring for the niche: How micro-influencers survive platform culture demands
 
+> Volpe, C. (2025). Posting what you know and caring for the niche: How micro-influencers survive platform culture demands. *Università degli Studi di Verona*, *16*, 671–671. https://doi.org/10.13136/isr.v16i16s.975
+>
+> [View paper](https://doi.org/10.13136/isr.v16i16s.975)
+
 ## Summary
 
 Volpe examines how Italian micro-influencers (2,000–100,000 followers) produce second-hand fashion content on Instagram and TikTok, asking whether their visibly ethical and community-oriented practices reflect genuine commitment or strategic self-branding. Drawing on digital ethnography and interviews, the paper argues that this is a false dichotomy: care and branding are intertwined survival strategies under the dual precarity of unstable labour markets and demanding platform infrastructures. Second-hand fashion emerges less as an ideological choice than as a familiar, low-cost niche that lets creators sustain the algorithmically required pace of production while performing narratives of expertise, sustainability, and care.

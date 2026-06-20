@@ -6,11 +6,20 @@ research-radio): that code needs `.id`, `.title`, `.authors` (list[str]) and
 """
 from __future__ import annotations
 
+import html
 import os
+import re
 from dataclasses import dataclass, field
 from typing import Optional
 
 import requests
+
+# The toread feed carries the journal name only inside the rendered
+# `content_html` ("Published in: <name>"); the own-publications feed carries it
+# in `_academic.venue`. This pulls it out of the toread HTML.
+_PUBLISHED_IN_RE = re.compile(
+    r"<strong>Published in:</strong>\s*(.*?)</li>", re.IGNORECASE
+)
 
 
 @dataclass
@@ -27,12 +36,28 @@ class Paper:
     doi: Optional[str] = None
     tags: list[str] = field(default_factory=list)
     academic: dict = field(default_factory=dict)   # the feed's `_academic` block
+    journal: Optional[str] = None                  # venue / journal name
+    volume: Optional[str] = None
+    pages: Optional[str] = None
     is_own: bool = False                           # True for own-publications papers
 
     @property
     def bibtex_key(self) -> str:
         """`Boyd2026-pm` from `bibtex:Boyd2026-pm` — used as the note filename."""
         return self.id.split(":", 1)[-1]
+
+
+def _extract_journal(item: dict, academic: dict) -> Optional[str]:
+    """Journal/venue name: `_academic.venue` (own-pub feed) or the toread feed's
+    `content_html` "Published in:" line. Returns None when neither carries it."""
+    venue = academic.get("venue")
+    if not venue:
+        match = _PUBLISHED_IN_RE.search(item.get("content_html") or "")
+        venue = match.group(1).strip() if match else None
+    if not venue:
+        return None
+    # The feed double-escapes (`&amp;amp;`), so unescape twice to recover `&`.
+    return html.unescape(html.unescape(venue)).strip() or None
 
 
 def _item_to_paper(item: dict) -> Paper:
@@ -48,6 +73,9 @@ def _item_to_paper(item: dict) -> Paper:
         doi=academic.get("doi"),
         tags=item.get("tags", []),
         academic=academic,
+        journal=_extract_journal(item, academic),
+        volume=academic.get("volume"),
+        pages=academic.get("pages"),
     )
 
 

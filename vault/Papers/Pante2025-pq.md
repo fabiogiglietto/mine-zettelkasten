@@ -16,6 +16,10 @@ discovery_date: 2025-02-15T00:00:00Z
 
 # Beyond interaction patterns: Assessing claims of coordinated inter-state information operations on twitter/X
 
+> Pantè, V., Axelrod, D., Flammini, A., Menczer, F., Ferrara, E., & Luceri, L. (2025). Beyond interaction patterns: Assessing claims of coordinated inter-state information operations on twitter/X. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2502.17344v1)
+
 ## Summary
 
 This paper revisits prior claims that state-backed actors coordinate their information operations across borders on Twitter/X. The authors argue that earlier evidence of such inter-state collaboration is methodologically fragile: it typically rests on single interaction signals and lacks control comparisons, making it hard to distinguish genuine coordination from baseline behavior or methodological artifacts. By applying state-of-the-art coordination detection models across multiple behavioral traces, and by benchmarking against control datasets, the paper offers a more rigorous re-assessment of whether different state actors actually act in concert online. The framing is corrective — pushing the field toward stricter evidentiary standards before attributing collaboration to state operators.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Network ripple effects: How Twitter deplatforming flipped authority structure and discourse of the Arizona Election Review community
 
+> Simeone, M., & Corman, S. R. (2025). Network ripple effects: How Twitter deplatforming flipped authority structure and discourse of the Arizona Election Review community. *Sage Open*, *15*, 21582440251314538. https://doi.org/10.1177/21582440251314538
+>
+> [View paper](https://doi.org/10.1177/21582440251314538)
+
 ## Summary
 
 This paper examines what happened *inside* the Arizona Election Review (AER) Twitter community after Twitter's July 27, 2021 suspension of eight accounts promoting state-level "audits" of the 2020 election. Combining network analysis with corpus linguistics on ~381,000 tweets bracketing the suspensions, Simeone and Corman argue that deplatforming produced ripple effects vastly exceeding the mechanical loss of banned accounts and their followers: the right-leaning cluster's hub/authority structure collapsed, participation dropped sharply, and the surviving discourse pivoted from active ballot-surveillance recruiting to abstract defiance and meta-conspiracies about deplatforming itself. The authors frame this as evidence that targeted suspensions function as effective "network interventions," and they question whether the visibility-reduction strategies favored under post-Musk X can replicate this disruption.

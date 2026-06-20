@@ -16,6 +16,10 @@ discovery_date: 2026-04-04T11:48:54.878928Z
 
 # Affective–discursive ecologies of the far right: Multimodal softening, mobilisation and algorithmic proximity on Instagram
 
+> Nangle, B. M., & d’Haenens, L. (2026). Affective–discursive ecologies of the far right: Multimodal softening, mobilisation and algorithmic proximity on Instagram. *New Media & Society*. https://doi.org/10.1177/14614448261428632
+>
+> [View paper](https://doi.org/10.1177/14614448261428632)
+
 ## Summary
 
 This article theorises far-right Instagram as an *affective-discursive ecology* in which ideology, emotion, and platform logics are mutually constitutive. Drawing on a corpus of 2,603 Reels with far-right adjacent themes, Nangle and d'Haenens argue that contemporary far-right communication does not rely primarily on overt hostility but on positively valenced affect, humour, and memetic forms that *soften* extremist worldviews and render them shareable. Combined with Instagram's recommender system, this multimodal softening produces an algorithmic proximity between mainstream lifestyle content and far-right adjacent material, enabling normalisation and mobilisation.

@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # Emergent coordinated behaviors in networked LLM agents: Modeling the strategic dynamics of information operations
 
+> Orlando, G. M., Ye, J., Gatta, V. L., Saeedi, M., Moscato, V., Ferrara, E., & Luceri, L. (2025). Emergent coordinated behaviors in networked LLM agents: Modeling the strategic dynamics of information operations. *arXiv [cs.MA]*.
+>
+> [View paper](http://arxiv.org/abs/2510.25003v1)
+
 ## Summary
 
 This paper presents the first systematic study of how coordination emerges spontaneously among generative LLM agents conducting simulated information operations (IO). Using Generative Agent-Based Modeling on a Twitter/X-like platform, the authors deploy 10 IO agents alongside 40 organic agents (split between ideologically aligned and non-aligned) and vary the *operational awareness* available to the IO agents across three regimes: a shared Common Goal, Teammate Awareness, and Collective Decision-Making via periodic deliberation. The central finding is that merely revealing teammate identities to agents — without any explicit deliberation mechanism — produces coordination outcomes nearly indistinguishable from those of explicit collective decision-making, suggesting that distributed mutual awareness alone is sufficient affordance for large-scale emergent influence behavior.

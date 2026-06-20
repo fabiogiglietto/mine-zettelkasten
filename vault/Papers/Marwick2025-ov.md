@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Shapeshifters and starseeds: Populist knowledge production, generous epistemology, and disinformation on U.s. conspiracy TikTok
 
+> Marwick, A., Pippert, C., Furl, K., & Schnabel, E. (2025). Shapeshifters and starseeds: Populist knowledge production, generous epistemology, and disinformation on U.s. conspiracy TikTok. *Social Media + Society*, *11*. https://doi.org/10.1177/20563051251357483
+>
+> [View paper](https://doi.org/10.1177/20563051251357483)
+
 ## Summary
 
 This paper offers an empirical, identity-focused account of "ConspiracyTok"—a TikTok genre devoted to conspiracy theorizing—based on a qualitative content analysis of 202 highly viewed videos from 153 creators. Marwick and colleagues argue that ConspiracyTok is dominated by young, non-White, and/or female creators, overturning the stereotype of the middle-aged White male conspiracy theorist. They theorize this phenomenon as **populist knowledge production** within a **generous epistemology**: creators mimic academic and journalistic evidentiary forms (curated visual collections, deep lore, close readings) while rejecting institutional epistemic authority and inviting viewers to "do their own research." This stance is double-edged—simultaneously functioning as standpoint epistemology that voices legitimate critiques of state violence against marginalized groups, and as a vector for antisemitism, transphobia, and disinformation.

@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # The end of trust and safety?: Examining the future of content moderation and upheavals in professional online safety efforts
 
+> Moran, R. E., Schafer, J., Bayar, M., & Starbird, K. (2025). The end of trust and safety?: Examining the future of content moderation and upheavals in professional online safety efforts. *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*, 1–14. https://doi.org/10.1145/3706598.3713662
+>
+> [View paper](https://doi.org/10.1145/3706598.3713662)
+
 ## Summary
 
 This paper investigates the contemporary destabilization of trust and safety (T&S) as a professional field within technology platforms. Drawing on interviews with practitioners, Moran and colleagues document how layoffs, restructuring, political backlash, and shifting executive priorities have eroded the professional infrastructure that supports content moderation and online safety work. The authors argue that these upheavals are not merely internal corporate adjustments but represent a potentially existential moment for the field, with significant downstream consequences for how — and whether — platforms maintain safer online spaces.

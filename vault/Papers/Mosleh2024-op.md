@@ -16,6 +16,10 @@ discovery_date: 2024-12-15T00:00:00Z
 
 # Divergent patterns of engagement with partisan and low-quality news across seven social media platforms
 
+> Mosleh, M., Allen, J. N. L., & Rand, D. G. (2024). Divergent patterns of engagement with partisan and low-quality news across seven social media platforms. *PsyArXiv*. https://doi.org/10.31234/osf.io/9csy3_v4
+>
+> [View paper](https://doi.org/10.31234/osf.io/9csy3_v4)
+
 ## Summary
 
 Mosleh, Allen, and Rand offer a corrective to a literature that has long treated Twitter/X (and to a lesser extent Facebook) as a stand-in for "social media" writ large. By comparing user engagement with news content across seven platforms, they show that the relationships between engagement, partisan slant, and source quality are not uniform — they diverge meaningfully from platform to platform. The argument is both empirical and methodological: claims about misinformation and partisan news circulation built on single-platform data risk generalizing patterns that are in fact platform-specific.

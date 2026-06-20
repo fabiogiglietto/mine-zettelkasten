@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # The quality of connections: Deliberative reciprocity and inclusive listening as antidote to destructive polarization online
 
+> Esau, K. (2025). The quality of connections: Deliberative reciprocity and inclusive listening as antidote to destructive polarization online. *Social Media + Society*, *11*, 20563051251332421. https://doi.org/10.1177/20563051251332421
+>
+> [View paper](https://doi.org/10.1177/20563051251332421)
+
 ## Summary
 
 This theoretical article diagnoses how extreme polarization on social media corrodes core functions of democratic public communication, and proposes a conceptual remedy. Esau extends the framework of *connective democracy* to bridge two largely separate bodies of work — empirical research on online deliberation and research on polarization — and refines the notion of **destructive polarization** as something observable in user-generated content. Against this, she advances **deliberative reciprocity** and **inclusive listening** as normative and analytical antidotes: practices and orientations that preserve the productive role of disagreement while resisting the symptoms that turn conflict corrosive.

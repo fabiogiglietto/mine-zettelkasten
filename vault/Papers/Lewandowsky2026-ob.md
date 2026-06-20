@@ -16,6 +16,10 @@ discovery_date: 2026-02-06T12:31:50.153250Z
 
 # Internet platforms must be held accountable for their actions
 
+> Lewandowsky, S. (2026). Internet platforms must be held accountable for their actions. *Science*. https://doi.org/10.1126/science.aee9835
+>
+> [View paper](https://doi.org/10.1126/science.aee9835)
+
 ## Summary
 
 This commentary argues that internet platforms bear substantial responsibility for the global retreat of democracy and must be held accountable for the role they play in enabling authoritarian trends. Drawing on warnings from independent research institutions and on a catalogue of more than 2,300 actions by the second Trump administration that echo authoritarian regimes, Lewandowsky positions platform dynamics as one identifiable factor among the complex, multi-causal drivers of democratic backsliding. The piece is a normative call: accountability for platforms is framed not as a regulatory nicety but as a defence of democratic institutions.

@@ -17,6 +17,10 @@ discovery_date:
 
 # A Hashtag Worth a Thousand Words: Discursive Strategies Around #JeNeSuisPasCharlie After the 2015 Charlie Hebdo Shooting
 
+> Giglietto, F., & Lee, Y. (2017). A Hashtag Worth a Thousand Words: Discursive Strategies Around #JeNeSuisPasCharlie After the 2015 Charlie Hebdo Shooting. *Social Media + Society*. https://doi.org/10.1177/2056305116686992
+>
+> [View paper](https://doi.org/10.1177/2056305116686992)
+
 ## Summary
 
 This paper investigates how Twitter users mobilised the counter-hashtag #JeNeSuisPasCharlie ("I am not Charlie") in the wake of the January 2015 Charlie Hebdo shooting in Paris. Against the overwhelming tide of #JeSuisCharlie solidarity, the authors treat the dissenting hashtag as a window into how social media users carve out space for disagreement during moments of mass affective convergence. The paper argues that #JeNeSuisPasCharlie operated less as an endorsement of the violence than as a discursive vehicle for nuance, critique, and refusal of a totalising solidarity frame.

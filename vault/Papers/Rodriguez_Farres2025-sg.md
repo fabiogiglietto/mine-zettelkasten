@@ -16,6 +16,10 @@ discovery_date: 2025-09-15T00:00:00Z
 
 # Real time detection of coordinated bots on Bluesky
 
+> Farrés, P. R., Masali, A., & Cerquides, J. (2025). Real time detection of coordinated bots on Bluesky. *Frontiers in Artificial Intelligence and Applications*, 57–68. https://doi.org/10.3233/faia250576
+>
+> [View paper](https://doi.org/10.3233/faia250576)
+
 ## Summary
 
 This paper addresses the detection of coordinated bot activity on Bluesky, a decentralized social media platform that has received comparatively little attention in the bot-detection literature. The authors argue that misinformation gains credibility through viralization, and that viralization is often manufactured by coordinated bot networks rather than emerging organically. They propose a real-time detection approach aimed at identifying such coordinated behavior as it unfolds, distinguishing malicious coordination from benign organic activity.

@@ -16,6 +16,10 @@ discovery_date: 2026-02-11T06:01:18.849873Z
 
 # The role of the term “fake news” in U.s. alternative media: Shaping political discourse and hyperpartisanship
 
+> Yoo, J. J., Lee, H., & An, S. (2026). The role of the term “fake news” in U.s. alternative media: Shaping political discourse and hyperpartisanship. *Journalism & Mass Communication Quarterly*. https://doi.org/10.1177/10776990251410599
+>
+> [View paper](https://doi.org/10.1177/10776990251410599)
+
 ## Summary
 
 This study examines how the term "fake news" is rhetorically deployed in two ideologically extreme U.S. alternative outlets — Newsmax (right) and Occupy Democrats (left) — across nearly a decade (April 2015–October 2023). Combining manual content analysis grounded in Egelhofer et al.'s (2020) typology with LDA topic modeling interpreted through Hallin's three-sphere model, the authors argue that "fake news" functions overwhelmingly as a weaponized label to delegitimize ideological opponents rather than to describe actual misinformation. Both left- and right-leaning hyperpartisan outlets repurpose the term in functionally similar ways, actively renegotiating the boundaries between consensus, legitimate controversy, and deviance, and thereby eroding shared epistemic norms.

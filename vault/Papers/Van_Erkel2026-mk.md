@@ -16,6 +16,10 @@ discovery_date: 2026-05-21T06:31:56.716846Z
 
 # The hostile misinformation effect: How ideological congruence drives the assessment of misinformation targets
 
+> Erkel, P. V., Hameleers, M., Farooq, A., Gattermann, K., Tulin, M., Hoogen, E. V. D., & Vreese, C. D. (2026). The hostile misinformation effect: How ideological congruence drives the assessment of misinformation targets. *Political Communication*, 1–22. https://doi.org/10.1080/10584609.2026.2671760
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2671760)
+
 ## Summary
 
 This paper extends the classic *hostile media effect* into the misinformation domain, theorizing and testing a **hostile misinformation effect**: citizens systematically believe their political in-group is targeted by misinformation more than their out-group. Drawing on motivated reasoning and social identity theory, the authors use a three-wave panel survey conducted around the 2024 European Parliament elections in Germany, the Netherlands, and Poland (N=4,045) to demonstrate the effect robustly and across contexts. They further show that the bias is amplified by political interest, strength of party identification, ideological extremity, and right-wing orientation, and — contrary to attribution-bias expectations — is not stronger among electoral losers. The bias is associated with lower media trust and lower perceived electoral integrity, suggesting it has tangible downstream consequences for democratic legitimacy.

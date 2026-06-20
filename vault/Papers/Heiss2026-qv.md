@@ -16,6 +16,10 @@ discovery_date: 2026-02-15T07:10:31.064216Z
 
 # Addressing social media platforms’ influence on academic research
 
+> Heiss, R., & Freiling, I. (2026). Addressing social media platforms’ influence on academic research. *Humanit. Soc. Sci. Commun.*, *13*, 192. https://doi.org/10.31235/osf.io/ny2tx_v2
+>
+> [View paper](https://doi.org/10.31235/osf.io/ny2tx_v2)
+
 ## Summary
 
 Heiss and Freiling argue that academic research on social media platforms faces a uniquely acute form of industry capture because platforms exclusively control the data—on algorithms, content flows, and engagement—that researchers need. Drawing explicit analogies to the pharmaceutical, tobacco, and food industries, the commentary maps a "commercial determinants of science" framework onto platform research, identifying four structural challenges and warning that platform influence threatens the independence of evidence feeding into regulation and policymaking. The authors call for a dual response: regulatory mechanisms like the EU's Digital Services Act (DSA), and stronger ethical norms plus active "research on research" within the social sciences.

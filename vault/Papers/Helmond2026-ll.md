@@ -16,6 +16,10 @@ discovery_date: 2026-04-19T07:50:56.967183Z
 
 # The platformization of everything: From the end of the Like button to AI infrastructure in space
 
+> Helmond, A. (2026). The platformization of everything: From the end of the Like button to AI infrastructure in space. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261436101
+>
+> [View paper](https://doi.org/10.1177/20563051261436101)
+
 ## Summary
 
 In this anniversary essay, Anne Helmond revisits the concept of "platformization" a decade after she coined it, arguing it has entered a new AI-centered phase while simultaneously suffering conceptual erosion through conflation with "digitization." Working through two illustrative cases — Meta's February 2026 retirement of the Like and Comment plugins, and Google's Project Suncatcher initiative to put AI compute infrastructure in orbit — she traces how platforms have shifted from extending tendrils across the open web to building integrated AI ecosystems that no longer depend on social-graph signals. To restore analytical precision, she proposes redefining platformization as a platform-specific form of Manovich's "transcoding": the situated, collaborative process through which practices, sectors, and domains are made "platform-ready."

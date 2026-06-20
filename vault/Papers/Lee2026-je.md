@@ -16,6 +16,10 @@ discovery_date: 2026-03-14T13:25:43.225280Z
 
 # LLMs can infer political alignment from online conversations
 
+> Lee, B., Kim, S., Menczer, F., Ahn, Y., Kwak, H., & An, J. (2026). LLMs can infer political alignment from online conversations. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2603.11253v2)
+
 ## Summary
 
 This paper asks whether off-the-shelf LLMs can infer users' political alignment from online text — including discourse that is not overtly political. Using self-identified partisans on Debate.org and partisan-subreddit-active users on Reddit, the authors evaluate GPT-4o and Llama-3.1-8B in zero-shot settings against supervised ML baselines. They show that LLMs reliably classify partisanship from individual posts and especially from aggregated user histories, exploiting both explicitly political vocabulary and culturally politicized terms ("Tesla," "Taylor Swift," "boomer"). The work frames this dual-use capability as both a methodological tool for studying the politicization of culture and a serious privacy risk for scalable micro-targeting.

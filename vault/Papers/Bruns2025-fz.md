@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # Untangling the furball: A practice mapping approach to the analysis of multimodal interactions in social networks
 
+> Bruns, A., Kasianenko, K., Suresh, V. P., Dehghan, E., & Vodden, L. (2025). Untangling the furball: A practice mapping approach to the analysis of multimodal interactions in social networks. *Social Media + Society*, *11*, 20563051251331748. https://doi.org/10.1177/20563051251331748
+>
+> [View paper](https://doi.org/10.1177/20563051251331748)
+
 ## Summary
 
 This article introduces *practice mapping*, a methodological framework for analyzing multimodal social media interactions through vector embeddings of user actions. The authors argue that conventional social network analysis and its visualizations — frequently degenerating into illegible "hairball" or "furball" diagrams — are poorly suited to platforms where users engage through many distinct interaction modes (likes, replies, shares, mentions, follows, etc.). By embedding network actions as vectors, practice mapping locates users in a shared analytical space according to the similarity of their interactional repertoires, allowing multiple modes to be integrated into a single, interpretable representation. The piece is primarily methodological, outlining the framework and its conceptual motivation rather than reporting empirical findings.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Scaling open-ended survey responses using LLM-paired comparisons
 
+> DiGiuseppe, M., & Flynn, M. E. (2025). Scaling open-ended survey responses using LLM-paired comparisons. *SocArXiv*. https://doi.org/10.31235/osf.io/39ajg_v2
+>
+> [View paper](https://doi.org/10.31235/osf.io/39ajg_v2)
+
 ## Summary
 
 This paper introduces a methodology that pairs Large Language Models with paired-comparison techniques to convert open-ended survey responses into continuous latent scales of respondent characteristics. The authors argue that closed-ended items constrain the depth and variance of what can be measured, while traditional hand-coding of open-ended text is too labor-intensive to scale. Existing LLM-based coding approaches help, but have their own limitations. By instead having an LLM perform many pairwise judgments between responses and aggregating these into a scale, the method produces measures of latent traits — knowledge, ideology, emotion, policy positions — that retain the richness of free text while remaining quantitatively tractable.

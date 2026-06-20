@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Detecting coordinated activities through temporal, multiplex, and collaborative analysis
 
+> Iannucci, L., Muratore, E., Matakos, A., & Kivelä, M. (2025). Detecting coordinated activities through temporal, multiplex, and collaborative analysis. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2512.19677v1)
+
 ## Summary
 
 This paper introduces a framework for detecting coordinated inauthentic behavior (CIB) on social media that simultaneously addresses two underexploited signals: the *temporal proximity* of co-actions and the *modality* through which coordination occurs. The authors extend Newman's node-normalized collaboration model with an exponential temporal-decay kernel, then layer it into a multiplex network in which hashtag, retweet, mention, and URL co-actions form separate slices linked across users. Per-layer decay parameters are chosen by maximizing Leiden modularity, and multiplex community detection extracts coordinated groups. Validated on synthetic patterns and benchmarked against 12+ baselines on the 26 labeled datasets from Seckin et al. (2025), the multiplex time-aware model attains the best mean rank on weighted precision and the second-best mean rank overall, with notable robustness when adversaries dilute coordination across modalities.

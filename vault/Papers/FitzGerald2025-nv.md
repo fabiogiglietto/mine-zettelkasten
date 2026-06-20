@@ -16,6 +16,10 @@ discovery_date: 2025-11-15T00:00:00Z
 
 # The persistence of informational manipulation and the appropriation of emerging events
 
+> FitzGerald, K. M., Whelan-Shamy, D., & Graham, T. (2025). The persistence of informational manipulation and the appropriation of emerging events. *Authoritarian Actors and Strategic Digital Information Operations*, 65–85. https://doi.org/10.4324/9781003628088-6
+>
+> [View paper](https://doi.org/10.4324/9781003628088-6)
+
 ## Summary
 
 This paper argues that coordinated informational manipulation campaigns are not bounded, episodic operations but persistent, adaptive phenomena that sustain themselves by appropriating emerging events. By latching onto breaking news, crises, and topical shifts, manipulation operations renew their relevance and maintain influence well beyond their original triggering context. The work reframes such campaigns as dynamic and opportunistic rather than discrete, with implications for how researchers and platforms conceptualise the temporal arc of information operations.

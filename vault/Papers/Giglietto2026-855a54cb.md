@@ -17,6 +17,10 @@ discovery_date:
 
 # From the Wild West to the Walled Garden
 
+> Giglietto, F., & Puschmann, C. (2026). From the Wild West to the Walled Garden. *M/C Journal*. https://doi.org/10.5204/mcj.3257
+>
+> [View paper](https://doi.org/10.5204/mcj.3257)
+
 ## Summary
 
 This article offers a historical-analytical account of academic data access to Twitter/X, periodizing two decades of platform–researcher relations into three phases: an open "Wild West" API era (2006–2020), a brief "Golden Age" under the Academic API (2020–2023), and the post-Musk commercial paywall regime. Giglietto and Puschmann argue that this trajectory is not idiosyncratic to Twitter but reflects a structural pattern across major platforms, exposing the fragility of voluntary, philanthropy-based access. Against this backdrop, they assess the EU's Digital Services Act—particularly Article 40—as a paradigm shift from discretionary access to regulatory right, while documenting its uneven implementation. The central claim is that independent platform research must be reconceived as a public good sustained by institutional infrastructure rather than corporate goodwill.

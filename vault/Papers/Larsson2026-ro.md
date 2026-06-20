@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # “Meet the new boss – Same as the old boss”: A longitudinal study of political post sentiment and Facebook engagement
 
+> Larsson, A. O. (2026). “Meet the new boss – Same as the old boss”: A longitudinal study of political post sentiment and Facebook engagement. *First Monday*. https://doi.org/10.5210/fm.v31i1.14448
+>
+> [View paper](https://doi.org/10.5210/fm.v31i1.14448)
+
 ## Summary
 
 This paper tracks a decade (2013–2023) of Facebook activity from Norway's right-wing populist Progress Party and its two successive leaders, Siv Jensen and Sylvi Listhaug, to examine how the sentiment of political posts relates to audience engagement over time. Larsson uses a hybrid pipeline — GPT-4 zero-shot classification of 11,160 Norwegian-language posts, validated against human coders — to categorize posts as negative, positive, or neutral, then compares shares, comments, and likes across sentiment, account, and year. The central argument is twofold: negativity in populist Facebook content has grown (especially after Listhaug's 2021 takeover) and reliably amplifies shares and comments, while likes follow a different, more positivity-driven logic. The title's nod to "the new boss" captures the finding that leadership transitions reshape party-level communication style toward greater negativity.

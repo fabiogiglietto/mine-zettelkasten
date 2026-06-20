@@ -16,6 +16,10 @@ discovery_date: 2025-03-15T00:00:00Z
 
 # Influence operations as brokerage: Political-economic infrastructures of manipulation in the 2022 Philippine elections
 
+> Fatima, G., Jayne, A. M., Kris, R., & Martin, S. G. (2025). Influence operations as brokerage: Political-economic infrastructures of manipulation in the 2022 Philippine elections. *Int. J. Commun.*, *19*, 21.
+>
+> [View paper](https://scholar.google.com/scholar?q=Influence%20operations%20as%20brokerage%3A%20Political-economic%20infrastructures%20of%20manipulation%20in%20the%202022%20Philippine%20elections)
+
 ## Summary
 
 This paper reconceptualizes influence operations (IOs) in electoral contexts as a contemporary form of *political brokerage*, arguing that covert campaign enterprises function as intermediaries connecting political clients, digital platforms, and voting publics. Drawing on qualitative fieldwork during the 2022 Philippine General Elections — including 22 in-depth interviews with IO leads and staff — Gaw and colleagues show that manipulation is not merely a matter of bad actors or false content, but is sustained by durable political-economic infrastructures. By extending classical brokerage theory into the digital electoral domain, the paper shifts the analytic lens from disinformation-as-content to the organizational scaffolding that makes manipulation routine and profitable.

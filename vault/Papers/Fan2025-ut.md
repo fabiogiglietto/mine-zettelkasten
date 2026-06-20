@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # The medium is not the message: Deconfounding text embeddings via linear concept erasure
 
+> Fan, Y., Tian, Y., Ravfogel, S., Sachan, M., Ash, E., & Hoyle, A. (2025). The medium is not the message: Deconfounding text embeddings via linear concept erasure. *arXiv [cs.CL]*. https://doi.org/10.2139/ssrn.5340592
+>
+> [View paper](https://doi.org/10.2139/ssrn.5340592)
+
 ## Summary
 
 This paper argues that pretrained sentence embeddings encode "medium" signals — source, language, style — that act as *observed confounders* when researchers use embedding similarity to cluster or retrieve documents pooled from heterogeneous corpora. The authors recast linear concept erasure (LEACE) as a way to subtract these confounder loadings from a structural decomposition of dot-product similarity, and show empirically across ten embedding models and a new paired benchmark that erasure substantially improves clustering and retrieval — sometimes spectacularly — without degrading out-of-distribution performance. The practical claim is that linear erasure should be a default preprocessing step whenever applied analysts pool texts across known sources or languages.

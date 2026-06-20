@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Research opportunities and challenges of the EU&#x27;s Digital Services Act
 
+> Pierri, F., Araujo, T., Kruikemeier, S., Lorenz-Spreen, P., Abeele, M. M. P. V., Vandenbosch, L., Gonçalves-Sa, J., & Grabowicz, P. A. (2025). Research opportunities and challenges of the EU&#x27;s Digital Services Act. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2512.14223v1)
+
 ## Summary
 
 This commentary, authored by researchers actively engaged in EU policy processes, assesses the early implementation of Article 40 of the Digital Services Act (DSA), which obliges very large online platforms (VLOPs) and search engines (VLOSEs) to grant vetted researchers access to internal data. Drawing on an 18-month ERC-supported pilot with DG-CONNECT, national Digital Services Coordinators (DSCs), and roundtables with major platforms, the authors diagnose three interlocking obstacles — misaligned incentives, severe asymmetries between platforms and academia, and operational bottlenecks — and offer three corresponding recommendations: streamline access procedures, fund independent research infrastructure, and close regulatory blind spots, most urgently around large language models. The piece argues that without robust enforcement, the DSA risks being hollowed out by industry resistance and the persistence of "independence by permission" research arrangements.

@@ -16,6 +16,10 @@ discovery_date: 2026-04-01T06:08:21.271784Z
 
 # What our second measurement says about misinformation on major platforms in Europe
 
+> Emmanuel, V., & Daiana, C. What our second measurement says about misinformation on major platforms in Europe.
+>
+> [View paper](https://scholar.google.com/scholar?q=What%20our%20second%20measurement%20says%20about%20misinformation%20on%20major%20platforms%20in%20Europe)
+
 ## Summary
 
 This brief reports the second wave of a repeated measurement study tracking the prevalence of mis- and disinformation across major online platforms operating in Europe. Using exposure-weighted analysis of posts, the authors find that TikTok again leads in mis/disinformation prevalence, with its share rising from roughly 20% in the first round to about 25% in the second. Across most platforms, low-credibility accounts continue to outperform high-credibility ones in user engagement — a gap that has persisted or widened. The work is positioned as empirical input to platform accountability under European regulatory frameworks such as the Digital Services Act and the Code of Practice on Disinformation.

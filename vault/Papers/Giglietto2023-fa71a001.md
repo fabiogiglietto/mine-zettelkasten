@@ -17,6 +17,10 @@ discovery_date:
 
 # A Workflow to Detect, Monitor, and Update Lists of Coordinated Social Media Accounts Across Time: The Case of the 2022 Italian Election
 
+> Giglietto, F., Marino, G., Mincigrucci, R., & Stanziano, A. (2023). A Workflow to Detect, Monitor, and Update Lists of Coordinated Social Media Accounts Across Time: The Case of the 2022 Italian Election. *Social Media + Society*. https://doi.org/10.1177/20563051231196866
+>
+> [View paper](https://doi.org/10.1177/20563051231196866)
+
 ## Summary
 
 This paper proposes a circular, near-real-time workflow for keeping lists of coordinated social media accounts up to date, addressing the well-known problem that static actor lists decay rapidly as malicious operators adapt, get suspended, or rotate assets. Starting from a seed list of known coordinated accounts, the system polls their highest-performing posts every six hours via CrowdTangle, then applies coordination detection (link, image-text, and message variants of CooRnet) to surface new accounts engaged in coordinated sharing. Applied to the 2022 Italian snap election, the workflow grew an initial 435-account seed into hundreds of newly detected coordinated entities and revealed three qualitatively distinct operations — a Five Star Movement hyperpartisan group network, a clickbait operation using religious Pages as bait, and a transnational religious proselytism campaign by the Church of Almighty God. The authors frame the workflow as content- and actor-agnostic infrastructure for prioritizing investigations rather than automatically labeling content harmful.

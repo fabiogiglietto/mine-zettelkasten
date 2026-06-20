@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # ‘More than a feeling’ – Facebook reactions and the sharing of political posts during Scandinavian elections
 
+> Kalsnes, B., & Larsson, A. O. (2026). ‘More than a feeling’ – Facebook reactions and the sharing of political posts during Scandinavian elections. *Information, Communication & Society*, 1–20. https://doi.org/10.1080/1369118x.2025.2595670
+>
+> [View paper](https://doi.org/10.1080/1369118x.2025.2595670)
+
 ## Summary
 
 This paper offers a comparative analysis of how Scandinavian political parties and leaders deployed Facebook during the Norwegian (2021), Swedish (2022), and Danish (2022) national elections, focusing on the affective affordances of "Love" and "Angry" Reactions and their relationship to sharing. Drawing on CrowdTangle data and negative binomial regression, the authors argue that emotional reactions function as more than expressive gestures: they shape virality asymmetrically. Anger drives mobilization, love dampens it, and populist parties — particularly the Sweden Democrats and the Norwegian Progress Party — disproportionately benefit from this dynamic, even in the relatively consensual multiparty systems of Scandinavia.

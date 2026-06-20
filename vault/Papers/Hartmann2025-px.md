@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # A systematic review of echo chamber research: comparative analysis of conceptualizations, operationalizations, and varying outcomes
 
+> Hartmann, D., Wang, S. M., Pohlmann, L., & Berendt, B. (2025). A systematic review of echo chamber research: comparative analysis of conceptualizations, operationalizations, and varying outcomes. *Journal of Computational Social Science*, *8*, 52. https://doi.org/10.1007/s42001-025-00381-z
+>
+> [View paper](https://doi.org/10.1007/s42001-025-00381-z)
+
 ## Summary
 
 This systematic review synthesizes 129 empirical studies on echo chambers and filter bubbles to diagnose why the literature reaches such conflicting conclusions about whether these phenomena exist and what they do. The authors argue that much of the apparent empirical disagreement is downstream of conceptual and methodological heterogeneity: studies differ in how they define the constructs, what they measure (exposure, engagement, network structure, attitudes), and which platforms, regions, and political contexts they sample. By building a taxonomy that maps conceptualizations to operationalizations, the paper reframes a substantive debate as, in significant part, a measurement problem.

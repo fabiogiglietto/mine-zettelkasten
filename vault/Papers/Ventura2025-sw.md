@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # Misinformation beyond traditional feeds: Evidence from a WhatsApp deactivation experiment in Brazil
 
+> Ventura, T., Majumdar, R., Nagler, J., & Tucker, J. (2025). Misinformation beyond traditional feeds: Evidence from a WhatsApp deactivation experiment in Brazil. *The Journal of Politics*. https://doi.org/10.1086/737172
+>
+> [View paper](https://doi.org/10.1086/737172)
+
 ## Summary
 
 This paper reports a field experiment in Brazil that uses a WhatsApp deactivation design to causally estimate how the encrypted messaging platform shapes users' political knowledge, beliefs, and exposure to misinformation during an electoral period. The authors argue that WhatsApp — as a private, non-feed-based platform central to Brazilian political communication — plays a distinct role in the information ecosystem that cannot be inferred from existing research on Facebook or Twitter. By inducing a subset of users to stop using the app and comparing them to a control group, the study extends platform-effects research into both a Global South context and a class of platforms that has been largely overlooked.

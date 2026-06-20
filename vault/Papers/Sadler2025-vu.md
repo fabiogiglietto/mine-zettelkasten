@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Suspicious stories: taking narrative seriously in disinformation research
 
+> Sadler, N. (2026). Suspicious stories: taking narrative seriously in disinformation research. *Communication Theory*. https://doi.org/10.1093/ct/qtaf013
+>
+> [View paper](https://doi.org/10.1093/ct/qtaf013)
+
 ## Summary
 
 Sadler argues that disinformation studies invokes "narrative" loosely, treating stories' meanings as transparent and their truth-status reducible to true/false judgments. Drawing on Ricoeur's hermeneutics, narratology (Bal, Chatman, Genette), and Phelan's narrative ethics, he proposes a "hermeneutic realist" alternative in which narratives *disclose* aspects of reality rather than mirror or construct it, and in which ethical appraisal of telling and told supplements referential assessment. He demonstrates the framework on five Spanish-language tweets by Venezuelan influencer Roi López Rivas blaming NATO enlargement for Russia's 2022 invasion of Ukraine, showing that content can be ethically and referentially problematic without containing outright falsehoods.

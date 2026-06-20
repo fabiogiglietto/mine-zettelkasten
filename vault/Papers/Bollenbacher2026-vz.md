@@ -16,6 +16,10 @@ discovery_date: 2026-02-07T01:01:16.924569Z
 
 # Effects of antivaccine tweets on COVID-19 vaccinations, cases, and deaths
 
+> Bollenbacher, J., Menczer, F., & Bryden, J. (2026). Effects of antivaccine tweets on COVID-19 vaccinations, cases, and deaths. *EPJ Data Science*, *15*, 12. https://doi.org/10.1140/epjds/s13688-025-00606-1
+>
+> [View paper](https://doi.org/10.1140/epjds/s13688-025-00606-1)
+
 ## Summary
 
 Bollenbacher, Menczer, and Bryden ask whether antivaccine content on Twitter causally reduced COVID-19 vaccine uptake — and downstream cases and deaths — in US counties during the 2021 vaccine rollout. They build SIRVA, a compartmental epidemic model that augments SIR with a vaccinated compartment and a hesitancy compartment whose conversion rate depends on per-capita exposure to geolocated antivaccine tweets propagated through a county-to-county retweet network. Combining Bayesian inference with a causal graphical model, they estimate that roughly 14,000 Americans refused vaccination because of Twitter antivaccine exposure between February and August 2021, producing at least ~545 additional cases and ~8 additional deaths. The paper's central contribution is methodological: a mechanistic bridge from platform-level speech to aggregate epidemic outcomes that goes beyond intention-based experiments and correlational hesitancy studies.

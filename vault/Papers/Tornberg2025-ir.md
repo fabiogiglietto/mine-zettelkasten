@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # When do parties lie? Misinformation and radical-right populism across 26 countries
 
+> Törnberg, P., & Chueri, J. (2026). When do parties lie? Misinformation and radical-right populism across 26 countries. *The International Journal of Press/Politics*, 19401612241311886. https://doi.org/10.1177/19401612241311886
+>
+> [View paper](https://doi.org/10.1177/19401612241311886)
+
 ## Summary
 
 This conceptual paper argues that the "social media" paradigm — organized around user-generated content circulating through social networks — is unraveling, and proposes "post-social media studies" as a replacement analytical framework. Törnberg and Rogers identify three interlocking dynamics driving the transformation: a shift from social-graph to interest-based algorithmic recommendation, the rise of generative AI as a producer of synthetic content, and a retreat from public platforms into private, bounded spaces. From these they derive a typology of three emergent formations — algorithmic broadcasting platforms, semi-private spheres and micro-communities, and AI-mediated communication — each demanding new vocabularies, methods, and normative frameworks. (Note: the provided title does not match the paper's actual content, which is "Towards a Post-Social Media Studies.")

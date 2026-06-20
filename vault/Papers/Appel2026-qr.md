@@ -16,6 +16,10 @@ discovery_date: 2026-04-11T07:41:51.831048Z
 
 # How deceptive online networks reached millions in the US 2020 elections
 
+> Appel, R. E., Kim, Y. M., Pan, J., Xu, Y., Nimmo, B., Thomas, D. R., Allcott, H., Barberá, P., Brown, T., Crespo-Tenorio, A., Dimmery, D., Freelon, D., Gentzkow, M., González-Bailón, S., Guess, A. M., Iyengar, S., Lazer, D., Malhotra, N., Moehler, D., Nyhan, B., Settle, J., Thorson, E., Tromble, R., Rivera, C. V., Wilkins, A., Wojcieszak, M., Xiong, B., Jonge, C. K. D., Franco, A., Mason, W., Stroud, N. J., & Tucker, J. A. (2026). How deceptive online networks reached millions in the US 2020 elections. *Nature Human Behaviour*, 1–15. https://doi.org/10.1038/s41562-026-02435-2
+>
+> [View paper](https://doi.org/10.1038/s41562-026-02435-2)
+
 ## Summary
 
 This paper provides the first large-scale exposure-based measurement of "deceptive online networks" — coordinated operations using identity deception, whether politically or financially motivated — that targeted US users on Facebook and Instagram around the 2020 elections. Combining platform-level data on 49 networks identified and removed by Meta (13 Coordinated Inauthentic Behavior networks and 36 Financially Motivated Operations) with individual-level survey and behavioral data from ~73,000 consenting users in the US 2020 Facebook and Instagram Election Study (FIES), the authors show that reach was both substantial (37M Facebook users) and extremely concentrated (3 networks ≈ 80% of reach), and that most exposure flowed through reshares by ordinary unaffiliated users rather than direct posts from network accounts. After balancing on pre-exposure user characteristics, naive correlations between exposure and outcomes like factual discernment or election-legitimacy beliefs largely vanish, cautioning against causal interpretations of exposure-effect estimates.

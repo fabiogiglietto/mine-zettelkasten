@@ -16,6 +16,10 @@ discovery_date: 2025-03-15T00:00:00Z
 
 # Multi-Modal Framing Analysis of News
 
+> Arora, A., Yadav, S., Antoniak, M., Belongie, S., & Augenstein, I. (2025). Multi-Modal Framing Analysis of News. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2503.20960v3)
+
 ## Summary
 
 This paper argues that computational framing analysis of news has been artificially constrained by two assumptions: that frames live only in text, and that they can be drawn from small predefined inventories. The authors propose a multi-modal framework that jointly analyzes textual, visual, and text-image cues using open discourse-analytic framing categories rather than fixed frame sets. Applied to a corpus of U.S. gun violence coverage, the approach uncovers systematic differences in how outlets across the political spectrum frame the same events through their combined editorial choices of words and images.

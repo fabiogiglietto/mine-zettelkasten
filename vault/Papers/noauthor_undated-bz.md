@@ -16,6 +16,8 @@ discovery_date: 2026-01-01T13:07:00.531343Z
 
 # Untitled
 
+> Untitled.
+
 ## Summary
 
 No source material is available for this entry. The record carries the placeholder title "Untitled" with unknown authorship, no publication metadata, and no abstract or body text from which to draw a digest. As a result, this note cannot describe what the paper argues, what it studies, or where it sits intellectually.

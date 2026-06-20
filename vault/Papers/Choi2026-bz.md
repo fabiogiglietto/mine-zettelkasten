@@ -16,6 +16,10 @@ discovery_date: 2026-02-16T20:52:21.543674Z
 
 # The modality-congruent carryover effect: How difficulty in identifying (deep)fake news impacts self-confidence in truth discernment and susceptibility to subsequent disinformation
 
+> Choi, S. (2026). The modality-congruent carryover effect: How difficulty in identifying (deep)fake news impacts self-confidence in truth discernment and susceptibility to subsequent disinformation. *Journalism & Mass Communication Quarterly*. https://doi.org/10.1177/10776990251413726
+>
+> [View paper](https://doi.org/10.1177/10776990251413726)
+
 ## Summary
 
 Choi reports a two-wave online experiment investigating how the experience of trying to authenticate one piece of (deep)fake news shapes responses to subsequent fake content. Participants encountered celebrity (deep)fake news in either text or video form within a social media context, and the study tracked downstream effects on self-confidence in truth discernment and susceptibility to further disinformation. The central argument is that there is a *modality-congruent carryover effect*: difficulty authenticating fake news in one format propagates to later fake content, but only when the subsequent material appears in the same modality (text-to-text or video-to-video).

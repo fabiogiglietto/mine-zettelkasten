@@ -16,6 +16,10 @@ discovery_date: 2026-03-11T09:32:00.321924Z
 
 # The levers of political persuasion with conversational artificial intelligence
 
+> Hackenburg, K., Tappin, B. M., Hewitt, L., Saunders, E., Black, S., Lin, H., Fist, C., Margetts, H., Rand, D. G., & Summerfield, C. (2025). The levers of political persuasion with conversational artificial intelligence. *Science*, *390*, eaea3884. https://doi.org/10.1126/science.aea3884
+>
+> [View paper](https://doi.org/10.1126/science.aea3884)
+
 ## Summary
 
 This paper presents the largest systematic empirical investigation of what makes conversational AI persuasive in political contexts, using three preregistered experiments with 42,357 UK participants, 19 LLMs spanning four orders of magnitude in compute, and 707 political issues. The authors find that *post-training* (especially reward modeling) and *prompting strategies* are far more powerful persuasion levers than model scale or personalization, and they identify **information density**—the number of fact-checkable claims per conversation—as the unifying mechanism. Crucially, the same levers that boost persuasion systematically *degrade* factual accuracy, exposing a persuasion–accuracy trade-off with direct implications for AI safety and political communication.

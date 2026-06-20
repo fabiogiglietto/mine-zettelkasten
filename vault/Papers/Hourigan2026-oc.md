@@ -16,6 +16,10 @@ discovery_date: 2026-03-06T07:10:12.318481Z
 
 # Everyday encounters with misinformation online: examining sources, topics and modes
 
+> Hourigan, A., Thomson, T., Notley, T., Park, S., & Dezuanni, M. (2026). Everyday encounters with misinformation online: examining sources, topics and modes. *Information, Communication & Society*, 1–22. https://doi.org/10.1080/1369118x.2026.2636132
+>
+> [View paper](https://doi.org/10.1080/1369118x.2026.2636132)
+
 ## Summary
 
 This Australian study challenges the dominant framing of misinformation research as a problem of "hot button" topics (health, politics, science) propagated by fringe actors. Using a week-long digital diary method that lets participants flag content themselves — without imposing a pre-set definition of misinformation — the authors find that everyday encounters with perceived misinformation span mundane domains like business/economics, celebrity, and crime; are overwhelmingly text-based (especially news headlines); and are most often attributed to mainstream domestic news outlets engaging in clickbait and sensationalism. The paper argues that misinformation perceptions are inseparable from broader crises of trust in journalism, shifting news logics, and platform dynamics, and that effective responses must therefore address the texture of everyday digital life rather than single-issue interventions.

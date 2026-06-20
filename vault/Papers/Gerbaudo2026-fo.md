@@ -16,6 +16,10 @@ discovery_date: 2026-04-25T08:39:36.580958Z
 
 # TikTok and the algorithmic transformation of social media publics: From social networks to social interest clusters
 
+> Gerbaudo, P. (2026). TikTok and the algorithmic transformation of social media publics: From social networks to social interest clusters. *New Media & Society*, *28*, 1019–1036. https://doi.org/10.1177/14614448241304106
+>
+> [View paper](https://doi.org/10.1177/14614448241304106)
+
 ## Summary
 
 Gerbaudo argues that TikTok inaugurates a "second generation" of social media that breaks with the networked logic of Facebook, Twitter, and Instagram. Where first-generation platforms organized "networked publics" around explicit interpersonal ties — friending, following, liking — TikTok produces "clustered publics": algorithmically inferred neighborhoods of users grouped by behavioral similarity, primarily through implicit signals like watch time. The meaning of "social" itself shifts from interpersonal connection to statistical commonality of interest. Drawing on Simmel's notion of social forms and Weberian ideal-types, the paper theorizes this as a morphological transformation of online publicity with three normative consequences: depersonalization, opacity, and subcultural fragmentation.

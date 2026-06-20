@@ -17,6 +17,10 @@ discovery_date:
 
 # Synthetic seduction: Evolving visual persuasion in coordinated online gambling promotion with generative {AI}
 
+> Giglietto, F., Terenzi, M., Chakraborty, A., & Marino, G. (2026). Synthetic seduction: Evolving visual persuasion in coordinated online gambling promotion with generative {AI}. *Countering Disinformation in the Era of Generative AI*. https://doi.org/10.1007/978-3-032-11782-3_4
+>
+> [View paper](https://doi.org/10.1007/978-3-032-11782-3_4)
+
 ## Summary
 
 This paper examines how coordinated networks of Facebook groups promote online gambling through visual content, and how the public release of generative AI tools has reshaped that promotion. Analyzing 2,323 images shared across 223 coordinated public groups (identified through link-sharing coordination seeded from fact-checker-flagged accounts), the authors build a typology of persuasive visual drivers — aspirational wealth, manufactured trust, FOMO, gamification, celebrity endorsements, social-relations exploitation, and cultural localization — and show that generative AI has not invented new strategies but radically intensified, recombined, and scaled existing ones. They argue that the central governance problem is not moderation per se but algorithmic amplification operating in a regulatory grey zone where Meta strictly polices paid gambling ads while leaving organic gambling content largely unconstrained.

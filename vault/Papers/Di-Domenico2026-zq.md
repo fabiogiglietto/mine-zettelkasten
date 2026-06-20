@@ -16,6 +16,10 @@ discovery_date: 2026-01-25T09:11:59.349818Z
 
 # don&#x27;t you know that you&#x27;re toxic? how influencer‐driven misinformation fuels online toxicity
 
+> Domenico, G. D., Mangió, F., & Dineva, D. (2026). don&#x27;t you know that you&#x27;re toxic? how influencer‐driven misinformation fuels online toxicity. *Psychology & Marketing*. https://doi.org/10.1002/mar.70106
+>
+> [View paper](https://doi.org/10.1002/mar.70106)
+
 ## Summary
 
 This paper investigates whether the *source* of brand-related misinformation — a social media influencer (SMI) versus an ordinary user — systematically shapes the toxicity of audience responses. Through an empirics-first mixed-method study of 101 Snopes-verified misinformation posts and ~48,821 comments across six platforms (2020–2023), Di Domenico, Mangió, and Dineva show that identical misinformation generates substantially more, and qualitatively different, toxicity when posted by influencers. They argue that influencer credibility and parasocial bonds are not merely persuasive assets but *infrastructural* mechanisms — operating through legitimation and community enmeshment — that convert audience trust into collective antagonism, typically redirected at the implicated brand. The paper thus reframes online toxicity as a source-amplified, relational phenomenon rather than a property of message content or individual cognition.

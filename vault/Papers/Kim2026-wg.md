@@ -16,6 +16,10 @@ discovery_date: 2026-02-02T06:36:34.699078Z
 
 # Targeted digital voter suppression efforts likely decrease voter turnout
 
+> Kim, Y. M., Dahlke, R., Song, H., & Heinrich, R. (2026). Targeted digital voter suppression efforts likely decrease voter turnout. *Proceedings of the National Academy of Sciences*, *123*, e2519944123. https://doi.org/10.1073/pnas.2519944123
+>
+> [View paper](https://doi.org/10.1073/pnas.2519944123)
+
 ## Summary
 
 This paper offers the first independent, individual-level empirical analysis of targeted digital voter suppression during the 2016 US Presidential Election, including ads later attributed to Russia's Internet Research Agency. Combining a custom browser-based ad tracking tool (EScope) with survey responses and verified turnout records, the authors document systematic geo-racial targeting of suppression ads at non-White voters in minority-majority counties of battleground states, and estimate that exposure was associated with reduced turnout — modest on average (~1.86 percentage points) but substantial (~17%) among the precisely targeted subpopulations. The authors argue that prior null findings on Russian interference reflect methodological limits of average treatment effect designs and indirect exposure proxies, and that heterogeneous effects are essential to understanding microtargeted political advertising.

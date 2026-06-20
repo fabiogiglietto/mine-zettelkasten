@@ -16,6 +16,10 @@ discovery_date: 2026-02-08T18:59:43.466543Z
 
 # Conversational Inoculation to enhance resistance to misinformation
 
+> Szabó, D., Yang, C., Visuri, A., Oppenlaender, J., Sekar, B., Yatani, K., & Hosio, S. (2026). Conversational Inoculation to enhance resistance to misinformation. *arXiv [cs.HC]*. https://doi.org/10.1145/3772318.379095
+>
+> [View paper](https://doi.org/10.1145/3772318.379095)
+
 ## Summary
 
 This paper introduces *Conversational Inoculation*, a method for building cognitive resistance to misinformation through structured dialogue with an LLM-powered chatbot. The authors built MindFort, a web application implementing three inoculation modes—Reading, Writing, and a GPT-4o chatbot persona named "Forty"—and ran a within-subjects experiment with 61 participants across four health and environmental topics. The chatbot condition significantly outperformed a no-treatment control on resistance to a subsequent counterattitudinal attack, and outperformed both Reading and Writing once individual baseline susceptibility was controlled. Beyond the effectiveness result, the paper argues that what makes conversational inoculation work is not just argument content but interaction design: adaptability, trust-building, fostering independent thinking, and minimizing interactional friction.

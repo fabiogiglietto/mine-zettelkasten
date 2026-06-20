@@ -16,6 +16,10 @@ discovery_date: 2026-06-15T05:32:40.967091Z
 
 # AI coding agents can reproduce social science findings
 
+> Alizadeh, M., Mosleh, M., Gilardi, F., Kasirzadeh, A., & Tucker, J. (2026). AI coding agents can reproduce social science findings. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2606.11447v1)
+
 ## Summary
 
 This paper introduces **SocSci-Repro-Bench**, a benchmark of 221 reproducibility tasks drawn from 54 social science papers across political science, sociology, psychology, and communication, and uses it to evaluate whether frontier AI *coding agents* — Claude Code (Opus 4.6) and Codex (GPT-5.3) — can reproduce published computational findings. The authors argue that purpose-built coding agents represent a step-change over prior general-purpose LLM agents: Claude Code reproduces 93.4% of tasks and 78.0% of papers end-to-end, largely by autonomously repairing broken replication environments. They also show that this competence is fragile in revealing ways — supplying the original PDF or nudging the agent toward confirmatory framings degrades its ability to correctly flag non-reproducible tasks, surfacing sycophantic specification search as a risk for AI-assisted validation of science.

@@ -64,6 +64,33 @@ def inject_date(text: str) -> str:
     return f"---\ndate: {year.group(1)}-01-01\n{block}\n---\n{text[fm.end():]}"
 
 
+_BODY_H1 = re.compile(r"^# (.+?)[ \t]*$", re.MULTILINE)
+
+
+def strip_duplicate_title(text: str) -> str:
+    """Drop the body's leading `# Title` H1 when it duplicates the frontmatter
+    `title`. Quartz renders `title` as the page H1, so the body heading would
+    show the title a second time. No-op for notes without a `title` frontmatter
+    (Topic/Structure notes) or whose first H1 differs from it.
+    """
+    fm = _FRONTMATTER.match(text)
+    if not fm:
+        return text
+    data = yaml.safe_load(fm.group(1)) or {}
+    title = data.get("title")
+    if not title:
+        return text
+    body_start = fm.end()
+    match = _BODY_H1.search(text, body_start)
+    if not match or match.group(1).strip() != str(title).strip():
+        return text
+    # Remove the H1 line and the blank line that follows it.
+    end = match.end()
+    if text[end:end + 2] == "\n\n":
+        end += 1
+    return text[:match.start()] + text[end:].lstrip("\n")
+
+
 def _read_paper_meta(text: str) -> dict | None:
     """Extract the fields needed for the homepage 'Latest papers' list.
 
@@ -209,7 +236,7 @@ def export_site(
         dst.mkdir(parents=True, exist_ok=True)
         for note in sorted(src.glob("*.md")):
             text = note.read_text(encoding="utf-8")
-            cleaned = strip_dataview(text)
+            cleaned = strip_duplicate_title(strip_dataview(text))
             if cleaned != text:
                 stripped += 1
             (dst / note.name).write_text(inject_date(cleaned), encoding="utf-8")

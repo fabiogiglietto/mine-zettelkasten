@@ -16,6 +16,10 @@ discovery_date: 2026-06-06T11:01:38.221976Z
 
 # Exploring temporal dynamics in digital trace data: mining user-sequences for communication research
 
+> Fan, Y., Ohme, J., & Wedel, L. (2026). Exploring temporal dynamics in digital trace data: mining user-sequences for communication research. *Communication Methods and Measures*, 1–28. https://doi.org/10.1080/19312458.2026.2664873
+>
+> [View paper](https://doi.org/10.1080/19312458.2026.2664873)
+
 ## Summary
 
 This paper proposes a methodological reorientation for communication research toward analyzing the fine-grained temporal structure of digital trace data (DTD). The authors argue that the field has long theorized communication as a dynamic process while empirically relying on cross-sectional, time-aggregated measures. To close this gap, they introduce the concept of "user-sequences" — chronologically ordered streams of timestamped user activity — and review six computational approaches for analyzing them: sequence analysis, event history analysis, hidden Markov models, network analysis, process mining, and language-based embedding models. A case study using 1.26 million donated traces from 309 German users across Facebook, Instagram, TikTok, and YouTube illustrates what each method reveals and where each falls short on practical challenges like data volume, complexity, incompleteness, time-window selection, and cross-platform alignment.

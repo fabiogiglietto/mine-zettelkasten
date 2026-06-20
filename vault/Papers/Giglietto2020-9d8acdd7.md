@@ -17,6 +17,10 @@ discovery_date:
 
 # It takes a village to manipulate the media: coordinated link sharing behavior during 2018 and 2019 Italian elections
 
+> Giglietto, F., Righetti, N., Rossi, L., & Marino, G. (2020). It takes a village to manipulate the media: coordinated link sharing behavior during 2018 and 2019 Italian elections. *Information, Communication & Society*. https://doi.org/10.1080/1369118X.2020.1739732
+>
+> [View paper](https://doi.org/10.1080/1369118X.2020.1739732)
+
 ## Summary
 
 This paper argues that disinformation research has overinvested in content-veracity and bad-actor detection, and proposes instead an ecological, action-centered framing built around what the authors call *coordinated link sharing behavior* (CLSB) — networks of Facebook pages, groups, and verified profiles that repeatedly share the same URLs in near-simultaneous bursts. Using CrowdTangle data on Italian political news from the six months preceding the 2018 general election and the 2019 European election, the authors develop a reproducible algorithm to detect such networks and show that coordination is strongly associated with the diffusion of problematic information. They further distinguish openly political from deceptively non-political coordinated networks, linking these self-presentations to different content strategies and plausibly different (ideological vs. commercial) motivations.

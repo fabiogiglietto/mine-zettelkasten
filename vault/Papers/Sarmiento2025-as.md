@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Unsupervised framing analysis for social media discourse in polarizing events
 
+> Sarmiento, H., Córdova, R., Ortiz, J., Bravo-Marquez, F., Santos, M., & Valenzuela, S. (2025). Unsupervised framing analysis for social media discourse in polarizing events. *ACM Transactions on the Web*, 3711912. https://doi.org/10.1145/3711912
+>
+> [View paper](https://doi.org/10.1145/3711912)
+
 ## Summary
 
 This paper proposes an unsupervised methodological pipeline for surfacing frames in polarized social media discourse without relying on predefined frame inventories. Combining machine learning, network analysis, and natural language processing, the authors argue that emergent and subtle framing structures in online conversations can be made visible at scale. The contribution is primarily methodological: bridging classical framing theory in communication research with computational social science techniques to study how polarization manifests discursively on platforms.

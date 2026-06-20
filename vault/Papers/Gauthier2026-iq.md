@@ -16,6 +16,10 @@ discovery_date: 2026-02-19T06:33:46.898860Z
 
 # The political effects of X’s feed algorithm
 
+> Gauthier, G., Hodler, R., Widmer, P., & Zhuravskaya, E. (2026). The political effects of X’s feed algorithm. *Nature*, 1–8. https://doi.org/10.1038/s41586-026-10098-2
+>
+> [View paper](https://doi.org/10.1038/s41586-026-10098-2)
+
 ## Summary
 
 This paper reports a pre-registered field experiment with ~5,000 active US-based X users in summer 2023, exploiting X's then-new ability to toggle between an algorithmic "For you" feed and a chronological "Following" feed. Random assignment for seven weeks shows that switching users from chronological to algorithmic exposure causally shifts political attitudes in a conservative direction — on policy priorities, the Trump investigations, and the war in Ukraine — while leaving partisanship and affective polarization unmoved. The effect is strikingly asymmetric: turning the algorithm off does not undo it, because algorithmic exposure induces users to follow conservative activist accounts whose content continues to dominate their feed afterward. The authors argue this persistence mechanism reconciles their findings with the null results of the 2020 Meta studies and reconceptualizes algorithms as shaping exposure indirectly through follow choices, not merely through ranking.

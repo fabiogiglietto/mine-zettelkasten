@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # The risks of industry influence in tech research
 
+> Bak-Coleman, J., O'Connor, C., Bergstrom, C., & West, J. (2025). The risks of industry influence in tech research. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2510.19894v2)
+
 ## Summary
 
 This Perspective argues that the technology industry exerts pervasive and underappreciated influence over the scientific study of its own products, paralleling historical interference by tobacco, fossil fuel, and soda industries but amplified by unique asymmetries: tech firms control the data, funding, and platform access required to study social media, search, and AI. The authors contend that existing scientific safeguards — IRB review, conflict-of-interest disclosures, and Open Science norms — are inadequate and can even disadvantage independent researchers relative to industry-affiliated ones. They catalog six mechanisms of influence and propose reforms spanning journals, funders, universities, and governments, including mandated data access and an IPCC-style intergovernmental panel for information technology.

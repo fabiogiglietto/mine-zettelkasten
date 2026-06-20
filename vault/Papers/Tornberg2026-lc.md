@@ -16,6 +16,10 @@ discovery_date: 2026-04-24T11:07:01.017741Z
 
 # Towards a Post-Social Media Studies
 
+> Törnberg, P., & Rogers, R. (2026). Towards a Post-Social Media Studies. https://doi.org/10.31235/osf.io/6nue7_v1
+>
+> [View paper](https://doi.org/10.31235/osf.io/6nue7_v1)
+
 ## Summary
 
 This conceptual paper argues that the "social media" paradigm — built on user-generated content circulating through social graphs to form networked publics — has been hollowed out, and that digital media studies needs a corresponding paradigm shift. Törnberg and Rogers identify three interlocking dynamics dissolving the old configuration: a move from social-graph to interest-based algorithmic recommendation, generative AI flooding platforms with synthetic content, and user retreat into semi-private spaces. In its place they map three distinct "post-social" formations — algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication — each requiring its own concepts, methods, and normative apparatus. The intervention is diagnostic and programmatic rather than empirical, calling for a wholesale reorientation of the field.

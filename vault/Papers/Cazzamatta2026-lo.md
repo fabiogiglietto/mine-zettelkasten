@@ -16,6 +16,10 @@ discovery_date: 2026-02-01T07:29:57.124171Z
 
 # From moderation to chaos: Meta’s fact-checking and the battle over truth and free speech
 
+> Cazzamatta, R. (2026). From moderation to chaos: Meta’s fact-checking and the battle over truth and free speech. *New Media & Society*. https://doi.org/10.1177/14614448251413687
+>
+> [View paper](https://doi.org/10.1177/14614448251413687)
+
 ## Summary
 
 This paper empirically tests the censorship narrative behind Mark Zuckerberg's January 2025 decision to dismantle Meta's Third-Party Fact-Checking Program. Combining a content analysis of 2,053 debunking articles from 16 Meta-partner fact-checkers across eight European and Latin American countries with 30 expert interviews, Cazzamatta shows that fact-checkers never had takedown authority and that, post-verification, content removal occurs in only about 30% of cases—most flagged content stays online, often unlabeled. Fact-checkers themselves overwhelmingly favor transparency, labeling, and counter-speech over deletion, distinguishing "freedom of speech" from "freedom of reach," and view Community Notes as an inadequate, manipulable substitute. The paper reframes Meta's shift as a move from "preemptive" to "conflictual" cooperation, raising particular alarm for under-regulated Latin American contexts.

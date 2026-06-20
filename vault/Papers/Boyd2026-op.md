@@ -16,6 +16,10 @@ discovery_date: 2026-04-17T14:01:05.840432Z
 
 # Social media is now parasocial media
 
+> boyd, D. (2026). Social media is now parasocial media. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261437487
+>
+> [View paper](https://doi.org/10.1177/20563051261437487)
+
 ## Summary
 
 In this anniversary essay for *Social Media + Society*, danah boyd argues that the platforms scholars have spent two decades calling "social media" no longer warrant that name. Where early-2000s platforms supported reciprocal exchange, identity work, and peer community-building, today's dominant platforms reward scrolling over posting, algorithmically promoted professional content over friend updates, and one-sided attention to influencers over mutual relationships. boyd proposes the field deprecate "social media" in favor of "parasocial media," a relabeling she frames as both a descriptive correction and a normative intervention with consequences for how we study governance, inequality, and digital sociality.

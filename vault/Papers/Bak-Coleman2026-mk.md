@@ -16,6 +16,10 @@ discovery_date: 2026-01-22T06:56:36.937566Z
 
 # Industry influence in high-profile social media research
 
+> Bak-Coleman, J., West, J. D., O’Connor, C., & Bergstrom, C. T. (2026). Industry influence in high-profile social media research. *ArXiv.org*.
+>
+> [View paper](http://arxiv.org/abs/2601.11507)
+
 ## Summary
 
 This metascience paper quantifies the extent of industry influence in high-profile social media research published in *Science*, *Nature*, *PNAS*, and their transfer journals. Drawing on public data covering funding, collaboration, and employment ties to Meta, X, Google, and Microsoft, Bak-Coleman and colleagues show that roughly half of such papers have disclosable ties to platform companies, yet the great majority of these ties are never declared. They argue that influence operates not only through authorship but also through editorial handling and peer review, producing an "industrially saturated" literature in which only about one in five papers is plausibly independent. The authors frame this pattern as analogous to documented industry influence in tobacco, pharmaceutical, and nutrition science, and warn that it skews both topical attention and the evaluative apparatus of the field.

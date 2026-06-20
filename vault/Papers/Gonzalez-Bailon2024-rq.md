@@ -16,6 +16,10 @@ discovery_date: 2024-12-15T00:00:00Z
 
 # The diffusion and reach of (mis)information on Facebook during the U.s. 2020 election
 
+> González-Bailón, S., Lazer, D., Barberá, P., Godel, W., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A., Iyengar, S., Kim, Y., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C., Settle, J., Thorson, E., Tromble, R., Wilkins, A., Wojcieszak, M., Jonge, C. K. D., Franco, A., Mason, W., Stroud, N., & Tucker, J. (2024). The diffusion and reach of (mis)information on Facebook during the U.s. 2020 election. *Sociological Science*, *11*, 1124–1146. https://doi.org/10.15195/v11.a41
+>
+> [View paper](https://doi.org/10.15195/v11.a41)
+
 ## Summary
 
 This paper provides one of the largest-scale empirical characterizations of how content—and misinformation specifically—diffused on Facebook during the U.S. 2020 presidential election. Drawing on diffusion trees from roughly one billion re-shared posts by U.S. adult users between July 2020 and February 2021, the authors compare misinformation against other content categories in terms of virality, audience reach, and the structural role of specific actors in propagation. They argue that while most posts reach limited audiences, misinformation is disproportionately represented among the small set of posts that achieve viral, mass-scale diffusion, and that identifiable platform actors and structural features play an outsized amplifying role.

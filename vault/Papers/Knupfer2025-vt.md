@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # The logic of connective faction: How digitally networked elites and hyper-partisan media radicalize politics
 
+> Knüpfer, C. B., Yang, Y., & Cowburn, M. (2026). The logic of connective faction: How digitally networked elites and hyper-partisan media radicalize politics. *Political Communication*, 1–33. https://doi.org/10.1080/10584609.2025.2604708
+>
+> [View paper](https://doi.org/10.1080/10584609.2025.2604708)
+
 ## Summary
 
 This paper introduces a "logic of connective faction" framework to explain how ideologically extreme subgroups within political parties forge dense ties to hyper-partisan media ecosystems, using those connections to amplify their factional position and pull party politics rightward. Extending Bennett and Segerberg's connective action theory from social movements into formal party organizations, Knüpfer, Yang, and Cowburn use the rapid 2020–2021 rise of "Critical Race Theory" as a Republican talking point to compare adopting and non-adopting members of Congress. They argue that hyper-partisan outlets function as "digital surrogates" that co-produce factional agendas with aligned elites, and that engagement metrics and partisan media attention provide measurable incentives rewarding radicalization.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # What did we learn about political communication from the Meta2020 partnership?
 
+> Munger, K. (2025). What did we learn about political communication from the Meta2020 partnership?. *Political Communication*, *42*, 201–207. https://doi.org/10.1080/10584609.2024.2446351
+>
+> [View paper](https://doi.org/10.1080/10584609.2024.2446351)
+
 ## Summary
 
 Munger offers a meta-scientific critique of the Meta2020 partnership — the landmark collaboration in which 17 academics worked with Meta to run large-scale field experiments on Facebook and Instagram during the 2020 US election. He grants that the project is the apex of empirical social science on social media in terms of craft and ambition, but argues this very apex reveals the mode's structural inadequacy. The studies generate precise numerical estimates of unclear external validity on platforms that mutate too quickly to permit replication, and they operationalize core concepts like "echo chamber" inconsistently across papers. Munger concludes that platforms cannot be governed reactively through academic study; instead, regulation must proactively compel platforms to characterize and disclose their own effects.

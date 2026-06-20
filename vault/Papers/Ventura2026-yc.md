@@ -16,6 +16,10 @@ discovery_date: 2026-03-27T17:13:56.619909Z
 
 # The partisan effects of social media bans
 
+> Ventura, T., Barrie, C., Roberts, M. E., Schwarz, C., & Tucker, J. A. (2026). The partisan effects of social media bans. https://doi.org/10.31235/osf.io/4stfw_v1
+>
+> [View paper](https://doi.org/10.31235/osf.io/4stfw_v1)
+
 ## Summary
 
 This paper exploits Brazil's 2024 Supreme Court–ordered nationwide ban on X to study how platform-level bans reshape partisan information environments in democracies. Combining ideal-point estimates from news-sharing behavior with an event-study design on a panel of politically engaged users, the authors show that conservative (anti-government) users disproportionately circumvented the ban via VPNs while liberal users complied and went silent. The resulting rightward shift in posting, engagement, and shared news persisted months after the ban was lifted. The authors theorize this as a "sorting ratchet": politicized bans produce asymmetric compliance shaped by partisan reputational and instrumental incentives, durably reshaping the digital public sphere rather than neutrally reducing harm.

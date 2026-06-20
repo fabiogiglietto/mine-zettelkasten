@@ -17,6 +17,10 @@ discovery_date:
 
 # Hybrid spaces of politics: the 2013 general elections in Italy, between talk shows and Twitter
 
+> Iannelli, L., & Giglietto, F. (2015). Hybrid spaces of politics: the 2013 general elections in Italy, between talk shows and Twitter. *Information, Communication & Society*. https://doi.org/10.1080/1369118x.2015.1006658
+>
+> [View paper](https://doi.org/10.1080/1369118x.2015.1006658)
+
 ## Summary
 
 This article maps the hybrid entanglement of television and Twitter during the run-up to Italy's 2013 general elections, treating second-screen activity around political talk shows as a privileged site for studying contemporary political communication. Combining a near-complete capture of tweets bearing official talk-show hashtags with scene-anchored content analysis of peak moments around the three main parties (PD, PDL, M5S), the authors argue that while volumes appear impressive, access remains narrow, broadcasters and politicians rarely engage with the connected audience, and tweeting takes the form of opinion and demands for interaction rather than genuine agenda-shaping. Twitter, in this Italian configuration, amplifies TV logic more than it disrupts it.

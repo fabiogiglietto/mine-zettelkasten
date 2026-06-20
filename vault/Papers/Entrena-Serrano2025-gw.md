@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # TikTok&#x27;s Research API: Problems Without Explanations
 
+> Entrena-Serrano, C., Degeling, M., Romano, S., & Çetin, R. B. (2025). TikTok&#x27;s Research API: Problems Without Explanations. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2506.09746v2)
+
 ## Summary
 
 This paper offers an early empirical evaluation of TikTok's Research API, which the platform expanded in July 2023 to comply with the Digital Services Act's (DSA) obligations on Very Large Online Platforms (VLOPs) to facilitate independent researcher access to data. The authors argue that, despite the expansion, the API falls well short of the transparency and accessibility envisioned by the DSA: it exhibits persistent limitations and inconsistencies that undermine its usefulness for studying systemic risks on the platform. The work positions TikTok's API as a case of compliance gesture rather than substantive transparency.

@@ -16,6 +16,10 @@ discovery_date: 2026-04-30T07:40:12.891395Z
 
 # Seeing candidates at scale: Multimodal LLMs for Visual Political Communication on Instagram
 
+> Achmann-Denkler, M., Haim, M., & Wolff, C. (2026). Seeing candidates at scale: Multimodal LLMs for Visual Political Communication on Instagram. *arXiv [cs.CV]*.
+>
+> [View paper](http://arxiv.org/abs/2604.19489v1)
+
 ## Summary
 
 This paper benchmarks a multimodal large language model (GPT-4o) against specialized computer vision pipelines (RetinaFace + FaceNet512, Google Cloud Vision) on two visual political communication tasks — front-runner face recognition and person counting — using 1,424 Instagram stories and 547 posts from the 2021 German federal election. GPT-4o substantially outperforms the specialized tools and approaches inter-annotator reliability levels, leading the authors to argue that prompt-based multimodal analysis lowers technical barriers for visual computational social science. They then deploy the validated pipeline in a substantive case study of *concentrated visibility*, showing that candidate accounts foreground front-runners more than party accounts and that stories and posts play distinct roles in personalized campaign communication.

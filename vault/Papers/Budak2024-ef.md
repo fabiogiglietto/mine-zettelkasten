@@ -16,6 +16,10 @@ discovery_date: 2024-06-15T00:00:00Z
 
 # Misunderstanding the harms of online misinformation
 
+> Budak, C., Nyhan, B., Rothschild, D. M., Thorson, E., & Watts, D. J. (2024). Misunderstanding the harms of online misinformation. *Nature*, *630*, 45–53. https://doi.org/10.1038/s41586-024-07417-w
+>
+> [View paper](https://doi.org/10.1038/s41586-024-07417-w)
+
 ## Summary
 
 Budak, Nyhan, Rothschild, Thorson, and Watts argue that public discourse about online misinformation has drifted away from what empirical research actually shows. They identify three persistent misperceptions — about the prevalence of problematic content, the causal role of algorithms, and the link between social media and broad societal harms — that pervade commentary by journalists, public intellectuals, and policymakers. The paper urges a recalibration of debate and policy so that interventions target the actual, more concentrated and heterogeneous patterns of misinformation exposure and effect documented in the literature.

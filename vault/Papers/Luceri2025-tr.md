@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # Coordinated inauthentic behavior on TikTok: Challenges and opportunities for detection in a video-first ecosystem
 
+> Luceri, L., Salkar, T. V., Balasubramanian, A., Pinto, G., Sun, C., & Ferrara, E. (2025). Coordinated inauthentic behavior on TikTok: Challenges and opportunities for detection in a video-first ecosystem. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2505.10867v2)
+
 ## Summary
 
 This paper develops a computational framework for detecting coordinated inauthentic behavior (CIB) on TikTok, addressing the fact that influence-operations research has overwhelmingly concentrated on text-centric platforms like Twitter/X and Facebook. The authors argue that video-first ecosystems demand methodological adaptation rather than direct transfer of existing techniques, and they extend network-based user similarity approaches to TikTok's distinctive content and interaction structures. The work both demonstrates feasibility of CIB detection on TikTok and reflects on the challenges and opportunities the platform's affordances create for influence-operation analysis.

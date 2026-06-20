@@ -16,6 +16,10 @@ discovery_date: 2026-05-16T09:10:27.779284Z
 
 # How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic
 
+> Adam, S., Rohrbach, T., Keller, F., Makhortykh, M., León, E. D., Valli, C., Baghumyan, A., & Sydorova, M. (2026). How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic. *Journal of Communication*, *76*, 119–133. https://doi.org/10.1093/joc/jqaf033
+>
+> [View paper](https://doi.org/10.1093/joc/jqaf033)
+
 ## Summary
 
 This study combines a two-wave panel survey (Germany and German-speaking Switzerland, March–May 2020) with browser-level web tracking to ask how media exposure and political predispositions jointly shaped emerging COVID-19 conspiracy beliefs at the pandemic's outset. Using BERT classifiers to identify conspiracy-related sentences and their stance (supporting vs. opposing) across 3.5 million tracked documents, the authors test a holistic model integrating alternative media, mainstream media, populism, and political mistrust. They find both direct contagion (from conspiracy-supporting alternative media) and direct mitigation (from conspiracy-opposing mainstream media), but also indirect reinforcement via selective engagement and a backfire pathway in which mainstream debunking *increases* conspiracy belief among populists.

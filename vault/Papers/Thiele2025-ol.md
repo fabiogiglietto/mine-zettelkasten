@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Attributing coordinated social media manipulation: A theoretical model and typology
 
+> Thiele, D., Milzner, M., Heft, A., Gong, B., & Pfetsch, B. (2025). Attributing coordinated social media manipulation: A theoretical model and typology. *New Media & Society*. https://doi.org/10.1177/14614448251350100
+>
+> [View paper](https://doi.org/10.1177/14614448251350100)
+
 ## Summary
 
 This conceptual paper tackles the "attribution problem" in research on coordinated social media manipulation (CSMM): how to infer the covert principals behind campaigns when only downstream traces are visible. The authors argue that platform-derived concepts like Meta's "coordinated inauthentic behavior" conflate inauthenticity with manipulative intent and are poorly suited to comparative scholarly inquiry. They propose a consolidated definition of CSMM centered on manipulative intent, synthesize a literature-based catalogue of observable campaign features, and adapt Esser's rational choice framework to model principals' commissioning decisions. The output is a 2×2×2 typology of eight campaign types that maps observable structural features (scale, elaborateness, disguise) onto hidden principal attributes (resources, stakes, influence strategy).

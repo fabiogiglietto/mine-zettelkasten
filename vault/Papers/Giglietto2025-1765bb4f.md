@@ -17,6 +17,10 @@ discovery_date:
 
 # "A Pretty Blunt Approach": Meta's Political Content Reduction Policy and Italian Parliamentarians' Facebook Visibility
 
+> Giglietto, F. (2025). "A Pretty Blunt Approach": Meta's Political Content Reduction Policy and Italian Parliamentarians' Facebook Visibility. *Center for Open Science*. https://doi.org/10.31235/osf.io/8dqag_v2
+>
+> [View paper](https://doi.org/10.31235/osf.io/8dqag_v2)
+
 ## Summary
 
 This working paper provides the first independent empirical assessment of Meta's 2021–2025 political content reduction policy on the Facebook visibility of Italian parliamentarians and other political actors. Drawing on 2.5 million posts collected through the Meta Content Library, Giglietto uses a discovery-validation design with structural breakpoint detection to show that the policy suppressed re-elected MPs' per-post reach by 72% at its trough, began roughly ten months before Meta's announced global rollout, and only partially recovered after the January 2025 reversal. Critically, extremist accounts evaded the policy's intended effect by sharply increasing posting frequency, gaining aggregate weekly reach even as mainstream politicians lost it. The paper frames these results as evidence of serious transparency deficits in Meta's DSA reporting while affirming the research value of DSA-enabled data infrastructures.

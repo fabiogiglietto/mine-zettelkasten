@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # All the (fake) news that’s fit to share? News values in perceived misinformation across twenty-four countries
 
+> Nenno, S., & Puschmann, C. (2026). All the (fake) news that’s fit to share? News values in perceived misinformation across twenty-four countries. *The International Journal of Press/Politics*, 19401612241311893. https://doi.org/10.1177/19401612241311893
+>
+> [View paper](https://doi.org/10.1177/19401612241311893)
+
 ## Summary
 
 This paper asks whether classic journalistic news values — conflict, negativity, proximity, individualization, and informativeness — are more pronounced in perceived misinformation than in regular news, and whether this pattern holds across both WEIRD and non-WEIRD countries. Drawing on ~82,000 political URLs from Facebook's URL Shares dataset across 24 countries, the authors build an automated multilingual pipeline to detect each news value and compare user-flagged versus unflagged items. They find that flagged content does exhibit elevated news values (especially conflict), but effect sizes are mostly small, and the WEIRD/non-WEIRD divide produces statistically significant though modest differences. The United States and Brazil emerge as distinctive outliers where news values discriminate flagged from unflagged content far more sharply, pointing to the role of polarized electoral contexts. The authors argue that Western-derived news value typologies need theoretical expansion to travel beyond WEIRD settings.

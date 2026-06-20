@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # Forgetful by design? A critical audit of YouTube&#x27;s search API for academic research
 
+> Rieder, B., Padilla, A., & Coromina, O. (2025). Forgetful by design? A critical audit of YouTube&#x27;s search API for academic research. *Information, Communication and Society, 1-20*. https://doi.org/10.1080/1369118X.2025.2591767
+>
+> [View paper](https://doi.org/10.1080/1369118X.2025.2591767)
+
 ## Summary
 
 Rieder, Padilla, and Coromina conduct the first systematic empirical audit of YouTube Data API v3's search endpoint, a tool heavily relied on for academic research yet rarely scrutinized methodologically. Through six months of weekly searches across eleven queries (health, political, popular culture), they document that the endpoint is "forgetful by design": it behaves more like a recommendation engine optimized for freshness than a traditional information retrieval system. The authors find severe temporal decay, inconsistent results across identical queries, large discrepancies between ranking parameters, and conclude that the API is inadequate both for robust academic research and for fulfilling Digital Services Act obligations to study systemic platform risks.

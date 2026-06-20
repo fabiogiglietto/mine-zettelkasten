@@ -16,6 +16,10 @@ discovery_date: 2026-01-27T06:19:49.072567Z
 
 # AI red-teaming is a sociotechnical problem
 
+> Gillespie, T., Shaw, R., Gray, M. L., & Suh, J. (2026). AI red-teaming is a sociotechnical problem. *Communications of the ACM*. https://doi.org/10.1145/3731657
+>
+> [View paper](https://doi.org/10.1145/3731657)
+
 ## Summary
 
 This essay reframes AI red-teaming — the adversarial probing of generative AI systems for harmful outputs, vulnerabilities, and biases — as a sociotechnical practice rather than a purely technical safety procedure. Gillespie, Shaw, Gray, and Suh argue that the rapid institutionalization of red-teaming across industry and policy (e.g., Biden's EO 14110, DEFCON 2023) has obscured three critical dimensions: the embedded value judgments about what counts as harm, the labor arrangements that organize the work, and the psychological costs borne by red-teamers. Drawing an extended analogy to the history of commercial content moderation, the authors warn that the field is repeating familiar patterns of opacity, outsourcing, and worker neglect — and call for a coordinated interdisciplinary research agenda before these arrangements become entrenched.

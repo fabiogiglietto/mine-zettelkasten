@@ -16,6 +16,10 @@ discovery_date: 2026-02-08T18:59:43.466569Z
 
 # Conspiracy in the making: The role of journalistic strategies in the formation of new conspiracy beliefs
 
+> Rohrbach, T., & Valli, C. (2026). Conspiracy in the making: The role of journalistic strategies in the formation of new conspiracy beliefs. *Journalism Studies*, 1–21. https://doi.org/10.1080/1461670x.2026.2623882
+>
+> [View paper](https://doi.org/10.1080/1461670x.2026.2623882)
+
 ## Summary
 
 Rohrbach and Valli examine how routine journalistic strategies — the framing, narrative choices, and reporting conventions used in mainstream news coverage — may inadvertently contribute to the *formation* of new conspiracy beliefs in audiences, rather than merely amplifying pre-existing ones. Published in *Journalism Studies*, the paper shifts the analytical lens from conspiracy diffusion to conspiracy genesis, arguing that the press itself is implicated in the epistemic conditions that make conspiratorial thinking plausible to readers.

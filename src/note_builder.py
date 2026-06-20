@@ -26,6 +26,81 @@ def _year_of(paper) -> str:
     return ""
 
 
+def _format_author(name: str) -> str:
+    """An author name in APA form: "Eytan Bakshy" -> "Bakshy, E.",
+    "Lada A. Adamic" -> "Adamic, L. A.".
+
+    Heuristic: the last whitespace-separated token is the surname, the rest
+    become initials. Good for ordinary "First [Middle] Last" names; surnames
+    with particles (van/de) or "Last, First" ordering may format imperfectly.
+    """
+    parts = name.split()
+    if not parts:
+        return ""
+    if len(parts) == 1:
+        return parts[0]
+    surname = parts[-1]
+    initials = " ".join(f"{p[0].upper()}." for p in parts[:-1] if p)
+    return f"{surname}, {initials}"
+
+
+def _format_authors(authors: list[str]) -> str:
+    """Author list in APA form, joined with commas and a final " & "."""
+    formatted = [_format_author(a) for a in authors if a]
+    if not formatted:
+        return ""
+    if len(formatted) == 1:
+        return formatted[0]
+    return ", ".join(formatted[:-1]) + ", & " + formatted[-1]
+
+
+def build_apa_citation(paper) -> str:
+    """A best-effort APA-7 journal-article citation from feed fields.
+
+    Shape: `Surname, F. M., & Surname, F. M. (Year). Title. *Journal*, *Vol*,
+    pages. https://doi.org/<doi>`. Each of journal, volume, pages and the DOI
+    link is optional and omitted when absent.
+    """
+    authors = _format_authors(paper.authors)
+    year = _year_of(paper)
+    title = (paper.title or "").rstrip(".")
+
+    head = " ".join(p for p in (authors, f"({year})." if year else "") if p)
+    pieces = [f"{head} {title}.".strip() if title else head]
+
+    journal = (paper.journal or "").strip()
+    volume = (str(paper.volume).strip() if paper.volume else "")
+    pages = (str(paper.pages).strip().replace("--", "–") if paper.pages else "")
+    if journal:
+        tail = f"*{journal}*"
+        if volume:
+            tail += f", *{volume}*"
+        if pages:
+            tail += f", {pages}"
+        pieces.append(tail + ".")
+    elif pages:
+        pieces.append(f"{pages}.")
+
+    if paper.doi:
+        pieces.append(f"https://doi.org/{paper.doi}")
+
+    return " ".join(p for p in pieces if p).strip()
+
+
+def render_citation_block(paper) -> str:
+    """A blockquote holding the APA citation plus a labeled link to the paper.
+
+    The "View paper" link is omitted when the paper has no URL. Used by both
+    `build_paper_note` and the one-time backfill so the rendering stays
+    consistent across new and existing notes.
+    """
+    lines = [f"> {build_apa_citation(paper)}"]
+    if paper.url:
+        lines.append(">")
+        lines.append(f"> [View paper]({paper.url})")
+    return "\n".join(lines)
+
+
 def render_frontmatter(fields: dict[str, Any]) -> str:
     """Render a YAML frontmatter block. Lists become `[a, b]`."""
     lines = ["---"]
@@ -207,7 +282,7 @@ def build_paper_note(
         max_tokens=4096,
     ).strip()
 
-    note = f"{fm}\n\n# {paper.title}\n\n{body}\n"
+    note = f"{fm}\n\n# {paper.title}\n\n{render_citation_block(paper)}\n\n{body}\n"
     if podcast_url:
         note += (
             f"\n## Podcast\n\n"

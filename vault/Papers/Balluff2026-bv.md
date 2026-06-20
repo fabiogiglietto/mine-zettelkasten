@@ -16,6 +16,10 @@ discovery_date: 2026-01-27T10:52:07.596221Z
 
 # The Austrian political advertisement scandal: Patterns of “journalism for sale”
 
+> Balluff, P., Eberl, J., Oberhänsli, S. J., Bernhard-Harrer, J., Boomgaarden, H. G., Fahr, A., & Huber, M. (2026). The Austrian political advertisement scandal: Patterns of “journalism for sale”. *The International Journal of Press/Politics*, *31*, 91–117. https://doi.org/10.1177/19401612241285672
+>
+> [View paper](https://doi.org/10.1177/19401612241285672)
+
 ## Summary
 
 This paper provides empirical evidence for media capture in an established Western democracy by examining Austria's *Inseratenaffäre* — the alleged 2016 arrangement in which Chancellor Sebastian Kurz funneled government advertising to the tabloid OE24 in exchange for favorable coverage and manipulated polls. Using a quasi-experimental design on a decade of Austrian political news, the authors show that after 2016 OE24 dramatically amplified Kurz's visibility relative to comparable outlets, without making coverage of Kurz himself more positive but by turning more negative against his competitors. They interpret this as a "pay positive to go negative" pattern of advertiser-driven media bias and argue that Austria's regulatory framework, despite the 2012 Media Transparency Law, leaves democratic-corporatist systems structurally vulnerable to covert political capture.

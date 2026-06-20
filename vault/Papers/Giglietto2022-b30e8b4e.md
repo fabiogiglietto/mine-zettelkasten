@@ -17,6 +17,10 @@ discovery_date:
 
 # Unexpected consequences of a simple threshold: the effect of the 100 public shares on Meta’s URL Shares Dataset
 
+> Giglietto, F., Rossi, L., & Righetti, N. (2022). Unexpected consequences of a simple threshold: the effect of the 100 public shares on Meta’s URL Shares Dataset. *Center for Open Science*. https://doi.org/10.31235/osf.io/2p7ws
+>
+> [View paper](https://doi.org/10.31235/osf.io/2p7ws)
+
 ## Summary
 
 This paper exposes a previously unrecognized artifact in Meta's URL Shares Dataset (released through Social Science One): the 100-public-shares threshold used for anonymization, when combined with platform-wide changes to Feed ranking, produces systematic distortions that can swamp the social signals researchers aim to study. Analyzing monthly URL, share, and comment volumes across 46 countries from 2017 to 2021, the authors find that highly heterogeneous national contexts produce nearly identical temporal trajectories—a similarity they attribute to algorithmic forces (notably Meaningful Social Interactions optimization) shifting the probability that URLs cross the censoring threshold. The apparent COVID-19 spike in early 2020, they show, is largely the tail of a trend that began in mid-2019. The paper is both a methodological warning and a concrete demonstration of how privacy-preserving data engineering and algorithmic curation become entangled in research datasets.

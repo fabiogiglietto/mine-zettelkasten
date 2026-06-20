@@ -16,6 +16,10 @@ discovery_date: 2026-02-27T06:09:00.657393Z
 
 # Integrating topic modeling and LLM prompt engineering into a human-driven approach to analyze interview transcripts
 
+> Ober, T., Courey, K. A., & Flor, M. (2026). Integrating topic modeling and LLM prompt engineering into a human-driven approach to analyze interview transcripts. *Zenodo (CERN European Organization for Nuclear Research)*, *18*, 156–179. https://doi.org/10.5281/zenodo.18733520
+>
+> [View paper](https://doi.org/10.5281/zenodo.18733520)
+
 ## Summary
 
 This paper proposes a human-in-the-loop methodological framework that integrates grounded human coding, sentence-embedding topic modeling, and LLM prompt engineering to analyze qualitative interview data at scale without sacrificing interpretive depth. The authors demonstrate the workflow on six focus groups with 13 U.S. middle and high school teachers discussing how communication and digital literacy should be conceptualized and assessed within competency-based education (CBE). They argue that topic modeling supplies mathematically transparent thematic structure, LLMs accelerate labeling and codebook refinement, and human analysts preserve construct validity and theoretical coherence — yielding a refined, more structured codebook and substantive insights into teacher perspectives on 21st-century skills.

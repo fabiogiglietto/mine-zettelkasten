@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # What is going on? An evidence-frame framework for analyzing online rumors about election integrity
 
+> Starbird, K., Prochaska, S., & Yamron, B. (2025). What is going on? An evidence-frame framework for analyzing online rumors about election integrity. *Proceedings of the ACM on Human-Computer Interaction*, *9*, 1–37. https://doi.org/10.1145/3757522
+>
+> [View paper](https://doi.org/10.1145/3757522)
+
 ## Summary
 
 Starbird, Prochaska, and Yamron argue that the dominant framing of online misinformation as "false facts" misses where most of the work of misleading rumors actually happens: in the interaction between (often accurate) evidence and politically-charged frames. Adapting Klein's data-frame theory of sensemaking and integrating it with framing theory from Entman and Benford & Snow, they develop an evidence-frame framework and apply it to a mixed-method analysis of 479 tweets sampled from a 1.8M-tweet corpus on the 2022 Arizona midterm election. Twitter's quote-tweet and comment architecture, they show, is a particularly legible site for observing how shared evidence gets framed, reframed, escalated, or countered in collective rumoring.

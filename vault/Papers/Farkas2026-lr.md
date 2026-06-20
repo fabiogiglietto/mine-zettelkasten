@@ -16,6 +16,10 @@ discovery_date: 2026-02-20T06:11:27.219105Z
 
 # Defending fact-checking partnerships with platform companies: ‘We can&#x27;t fight alone against disinformation’
 
+> Farkas, J., & Bengtsson, M. (2026). Defending fact-checking partnerships with platform companies: ‘We can&#x27;t fight alone against disinformation’. *European Journal of Communication*. https://doi.org/10.1177/02673231261422085
+>
+> [View paper](https://doi.org/10.1177/02673231261422085)
+
 ## Summary
 
 This article examines how professional fact-checkers across Europe rhetorically justify their financial and operational entanglements with major platform companies like Meta, Alphabet, and ByteDance. Drawing on 12 qualitative interviews with fact-checkers from 12 European countries, Farkas and Bengtsson apply rhetorical apologia theory (Ware and Linkugel, 1973) to identify recurring justificatory strategies. They argue that fact-checkers deploy four modes of *differentiation* and three modes of *transcendence* to defend platform partnerships while acknowledging their risks, performing rhetorical boundary work that mirrors traditional journalism's "wall" metaphors of autonomy. The defensive rhetoric, the authors contend, reflects both external legitimacy struggles and internal contestation over the normative foundations of an emergent epistemic institution.

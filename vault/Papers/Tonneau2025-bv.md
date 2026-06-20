@@ -16,6 +16,10 @@ discovery_date: 2025-08-15T00:00:00Z
 
 # Language Disparities in Moderation Workforce Allocation by Social Media Platforms
 
+> Tonneau, M., Liu, D., McGrady, R., Zheng, K., Schroeder, R., Zuckerman, E., & Hale, S. (2025). Language Disparities in Moderation Workforce Allocation by Social Media Platforms. https://doi.org/10.31235/osf.io/amfws_v1
+>
+> [View paper](https://doi.org/10.31235/osf.io/amfws_v1)
+
 ## Summary
 
 This paper provides the first comparative empirical analysis of how six major social media platforms (YouTube, Meta, TikTok, Twitter/X, Snapchat, and LinkedIn) allocate human content moderators across languages, leveraging transparency disclosures mandated by the EU's Digital Services Act. By combining DSA-reported moderator counts with independently constructed estimates of content volume per language, the authors document substantial cross-lingual disparities: smaller platforms leave millions of EU users without any moderator for their national language, and across platforms, Global South languages (Spanish, Portuguese, Arabic) receive far fewer moderators per unit of content than English — ranging from 55% of English's allocation on YouTube down to just 7.5% on Twitter/X. The authors argue that current DSA transparency requirements, while a meaningful step, remain insufficient for independent accountability and should be strengthened and globalized.

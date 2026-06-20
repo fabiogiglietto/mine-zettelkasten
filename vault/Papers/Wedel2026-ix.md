@@ -16,6 +16,10 @@ discovery_date: 2026-06-15T16:51:30.049877Z
 
 # What is informative to young adults? Decoding informativeness perceptions among audiences of audio-visual digital platforms
 
+> Wedel, L. (2026). What is informative to young adults? Decoding informativeness perceptions among audiences of audio-visual digital platforms. *Digital Journalism*, 1–22. https://doi.org/10.1080/21670811.2026.2685660
+>
+> [View paper](https://doi.org/10.1080/21670811.2026.2685660)
+
 ## Summary
 
 This paper introduces *informativeness* — the continuous, subjective attribution of media content as new and/or useful — as an audience-centered concept for studying how young adults evaluate online content beyond institutional definitions of news. Drawing on Hall's encoding/decoding model and the "radical audience turn" in journalism studies, Wedel argues that existing concepts (news-ness, information orientation, information-ness) remain tethered to journalistic norms or to specific platforms. Through a two-step qualitative study with 44 young German adults across YouTube, Instagram, and TikTok, the paper derives a five-dimensional schema through which audiences decode whether content counts as informative, finding that journalistic norms get reapplied to non-journalistic actors and that perceived expertise, relevance, and platform logic — not professional certification — drive informativeness judgments.

@@ -16,6 +16,10 @@ discovery_date: 2026-05-18T07:38:07.489007Z
 
 # The alternative influence network (AIN) of far-right YouTubers in Sweden: Connectivity and hybridisation of online extremism during the Covid-19 pandemic
 
+> Askanius, T., Stoencheva, J., & Mondani, H. (2026). The alternative influence network (AIN) of far-right YouTubers in Sweden: Connectivity and hybridisation of online extremism during the Covid-19 pandemic. *Nordicom Review*, *47*, 13–37. https://doi.org/10.2478/nor-2026-0008
+>
+> [View paper](https://doi.org/10.2478/nor-2026-0008)
+
 ## Summary
 
 This paper maps the Swedish far-right "alternative influence network" (AIN) on YouTube during the Covid-19 pandemic (April 2020–March 2022), tracing how 52 channels of influencers, organised groups, and hyper-partisan alternative media interconnect through guest appearances, hyperlinks, and in-video mentions. Combining social network analysis of 1,512 coded videos with qualitative close readings, Askanius, Stoencheva, and Mondani argue that the Swedish far-right has professionalised and hybridised: actors fuse activist propaganda with influencer microcelebrity practices and commercial monetisation, while pandemic-era alliances with the Freedom Movement, anti-vaccine activists, conspiracists, and wellness communities have expanded the ecosystem's ideological reach. YouTube functions as a "sanitised" gateway that funnels viewers toward alt-tech platforms when moderation tightens.

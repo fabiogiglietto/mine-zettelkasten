@@ -16,6 +16,10 @@ discovery_date: 2026-05-26T19:31:02.136444Z
 
 # The imaginative landscape of AI: Locating Silicon Valley’s “quiet futuring”
 
+> Hepp, A. (2026). The imaginative landscape of AI: Locating Silicon Valley’s “quiet futuring”. *Media, Culture & Society*. https://doi.org/10.1177/01634437261454515
+>
+> [View paper](https://doi.org/10.1177/01634437261454515)
+
 ## Summary
 
 Despite the title metadata, this paper is an infrastructure-oriented case study of the 2025 German federal election that examines the practical, methodological, and governance bottlenecks of monitoring electoral discourse across X and TikTok. Collecting 81,866 X posts and 43,597 TikTok videos, the authors document how platform-specific affordances, restrictive APIs, and divergent party strategies make reproducible multi-platform analysis extremely difficult under current conditions. They argue that "platform observability" should be reframed as a shared, reusable research infrastructure — standardized tools, workflows, and documentation — rather than as a series of one-off empirical studies, and they derive four recommendations to that end.

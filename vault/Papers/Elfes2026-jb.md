@@ -16,6 +16,10 @@ discovery_date: 2026-02-04T11:06:02.329326Z
 
 # On narrative: The rhetorical mechanisms of online polarisation
 
+> Elfes, J., Bastos, M., & Aiello, L. M. (2026). On narrative: The rhetorical mechanisms of online polarisation. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2601.07398v1)
+
 ## Summary
 
 This paper introduces *narrative polarisation* as a distinct dimension of online polarisation, defined as the divergent ways partisan groups assign actants — heroes, villains, helpers, victims — to key actors in a contested issue. The authors operationalise Greimas' Actantial Model via a large language model and apply it to 212 YouTube videos and ~90,000 comments on the Israeli-Palestinian conflict. They find that while videos encode sharply opposed narratives (especially about who perpetrates violence versus who claims security or rights), comments substantially flatten this surface-level divergence. However, underlying *narrative motifs* — convergent, adversarial, and dependent configurations of actors — continue to carry partisan structure, suggesting that narrative polarisation can persist beneath apparent consensus and may be partially orthogonal to user ideology.

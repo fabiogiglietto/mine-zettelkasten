@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # The cost of reach: Testing the role of ad delivery algorithms in online political campaigns
 
+> Votta, F., Dobber, T., Guinaudeau, B., Helberger, N., & Vreese, C. D. (2025). The cost of reach: Testing the role of ad delivery algorithms in online political campaigns. *Political Communication*, *42*, 476–508. https://doi.org/10.1080/10584609.2024.2439317
+>
+> [View paper](https://doi.org/10.1080/10584609.2024.2439317)
+
 ## Summary
 
 This paper interrogates a frequently overlooked link in the chain of online political advertising: the platform-side ad *delivery* algorithm. While much scholarship and regulation focuses on advertiser-side targeting choices, Votta and colleagues argue that once a campaign hands an ad to Meta or Google, opaque optimization systems further shape who actually sees it and at what price. The authors test this empirically using platform ad data, showing that delivery algorithms exert substantive, independent influence on reach and cost — a finding with direct implications for transparency, fairness, and the regulation of political communication.

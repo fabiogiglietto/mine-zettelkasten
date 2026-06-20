@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # Post-hoc evaluation of nodes influence in information cascades: The case of coordinated accounts
 
+> Marco, N. D., Brunetti, S., Cinelli, M., & Quattrociocchi, W. (2025). Post-hoc evaluation of nodes influence in information cascades: The case of coordinated accounts. *ACM Transactions on the Web*, *19*, 1–19. https://doi.org/10.1145/3700644
+>
+> [View paper](https://doi.org/10.1145/3700644)
+
 ## Summary
 
 This paper develops a graph-theoretic, post-hoc framework for measuring how much influence a labeled subset of nodes — here, coordinated accounts — actually exerts within directed retweet cascades, and compares observed influence against optimal and resource-matched benchmarks. Treating cascades as directed trees with binary node labels, the authors define influence as the number of non-coordinated out-neighbors of coordinated nodes and provide algorithms for both unconstrained and budget-constrained optimal placement. Applied to ~49K retweet cascades from the 2019 UK general election, the framework shows that real coordinated accounts exert only a fraction of the influence achievable under optimal or greedy placement, and that their positions in cascades are statistically indistinguishable from random. The paper concludes that Coordinated Inauthentic Behaviour (CIB) is likely far less pivotal in information diffusion than prevailing narratives suggest.
