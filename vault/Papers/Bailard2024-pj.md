@@ -54,4 +54,4 @@ This work complements other computational and discursive analyses of far-right o
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bailard2024-pj.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bailard2024-pj.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-hidden-speech-that-predicts/id1866587707?i=1000768724100)

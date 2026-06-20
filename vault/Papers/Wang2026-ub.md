@@ -52,4 +52,4 @@ This study sits alongside other Mastodon and Fediverse migration research, most 
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Wang2026-ub.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Wang2026-ub.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-academic-twitters-exodus-why-the/id1866587707?i=1000756565108)

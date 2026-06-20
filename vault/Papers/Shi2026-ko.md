@@ -50,4 +50,4 @@ This study connects most directly to work on the political economy and instituti
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Shi2026-ko.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Shi2026-ko.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-fact-checkers-vs-platforms-a/id1866587707?i=1000754609252)

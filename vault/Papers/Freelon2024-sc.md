@@ -52,4 +52,4 @@ This paper is a foundational reference point for the broader topic cluster on pl
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Freelon2024-sc.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Freelon2024-sc.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-post-api-age-of-social-media/id1866587707?i=1000743818612)

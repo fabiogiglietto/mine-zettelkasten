@@ -55,4 +55,4 @@ This paper sits at the intersection of misinformation-correction work and behavi
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Adam2026-tz.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Adam2026-tz.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-when-debunking-backfires-how-covid/id1866587707?i=1000768904634)

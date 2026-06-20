@@ -53,4 +53,4 @@ No other papers under shared topics were provided, so there are no in-corpus wik
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Grusauskaite2026-po.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Grusauskaite2026-po.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-why-fact-checking-conspiracy-theorists/id1866587707?i=1000771307657)

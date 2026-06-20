@@ -56,4 +56,4 @@ This paper sits alongside other work on platformed far-right influence networks 
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Askanius2026-de.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Askanius2026-de.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-when-neo-nazis-meet-wellness-influencers/id1866587707?i=1000770415150)

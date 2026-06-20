@@ -52,4 +52,4 @@ This paper sits squarely in the conversation on hyper-partisan information ecolo
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Knupfer2025-vt.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Knupfer2025-vt.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-logic-of-connective-faction/id1866587707?i=1000743873334)

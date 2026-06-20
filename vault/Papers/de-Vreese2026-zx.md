@@ -51,4 +51,4 @@ This piece sits at the regulatory-policy pole of the platform governance and API
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/de-Vreese2026-zx.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/de-Vreese2026-zx.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-when-platforms-push-back-why-data/id1866587707?i=1000772352009)

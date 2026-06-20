@@ -50,4 +50,4 @@ This work speaks directly to research on foreign influence operations and their 
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Kim2026-wg.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Kim2026-wg.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-digital-voter-suppression-how-microtargeting/id1866587707?i=1000747664390)

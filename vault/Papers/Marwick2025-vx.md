@@ -51,4 +51,4 @@ No other papers have been provided under shared topics, so there are no register
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Marwick2025-vx.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Marwick2025-vx.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-true-costs-of-misinformation/id1866587707?i=1000743818587)

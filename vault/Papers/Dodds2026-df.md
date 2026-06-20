@@ -52,4 +52,4 @@ This editorial frames the conceptual terrain that empirical studies of AI discou
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dodds2026-df.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dodds2026-df.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-ai-hype-how-journalism-fuels-the-machine/id1866587707?i=1000757935774)

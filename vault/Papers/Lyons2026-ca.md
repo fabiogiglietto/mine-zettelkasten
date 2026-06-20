@@ -54,4 +54,4 @@ This paper directly extends the digital-trace tradition that has documented olde
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lyons2026-ca.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lyons2026-ca.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-aging-online-health-misinformations/id1866587707?i=1000749136914)

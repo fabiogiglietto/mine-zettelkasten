@@ -54,4 +54,4 @@ This paper directly engages the literature on whether feed-ranking algorithms dr
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Brady2026-ln.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Brady2026-ln.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-rewiring-the-feed-can-algorithms/id1866587707?i=1000772017059)

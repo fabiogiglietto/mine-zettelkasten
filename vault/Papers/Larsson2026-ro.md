@@ -51,4 +51,4 @@ This paper sits naturally alongside other work using LLMs as annotation instrume
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Larsson2026-ro.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Larsson2026-ro.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-meet-the-new-boss-same-as-the-old/id1866587707?i=1000744605209)

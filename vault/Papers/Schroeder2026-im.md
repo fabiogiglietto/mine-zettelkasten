@@ -51,4 +51,4 @@ This piece sits upstream of empirical work probing whether LLM-driven agents can
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Schroeder2026-im.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Schroeder2026-im.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-ai-swarms-democracys-new-digital-threat/id1866587707?i=1000749786663)

@@ -48,4 +48,4 @@ This paper sits alongside other work theorizing TikTok-specific cultural and pol
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Cabbuag2024-me.mp3)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Cabbuag2024-me.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-tiktok-dogshows-and-the/id1866587707?i=1000743818637)

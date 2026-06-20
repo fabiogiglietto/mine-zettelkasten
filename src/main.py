@@ -331,7 +331,7 @@ def cmd_bootstrap(cfg: dict, args) -> int:
 
     register = _build_register(cfg, claude)
     papers = feed_client.fetch_feed(cfg["inputs"]["feed_url"])
-    episodes = episodes_client.fetch_episode_audio(cfg["inputs"]["episodes_url"])
+    episodes = episodes_client.fetch_episodes(cfg["inputs"]["episodes_url"])
     if args.limit:
         papers = papers[: args.limit]
     print(f"bootstrap: {len(papers)} papers, {len(register)} anchor topics")
@@ -488,7 +488,7 @@ def cmd_update(cfg: dict, args) -> int:
         return 1
 
     papers = feed_client.fetch_feed(cfg["inputs"]["feed_url"])
-    episodes = episodes_client.fetch_episode_audio(cfg["inputs"]["episodes_url"])
+    episodes = episodes_client.fetch_episodes(cfg["inputs"]["episodes_url"])
     summaries_dir = _abs(cfg["paths"]["summaries_dir"])
     papers_dir = cfg["vault"]["papers_dir"]
     vault = _abs(cfg["vault"]["path"])
@@ -602,7 +602,7 @@ def cmd_update(cfg: dict, args) -> int:
             try:
                 posted = slack_client.post_paper(
                     os.environ["SLACK_WEBHOOK_URL"], paper, summary,
-                    entry["topics"], episodes.get(paper.id),
+                    entry["topics"], (episodes.get(paper.id) or {}).get("audio_url"),
                     _note_url(cfg, paper.bibtex_key),
                 )
             except Exception as exc:  # noqa: BLE001 - Slack must never break the build
@@ -887,10 +887,10 @@ def cmd_slack_test(cfg: dict, args) -> int:
 
     state = state_mod.load_state(_abs(cfg["paths"]["state_file"]))
     topics = state["papers"].get(paper.id, {}).get("topics", [])
-    episodes = episodes_client.fetch_episode_audio(cfg["inputs"]["episodes_url"])
+    episodes = episodes_client.fetch_episodes(cfg["inputs"]["episodes_url"])
 
     ok = slack_client.post_paper(
-        webhook, paper, summary, topics, episodes.get(paper.id),
+        webhook, paper, summary, topics, (episodes.get(paper.id) or {}).get("audio_url"),
         _note_url(cfg, key),
     )
     print(f"slack-test: {'posted' if ok else 'FAILED'} {key} to the webhook")
