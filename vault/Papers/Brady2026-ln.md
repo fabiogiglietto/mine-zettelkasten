@@ -16,6 +16,10 @@ discovery_date: 2026-05-29T05:48:08.354531Z
 
 # Redesigning algorithms to intervene on social norm misperceptions during a national election
 
+> Brady, W. J., Doyle, M., Elnakouri, A., Finkel, E. J., Jackson, J. C., Kteily, N., Parker, V., Puryear, C., Spelman, T., Teeny, J., & Torres, M. (2026). Redesigning algorithms to intervene on social norm misperceptions during a national election. *Nature*, 1–15. https://doi.org/10.1038/s41586-026-10536-1
+>
+> [View paper](https://doi.org/10.1038/s41586-026-10536-1)
+
 ## Summary
 
 This Registered Report presents a large-scale Bluesky field experiment during the 2024 US presidential election in which 2,000 US partisans were randomly assigned for eight weeks to one of three custom feed-ranking algorithms: an engagement-based feed mimicking major platforms, a reverse-chronological control, and a newly designed "diversified extremity" algorithm that down-weights extreme political users. The authors argue that engagement-based ranking amplifies intergroup, moralized and emotional (IME) content, which in turn distorts users' perceptions of social norms around political dialogue and inflates perceived partisan animosity. Reframing the algorithm-and-polarization debate away from echo chambers and toward an algorithm-mediated social-learning account, they show that a prosocial alternative algorithm can meaningfully reduce IME exposure and improve norm accuracy without sacrificing platform enjoyment.

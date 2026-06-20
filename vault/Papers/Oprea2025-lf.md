@@ -16,6 +16,10 @@ discovery_date: 2025-09-15T00:00:00Z
 
 # Behind the screen: The use of Facebook accounts with inauthentic behavior during European elections
 
+> Oprea, B., Pașnicu, P., Niculae, A., Bonciu, C., & Tudorașcu-Dobre, D. (2025). Behind the screen: The use of Facebook accounts with inauthentic behavior during European elections. *Media and Communication*, *13*. https://doi.org/10.17645/mac.10733
+>
+> [View paper](https://doi.org/10.17645/mac.10733)
+
 ## Summary
 
 This paper examines the use of inauthentic Facebook accounts to amplify political messages on the official pages of Romania's four leading parties and alliances (PSD, PNL, AUR, USR) during the 2024 European Parliament election campaign. Working around Meta's restrictive API policies through manual data collection, the authors apply Oprea's Authenticity Matrix to a corpus of 4,476 shares of the most-viral posts from each page. They find that hyperactive users (HAUs)—accounts sharing the same post four or more times—account for a substantial share of distribution (up to 45% on individual posts), and that these accounts display recurring profile patterns. The paper argues that this constitutes a form of public-opinion manipulation that violates Meta's own Community Standards yet goes largely unaddressed during elections, exposing a gap between platform policy and enforcement.

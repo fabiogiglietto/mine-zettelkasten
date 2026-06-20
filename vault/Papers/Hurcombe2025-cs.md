@@ -16,6 +16,10 @@ discovery_date: 2025-02-15T00:00:00Z
 
 # The discursive function of Meta’s Newsroom: How Meta frames the problem of problematic online content
 
+> Hurcombe, E., Dehghan, E., Vodden, L., & Angus, D. (2025). The discursive function of Meta’s Newsroom: How Meta frames the problem of problematic online content. *Convergence: The International Journal of Research into New Media Technologies*, 13548565251315521. https://doi.org/10.1177/13548565251315521
+>
+> [View paper](https://doi.org/10.1177/13548565251315521)
+
 ## Summary
 
 This paper examines how Meta's official Newsroom discursively constructs the problem of "problematic content" (mis/disinformation, hate speech, conspiracism) between 2016 and early 2021. Analyzing 181 Newsroom posts through a combination of Leximancer-based concept mapping and discourse analysis grounded in Laclau and Mouffe's discourse theory and the Discourse-Historical Approach, the authors identify four recurrent frames — *inauthenticity*, *political advertising*, *technological solutions*, and *enforcement* — that together externalize the source of problematic content while positioning Meta as the competent solver. The paper argues that Meta's strategic ambiguity around key terms like "coordinated inauthentic behaviour" functions as floating signifiers that have diffused into regulatory vocabulary in the EU and Australia, potentially nudging policy in directions consistent with Meta's interests.

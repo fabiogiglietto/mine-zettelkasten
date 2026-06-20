@@ -16,6 +16,10 @@ discovery_date: 2026-04-09T17:34:28.924451Z
 
 # Little mentioning, moderate attention, great relevance: The quality of online platform data in the Digital Services Act
 
+> Peters, Y., & Weller, K. (2026). Little mentioning, moderate attention, great relevance: The quality of online platform data in the Digital Services Act. *Platforms & Society*, *3*. https://doi.org/10.1177/29768624261438624
+>
+> [View paper](https://doi.org/10.1177/29768624261438624)
+
 ## Summary
 
 This paper examines how data quality is conceptualized — or notably absent — in the European Union's Digital Services Act (DSA), particularly Article 40 and its Delegated Regulation, which govern researcher access to data from Very Large Online Platforms. Through a mixed-methods analysis of regulatory documents and 242 stakeholder feedback submissions to two European Commission Calls for Evidence, the authors show that data quality is barely mentioned in official EU texts and was instead pushed onto the agenda by academics and NGOs. They argue that data quality should be understood not as a neutral methodological construct but as a politically contested concept negotiated between three stakeholder perspectives: a research standard (academics), an economic good (platforms), and a regulatory concern (EU institutions).

@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # From fake news to real protests: WhatsApp’s role in Brazilian political coordination
 
+> Kansaon, D., Melo, P. D. F., Zannettou, S., & Benevenuto, F. (2025). From fake news to real protests: WhatsApp’s role in Brazilian political coordination. *Proceedings of the International AAAI Conference on Web and Social Media*, *19*, 1007–1020. https://doi.org/10.1609/icwsm.v19i1.35857
+>
+> [View paper](https://doi.org/10.1609/icwsm.v19i1.35857)
+
 ## Summary
 
 This paper offers the first large-scale empirical study of coordinated inauthentic behavior on WhatsApp, analyzing 13.4 million messages from 1,444 public Brazilian political groups around the 2022 presidential election. Adapting Pacheco et al.'s Rapid Retweet Network to WhatsApp's closed-messaging architecture, the authors detect 1,575 accounts that post identical content within tight time windows and amplify misinformation, news links, and stickers. Crucially, they document how this digital coordination scaffolded offline mobilization — including the doxxing of Supreme Court justices and the January 8, 2023 attacks — and they argue that WhatsApp's existing anti-virality tools (forwarding limits, bans) are largely irrelevant because coordinated actors bypass forwarding entirely.

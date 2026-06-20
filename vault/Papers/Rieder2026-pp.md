@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # The Tate-space on YouTube: Ambient ideology and the limits of platform moderation
 
+> Rieder, B., August, B., & Latil, B. (2026). The Tate-space on YouTube: Ambient ideology and the limits of platform moderation. *New Media & Society*. https://doi.org/10.1177/14614448251409209
+>
+> [View paper](https://doi.org/10.1177/14614448251409209)
+
 ## Summary
 
 This paper investigates how Andrew Tate's content has not only survived but expanded on YouTube following the August 2022 removal of his official channels. Combining qualitative analysis of search-result snapshots from 2022 and 2024 with a large-scale dataset of 112,466 videos collected over 2024, Rieder, August, and Latil map what they call the "Tate-space": a decentralized, atmospheric ecosystem of interviews, ripped clips, Shorts remixes, and YouTube-native formats that sustains Tate's visibility without coordinated orchestration. They argue this constitutes an "ambient ideology" in which motivational, wealth, and fitness content circulates alongside misogynistic and conspiratorial material, normalizing a worldview without requiring explicit endorsement. The central claim is that YouTube's moderation apparatus is structurally outpaced by its own recommendation system, making deplatforming symbolically meaningful but logistically and culturally insufficient.

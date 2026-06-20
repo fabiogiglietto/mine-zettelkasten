@@ -16,6 +16,10 @@ discovery_date: 2026-06-16T10:49:57.670972Z
 
 # Who’s driving the AI hype in its formative phase? A longitudinal analysis of stakeholders in the US and German AI discourse on Twitter 2012–2021
 
+> Richter, V., Dergacheva, D., Kuznetsova, V., & Katzenbach, C. (2026). Who’s driving the AI hype in its formative phase? A longitudinal analysis of stakeholders in the US and German AI discourse on Twitter 2012–2021. *AI & SOCIETY*, 1–14. https://doi.org/10.1007/s00146-026-03079-6
+>
+> [View paper](https://doi.org/10.1007/s00146-026-03079-6)
+
 ## Summary
 
 This paper investigates which stakeholders dominated public AI discourse on Twitter in the US and Germany during the formative pre-GenAI decade (2012–2021). The authors develop a two-dimensional typology that crosses stakeholder type (industry, government, advocacy, academia, media, civil society) with organisational level (network, organisation, sub-organisation, individual), and apply it to the top 100 most-retweeted accounts per year in each language. They find that the often-repeated claim of uniform industry dominance is too coarse: Germany underwent *institutionalisation*, with academic, advocacy and governmental organisations rising to prominence, while the US underwent *individualisation*, with tech influencers increasingly displacing corporate accounts even as industry-affiliated voices remained dominant overall. These divergent formative trajectories, the authors argue, prefigure the contrasting GenAI regulatory and discursive landscapes the two countries entered after 2022.

@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Demystifying hashtag hijacking in the public opinion game: attention, narratives, and social bots
 
+> Zhao, B., Ren, W., He, Y., & Zhang, H. (2026). Demystifying hashtag hijacking in the public opinion game: attention, narratives, and social bots. *Information, Communication & Society*, 1–23. https://doi.org/10.1080/1369118x.2025.2531130
+>
+> [View paper](https://doi.org/10.1080/1369118x.2025.2531130)
+
 ## Summary
 
 This paper reframes hashtag hijacking — the appropriation or redirection of a trending hashtag by actors with competing agendas — as a deliberate strategy within online public opinion contests rather than as incidental drift or noise. Drawing on platform politics, computational propaganda, and the sociology of attention, the authors argue that hijacking outcomes are shaped by the interplay of three forces: attention capture, narrative substitution, and automated amplification via social bots. The contribution is an integrative analytic lens that treats these factors as jointly constitutive of contested hashtag discourse.

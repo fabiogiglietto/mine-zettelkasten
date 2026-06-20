@@ -16,6 +16,10 @@ discovery_date: 2025-03-15T00:00:00Z
 
 # Evaluating how LLM annotations represent diverse views on contentious topics
 
+> Brown, M. A., Atreja, S., Hemphill, L., & Wu, P. Y. (2025). Evaluating how LLM annotations represent diverse views on contentious topics. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2503.23243v2)
+
 ## Summary
 
 This paper asks whether generative LLMs systematically privilege majority demographic perspectives when used to annotate subjective text — a growing practice in computational social science. Across four contentious annotation datasets, three LLMs, and three semantically equivalent prompts per dataset (~75K annotations), the authors regress LLM-human agreement on annotator demographics, label entropy, prompt, and model. They find that demographic biases are small, dataset-specific rather than model-specific, and dwarfed by the effect of item difficulty: when humans disagree, LLMs disagree with humans too. The upshot is that fairness audits of LLM annotation cannot rely on swapping models or prompts and must contextualize bias claims within task difficulty.

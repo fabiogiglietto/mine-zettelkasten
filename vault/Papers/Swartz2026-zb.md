@@ -16,6 +16,10 @@ discovery_date: 2026-04-19T12:34:29.201164Z
 
 # Social media in the scam age
 
+> Swartz, L. (2026). Social media in the scam age. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261437922
+>
+> [View paper](https://doi.org/10.1177/20563051261437922)
+
 ## Summary
 
 Lana Swartz argues that social media has entered a "scam age" in which scams are not aberrant criminal activity at the platform's edges but a central organizing logic of its economies, infrastructures, and culture. Drawing on her prior work on cryptocurrency and fintech, and framed autobiographically through scam-saturated Florida (from Ponzi and the 1920s land boom to Miami as "crypto capital"), Swartz contends that the boundaries between legitimate and illegitimate economic activity are dissolving as platform rules, anti-fraud systems, and hustle culture are jointly remade. The essay is agenda-setting: it calls on social media scholars to treat both scams and the discursive category of "scam" as key sites for understanding platform governance, economic citizenship, and the possible futures of online life.

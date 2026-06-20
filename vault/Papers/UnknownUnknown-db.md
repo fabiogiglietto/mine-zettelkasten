@@ -16,6 +16,10 @@ discovery_date: 2026-05-20T18:37:02.902736Z
 
 # What 81,000 people told us about the economics of AI
 
+> What 81,000 people told us about the economics of AI.
+>
+> [View paper](https://scholar.google.com/scholar?q=What%2081%2C000%20people%20told%20us%20about%20the%20economics%20of%20AI)
+
 ## Summary
 
 This Anthropic Economic Index report analyzes open-ended survey responses from roughly 81,000 Claude.ai users to map how workers perceive AI's effects on their jobs and productivity. Using Claude itself as a classifier to extract occupation, career stage, productivity gains, and displacement concerns from free-form text, the authors link these self-reports to a behavioral measure of occupational AI exposure. The central argument is that workers' intuitions about AI threat track actual usage patterns: occupations with higher observed AI penetration show more displacement anxiety, while productivity benefits — dominated by scope expansion rather than mere speed — are distributed unevenly, with a U-shaped wage profile and concentrated gains for entrepreneurs and technical workers.

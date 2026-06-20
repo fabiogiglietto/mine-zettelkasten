@@ -16,6 +16,10 @@ discovery_date: 2026-03-16T19:45:07.150011Z
 
 # AI hype in journalism: Visibility, power, and the politics of media narratives
 
+> Dodds, T., Mine, N., Helberger, N., Guzman, A. L., & Diakopoulos, N. (2026). AI hype in journalism: Visibility, power, and the politics of media narratives. *Digital Journalism*, *14*, 207–219. https://doi.org/10.1080/21670811.2026.2630187
+>
+> [View paper](https://doi.org/10.1080/21670811.2026.2630187)
+
 ## Summary
 
 This editorial introduces a Digital Journalism special issue reframing AI hype as a systemic infrastructure that structures journalism — not just a discursive bubble or passing cultural narrative. Dodds and colleagues define AI hype as a set of exaggerated promises and anticipatory narratives that mobilize resources, redistribute legitimacy, and configure sociotechnical futures before those futures materialize. They argue that journalists occupy a contradictory dual position as both hype makers and hype watchers, and that hype is sustained through routine sourcing choices, professional anxieties, managerial pressures, and geopolitically inflected narratives. Rather than simply debunking hype, the authors call for "breakdown and repair" — making hype's mechanisms visible so alternative futures become imaginable.

@@ -16,6 +16,10 @@ discovery_date: 2024-11-15T00:00:00Z
 
 # Algorithmic media use and algorithm literacy: An integrative literature review
 
+> Gagrčin, E., Naab, T. K., & Grub, M. F. (2026). Algorithmic media use and algorithm literacy: An integrative literature review. *New Media & Society*, 14614448241291137. https://doi.org/10.1177/14614448241291137
+>
+> [View paper](https://doi.org/10.1177/14614448241291137)
+
 ## Summary
 
 This paper offers a systematic integrative review of 169 studies across the social sciences and humanities to map how *algorithm literacy* has been conceptualized and empirically studied. The authors respond to a rapidly expanding but fragmented field, arguing that existing scholarship lacks a unified framework for understanding what algorithm literacy is and what shapes it. By synthesizing definitions and identifying endogenous (individual-level), exogenous (contextual and platform-level), and other associated factors, the review proposes a more cohesive foundation for studying algorithmic media use and its societal implications.

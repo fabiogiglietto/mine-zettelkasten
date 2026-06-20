@@ -16,6 +16,10 @@ discovery_date: 2026-02-10T06:52:51.874075Z
 
 # Exposure to low-credibility online health content is limited and is concentrated among older adults
 
+> Lyons, B., King, A. J., Barter, R. L., & Kaphingst, K. A. (2026). Exposure to low-credibility online health content is limited and is concentrated among older adults. *Nature Aging*, 1–9. https://doi.org/10.1038/s43587-025-01059-x
+>
+> [View paper](https://doi.org/10.1038/s43587-025-01059-x)
+
 ## Summary
 
 This paper combines a US national survey (n=1,059) with roughly four weeks of passive web and YouTube tracking in late 2023 to measure actual exposure to low-credibility online health content. The authors find that such exposure is rare in aggregate — about 3% of web health visits and 10% of YouTube health views — but heavily concentrated, with the top 10% of users accounting for 77% of exposure. Adults aged 60+ are disproportionately exposed, even controlling for overall browsing volume, and exposure correlates with poorer headline discernment, false cancer beliefs, conspiracism, and consumption of dubious political news. Crucially, referrals to low-credibility health sites come overwhelmingly from other low-credibility sites rather than search engines or social media, suggesting habitual cross-domain consumption rather than incidental encounters.

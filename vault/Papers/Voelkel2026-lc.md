@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # A registered report megastudy on the persuasiveness of the most-cited climate messages
 
+> Voelkel, J. G., Ashokkumar, A., Abeles, A. T., Crawford, J., Fuller, K., Redekopp, C., Bongiorno, R., Campbell, T. H., Ecker, U. K. H., Feinberg, M., Hart, P. S., Hornsey, M., Jost, J., Kay, A., Leiserowitz, A., Lewandowsky, S., Maibach, E., Nisbet, E., Pidgeon, N., Spence, A., Linden, S. V. D., Wolsko, C. V., Willenbring, J. K., malhotra, N., & Willer, R. (2026). A registered report megastudy on the persuasiveness of the most-cited climate messages. *Nat. Clim. Chang.*, 1–12. https://doi.org/10.31235/osf.io/xwceg_v1
+>
+> [View paper](https://doi.org/10.31235/osf.io/xwceg_v1)
+
 ## Summary
 
 This registered-report megastudy tests the ten most-cited climate messaging strategies against a common control on a large US national sample (N=13,544), preceded by five pilot replications (N=3,216) of three canonical strategies. Most messages produce small but real shifts on pro-environmental attitudes, concern, policy support, and political behavioural intentions (typically 1–4 percentage points), and these effects are remarkably similar across partisans — undercutting claims that Democrats and Republicans require distinct framings. Critically, no message reliably increased incentivized pro-environmental donations, and the most effective attitude-shifter (Scientific Consensus 2) actually *reduced* donations. The authors argue that short-form messages can move stated attitudes but have clear limits for inducing costly behaviour, and that the field needs commensurate, well-powered comparisons rather than further isolated demonstrations.

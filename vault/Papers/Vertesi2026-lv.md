@@ -16,6 +16,10 @@ discovery_date: 2026-05-27T19:56:52.653890Z
 
 # Reckoning with the political economy of AI: Avoiding decoys in pursuit of accountability
 
+> Vertesi, J., boyd, D., Taylor, A., & Shestakofsky, B. (2026). Reckoning with the political economy of AI: Avoiding decoys in pursuit of accountability. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2604.16106v2)
+
 ## Summary
 
 Vertesi, boyd, Taylor, and Shestakofsky argue that AI is best understood not as a technological artifact but as a "Project of AI"—a world-building, political-economic endeavor through which financiers and corporations assemble networks of capital, infrastructure, and labor to restructure markets in their favor. The paper's central provocation is that many critiques of AI, even well-intentioned ones, function as *decoys*: they appear to challenge AI while actually stabilizing and co-constructing the political economy that produces it. Aimed at the FAccT community, the paper offers a corrective framework that pulls accountability research away from algorithmic artifacts and toward the financial, infrastructural, and network-power relations that make "AI" possible.

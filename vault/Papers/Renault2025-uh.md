@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes
 
+> Renault, T., Mosleh, M., & Rand, D. G. (2025). Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes. *Proc. Natl. Acad. Sci. U. S. A.*, *122*. https://doi.org/10.31234/osf.io/vk5yj_v1
+>
+> [View paper](https://doi.org/10.31234/osf.io/vk5yj_v1)
+
 ## Summary
 
 This brief report tests whether the well-documented partisan asymmetry in online misinformation sharing — Republicans being flagged more often than Democrats — survives when content moderation shifts from professional fact-checkers to a crowdsourced bridging algorithm. Using 218,382 Community Notes from X between January 2023 and June 2024, the authors show that Republican posts are flagged as misleading 2.3 times more often than Democratic posts among notes that achieved "helpful" status (which requires cross-partisan agreement). They argue this directly undercuts the rationale offered by Musk and Zuckerberg for replacing professional fact-checking with community-based systems on the grounds that fact-checkers are biased against conservatives.

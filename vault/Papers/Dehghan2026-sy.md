@@ -16,6 +16,10 @@ discovery_date: 2026-02-12T19:43:06.526356Z
 
 # The entangled dynamics leading to the sedimentation of polarisation on political Reddit
 
+> Dehghan, E., Carlon, D., Kasianenko, K., Nagappa, A., & Suresh, V. P. (2026). The entangled dynamics leading to the sedimentation of polarisation on political Reddit. *Figshare*, 1–24. https://doi.org/10.6084/m9.figshare.31275028
+>
+> [View paper](https://doi.org/10.6084/m9.figshare.31275028)
+
 ## Summary
 
 This paper investigates cross-ideological communication across 11 major political subreddits over 16 years, combining quantitative overlap measures with corpus-assisted discourse analysis and thematic coding of moderation practices. The authors find vanishingly small overlaps in users, sources, cross-posts, and cross-comments — even between discursively similar communities — and reject the common framing of r/politics as a cross-ideological "town square." They advance the concept of *sedimentation of polarisation*: polarization is not the output of toxic discourse or algorithmic sorting alone, but a discursive-digital precondition arising from the entanglement of platform design, moderation, user agency, discourse, and socio-political context.

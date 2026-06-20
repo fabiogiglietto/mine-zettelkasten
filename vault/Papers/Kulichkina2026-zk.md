@@ -16,6 +16,10 @@ discovery_date: 2026-03-14T09:23:35.278524Z
 
 # Connective action and digital repression during China’s COVID-19 protests: a computational analysis of multilingual coordinated activity on Twitter
 
+> Kulichkina, A., Balluff, P., Righetti, N., & Waldherr, A. (2026). Connective action and digital repression during China’s COVID-19 protests: a computational analysis of multilingual coordinated activity on Twitter. *EPJ Data Science*, 1–25. https://doi.org/10.1140/epjds/s13688-026-00637-2
+>
+> [View paper](https://doi.org/10.1140/epjds/s13688-026-00637-2)
+
 ## Summary
 
 This paper examines coordinated activity on Twitter during the November 2022 COVID-19 ("A4" / White Paper) protests in China, treating the platform as a dual-use infrastructure that simultaneously enabled grassroots protest mobilization and state-aligned digital repression. Using a coordination detection algorithm on multilingual tweets, the authors identify a large set of accounts engaged in coordinated communication and analyze the thematic, temporal, and linguistic signatures of competing narratives. The work bridges connective action theory with research on authoritarian digital repression, arguing that social media around contentious events in China are shaped by overlapping, oppositional coordinated campaigns rather than a single dominant logic.

@@ -16,6 +16,10 @@ discovery_date: 2024-09-15T00:00:00Z
 
 # The post-API age of social media data access: Past, present, and future
 
+> Freelon, D., Monzer, C., Jeon, G., Moy, C., & Williams, N. (2024). The post-API age of social media data access: Past, present, and future. *The ANNALS of the American Academy of Political and Social Science*, *715*, 16–37. https://doi.org/10.1177/00027162251372557
+>
+> [View paper](https://doi.org/10.1177/00027162251372557)
+
 ## Summary
 
 This article updates Freelon's 2018 "post-API age" framework by tracing nearly two decades of social media data access across Facebook, Instagram, Twitter/X, YouTube, Reddit, and TikTok. The authors propose a five-period historical schema (API prehistory, laissez-faire, authentication, limited options, academic cooperation) and argue that the present moment is best understood through a typology of four official data access regimes — laissez-faire API, academic API, academic walled garden, and pay-to-play API — supplemented by a fifth category of unofficial methods. Their central claim is that data access is permanently contingent on platform decisions shaped by scandal, regulation, leadership turnover, and commercial pressure, and that researchers therefore require both reformed official channels and legitimized unofficial alternatives.

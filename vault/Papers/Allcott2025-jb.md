@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # The effects of political advertising on Facebook and Instagram before the 2020 US election
 
+> Allcott, H., Gentzkow, M., Levy, R., Crespo-Tenorio, A., Dumas, N., Mason, W., Moehler, D., Barbera, P., Brown, T., Cisneros, J. C., Dimmery, D., Freelon, D., González-Bailón, S., Guess, A., Kim, Y. M., Lazer, D., Malhotra, N. A., Nair-Desai, S., Nyhan, B., Queiroz, A. C. P. D., Pan, J., Settle, J., Thorson, E., Tromble, R., Velasco, C., Wittenbrink, B., Wojcieszak, M., Yang, S., Zahedian, S., Franco, A., Jonge, C. K. D., Stroud, T., & Tucker, J. A. (2025). The effects of political advertising on Facebook and Instagram before the 2020 US election. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5259653
+>
+> [View paper](https://doi.org/10.2139/ssrn.5259653)
+
 ## Summary
 
 This large-scale field experiment, conducted in collaboration with Meta, estimates the causal effect of political advertising on Facebook and Instagram in the six weeks before the 2020 US presidential election. Roughly 63,000 users were randomly assigned to have political ads removed from their feeds. The authors find no detectable effects on political knowledge, polarization, perceptions, or related attitudinal outcomes, though they caution that the study was underpowered to rule out small effects on turnout and vote choice. Descriptively, they document that presidential ads were aimed mostly at co-partisans and that fundraising — not persuasion — was the dominant ad category.

@@ -16,6 +16,10 @@ discovery_date: 2026-04-07T11:43:33.804347Z
 
 # Disinformation as cultural narrative: Conceptualizing disinformation as cross-platform, identity-affirming, cathartic stories
 
+> Marwick, A. E., Schnabel, E., McGregor, S., & Schmitt, C. (2026). Disinformation as cultural narrative: Conceptualizing disinformation as cross-platform, identity-affirming, cathartic stories. *Political Communication*, 1–25. https://doi.org/10.1080/10584609.2026.2644198
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2644198)
+
 ## Summary
 
 Despite a title invoking disinformation, this reflective essay is an autobiographical meditation on what platform-era social media has foreclosed. Marwick draws on two decades of personal fieldnotes — Prodigy, IRC, VAX/VMS bulletin boards, and especially LiveJournal in the early 2000s — to argue that the small, semi-private, subcultural writing communities of the early internet enabled forms of reciprocity, vulnerability, and lifelong attachment that contemporary scale-and-engagement platforms structurally cannot. The current state of social media, she insists, was not inevitable: it is the contingent product of advertising-driven political economy, surveillance, consolidation, and algorithmic optimization, and different design and governance choices could have cultivated more humane publics.

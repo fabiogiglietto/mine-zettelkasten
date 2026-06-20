@@ -16,6 +16,10 @@ discovery_date: 2024-02-15T00:00:00Z
 
 # Large Language Models for data annotation and synthesis: A survey
 
+> Tan, Z., Li, D., Wang, S., Beigi, A., Jiang, B., Bhattacharjee, A., Karami, M., Li, J., Cheng, L., & Liu, H. (2024). Large Language Models for data annotation and synthesis: A survey. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2402.13446v3)
+
 ## Summary
 
 This survey maps the emerging subfield of using Large Language Models (LLMs) like GPT-4 to automate data annotation and synthesis — tasks historically dependent on costly human labor. The authors argue that while prior surveys cover LLM architectures and training pipelines, none focus specifically on LLMs as annotators and data generators. They propose a three-part taxonomy organizing the literature around how LLM annotations are generated, how their quality is assessed, and how they are utilized downstream, while also flagging methodological and ethical concerns distinct to this paradigm.

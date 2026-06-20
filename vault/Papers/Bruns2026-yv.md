@@ -16,6 +16,10 @@ discovery_date: 2026-05-17T17:46:25.410213Z
 
 # The death of Twitter and the decline of Public Debate online
 
+> Bruns, A. (2026). The death of Twitter and the decline of Public Debate online. *M/C Journal*, *29*, Article number: 3247. https://doi.org/10.5204/mcj.3247
+>
+> [View paper](https://doi.org/10.5204/mcj.3247)
+
 ## Summary
 
 Bruns offers a synthesising obituary for Twitter as a venue for public debate, tracing its arc from the 2006 launch through Musk's 2022 acquisition and rebranding as X. The essay argues that Twitter's flat, open, largely public network structure once enabled distinctive prosocial uses — crisis reporting, hashtag-based connective action, and direct elite-public exchange — but that chronic mismanagement, commercial drift, algorithmic restructuring, and weaponised disinformation progressively hollowed these affordances out. Surveying Mastodon, Threads, and Bluesky as would-be successors, Bruns contends that cloning Twitter's form without rethinking moderation and governance squanders the moment, and that robust moderation and genuine user consultation should be treated as core design features rather than afterthoughts.

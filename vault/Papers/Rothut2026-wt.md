@@ -16,6 +16,10 @@ discovery_date: 2026-04-23T12:56:54.801493Z
 
 # Radicalization and the internet: 25 years of (online) radicalization research
 
+> Rothut, S., Schulze, H., Hohner, J., Greipl, S., & Rieger, D. (2026). Radicalization and the internet: 25 years of (online) radicalization research. *The Communication Review*, 1–45. https://doi.org/10.1080/10714421.2026.2658935
+>
+> [View paper](https://doi.org/10.1080/10714421.2026.2658935)
+
 ## Summary
 
 This scoping review synthesizes 25 years (2000–2025) of scholarship on the internet's role in radicalization, analyzing 382 publications to map conceptual frameworks, methods, and substantive findings. The authors define radicalization as an incremental, multi-factor process culminating in adoption of radical/extremist ideologies and/or acceptance of ideologically motivated violence, and they argue that the internet acts as a catalyst rather than a root cause. Their central conceptual move is to dissolve the online/offline binary in favor of hybrid socio-technical environments, and to organize a fragmented literature through a dual lens combining macro/meso/micro levels with Lasswell's communication-process elements (communicator, content, medium, recipient). The review documents an "empirical turn" since 2018, growing phenomenological diversification beyond left-right categories, and persistent gaps in longitudinal and causal evidence.

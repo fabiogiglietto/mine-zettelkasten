@@ -17,6 +17,10 @@ discovery_date:
 
 # Integrating Large Language Models in Political Discourse Studies on Social Media: Challenges of Validating an LLMs-in-the-loop Pipeline
 
+> Marino, G., & Giglietto, F. (2024). Integrating Large Language Models in Political Discourse Studies on Social Media: Challenges of Validating an LLMs-in-the-loop Pipeline. *Sociologica*. https://doi.org/10.6092/issn.1971-8853/19524
+>
+> [View paper](https://doi.org/10.6092/issn.1971-8853/19524)
+
 ## Summary
 
 This methodological essay documents the design and validation of an "LLMs-in-the-loop" pipeline for analyzing political content shared on Facebook during the 2018 and 2022 Italian general elections. The authors integrate OpenAI models at three distinct stages — a fine-tuned binary political classifier, embedding generation for clustering URLs, and GPT-4-turbo-based cluster labeling — and argue that such fully LLM-integrated pipelines demand novel, task-specific validation protocols rather than the monolithic evaluations developed for fine-tuned transformer models. The core contribution is less the pipeline itself than a reflective articulation of three validation challenges: the general-purpose nature of LLMs, the variable granularity of LLM-generated narratives, and the scarcity of human evaluators competent enough to assess LLM outputs.

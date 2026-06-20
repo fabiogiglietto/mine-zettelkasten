@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # The tip of the iceberg: How the social media production-consumption gap distorts public opinion for citizens and researchers
 
+> Oswald, L., Schulz, W., Hertwig, R., Lazer, D., & Stier, S. (2025). The tip of the iceberg: How the social media production-consumption gap distorts public opinion for citizens and researchers. *SocArXiv*. https://doi.org/10.31235/osf.io/frcv5_v2
+>
+> [View paper](https://doi.org/10.31235/osf.io/frcv5_v2)
+
 ## Summary
 
 This paper develops the "tip of the iceberg" metaphor to describe a fundamental distortion in how public opinion appears on social media: a small minority of highly active users generates the overwhelming majority of political content, while most users consume passively and stay silent. The authors argue that this production-consumption gap means visible online discourse systematically misrepresents the views of the broader public — with consequences for both ordinary citizens, who form distorted impressions of what others believe, and researchers, who treat social media traces as proxies for public opinion. The piece synthesizes existing empirical evidence to establish the gap as a robust regularity across platforms, time periods, and cultural contexts.

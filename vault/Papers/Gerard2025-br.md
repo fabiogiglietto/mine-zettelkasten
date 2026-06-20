@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # Bridging the narrative divide: Cross-platform discourse networks in fragmented ecosystems
 
+> Gerard, P., Hanley, H. W. A., Luceri, L., & Ferrara, E. (2025). Bridging the narrative divide: Cross-platform discourse networks in fragmented ecosystems. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2505.21729v1)
+
 ## Summary
 
 This paper proposes **Cluster Affiliation Network Embedding (CANE)** and a temporal variant **t-CANE**, a platform-agnostic method for building user-user networks from shared participation in latent narrative clusters rather than from reposts, follows, or other platform-specific signals. By embedding posts with MPNet, clustering them with DP-Means, and linking users via TF-IDF-weighted affiliation vectors (accelerated with FAISS-HNSW), the authors construct discourse networks that match or exceed interaction- and similarity-based baselines on information operation detection, ideological stance prediction, and a newly introduced cross-platform engagement prediction task — using a fraction of the data. Applied to Truth Social and X during the 2024 U.S. Presidential election, the framework uncovers a small set of "bridge users" (0.33% of users) who introduce roughly 70% of narratives that migrate between the two platforms, reframing cross-platform influence as a structural phenomenon rooted in discursive alignment rather than direct ties.

@@ -16,6 +16,10 @@ discovery_date: 2026-05-09T17:26:23.924172Z
 
 # A systematic review of social science studies analyzing social media data, 2010-2024
 
+> Yang, K., Goel, P., Pruden, M. L., Wu, Q., Eagan, C., Lazer, D., & Freelon, D. (2026). A systematic review of social science studies analyzing social media data, 2010-2024. https://doi.org/10.31235/osf.io/yexp6_v1
+>
+> [View paper](https://doi.org/10.31235/osf.io/yexp6_v1)
+
 ## Summary
 
 This systematic review maps fifteen years (2010–2024) of empirical social media research across 59 journals spanning Communication, Economics, Political Science, Psychology, Sociology, and interdisciplinary outlets. Using a human-in-the-loop LLM annotation pipeline applied to nearly 860,000 publications, the authors estimate that 0.78% of papers in their corpus (3.15% within social science journals proper) rely on social media data, with Twitter/X and Facebook dominating to a degree wildly disproportionate to their public popularity. The paper's central argument is that the field is at an inflection point: empirical social media research roughly tripled from 2010 into the early 2020s but plateaued and declined in 2022–2024 in lockstep with API closures, foreshadowing a structural transformation in how — and whether — social scientists can study platforms.

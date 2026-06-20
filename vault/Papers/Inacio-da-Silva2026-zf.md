@@ -16,6 +16,10 @@ discovery_date: 2026-02-16T20:52:21.543650Z
 
 # Identifying potentially irregular electoral ads in Facebook during the Brazilian elections
 
+> Silva, M. I. D., Oliveira, L. D., Melo, P. O. V. D., Goga, O., & Benevenuto, F. (2026). Identifying potentially irregular electoral ads in Facebook during the Brazilian elections. *ACM Transactions on the Web*. https://doi.org/10.1145/3796545
+>
+> [View paper](https://doi.org/10.1145/3796545)
+
 ## Summary
 
 This paper reports on an independent auditing infrastructure deployed during the 2018 Brazilian general elections to monitor political advertising on Facebook. Motivated by concerns raised after the 2016 U.S. presidential election about opaque targeted political ads, the authors built a browser plugin that scraped ads served to volunteer users' timelines and analyzed the resulting corpus to identify advertising that appeared to violate Brazilian electoral rules. The work argues that volunteer-based, crowdsourced auditing is a feasible response to platforms' insufficient ad transparency, and demonstrates that such a system can surface concrete cases of potentially irregular electoral advertising in a major election outside the U.S.

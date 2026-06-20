@@ -17,6 +17,10 @@ discovery_date:
 
 # Mapping Nefarious Social Media Actors to Speed-up Covid-19 Fact-checking
 
+> Giglietto, F., Farci, M., Marino, G., Mottola, S., Radicioni, T., & Terenzi, M. (2022). Mapping Nefarious Social Media Actors to Speed-up Covid-19 Fact-checking. *Center for Open Science*. https://doi.org/10.31235/osf.io/6umqs
+>
+> [View paper](https://doi.org/10.31235/osf.io/6umqs)
+
 ## Summary
 
 This report describes the MINE-FACTS project, which built and operationally tested a content-agnostic prototype tool to help Italian fact-checkers (notably Facta.news) surface problematic COVID-19 information on Facebook faster than manual triage allows. Building on Coordinated Link Sharing Behavior (CLSB) detection via the CooRnet R package, the authors map Italian "nefarious" coordinated networks at macro, meso, and micro scales, trace the rise of an Italian covid-skeptic coordinated network grafted onto pre-existing political clusters, and document the tactics these networks use to evade platform enforcement. A one-month live test showed the prototype flagged a substantially higher share of problematic content than routine third-party fact-checking workflows.

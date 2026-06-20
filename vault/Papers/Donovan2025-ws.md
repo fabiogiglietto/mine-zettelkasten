@@ -16,6 +16,10 @@ discovery_date: 2025-09-15T00:00:00Z
 
 # EXPRESS: A short history of misinformation-at-scale and efforts to mitigate it
 
+> Donovan, J. (2025). EXPRESS: A short history of misinformation-at-scale and efforts to mitigate it. *Journal of Public Policy & Marketing*. https://doi.org/10.1177/07439156251384249
+>
+> [View paper](https://doi.org/10.1177/07439156251384249)
+
 ## Summary
 
 Joan Donovan offers a historically grounded account of how "misinformation-at-scale" was socially constructed as a public problem between 2016 and 2021, and how the major social media platforms responded — first with neglect, then with an expanding repertoire of moderation tools, and finally with a politically driven retreat. Her central argument is that misinformation-at-scale is not an aberration but a structural feature of engagement-based platform business models: falsehoods become consequential only when amplified by densely networked actors (politicians, journalists, celebrities), and platforms' advertising logics reward exactly that amplification. Rather than tackle veracity directly, platforms developed behavioral workarounds (most notably "coordinated inauthentic behavior") that preserved revenue while gesturing at governance. Donovan argues that the resulting privatization of speech governance leaves citizens without what she calls TALK — timely, accurate, local knowledge — and that addressing this gap requires a whole-of-society response.

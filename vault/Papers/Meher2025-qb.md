@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # ConflLlama: Domain-specific adaptation of large language models for conflict event classification
 
+> Meher, S., & Brandt, P. T. (2025). ConflLlama: Domain-specific adaptation of large language models for conflict event classification. *Research & Politics*, *12*. https://doi.org/10.1177/20531680251356282
+>
+> [View paper](https://doi.org/10.1177/20531680251356282)
+
 ## Summary
 
 ConflLlama is a methodological proof-of-concept showing that parameter-efficient fine-tuning of open-source LLMs can deliver state-of-the-art classification of conflict events while running on consumer-grade hardware. The authors fine-tune Llama 3.1 (8B) with QLoRA on the Global Terrorism Database to classify attack types as a multi-label problem, achieving macro AUC 0.791 and weighted F1 0.753 — a 37.6% improvement over the zero-shot base model and dramatic gains for rare attack categories. The paper argues that fine-tuned generative LLMs should now displace both BERT-style encoders (e.g., ConfliBERT) and manual/rule-based coding pipelines as the default approach for conflict event coding, and provides a replicable roadmap for political scientists to adapt LLMs to their own domains.

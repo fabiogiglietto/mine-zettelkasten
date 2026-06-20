@@ -16,6 +16,10 @@ discovery_date: 2024-09-15T00:00:00Z
 
 # The sound of disinformation: TikTok, computational propaganda, and the invasion of Ukraine
 
+> Bösch, M., & Divon, T. (2024). The sound of disinformation: TikTok, computational propaganda, and the invasion of Ukraine. *New Media & Society*, *26*, 5081–5106. https://doi.org/10.1177/14614448241251804
+>
+> [View paper](https://doi.org/10.1177/14614448241251804)
+
 ## Summary
 
 This paper argues that TikTok has become a significant vector for mis- and disinformation about Russia's 2022 invasion of Ukraine, and that the platform's distinctive sonic affordances — reusable audio, sounds, and music — constitute an under-theorized layer of computational propaganda. Drawing on content from the first three months following the February 2022 invasion, Bösch and Divon show that the scale of war-related circulation on TikTok is enormous and that sound, alongside image and text, operates as a discrete mechanism through which misleading war narratives are conveyed and amplified.

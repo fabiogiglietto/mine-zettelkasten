@@ -16,6 +16,10 @@ discovery_date: 2025-03-15T00:00:00Z
 
 # Advancing the study of political misinformation across countries and platforms—introduction to the special issue
 
+> Humprecht, E., Valenzuela, S., Esser, F., & Tandoc, E. (2026). Advancing the study of political misinformation across countries and platforms—introduction to the special issue. *The International Journal of Press/Politics*, 19401612251327530. https://doi.org/10.1177/19401612251327530
+>
+> [View paper](https://doi.org/10.1177/19401612251327530)
+
 ## Summary
 
 This editorial introduces a special issue dedicated to broadening political misinformation research beyond its WEIRD (Western, Educated, Industrialized, Rich, Democratic) bias. Humprecht and colleagues argue that political misinformation is a global democratic problem whose dynamics vary substantially across political systems, cultures, and platform ecologies, and that the field's empirical base is too narrow to support generalizations. They frame the collected articles as a coordinated push toward comparative, cross-platform, and interdisciplinary inquiry, positioning the issue as both a corrective to existing literature and an agenda-setting intervention for future scholarship.

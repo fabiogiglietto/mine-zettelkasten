@@ -16,6 +16,10 @@ discovery_date: 2026-06-19T16:26:31.254422Z
 
 # Italians’ attitudes towards AI: how technology issues travel across social conversation
 
+> Fattorini, E., Rubin, A., Saracino, B., & Bucchi, M. (2026). Italians’ attitudes towards AI: how technology issues travel across social conversation. *Information, Communication & Society*, 1–23. https://doi.org/10.1080/1369118x.2026.2689030
+>
+> [View paper](https://doi.org/10.1080/1369118x.2026.2689030)
+
 ## Summary
 
 This paper analyzes Italian public attitudes toward artificial intelligence using two nationally representative surveys (2023, 2024) from the Observa Science in Society Monitor, conducted during the early diffusion phase of generative AI. The authors argue that Italians exhibit "critical ambivalence" rather than technophobia: they recognize AI's utility while expressing significant concerns about its risks, with acceptance varying sharply by application domain. Drawing on Bucchi and Trench's "social conversation around science" framework, the paper shows that AI as a public issue simultaneously occupies multiple communication configurations—dissemination, dialogue, and participation—for different social groups stratified by age, gender, education, and direct experience.

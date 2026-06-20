@@ -16,6 +16,10 @@ discovery_date: 2026-01-01T13:07:00.531309Z
 
 # Volume 7 issue 2 article 4
 
+> Volume 7 issue 2 article 4.
+>
+> [View paper](https://scholar.google.com/scholar?q=Volume%207%20issue%202%20article%204)
+
 ## Summary
 
 No substantive content for this specific article (Volume 7, Issue 2, Article 4) was available in the source material. The only information provided concerns the publication venue itself: the *Journal of Communication Technology* (JoCTEC), the official journal of the Communication Technology division of the Association for Education in Journalism and Mass Communication (AEJMC). A note indicates that the current site supersedes an older URL (joctec.org).

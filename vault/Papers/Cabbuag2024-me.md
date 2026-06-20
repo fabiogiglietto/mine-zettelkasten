@@ -16,6 +16,10 @@ discovery_date: 2024-12-15T00:00:00Z
 
 # TikTok ‘dogshows’ and the amplification of online incivility among Gen Z influencers in the Philippines
 
+> Cabbuag, S. I., & Abidin, C. (2025). TikTok ‘dogshows’ and the amplification of online incivility among Gen Z influencers in the Philippines. *AoIR Selected Papers of Internet Research*, 13678779241302826. https://doi.org/10.5210/spir.v2024i0.13913
+>
+> [View paper](https://doi.org/10.5210/spir.v2024i0.13913)
+
 ## Summary
 
 This paper analyzes "dogshows" — a culturally specific Filipino TikTok phenomenon in which Gen Z influencers and their audiences collaboratively perform humor that hovers at the edge of cyberbullying and hate speech. Cabbuag and Abidin argue that dogshows exemplify how online incivility gets normalized, accepted, and negotiated within influencer cultures, and how TikTok's affordances amplify legal-but-harmful humor. The contribution is both empirical (documenting a localized practice in the Philippines) and conceptual (extending work on legal-but-harmful humor into a non-Western Gen Z influencer context).

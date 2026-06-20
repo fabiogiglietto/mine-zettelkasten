@@ -16,6 +16,10 @@ discovery_date: 2026-03-06T07:10:12.318661Z
 
 # It’s Bad: What Now?
 
+> Baym, N. K. (2026). It’s Bad: What Now?. *Social Media + Society*. https://doi.org/10.1177/20563051261432484
+>
+> [View paper](https://doi.org/10.1177/20563051261432484)
+
 ## Summary
 
 In this tenth-anniversary reflection for *Social Media + Society*, Nancy Baym revisits her 2015 manifesto "Social Media and the Struggle for Society" to ask whether the four threats she named then — wealth inequality, opaque algorithmic feeds, precarious creative labor, and unchecked data extraction — have improved. Her answer is bluntly negative: every one has worsened, with tech "broligarchs" converting platform fortunes into political power, generative AI scraping user content for new harms, and outrage-amplifying feeds eroding trust and authenticity. The essay's pivot is reflexive and self-critical: a decade of sharp scholarly critique has not bent the trajectory of platforms, and Baym calls on researchers to move beyond critique-as-virtue toward interdisciplinary, cross-sector collaboration capable of actually shaping more just sociotechnical futures.

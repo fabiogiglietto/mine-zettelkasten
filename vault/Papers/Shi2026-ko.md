@@ -16,6 +16,10 @@ discovery_date: 2026-02-18T05:19:50.109078Z
 
 # The Governance-Embedded Interactive Media Effect: the role of AI-generated disclosure in user credibility and engagement based on fact-checking videos on Chinese TikTok (Douyin)
 
+> Shi, Y. (2026). The Governance-Embedded Interactive Media Effect: the role of AI-generated disclosure in user credibility and engagement based on fact-checking videos on Chinese TikTok (Douyin). *Chinese Journal of Communication*, 1–16. https://doi.org/10.1080/17544750.2026.2623075
+>
+> [View paper](https://doi.org/10.1080/17544750.2026.2623075)
+
 ## Summary
 
 Note: the structured summary provided describes a different paper than the title suggests — it concerns European fact-checkers' rhetorical defenses of platform funding rather than AI-disclosure effects on Douyin. Based on the substantive content provided: this paper investigates how European professional fact-checkers rhetorically justify accepting funding and partnership from major platform companies (Meta, Alphabet, ByteDance) while claiming editorial independence. Drawing on 12 semi-structured interviews with fact-checkers from 12 European countries, the authors apply Ware and Linkugel's apologia theory in combination with journalistic boundary-work theory to identify four modes of *differentiation* and three modes of *transcendence* that constitute a predominantly defensive rhetorical repertoire. The paper reframes these defences as boundary work that constructs epistemic authority in a platform-dependent media ecosystem.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Best practices for source-based research on misinformation and news trustworthiness using NewsGuard
 
+> Lühring, J., Metzler, H., Lazzaroni, R., Shetty, A., & Lasser, J. (2025). Best practices for source-based research on misinformation and news trustworthiness using NewsGuard. *Journal of Quantitative Description: Digital Media*, *5*. https://doi.org/10.51685/jqd.2025.003
+>
+> [View paper](https://doi.org/10.51685/jqd.2025.003)
+
 ## Summary
 
 This paper conducts a longitudinal empirical audit of NewsGuard, a widely used commercial source-level news trustworthiness rating system, examining how its ratings, coverage, and contextual labels have evolved from 2019 to 2024 across nine countries. The authors argue that while NewsGuard has become a reasonably stable instrument for source-based misinformation research since 2022—particularly for the US, France, Italy, Germany, and Canada—common methodological choices substantially shape downstream findings. Most notably, the conventional binary trustworthy/untrustworthy split at score 60 can distort results because a handful of high-volume sources (e.g., Breitbart, Bild) sit near the threshold and shift classification entirely when re-rated. The paper concludes with concrete best-practice recommendations, urging continuous scores, snapshot transparency, country-level stability checks, and greater use of NewsGuard's underutilized topic and political-orientation labels.

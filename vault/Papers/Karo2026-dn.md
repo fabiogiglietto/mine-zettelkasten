@@ -16,6 +16,10 @@ discovery_date: 2026-03-30T06:12:41.124861Z
 
 # The TikTok caliphate: How jihadist supporters exploit algorithmic recommendations and evade content moderation
 
+> Karo, G., Divon, T., & Hallinan, B. (2026). The TikTok caliphate: How jihadist supporters exploit algorithmic recommendations and evade content moderation. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051251412167
+>
+> [View paper](https://doi.org/10.1177/20563051251412167)
+
 ## Summary
 
 This article examines how supporters of ISIS, al-Qaeda, and affiliated jihadist organizations circulate propaganda on TikTok despite the platform's stated zero-tolerance policy on violent extremism. Drawing on a modified grounded theory analysis of over 300 pro-jihadist videos collected through an algorithmically primed research account, the authors inductively derive a typology of five evasion strategies that embed extremist messaging within TikTok's participatory vernacular culture. They theorize this as "everyday extremism" — a collapse of spectacle into ritual and mundane platform aesthetics — and argue that effective response requires infrastructural critique of recommendation systems rather than reactive content removal alone.

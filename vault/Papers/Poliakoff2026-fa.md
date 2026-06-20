@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # Prigozhin’s propaganda team: The st Petersburg internet research agency (2013–2021)
 
+> Poliakoff, S., & Toepfl, F. (2026). Prigozhin’s propaganda team: The st Petersburg internet research agency (2013–2021). *Europe-Asia Studies*, 1–22. https://doi.org/10.1080/09668136.2025.2588334
+>
+> [View paper](https://doi.org/10.1080/09668136.2025.2588334)
+
 ## Summary
 
 This paper offers the first systematic organizational study of the St Petersburg Internet Research Agency (IRA), Yevgeny Prigozhin's notorious "troll factory," covering its full lifespan from 2013 to its dissolution in 2023. Rather than analyzing IRA content output — the dominant approach in the field — Poliakoff and Toepfl use an open-source intelligence (OSINT) methodology built on 350 self-published CVs of former employees scraped from Russian job platforms HeadHunter and SuperJob. They argue that the IRA is best understood not as a state-funded intelligence appendage but as a Kremlin-aligned, privately operated "outsourced troll" enterprise structurally indistinguishable from a mid-sized PR or media company, deeply integrated into Russia's legitimate media labor market.

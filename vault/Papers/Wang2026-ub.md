@@ -16,6 +16,10 @@ discovery_date: 2026-03-22T08:20:48.605756Z
 
 # The failed migration of academic Twitter: A case study of precocious adopters
 
+> Wang, X., Koneru, S., & Rajtmajer, S. (2024). The failed migration of academic Twitter: A case study of precocious adopters. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2406.04005v3)
+
 ## Summary
 
 This paper examines whether academic Twitter could successfully transplant itself to Mastodon after Musk's 2022 acquisition, tracking 7,542 self-identified scholarly early adopters over one year. Despite being a coordinated, highly motivated cohort with well-connected internal networks, most academics reduced activity or drifted back to Twitter, with active users falling from ~7,500 to ~2,400. The authors argue that decentralized affordances, fragmented attention across emerging alternatives (Bluesky, Threads), and the difficulty of porting accumulated social capital combined to produce an incomplete migration — though field-specific server communities like infosec.exchange retained users at substantially higher rates than general-purpose instances.

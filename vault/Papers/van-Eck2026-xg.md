@@ -16,6 +16,10 @@ discovery_date: 2026-04-15T06:15:06.075218Z
 
 # What to do about polarization? Evaluating the evidence base of recommendations for depolarization
 
+> Eck, C. W. V., Meyer, H. M. A., & Brüggemann, M. (2026). What to do about polarization? Evaluating the evidence base of recommendations for depolarization. *Annals of the International Communication Association*. https://doi.org/10.1093/anncom/wlag012
+>
+> [View paper](https://doi.org/10.1093/anncom/wlag012)
+
 ## Summary
 
 This systematic literature review interrogates how social science scholarship moves from empirical findings about polarization to prescriptive recommendations for depolarization. Analyzing 89 peer-reviewed articles (2013–2023) under PRISMA guidelines, the authors find a striking disconnect: while the field has accumulated substantial evidence about polarization's drivers, the recommendations scholars offer for depolarizing societies are rarely grounded in their own empirical results. Instead, these recommendations lean on implicit normative ideals — most prominently deliberative democracy. The paper calls for greater transparency about both the evidence base and the value commitments shaping scholarly prescriptions.

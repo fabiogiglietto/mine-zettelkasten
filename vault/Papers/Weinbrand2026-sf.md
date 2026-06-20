@@ -16,6 +16,10 @@ discovery_date: 2026-05-19T06:30:31.213811Z
 
 # Framing the future of search: A discourse analysis of Google’s AI Overviews
 
+> Weinbrand, S., Nagappa, A., & Angus, D. (2026). Framing the future of search: A discourse analysis of Google’s AI Overviews. *Discourse & Communication*. https://doi.org/10.1177/17504813261447684
+>
+> [View paper](https://doi.org/10.1177/17504813261447684)
+
 ## Summary
 
 This paper analyses how Google's AI Overviews (AIOs) — generative AI summaries inserted atop search results since May 2024 — are discursively constructed by three industry actors: Google itself, technology journalists, and SEO marketers. Combining Leximancer concept mapping with Fairclough-style critical discourse analysis on a corpus of 613 English-language texts spanning the first year of AIO rollout, the authors argue that AIOs are not a neutral technical upgrade but a contested redefinition of search, trust, and platform authority. They read AIOs as a hybrid platform-infrastructure project that deepens the "Googlization of knowledge," shifting Google from indexical gatekeeper to generative epistemic authority while strategically displacing accountability and silencing user, ethical, and environmental concerns.

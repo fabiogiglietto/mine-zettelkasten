@@ -16,6 +16,10 @@ discovery_date: 2015-06-15T00:00:00Z
 
 # Political science. Exposure to ideologically diverse news and opinion on Facebook
 
+> Bakshy, E., Messing, S., & Adamic, L. A. (2015). Political science. Exposure to ideologically diverse news and opinion on Facebook. *Science*, *348*, 1130–1132. https://doi.org/10.1126/science.aaa1160
+>
+> [View paper](https://doi.org/10.1126/science.aaa1160)
+
 ## Summary
 
 This paper offers the first large-scale, platform-internal measurement of how ideologically diverse news travels through Facebook to American users with declared political affiliations. Drawing on 10.1 million users over six months, Bakshy, Messing, and Adamic decompose the path from a friend's share to a personal click into distinct stages — friend network composition, News Feed algorithmic ranking, and individual click choice — and quantify how each filters out cross-cutting political content. Their central argument is that while Facebook is ideologically sorted, the strongest filter is users' own networks and click behavior, not the ranking algorithm. The paper thus complicates strong "filter bubble" narratives while documenting meaningful, asymmetric ideological homophily in online news consumption.

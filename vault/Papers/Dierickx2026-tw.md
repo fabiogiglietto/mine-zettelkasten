@@ -16,6 +16,10 @@ discovery_date: 2026-02-18T06:35:38.111534Z
 
 # What is a fact in the age of generative AI? Fact-checking as an epistemological lens
 
+> Dierickx, L., Opdahl, A. L., Bjerknes, F., & Lindén, C. (2026). What is a fact in the age of generative AI? Fact-checking as an epistemological lens. *Information, Communication & Society*, 1–18. https://doi.org/10.1080/1369118x.2026.2630697
+>
+> [View paper](https://doi.org/10.1080/1369118x.2026.2630697)
+
 ## Summary
 
 This conceptual paper uses fact-checking as an epistemological lens to interrogate what counts as a "fact" when generative AI produces fluent, plausible, but unverified content. Dierickx and colleagues argue that the three fact categories implicit in fact-checking practice — evidence-based (positivist), interpretative (constructivist), and rule-based (institutional) — each fail to capture the epistemic status of LLM outputs, which are probabilistic recombinations without ontological referents, traceable provenance, or genuine adherence to verification norms. They propose a fourth category, *emergent facts*, drawn from emergence theory and complex-systems thinking, and offer four indicators — accuracy, verifiability, contextual relevance, and consistency — for evaluating such outputs relationally rather than through binary true/false judgments.

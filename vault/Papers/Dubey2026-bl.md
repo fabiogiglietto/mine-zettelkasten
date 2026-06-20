@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs
 
+> Dubey, S., Ketelaar, P. E., Dingler, T., Peetz, H. K., & Schie, H. T. V. (2026). Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs. *Computers in Human Behavior*, 108920. https://doi.org/10.1016/j.chb.2026.108920
+>
+> [View paper](https://doi.org/10.1016/j.chb.2026.108920)
+
 ## Summary
 
 This paper introduces and evaluates "Infobot," a balanced news chatbot designed to expose users to an equal mix of mainstream and alternative/conspiratorial perspectives on climate change, with the goal of piercing information bubbles. Across two preregistered survey experiments, the authors adapt the Technology Acceptance Model (TAM) to chatbots and test whether users with high versus low conspiracy beliefs differ in their acceptance of such a tool. Contrary to the expectation — drawn from literatures on motivated reasoning and reactance — that conspiracy believers would reject a chatbot offering counter-attitudinal content, high-conspiracy users trusted, liked, and intended to use Infobot *more* than low-conspiracy users, suggesting mainstream-leaning users may themselves be a meaningful barrier to balanced information exposure.

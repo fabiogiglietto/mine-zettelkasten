@@ -16,6 +16,10 @@ discovery_date: 2025-11-15T00:00:00Z
 
 # Platform-independent experiments on social media
 
+> Allen, J., & Tucker, J. A. (2025). Platform-independent experiments on social media. *Science*, *390*, 883–884. https://doi.org/10.1126/science.aec7388
+>
+> [View paper](https://doi.org/10.1126/science.aec7388)
+
 ## Summary
 
 This Perspective commentary in *Science* by Allen and Tucker reflects on Piccardi et al.'s browser-extension experiment, in which an LLM classified and reranked posts expressing antidemocratic attitudes and partisan animosity (AAPA) in 1,256 American X users' real feeds over 10 days. Allen and Tucker argue that this "platform-independent" experimental design occupies a productive middle ground between tightly-controlled lab studies and rare, hard-to-replicate platform collaborations like the 2020 Facebook and Instagram Election Study (FIES). As API access narrows and corporate partnerships remain one-off, they contend that such tools are essential for sustaining causal research on algorithmic effects across platforms and over time.

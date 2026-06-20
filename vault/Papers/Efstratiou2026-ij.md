@@ -16,6 +16,10 @@ discovery_date: 2026-03-22T16:51:47.195162Z
 
 # Information pathways in online science communication: The role of platform actors and news media
 
+> Efstratiou, A., Russo, G., & Luceri, L. (2026). Information pathways in online science communication: The role of platform actors and news media. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2603.17249v1)
+
 ## Summary
 
 This paper offers a multi-actor account of how COVID-19 scientific papers circulate across Twitter and news media, jointly analyzing organic users, bots, superspreaders, coordinated accounts, and news outlets rather than studying them in isolation. Drawing on 1.24M tweets and 211k news articles referencing pandemic-era preprints, the authors show that a predominantly contrarian coordinated retweet network amplifies a narrow set of credentialed anti-consensus experts, while mainstream superspreaders are largely pro-consensus physicians and scientists. Crucially, news coverage of scientific papers tends to *follow* superspreader activity on Twitter — with high-trust outlets aligning with conformist superspreaders and low-trust outlets with contrarian ones — suggesting a platform-to-news information pathway in science communication.

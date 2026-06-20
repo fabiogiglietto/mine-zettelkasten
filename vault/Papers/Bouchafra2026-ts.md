@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # ‘My Europe Builds Walls’: A cross-platform visual analysis of the Sweden Democrats’ 2024 EU election campaign
 
+> Bouchafra, S., & Åkerlund, M. (2026). ‘My Europe Builds Walls’: A cross-platform visual analysis of the Sweden Democrats’ 2024 EU election campaign. *New Media & Society*. https://doi.org/10.1177/14614448251408336
+>
+> [View paper](https://doi.org/10.1177/14614448251408336)
+
 ## Summary
 
 This article analyses how the Sweden Democrats (SD), a Swedish authoritarian populist party, constructed visual securitising discourse across Facebook, X, and TikTok during their 2024 EU election campaign, built around the slogan "My Europe Builds Walls: Against Immigration, Against Criminal Gangs, Against Islamists." Through a cross-platform multimodal critical discourse analysis of 293 posts, Bouchafra and Åkerlund argue that SD strategically tailored content to each platform's functionality and audience: argumentative, text-heavy persuasion on Facebook and X, but affectively charged, remixable memes on TikTok aimed at young voters. The paper shows that visual securitisation is platform-dependent and increasingly co-produced with supporters via shareable templates, while foreign footage is repurposed to manufacture a sense of domestic crisis.

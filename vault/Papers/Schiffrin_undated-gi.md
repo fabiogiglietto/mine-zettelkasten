@@ -16,6 +16,10 @@ discovery_date: 2026-03-13T08:42:50.241940Z
 
 # Deepfake financial fraud: The global regulation of ai-driven scams
 
+> Schiffrin, A., Marwick, A. E., Sinha, N., Wangnoo, A., Williams, K., Huseynova, E., & Hatfield, A. (2026). Deepfake financial fraud: The global regulation of ai-driven scams. https://doi.org/10.69985/enbp3007
+>
+> [View paper](https://doi.org/10.69985/enbp3007)
+
 ## Summary
 
 This policy brief surveys the rapid global rise of deepfake-enabled financial fraud and the fragmented regulatory responses it has provoked. The authors argue that generative AI has qualitatively transformed scams — making convincing impersonation cheap, scalable, and multimodal — while the underlying "scam ecosystem" of social platforms, messaging apps, telecoms, banks, crypto exchanges, and money laundering networks remains under-regulated. Reviewing interventions across the UK, EU, Singapore, China, the US, and roughly a dozen other jurisdictions, the brief contends that gatekeeper liability, not victim vigilance or labeling mandates, is the policy lever most likely to change behavior. It frames deepfake fraud as a systemic intermediary problem rather than an individual cybersecurity failure.

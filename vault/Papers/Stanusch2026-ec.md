@@ -16,6 +16,10 @@ discovery_date: 2026-02-18T17:45:32.060369Z
 
 # How AI is imagined by industry during the Sam Altman controversy
 
+> Stanusch, N., & Rogers, R. (2026). How AI is imagined by industry during the Sam Altman controversy. *New Media Soc.*. https://doi.org/10.31124/advance.174979411.18178682/v1
+>
+> [View paper](https://doi.org/10.31124/advance.174979411.18178682/v1)
+
 ## Summary
 
 This paper treats the November 2023 firing and rehiring of OpenAI CEO Sam Altman as a controversy that surfaces how the AI industry imagines, narrates, and contains AI as a public issue. Through cross-platform digital methods on LinkedIn and X/Twitter, Stanusch and Rogers map three dominant industry-aligned imaginaries — Longtermism, Regulatory Ambivalence, and Techno-Hagiography — and argue that the industry deploys two complementary tactics, *premediation* (externalizing concerns into a speculative future) and *preclusion* (internalizing critique by positioning itself as the only competent problem-solver). The result is a near-monopolization of AI's future framing, partially contested by counter-imaginaries on X/Twitter that re-center governance, intersectional harms, and the black-boxed sublime.

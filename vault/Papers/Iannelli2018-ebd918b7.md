@@ -17,6 +17,10 @@ discovery_date:
 
 # Facebook Digital Traces for Survey Research: Assessing the Efficiency and Effectiveness of a Facebook Ad–Based Procedure for Recruiting Online Survey Respondents in Niche and Difficult-to-Reach Populations
 
+> Iannelli, L., Giglietto, F., Rossi, L., & Zurovac, E. (2018). Facebook Digital Traces for Survey Research: Assessing the Efficiency and Effectiveness of a Facebook Ad–Based Procedure for Recruiting Online Survey Respondents in Niche and Difficult-to-Reach Populations. *Social Science Computer Review*. https://doi.org/10.1177/0894439318816638
+>
+> [View paper](https://doi.org/10.1177/0894439318816638)
+
 ## Summary
 
 This paper proposes and tests a Facebook ad-based recruitment procedure for online surveys targeting niche, hard-to-reach populations, using Italian supporters of vaccine and chemtrails conspiracy theories as a case study. The authors leverage post-2017 Facebook marketing infrastructure — Pixel conversion tracking, URL parameter passing, and custom audience exclusion — to gain tighter control over sample boundaries and to compute a more precise response-rate metric than the click-through rates used in earlier work. They argue the approach is highly efficient (cheap, fast, replicable), but find its effectiveness at recruiting ideologically distinctive respondents inconclusive: Facebook interest-targeted respondents did not endorse conspiracy claims significantly more than a general-population CAWI benchmark.

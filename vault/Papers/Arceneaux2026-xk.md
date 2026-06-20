@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # Social bots as agenda-builders: Evaluating the impact of algorithmic amplification on organizational messaging
 
+> Arceneaux, P., Anderson, J., Lukito, J., Shah, M., & Kiousis, S. (2026). Social bots as agenda-builders: Evaluating the impact of algorithmic amplification on organizational messaging. *Journal of Public Relations Research*, 1–34. https://doi.org/10.1080/1062726x.2025.2606676
+>
+> [View paper](https://doi.org/10.1080/1062726x.2025.2606676)
+
 ## Summary
 
 This paper asks whether social bots, through algorithmic amplification, can serve as *agenda-builders* that compete with organizations, press, and the public in shaping political discourse. Using the 2022 Ohio midterm elections as a case, the authors analyze over 935,000 tweets across campaigns, newspapers, the public, and bot-classified accounts to test first- (object), second- (attribute), and third-level (network) agenda-building transfers. They find that bots most powerfully shape *attribute salience*—particularly negative sentiment—in campaign messaging, while having little measurable effect on the press. The core theoretical move is to argue that classical agenda-building theory, premised on human actors, must be revised to incorporate machine actors as a fourth category of political communicator in human-computer information ecosystems.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Curation bubbles
 
+> GREEN, J., MCCABE, S., SHUGARS, S., CHWE, H., HORGAN, L., CAO, S., & LAZER, D. (2025). Curation bubbles. *American Political Science Review*, 1–19. https://doi.org/10.1017/s0003055424000984
+>
+> [View paper](https://doi.org/10.1017/s0003055424000984)
+
 ## Summary
 
 Green and colleagues argue that social media information consumption is structured by *networked curation*: users follow others who selectively unbundle stories from their parent outlets and re-bundle them according to identity and partisan appeal. They introduce the concept of **partisan curation bubbles** — audiences that consume partisan-consistent stories drawn from diverse sources — and show that conventional domain-level measures of audience partisanship systematically mischaracterize moderate outlets by averaging away substantial story-level heterogeneity. The implication is both methodological (URL-level measurement is necessary) and theoretical (polarized consumption can reflect ordinary democratic identity performance rather than algorithmic pathology).

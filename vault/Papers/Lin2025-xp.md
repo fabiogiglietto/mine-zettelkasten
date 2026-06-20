@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Persuading voters using human–artificial intelligence dialogues
 
+> Lin, H., Czarnek, G., Lewis, B., White, J. P., Berinsky, A. J., Costello, T., Pennycook, G., & Rand, D. G. (2025). Persuading voters using human–artificial intelligence dialogues. *Nature*, 1–8. https://doi.org/10.1038/s41586-025-09771-9
+>
+> [View paper](https://doi.org/10.1038/s41586-025-09771-9)
+
 ## Summary
 
 This paper presents four preregistered randomized experiments testing whether brief (3–5 round) dialogues with large language models can shift voter attitudes in high-stakes electoral contexts: the 2024 US presidential election, the 2024 Massachusetts psychedelics ballot measure, the 2025 Canadian federal election, and the 2025 Polish presidential election. Across all four settings, human–AI conversations produced meaningful shifts in candidate preference and voting intentions that substantially exceeded effect sizes typically reported for political advertising, with roughly a third of the effect persisting more than a month later. Mechanistically, the authors find that persuasion operates primarily through the "central route" — relevant facts and evidence — rather than personalization or sophisticated psychological manipulation. They also document a systematic asymmetry: LLMs advocating for right-leaning candidates produced more inaccurate claims than those advocating for left-leaning candidates, though inaccuracy did not predict greater persuasiveness.

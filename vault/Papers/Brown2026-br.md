@@ -16,6 +16,10 @@ discovery_date: 2026-06-13T22:33:59.084618Z
 
 # Evaluating echo chambers, rabbit holes, and radicalization pathways on YouTube
 
+> Brown, M. A., Bisbee, J., Lai, A., Bonneau, R., Nagler, J., & Tucker, J. A. (2026). Evaluating echo chambers, rabbit holes, and radicalization pathways on YouTube. *Political Communication*, 1–27. https://doi.org/10.1080/10584609.2026.2671765
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2671765)
+
 ## Summary
 
 This paper asks whether YouTube's recommendation algorithm — independent of user choice — drives users into ideological echo chambers, content rabbit holes, or partisan radicalization pathways. The authors formally distinguish these three phenomena (as static distributions, serially-correlated dynamic sequences, and their interaction) and design an audit study that recruits real, logged-in users but randomizes both seed videos and traversal rules to separate supply-side from demand-side effects. They find only weak echo-chamber effects that largely vanish once user choice is removed, strong evidence of content (but not ideological) rabbit holes, and no evidence of radicalization pathways. Notably, the algorithm exhibits a uniform drift toward moderately conservative content for all users, regardless of partisanship or starting point.

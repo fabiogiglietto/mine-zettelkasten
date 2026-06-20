@@ -16,6 +16,10 @@ discovery_date: 2026-02-08T20:48:49.624050Z
 
 # On the Internet no-one knows you’re not a bot: ‘Botting’ on Reddit as participatory culture
 
+> Graham, T., & Carlon, D. (2026). On the Internet no-one knows you’re not a bot: ‘Botting’ on Reddit as participatory culture. *New Media & Society*. https://doi.org/10.1177/14614448251409210
+>
+> [View paper](https://doi.org/10.1177/14614448251409210)
+
 ## Summary
 
 Graham and Carlon use the curious case of Reddit's "Anus_Fungi" accounts — which spammed mushroom emojis across the platform in 2020–2021 — to challenge the binary between human and bot-generated content. Through a mixed-methods study of 9,728 Reddit comments and a thematic analysis of the counter-subreddit r/stopanusfungi, they show that this apparent "bot invasion" was largely a human-driven imitative phenomenon embedded in Reddit's participatory culture. The paper reframes "botting" as a spectrum of repetitive posting practices — manual, semi-automated, and automated — and argues that authenticity online is a culturally negotiated performance rather than a technical property of authorship.

@@ -16,6 +16,10 @@ discovery_date: 2026-06-01T08:21:13.645475Z
 
 # Price, proficiency, or permission: assessing platform data access for election research
 
+> Lukito, J., & Mimizuka, K. (2026). Price, proficiency, or permission: assessing platform data access for election research. *Information, Communication & Society*, 1–24. https://doi.org/10.1080/1369118x.2026.2667921
+>
+> [View paper](https://doi.org/10.1080/1369118x.2026.2667921)
+
 ## Summary
 
 This article maps the landscape of social media data access tools available to election researchers, cataloguing 72 programs and analyzing them along two axes: independent versus collaborative collection, and content (production) versus consumption data. Lukito and Mimizuka argue that access is gated by a triad of barriers — **price, proficiency, and permission** — that systematically disadvantage less-resourced and non-Western scholars. They document the chronic instability of platform-permission regimes (epitomized by Meta's serial cycling through Social Science One, CrowdTangle, FORT, and the Meta Content Library), the near-absence of consumption-data infrastructure, and the WEIRD-centric geography of available tools. Rather than endorsing any single solution, they advocate a plurality of access approaches sustained through multi-institutional archives and regulatory mandates modeled on the EU's Digital Services Act.

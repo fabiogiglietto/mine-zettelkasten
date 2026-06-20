@@ -16,6 +16,10 @@ discovery_date: 2026-03-05T20:57:12.346424Z
 
 # Perceived political bias in LLMs reduces persuasive abilities
 
+> DiGiuseppe, M., & Robison, J. (2026). Perceived political bias in LLMs reduces persuasive abilities. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2602.18092v1)
+
 ## Summary
 
 This preregistered U.S. survey experiment (N=2144) tests whether perceived political bias of a conversational LLM diminishes its ability to correct economic misconceptions. Participants holding one of six economic misconceptions engaged in a three-round dialogue with GPT-4.1 after being told either nothing, that the model was generically biased, or that the model was biased against their party (light or heavy framing). Brief out-party bias warnings cut belief correction by roughly 23–28% relative to control, with transcript analysis showing users argued back more rather than disengaging. The authors argue that perceived neutrality is a previously underappreciated boundary condition on LLM persuasion, and that elite politicization of AI could blunt its epistemic value.

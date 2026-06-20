@@ -16,6 +16,10 @@ discovery_date: 2026-03-27T17:13:56.619953Z
 
 # cib.pdf
 
+> cib.pdf.
+>
+> [View paper](https://scholar.google.com/scholar?q=cib.pdf)
+
 ## Summary
 
 No content was supplied for this paper beyond the filename `cib.pdf`. Without an abstract, author list, publication metadata, or body text, it is not possible to produce a faithful digest of its argument, scope, or contribution.

@@ -16,6 +16,10 @@ discovery_date: 2026-05-15T05:52:01.125378Z
 
 # Six insights from climate psychology for the study of misinformation
 
+> Spampatti, T., Većkalov, B., Geiger, S. J., Linden, S. V. D., Lewandowsky, S., & Hornsey, M. (2026). Six insights from climate psychology for the study of misinformation. https://doi.org/10.31234/osf.io/swdrq_v1
+>
+> [View paper](https://doi.org/10.31234/osf.io/swdrq_v1)
+
 ## Summary
 
 This Comment argues that misinformation research, as a relatively young field, can accelerate its maturity by borrowing hard-won lessons from climate psychology. The two domains are framed as interconnected global crises — both involving collective-action dilemmas, both targeted by organised opposition from vested interests, and both requiring researchers to navigate politicised terrain. Drawing on this parallel, Spampatti and colleagues distill six insights spanning intervention design, behavioural measurement, contextual generalisability, systems thinking, company collaborations, and collective organisation among researchers, each accompanied by actionable recommendations.

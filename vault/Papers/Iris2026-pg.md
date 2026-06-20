@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # Cross-national evidence of disproportionate media visibility for the Radical Right in the 2024 European elections
 
+> Damião, Í., Franco, J., Silva, M., Almeida, P., Magalhães, P. C., & Gonçalves-Sá, J. (2026). Cross-national evidence of disproportionate media visibility for the Radical Right in the 2024 European elections. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2601.05826v1)
+
 ## Summary
 
 This paper examines whether the Radical Right received media visibility commensurate with its electoral strength during the two months preceding the 2024 European Parliament elections. Analyzing ~21,500 online news articles from leading outlets across Austria, Germany, Ireland, Poland, and Portugal, the authors use an LLM-based pipeline to extract mentions of political parties and politicians in article titles and URLs, then compare visibility shares against three benchmarks: 2019 EP results, 2024 polling projections, and the actual 2024 outcomes. They find a systematic and structural overrepresentation of the Radical Right that intensifies in the final campaign weeks, persists across outlets of differing popularity and editorial orientation, and contradicts populist claims of being marginalized by mainstream media.

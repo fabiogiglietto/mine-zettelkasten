@@ -16,6 +16,10 @@ discovery_date: 2024-12-15T00:00:00Z
 
 # IOHunter: Graph foundation model to uncover online information operations
 
+> Minici, M., Luceri, L., Fabbri, F., & Ferrara, E. (2024). IOHunter: Graph foundation model to uncover online information operations. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2412.14663v2)
+
 ## Summary
 
 IOHunter proposes a graph foundation model for detecting drivers of coordinated information operations (IOs) on social media. The authors argue that existing IO-detection pipelines are brittle: they are typically trained per-campaign, depend on scarce labels, and fail to transfer across operations originating from different state actors or platforms. By fusing a language model encoder with graph neural networks over user-interaction graphs, IOHunter learns representations that jointly capture content and relational structure, enabling detection that generalizes across heterogeneous campaigns. Evaluated on six state-sponsored campaigns on X, the model outperforms baselines and remains effective in out-of-distribution and few-shot regimes, positioning foundation-model approaches as a promising direction for IO defense.

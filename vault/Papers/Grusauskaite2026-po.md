@@ -16,6 +16,10 @@ discovery_date: 2026-05-21T10:28:03.404625Z
 
 # “We, the conspiracy theorists.” How people do symbolic boundary work in the “Great Reset” debates across social media platforms
 
+> Grusauskaite, K., Bondt, M. D., Wildt, L. D., & Aupers, S. (2026). “We, the conspiracy theorists.” How people do symbolic boundary work in the “Great Reset” debates across social media platforms. *New Media & Society*. https://doi.org/10.1177/14614448261446590
+>
+> [View paper](https://doi.org/10.1177/14614448261446590)
+
 ## Summary
 
 This article reframes online conspiracy culture as a project of collective identity-making rather than as a problem of misinformation, platforms, or ideology. Through multimodal discourse analysis of 524 posts and nearly 68,000 comments about the "Great Reset" (GR) across Facebook, Instagram, Twitter/X, YouTube, Reddit, and TikTok, the authors show how participants construct a shared "we" through symbolic boundary work: reclaiming the stigmatized label "conspiracy theorist," styling themselves as autonomous "critical thinkers," and recasting personal hardship as evidence of a shared struggle against a "mainstream other." The central argument is that conspiracy cultures are sustained by relational and affective work — solidarity, resentment, and moral duty — more than by platform affordances or ideological coherence.

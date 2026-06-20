@@ -16,6 +16,10 @@ discovery_date: 2026-02-03T13:55:44.669422Z
 
 # Same platform, different stories: TikTok and the battle over immigration narratives
 
+> Hollingshead, W., Gruzd, A., & Mai, P. (2026). Same platform, different stories: TikTok and the battle over immigration narratives. *Media and Communication*, *14*. https://doi.org/10.17645/mac.11409
+>
+> [View paper](https://doi.org/10.17645/mac.11409)
+
 ## Summary
 
 This paper investigates how immigration is framed on Canadian TikTok and how the platform's distinctive memetic and interactive affordances shape that discourse. Through a mixed-methods content analysis of 344 high-engagement English-language videos collected in July 2025, the authors find that pro-immigration content outnumbers anti-immigration content roughly three to one — a striking inversion of patterns documented on X/Twitter. They argue that TikTok's affordances operate as a "double-edged resource": users across ideological positions deploy the same vernacular features (humor, community Toks, trending audio) in largely symmetrical ways, meaning the platform can simultaneously enable digital inclusion and amplify xenophobia. The dominant axis of contestation in Canada is economic rather than identity-based, reflecting post-pandemic affordability anxieties.

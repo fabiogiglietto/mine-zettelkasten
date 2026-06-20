@@ -16,6 +16,10 @@ discovery_date: 2024-02-15T00:00:00Z
 
 # Estimating the ideology of political YouTube videos
 
+> Lai, A., Brown, M., Bisbee, J., Bonneau, R., Tucker, J. A., & Nagler, J. (2024). Estimating the ideology of political YouTube videos. *SSRN Electronic Journal*, *32*, 1–16. https://doi.org/10.2139/ssrn.4088828
+>
+> [View paper](https://doi.org/10.2139/ssrn.4088828)
+
 ## Summary
 
 This paper extends the tradition of latent ideology estimation — long applied to legislators, social media users, elites, and media outlets — to a new object of measurement: individual political YouTube videos. The authors propose recovering a video's ideological position from the pattern of which subreddits share it, on the premise that politically heterogeneous Reddit communities reveal left–right structure through their differential linking behavior. Applying correspondence analysis to a subreddit-by-video sharing matrix, they produce video-level ideology scores that align with expectations from prior slant-measurement work.

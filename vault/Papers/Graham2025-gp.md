@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # How propaganda exploits the infrastructure of truth: A case study of \#IStandWithPutin
 
+> Graham, T. (2025). How propaganda exploits the infrastructure of truth: A case study of \#IStandWithPutin. *Critical Studies in Media Communication*, *42*, 75–82. https://doi.org/10.1080/15295036.2025.2473002
+>
+> [View paper](https://doi.org/10.1080/15295036.2025.2473002)
+
 ## Summary
 
 This paper presents a case study of the #IStandWithPutin hashtag campaign to advance a conceptual argument about contemporary propaganda. Graham contends that pro-Kremlin influence operations do not simply circumvent or oppose truth-verification systems on social media — they actively *parasitize* them. The very platform affordances designed to enable credible, authentic discourse (hashtags, algorithmic amplification, verification signals) become the infrastructure through which propaganda gains reach and the appearance of legitimacy. The paper thus reframes propaganda analysis as an infrastructural problem rather than a content problem.

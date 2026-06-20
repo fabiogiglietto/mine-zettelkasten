@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Positioning political texts with large language models by asking and averaging
 
+> Mens, G. L., & Gallego, A. (2025). Positioning political texts with large language models by asking and averaging. *Political Analysis*, 1–9. https://doi.org/10.1017/pan.2024.29
+>
+> [View paper](https://doi.org/10.1017/pan.2024.29)
+
 ## Summary
 
 This paper proposes a strikingly simple method for scaling political texts along policy and ideological dimensions: prompt an instruction-tuned LLM (GPT-4, Llama 3, MiXtral, or Aya) to place a short text — a tweet or sentence — on a specified dimension, then average the model's responses across many such texts to estimate the position of a political actor or longer document. Validated against established benchmarks across US Senators' tweets, UK party manifestos, and multilingual EU policy speeches, the "ask and average" approach yields position estimates that correlate strongly with conventional measures, suggesting that off-the-shelf LLMs can serve as competent measurement instruments without bespoke training.

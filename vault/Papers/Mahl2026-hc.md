@@ -16,6 +16,10 @@ discovery_date: 2026-05-15T05:52:01.125327Z
 
 # Conspiracy theories and misinformation in digital media: An international expert assessment of challenges, trends, and interventions
 
+> Mahl, D., Kessler, S. H., Schäfer, M. S., Jobin, A., Zeng, J., & Georgi, F. (2026). Conspiracy theories and misinformation in digital media: An international expert assessment of challenges, trends, and interventions. *Communications*, *51*, 233–258. https://doi.org/10.1515/commun-2024-0123
+>
+> [View paper](https://doi.org/10.1515/commun-2024-0123)
+
 ## Summary
 
 This paper presents a three-wave Delphi study (May–September 2022) involving 47 international scholars and practitioners across 13 countries, designed as an anticipatory, multi-level impact assessment of conspiracy theories and misinformation in digital media. The authors argue that the existing literature is fragmented, individualistic, and presentist, and use the Delphi format to produce an integrative ten-area taxonomy connecting current challenges, expected five-to-ten-year trends, and prioritized interventions. The core claim is that there is "no silver bullet": mitigating information disorder requires coordinated action across platforms, journalism, science, politics, and civil society, with structural interventions (platform governance, news ecosystems) rated more important than individual-level fixes like literacy or fact-checking.

@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # RIP Twitter API: A eulogy to its vast research contributions
 
+> Murtfeldt, R., Paik, S., Alterman, N., Kahveci, I., & West, J. D. (2024). RIP Twitter API: A eulogy to its vast research contributions. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2404.07340v2)
+
 ## Summary
 
 This paper offers a scientometric "eulogy" for Twitter's research APIs, quantifying the scholarly footprint they enabled before X effectively closed access in 2023 by pricing the Enterprise API at $42,000/month. Through a systematic search of eight databases spanning 2006–2024, the authors identify 33,306 studies in 8,914 venues accumulating over 610,000 citations across 16 disciplines. They document a "Golden Age" of roughly 25% annual growth in Twitter-based scholarship through 2022, followed by stagnation in 2023 and a 13% decline in 2024 — empirical evidence that platform data restrictions are reshaping what social science can know about online discourse. The piece doubles as a policy argument for legislative interventions (DSA, PATA) to guarantee researcher access.

@@ -16,6 +16,10 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # The Generative AI Paradox: GenAI and the erosion of trust, the corrosion of information verification, and the demise of truth
 
+> Ferrara, E. (2026). The Generative AI Paradox: GenAI and the erosion of trust, the corrosion of information verification, and the demise of truth. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2601.00306v1)
+
 ## Summary
 
 Ferrara argues that the dominant framing of generative AI risk — isolated deepfakes and discrete synthetic artifacts — badly understates what is actually at stake. The deeper threat is the emergence of *synthetic realities*: coherent, interactive, personalized information environments in which content, identity, and social interaction are jointly fabricated at low cost and high throughput. The paper formalizes this as a four-layer stack (content, identity, interaction, institutions), expands existing GenAI harm taxonomies to foreground epistemic and institutional integrity, catalogs 2023–2025 incidents that exemplify the pattern, and proposes a layered mitigation strategy plus a research agenda for "epistemic security." It culminates in the *Generative AI Paradox*: as synthetic media saturates the information environment, rational actors may discount all digital evidence, raising the social cost of truth itself and empowering strategic denial.

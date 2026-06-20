@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # Deep storytelling: Collective sensemaking and layers of meaning in U.s. elections
 
+> Prochaska, S., Vera, J., Tan, D. L., Yamron, B., Venuto, S., Kejriwal, A., Chu, S., & Starbird, K. (2025). Deep storytelling: Collective sensemaking and layers of meaning in U.s. elections. *Proceedings of the ACM on Human-Computer Interaction*, *9*, 1–43. https://doi.org/10.1145/3757576
+>
+> [View paper](https://doi.org/10.1145/3757576)
+
 ## Summary
 
 This paper argues that false and misleading election narratives on Twitter during the 2020 and 2022 U.S. elections were sustained less by discrete factual claims than by collaboratively performed "deep stories" — evolving narratives whose meaning depends as much on *how* they are told as on *what* is said. Drawing on Election Integrity Partnership data, the authors qualitatively coded thousands of tweets across ten major incidents using paired tweet-level and incident-level codebooks. They show a stylistic shift between cycles: 2020 discourse explicitly constructed mechanics of alleged fraud, while 2022 discourse increasingly relied on allusion and cueing, trusting audiences to supply meaning from the matured 2020 deep story. The paper offers theoretical, empirical, and methodological contributions to studying participatory disinformation whose force lives in narrative context invisible to single-post analysis.

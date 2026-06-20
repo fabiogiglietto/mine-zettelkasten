@@ -16,6 +16,10 @@ discovery_date: 2025-03-15T00:00:00Z
 
 # Platforms, politics, and the crisis of democracy: Connective action and the rise of illiberalism
 
+> Bennett, W. L., & Livingston, S. (2025). Platforms, politics, and the crisis of democracy: Connective action and the rise of illiberalism. *Perspectives on Politics*, 1–20. https://doi.org/10.1017/s1537592724002123
+>
+> [View paper](https://doi.org/10.1017/s1537592724002123)
+
 ## Summary
 
 Bennett and Livingston argue that scholarship on democratic backsliding has been split between a "technocentric" paradigm fixated on individual-level cognitive effects of disinformation and an "institutionalist" paradigm focused on parties and elites — and that neither alone can explain the rise of illiberalism. Through a reflective synthesis anchored in the MAGA transformation of the Republican Party, they propose a "communication-as-organization" framework in which digitally networked publics constitute a new class of *digital surrogate organizations* that compete with, and ultimately overwhelm, traditional party gatekeepers. Memes, influencers, partisan media, operatives, and tax-exempt nonprofits weave once-scattered extremist factions into electorally consequential networks, pulling conservative parties toward authoritarianism in the US and across Europe.

@@ -16,6 +16,10 @@ discovery_date: 2026-05-31T18:59:35.238810Z
 
 # Understanding disinformation as narratives in the hybrid media ecosystem: Evidence from the US
 
+> Martínez, J. S., & Miro, C. J. (2026). Understanding disinformation as narratives in the hybrid media ecosystem: Evidence from the US. *Journalism*, *27*, 445–465. https://doi.org/10.1177/14648849241303249
+>
+> [View paper](https://doi.org/10.1177/14648849241303249)
+
 ## Summary
 
 This study reconceptualizes disinformation in the United States not as a collection of discrete false claims but as recurring narratives that circulate across the hybrid media ecosystem. Drawing on a representative survey conducted in four U.S. states in mid-2023, the authors examine how cumulative, cross-outlet exposure to such narratives shapes public belief. They argue that both the frequency of exposure and the substantive content of the narrative jointly determine persuasive impact, situating the analysis within hybrid media systems theory and shifting the unit of analysis from individual falsehoods to the storylines that knit them together.

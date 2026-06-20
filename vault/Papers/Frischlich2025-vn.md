@@ -16,6 +16,10 @@ discovery_date: 2025-10-15T00:00:00Z
 
 # The complexity of misinformation extends beyond virus and warfare analogies
 
+> Frischlich, L., Olsson, H., Roy, A., Schulze, H., Rhodes, S., & Mansheim, A. (2025). The complexity of misinformation extends beyond virus and warfare analogies. *npj Complexity*, *2*, 1–8. https://doi.org/10.1038/s44260-025-00053-z
+>
+> [View paper](https://doi.org/10.1038/s44260-025-00053-z)
+
 ## Summary
 
 This perspective paper argues that the three dominant analogies shaping misinformation discourse—the virus/infodemic, information warfare, and information pollution—each illuminate only fragments of a phenomenon that is actually a complex adaptive system. Frischlich and colleagues propose a four-level framework (micro cognition, meso-I social groups, meso-II platform affordances, macro institutional/political systems) and systematically map each analogy onto it to expose what they call its "conceptual mileage" and "conceptual baggage." They conclude that no single metaphor can carry the explanatory weight currently placed on it, and that effective response requires portfolio-style, complexity-aware interventions modeled on climate policy rather than single-target fixes.

@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # How public involvement can improve the science of AI
 
+> Matias, J. N., & Price, M. (2025). How public involvement can improve the science of AI. *Proceedings of the National Academy of Sciences*, *122*, e2421111122. https://doi.org/10.1073/pnas.2421111122
+>
+> [View paper](https://doi.org/10.1073/pnas.2421111122)
+
 ## Summary
 
 This perspective argues that public involvement — especially engagement with lived-experience experts — is not merely a political or ethical add-on to AI evaluation but a means of strengthening its scientific rigor. Treating AI systems as sociotechnical artifacts whose reliability depends on social and organizational layers, Matias and Price contend that purely technical evaluations routinely miss flaws that participatory methods can surface. They propose a five-stage framework (equipoise, measurement, explanation, inference, interpretation) describing where public participation materially improves the quality of quantitative AI science, and rebut standard objections about generality, subjectivity, reliability, and cost by drawing on established traditions in participatory science.

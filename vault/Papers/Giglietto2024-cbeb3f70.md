@@ -17,6 +17,10 @@ discovery_date:
 
 # Evaluating Embedding Models for Clustering Italian Political News: A Comparative Study of Text-Embedding-3-Large and UmBERTo
 
+> Giglietto, F. (2024). Evaluating Embedding Models for Clustering Italian Political News: A Comparative Study of Text-Embedding-3-Large and UmBERTo. *Center for Open Science*. https://doi.org/10.31219/osf.io/2j9ed
+>
+> [View paper](https://doi.org/10.31219/osf.io/2j9ed)
+
 ## Summary
 
 This paper benchmarks OpenAI's `text-embedding-3-large` against the Italian-specific BERT model UmBERTo for unsupervised clustering of Italian political news URLs shared on Facebook before the 2018 and 2022 national elections. Using K-means and HDBSCAN (with and without UMAP), the author evaluates 1,650 clustering configurations via an adapted Grimmer & King (2011) cluster-quality metric, where thematic coherence between document pairs is rated by a fine-tuned GPT-4o-mini classifier substituting for human coders. The LLM-based embedding model consistently produces more semantically coherent clusters than UmBERTo across both election periods and both clustering algorithms, extending earlier English-language findings to Italian political text.

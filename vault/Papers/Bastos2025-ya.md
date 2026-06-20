@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # So long twitter, and thanks for all the tweets
 
+> Bastos, M. T. (2025). So long twitter, and thanks for all the tweets. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5206365
+>
+> [View paper](https://doi.org/10.2139/ssrn.5206365)
+
 ## Summary
 
 Bastos presents a decade-long (2011–2020) audit of how Facebook's News Feed ranking updates shaped engagement with content from *The Guardian*. By pairing a hand-compiled timeline of 52 documented algorithmic interventions with ~1 million Guardian articles and matched CrowdTangle engagement data, the paper applies cross-correlation, Granger causality, and anomaly detection to test for lagged effects. Hard news engagement is shown to respond to algorithm changes after roughly 19–24 days, while opinion, sport, lifestyle, and arts content does not — evidence that Facebook treats "news" as a distinct, gatekept category. The piece reframes recommender systems away from the "black box" metaphor toward deliberate, auditable sociotechnical interventions, and ties this empirical agenda to Article 40(4) of the EU Digital Services Act.

@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # True costs of misinformation| mountains of evidence: Processual “redpilling” as a Socio-technical effect of disinformation
 
+> E, M. A., & Katherine, F. (2025). True costs of misinformation| mountains of evidence: Processual “redpilling” as a Socio-technical effect of disinformation. *Int. J. Commun.*, *19*, 26.
+>
+> [View paper](https://scholar.google.com/scholar?q=True%20costs%20of%20misinformation%7C%20mountains%20of%20evidence%3A%20Processual%20%E2%80%9Credpilling%E2%80%9D%20as%20a%20Socio-technical%20effect%20of%20disinformation)
+
 ## Summary
 
 Despite the title referencing "redpilling" and disinformation, the structured summary describes a paper that bridges HCI dark patterns scholarship with EU platform regulation. The authors systematically map 59 dark patterns from Gray et al.'s unified ontology onto the three user-autonomy violations prohibited under Article 25 of the EU Digital Services Act—deception, manipulation, and distortion/impairment. Through iterative qualitative coding, they derive eight design factors (organized into an "Information Space" and a "Choice Space") that explain *why* a given pattern constitutes a particular violation. The result is a "law-to-design" framework intended to support both regulator enforcement and compliance-by-design, demonstrated on attention-capture damaging patterns and an ongoing EU Commission case against X's paid blue checkmarks.

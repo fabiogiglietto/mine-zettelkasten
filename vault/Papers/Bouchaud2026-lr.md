@@ -16,6 +16,10 @@ discovery_date: 2026-03-18T06:36:45.219988Z
 
 # Recommender system in X inadvertently profiles ideological positions of users
 
+> Bouchaud, P., & Ramaciotti, P. (2026). Recommender system in X inadvertently profiles ideological positions of users. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2602.02624v1)
+
 ## Summary
 
 This paper provides the first empirical demonstration that X's (Twitter's) "Who to Follow" recommender system inadvertently learns and encodes users' political orientations, even though it is not designed to do so. Combining a French data donation program (2.5M recommendations from 682 volunteers, Jan 2023–May 2024) with X's publicly documented architecture, the authors reconstruct an approximation of its 256-dimensional user embedding and show that a single linear direction in this space correlates at ρ=0.887 with users' Left-Right ideology, independently of demographics. They argue this implicit profiling blurs the legal distinction between "active" and "passive" profiling under regimes like the GDPR and DSA, and propose an iterative orthogonal projection method that strips ideological information from recommendations while preserving topical relevance.

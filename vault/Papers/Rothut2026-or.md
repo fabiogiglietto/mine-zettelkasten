@@ -16,6 +16,10 @@ discovery_date: 2026-05-05T18:11:20.141604Z
 
 # Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests
 
+> Rothut, S., Schulze, H., Rieger, D., Lechner, M., & Naderer, B. (2026). Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests. *Information, Communication & Society*, 1–27. https://doi.org/10.1080/1369118x.2026.2654668
+>
+> [View paper](https://doi.org/10.1080/1369118x.2026.2654668)
+
 ## Summary
 
 This paper introduces **protest-facilitated mainstreaming (PFM)** as a meso-level framework for understanding how protest movements can render radical and extremist ideas more accessible to broader publics via social media. Using Germany's anti-COVID-19 measures movement *Querdenken* as a case, the authors triangulate longitudinal content analysis, URL analysis, and network analysis of Telegram data (April 2020–April 2022). They argue that mainstreaming operates through two distinct but complementary sets of mechanisms — *content mechanisms* (which make radical frames repeatable and legitimate) and *connective mechanisms* (which route attention toward radical actors and alternative information ecosystems). Querdenken, initially heterogeneous and grassroots, became progressively entangled with far-right and conspiracist networks, with anti-elite framing — rather than explicit ideological commitment — serving as the primary bridge to extremist milieus.

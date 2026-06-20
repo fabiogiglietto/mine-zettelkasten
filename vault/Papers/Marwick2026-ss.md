@@ -16,6 +16,10 @@ discovery_date: 2026-04-17T16:41:08.022790Z
 
 # Broken connections: Fieldnotes from the old internet
 
+> Marwick, A. E. (2026). Broken connections: Fieldnotes from the old internet. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261434796
+>
+> [View paper](https://doi.org/10.1177/20563051261434796)
+
 ## Summary
 
 In this anniversary-issue essay, Alice Marwick uses autobiographical reflection — particularly her years on LiveJournal in the early 2000s — to mourn what has been lost in the move from the "old internet" to today's platform ecosystem. She argues that the intimacy, reciprocity, and community formation that characterized early online spaces were not quaint accidents of small user bases alone, but products of design and governance choices that contemporary mega-platforms have deliberately foreclosed. The piece reframes social media as *social infrastructure* requiring stewardship and care, insisting that the current alienating, extractive, surveillance-driven web is a contingent political-economic outcome rather than a technological inevitability.

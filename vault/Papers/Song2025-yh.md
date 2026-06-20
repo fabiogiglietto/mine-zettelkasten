@@ -16,6 +16,10 @@ discovery_date: 2025-11-15T00:00:00Z
 
 # The spread of pro- and anti-vaccine views by coordinated communities on facebook during COVID-19 pandemic
 
+> Song, Y., Zhang, Y., Zou, S., Yang, X., & Huang, Q. (2025). The spread of pro- and anti-vaccine views by coordinated communities on facebook during COVID-19 pandemic. *Journal of Computational Social Science*, *8*. https://doi.org/10.1007/s42001-025-00401-y
+>
+> [View paper](https://doi.org/10.1007/s42001-025-00401-y)
+
 ## Summary
 
 This paper offers a cross-national comparison of coordinated link sharing behavior (CLSB) around COVID-19 vaccine discourse on Facebook in the UK and US between January 2020 and October 2022. Drawing on 3.47 million public posts, the authors combine transfer-learning stance classification, CooRnet-based network analysis, manual fact-checking, and structural topic modeling to characterize who coordinates, what they share, and which narratives they amplify. The central argument is that CLSB is not inherently malicious: anti-vaccine coordinators disseminate disproportionately problematic or unverifiable content, while pro-vaccine coordinators amplify institutional sources like the NHS, CDC, and NIH. National political cultures shape the discourse — UK anti-vaccine messaging foregrounds safety and scientific skepticism, while US anti-vaccine messaging centers individual freedom and government distrust.

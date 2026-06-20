@@ -17,6 +17,10 @@ discovery_date:
 
 # ‘Fake news’ is the invention of a liar: How false information circulates within the hybrid news system
 
+> Giglietto, F., Iannelli, L., Valeriani, A., & Rossi, L. (2019). ‘Fake news’ is the invention of a liar: How false information circulates within the hybrid news system. *Current Sociology*. https://doi.org/10.1177/0011392119837536
+>
+> [View paper](https://doi.org/10.1177/0011392119837536)
+
 ## Summary
 
 This conceptual paper argues that the dominant focus on creators' intent in defining "fake news" is inadequate for understanding how false information actually circulates in hybrid news systems. Drawing on second-order cybernetics, Bateson's information theory, and Chadwick's hybrid media system framework, the authors propose shifting analytical attention from injectors to propagators — the chains of actors whose truthfulness judgments and sharing decisions shape what becomes a global cascade. They develop a three-level (micro/meso/macro) model and a 2x2 typology of propagation acts, illustrating it with three cases where the original intent behind a piece of false content did not determine its downstream cycle. The paper also offers a pointed critique of the term "fake news" itself as rhetorically loaded.

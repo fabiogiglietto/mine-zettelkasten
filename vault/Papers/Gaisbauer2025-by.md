@@ -16,6 +16,10 @@ discovery_date: 2025-05-15T00:00:00Z
 
 # A political cartography of news sharing: Capturing story, outlet and content level of news circulation on Twitter
 
+> Gaisbauer, F., Pournaki, A., & Ohme, J. (2025). A political cartography of news sharing: Capturing story, outlet and content level of news circulation on Twitter. *arXiv [cs.SI]*.
+>
+> [View paper](http://arxiv.org/abs/2505.08359v1)
+
 ## Summary
 
 This methodological paper proposes a "political cartography" framework for studying how news circulates on Twitter, arguing that the dominant approach in partisan news-sharing research is too coarse to capture the actual political structure of circulation. The authors identify three recurring limitations in existing work: reliance on unidimensional (typically left–right) measures of political leaning, near-exclusive focus on the outlet as the unit of analysis, and overconcentration on a few national contexts (notably the US). In response, they develop a multi-level approach that maps circulation simultaneously at the level of individual stories, outlets, and content, paired with a richer characterization of the political positions of sharers.

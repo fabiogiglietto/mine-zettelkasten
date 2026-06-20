@@ -16,6 +16,10 @@ discovery_date: 2026-02-22T07:52:03.950374Z
 
 # How to detect information voids using longitudinal data from social media and web searches
 
+> Scalco, I., Gesualdo, F., Cerqueti, R., & Cinelli, M. (2026). How to detect information voids using longitudinal data from social media and web searches. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2602.15476v1)
+
 ## Summary
 
 This paper introduces a quantitative pipeline for detecting "information voids" — periods when the supply of reliable content fails to meet public demand on a topic — by combining longitudinal data from social media platforms, news archives, and search/encyclopedia behavior. The authors define an "information delta" between rescaled supply and demand signals, decompose it via STL, and flag anomalies using an IQR rule on the remainder. Applied to COVID-19 vaccine discourse across six European countries (Jan 2020 – Apr 2021), the method identifies persistent voids around major vaccine events and shows these voids coincide with degraded content credibility and increased misinformation, moving the concept of "data voids" from qualitative description toward an operational, mechanistic construct.

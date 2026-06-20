@@ -16,6 +16,10 @@ discovery_date: 2026-05-05T16:59:54.865190Z
 
 # Mapping the sociotechnical imaginaries of generative AI in UK, US, Chinese and Indian newspapers
 
+> Wang, W., & Downey, J. (2025). Mapping the sociotechnical imaginaries of generative AI in UK, US, Chinese and Indian newspapers. *Public Understanding of Science*, *34*, 930–948. https://doi.org/10.1177/09636625251328518
+>
+> [View paper](https://doi.org/10.1177/09636625251328518)
+
 ## Summary
 
 This paper develops a comparative, quantitative mapping of how generative AI is imagined in newspaper coverage across four major media systems: the UK, US, China, and India. Drawing on the sociotechnical imaginaries tradition and Cave and Dihal's typology of utopian and dystopian AI narratives, the authors argue that public discourse on generative AI oscillates between technologically deterministic visions of salvation and ruin, and that these visions are structured in nationally distinctive ways. By operationalising a previously qualitative framework into a content-analytic methodology, the paper offers an empirical account of how hopes and fears about generative AI are unevenly distributed across press systems shaped by different political, economic, and cultural conditions.

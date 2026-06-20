@@ -16,6 +16,10 @@ discovery_date: 2025-04-15T00:00:00Z
 
 # Emergent structures of attention on social media are driven by amplification and triad transitivity
 
+> Smith, A. H., Green, J., Welles, B. F., & Lazer, D. (2025). Emergent structures of attention on social media are driven by amplification and triad transitivity. *PNAS Nexus*, *4*, gaf106. https://doi.org/10.1093/pnasnexus/pgaf106
+>
+> [View paper](https://doi.org/10.1093/pnasnexus/pgaf106)
+
 ## Summary
 
 This paper introduces the concept of the **attention broker** (*tertius amplificans*, "the third who amplifies") as a scaled, social-media-native extension of Obstfeld's *tertius iungens*. The authors argue that triad transitivity in directed online networks is partly produced by a local causal mechanism: when a high-degree account amplifies another user's content with attribution (e.g. via retweet), the broker's followers form new ties to the amplified account, closing open triads into transitive ones. Using two contrasting case studies—Jorts the Cat (pro-union) and J.K. Rowling (TERF advocacy)—and a novel API technique that recovers time-stamped follow events, the paper offers difference-in-differences evidence that amplification causally accelerates tie formation, providing a micro-mechanism for a long-observed macro-structural regularity.

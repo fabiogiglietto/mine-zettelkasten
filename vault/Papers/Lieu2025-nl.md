@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Testing the impact of fallacies and contrarian claims in climate change misinformation
 
+> Lieu, R., Hayes, O. R., & Cook, J. (2025). Testing the impact of fallacies and contrarian claims in climate change misinformation. *British Journal of Psychology*. https://doi.org/10.1111/bjop.70049
+>
+> [View paper](https://doi.org/10.1111/bjop.70049)
+
 ## Summary
 
 This experimental study tests how different *types* of climate misinformation shape perceived credibility, social media engagement intent, and climate beliefs among a representative US sample (N=1311). The authors cross two analytic frameworks — the content-based CARDS taxonomy of contrarian claims and the logic-based FLICC taxonomy of rhetorical fallacies — in a 5×6 design using 30 fabricated Facebook posts. Their central finding is asymmetric: the *content* of denialist arguments matters substantially while the *fallacy structure* does not, with attacks on climate solutions emerging as both the most credible-seeming and the most ideologically polarizing category. The paper argues this justifies prioritizing solutions-denial and attacks on scientists for debunking and automated fact-checking efforts.

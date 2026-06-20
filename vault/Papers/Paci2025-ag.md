@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # They want to pretend not to understand: The Limits of Current LLMs in Interpreting Implicit Content of Political Discourse
 
+> Paci, W., Panunzi, A., & Pezzelle, S. (2025). They want to pretend not to understand: The Limits of Current LLMs in Interpreting Implicit Content of Political Discourse. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2506.06775v1)
+
 ## Summary
 
 This paper asks whether contemporary multilingual LLMs can correctly interpret manipulative implicit content — implicatures and presuppositions — in naturalistic Italian political discourse. The authors build IMPAQTS-PID, a dataset of ~31.8K implicit passages drawn from the IMPAQTS corpus of Italian political speeches (1946–2023), each paired with an expert linguist's explanation and a validated four-sentence left context window. They evaluate four LLMs (GPT-4o-mini, Aya Expanse 8B, LLAMA3.1 8B, LLAMA3.2 3B) on both multiple-choice and open-ended generation tasks. All models fall substantially short of expert ceilings: even the strongest model produces fully correct explanations in only about a quarter of open-ended cases, suggesting current LLMs lack the pragmatic competence required for ecologically valid political-language interpretation, despite stronger performance on artificial pragmatics benchmarks.

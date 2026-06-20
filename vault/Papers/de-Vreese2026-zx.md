@@ -16,6 +16,10 @@ discovery_date: 2026-06-04T09:06:27.755424Z
 
 # Moving targets, moving politics: The state of play in social media data access
 
+> Vreese, C. H. D., & Tromble, R. (2026). Moving targets, moving politics: The state of play in social media data access. *Political Communication*, 1–4. https://doi.org/10.1080/10584609.2026.2681041
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2681041)
+
 ## Summary
 
 This Forum article offers a state-of-play assessment of social media data access for political communication research in early 2026, centered on the EU Digital Services Act's Article 40 vetted researcher provisions. De Vreese and Tromble argue that the current turbulence — platform foot-dragging, opaque procedures, legal pushback, and geopolitical contestation — should be read not as regulatory failure but as a signal that binding regulation is finally biting into entrenched platform power. They urge the field to resist "regulatory fatigue" and instead commit to a marathon of implementation, monitoring, and complementary institutional scaffolding rather than redesigning the architecture under pressure.

@@ -16,6 +16,10 @@ discovery_date: 2025-09-15T00:00:00Z
 
 # Leveraging VLLMs for visual clustering: Image-to-text mapping shows increased semantic capabilities and interpretability
 
+> Arminio, L., Magnani, M., Piqueras, M., Rossi, L., & Segerberg, A. (2025). Leveraging VLLMs for visual clustering: Image-to-text mapping shows increased semantic capabilities and interpretability. *Soc. Sci. Comput. Rev.*. https://doi.org/10.31235/osf.io/bf459
+>
+> [View paper](https://doi.org/10.31235/osf.io/bf459)
+
 ## Summary
 
 This paper proposes and evaluates a Vision-and-Large-Language-Model (VLLM) based pipeline for clustering social media images by *connotative* rather than *denotative* meaning. Drawing on Barthes' semiotic distinction, the authors argue that computational social science needs clusters organised by culturally embedded meaning (e.g., "renewable energy") rather than by depicted objects (e.g., "round things"). They use GPT-4-turbo (and LLaVA as an open alternative) to generate paragraph-length descriptions of Instagram climate-change images, embed those texts, and cluster them — then compare against a standard VGG16 CNN baseline. The VLLM pipeline yields substantially higher connotative cluster quality, comparable denotative quality, and—crucially—high human interpretability via TF-IDF keyword summaries.

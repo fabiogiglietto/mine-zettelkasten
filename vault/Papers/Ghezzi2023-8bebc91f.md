@@ -17,6 +17,10 @@ discovery_date:
 
 # Political polarization in the frequency British newspapers mention scientists with different views on COVID-19
 
+> Ghezzi, P., Giglietto, F., & Martinisi, A. (2023). Political polarization in the frequency British newspapers mention scientists with different views on COVID-19. *Center for Open Science*. https://doi.org/10.31235/osf.io/4cyfu
+>
+> [View paper](https://doi.org/10.31235/osf.io/4cyfu)
+
 ## Summary
 
 This paper investigates whether the political leaning of UK newspapers shapes which COVID-19 scientists they cite, focusing on two opposing expert camps: signatories of the Great Barrington Declaration (GBD, favouring less precautionary non-pharmacological interventions) and authors of the John Snow Memorandum (JSM, favouring more precautionary measures). Combining MediaCloud mention counts across ten national newspapers with bibliometric co-authorship mapping and Twitter link-sharing analysis, the authors show that right-leaning outlets disproportionately cite GBD scientists while left-leaning outlets disproportionately cite JSM scientists, and that the two camps remain largely separated in academic and social media networks as well. They argue this reflects a political *use* of science by partisan media rather than political bias among the scientists themselves, and emphasise that — unlike many US cases — both UK groups consist of mainstream, credentialed researchers rather than fringe or misinformation-adjacent figures.

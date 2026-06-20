@@ -16,6 +16,10 @@ discovery_date: 2026-05-15T05:52:01.125136Z
 
 # Generative AI, large language models, and their agentic framing in news media
 
+> Nguyen, D., & Wischnewski, M. (2026). Generative AI, large language models, and their agentic framing in news media. *AI & SOCIETY*. https://doi.org/10.1007/s00146-026-03070-1
+>
+> [View paper](https://doi.org/10.1007/s00146-026-03070-1)
+
 ## Summary
 
 This paper investigates how English-language news media linguistically construct large language models (LLMs) and generative AI, with particular attention to *mentalistic-agentic* framings that attribute human-like cognition to these systems. Drawing on a corpus of 18,032 articles from 15 outlets across Europe, Asia, North America, and the Middle East (2022–2024), the authors combine computational NLP with manual content analysis to map thematic emphases, isolate LLM-centric coverage, and detect anthropomorphic metaphors. They argue that mentalistic framings are present but neither dominant nor uniform, varying more by outlet and editorial culture than by region. Crucially, the authors resist a blanket critique of anthropomorphic language: such framings can reproduce corporate hype, serve as conventional explanatory shorthand, or function as adversarial critique. The paper positions journalism as a central site where public epistemologies of AI are negotiated.

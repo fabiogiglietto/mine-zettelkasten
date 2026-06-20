@@ -16,6 +16,10 @@ discovery_date: 2025-06-15T00:00:00Z
 
 # Quantifying narrative similarity across languages
 
+> Waight, H., Messing, S., Shirikov, A., Roberts, M. E., Nagler, J., Greenfield, J., Brown, M. A., Aslett, K., & Tucker, J. A. (2025). Quantifying narrative similarity across languages. *Sociological Methods & Research*. https://doi.org/10.1177/00491241251340080
+>
+> [View paper](https://doi.org/10.1177/00491241251340080)
+
 ## Summary
 
 This paper defines *narrative similarity* — whether two texts make the same claims about the same events — as a distinct measurement target that prior text-as-data methods (text reuse, topic modeling, semantic similarity) systematically conflate with looser notions of textual overlap. The authors build a three-stage LLM-based pipeline that distills articles into structured claims and subjects, filters candidate pairs with SBERT, and uses GPT-4o (zero-shot or fine-tuned on boundary cases) to judge whether pairs share narratives. They validate the pipeline against four alternative estimators using a hand-coded multilingual gold standard, then apply it to trace how Russian state media's 2022 claims about U.S.-funded Ukrainian "biolabs" diffused into Ukrainian, mainstream U.S., and low-quality U.S. news.

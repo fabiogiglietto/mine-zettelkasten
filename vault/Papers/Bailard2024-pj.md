@@ -16,6 +16,10 @@ discovery_date: 2026-05-17T08:06:58.350298Z
 
 # “keep your heads held high boys!”: Examining the relationship between the Proud Boys’ online discourse and offline activities
 
+> BAILARD, C. S., TROMBLE, R., ZHONG, W., BIANCHI, F., HOSSEINI, P., & BRONIATOWSKI, D. (2024). “keep your heads held high boys!”: Examining the relationship between the Proud Boys’ online discourse and offline activities. *American Political Science Review*, *118*, 1–18. https://doi.org/10.1017/s0003055423001478
+>
+> [View paper](https://doi.org/10.1017/s0003055423001478)
+
 ## Summary
 
 This paper investigates whether and how the Proud Boys' online discourse on Telegram is linked to their offline violent and nonviolent activities between January 2020 and July 2022. Combining a fine-tuned DeBERTa classifier of collective action frames across 500,000+ messages from 92 affiliated channels with ACLED event data, the authors use vector autoregression and impulse response analysis to demonstrate temporal relationships between framing and action. Their core argument is that diagnostic (grievance) and motivational (solidarity/pride) framing—not explicit calls-to-action—predict subsequent offline violence, and that offline nonviolent protests feed back into motivational framing, producing a reciprocal cycle that culminates in violent mobilization. The findings challenge content-moderation paradigms focused on discrete hateful posts and argue for analyzing extremist discourse as a temporally dynamic ecosystem.

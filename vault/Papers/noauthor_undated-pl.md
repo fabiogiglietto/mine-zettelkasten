@@ -16,6 +16,8 @@ discovery_date: 2026-01-01T13:07:00.531343Z
 
 # Untitled
 
+> Untitled.
+
 ## Summary
 
 No source material was provided for this entry. The paper's title, authors, venue, and abstract are all unavailable, so no substantive summary can be produced. This note exists as a placeholder until the underlying document or its metadata is supplied.

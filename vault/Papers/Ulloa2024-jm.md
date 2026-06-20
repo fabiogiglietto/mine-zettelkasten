@@ -16,6 +16,10 @@ discovery_date: 2024-11-15T00:00:00Z
 
 # Beyond time delays: How web scraping distorts measures of online news consumption
 
+> Ulloa, R., Mangold, F., Schmidt, F., Gilsbach, J., & Stier, S. (2024). Beyond time delays: How web scraping distorts measures of online news consumption. *arXiv [cs.CY]*.
+>
+> [View paper](http://arxiv.org/abs/2412.00479v1)
+
 ## Summary
 
 This paper interrogates a foundational but largely untested assumption in web-tracking research: that ex-situ scraping of URLs visited by participants yields content comparable to what users actually saw in their browsers. Using a two-wave study of 412 German participants whose browsers captured 34,108 news article visits in-situ via extension, the authors compare that ground-truth HTML to parallel ex-situ scrapes at delays of 0, 30, 60, and 90 days. They find that the *collection environment itself* — not temporal decay — drives the bulk of discrepancy: roughly 33.8% of content diverges even at near-zero delay, while 90 days of additional aging contributes only ~6.5 percentage points. Crucially, these errors are systematically patterned across news types, largely because paywalls, login walls, and cookie consents block ex-situ scrapers from reaching the content that authenticated users see. The authors argue that in-situ capture is methodologically necessary for valid measures of online news exposure.

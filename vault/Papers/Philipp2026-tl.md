@@ -16,6 +16,10 @@ discovery_date: 2026-02-17T06:14:16.218868Z
 
 # Election research in the age of regulated data access under the EU Digital Services Act
 
+> Darius, P., Breuer, J., Kruschinski, S., Loecherbach, F., Riedl, J., & Stier, S. (2026). Election research in the age of regulated data access under the EU Digital Services Act. *Internet Policy Review*. https://doi.org/10.14763/2026.1.2080
+>
+> [View paper](https://doi.org/10.14763/2026.1.2080)
+
 ## Summary
 
 This paper examines how the EU Digital Services Act (DSA) is reshaping the empirical study of online election communication by mandating new forms of platform data access for researchers. After years in which the withdrawal or commercialisation of platform APIs eroded the empirical basis of election research, the DSA has compelled major platforms to (re-)establish access to "public" data through dedicated APIs and portals. The authors survey this emerging landscape, comparing how platforms have implemented these obligations, and argue that while the DSA partially reopens avenues for election research, the heterogeneity, restrictive eligibility, and substantive gaps of current regimes leave significant aspects of campaigns, political advertising, and electoral discourse difficult to study.

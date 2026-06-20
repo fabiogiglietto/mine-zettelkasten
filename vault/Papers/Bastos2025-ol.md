@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Visual identities in troll farms: The Twitter Moderation Research Consortium
 
+> Bastos, M. (2025). Visual identities in troll farms: The Twitter Moderation Research Consortium. *Social Media + Society*, *11*, 20563051251323652. https://doi.org/10.1177/20563051251323652
+>
+> [View paper](https://doi.org/10.1177/20563051251323652)
+
 ## Summary
 
 This paper presents a ten-year longitudinal audit of how documented changes to Facebook's News Feed ranking algorithm shaped engagement with news content from *The Guardian* between 2011 and 2020. By combining a hand-curated timeline of 52 algorithmic updates with roughly one million Guardian articles and matched CrowdTangle engagement data, Bastos shows that ranking interventions produce measurable, lagged effects on engagement — but only for hard news, not for Opinion, Lifestyle, Arts, or Sport. The argument is twofold: empirically, recommender systems are not inscrutable "black boxes" but auditable sociotechnical assemblages; politically, the EU Digital Services Act (especially Article 40(4)) provides the legal scaffolding to institutionalise such longitudinal independent audits.

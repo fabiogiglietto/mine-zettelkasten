@@ -16,6 +16,10 @@ discovery_date: 2026-05-14T05:47:06.196009Z
 
 # State media control influences large language models
 
+> Waight, H., Yang, E., Yuan, Y., Messing, S., Roberts, M. E., Stewart, B. M., & Tucker, J. A. (2026). State media control influences large language models. *Nature*, 1–9. https://doi.org/10.1038/s41586-026-10506-7
+>
+> [View paper](https://doi.org/10.1038/s41586-026-10506-7)
+
 ## Summary
 
 This paper provides systematic empirical evidence that state control over media environments shapes the outputs of commercial large language models through a previously underexamined pathway: training data. Using China as a primary case and a 37-country cross-national audit as a generalization test, the authors trace a causal chain from state-coordinated media production, to its inclusion in open-source web corpora, to memorization by commercial LLMs, to measurable pro-regime tilts in model outputs—especially when prompted in languages exclusive to lower-press-freedom countries. The core argument is that LLMs can "launder" state-manipulated content into seemingly neutral responses, constituting an indirect form of institutional influence distinct from direct regulation of model design.

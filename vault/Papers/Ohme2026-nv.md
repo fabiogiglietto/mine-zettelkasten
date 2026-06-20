@@ -16,6 +16,10 @@ discovery_date: 2026-04-27T20:36:18.798818Z
 
 # Finally, access: How article 40 DSA changes platform research in practice
 
+> Ohme, J., & Seiling, L. (2026). Finally, access: How article 40 DSA changes platform research in practice. *Political Communication*, 1–9. https://doi.org/10.1080/10584609.2026.2664157
+>
+> [View paper](https://doi.org/10.1080/10584609.2026.2664157)
+
 ## Summary
 
 This article examines how Article 40 of the European Union's Digital Services Act (DSA) reshapes the practical conditions of platform research by establishing new formal mechanisms for researcher access to data from very large online platforms. Ohme and Seiling assess what the regulation changes in day-to-day empirical work, tracing both the opportunities it opens — moving researchers from a regime of voluntary, precarious, or contested access toward a rights-based framework — and the procedural, methodological, and infrastructural challenges that remain. The piece is a conceptual, policy-oriented intervention in *Political Communication* that bridges regulatory developments and the methods of platform studies.

@@ -16,6 +16,10 @@ discovery_date: 2025-01-15T00:00:00Z
 
 # Facts or feelings? Leveraging emotionality as a fact-checking strategy on social media in the United States
 
+> Xue, H., Zhang, J., & Zhang, X. (2025). Facts or feelings? Leveraging emotionality as a fact-checking strategy on social media in the United States. *Social Media + Society*, *11*, 20563051251318172. https://doi.org/10.1177/20563051251318172
+>
+> [View paper](https://doi.org/10.1177/20563051251318172)
+
 ## Summary
 
 This paper interrogates a tension within social media fact-checking: although fact-checking is normatively framed as dispassionate, objective correction, in practice fact-checking posts often deploy emotional language. Drawing on social psychological accounts of message-level influence, Xue, Zhang, and Zhang examine how prevalent emotionality is in U.S. fact-checking posts and how it shapes both audience engagement with those posts and public sentiment toward the fact-checked targets. The authors argue that emotionality is not incidental but a consequential rhetorical feature that fact-checkers strategically — or inadvertently — leverage.

@@ -16,6 +16,10 @@ discovery_date: 2025-07-15T00:00:00Z
 
 # Ranking authority: A critical audit of YouTube’s content moderation
 
+> Jurg, D., Romano, S., & Rieder, B. (2025). Ranking authority: A critical audit of YouTube’s content moderation. https://doi.org/10.31219/osf.io/j3cn5_v1
+>
+> [View paper](https://doi.org/10.31219/osf.io/j3cn5_v1)
+
 ## Summary
 
 This chapter audits YouTube's content moderation during the 2024 European Parliamentary elections, focusing on the platform's twin commitments to elevate authoritative sources and remove harmful content. Combining browser-based scraping of search results in the Netherlands, Germany, and France with an API-collected sample of 8,142 election-related videos, Jurg, Romano, and Rieder show that legacy and Public Service Media dominate algorithmic rankings, that the "News Funding Notice" publisher context label is applied inconsistently across broadcasters and entirely missing in several EU languages, and that removal statements to users are vague and obfuscate the platform's own role. The authors argue that meaningful auditing under the Digital Services Act requires reconceiving transparency as "observability" and substantially expanding researcher data access.

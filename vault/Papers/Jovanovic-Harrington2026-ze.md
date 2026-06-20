@@ -16,6 +16,10 @@ discovery_date: 2026-03-05T05:07:25.445337Z
 
 # Beyond detection: How Serbia&#x27;s SNS party mimics authentic support through coordinated inauthentic behaviour
 
+> Jovanovic-Harrington, A., & Cornia, A. (2026). Beyond detection: How Serbia&#x27;s SNS party mimics authentic support through coordinated inauthentic behaviour. *European Journal of Communication*. https://doi.org/10.1177/02673231261422076
+>
+> [View paper](https://doi.org/10.1177/02673231261422076)
+
 ## Summary
 
 This paper examines coordinated inauthentic behaviour (CIB) tied to Serbia's ruling Serbian Progressive Party (SNS), arguing that its operations constitute a distinctive and harder-to-detect form of digital authoritarianism. Unlike the centralised bot-farm models documented in Russia, China, or Iran, SNS-aligned networks mimic authentic grassroots support, blending into organic political discourse and evading standard detection methods. Drawing on a longitudinal review of largely non-English secondary sources, the authors argue that current analytical frameworks are insufficient for capturing such mimetic, decentralised manipulation, and call for new tools attuned to subtler authoritarian strategies in hybrid regimes.

@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Sky News Australia as network propaganda: how a niche cable channel became an international right-wing propaganda machine
 
+> Copland, S., Bruns, A., & Graham, T. (2025). Sky News Australia as network propaganda: how a niche cable channel became an international right-wing propaganda machine. *Media International Australia*. https://doi.org/10.1177/1329878x251406899
+>
+> [View paper](https://doi.org/10.1177/1329878x251406899)
+
 ## Summary
 
 This article traces how Sky News Australia, a low-rated News Corp cable channel, leveraged Facebook and YouTube between 2020 and 2021 to become a transnational node in the global right-wing media ecosystem. Combining cross-platform data collection, network analysis, and BERTopic modelling, Copland, Bruns, and Graham argue that Sky News Australia pursues a two-pronged digital strategy: native Facebook video serves a domestic Australian right-wing audience with parochial content, while YouTube uploads — disproportionately focused on US politics, COVID-19, and conspiracy narratives like the "Great Reset" — are absorbed into the American right-wing propaganda pipeline. The paper extends Benkler et al.'s network propaganda framework across national borders and argues that the channel exemplifies infrastructural, computational, and participatory propaganda forms adapted to algorithmic platforms.

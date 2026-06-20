@@ -16,6 +16,10 @@ discovery_date: 2026-02-26T05:15:14.418067Z
 
 # Large language models require curated context for reliable political fact-checking -- even with reasoning and web search
 
+> DeVerna, M. R., Yang, K., Yan, H. Y., & Menczer, F. (2025). Large language models require curated context for reliable political fact-checking -- even with reasoning and web search. *arXiv [cs.CL]*.
+>
+> [View paper](http://arxiv.org/abs/2511.18749v1)
+
 ## Summary
 
 This paper benchmarks 15 large language models from OpenAI, Google, Meta, and DeepSeek on the task of fact-checking over 6,000 political claims drawn from PolitiFact's six-point Truth-O-Meter. Comparing standard, reasoning-enabled, and web-search-enabled variants against the same models augmented with a curated retrieval-augmented generation (RAG) pipeline built on GPT-3.5 summaries of PolitiFact articles, the authors find that internal knowledge and generic web search produce poor-to-moderate accuracy, whereas curated context raises macro F1 by an average of 233%. The central argument is that political fact-checking is bottlenecked by access to high-quality evidence rather than by model reasoning capacity, and that improvements in general LLM capability will not automatically solve verification.

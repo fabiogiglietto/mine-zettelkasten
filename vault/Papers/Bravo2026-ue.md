@@ -16,6 +16,10 @@ discovery_date: 2026-04-07T09:56:47.779699Z
 
 # Visualizing climate change in the media: a systematic literature review, challenges, and future research
 
+> Bravo, I., Walter, S., Prasse, K., & Keuper, M. (2026). Visualizing climate change in the media: a systematic literature review, challenges, and future research. *Annals of the International Communication Association*. https://doi.org/10.1093/anncom/wlag011
+>
+> [View paper](https://doi.org/10.1093/anncom/wlag011)
+
 ## Summary
 
 This paper offers a systematic and scoping literature review, combined with content analysis, of research on climate change visualizations in traditional and digital media published between 2005 and 2024. The authors map the field to identify what kinds of visuals, media platforms, and regional contexts have been studied, and where significant gaps remain. Their central argument is that the existing literature is skewed toward traditional media and Western contexts, and that future work should expand into social media imagery, non-Western settings, and computational approaches to large-scale image analysis.

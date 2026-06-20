@@ -16,6 +16,10 @@ discovery_date: 2025-12-15T00:00:00Z
 
 # Multimodal narratives of climate denial: A novel, visual-first methodology for analysing conspiracy theory discourse on Instagram
 
+> Gardam, C., Riedlinger, M., Angus, D., & Tan, X. Y. (. (2025). Multimodal narratives of climate denial: A novel, visual-first methodology for analysing conspiracy theory discourse on Instagram. *Discourse, Context & Media*, *68*, 100946. https://doi.org/10.1016/j.dcm.2025.100946
+>
+> [View paper](https://doi.org/10.1016/j.dcm.2025.100946)
+
 ## Summary
 
 Gardam and colleagues propose a visual-first methodology for analysing how climate denial and conspiracy narratives circulate on Instagram. They argue that prevailing text-centric approaches to social media discourse analysis fail to capture the rhetorical work done by images on image-driven platforms, and that climate denial in particular relies on multimodal narrative strategies that are largely invisible to caption- or hashtag-led analyses. The paper offers both a methodological framework — foregrounding visual elements while integrating captions, hashtags, and platform context — and an empirical demonstration of its application to Instagram climate denial content.
