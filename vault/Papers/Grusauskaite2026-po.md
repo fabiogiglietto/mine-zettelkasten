@@ -16,7 +16,7 @@ discovery_date: 2026-05-21T10:28:03.404625Z
 
 # “We, the conspiracy theorists.” How people do symbolic boundary work in the “Great Reset” debates across social media platforms
 
-> Grusauskaite, K., Bondt, M. D., Wildt, L. D., & Aupers, S. (2026). “We, the conspiracy theorists.” How people do symbolic boundary work in the “Great Reset” debates across social media platforms. *New Media & Society*. https://doi.org/10.1177/14614448261446590
+> Grusauskaite, K., Bondt, M. D., de Wildt, L., & Aupers, S. (2026). “We, the conspiracy theorists.” How people do symbolic boundary work in the “Great Reset” debates across social media platforms. *New Media & Society*. https://doi.org/10.1177/14614448261446590
 >
 > [View paper](https://doi.org/10.1177/14614448261446590)
 

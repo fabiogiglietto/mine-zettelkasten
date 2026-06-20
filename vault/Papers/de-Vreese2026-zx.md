@@ -16,7 +16,7 @@ discovery_date: 2026-06-04T09:06:27.755424Z
 
 # Moving targets, moving politics: The state of play in social media data access
 
-> Vreese, C. H. D., & Tromble, R. (2026). Moving targets, moving politics: The state of play in social media data access. *Political Communication*, 1–4. https://doi.org/10.1080/10584609.2026.2681041
+> de Vreese, C. H., & Tromble, R. (2026). Moving targets, moving politics: The state of play in social media data access. *Political Communication*, 1–4. https://doi.org/10.1080/10584609.2026.2681041
 >
 > [View paper](https://doi.org/10.1080/10584609.2026.2681041)
 

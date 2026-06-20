@@ -16,7 +16,7 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs
 
-> Dubey, S., Ketelaar, P. E., Dingler, T., Peetz, H. K., & Schie, H. T. V. (2026). Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs. *Computers in Human Behavior*, 108920. https://doi.org/10.1016/j.chb.2026.108920
+> Dubey, S., Ketelaar, P. E., Dingler, T., Peetz, H. K., & van Schie, H. T. (2026). Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs. *Computers in Human Behavior*, 108920. https://doi.org/10.1016/j.chb.2026.108920
 >
 > [View paper](https://doi.org/10.1016/j.chb.2026.108920)
 

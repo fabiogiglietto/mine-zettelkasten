@@ -16,7 +16,7 @@ discovery_date: 2026-02-16T20:52:21.543650Z
 
 # Identifying potentially irregular electoral ads in Facebook during the Brazilian elections
 
-> Silva, M. I. D., Oliveira, L. D., Melo, P. O. V. D., Goga, O., & Benevenuto, F. (2026). Identifying potentially irregular electoral ads in Facebook during the Brazilian elections. *ACM Transactions on the Web*. https://doi.org/10.1145/3796545
+> da Silva, M. I., de Oliveira, L., de Melo, P. O. V., Goga, O., & Benevenuto, F. (2026). Identifying potentially irregular electoral ads in Facebook during the Brazilian elections. *ACM Transactions on the Web*. https://doi.org/10.1145/3796545
 >
 > [View paper](https://doi.org/10.1145/3796545)
 

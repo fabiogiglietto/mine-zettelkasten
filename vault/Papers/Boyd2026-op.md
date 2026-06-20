@@ -16,7 +16,7 @@ discovery_date: 2026-04-17T14:01:05.840432Z
 
 # Social media is now parasocial media
 
-> boyd, D. (2026). Social media is now parasocial media. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261437487
+> danah boyd (2026). Social media is now parasocial media. *Social Media + Society*, *12*. https://doi.org/10.1177/20563051261437487
 >
 > [View paper](https://doi.org/10.1177/20563051261437487)
 

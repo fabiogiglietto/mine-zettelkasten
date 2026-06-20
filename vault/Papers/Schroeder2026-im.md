@@ -16,7 +16,7 @@ discovery_date: 2026-01-27T06:19:49.072533Z
 
 # How malicious AI swarms can threaten democracy
 
-> Schroeder, D. T., Cha, M., Baronchelli, A., Bostrom, N., Christakis, N., Garcia, D., Goldenberg, A., Kyrychenko, Y., Leyton-Brown, K., Lutz, N., Marcus, G., Menczer, F., Pennycook, G., Rand, D. G., Schweitzer, F., Summerfield, C., Tang, A., Bavel, J. J. V., Linden, S. V. D., Song, D., & Kunst, J. R. (2026). How malicious AI swarms can threaten democracy. *Science*, *391*, 354–357. https://doi.org/10.31219/osf.io/qm9yk_v2
+> Schroeder, D. T., Cha, M., Baronchelli, A., Bostrom, N., Christakis, N., Garcia, D., Goldenberg, A., Kyrychenko, Y., Leyton-Brown, K., Lutz, N., Marcus, G., Menczer, F., Pennycook, G., Rand, D. G., Schweitzer, F., Summerfield, C., Tang, A., Bavel, J. J. V., van der Linden, S., Song, D., & Kunst, J. R. (2026). How malicious AI swarms can threaten democracy. *Science*, *391*, 354–357. https://doi.org/10.31219/osf.io/qm9yk_v2
 >
 > [View paper](https://doi.org/10.31219/osf.io/qm9yk_v2)
 

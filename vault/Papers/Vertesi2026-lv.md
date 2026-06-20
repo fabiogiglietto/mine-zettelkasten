@@ -16,7 +16,7 @@ discovery_date: 2026-05-27T19:56:52.653890Z
 
 # Reckoning with the political economy of AI: Avoiding decoys in pursuit of accountability
 
-> Vertesi, J., boyd, D., Taylor, A., & Shestakofsky, B. (2026). Reckoning with the political economy of AI: Avoiding decoys in pursuit of accountability. *arXiv [cs.CY]*.
+> Vertesi, J., danah boyd, Taylor, A., & Shestakofsky, B. (2026). Reckoning with the political economy of AI: Avoiding decoys in pursuit of accountability. *arXiv [cs.CY]*.
 >
 > [View paper](http://arxiv.org/abs/2604.16106v2)
 

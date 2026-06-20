@@ -16,7 +16,7 @@ discovery_date: 2026-05-21T06:31:56.716846Z
 
 # The hostile misinformation effect: How ideological congruence drives the assessment of misinformation targets
 
-> Erkel, P. V., Hameleers, M., Farooq, A., Gattermann, K., Tulin, M., Hoogen, E. V. D., & Vreese, C. D. (2026). The hostile misinformation effect: How ideological congruence drives the assessment of misinformation targets. *Political Communication*, 1–22. https://doi.org/10.1080/10584609.2026.2671760
+> van Erkel, P., Hameleers, M., Farooq, A., Gattermann, K., Tulin, M., van den Hoogen, E., & de Vreese, C. (2026). The hostile misinformation effect: How ideological congruence drives the assessment of misinformation targets. *Political Communication*, 1–22. https://doi.org/10.1080/10584609.2026.2671760
 >
 > [View paper](https://doi.org/10.1080/10584609.2026.2671760)
 

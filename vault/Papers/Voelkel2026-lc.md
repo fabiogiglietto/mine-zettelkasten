@@ -16,7 +16,7 @@ discovery_date: 2026-01-15T00:00:00Z
 
 # A registered report megastudy on the persuasiveness of the most-cited climate messages
 
-> Voelkel, J. G., Ashokkumar, A., Abeles, A. T., Crawford, J., Fuller, K., Redekopp, C., Bongiorno, R., Campbell, T. H., Ecker, U. K. H., Feinberg, M., Hart, P. S., Hornsey, M., Jost, J., Kay, A., Leiserowitz, A., Lewandowsky, S., Maibach, E., Nisbet, E., Pidgeon, N., Spence, A., Linden, S. V. D., Wolsko, C. V., Willenbring, J. K., malhotra, N., & Willer, R. (2026). A registered report megastudy on the persuasiveness of the most-cited climate messages. *Nat. Clim. Chang.*, 1–12. https://doi.org/10.31235/osf.io/xwceg_v1
+> Voelkel, J. G., Ashokkumar, A., Abeles, A. T., Crawford, J., Fuller, K., Redekopp, C., Bongiorno, R., Campbell, T. H., Ecker, U. K. H., Feinberg, M., Hart, P. S., Hornsey, M., Jost, J., Kay, A., Leiserowitz, A., Lewandowsky, S., Maibach, E., Nisbet, E., Pidgeon, N., Spence, A., van der Linden, S., Wolsko, C. V., Willenbring, J. K., neil malhotra, & Willer, R. (2026). A registered report megastudy on the persuasiveness of the most-cited climate messages. *Nat. Clim. Chang.*, 1–12. https://doi.org/10.31235/osf.io/xwceg_v1
 >
 > [View paper](https://doi.org/10.31235/osf.io/xwceg_v1)
 
