@@ -53,4 +53,4 @@ This paper sits at the intersection of platform auditing via data donation and t
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bouchaud2026-lr.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-xs-political-algorithm-profiling/id1866587707?i=1000755979538)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bouchaud2026-lr.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-xs-political-algorithm-profiling/id1866587707?i=1000755979538)

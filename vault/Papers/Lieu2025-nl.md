@@ -51,4 +51,4 @@ This paper extends the experimental misinformation-effects tradition into the ta
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lieu2025-nl.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-climate-misinformation-why-some/id1866587707?i=1000750270010)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Lieu2025-nl.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-climate-misinformation-why-some/id1866587707?i=1000750270010)

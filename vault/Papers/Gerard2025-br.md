@@ -52,4 +52,4 @@ This work sits squarely within current efforts to study **coordinated and cross-
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Gerard2025-br.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-bridging-the-narrative-divide/id1866587707?i=1000743818440)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Gerard2025-br.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-bridging-the-narrative-divide/id1866587707?i=1000743818440)

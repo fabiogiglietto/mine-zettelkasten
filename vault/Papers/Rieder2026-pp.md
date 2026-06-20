@@ -55,4 +55,4 @@ This study extends platform-governance research on the limits of deplatforming a
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Rieder2026-pp.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-tate-space-on-youtube-ambient/id1866587707?i=1000744953094)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Rieder2026-pp.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-tate-space-on-youtube-ambient/id1866587707?i=1000744953094)

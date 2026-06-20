@@ -50,4 +50,4 @@ This paper sits naturally alongside other work on Brazilian information environm
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Rossini2026-jn.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-misinformation-fueling-intolerance/id1866587707?i=1000755253413)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Rossini2026-jn.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-misinformation-fueling-intolerance/id1866587707?i=1000755253413)

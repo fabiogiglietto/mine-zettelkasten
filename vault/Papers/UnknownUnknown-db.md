@@ -53,4 +53,4 @@ No related papers were provided under shared topics, so there are no internal li
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/UnknownUnknown-db.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-ai-paradox-why-the-most/id1866587707?i=1000771034029)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/UnknownUnknown-db.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-ai-paradox-why-the-most/id1866587707?i=1000771034029)

@@ -51,4 +51,4 @@ This paper sits at the intersection of hyperpartisan media research and the disc
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Yoo2026-ev.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-weaponizing-fake-news-truth-lost/id1866587707?i=1000755756081)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Yoo2026-ev.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-weaponizing-fake-news-truth-lost/id1866587707?i=1000755756081)

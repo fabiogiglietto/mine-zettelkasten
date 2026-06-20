@@ -52,4 +52,4 @@ This paper aligns closely with work theorizing the structural and relational dyn
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Di-Domenico2026-zq.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-influencer-toxicity-when-misinformation/id1866587707?i=1000746547580)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Di-Domenico2026-zq.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-influencer-toxicity-when-misinformation/id1866587707?i=1000746547580)

@@ -56,4 +56,4 @@ This paper sits squarely in the post-APIcalypse debate over what computational e
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hepp2026-oi.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-apicalypse-why-election/id1866587707?i=1000771678148)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hepp2026-oi.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-apicalypse-why-election/id1866587707?i=1000771678148)

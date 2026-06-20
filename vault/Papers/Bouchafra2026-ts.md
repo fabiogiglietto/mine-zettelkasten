@@ -53,4 +53,4 @@ This paper sits closest to [[Rothut2026-wt]] and [[Karo2026-dn]] in its focus on
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bouchafra2026-ts.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-my-europe-builds-walls-a-cross/id1866587707?i=1000745395155)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Bouchafra2026-ts.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-my-europe-builds-walls-a-cross/id1866587707?i=1000745395155)

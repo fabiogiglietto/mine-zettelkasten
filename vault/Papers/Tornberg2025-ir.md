@@ -52,4 +52,4 @@ This paper sits alongside other work in the register theorizing the reconfigurat
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2025-ir.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-end-of-social-media-as-we-know-it/id1866587707?i=1000770162794)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Tornberg2025-ir.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-end-of-social-media-as-we-know-it/id1866587707?i=1000770162794)

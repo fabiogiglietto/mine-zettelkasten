@@ -52,4 +52,4 @@ This work connects to research treating "misinformation" as a contested, identit
 
 ## Podcast
 
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Van_Erkel2026-mk.mp3) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-why-both-sides-think-misinformation/id1866587707?i=1000771145023)
+A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Van_Erkel2026-mk.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-why-both-sides-think-misinformation/id1866587707?i=1000771145023)
