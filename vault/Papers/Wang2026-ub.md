@@ -48,7 +48,7 @@ The authors curated 7,542 academic Mastodon accounts from a community-maintained
 
 ## Connections
 
-This study sits alongside other Mastodon and Fediverse migration research, most directly [[Bruns2025-fz]] and broader work on platform alternatives. It connects to the platform-governance strand examining post-Musk Twitter/X dynamics — including [[Bak-Coleman2025-pm]], [[Murtfeldt2025-wu]], and [[Hurcombe2025-cs]] — and to studies of cross-platform user behavior and data-access constraints exemplified by Davis-style work such as [[Ohme2026-nv]] and [[Helmond2026-ll]]. Methodologically, its use of survival modeling and federated network analysis complements computational approaches in [[Pierri2025-hm]] and [[Bastos2025-ol]].
+This study sits alongside other Mastodon and Fediverse migration research, most directly [[Bruns2025-fz]] and broader work on platform alternatives. It connects to the platform-governance strand examining post-Musk Twitter/X dynamics — including [[Bak-Coleman2025-pm]], [[Murtfeldt2025-wu]], and [[Hurcombe2025-cs]] — and to studies of cross-platform user behavior and data-access constraints exemplified by Davis-style work such as [[Ohme2026-nv]] and [[Helmond2026-ll]]. Methodologically, its use of survival modeling and federated network analysis complements computational approaches in [[Pierri2025-hm]] and Bastos2025-ol.
 
 ## Podcast
 

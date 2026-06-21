@@ -47,7 +47,7 @@ The authors build latent collaboration networks where edge weights between users
 
 ## Connections
 
-This work belongs to the latent-coordination-network strand of CIB detection and directly engages benchmark efforts and similarity-based detection pipelines such as [[Luceri2025-tr]], [[Minici2024-tf]], and [[Bouchaud2026-lr]], while sharing the multimodal/multilayer impulse with [[Kulichkina2026-zk]] and [[Schroeder2026-im]]. Its critique of fixed time-window and single-modality detectors resonates with methodological discussions in [[Graham2025-gp]], [[Bastos2025-ya]], and [[Freelon2024-sc]], and its benchmark posture parallels reproducibility-oriented work like [[Murtfeldt2025-wu]] and [[Lai2024-to]].
+This work belongs to the latent-coordination-network strand of CIB detection and directly engages benchmark efforts and similarity-based detection pipelines such as [[Luceri2025-tr]], [[Minici2024-tf]], and [[Bouchaud2026-lr]], while sharing the multimodal/multilayer impulse with [[Kulichkina2026-zk]] and [[Schroeder2026-im]]. Its critique of fixed time-window and single-modality detectors resonates with methodological discussions in [[Graham2025-gp]], Bastos2025-ya, and [[Freelon2024-sc]], and its benchmark posture parallels reproducibility-oriented work like [[Murtfeldt2025-wu]] and [[Lai2024-to]].
 
 ## Podcast
 

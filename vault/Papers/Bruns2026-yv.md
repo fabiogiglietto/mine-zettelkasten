@@ -46,7 +46,7 @@ Historical and critical narrative analysis, synthesising prior scholarship on Tw
 
 ## Connections
 
-This piece sits at the centre of the current wave of Twitter/X post-mortems and platform-succession analyses: it speaks directly to enshittification and platform-decline arguments in [[Rieder2025-ju]] and [[Bastos2025-ya]], to migration and successor-platform studies such as [[Jurg2025-ur]], [[Bastos2025-ol]] and [[Hurcombe2025-cs]], and to API/data-access closure narratives in [[Freelon2024-sc]] and [[Murtfeldt2025-wu]]. Its account of participatory disinformation and algorithmic amplification connects to [[Bak-Coleman2025-pm]], [[Lewandowsky2026-ob]], and [[Donovan2025-ws]], while its concern with moderation as core design resonates with [[Marwick2026-ss]] and [[Tornberg2025-ir]].
+This piece sits at the centre of the current wave of Twitter/X post-mortems and platform-succession analyses: it speaks directly to enshittification and platform-decline arguments in [[Rieder2025-ju]] and Bastos2025-ya, to migration and successor-platform studies such as [[Jurg2025-ur]], Bastos2025-ol and [[Hurcombe2025-cs]], and to API/data-access closure narratives in [[Freelon2024-sc]] and [[Murtfeldt2025-wu]]. Its account of participatory disinformation and algorithmic amplification connects to [[Bak-Coleman2025-pm]], [[Lewandowsky2026-ob]], and [[Donovan2025-ws]], while its concern with moderation as core design resonates with [[Marwick2026-ss]] and [[Tornberg2025-ir]].
 
 ## Podcast
 

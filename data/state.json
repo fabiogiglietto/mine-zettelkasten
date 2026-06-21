@@ -254,9 +254,9 @@
         "platform-era-reflections"
       ],
       "pdf_source": "drive",
-      "content_hash": "fdc87419568f027c682241b56aa21d5090e9eaae86e82493af281e3736b02d7a",
-      "podcast_linked": false,
-      "last_processed": "2026-06-21T13:10:40.505850+00:00"
+      "content_hash": "50bd19c80dd0571963223be4175f1c3407120cc94dc5f3bfcbd0e93d8e5152f6",
+      "podcast_linked": true,
+      "last_processed": "2026-06-21T15:55:06.895465+00:00"
     },
     "bibtex:Bravo2026-ue": {
       "note_path": "Papers/Bravo2026-ue.md",
@@ -1093,9 +1093,9 @@
         "information-disorder"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "6d4941598f492d63ae160b9c72e7df0c724727c7e349154c4674e155851db136",
-      "podcast_linked": false,
-      "last_processed": "2026-06-21T13:10:40.505857+00:00"
+      "content_hash": "8e01b3c86bad19916d05d6b2dac36e7511b2f07e3da6bcd0d88eb47e4cab5a74",
+      "podcast_linked": true,
+      "last_processed": "2026-06-21T15:55:06.895470+00:00"
     },
     "bibtex:Murtfeldt2025-wu": {
       "note_path": "Papers/Murtfeldt2025-wu.md",
@@ -1703,9 +1703,9 @@
         "generative-ai-and-media"
       ],
       "pdf_source": "drive",
-      "content_hash": "04edfb11cbf7826f1f3a0f382671123aee7cb84da7a0d6fb91860fed1e36c7c5",
-      "podcast_linked": false,
-      "last_processed": "2026-06-21T13:10:40.505861+00:00"
+      "content_hash": "3fe0f4603f7c03f57d59f4c7e9a207fd85b5ac99f6e57ad018cb2fd6705f1d38",
+      "podcast_linked": true,
+      "last_processed": "2026-06-21T15:55:06.895476+00:00"
     },
     "bibtex:Nenno2025-xa": {
       "note_path": "Papers/Nenno2025-xa.md",
@@ -1807,9 +1807,9 @@
         "tiktok-algorithmic-publics"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "e55686469d4caf4fa275ce884a19ef3a0b3fa5e8d912970715aca44983fd2cb2",
-      "podcast_linked": false,
-      "last_processed": "2026-06-21T13:10:40.505864+00:00"
+      "content_hash": "7de49a8e7a6c77878878db11824295b2530d5241d8905674614a6fecdff494ac",
+      "podcast_linked": true,
+      "last_processed": "2026-06-21T15:55:06.895480+00:00"
     },
     "bibtex:Gonzalez-Bailon2024-rq": {
       "note_path": "Papers/Gonzalez-Bailon2024-rq.md",
@@ -2121,10 +2121,10 @@
         "elections-political-communication"
       ],
       "pdf_source": "drive",
-      "content_hash": "80404a0bb6d51d54d1322b9e39ecab58d4eb0814e52af9018a8e58932e67ee1e",
-      "podcast_linked": false,
+      "content_hash": "b1e3b6194e8cbab60c8ce2915e70311e7ba480d42b4aaa94f61470efc86263a2",
+      "podcast_linked": true,
       "slack_posted": true,
-      "last_processed": "2026-06-21T13:10:40.505826+00:00"
+      "last_processed": "2026-06-21T15:55:06.895457+00:00"
     },
     "bibtex:Giglietto2026-632ef967": {
       "note_path": "Papers/Giglietto2026-632ef967.md",
@@ -2407,8 +2407,21 @@
       "slack_posted": false,
       "slack_pending": true,
       "last_processed": "2026-06-19T20:24:59.666359+00:00"
+    },
+    "bibtex:Costello2024-bg": {
+      "note_path": "Papers/Costello2024-bg.md",
+      "topics": [
+        "information-disorder",
+        "generative-ai-and-media"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "00eefc3ea2eac964c29fd014836c0261081412a71212b3a88f75e9626069e865",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": true,
+      "last_processed": "2026-06-21T15:55:06.895431+00:00"
     }
   },
   "last_full_cluster": "2026-06-15T10:43:05.902693+00:00",
-  "papers_since_cluster": 4
+  "papers_since_cluster": 5
 }

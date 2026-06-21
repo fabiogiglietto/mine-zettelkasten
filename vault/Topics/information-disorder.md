@@ -23,6 +23,7 @@ Studies of misinformation, disinformation, hyperpartisan and low-quality news, a
 - [[Cazzamatta2026-lo]]
 - [[Choi2026-bz]]
 - [[Copland2025-em]]
+- [[Costello2024-bg]]
 - [[DeVerna2025-dl]]
 - [[Di-Domenico2026-zq]]
 - [[Donovan2025-ws]]

@@ -48,7 +48,7 @@ Posts are embedded with MPNet and clustered into latent narratives via DP-Means 
 
 ## Connections
 
-This work sits squarely within current efforts to study **coordinated and cross-platform information dynamics under deteriorating API access**, alongside [[Minici2024-tf]] and [[Luceri2025-tr]] on coordination detection, and [[Lai2024-to]] and [[Freelon2024-sc]] on inferring structure from limited signals. Its cross-platform narrative-diffusion framing connects to [[Bouchaud2026-lr]], [[Bastos2025-ya]], and [[Bastos2025-ol]] on multi-platform political communication, while the methodological turn toward latent semantic/topic representations of users echoes [[Balluff2026-if]] and [[Kansaon2025-id]]. The "bridge user" finding resonates with broader work on small influential subpopulations such as [[Bak-Coleman2026-mk]] and [[Graham2025-gp]] on structurally pivotal accounts in online discourse.
+This work sits squarely within current efforts to study **coordinated and cross-platform information dynamics under deteriorating API access**, alongside [[Minici2024-tf]] and [[Luceri2025-tr]] on coordination detection, and [[Lai2024-to]] and [[Freelon2024-sc]] on inferring structure from limited signals. Its cross-platform narrative-diffusion framing connects to [[Bouchaud2026-lr]], Bastos2025-ya, and Bastos2025-ol on multi-platform political communication, while the methodological turn toward latent semantic/topic representations of users echoes [[Balluff2026-if]] and [[Kansaon2025-id]]. The "bridge user" finding resonates with broader work on small influential subpopulations such as [[Bak-Coleman2026-mk]] and [[Graham2025-gp]] on structurally pivotal accounts in online discourse.
 
 ## Podcast
 

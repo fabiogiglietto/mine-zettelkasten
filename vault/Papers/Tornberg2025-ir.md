@@ -22,31 +22,34 @@ discovery_date: 2025-01-15T00:00:00Z
 
 ## Summary
 
-This paper asks which political parties actually spread misinformation, moving the debate away from individual users and platform pathologies toward elite party strategies. Using 32 million tweets from 8,198 parliamentarians across 26 countries (2017–2022), the authors link shared URLs to factuality ratings from Media Bias/Fact Check and Wikipedia's Fake News list, then merge these party-level factuality scores with Parlgov and V-Dem indicators. They adjudicate between three accounts — that misinformation is driven by populism, by right-wing ideology, or specifically by radical-right populism — and find decisive support for the third. Neither populism nor right-wing positioning alone predicts low-factuality sharing; it is their interaction that does, lending empirical weight to Bennett and Livingston's "disinformation order" thesis.
+This paper asks which political parties actually spread misinformation, and adjudicates between three competing accounts: that misinformation is driven by populism in general, by right-wing ideology, or specifically by the combination — radical-right populism. Using 32 million tweets from parliamentarians across 26 countries (2017–2022), the authors link shared URLs to media factuality ratings and merge these with Parlgov and V-Dem party data. They find that neither populism nor right-wing ideology alone predicts misinformation sharing, but their interaction does: radical-right populist parties are the dominant elite-level vector of low-factuality content. The paper reframes misinformation as a strategic feature of comparative party politics rather than a generic platform or populist pathology.
 
 ## Key Contributions
 
-- First large-scale cross-national comparative measurement of elite misinformation sharing, spanning 26 (mostly Western) countries and 177 parties.
-- A publicly released dataset linking parliamentarian tweets, expanded URLs, factuality classifications, and party-level political variables.
-- A methodological template for constructing party-level factuality scores from URL sharing combined with media-rating databases.
-- A theoretical reframing of misinformation as a comparative party-politics phenomenon tied to radical-right strategy rather than a generic feature of populism or social media.
+- First large-scale cross-national comparative analysis of elite misinformation sharing, covering 26 countries and 177 parties.
+- A publicly released dataset linking parliamentarian tweets, URL-level factuality scores, and party-level political variables.
+- Theoretical adjudication supporting a "disinformation order" account (radical-right populism) over generic populism or right-ideology explanations.
+- A reusable methodology for party-level factuality measurement built on URL sharing plus media factuality databases (MBFC, Wikipedia Fake News list).
+- A reframing of misinformation as a problem of comparative party politics rather than primarily of platforms or individuals.
 
 ## Methods
 
-The authors collected 32M tweets via the Twitter Parliamentarian Database, extracted and expanded 18M URLs (yielding 2.9M non-social-media URLs), and assigned factuality scores (0–1) to 582,148 URLs using MBFC and Wikipedia's Fake News list. They aggregated these scores at the party level and merged with Parlgov (party family, government status) and V-Dem (populism index, left-right position, personalization, cohesion). A stratified manual coding of 250 articles validated the factuality measure. Generalized linear mixed-effects beta regressions with country random intercepts estimated the effects of populism, left-right position, their interaction, and party family.
+The authors compile 32M tweets from 8,198 parliamentarians via the Twitter Parliamentarian Database, extract ~18M URLs, and assign factuality scores (0–1) to 582,148 URLs using Media Bias/Fact Check and Wikipedia's Fake News list. Scores are aggregated to a party-level factuality indicator and merged with Parlgov (party family, government status) and V-Dem (populism index, left-right position, personalization, cohesion). They validate the measure via manual coding of 250 stratified-sampled articles. Generalized linear mixed-effects beta regressions with random country intercepts test a populism × left-right interaction, plus a party-family specification.
 
 ## Findings
 
-- Bivariate relationships between populism (or right-wing ideology) and factuality are weak and noisy, with high variance among populist parties.
-- In regression, main effects of populism and left-right position are non-significant; their interaction is significant at 95%.
-- Among non-populist parties, economic ideology does not predict misinformation; among populist parties, moving rightward sharply raises the probability of sharing low-factuality sources.
-- Radical-right parties have the highest predicted misinformation levels, significantly above all other families except Conservative and Single-issue parties.
-- Conservatives' elevated levels likely reflect blurring boundaries with the radical right.
-- Left-wing populists, Christian Democrats, and Liberals cluster at relatively high factuality, consistent with left populism targeting economic rather than cultural/media elites.
+- Bivariate associations between populism, right-wing ideology, and low factuality exist but are weak, with high variance among populist parties.
+- Neither populism nor left-right position has a significant main effect in regression; their interaction is significant.
+- Among non-populist parties, economic ideology does not predict misinformation sharing.
+- Among populist parties, moving rightward sharply raises the probability of sharing low-factuality sources.
+- Radical-right parties have the highest predicted misinformation levels, significantly above all party families except Conservative and Single-issue.
+- Conservative parties' elevated levels likely reflect blurring boundaries with the radical right.
+- Socialist/left, Christian Democratic, and Liberal parties cluster at comparably high factuality.
+- Left-wing populists target economic rather than cultural/media elites, making disinformation less central to their repertoire.
 
 ## Connections
 
-This sits alongside related work on radical-right information ecosystems and elite-driven low-quality news exposure, complementing [[Hameleers2026-mc]] on misinformation framings and [[Lewandowsky2026-ob]] on the cognitive and political dynamics of false belief. Its comparative, cross-national stance also speaks to broader political-communication mappings such as [[de-Vreese2026-zx]], and to debates over how platform-mediated elite signals shape public information environments engaged by [[Brady2026-ln]] and [[Lukito2026-nb]].
+This paper complements work locating misinformation dynamics in elite and partisan production rather than diffuse user behavior, resonating with [[Allen2025-ot]] on the outsized role of a small set of partisan actors and with [[Lewandowsky2026-ob]] and [[Hameleers2026-mc]] on the politics of post-truth communication. It also speaks to platform-level studies of radical-right ecosystems and amplification such as [[Tornberg2026-lc]] and [[Pierri2025-hm]], and to broader debates on how to conceptualize and measure misinformation at scale exemplified by [[Bak-Coleman2026-mk]] and [[Efstratiou2025-gs]].
 
 ## Podcast
 

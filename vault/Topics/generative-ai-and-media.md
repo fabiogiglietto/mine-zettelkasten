@@ -12,6 +12,7 @@ Emerging research and teaching agenda on generative AI as both an object of stud
 
 - [[Achmann-Denkler2026-lx]]
 - [[Arminio2025-tw]]
+- [[Costello2024-bg]]
 - [[DiGiuseppe2026-pu]]
 - [[Dierickx2026-tw]]
 - [[Dodds2026-df]]

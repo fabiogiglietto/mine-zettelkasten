@@ -49,7 +49,7 @@ A conceptual, critical essay synthesizing recent literature on LLMs in social sc
 
 ## Connections
 
-This piece sits alongside other critical and validation-oriented work on LLM-based measurement and simulation. It connects directly to concerns about LLM annotation reliability and prompt sensitivity raised in [[Pante2025-pq]] and [[Bastos2025-ol]], and to debates about LLM-generated synthetic survey data and persona simulation in [[Hackenburg2025-dj]] and [[Bak-Coleman2026-mk]]. The ethical critique of field-deployed LLM agents resonates with the broader political-communication and persuasion concerns in [[DeVerna2025-dl]] and [[Allen2025-ot]], while the call for heterodox, reflexive computational social science aligns with [[Tornberg2025-ir]] and [[Munger2025-cz]].
+This piece sits alongside other critical and validation-oriented work on LLM-based measurement and simulation. It connects directly to concerns about LLM annotation reliability and prompt sensitivity raised in [[Pante2025-pq]] and Bastos2025-ol, and to debates about LLM-generated synthetic survey data and persona simulation in [[Hackenburg2025-dj]] and [[Bak-Coleman2026-mk]]. The ethical critique of field-deployed LLM agents resonates with the broader political-communication and persuasion concerns in [[DeVerna2025-dl]] and [[Allen2025-ot]], while the call for heterodox, reflexive computational social science aligns with [[Tornberg2025-ir]] and [[Munger2025-cz]].
 
 ## Podcast
 
