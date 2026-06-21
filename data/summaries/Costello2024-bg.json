@@ -1,0 +1,32 @@
+{
+  "abstract": "The authors test whether large language models can durably reduce belief in conspiracy theories through personalized dialogue. Across two preregistered experiments with 2190 American conspiracy believers, participants articulated a conspiracy theory they endorsed and engaged in a three-round conversation with GPT-4 Turbo that was prompted to refute their specific evidence. The intervention reduced belief in the focal conspiracy by roughly 20%, persisted for at least two months, generalized across conspiracy types and entrenched believers, and spilled over to unrelated conspiracy beliefs and behavioral intentions. The findings challenge motivational accounts of conspiracy belief and suggest that tailored evidence-based argumentation can shift even deeply held beliefs.",
+  "key_claims": [
+    "Conspiracy beliefs, often considered resistant to evidence, can be substantially and durably reduced through tailored factual counterarguments delivered by an LLM.",
+    "Prior debunking attempts have failed largely because counterevidence was insufficiently deep and personalized, not because believers are inherently impervious to facts.",
+    "Psychological needs and motivations are not the dominant barrier to belief revision; analytic engagement with compelling evidence plays a central role.",
+    "Generative AI can serve as a scalable, accurate tool for correcting epistemically suspect beliefs, while also posing symmetric risks if used to promote false beliefs."
+  ],
+  "methods": [
+    "Two preregistered online experiments (Study 1: N=1055; Study 2: N=2286, combined across 2a and 2b) with quota-matched US samples recruited via CloudResearch Connect, plus a robustness replication on Lucid.",
+    "Participants described, in their own words, a conspiracy theory they believed in and the evidence supporting it; GPT-4 Turbo summarized the belief and participants rated pretreatment endorsement on a 0–100 scale.",
+    "Random assignment (60/40) to treatment (three-round AI dialogue in which GPT-4 Turbo was prompted to persuasively refute the participant's specific evidence) or control (AI dialogue on an irrelevant topic such as cats vs. dogs, the medical system, or firefighters).",
+    "Outcomes measured pre/post: belief in focal conspiracy, the 15-item Belief in Conspiracy Theories Inventory (BCTI, Study 1 only), behavioral intentions (Study 2), and demographic/trust moderators; Study 1 included 10-day and 2-month follow-ups.",
+    "Natural language processing and clustering to classify focal conspiracy types; generalized additive models and causal forests to assess moderation; professional fact-checker evaluation of 128 representative AI claims."
+  ],
+  "findings": [
+    "Treatment reduced belief in the focal conspiracy by ~16.8 points in Study 1 (d=1.15, ~21% decrease) and ~12.3 points in Study 2 (d=0.79, ~19% decrease) relative to control.",
+    "Effect persisted essentially undiminished at 10 days and 2 months post-intervention.",
+    "Effect generalized across 12 conspiracy clusters including politically charged ones (2020 election fraud, COVID-19) and was significant even among participants reporting maximal belief importance and high general conspiratorial ideation.",
+    "Spillover effects: belief in unrelated BCTI conspiracies dropped ~3 points immediately and remained lower at 2 months; behavioral intentions shifted toward unfollowing/arguing against conspiracy posters.",
+    "99.2% of 128 audited AI claims were rated true by a professional fact-checker, 0.8% misleading, 0% false; the AI did not reduce belief in genuinely true conspiracies (e.g., MK Ultra).",
+    "Moderation analyses showed trust in generative AI and institutional trust amplified effects, but conditional average treatment effects were negative across all subgroups."
+  ],
+  "contributions": [
+    "Provides large-scale causal evidence that personalized, evidence-based dialogue can durably reduce conspiracy beliefs, contradicting the prevailing view that such beliefs are essentially unfalsifiable for believers.",
+    "Introduces a methodological pipeline integrating real-time LLM interactions into survey experiments, enabling open-ended elicitation, personalized treatment, and rich textual data for behavioral science.",
+    "Offers a publicly browsable conversation corpus and supports theoretical re-evaluation of motivational versus reasoning-based accounts of conspiracy belief.",
+    "Highlights dual-use implications of generative AI for persuasion and the importance of responsible deployment and guardrails."
+  ],
+  "framing": "The paper positions itself against dominant social-psychological theories that frame conspiracy beliefs as motivated, need-fulfilling, and resistant to counterevidence, aligning instead with reasoning-based accounts (e.g., Pennycook's analytic-thinking framework) that emphasize central-route persuasion. It also contributes to emerging debates on generative AI's role in the information ecosystem and on methodological innovation in behavioral science using LLM-mediated experiments.",
+  "pdf_source": "drive"
+}
