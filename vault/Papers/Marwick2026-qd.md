@@ -22,34 +22,34 @@ discovery_date: 2026-04-07T11:43:33.804347Z
 
 ## Summary
 
-Marwick, Schnabel, McGregor, and Schmitt reconceptualize disinformation as cultural narrative rather than discrete false claims. Through three U.S. case studies from 2017–2019 — the nonpartisan "Lottery Manure" satire, the right-wing "Parkland Crisis Actor" conspiracy, and the left-wing "Pee Tape" rumor — they argue that successful disinformation operates as stories with characters, settings, and plots, signaled by discursive and visual catchphrases. These narratives spread because they affirm partisan or moral identities, satisfy desires, and produce cathartic humor or outrage, traveling fluidly across platforms and genres (memes, satire, late-night comedy, news aggregation, even Kickstarter products). The reframing exposes why fact-checking, media literacy, and domain-level moderation are inadequate, and complicates the assumption that disinformation is a primarily right-wing phenomenon by showing how mainstream outlets amplified the Pee Tape when it aligned with elite liberal frames.
+Marwick, Schnabel, McGregor, and Schmitt argue that disinformation is poorly understood as discrete false claims and is better theorized as cultural narrative: stories with characters, settings, and plots that circulate across platforms and genres because they affirm identities and produce emotional catharsis. Through three U.S. case studies from 2017–2019 — the nonpartisan "Lottery Manure" satire, the right-wing "Parkland Crisis Actor" conspiracy, and the left-wing "Pee Tape" rumor — they show that successful disinformation is recognizable through discursive and visual catchphrases that invoke entire moral storyworlds. This reframing exposes why fact-checking, domain-level detection, and single-platform moderation fail: the unit of analysis is the narrative, not the URL.
 
 ## Key Contributions
 
-- A narrative-based theoretical framework for disinformation that integrates "deep stories," identity propaganda, affect, and spreadability.
-- One of the first sustained empirical analyses of a left-wing disinformation case, theorizing how mainstream media amplify speculative claims that fit elite moral frames.
-- A case for cross-platform, cross-genre analysis as methodologically necessary, undermining single-platform and domain-classification approaches.
-- An argument that fact-checking and individual-level media literacy cannot counter identity-affirming, cathartic narratives embedded in cultural frames.
-- A publicly available qualitative dataset and a replicable case-comparison methodology.
+- A narrative-based theoretical framework for disinformation that integrates deep stories, identity propaganda, affect, and spreadability.
+- One of the first sustained empirical treatments of a left-wing disinformation case (the Pee Tape) and an account of how mainstream media amplify disinformation aligned with elite liberal moral frames.
+- Empirical demonstration that disinformation circulates cross-platform and cross-genre, challenging domain- and platform-bound approaches to study and moderation.
+- A principled critique of fact-checking and individual media literacy as remedies for identity-affirming, cathartic narratives.
+- A publicly available qualitative dataset and a replicable case-comparison method.
 
 ## Methods
 
-A qualitative, theory-generating case study following Luker's "logic of discovery." The authors built a cross-platform URL corpus using Twitter's Academic Research API, CrowdTangle, and the Social Science One "Condor" Facebook dataset, sampling top-shared URLs per case, deduplicating, and capping high-frequency domains — yielding 359 URLs total (27 Lottery Manure, 99 Parkland Crisis Actor, 233 Pee Tape). A five-person team double-coded each URL with descriptive memos on content type, genre, author, headline, domain, and partisan slant, using the Wayback Machine to recover deplatformed material.
+Qualitative, theory-generating case study following Luker's "logic of discovery." The authors built a cross-platform URL corpus using Twitter's Academic Research API, CrowdTangle, and the Social Science One Condor dataset, then sampled top-shared URLs per case (27 Lottery Manure, 99 Parkland Crisis Actor, 233 Pee Tape; 359 total). A five-person team double-coded each URL with descriptive memos on genre, author, headline, domain, and partisan slant, resolving disagreements through discussion. The Wayback Machine was used to recover deplatformed material.
 
 ## Findings
 
-- All three cases functioned as recognizable narratives anchored by synecdochic catchphrases and visual cues (the laughing mugshot, David Hogg imagery, the yellow VHS tape).
-- The same stories were retold across satire, blogs, tweets, memes, Claymation videos, SNL sketches, Kickstarter products, news aggregation, and late-night comedy, preserving consistent characters, settings, and plots.
-- Each narrative carried moral evaluations: righteous revenge (Lottery Manure), media/government deception or condemnation of conspiracists (Parkland), just shaming of a corrupt president (Pee Tape).
-- Engagement was driven by desire for the story to be true, with commenters openly wishing it were real, rather than by evidence of truth.
-- Humor and catharsis let mainstream outlets cover disinformative narratives indirectly by reporting on comedians' coverage, sidestepping objectivity norms.
-- Aggregation amplified moral outrage through repetition of condemnatory language across outlets.
-- The Pee Tape was largely untouched by major fact-checkers and treated as "shorthand" by mainstream outlets, illustrating how alignment with elite frames shields speculative claims from scrutiny.
-- Visual catchphrases functioned equivalently to textual ones, evoking entire narratives without elaboration.
+- All three cases were recognizable as narratives through synecdochic catchphrases and visual cues — the laughing mugshot, David Hogg images, the yellow VHS tape — that compressed whole storyworlds into a token.
+- The same narratives were retold across satire, memes, blogs, tweets, Claymation, SNL sketches, Kickstarter campaigns, news aggregation, and late-night comedy while preserving characters, settings, and plots.
+- Each narrative carried a moral evaluation: righteous revenge on a bad boss, media/government deception (or condemnation of conspiracists), and just shaming of a corrupt president.
+- Engagement was driven by desire for the story to be true; commenters openly wished it were real, indicating that wishfulness, not verification, fueled spread.
+- Humor and catharsis let mainstream outlets cover disinformative narratives by reporting on comedians' coverage, sidestepping objectivity norms.
+- Aggregation amplified moral outrage by recycling the same incident across outlets in escalating condemnatory language.
+- The Pee Tape was largely untouched by major fact-checkers and treated as cultural "shorthand," showing how alignment with elite frames can shield speculative claims.
+- Visual catchphrases functioned equivalently to discursive ones, evoking entire narratives without text.
 
 ## Connections
 
-This paper's narrative and identity-affirming account of disinformation resonates with broader platform-era reflections on how meaning, identity, and circulation outrun any single platform's logic — see [[Marwick2026-ss]] and [[Boyd2026-op]] for adjacent reconsiderations of online culture, and [[Baym2026-tr]] for the affective/relational dimensions of mediated communication that help explain why cathartic stories travel. [[Swartz2026-zb]] is less directly related but shares the impulse to read platform phenomena as cultural rather than purely informational artifacts.
+This paper sits directly alongside [[Marwick2026-ss]] in extending a cultural and narrative lens to platform-era information disorder, and it speaks to [[Baym2026-tr]] in showing how late-night comedy and entertainment genres become conduits through which disinformative narratives gain mainstream legitimacy. The cross-platform, cross-genre methodology also complicates platform-centric accounts of online publics found in [[Boyd2026-op]] and [[Swartz2026-zb]], pushing analysis from platform affordances toward the circulating narrative as the proper object of study.
 
 ## Podcast
 
