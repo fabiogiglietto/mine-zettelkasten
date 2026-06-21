@@ -1,36 +1,37 @@
 {
-  "abstract": "This paper uses the 2025 German federal election as a case study to examine the practical and infrastructural challenges of analyzing electoral discourse across multiple social media platforms (X and TikTok). Despite the title metadata referring to Andreas Hepp's work on AI imaginaries, the actual content is by Schulte, Pasic, Goanta, and Iamnitchi, who collected and analyzed 81,866 X posts and 43,597 TikTok videos to identify bottlenecks in data access, multi-platform monitoring, and content analysis. The authors argue that platform observability should be conceptualized as a reusable research infrastructure — a foundation of standardized tools, workflows, and documentation enabling reliable cross-platform and cross-temporal comparisons. They derive four recommendations for building such infrastructure under restrictive platform governance.",
+  "abstract": "This article analyzes the imaginative landscape of AI in the San Francisco Bay Area, arguing that alongside the 'loud futuring' of Big Tech CEOs and investors, a 'quiet futuring' takes place among AI-related communities, labs, and pioneer groups that is equally crucial to understanding Silicon Valley's power geometries of AI. Based on multisited media ethnography conducted between December 2024 and February 2026, Hepp shows how this landscape is anchored in appropriated places, constructed within specific social figurations, and characterized by discursive thickenings around three themes: AGI, job loss, and AI geopolitics. While the landscape appears fragmented and ideologically contradictory, it coheres as a form of quiet futuring that supplies a reservoir of ideas amplified by loud futuring, while presenting itself as apolitical despite being deeply political.",
   "key_claims": [
-    "The central gap in election-related social media research is not a lack of studies but the absence of consolidated, reusable research infrastructure for multi-platform observability under constrained data access.",
-    "Platform-specific affordances, API restrictions, and algorithmic biases force researchers to adopt platform-tailored data collection strategies, undermining reproducibility and comparability.",
-    "Political parties target platforms differently and use distinct engagement tactics (e.g., authored vs. promoted content), making single-platform analyses partial and potentially misleading.",
-    "TikTok political communication exhibits a 'politainment' dynamic in which negative or critical textual/visual content is delivered with calm vocal tone, requiring multimodal rather than text-only analysis.",
-    "The Digital Services Act's transparency requirements remain practically unenforced, while platforms like X actively obstruct data collection."
+    "Critical analyses of AI imaginaries have overemphasized the 'loud futuring' of radicalizing CEOs/investors (cyberlibertarianism, solutionism, technofascism) and neglected the equally important 'quiet futuring' of locally anchored Bay Area communities.",
+    "Silicon Valley's imaginative landscape of AI cannot be reduced to a single ideology; it is fragmented, contradictory, and includes counter-currents like 'public AI' alongside cyberlibertarian and right-wing strands.",
+    "Imaginative landscapes operate on three interrelated layers: appropriated places, social figurations, and discursive thickenings.",
+    "Loud and quiet futuring exist in a bidirectional, circular relationship: quiet futuring provides a reservoir of ideas (especially from Effective Altruism and Rationalism) that loud futuring condenses and amplifies, while loud futuring sets agendas for quiet discussion.",
+    "Actors engaged in quiet futuring tend to present themselves as apolitical even though their visions—especially around AGI timelines, labor futures, and US-China competition—are highly political and constitutive of AI's power geometries.",
+    "Effective Altruism and the Rationalist community function as particularly influential pioneer communities, supplying the long-termist temporal arguments that frame AI as an existential risk."
   ],
   "methods": [
-    "Case study of the German 2025 federal election, covering 6 November 2024 to 23 February 2025.",
-    "Parallel scraping of X (via X API v2 using a twitter-api-client implementation) and TikTok, seeded with official party accounts and expanding via mentions (X) and hashtags (TikTok).",
-    "Distinction between 'authored' posts (by party accounts) and 'promoted' posts (retweets, mentions, shared-hashtag content).",
-    "Multimodal pipeline on TikTok videos: speaker diarization with pyannote.audio; facial emotion via OpenCV + DeepFace; vocal tone via HuBERT; textual sentiment via XLM-R.",
-    "Cramér's V used to measure associations between sentiment, vocal tone, and facial emotion modalities.",
-    "Topic modeling with BERTopic to identify and track thematic clusters over time and compare them across platforms."
+    "Multisited media ethnography in the San Francisco Bay Area conducted across two phases: an exploratory phase (December 2024) and a core phase with three field trips (June 2025–February 2026).",
+    "Purposive and snowball sampling in the exploratory phase, transitioning to theoretical sampling (Grounded Theory) in the core phase.",
+    "Data collection included 53 interviews total (with community members, organizational representatives, technologists, and academic researchers), 8 observations of locations, and 7 observations of events (conferences, meetings, protests).",
+    "Netnography of relevant online forums (e.g., LessWrong, Substack, Discord) and in-depth online interviews.",
+    "Analysis combined open coding with an 'extended situational analysis' building on Clarke et al. (2022), iteratively mapping the imaginative landscape across places, figurations, and discourses.",
+    "Fieldwork sites included OpenAI/Anthropic headquarters, AGI House, Frontier Tower, MOX, Constellation, Lighthaven, The Commons, Stanford HAI, Berkeley BAIR, and events such as EAGlobal, The Curve, and StopAI protests."
   ],
   "findings": [
-    "Dataset comprised 81,866 X posts from 541 accounts and 43,597 TikTok videos from 4,682 accounts across seven major German parties.",
-    "Parties vary substantially in platform preference: BSW is highly active on X but minimal on TikTok; AfD is highly active on TikTok; FDP and CDU active on both.",
-    "Cross-modal associations on TikTok are uniformly weak (Cramér's V ≤ 0.104), indicating that text, voice, and facial channels carry independent emotional signals.",
-    "Political TikToks tend to pair negative textual sentiment and emotionally charged facial expressions with calm vocal tone, consistent with a politainment style.",
-    "Top topics overlap across platforms (Russia/Ukraine war and migration dominant on both), but migration is more prominent on TikTok while Israel/Gaza and EU topics are more prominent on X; news-driven topics (Magdeburg attack, fall of Syrian regime) appear on X but not in TikTok's top topics.",
-    "Roughly two-thirds of scraped TikTok hashtag-based content was non-political noise, requiring extensive filtering.",
-    "X API v2 limits (e.g., ~1000 posts/day per account) prevent full historical recovery, while TikTok returns partial, algorithmically-influenced results requiring repeated calls."
+    "AI development is geographically concentrated in San Francisco rather than the traditional lower Silicon Valley, driven by labs (OpenAI, Anthropic) and technologists' preference for urban living.",
+    "Specific appropriated places—labs, universities, 'start-up houses' (e.g., AGI House), and community spaces (Frontier Tower, MOX, Constellation, Lighthaven, The Commons)—materially anchor distinct ideological orientations.",
+    "The social figuration involves intersecting corporate actors (OpenAI, Anthropic, Stanford, Berkeley) and collective actors (Effective Altruism, Rationalists, Reboot, Ethereum, StopAI, Golden Gate Institute), with strong historical influence of EA/Rationalism on the founding and orientation of major AI labs.",
+    "At EAGlobal 2026, of ~1200 attendees, 38 were affiliated with Anthropic and 16 with OpenAI, indicating ongoing close ties between EA and the labs despite official distancing.",
+    "Three dominant discursive thickenings were identified: (1) the arrival of AGI, (2) AI-driven job loss (including UBI discussions backed by Altman's $14M contribution to OpenResearch), and (3) the geopolitics of AI, especially the US-China 'AI race'.",
+    "Despite no consensus on AGI timelines, the question of when (not whether) AGI arrives organizes most discussions.",
+    "Technologists present themselves as apolitical (illustrated by Jasmine Sun/Reboot's 'silly tech thing' episode) even while engaging in deeply political visioning."
   ],
   "contributions": [
-    "Documentation of concrete bottlenecks in multi-platform election observability under post-API conditions.",
-    "An empirical multi-platform, multi-modal dataset and analytical pipeline applied to the 2025 German federal election.",
-    "Four actionable recommendations: (1) standardize data structures per platform affordance; (2) raise quality standards for election data access, including transparent political-account labeling by platforms; (3) tailor analytical methods to content type (multimodal for video platforms); (4) institutionalize interdisciplinary collaboration combining computational and political-science expertise.",
-    "Reframing of platform observability as a shared research infrastructure problem rather than as isolated study-specific data collection.",
-    "Evidence informing policy discussions around DSA Article 40 and vetted researcher access."
+    "Introduces the conceptual distinction between 'loud futuring' and 'quiet futuring' to enrich analyses of AI's power geometries.",
+    "Develops the concept of the 'imaginative landscape' as a three-layered analytical framework (appropriated places, social figurations, discursive thickenings) that integrates material, actor-based, and discursive dimensions.",
+    "Proposes an 'extended situational analysis' as a methodological extension of Clarke et al.'s situational analysis, oriented toward mapping entire landscapes rather than discrete situations.",
+    "Provides ethnographic evidence of how Silicon Valley's AI imaginaries are locally anchored, complicating personalized critiques focused on Musk, Thiel, or Andreessen.",
+    "Contributes to ongoing debates in Media, Culture & Society on AI power geometries (Natale et al., 2025) by foregrounding the spatial and community-based grounding of agency."
   ],
-  "framing": "The paper positions itself within post-API computational social science and platform governance scholarship, building on debates about the 'APIcalypse' (Bruns), the data abyss (de Vreese & Tromble), and DSA-era vetted researcher access. It draws on prior work on social media observatories and longitudinal monitoring workflows to argue for treating election observability as a reusable infrastructure problem rather than as a series of one-off empirical studies.",
+  "framing": "The article situates itself within media and communication research on sociotechnical imaginaries (Jasanoff & Kim, Taylor, Appadurai) and the critical literature on AI power geometries (Natale et al., Massey), engaging with but pushing beyond critiques of cyberlibertarianism, solutionism, and technofascism (Golumbia, McQuillan, Coeckelbergh, Silverman). It draws on process sociology (Elias), Bourdieu, and the TESCREAL critique (Gebru & Torres) to argue for a more spatially and figurationally grounded account of Silicon Valley's imaginative work around AI.",
   "pdf_source": "drive"
 }

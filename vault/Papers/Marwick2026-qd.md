@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1080/10584609.2026.2644198
 bibtex_key: Marwick2026-qd
 topics: [platform-era-reflections]
-citation_count: 0
+citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2644198
 podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Marwick2026-qd.mp3
@@ -22,29 +22,34 @@ discovery_date: 2026-04-07T11:43:33.804347Z
 
 ## Summary
 
-Despite a title invoking disinformation, this reflective essay is an autobiographical meditation on what platform-era social media has foreclosed. Marwick draws on two decades of personal fieldnotes — Prodigy, IRC, VAX/VMS bulletin boards, and especially LiveJournal in the early 2000s — to argue that the small, semi-private, subcultural writing communities of the early internet enabled forms of reciprocity, vulnerability, and lifelong attachment that contemporary scale-and-engagement platforms structurally cannot. The current state of social media, she insists, was not inevitable: it is the contingent product of advertising-driven political economy, surveillance, consolidation, and algorithmic optimization, and different design and governance choices could have cultivated more humane publics.
+Marwick, Schnabel, McGregor, and Schmitt reconceptualize disinformation as cultural narrative rather than discrete false claims. Through three U.S. case studies from 2017–2019 — the nonpartisan "Lottery Manure" satire, the right-wing "Parkland Crisis Actor" conspiracy, and the left-wing "Pee Tape" rumor — they argue that successful disinformation operates as stories with characters, settings, and plots, signaled by discursive and visual catchphrases. These narratives spread because they affirm partisan or moral identities, satisfy desires, and produce cathartic humor or outrage, traveling fluidly across platforms and genres (memes, satire, late-night comedy, news aggregation, even Kickstarter products). The reframing exposes why fact-checking, media literacy, and domain-level moderation are inadequate, and complicates the assumption that disinformation is a primarily right-wing phenomenon by showing how mainstream outlets amplified the Pee Tape when it aligned with elite liberal frames.
 
 ## Key Contributions
 
-- A first-person historiographic account of pre-platform sociality, contributing to the cultural memory of the early internet.
-- A normative critique of platform political economy paired with a call for alternative infrastructural imaginaries.
-- A reframing of social media as *social infrastructure* requiring stewardship, rather than as a commercial product optimized for ad revenue.
-- A generative provocation: rebuilding online community will not come from re-implementing mega-platforms (e.g., Bluesky-as-Twitter) but from reimagining small-scale, reciprocal infrastructures.
+- A narrative-based theoretical framework for disinformation that integrates "deep stories," identity propaganda, affect, and spreadability.
+- One of the first sustained empirical analyses of a left-wing disinformation case, theorizing how mainstream media amplify speculative claims that fit elite moral frames.
+- A case for cross-platform, cross-genre analysis as methodologically necessary, undermining single-platform and domain-classification approaches.
+- An argument that fact-checking and individual-level media literacy cannot counter identity-affirming, cathartic narratives embedded in cultural frames.
+- A publicly available qualitative dataset and a replicable case-comparison methodology.
 
 ## Methods
 
-Critical-essayistic reflection rather than empirical study. Marwick mobilizes autobiographical fieldnotes and historical recollection of specific platforms, situating personal experience within broader debates in platform studies and the critical political economy of social media.
+A qualitative, theory-generating case study following Luker's "logic of discovery." The authors built a cross-platform URL corpus using Twitter's Academic Research API, CrowdTangle, and the Social Science One "Condor" Facebook dataset, sampling top-shared URLs per case, deduplicating, and capping high-frequency domains — yielding 359 URLs total (27 Lottery Manure, 99 Parkland Crisis Actor, 233 Pee Tape). A five-person team double-coded each URL with descriptive memos on content type, genre, author, headline, domain, and partisan slant, using the Wayback Machine to recover deplatformed material.
 
 ## Findings
 
-- LiveJournal's granular friends-only filters supported audience management, trust, and sustained reciprocal writing — producing lifelong friendships and partnerships.
-- The subcultural, small-user-base character of early platforms was integral to their intimacy and is structurally difficult to reproduce at platform scale.
-- Contemporary platforms generate harassment, polarization, and corporate capture, pushing users toward ambient, ephemeral, or encrypted-chat alternatives.
-- What has been lost is not just particular features but an entire ethos of vulnerability and care within bounded publics.
+- All three cases functioned as recognizable narratives anchored by synecdochic catchphrases and visual cues (the laughing mugshot, David Hogg imagery, the yellow VHS tape).
+- The same stories were retold across satire, blogs, tweets, memes, Claymation videos, SNL sketches, Kickstarter products, news aggregation, and late-night comedy, preserving consistent characters, settings, and plots.
+- Each narrative carried moral evaluations: righteous revenge (Lottery Manure), media/government deception or condemnation of conspiracists (Parkland), just shaming of a corrupt president (Pee Tape).
+- Engagement was driven by desire for the story to be true, with commenters openly wishing it were real, rather than by evidence of truth.
+- Humor and catharsis let mainstream outlets cover disinformative narratives indirectly by reporting on comedians' coverage, sidestepping objectivity norms.
+- Aggregation amplified moral outrage through repetition of condemnatory language across outlets.
+- The Pee Tape was largely untouched by major fact-checkers and treated as "shorthand" by mainstream outlets, illustrating how alignment with elite frames shields speculative claims from scrutiny.
+- Visual catchphrases functioned equivalently to textual ones, evoking entire narratives without elaboration.
 
 ## Connections
 
-This essay sits squarely within the *Social Media + Society* anniversary cluster reflecting on what platformization has foreclosed; it pairs especially closely with [[Baym2026-tr]] on relational and community dimensions of online life, and with [[Boyd2026-op]] on the trajectory and governance of networked publics. [[Swartz2026-zb]] complements its political-economic critique of platform infrastructures, while [[Marwick2026-ss]] extends the author's own through-line on self-presentation and networked privacy that grounds the LiveJournal analysis here.
+This paper's narrative and identity-affirming account of disinformation resonates with broader platform-era reflections on how meaning, identity, and circulation outrun any single platform's logic — see [[Marwick2026-ss]] and [[Boyd2026-op]] for adjacent reconsiderations of online culture, and [[Baym2026-tr]] for the affective/relational dimensions of mediated communication that help explain why cathartic stories travel. [[Swartz2026-zb]] is less directly related but shares the impulse to read platform phenomena as cultural rather than purely informational artifacts.
 
 ## Podcast
 

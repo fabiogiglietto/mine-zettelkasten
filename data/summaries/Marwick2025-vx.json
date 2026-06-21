@@ -1,36 +1,39 @@
 {
-  "abstract": "This paper bridges HCI scholarship and EU regulation by mapping 59 known dark patterns from Gray et al.'s unified ontology onto the three autonomy violation types prohibited under Article 25 of the EU Digital Services Act (DSA): deception, manipulation, and distortion/impairment. Through iterative qualitative coding, the authors identify eight design factors—spanning an 'Information Space' and a 'Choice Space'—that explain why a given dark pattern constitutes a specific autonomy violation. The resulting 'law-to-design' framework is demonstrated through application to attention-capture damaging patterns and an ongoing EU Commission enforcement case against X (formerly Twitter) concerning paid blue checkmarks.",
+  "abstract": "This article investigates how participants in U.S.-based Far-Right online communities narrate their adoption of extremist beliefs, framed through the metaphor of taking the 'redpill.' Using qualitative content analysis of a corpus of 'redpilling narratives' from Reddit, Gab, and Discord, Marwick and Furl show that while some users describe redpilling as a sudden conversion event, most accounts reveal a processual socialization shaped by repeated exposure to disinformation framed as 'evidence.' The authors argue that the self-presentation of Far-Right adherents as rational, scientific evaluators of evidence legitimizes hateful beliefs and makes disinformation central—rather than incidental—to extremist recruitment.",
   "key_claims": [
-    "DSA Article 25 protects user autonomy by prohibiting three distinct types of violations (deception, manipulation, distortion/impairment), and dark patterns can be systematically mapped to these categories.",
-    "Eight design factors—two each for deception and distortion/impairment, and four for manipulation—can be used to justify why a particular design practice constitutes a specific autonomy violation.",
-    "Dark patterns typically implicate multiple autonomy violations simultaneously rather than single violation types; only 17 of 59 patterns analyzed map to a single violation.",
-    "HCI methods and reasoning frameworks can play a central role in regulatory design auditing, supporting both enforcement by regulators and compliance-by-design by platforms.",
-    "Deception and manipulation often present as a continuum of influence separated by severity, while distortion/impairment is conceptually more distinct."
+    "The popular 'exposure equals belief' model of online radicalization misrepresents how people actually come to hold Far-Right beliefs; adoption is typically a gradual socialization process rather than a single conversion moment.",
+    "Despite Far-Right communities' own framing of the 'redpill' as a transformative event, most narratives reveal 'processual redpilling'—incremental belief change through sustained community participation and content consumption.",
+    "Disinformation—including pseudoscientific books, statistics, charts, and memes—functions as 'evidence' that participants marshal to justify racist, anti-Semitic, and misogynist beliefs as rational conclusions.",
+    "Participants' self-image as intelligent, scientific, and rational actors is central to legitimizing extremist views and rejecting mainstream knowledge sources.",
+    "Framing socialization as either 'redpilling' or 'radicalization' obscures continuities between Far-Right communities and ordinary processes of political socialization, and overstates the singular power of extremist content.",
+    "Anti-feminism, transphobia, Islamophobia, and anti-immigration often function as socially acceptable 'gateway beliefs' into more extreme ideologies."
   ],
   "methods": [
-    "Qualitative analysis of 59 meso- and low-level dark patterns from Gray et al.'s (2024) unified ontology, excluding the five high-level abstract strategies.",
-    "Adoption of Santos et al.'s (2024) tripartite legal interpretation of DSA Article 25 autonomy violations as the coding framework.",
-    "Iterative independent coding by two authors using AirTable, with three structured rounds of discrepancy resolution for autonomy violation labels.",
-    "Inductive identification of design factors from rationale memos, followed by deductive re-coding of 34 low-level patterns against an eight-factor codebook (Cohen's κ = 0.679, substantial agreement).",
-    "Final reasoning validation by additional co-authors, producing structured rationales for each pattern.",
-    "Two demonstration applications: extending the framework to 11 Attention Capture Damaging Patterns (ACDPs) from Monge Roffarello et al., and an in-situ case study of X's paid blue checkmarks under EU Commission proceedings."
+    "Qualitative content analysis of a textual corpus of 'redpilling narratives' totaling roughly 7 million words across 153 documents.",
+    "Data collected from 14 subreddits (including DebateAltRight, MGTOW, MensRights, greatawakening, The_Donald, and ex-redpill support communities) via the Pushshift Reddit API.",
+    "Data scraped from Gab using Pushshift archives covering August 2016 to October 2018.",
+    "Data drawn from 129 Far-Right Discord servers leaked by the activist collective Unicorn Riot, with 4,773 conversations extracted using keyword searches plus contextual messages.",
+    "Use of targeted terms lists keyed to 'redpill' and 'rabbit hole' vocabularies, with codebooks developed abductively—starting from prior research and refined through line-by-line coding.",
+    "Theoretical framing via the socio-technical theory of media effects, attending to actors, messages, and platform affordances.",
+    "Ethical considerations included redacting usernames and identifying details from the leaked Discord data."
   ],
   "findings": [
-    "Of 59 dark patterns, 17 mapped to a single autonomy violation and 42 to multiple violations (31 to two, 11 to all three).",
-    "All Sneaking patterns map to deception, all Obstruction patterns to distortion/impairment, and all Social Engineering patterns to manipulation—indicating strong internal consistency within these high-level categories.",
-    "Forced Action is the most diverse high-level category in terms of autonomy violations triggered; Interface Interference shows manipulation as dominant with deception secondary.",
-    "The deception-manipulation pairing is the largest combination subset (22 patterns), while the manipulation-distortion pair is the smallest (2 patterns).",
-    "Eight design factors are organized into an Information Space (Information Availability, Correctness, Framing, Presentation) and a Choice Space (Choice Simplification, Presentation, Availability, Effort).",
-    "Multiple autonomy violations can co-occur separately (one or the other), sequentially (temporal progression, e.g., drip pricing), or reinforcingly (e.g., Sneak into Basket)."
+    "Two dominant narrative types emerged: redpilling as a singular 'eureka' conversion moment, and redpilling as a long-term, lifelong process of reading, listening, and community participation.",
+    "Many users described political evolution through sequences of ideologies (e.g., communism to anti-feminism to conservatism to fascism), often beginning with 'ironic' racism that became sincere.",
+    "'Redpills' are frequently circulated as standalone 'facts'—short statistics or claims rooted in biological essentialism and anti-Black, anti-Semitic, or misogynist tropes.",
+    "Books were the most frequently mentioned redpilling source, surpassing friends, family, or influencers; titles ranged from Mein Kampf and The Bell Curve to Gone With the Wind, often distributed as free PDFs and discussed in organized 'book clubs.'",
+    "Communities emphasize 'doing your own research,' critical thinking, and demanding sources ('sauce'), constructing a self-image of rational superiority over 'normies.'",
+    "Vast archives of 'evidence' (e.g., '2 terabytes of redpills' on /pol/) function as proof through sheer volume rather than veracity.",
+    "Conversion experiences carry strong affective dimensions, including gratitude, love, and a sense of awakening, consistent with theories of radicalization as taking on a community's 'way of feeling.'"
   ],
   "contributions": [
-    "A comprehensive mapping of 59 dark patterns to the three DSA Article 25 autonomy violation types, with explicit reasoning for each.",
-    "Identification and definition of eight design factors that operationalize when and why a dark pattern constitutes a specific autonomy violation.",
-    "A 'law-to-design' framework that translates legal provisions into design-oriented reasoning, complementing prior 'design-to-law' efforts.",
-    "Demonstration of framework extensibility through application to Attention Capture Damaging Patterns not covered in the Gray et al. ontology.",
-    "An applied case study of X's paid blue checkmarks under ongoing EU Commission enforcement, illustrating practical regulatory utility.",
-    "A shared interdisciplinary vocabulary bridging HCI scholarship with legal/regulatory practice on dark pattern governance."
+    "Provides empirical grounding for understanding online radicalization as socialization rather than instantaneous brainwashing, challenging both popular and Far-Right framings of the 'redpill.'",
+    "Introduces and develops the concept of 'processual redpilling' as a more accurate framework for the gradual adoption of extremist beliefs.",
+    "Demonstrates the centrality of disinformation—particularly historical, pseudoscientific, and book-based forms—to Far-Right recruitment, expanding disinformation studies beyond social media posts.",
+    "Applies the socio-technical theory of media effects to extremist community participation, linking actors, messages, and affordances.",
+    "Highlights how claims of rationality, science, and evidence are weaponized to legitimize prejudice, with implications for counter-messaging and for academic responsibility in fields vulnerable to misappropriation.",
+    "Offers a rare in-situ analysis using leaked Discord data alongside Reddit and Gab, providing cross-platform insight into Far-Right discourse."
   ],
-  "framing": "The paper positions itself at the intersection of HCI dark patterns scholarship and emerging EU platform regulation, building directly on Gray et al.'s unified dark patterns ontology and Santos et al.'s legal interpretation of DSA Article 25. It contributes to the growing field of regulatory design auditing and HCI-law translational research, departing from prior 'design-to-law' analyses by working in the reverse direction—from legal provisions toward design reasoning.",
+  "framing": "The paper situates itself within communication, media effects, and radicalization studies, pushing back against simplistic 'exposure causes belief' models and against radicalization frameworks inherited from post-9/11 counterterrorism. It draws on critical disinformation studies, sociology of socialization and affect (notably McDonald and Hochschild), and scholarship on the manosphere and the Far-Right to reframe 'redpilling' as a socio-technical effect of disinformation embedded in long histories of scientific racism and White supremacist thought.",
   "pdf_source": "drive"
 }

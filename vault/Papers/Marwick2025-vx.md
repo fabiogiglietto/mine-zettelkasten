@@ -22,32 +22,33 @@ discovery_date: 2025-06-15T00:00:00Z
 
 ## Summary
 
-Despite the title referencing "redpilling" and disinformation, the structured summary describes a paper that bridges HCI dark patterns scholarship with EU platform regulation. The authors systematically map 59 dark patterns from Gray et al.'s unified ontology onto the three user-autonomy violations prohibited under Article 25 of the EU Digital Services Act—deception, manipulation, and distortion/impairment. Through iterative qualitative coding, they derive eight design factors (organized into an "Information Space" and a "Choice Space") that explain *why* a given pattern constitutes a particular violation. The result is a "law-to-design" framework intended to support both regulator enforcement and compliance-by-design, demonstrated on attention-capture damaging patterns and an ongoing EU Commission case against X's paid blue checkmarks.
+This article reframes online Far-Right radicalization as a gradual socialization process rather than a sudden conversion event, despite the genre's own mythology of the instantaneous "redpill." Drawing on a large multi-platform corpus of first-person redpilling narratives from Reddit, Gab, and leaked Far-Right Discord servers, Marwick and Furl show that participants overwhelmingly describe incremental belief change driven by sustained immersion in communities where disinformation circulates as "evidence." They argue that the self-image of Far-Right adherents as rational, scientific evaluators of facts is precisely what legitimizes hateful beliefs, making disinformation central—not incidental—to extremist recruitment.
 
 ## Key Contributions
 
-- A complete mapping of 59 meso- and low-level dark patterns to DSA Article 25's three autonomy violation categories, with explicit per-pattern reasoning.
-- An eight-factor design vocabulary (Information Availability, Correctness, Framing, Presentation; Choice Simplification, Presentation, Availability, Effort) operationalizing when a pattern violates autonomy.
-- A reverse "law-to-design" framework complementing prior "design-to-law" work.
-- Demonstrations of extensibility: application to 11 Attention Capture Damaging Patterns and an in-situ analysis of X's blue checkmarks under EU enforcement.
-- A shared interdisciplinary vocabulary linking HCI design analysis with legal/regulatory practice.
+- Develops the concept of **processual redpilling** as a corrective to "exposure equals belief" and singular-conversion models.
+- Reframes online radicalization as ordinary political socialization shaped by socio-technical affordances, rather than as exceptional brainwashing.
+- Demonstrates that disinformation in Far-Right communities extends well beyond viral social media content into books, pseudoscientific statistics, charts, and curated archives.
+- Shows how claims to rationality, science, and "doing your own research" are weaponized to launder prejudice as reasoned conclusion.
+- Provides a rare cross-platform empirical view that incorporates leaked Discord data alongside Reddit and Gab.
 
 ## Methods
 
-Two authors independently coded 59 dark patterns in AirTable using Santos et al.'s legal interpretation of Article 25, resolving disagreements over three structured rounds. Design factors were derived inductively from rationale memos and then applied deductively in a second coding pass on 34 low-level patterns (Cohen's κ = 0.679). Co-authors validated the final rationales. The framework was then stress-tested on attention-capture patterns outside the original ontology and on a real EU Commission enforcement case.
+Qualitative content analysis of ~7 million words across 153 documents of "redpilling narratives." Reddit data (14 subreddits including DebateAltRight, MGTOW, The_Donald, greatawakening, and ex-redpill communities) and Gab archives (Aug 2016–Oct 2018) were collected via Pushshift; Discord data came from 129 Far-Right servers leaked by Unicorn Riot, with 4,773 conversations extracted via keyword searches around "redpill" and "rabbit hole" vocabularies. Codebooks were developed abductively through line-by-line coding, framed by a socio-technical theory of media effects attending to actors, messages, and affordances. Usernames and identifying details from leaked data were redacted.
 
 ## Findings
 
-- Only 17 of 59 patterns map to a single autonomy violation; 31 implicate two violations and 11 implicate all three.
-- High-level categories show strong internal consistency: all Sneaking patterns are deceptive, all Obstruction patterns are distorting/impairing, and all Social Engineering patterns are manipulative.
-- Forced Action is the most heterogeneous category; Interface Interference is dominantly manipulative with deception as secondary.
-- Deception + manipulation is the most common pairing (22 patterns); manipulation + distortion is rarest (2 patterns).
-- Deception and manipulation behave as a continuum of influence severity, while distortion/impairment is conceptually distinct.
-- Violations can co-occur in alternative, sequential (e.g., drip pricing), or reinforcing (e.g., Sneak into Basket) configurations.
+- Two narrative archetypes recur: the singular "eureka" awakening and the long, lifelong reading-and-community process—with the latter dominating.
+- Users frequently describe ideological trajectories that pass through anti-feminism, transphobia, Islamophobia, or anti-immigration before arriving at explicitly White nationalist or fascist positions; these function as socially acceptable gateway beliefs.
+- "Ironic" racism often slides into sincere racism through repeated community participation.
+- Short, decontextualized statistics and tropes circulate as standalone "redpills," typically grounded in biological essentialism and anti-Black, anti-Semitic, or misogynist claims.
+- Books were the single most cited redpilling source—above friends, family, or influencers—ranging from *Mein Kampf* and *The Bell Curve* to *Gone With the Wind*, often shared as free PDFs and discussed in organized "book clubs."
+- Communities valorize "doing your own research," demand "sauce," and frame themselves as rationally superior to "normies"; large archives (e.g., "2 terabytes of redpills") function as proof through sheer volume.
+- Conversion carries strong affective weight—gratitude, love, awakening—consistent with theories of radicalization as adopting a community's "way of feeling."
 
 ## Connections
 
-No other papers have been provided under shared topics, so there are no register neighbours to link. Intellectually, the work sits squarely between Gray et al.'s unified dark patterns ontology and Santos et al.'s legal reading of DSA Article 25, and it contributes to the emerging area of regulatory design auditing that translates between HCI and platform law.
+No other papers have been provided under shared topics, so there are no internal wikilinks to make here. Conceptually, the piece sits at the intersection of critical disinformation studies, sociology of socialization and affect, and manosphere/Far-Right scholarship, and would connect naturally to work on platform affordances, gateway radicalization, and the epistemology of "doing your own research" should such notes be added later.
 
 ## Podcast
 

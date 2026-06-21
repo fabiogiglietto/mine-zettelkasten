@@ -1,35 +1,37 @@
 {
-  "abstract": "This conceptual paper argues that the 'social media' paradigm—organized around user-generated content circulating through social networks—is unraveling and must be replaced by a new analytical framework the authors call 'post-social media studies.' Törnberg and Rogers identify three interlocking dynamics driving this transformation: a shift from social-graph to interest-based algorithmic recommendation, the rise of generative AI as a producer of synthetic content, and a retreat from public platforms into private, bounded spaces. They propose that these dynamics are giving rise to three distinct emergent formations—algorithmic broadcasting platforms, semi-private spheres and micro-communities, and AI-mediated communication—each requiring new conceptual vocabularies, methods, and normative frameworks. Note: the title provided ('When do parties lie? Misinformation and radical-right populism across 26 countries') does not match the actual content of the supplied PDF, which is 'Towards a Post-Social Media Studies' by Petter Törnberg and Richard Rogers.",
+  "abstract": "This article investigates which political parties spread misinformation on social media, using a cross-national dataset of 32 million tweets from parliamentarians in 26 countries (2017-2022). By linking shared URLs to factuality ratings from Media Bias/Fact Check and Wikipedia's Fake News list, and combining with Parlgov and V-Dem party data, the authors test whether populism, left-right ideology, or specifically radical-right populism drives misinformation sharing. They find that neither populism nor right-wing ideology alone predicts misinformation, but their combination—radical-right populism—is the strongest determinant.",
   "key_claims": [
-    "The 'social media' paradigm is losing its adequacy as a unifying framework for understanding digital communication.",
-    "Three interrelated dynamics are dissolving the social media paradigm: an algorithmic shift from social graphs to interest-based recommendation, the introduction of generative AI as a substitute for user-generated content, and an exodus from public platforms into private spaces.",
-    "These shifts produce a new platform subject—the 'user-spectator' or 'algorithmic viewer'—whose primary mode of engagement is passive watching rather than active participation.",
-    "Three distinct post-social formations are emerging: algorithmic broadcasting platforms, semi-private spheres/micro-communities, and AI-mediated communication as a media form in its own right.",
-    "AI chatbots constitute a media form without publics: communication becomes individualized, generative, and ephemeral, leaving no shared text or public trace.",
-    "Existing conceptual tools (networked publics, participatory culture) and methodological approaches (network analysis, API-based scraping) are inadequate for studying these new formations.",
-    "These transformations erode the shared epistemic infrastructure on which democratic communication has historically depended, concentrating communicative power in new ways."
+    "Misinformation should be understood as a political phenomenon driven by elite party strategies rather than as a general decline in information quality.",
+    "Populism alone does not explain the spread of misinformation by political elites.",
+    "Left-right ideology alone does not explain misinformation sharing; right-wing parties are not generally more likely to spread misinformation than left-wing ones.",
+    "Radical-right populist parties are significantly more likely to share low-factuality information than mainstream or left-wing populist parties.",
+    "Misinformation and radical-right populism are inextricably linked, both rooted in a legitimacy crisis of democratic institutions and a symbiosis with attention-driven 'clickbait' media ecosystems.",
+    "Left-wing populists focus on economic elites rather than cultural/media elites, making misinformation campaigns less central to their communication strategy."
   ],
   "methods": [
-    "Conceptual and theoretical synthesis rather than original empirical demonstration.",
-    "Literature review integrating platform studies, communication theory, digital sociology, and human–machine communication scholarship.",
-    "Illustrative use of secondary evidence, including Meta's antitrust court filings (showing 7% of Instagram and 17% of Facebook time spent on followed content), industry developments (TikTok's For You Page, Meta and YouTube reorientations), and survey statistics on AI chatbot adoption versus social media posting.",
-    "Comparative analytical framework that distinguishes three emergent post-social formations and maps distinct research challenges to each."
+    "Compiled a dataset of 32 million tweets from 8,198 parliamentarians across 26 (mostly Western) countries from 2017-2022, using the Twitter Parliamentarian Database.",
+    "Extracted and expanded 18 million URLs shared by politicians, yielding 2.9 million non-social-media URLs.",
+    "Used Media Bias/Fact Check (MBFC) and the Wikipedia Fake News list to assign factuality scores (very low to very high, scaled 0-1) to 582,148 shared URLs.",
+    "Aggregated factuality scores at the party level for 177 parties to create a party-level 'factuality score' indicator.",
+    "Merged with Parlgov (party family, government participation) and V-Dem Party Dataset (populism index, left-right position, personalization, cohesion).",
+    "Validated the factuality measure by manually coding a stratified random sample of 250 articles across five factuality levels.",
+    "Estimated generalized linear mixed-effects models for beta-distributed outcomes with random country intercepts, including an interaction between populism and left-right ideology, and a separate model using party family."
   ],
   "findings": [
-    "Major platforms have shifted from social-graph-based distribution to algorithmic recommendation organized around inferred interest and passive attention signals (watch time, dwell time, completion rate).",
-    "User participation on legacy public platforms has declined significantly (cited ~50% drop in posting/viewing on Facebook and Twitter/X between 2020 and 2024).",
-    "AI chatbot use (52% of U.S. adults in 2025) now exceeds posting activity on major social media platforms (35% Facebook, 20% Instagram, 11% Twitter/X).",
-    "Generative AI enables platforms to populate feeds with synthetic content (e.g., 'Shrimp Jesus' phenomenon), reducing dependence on user-generated content.",
-    "Communicative practices are migrating toward semi-private spheres (messaging groups, Substack, invite-only communities) organized around trust and reciprocity rather than visibility and scale.",
-    "Each emergent formation poses distinct research challenges: algorithmic opacity for broadcasting platforms, access and ethics for semi-private spheres, and the absence of shared texts/publics for AI-mediated communication."
+    "Bivariate associations show a weak negative relationship between populism and factuality and a negative relationship between right-wing ideology and factuality, with high variance among populist parties.",
+    "In regression models, neither populism nor left-right position alone has a significant main effect, but their interaction is significant at 95% confidence.",
+    "For non-populist parties, economic ideology does not predict misinformation sharing; for populist parties, right-wing positioning sharply increases the probability of sharing low-factuality sources.",
+    "Radical-right parties have the highest predicted probability of sharing low-factuality information, significantly higher than all other party families except Conservative and Single-issue parties.",
+    "Conservative parties' relatively high misinformation levels may reflect the blurring boundary between Conservative and Radical Right parties.",
+    "Socialist/other left, Christian Democratic, and Liberal parties show similar, comparatively high factuality scores."
   ],
   "contributions": [
-    "Proposes 'post-social media studies' as a new analytical framework and research agenda for digital communication.",
-    "Articulates a typology of three emergent post-social formations (algorithmic broadcasting platforms, semi-private spheres, AI-mediated communication).",
-    "Introduces and synthesizes concepts such as 'algorithmic publics,' 'imitation publics,' and the 'user-spectator' to replace 'networked publics.'",
-    "Outlines methodological reorientations needed for each formation—e.g., flow analysis and rhythmanalysis for broadcasting platforms, ethnographic and design-analytic methods for semi-private spheres, and AI auditing for chatbot-mediated communication.",
-    "Frames the normative and democratic stakes of communicative infrastructures that no longer reliably produce shared publics or stable texts."
+    "Provides the first large-scale cross-national comparative analysis of misinformation sharing by political elites, covering 26 countries.",
+    "Introduces and publicly releases a combined dataset linking parliamentarian tweets, shared URLs, factuality classifications, and party-level variables for further research.",
+    "Adjudicates between competing theoretical accounts (populism vs. radical-right populism) of the political drivers of misinformation, supporting Bennett and Livingston's (2018) 'disinformation order' thesis over a generic populism account.",
+    "Reframes misinformation as a comparative party-politics phenomenon rather than primarily a social-media or individual-level phenomenon.",
+    "Develops a methodology for measuring party-level factuality using URL sharing combined with media factuality databases."
   ],
-  "framing": "The paper positions itself within platform studies, digital communication research, and critical theory of media infrastructures, engaging traditions of networked publics (boyd, Papacharissi), platformization (van Dijck, Helmond), surveillance capitalism (Zuboff), and emerging human–machine communication scholarship (Guzman & Lewis). It advances a strong programmatic claim that the foundational categories of two decades of scholarship—user-generated content, networked circulation, participatory culture—are no longer empirically or analytically adequate, calling for a paradigm shift comparable in scope to the original emergence of social media studies.",
+  "framing": "The paper positions itself within debates in political communication and comparative politics on the 'disinformation order' (Bennett and Livingston 2018), engaging with literatures on populism, post-truth politics, and the attention economy. It pushes back against accounts treating misinformation as a generalized social-media pathology or a feature of populism writ large, arguing instead that it should be theorized as a strategic feature of radical-right populist politics tied to hostility toward liberal democratic institutions and a symbiotic alternative media ecosystem.",
   "pdf_source": "drive"
 }

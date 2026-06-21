@@ -1,0 +1,38 @@
+{
+  "abstract": "Costello, Pennycook, and Rand test whether personalized, evidence-based dialogues with a large language model (GPT-4 Turbo) can durably reduce belief in conspiracy theories. Across two preregistered experiments with 2190 American conspiracy believers, a three-round AI conversation tailored to each participant's stated conspiracy and supporting evidence reduced belief in the focal conspiracy by about 20%, an effect that persisted at least two months and generalized to unrelated conspiracies and behavioral intentions. The findings challenge motivational accounts that frame conspiracy beliefs as impervious to counterevidence, suggesting instead that sufficiently compelling, tailored evidence can shift even entrenched beliefs.",
+  "key_claims": [
+    "Conspiracy believers can be talked out of their beliefs when counterevidence is sufficiently detailed, personalized, and responsive to the specific evidence they cite.",
+    "Prior debunking failures reflect a lack of depth and personalization in corrective information, not an inherent resistance of conspiracy believers to evidence.",
+    "LLMs are well-suited to debunking because they combine broad factual knowledge with the ability to tailor arguments to individual reasoning.",
+    "Belief change produced by AI dialogues is durable (≥2 months), generalizes to unrelated conspiracy beliefs, and shifts conspiracy-related behavioral intentions.",
+    "The results support analytic-reasoning accounts of belief revision over accounts that treat conspiracy beliefs as primarily serving psychological needs."
+  ],
+  "methods": [
+    "Two preregistered online experiments with US participants (Study 1 n=1055; Study 2 n=2286; plus a Lucid replication), recruited via CloudResearch Connect with quota matching to census demographics.",
+    "Participants described, in their own words, a conspiracy theory they believed and the evidence supporting it; GPT-4 Turbo generated a one-sentence summary that participants rated for belief (0–100 scale) as the pretreatment measure.",
+    "Random assignment (~60/40) to a treatment condition in which GPT-4 Turbo was prompted to 'very effectively persuade' the participant against their conspiracy belief, or a control condition discussing an unrelated topic (medical system, dogs vs. cats, or firefighters).",
+    "Three rounds of back-and-forth dialogue (mean ~8.4 minutes) with the LLM, followed by re-rating of focal conspiracy belief and the modified Belief in Conspiracy Theories Inventory (BCTI).",
+    "Follow-up assessments at 10 days and 2 months in Study 1 to test durability; Study 2 added measures of behavioral intentions (social media unfollowing, arguing with believers, protest participation) and trust.",
+    "Natural language processing and clustering of free-text conspiracies to test heterogeneity across topics; generalized additive models and causal forests to assess moderation by entrenchment, demographics, and trust.",
+    "A professional fact-checker evaluated 128 representative AI claims for accuracy and political bias."
+  ],
+  "findings": [
+    "Treatment reduced belief in the focal conspiracy by ~20% on average (Study 1: 16.8-point reduction, d=1.15; Study 2: 12.3-point reduction, d=0.79), with about 27% of treated participants moving below the scale midpoint of belief.",
+    "Effects were undiminished at 10-day and 2-month follow-ups, indicating durable belief change.",
+    "Reductions occurred across 12 distinct conspiracy clusters, including politically charged ones (2020 election fraud, COVID-19), with no significant omnibus difference across topics.",
+    "Treatment effects persisted even among participants with maximally strong prior belief, who rated the conspiracy as extremely important to their worldview, or who scored at the 90th+ percentile on general conspiratorial ideation.",
+    "Spillover effects: belief in unrelated BCTI conspiracies dropped (~8% overall, ~12% among initially believed items), persisting at 2 months; intentions to unfollow conspiracy posters and to argue with believers increased.",
+    "The AI did not reduce belief in true conspiracies (e.g., MK Ultra), where the treatment effect was directionally positive and significantly different from false-conspiracy effects.",
+    "Fact-checker evaluation found 99.2% of AI claims true, 0.8% misleading, 0% false, with no detectable partisan bias.",
+    "Trust in generative AI and institutional trust were the most consistent moderators, with higher trust associated with larger treatment effects."
+  ],
+  "contributions": [
+    "Provides strong empirical evidence against the prevailing view that conspiracy beliefs are essentially impervious to counterevidence.",
+    "Demonstrates a scalable AI-based intervention for durably reducing conspiracy beliefs, with implications for platform design, search, and education.",
+    "Introduces a methodological pipeline for embedding real-time, personalized LLM dialogues within survey experiments, enabling open-ended elicitation and adaptive treatment.",
+    "Offers a public Conversation Browser and rich textual dataset of human–AI debunking dialogues for further analysis.",
+    "Highlights both the prosocial potential and the persuasive risks of frontier LLMs, informing debates on responsible deployment of generative AI."
+  ],
+  "framing": "The paper positions itself against motivational and identity-protective accounts of conspiracy belief (e.g., Douglas, Sutton, van Prooijen) that treat such beliefs as serving psychic needs and therefore resistant to facts, and aligns instead with analytic-reasoning frameworks (Pennycook and colleagues) that emphasize central-route persuasion and the role of deliberation in belief revision. It also contributes to an emerging literature on LLMs as persuasive agents and to methodological discussions about using generative AI in behavioral science.",
+  "pdf_source": "drive"
+}

@@ -1,29 +1,38 @@
 {
-  "abstract": "This reflective essay by Alice Marwick revisits the lived experience of early internet culture—particularly LiveJournal in the early 2000s—to argue that today's platform-dominated environment has foreclosed forms of intimacy, community, and meaningful sociality that once flourished online. Drawing on autobiographical fieldnotes from Prodigy, IRC, university bulletin boards, and LiveJournal, Marwick contrasts the reciprocal, semi-private, subcultural writing communities of the old internet with what she describes as the alienating, extractive, and hostile environments of contemporary social media. She argues that the current political economy of platforms—driven by advertising, surveillance, consolidation, and algorithmic optimization—was not inevitable, and that alternative design and governance choices might have cultivated more humane digital publics. Despite the essay's title referring to disinformation, the actual content is a personal reflection on internet history and community.",
+  "abstract": "Marwick, Schnabel, McGregor, and Schmitt argue that disinformation is best understood not as discrete false facts but as cultural narratives that circulate across platforms and genres, providing identity affirmation and emotional catharsis. Drawing on three U.S. case studies from 2017–2019 (the nonpartisan 'Lottery Manure' satire, the right-wing 'Parkland Crisis Actor' conspiracy, and the left-wing 'Pee Tape' rumor), the authors qualitatively analyze a corpus of URLs widely shared on Facebook and Twitter. They find that successful disinformation operates as stories with characters, settings, and plots, signaled through discursive and visual catchphrases, and is spread because it satisfies desires, fits partisan moral frames, and produces cathartic humor or outrage. This reframing has implications for why fact-checking, media literacy, and domain-level detection approaches struggle to counter disinformation.",
   "key_claims": [
-    "Early internet platforms like LiveJournal enabled deep, reciprocal community formation and affective support in ways contemporary social media does not.",
-    "The trajectory of social media toward scale, virality, and surveillance was not inevitable but the result of specific political-economic and design choices.",
-    "Contemporary platforms are alienating, extractive, and hostile to vulnerability, foreclosing the small, semi-private, socially coherent spaces that once enabled genuine community.",
-    "If online community has a future, it will not come from replicating mega-platforms (e.g., Bluesky mimicking Twitter) but from reimagining infrastructures supporting reciprocity, vulnerability, and small-scale sociality.",
-    "Social media should have been conceived as social infrastructure requiring stewardship, safety, and care, rather than as a commercial product optimized for advertising and engagement."
+    "Disinformation is most usefully conceptualized as cross-platform, identity-affirming, cathartic narrative rather than as discrete factually incorrect claims.",
+    "Successful disinformation meets formal criteria of narrative: it has characters, settings, and plots, and is signaled by discursive or visual catchphrases (e.g., 'pee tape,' 'crisis actor') that invoke a broader story.",
+    "Disinformation narratives reaffirm partisan, populist, or moral identities and cohere with audiences' 'deep stories' in Hochschild's sense.",
+    "Emotion—especially desire, anger, moral outrage, and humor—drives the spreadability of disinformation narratives across platforms and genres.",
+    "Left-wing disinformation, exemplified by the Pee Tape, can be amplified by mainstream and centrist media when it aligns with elite liberal moral frames, and is rarely subjected to fact-checking.",
+    "Because narratives travel through diverse media forms (memes, satire, late-night comedy, news aggregation, Kickstarter campaigns, video games), domain-level classification and platform-bound moderation are inadequate countermeasures."
   ],
   "methods": [
-    "Autobiographical reflection and personal fieldnotes drawn from the author's two-decade experience of online communication.",
-    "Historical recollection of specific platforms including Prodigy, IRC, VAX/VMS bulletin boards, and especially LiveJournal in the early 2000s.",
-    "Critical-essayistic reflection rather than empirical study; situates personal experience within broader critique of platform political economy."
+    "Qualitative, theory-generating case study approach guided by a 'logic of discovery' (Luker, 2009).",
+    "Selection of three illustrative U.S. disinformation cases from 2017–2019 spanning right-wing (Parkland Crisis Actor), left-wing (Pee Tape), and nonpartisan (Lottery Manure) examples.",
+    "Construction of a cross-platform URL corpus using Twitter's Academic Research API, Facebook's CrowdTangle (Pages/Groups), and the Social Science One 'Condor' Facebook URL dataset.",
+    "Sampling top-shared URLs per case, deduplicating, and capping high-frequency domains, yielding 27 URLs (Lottery Manure), 99 (Parkland Crisis Actor), and 233 (Pee Tape), totaling 359 URLs.",
+    "Qualitative coding by a five-member team, with each URL analyzed by two coders, using descriptive memos capturing content type, genre, author, headline, domain, and partisan slant; disagreements resolved through team discussion.",
+    "Use of the Internet Archive's Wayback Machine to retrieve deplatformed content and screenshots for preservation."
   ],
   "findings": [
-    "LiveJournal supported sustained reciprocal writing, audience management via granular privacy filters, and the formation of lifelong friendships and romantic partnerships.",
-    "Features like fine-grained friends-only filters enabled trust and vulnerability rarely available on today's platforms.",
-    "The subcultural character of early internet use (small user base, niche communities) was integral to its intimacy and is difficult to reproduce at platform scale.",
-    "Contemporary platforms produce harassment, polarization, and corporate capture, leading users like the author to retreat to ambient, ephemeral, or encrypted-chat communication."
+    "All three cases functioned as narratives recognizable through synecdochic catchphrases and visual cues (e.g., the laughing mugshot, David Hogg images, the yellow VHS tape).",
+    "Narratives were retold in many genres—satirical articles, blogs, tweets, memes, Claymation videos, SNL sketches, Kickstarter products, news aggregation, late-night comedy—maintaining consistent characters, settings, and plots.",
+    "Each narrative carried moral evaluations: Lottery Manure as righteous revenge against a bad boss; Parkland Crisis Actor as either media/government deception or as moral condemnation of conspiracy theorists; Pee Tape as just shaming of a corrupt president.",
+    "Desire for the story to be true—rather than evidence of its truth—energized engagement; commenters explicitly noted they wished the story were real.",
+    "Humor and catharsis (e.g., Colbert's Ritz Carlton bit, Kickstarter prayer candles, toilet-humor puns) enabled mainstream outlets to cover disinformative narratives by reporting on comedians' coverage, bypassing objectivity norms.",
+    "Aggregation amplified moral outrage by repeatedly reporting on the same event across outlets using violent or condemnatory language.",
+    "The Pee Tape was not debunked by major fact-checkers and was treated by mainstream outlets as 'shorthand' rather than a factual claim, illustrating how alignment with elite media frames can shield speculative claims from scrutiny.",
+    "Visual catchphrases functioned equivalently to discursive ones, evoking entire narratives without textual elaboration."
   ],
   "contributions": [
-    "Offers a first-person historical account contributing to the cultural memory and historiography of pre-platform internet sociality.",
-    "Advances a normative critique of social media's political economy and argues for alternative infrastructural imaginaries.",
-    "Provides a generative provocation for scholars of social media to consider what has been lost and what design/governance alternatives remain possible.",
-    "Adds to the growing literature reframing social media as infrastructure rather than as a commercial product."
+    "Offers a narrative-based theoretical framework for studying disinformation that integrates work on deep stories, identity propaganda, emotion, and spreadability.",
+    "Provides one of the first sustained empirical analyses of a left-wing disinformation case (the Pee Tape) and theorizes how mainstream media can amplify disinformation that aligns with elite frames.",
+    "Demonstrates the necessity of cross-platform and cross-genre analysis for understanding disinformation, challenging single-platform and domain-level approaches.",
+    "Articulates why fact-checking and individual-level media literacy interventions are insufficient against identity-affirming, cathartic narratives embedded in cultural frames.",
+    "Supplies a publicly available qualitative dataset (via OSF) and a replicable case-comparison methodology for analyzing disinformation as narrative."
   ],
-  "framing": "The essay positions itself within internet history, platform studies, and critical political economy of social media, contributing to an anniversary issue of Social Media + Society. It engages debates over platform governance, surveillance capitalism, and the loss of community-oriented computer-mediated communication, while drawing on the author's longstanding work on self-presentation, networked privacy, and online culture.",
+  "framing": "The paper positions itself at the intersection of political communication, sociology of narrative (Hochschild's 'deep stories,' Polletta), folklore, and affect-oriented media studies (Young, Brady, McLoughlin), responding to Bastos and Tuters's call to treat disinformation through a ritual model of communication. It pushes back against information-centric, fact-checking-oriented paradigms dominant in disinformation studies, arguing instead for a cultural and narrative approach that foregrounds emotion, identity, and cross-platform circulation.",
   "pdf_source": "drive"
 }
