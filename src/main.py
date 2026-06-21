@@ -600,10 +600,11 @@ def cmd_update(cfg: dict, args) -> int:
                 print(f"  slack: no summary for {paper.bibtex_key}, skipping")
                 continue
             try:
+                ep = episodes.get(paper.id) or {}
                 posted = slack_client.post_paper(
                     os.environ["SLACK_WEBHOOK_URL"], paper, summary,
-                    entry["topics"], (episodes.get(paper.id) or {}).get("audio_url"),
-                    _note_url(cfg, paper.bibtex_key),
+                    entry["topics"], ep.get("audio_url"),
+                    _note_url(cfg, paper.bibtex_key), ep.get("apple_url"),
                 )
             except Exception as exc:  # noqa: BLE001 - Slack must never break the build
                 posted = False
@@ -889,9 +890,10 @@ def cmd_slack_test(cfg: dict, args) -> int:
     topics = state["papers"].get(paper.id, {}).get("topics", [])
     episodes = episodes_client.fetch_episodes(cfg["inputs"]["episodes_url"])
 
+    ep = episodes.get(paper.id) or {}
     ok = slack_client.post_paper(
-        webhook, paper, summary, topics, (episodes.get(paper.id) or {}).get("audio_url"),
-        _note_url(cfg, key),
+        webhook, paper, summary, topics, ep.get("audio_url"),
+        _note_url(cfg, key), ep.get("apple_url"),
     )
     print(f"slack-test: {'posted' if ok else 'FAILED'} {key} to the webhook")
     return 0 if ok else 1

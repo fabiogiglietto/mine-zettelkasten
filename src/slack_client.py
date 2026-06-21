@@ -14,7 +14,7 @@ from typing import Optional
 
 import requests
 
-from .note_builder import _year_of
+from .note_builder import _year_of, build_apa_citation
 
 # Slack Block Kit limits.
 _HEADER_MAX = 150       # plain_text header block
@@ -42,6 +42,18 @@ def _bullets(items: list, limit: int) -> str:
     return "\n".join(lines)
 
 
+def _apa_mrkdwn(paper) -> str:
+    """The note's APA-7 citation, re-rendered for Slack mrkdwn.
+
+    `build_apa_citation` emits standard-markdown `*Journal*` italics, but a
+    single `*` is *bold* in Slack — Slack uses `_…_` for italics. We escape the
+    `&<>` specials first, then swap the asterisks the citation uses for journal
+    and volume into underscores so they render italic, matching the note. The
+    bare DOI URL is left untouched so Slack auto-links it.
+    """
+    return _esc(build_apa_citation(paper)).replace("*", "_")
+
+
 def _authors(authors: list) -> str:
     """Author byline, collapsing long lists to `A, B, C +N more`."""
     if not authors:
@@ -57,6 +69,7 @@ def build_blocks(
     topics: list[str],
     podcast_url: Optional[str],
     note_url: Optional[str] = None,
+    apple_url: Optional[str] = None,
 ) -> list[dict]:
     """Assemble the Block Kit digest for one paper. Deterministic — no LLM."""
     blocks: list[dict] = [
@@ -81,6 +94,17 @@ def build_blocks(
         {
             "type": "context",
             "elements": [{"type": "mrkdwn", "text": "  ·  ".join(meta)}],
+        }
+    )
+
+    # Full APA-7 citation, mirroring the blockquote at the top of the note.
+    blocks.append(
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": _truncate(f"> {_apa_mrkdwn(paper)}", _SECTION_MAX),
+            },
         }
     )
 
@@ -119,6 +143,8 @@ def build_blocks(
         links.append(f"📖 <{note_url}|*Full note*>")
     if podcast_url:
         links.append(f"🎧 <{podcast_url}|*Listen to the episode*>")
+    if apple_url:
+        links.append(f"<{apple_url}|*Apple Podcasts*>")
     if links:
         blocks.append(
             {
@@ -143,6 +169,7 @@ def post_paper(
     topics: list[str],
     podcast_url: Optional[str],
     note_url: Optional[str] = None,
+    apple_url: Optional[str] = None,
 ) -> bool:
     """Post one paper's digest to the Slack incoming webhook.
 
@@ -154,7 +181,9 @@ def post_paper(
         # Top-level `text` is the notification / accessibility fallback Slack
         # shows when blocks can't render (push notifications, screen readers).
         "text": _truncate(paper.title, _TEXT_MAX),
-        "blocks": build_blocks(paper, summary, topics, podcast_url, note_url),
+        "blocks": build_blocks(
+            paper, summary, topics, podcast_url, note_url, apple_url
+        ),
     }
     try:
         resp = requests.post(webhook_url, json=payload, timeout=15)
