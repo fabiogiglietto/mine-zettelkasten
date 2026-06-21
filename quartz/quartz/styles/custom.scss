@@ -1,3 +1,68 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ── FG brand identity ───────────────────────────────────────────────────────
+// Site-wide brand touches that the theme tokens (quartz.config.ts) can't
+// express on their own. Kept deliberately small so the Quartz grid stays
+// intact. Full identity spec: static/brand.html.
+
+:root {
+  // brand tokens, available for the touches below
+  --fg-accent: #a9772b; // signal / gold
+  --fg-rule-soft: #ddd5c6; // inner / secondary hairline
+}
+
+:root[saved-theme="dark"] {
+  --fg-accent: #caa25e;
+  --fg-rule-soft: #2c2e44;
+}
+
+// Headings carry the brand weight (Saira 600) — DIN-grotesque, tight.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.page-title,
+h1 {
+  letter-spacing: -0.03em;
+}
+
+// The "machine voice": page metadata reads as IBM Plex Mono, uppercased and
+// tracked out — the same mono signal used across the practice.
+.content-meta,
+.popover .content-meta {
+  font-family: var(--codeFont);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+// Tag pills + backlinks pick up the accent on hover (gold = signal).
+a.internal.tag-link,
+.section-li a.internal {
+  &:hover {
+    color: var(--fg-accent);
+  }
+}
+
+// Inline code / kbd: warm panel surface with a hairline, matching the
+// brand's card treatment.
+p code,
+li code,
+.callout code {
+  border: 1px solid var(--fg-rule-soft);
+}
+
+// Horizontal rules use the strong brand hairline (already --lightgray) but
+// thin and full-weight, echoing the section rules on the brand sheet.
+hr {
+  height: 1px;
+  border: none;
+  background: var(--lightgray);
+}
