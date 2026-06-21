@@ -9,7 +9,7 @@ topics: [tiktok-algorithmic-publics]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.5210/spir.v2024i0.13913
-podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Cabbuag2024-me.mp3
+podcast_url: 
 pdf_available: false
 discovery_date: 2024-12-15T00:00:00Z
 ---
@@ -22,30 +22,26 @@ discovery_date: 2024-12-15T00:00:00Z
 
 ## Summary
 
-This paper analyzes "dogshows" — a culturally specific Filipino TikTok phenomenon in which Gen Z influencers and their audiences collaboratively perform humor that hovers at the edge of cyberbullying and hate speech. Cabbuag and Abidin argue that dogshows exemplify how online incivility gets normalized, accepted, and negotiated within influencer cultures, and how TikTok's affordances amplify legal-but-harmful humor. The contribution is both empirical (documenting a localized practice in the Philippines) and conceptual (extending work on legal-but-harmful humor into a non-Western Gen Z influencer context).
+This paper investigates "dogshows," a culturally specific phenomenon on Filipino TikTok in which Gen Z influencers and their audiences collaboratively perform and consume humor that veers into cyberbullying and hate speech without crossing strictly illegal thresholds. The authors argue that dogshows exemplify how online incivility becomes normalized through influencer-audience dynamics and platform affordances, situating TikTok as both a stage and an amplifier for legal-but-harmful humor. By centering a non-Western context, the paper extends platform studies of incivility beyond their typically Anglophone empirical base.
 
 ## Key Contributions
 
-- Names and theorizes "dogshows" as a distinctive Filipino TikTok genre of humor-mediated incivility.
-- Extends Matamoros-Fernández et al.'s (2023) "legal-but-harmful humor" framework into Gen Z influencer culture in the Philippines.
-- Centers non-Western platform cultures in scholarship on TikTok, incivility, and influencer practice.
-- Links platform affordances to the amplification dynamics of humor-based harm.
+- Introduces "dogshows" as a localized analytic for understanding online incivility on Filipino TikTok.
+- Extends Matamoros-Fernández et al.'s (2023) concept of legal-but-harmful humor into Gen Z influencer cultures in the Global South.
+- Links platform affordances, influencer practices, and audience participation in producing and amplifying incivility.
+- Contributes a non-Western case to the wider literature on TikTok cultures and harmful humor.
 
 ## Methods
 
-Qualitative, case-based study of Filipino TikTok influencer practices and audience interactions, combined with an analysis of TikTok's affordances as they shape the "dogshow" phenomenon.
+Qualitative, case-based study of the dogshow phenomenon on Filipino TikTok, combining analysis of influencer content and audience interactions with an examination of TikTok's affordances as they shape cultures of incivility.
 
 ## Findings
 
-- Dogshows operate as a socially accepted practice in which influencers and audiences co-produce incivility under the cover of humor.
-- The line between entertainment, cyberbullying, and hate speech is routinely blurred and renegotiated by participants.
-- TikTok's affordances (duets, stitches, virality mechanics, comment cultures) facilitate the spread and intensification of this humor-based incivility.
-- Incivility is not an aberration but a normalized mode of participation among Gen Z influencer communities studied.
+- Dogshows operate as an accepted, even celebrated, social practice among Filipino Gen Z TikTok users.
+- Incivility is co-produced: influencers and audiences jointly negotiate the boundaries of acceptable harmful humor.
+- TikTok's affordances actively amplify the reach and normalization of these humor-incivility hybrids.
+- The legal-but-harmful frame captures content that escapes regulatory thresholds while still inflicting social harm.
 
 ## Connections
 
-This paper sits alongside other work theorizing TikTok-specific cultural and political dynamics shaped by platform affordances, such as [[Gerbaudo2026-fo]] and [[Hollingshead2026-vx]]; together they suggest that TikTok's affordance structure produces distinctive, regionally inflected genres of public discourse — whether political, civic, or, as here, incivil-humorous. Cabbuag and Abidin's contribution is to ground this affordance-driven amplification in a non-Western Gen Z influencer context that is often missing from anglophone platform studies.
-
-## Podcast
-
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Cabbuag2024-me.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-tiktok-dogshows-and-the/id1866587707?i=1000743818637)
+This paper sits alongside other work in this register that probes TikTok's algorithmic publics and the political-cultural textures they enable; see [[Gerbaudo2026-fo]], [[Karo2026-dn]], and [[Hollingshead2026-vx]] for adjacent treatments of how platform dynamics shape participatory cultures, though the specific focus here on influencer-driven incivility in a Filipino context is distinct.

@@ -9,7 +9,7 @@ topics: [coordinated-inauthentic-behavior, information-disorder]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.4324/9781003628088-6
-podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/FitzGerald2025-nv.mp3
+podcast_url: 
 pdf_available: false
 discovery_date: 2025-11-15T00:00:00Z
 ---
@@ -22,27 +22,24 @@ discovery_date: 2025-11-15T00:00:00Z
 
 ## Summary
 
-This paper argues that coordinated informational manipulation campaigns are not bounded, episodic operations but persistent, adaptive phenomena that sustain themselves by appropriating emerging events. By latching onto breaking news, crises, and topical shifts, manipulation operations renew their relevance and maintain influence well beyond their original triggering context. The work reframes such campaigns as dynamic and opportunistic rather than discrete, with implications for how researchers and platforms conceptualise the temporal arc of information operations.
+This paper examines how coordinated informational manipulation campaigns persist over time by adapting their content and tactics to emerging events. Rather than treating manipulation operations as discrete, short-lived bursts, the authors frame them as dynamic, opportunistic enterprises that latch onto unfolding crises and news cycles to renew their relevance and extend their influence. The contribution lies in shifting the analytic lens from snapshots of single campaigns toward the longitudinal, adaptive logic that sustains manipulation infrastructures.
 
 ## Key Contributions
 
-- Reconceptualises informational manipulation as a longitudinal, adaptive process rather than a one-off campaign.
-- Identifies *event appropriation* as a core mechanism by which manipulation campaigns extend their lifespan and influence.
-- Provides a framing useful for tracking how operations migrate across topics and news cycles.
+- Reframes informational manipulation as a persistent, evolving phenomenon rather than a series of isolated campaigns.
+- Introduces the notion of *appropriation of emerging events* as a core mechanism by which manipulation operations sustain themselves.
+- Foregrounds the temporal and adaptive dimensions of coordinated inauthentic activity, which are often underemphasized in event-bounded studies.
 
 ## Methods
 
-Not specified in the available abstract.
+The available abstract does not specify the empirical methodology. The framing suggests a longitudinal, case-based analysis of coordinated manipulation activity tracked across multiple emerging events, but specifics are not provided.
 
 ## Findings
 
-- Manipulation campaigns persist over extended timeframes rather than dissipating quickly.
-- Persistence is achieved in part by opportunistically appropriating emerging events to remain topically relevant.
+- Manipulation campaigns endure across long time horizons rather than dissipating after their initial trigger.
+- Operators opportunistically attach themselves to new events and crises as a strategy for maintaining audience attention and operational continuity.
+- (Detailed empirical findings are not specified in the abstract.)
 
 ## Connections
 
-This work fits alongside longitudinal and infrastructural studies of coordinated inauthentic behavior such as [[Luceri2025-tr]] and [[Graham2025-gp]], which similarly track how operations endure and reconfigure across time. The event-appropriation framing also resonates with research on how disinformation actors exploit crises and breaking news, e.g. [[Starbird2025-jj]] and [[Kuznetsova2025-nu]], and complements work on detection of evolving coordinated networks like [[Minici2024-tf]].
-
-## Podcast
-
-A research-radio episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/FitzGerald2025-nv.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/fgs-research-radio-the-persistence-of/id1866587707?i=1000743818387)
+The persistence-and-appropriation framing connects to longitudinal work on coordinated link sharing and operator infrastructures by the Giglietto group — see [[Giglietto2023-fa71a001]], [[Giglietto2022-0e951ac5]], [[Giglietto2020-9d8acdd7]], [[Giglietto2019-e9be81c1]], and [[Giglietto2026-9b6a992d]] — which similarly track how coordinated networks reuse capacity across events. It also resonates with broader accounts of adaptive influence operations and CIB detection such as [[Luceri2025-tr]], [[Graham2025-gp]], [[Graham2026-fb]], and [[Starbird2025-jj]], and complements work on how manipulators exploit crises and breaking news, e.g. [[Kuznetsova2025-nu]] and [[Frischlich2025-vn]].
