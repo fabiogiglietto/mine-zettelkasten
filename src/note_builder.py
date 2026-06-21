@@ -127,10 +127,12 @@ def render_podcast_block(episode: Optional[dict], kind: Optional[str] = None) ->
             platforms.append(f"[Spotify]({episode['spotify_url']})")
         if episode.get("apple_url"):
             platforms.append(f"[Apple Podcasts]({episode['apple_url']})")
-    lead = "A research-radio episode discusses this paper:"
+    lead = (
+        "A [research-radio](https://fabiogiglietto.github.io/research-radio/) "
+        "episode discusses this paper:"
+    )
     if not platforms:
-        # MP3 alone — keep the plain "Listen" form (byte-identical to notes
-        # built before per-platform links existed).
+        # MP3 alone — keep the plain "Listen" form.
         body = f"{lead} [Listen]({episode['audio_url']})"
     else:
         links = [f"[MP3]({episode['audio_url']})", *platforms]

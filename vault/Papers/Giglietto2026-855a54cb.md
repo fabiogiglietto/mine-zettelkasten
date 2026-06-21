@@ -53,4 +53,4 @@ This paper sits at the intersection of the "APIcalypse"/post-API debates and the
 
 ## Podcast
 
-A research-radio episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Giglietto2026-855a54cb.mp3)
+A [research-radio](https://fabiogiglietto.github.io/research-radio/) episode discusses this paper: [Listen](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Giglietto2026-855a54cb.mp3)
