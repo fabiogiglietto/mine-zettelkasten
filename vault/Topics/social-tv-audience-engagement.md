@@ -4,9 +4,9 @@ slug: social-tv-audience-engagement
 emergent: false
 ---
 
-# Social TV & Audience Engagement
+# Social TV and Audience Engagement
 
-Earlier and ongoing line on second-screen practices, Twitter-TV audiences and participation around political talk shows and entertainment formats. Historical backbone of the PI's social media research.
+Long-running line on second-screen practices, TV-Twitter interactions and networked audience participation — foundational work that continues to anchor the PI's view of hybrid media systems.
 
 ## Papers
 

@@ -6,7 +6,7 @@ year: 2025
 doi: 10.31235/osf.io/8dqag_v1
 bibtex_key: Giglietto2025-1e9a0917
 kind: own
-topics: [platform-governance-data-access, italian-news-ecosystem]
+topics: [platform-governance-data-access, elections-political-communication]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.31235/osf.io/8dqag_v1

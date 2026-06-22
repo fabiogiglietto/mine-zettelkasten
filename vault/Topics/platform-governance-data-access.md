@@ -4,18 +4,21 @@ slug: platform-governance-data-access
 emergent: false
 ---
 
-# Platform Governance & Research Data Access
+# Platform Governance and Research Data Access
 
-Critical analysis of platform policies (Meta content reduction, CrowdTangle shutdown, DSA-era APIs) and their consequences for what users see and what researchers can study. A growing current priority following the closure of legacy data pipelines.
+Algorithmic curation, content moderation and visibility policies (e.g. Meta's political content reduction), together with the shifting landscape of social media APIs, DSA-era research access and the post-CrowdTangle ecosystem.
 
 ## Papers
 
+- [[Ahuja2025-ku]]
 - [[Allen2025-ot]]
 - [[Bak-Coleman2025-pm]]
 - [[Bak-Coleman2026-mk]]
+- [[Bakshy2015-rn]]
 - [[Bastos2025-ol]]
 - [[Bastos2025-ya]]
 - [[Bouchaud2026-lr]]
+- [[Boyd2026-op]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]
 - [[Bruns2026-yv]]
@@ -27,17 +30,16 @@ Critical analysis of platform policies (Meta content reduction, CrowdTangle shut
 - [[Farkas2026-lr]]
 - [[Freelon2024-sc]]
 - [[Gauthier2026-iq]]
+- [[Gerbaudo2026-fo]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]
 - [[Giglietto2025-1e9a0917]]
 - [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
 - [[Heiss2026-qv]]
-- [[Helmond2026-ll]]
-- [[Hepp2026-oi]]
 - [[Hurcombe2025-cs]]
-- [[Inacio-da-Silva2026-zf]]
 - [[Jurg2025-ur]]
+- [[Karo2026-dn]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
 - [[Mahl2026-hc]]
@@ -45,6 +47,7 @@ Critical analysis of platform policies (Meta content reduction, CrowdTangle shut
 - [[Moran2025-qn]]
 - [[Munger2025-cz]]
 - [[Murtfeldt2025-wu]]
+- [[Nangle2026-yo]]
 - [[Ohme2026-nv]]
 - [[Peters2026-mo]]
 - [[Philipp2026-tl]]
@@ -57,7 +60,6 @@ Critical analysis of platform policies (Meta content reduction, CrowdTangle shut
 - [[Schulte2026-df]]
 - [[Simeone2025-vo]]
 - [[Tonneau2025-bv]]
-- [[Tornberg2025-ir]]
 - [[Tornberg2026-lc]]
 - [[Unknown2025-ed60bc90]]
 - [[Ventura2026-yc]]
