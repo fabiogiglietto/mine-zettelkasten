@@ -4,9 +4,9 @@ slug: elections-political-communication
 emergent: false
 ---
 
-# Elections & Political Communication on Social Media
+# Elections and Political Communication on Social Media
 
-Empirical case studies of electoral campaigns on Facebook, Instagram and Twitter — Italian (2018, 2019, 2022), German (2021), Brazilian post-Bolsonaro and European elections — with attention to partisanship, polarization and campaign dynamics.
+Empirical studies of electoral campaigns on digital platforms — Italian, German, Brazilian and European — covering partisanship, polarisation, political advertising and parliamentarians' online visibility.
 
 ## Papers
 
@@ -15,22 +15,17 @@ Empirical case studies of electoral campaigns on Facebook, Instagram and Twitter
 - [[Anwar2024-34dba628]]
 - [[Appel2026-qr]]
 - [[Arceneaux2026-xk]]
-- [[Bakshy2015-rn]]
+- [[Balluff2026-bv]]
 - [[Bouchafra2026-ts]]
-- [[Brady2026-ln]]
-- [[Dehghan2026-sy]]
+- [[Di-Marco2025-aa]]
 - [[F2020-6278a4aa]]
-- [[Gaisbauer2025-by]]
 - [[Gattermann2025-yx]]
 - [[Gauthier2026-iq]]
 - [[Gaw2025-ru]]
-- [[Giglietto2019-882f1900]]
 - [[Giglietto2020-9d8acdd7]]
-- [[Giglietto2023-fa71a001]]
 - [[Giglietto2025-1765bb4f]]
+- [[Giglietto2025-1e9a0917]]
 - [[Gonzalez-Bailon2024-rq]]
-- [[Green2025-ap]]
-- [[Hepp2026-oi]]
 - [[Iannelli2015-e0818c3e]]
 - [[Inacio-da-Silva2026-zf]]
 - [[Iris2026-pg]]
@@ -39,10 +34,10 @@ Empirical case studies of electoral campaigns on Facebook, Instagram and Twitter
 - [[Kansaon2025-id]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]
-- [[Kristensen2025-ni]]
 - [[Larsson2026-ro]]
 - [[Li2026-wq]]
 - [[Lin2025-xp]]
+- [[Lukito2026-nb]]
 - [[Marino2024-2fbc690f]]
 - [[Munger2025-cz]]
 - [[Oprea2025-lf]]
@@ -53,9 +48,9 @@ Empirical case studies of electoral campaigns on Facebook, Instagram and Twitter
 - [[Schulte2026-df]]
 - [[Starbird2025-jj]]
 - [[Tai2026-qk]]
+- [[Tornberg2025-ir]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2025-sw]]
-- [[Ventura2026-yc]]
 - [[Votta2025-xz]]
 
 ## All papers (Dataview)

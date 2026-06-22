@@ -6,7 +6,7 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection, conceptualization, and longitudinal study of coordinated link sharing and inauthentic networks on social media platforms. Anchors the CooRnet line of work and remains the researcher's signature contribution to disinformation studies.
+Detection, conceptualisation and longitudinal study of coordinated link sharing and inauthentic network activity on social media, the methodological core of the PI's work and the foundation of the CooRnet/CooRTweet lineage.
 
 ## Papers
 

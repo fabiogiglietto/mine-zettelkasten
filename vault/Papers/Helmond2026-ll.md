@@ -5,7 +5,7 @@ authors: ["Anne Helmond"]
 year: 2026
 doi: 10.1177/20563051261436101
 bibtex_key: Helmond2026-ll
-topics: [platform-governance-data-access, generative-ai-and-media]
+topics: []
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/20563051261436101

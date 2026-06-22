@@ -5,7 +5,7 @@ authors: ["Josephine Lukito", "Kayo Mimizuka"]
 year: 2026
 doi: 10.1080/1369118x.2026.2667921
 bibtex_key: Lukito2026-nb
-topics: [platform-governance-data-access, computational-social-science-methods]
+topics: [platform-governance-data-access, elections-political-communication]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2026.2667921
