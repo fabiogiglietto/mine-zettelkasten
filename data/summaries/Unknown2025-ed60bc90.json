@@ -1,9 +1,17 @@
 {
-  "abstract": "This entry refers to a 2025 work titled 'The State of Social Media Research APIs & Tools in the Digital Service Act Era.' No abstract or body text was provided, so the substantive content of the paper cannot be summarized here. The title indicates a focus on the availability and condition of social media research infrastructure in the context of the European Union's Digital Services Act (DSA).",
-  "key_claims": [],
-  "methods": [],
-  "findings": [],
-  "contributions": [],
-  "framing": "Based on the title alone, the paper appears to engage with debates in platform studies, internet governance, and computational social science about researcher access to social media data, situated within the regulatory context of the EU Digital Services Act.",
+  "abstract": "This entry refers to a 2025 piece titled 'The State of Social Media Research APIs & Tools in the Digital Service Act Era,' but no abstract or body text was provided. The title indicates a survey or commentary on the current landscape of social media research access — APIs and tooling — in the context of the European Union's Digital Services Act (DSA). Without further source material, only the implied scope can be noted.",
+  "key_claims": [
+    "No claims can be extracted: the source text was not provided."
+  ],
+  "methods": [
+    "Not specified in the available material."
+  ],
+  "findings": [
+    "Not specified in the available material."
+  ],
+  "contributions": [
+    "Based on the title alone, the work appears intended to map or assess the state of research-facing APIs and tools provided by social media platforms under the regulatory regime introduced by the EU Digital Services Act."
+  ],
+  "framing": "The title situates the work within ongoing debates about platform data access for researchers, journalists, and civil society, particularly following the DSA's provisions (e.g., Article 40) for vetted researcher access to platform data. It likely engages with the platform governance, internet studies, and computational social science communities.",
   "pdf_source": "abstract_only"
 }

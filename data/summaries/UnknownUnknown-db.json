@@ -1,38 +1,38 @@
 {
-  "abstract": "This Anthropic Economic Index report analyzes survey responses from approximately 81,000 Claude users to understand public perceptions of AI's economic impacts. Using Claude-powered classifiers to infer occupation, career stage, productivity gains, and concerns from open-ended responses, the authors find that workers in occupations with higher observed AI exposure express more concern about job displacement, while reporting substantial productivity gains—particularly in the highest- and lowest-paid occupations. Roughly one-fifth of respondents voiced concern about economic displacement, with early-career workers and those reporting the largest AI-driven speedups showing the most anxiety.",
+  "abstract": "This Anthropic report analyzes a survey of approximately 81,000 Claude.ai users to understand how their experiences and concerns about AI map onto observed patterns of AI usage across occupations. Using Claude-powered classifiers to infer respondent attributes (occupation, career stage, productivity gains, displacement concerns) from open-ended responses, the authors find that workers in occupations with higher observed AI exposure report more job displacement concerns, while high- and low-wage workers report the largest productivity gains—primarily through expanded task scope. The study connects qualitative self-reports to the quantitative usage data tracked by Anthropic's Economic Index.",
   "key_claims": [
-    "Perceived job threat from AI correlates positively with observed AI exposure at the occupational level, suggesting workers' intuitions track actual AI diffusion patterns.",
-    "Early-career workers express substantially more concern about AI-driven job displacement than senior workers.",
-    "Productivity gains from AI follow a U-shaped distribution across the wage spectrum, with both high-paid (e.g., software developers) and some low-paid workers reporting the largest benefits.",
-    "Scope expansion (doing new tasks previously out of reach) is the most commonly cited productivity benefit, followed by speed.",
-    "Respondents reporting the largest AI-driven speedups also express the highest concern about job displacement, suggesting that rapid task acceleration heightens uncertainty about role viability.",
-    "Most respondents perceive AI productivity surplus as accruing to themselves rather than to employers, clients, or AI companies, though this varies by career stage."
+    "Self-reported concerns about AI-driven job displacement correlate with the level of observed AI exposure in a respondent's occupation.",
+    "Early-career workers express significantly higher concern about job displacement than senior workers.",
+    "The highest- and lowest-paid occupational groups report the largest productivity gains from AI use.",
+    "Productivity gains accrue most often to users themselves rather than to employers, clients, or AI companies—though this pattern is weaker for early-career workers.",
+    "The relationship between reported speedup from AI and perceived job threat is U-shaped: both those slowed down by AI and those most sped up by it report higher displacement concerns.",
+    "Expanded scope (doing new tasks) is the most commonly cited form of productivity gain, slightly more common than speed."
   ],
   "methods": [
-    "Analysis of open-ended survey responses from 80,508 users of personal Claude.ai accounts.",
-    "Use of Claude-powered classifiers to infer respondent attributes (occupation, career stage) and sentiments (job displacement concern, productivity gain magnitude, type of productivity benefit) from free-form text.",
-    "Productivity ratings on a 1-7 scale derived from response content, with anchored examples for calibration.",
-    "Linkage of inferred occupations to the 'observed exposure' measure from Massenkoff and McCrory (2026), reflecting the share of an occupation's tasks performed by Claude.",
-    "Robustness check restricting analysis to the 11% of respondents who explicitly stated their occupation.",
-    "Cross-tabulation of perceived job threat by exposure quartile, career stage, and inferred speedup level."
+    "Open-ended online survey of 80,508 Claude.ai personal-account users (referred to as 81,000).",
+    "Use of Claude-powered LLM classifiers to infer respondent attributes (occupation, career stage) and code sentiments (job threat, productivity gain magnitude, type of gain, beneficiary of gains) from free-text transcripts.",
+    "A 1–7 productivity rating scale ranging from 'less productive' to 'transformatively more productive.'",
+    "Linking inferred occupations to the 'Observed Exposure' measure from Massenkoff and McCrory (2026), reflecting the share of an occupation's tasks for which Claude is used.",
+    "Linear fits and quartile comparisons to relate exposure, speedup, wage, and career stage to displacement concern and productivity outcomes.",
+    "Robustness check restricting analysis to the 11% of respondents who explicitly stated their occupation."
   ],
   "findings": [
-    "About 20% of respondents voiced concern about economic displacement from AI.",
-    "Every 10-percentage-point increase in observed occupational exposure was associated with a 1.3-percentage-point increase in perceived job threat; the top exposure quartile mentioned job threat three times as often as the bottom quartile.",
-    "Mean self-reported productivity rating was 5.1 ('substantially more productive'); only 3% reported negative or neutral impacts, while 42% gave no clear productivity indication.",
-    "Management occupations (largely entrepreneurs/solopreneurs) and computer/math occupations reported the highest productivity gains; scientific and legal professions reported the mildest.",
-    "48% of respondents who discussed productivity cited scope expansion; 40% cited speed gains; smaller shares cited quality and cost benefits.",
-    "60% of early-career workers said they personally benefited from AI, compared to 80% of senior professionals.",
-    "About 10% of respondents who named a beneficiary said employers or clients were extracting the gains by demanding more work.",
-    "The relationship between reported speedup and perceived job threat is U-shaped: those slowed down by AI (e.g., some creative workers) and those experiencing the largest speedups both expressed elevated displacement concerns."
+    "About one-fifth of respondents voiced concern about economic displacement from AI.",
+    "A 10-percentage-point increase in observed exposure is associated with a 1.3-percentage-point increase in perceived job threat; the top exposure quartile reported displacement concerns three times as often as the bottom quartile.",
+    "Mean productivity rating was 5.1 ('substantially more productive'); only 3% reported negative or neutral impacts and 42% gave no clear productivity indication.",
+    "Management occupations (largely entrepreneurs/solopreneurs) and computer/math occupations reported the highest productivity gains; legal and scientific professions reported the mildest gains.",
+    "48% of respondents mentioning productivity cited scope expansion; 40% cited speed; smaller shares cited quality or cost.",
+    "Among respondents identifying a beneficiary of AI gains, most named themselves; ~10% named employers/clients; smaller shares named AI companies or described net negatives.",
+    "80% of senior professionals reported personal benefits from AI, versus 60% of early-career workers.",
+    "Occupation could be inferred for 39% of respondents (11% explicitly stated, 28% inferred from context)."
   ],
   "contributions": [
-    "Links qualitative survey evidence on worker sentiment to a quantitative behavioral measure of AI exposure derived from Claude usage data.",
-    "Demonstrates a methodology for using LLM-based classifiers to extract structured economic variables (occupation, career stage, productivity dimensions) from open-ended interview transcripts.",
-    "Provides early empirical evidence that worker anxiety about AI tracks actual occupational AI penetration.",
-    "Documents heterogeneity in AI productivity benefits across wage levels and occupational groups, including underappreciated gains for some low-wage workers using AI for side ventures.",
-    "Surfaces the U-shaped relationship between reported AI speedup and job-loss concern as a hypothesis for future structured research."
+    "Provides one of the first large-scale linkages between qualitative user-reported experiences of AI and quantitative occupational exposure measures.",
+    "Offers empirical evidence that worker perceptions of AI displacement risk track measured AI diffusion patterns.",
+    "Demonstrates a methodology for using LLM classifiers to extract structured economic variables (occupation, career stage, productivity type) from open-ended interview data at scale.",
+    "Extends Anthropic's Economic Index by adding a worker-sentiment dimension to its task-based usage analysis.",
+    "Surfaces hypotheses—such as the U-shaped relationship between speedup and displacement concern—that could be tested in future structured surveys."
   ],
-  "framing": "The paper sits within Anthropic's Economic Index research program, which seeks to characterize AI's labor-market impacts using usage data from Claude. It positions itself as complementing task-based exposure measures with self-reported worker experience, contributing to ongoing debates about AI-driven job displacement, productivity diffusion, and the distribution of AI's economic surplus between workers, employers, and AI providers.",
+  "framing": "The paper situates itself within Anthropic's ongoing Economic Index research program, which measures AI's economic footprint via observed Claude usage. It positions qualitative survey data as a complement to task-based exposure measures in the broader economics-of-AI and labor-displacement literature, building on prior findings about slowdowns in early-career hiring and the distributional impacts of AI productivity gains.",
   "pdf_source": "drive"
 }
