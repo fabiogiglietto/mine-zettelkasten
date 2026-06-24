@@ -63,6 +63,27 @@ python -m src.main export-site          # export the vault to quartz/content/
 Open `vault/` as an Obsidian vault. `data/` (state, topics, summaries) and
 `vault/` are committed; extracted PDF text is transient and never committed.
 
+## Writing from the kasten (Claude Code skill)
+
+The repo ships a Claude Code skill, **`zettel-paper`**, that drafts new papers,
+literature reviews, and syntheses *from* the vault the Luhmann way — pulling a
+thread of linked notes that already forms an argument and turning it into prose,
+citing only real notes with traceable DOIs. It lives in
+`.claude/skills/zettel-paper/` and is auto-discovered when you open this repo in
+[Claude Code](https://claude.com/claude-code) — no install step.
+
+Just ask in plain language; the skill triggers on intent, e.g.:
+
+- "Draft a literature review on coordinated inauthentic behavior from the kasten."
+- "What non-obvious paper could I write from these notes?"
+- "Turn the platform-governance Structure into a framing piece."
+
+It works from the **public** notes and summaries, so collaborators can run it on
+a fresh clone. An optional full-text path (reading the source PDF from the
+maintainer's Paperpile Google Drive, via the Claude Drive connector) is
+maintainer-only and degrades silently to the published summaries when the folder
+isn't configured or accessible.
+
 ## Website
 
 The vault is also published as a public website with [Quartz](https://quartz.jzhao.xyz/)
