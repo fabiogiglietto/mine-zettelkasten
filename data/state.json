@@ -2414,8 +2414,7 @@
       "pdf_source": "drive",
       "content_hash": "00eefc3ea2eac964c29fd014836c0261081412a71212b3a88f75e9626069e865",
       "podcast_linked": false,
-      "slack_posted": false,
-      "slack_pending": true,
+      "slack_posted": true,
       "last_processed": "2026-06-21T15:55:06.895431+00:00"
     }
   },
