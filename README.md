@@ -84,6 +84,23 @@ maintainer's Paperpile Google Drive, via the Claude Drive connector) is
 maintainer-only and degrades silently to the published summaries when the folder
 isn't configured or accessible.
 
+### Using it in Claude Cowork
+
+[Claude Cowork](https://www.anthropic.com/product/claude-cowork) (in Claude
+Desktop) supports Agent Skills and a sandboxed shell, so `zettel-paper` runs
+there too — it only clones this **public** repo and runs a standard-library
+Python script. Cowork does **not** auto-discover the repo's `.claude/skills/`,
+so add the skill once:
+
+- **Pro / Max:** zip the `.claude/skills/zettel-paper/` folder and upload it as a
+  personal Skill in your Claude settings → it is then available in Cowork and Chat.
+- **Team / Enterprise:** an admin provisions it org-wide via
+  *Organization settings → Skills*, and every member gets it.
+
+Then invoke it the same way ("draft a review on X from the kasten"). The
+full-text Google Drive path stays maintainer-only; collaborators draft from the
+public summaries.
+
 ## Website
 
 The vault is also published as a public website with [Quartz](https://quartz.jzhao.xyz/)
