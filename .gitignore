@@ -18,9 +18,6 @@ service-account*.json
 # Transient extracted PDF text — never committed (copyright: Paperpile PDFs)
 data/.cache/
 
-# Skill upload bundle — generated on demand for Cowork/Claude Skill upload, not committed
-zettel-paper-skill.zip
-
 # IDE / OS
 .idea/
 .vscode/

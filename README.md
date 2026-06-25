@@ -84,22 +84,29 @@ maintainer's Paperpile Google Drive, via the Claude Drive connector) is
 maintainer-only and degrades silently to the published summaries when the folder
 isn't configured or accessible.
 
-### Using it in Claude Cowork
+### Using it on Claude.ai or in Claude Cowork
 
-[Claude Cowork](https://www.anthropic.com/product/claude-cowork) (in Claude
-Desktop) supports Agent Skills and a sandboxed shell, so `zettel-paper` runs
-there too — it only clones this **public** repo and runs a standard-library
-Python script. Cowork does **not** auto-discover the repo's `.claude/skills/`,
-so add the skill once:
+The skill isn't only for Claude Code. A pre-built upload bundle —
+[`zettel-paper-skill.zip`](zettel-paper-skill.zip) — is committed at the repo
+root, so collaborators can load it as an Agent Skill on
+**[Claude.ai](https://claude.ai)** (web / desktop Chat) or in
+**[Claude Cowork](https://www.anthropic.com/product/claude-cowork)** without
+cloning anything. Both run it in a sandboxed shell that clones this **public**
+repo and executes a standard-library Python script; neither auto-discovers the
+repo's `.claude/skills/`, so add the skill once:
 
-- **Pro / Max:** zip the `.claude/skills/zettel-paper/` folder and upload it as a
-  personal Skill in your Claude settings → it is then available in Cowork and Chat.
+- **Pro / Max:** download `zettel-paper-skill.zip` and upload it as a personal
+  Skill in your Claude account settings (under *Skills* / *Capabilities*). It then
+  works in Claude.ai Chat, Cowork, and Claude Code.
 - **Team / Enterprise:** an admin provisions it org-wide via
   *Organization settings → Skills*, and every member gets it.
 
-Then invoke it the same way ("draft a review on X from the kasten"). The
-full-text Google Drive path stays maintainer-only; collaborators draft from the
-public summaries.
+The bundle is just a snapshot of `.claude/skills/zettel-paper/`; if you change the
+skill, regenerate it with
+`cd .claude/skills && zip -r ../../zettel-paper-skill.zip zettel-paper`. Then
+invoke it the same way ("draft a review on X from the kasten"). The full-text
+Google Drive path stays maintainer-only; collaborators draft from the public
+summaries.
 
 ## Website
 
