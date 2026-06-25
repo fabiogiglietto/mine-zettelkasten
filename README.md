@@ -101,12 +101,12 @@ repo's `.claude/skills/`, so add the skill once:
 - **Team / Enterprise:** an admin provisions it org-wide via
   *Organization settings → Skills*, and every member gets it.
 
-The bundle is just a snapshot of `.claude/skills/zettel-paper/`; if you change the
-skill, regenerate it with
-`cd .claude/skills && zip -r ../../zettel-paper-skill.zip zettel-paper`. Then
-invoke it the same way ("draft a review on X from the kasten"). The full-text
-Google Drive path stays maintainer-only; collaborators draft from the public
-summaries.
+The bundle is a snapshot of `.claude/skills/zettel-paper/`; a CI workflow
+(`.github/workflows/skill-bundle.yml`) rebuilds and commits it automatically
+whenever the skill changes on `main`, so it never goes stale. (To rebuild by hand:
+`cd .claude/skills && zip -r ../../zettel-paper-skill.zip zettel-paper`.) Invoke it
+the same way ("draft a review on X from the kasten"). The full-text Google Drive
+path stays maintainer-only; collaborators draft from the public summaries.
 
 ## Website
 
