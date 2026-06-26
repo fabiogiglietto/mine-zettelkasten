@@ -148,8 +148,6 @@ def build_index(
         'title: "fg-zettelkasten"',
         "---",
         "",
-        "# fg-zettelkasten",
-        "",
         f"A topic-anchored Zettelkasten built from the `toread` paper feed — "
         f"{_plural(total_papers, 'paper')} across {_plural(len(topics), 'topic')}. "
         "The name follows the [Niklas Luhmann archive](https://niklas-luhmann-archiv.de/) "
