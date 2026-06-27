@@ -1961,9 +1961,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "56cf2a6e45f2bd1c33c79d6977a82fff91f6af5b1caae5e7bf7f9dd8da5adf9b",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-05-18T10:04:13.411935+00:00"
+      "last_processed": "2026-06-27T09:40:05.921364+00:00"
     },
     "bibtex:Unknown2023-9137f448": {
       "note_path": "Papers/Unknown2023-9137f448.md",
@@ -2449,8 +2449,19 @@
       "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
       "last_processed": "2026-06-27T08:46:20.285821+00:00"
+    },
+    "bibtex:Hackenburg2026-ud": {
+      "note_path": "Papers/Hackenburg2026-ud.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "88e0bd3dddaac87dec7a6e53bd01a6f5874669081bcb7e6362d1f51884d1a360",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-27T09:39:39.409766+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }

@@ -21,6 +21,7 @@ Studies of generative AI as both an object (synthetic visual persuasion, AI-driv
 - [[Fattorini2026-bo]]
 - [[Giglietto2026-9b6a992d]]
 - [[Hackenburg2025-dj]]
+- [[Hackenburg2026-ud]]
 - [[Hameleers2026-mc]]
 - [[Hepp2026-oi]]
 - [[Lee2026-je]]
