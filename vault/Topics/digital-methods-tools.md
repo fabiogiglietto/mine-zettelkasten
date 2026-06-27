@@ -21,6 +21,7 @@ Development, validation and critical reflection on tools, datasets and workflows
 - [[Gardam2025-er]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2023-fa71a001]]
+- [[Giglietto2025-ed60bc90]]
 - [[Giglietto2026-855a54cb]]
 - [[Green2025-ap]]
 - [[Iannelli2018-ebd918b7]]

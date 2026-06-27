@@ -2416,6 +2416,39 @@
       "podcast_linked": false,
       "slack_posted": true,
       "last_processed": "2026-06-21T15:55:06.895431+00:00"
+    },
+    "bibtex:Giglietto2025-ed60bc90": {
+      "note_path": "Papers/Giglietto2025-ed60bc90.md",
+      "topics": [
+        "platform-governance-data-access",
+        "digital-methods-tools"
+      ],
+      "kind": "own",
+      "pdf_source": "abstract_only",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-06-27T08:45:17.512605+00:00"
+    },
+    "bibtex:Marino2023-9137f448": {
+      "note_path": "Papers/Marino2023-9137f448.md",
+      "topics": [
+        "information-disorder",
+        "polarization-hybrid-media"
+      ],
+      "kind": "own",
+      "pdf_source": "drive",
+      "content_hash": "7fe0a3fc99f8cebc6b18df207c4c78ab25786851770b644bfbd99e7546ab5fa9",
+      "podcast_linked": false,
+      "last_processed": "2026-06-27T08:45:53.348004+00:00"
+    },
+    "bibtex:Sofia2012-802a21dc": {
+      "note_path": "Papers/Sofia2012-802a21dc.md",
+      "topics": [],
+      "kind": "own",
+      "pdf_source": "drive",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-06-27T08:46:20.285821+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",

@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper examines how Alternative Influence Networks (AIN) contributed to spreading problematic Covid-19 information on Italian Facebook during the first year of the pandemic (March 2020-March 2021). Using a dataset of 175,228 posts from covid-skeptic accounts previously identified via coordinated link sharing analysis, the authors extract and classify mentioned public figures, cluster them, and analyze engagement patterns and content. Findings show that an 'Intellectual Dark Web' (IDW) cluster of influencers generates highly shareable content, that legacy media outlets and journalists remain central nodes in circulating these voices, and that remediation of experts' and intellectuals' statements from TV and newspapers is a key mechanism for amplifying problematic narratives.",
+  "key_claims": [
+    "Alternative Influence Networks (AIN), and particularly an 'Intellectual Dark Web' (IDW) subset, played a significant role in circulating Covid-19 problematic information on Italian Facebook.",
+    "Posts mentioning IDW Influencers and Other Public Figures attract disproportionately high engagement relative to their volume, especially in the form of shares rather than comments.",
+    "A shares-heavy comments/shares ratio signals hyperpartisan amplification behavior, while comment-heavy posts indicate contested or controversial framings.",
+    "Legacy media remain central to the circulation of AIN narratives: mainstream journalists' Facebook pages and right-leaning newspapers dominate the most-engaging posts.",
+    "Hybridity in the news ecosystem operates not only through format convergence but through remediation, whereby AIN actors recycle expert statements from TV shows and newspapers to bolster covid-skeptic and conspiracy narratives and evade fact-checking."
+  ],
+  "methods": [
+    "Collected 175,228 Facebook posts from a previously identified list of covid-skeptic Italian accounts via CrowdTangle, covering March 2020 to March 2021.",
+    "Extracted capitalized proper nouns from message, title, description, and image text fields and selected the top 2,000 most frequent terms.",
+    "Manually classified 254 last names into five non-mutually-exclusive categories: Alternative Influencers, Doctors/Scientists/Experts, Journalists, Other Public Figures, and Politicians.",
+    "Filtered out figures holding public/apical roles (unless also Alternative Influencers), yielding 79 figures, then applied k-means cluster analysis producing five clusters.",
+    "Calculated engagement statistics and a comments/shares ratio metric (range -1 to 1) per cluster, drawing on Giglietto et al. (2019).",
+    "Performed deductive content analysis on a stratified random sample of 150 posts drawn from the top 10% most-engaging posts, stratified by cluster and by comments/shares ratio category (mostly shared, balanced, mostly commented)."
+  ],
+  "findings": [
+    "Five clusters emerged: Politicians, Other Public Figures, Journalists, Doctors/Scientists/Experts, and IDW Influencers.",
+    "The IDW Influencer cluster had the lowest comments/shares ratio (-0.28), indicating share-driven amplification; Doctors/Scientists/Experts also skewed toward shares (-0.21).",
+    "Journalists posts had the highest ratio (0.16), indicating more contested/commented content; Politicians were most prolific (9,879 posts) but had moderate engagement.",
+    "Despite low post volume, IDW Influencers (1,649 posts) and Other Public Figures (1,958 posts) achieved high mean interactions (1030 and 983 respectively).",
+    "The top Facebook pages amplifying the most-engaging posts were dominated by mainstream-affiliated journalists (Nicola Porro, Gianluigi Paragone) and right-wing newspapers (La Verità, Libero), with covid-skeptic micro-celebrities (Montanari, Messora) appearing further down.",
+    "Content analysis revealed recurring themes: immigration and anti-government framings in political clusters; judicial scandals in Other Public Figures; covid-skepticism quoting figures like Zangrillo or Tarro in the science cluster; conspiracy narratives (microchips, global tyranny) in the IDW cluster, often sourced from TV talk show clips."
+  ],
+  "contributions": [
+    "Provides an empirical mapping of the Italian AIN during the Covid-19 pandemic, identifying an 'Intellectual Dark Web' subnetwork with distinct engagement signatures.",
+    "Demonstrates the analytical value of the comments/shares ratio metric for distinguishing hyperpartisan amplification from contested debate around problematic content.",
+    "Extends remediation theory (Bolter & Grusin) to alternative media, showing how AIN actors leverage legacy-media-produced expert statements to amplify problematic information and complicate fact-checking.",
+    "Contributes to inter-media agenda-setting literature by documenting how AIN, alternative outlets, and legacy media co-produce news visibility in a hybrid system.",
+    "Offers a replicable mixed-methods workflow combining coordinated-behavior detection, named-entity extraction, clustering, engagement metrics, and stratified content analysis."
+  ],
+  "framing": "The paper is positioned within hybrid media system theory (Chadwick), studies of problematic information and disinformation (Jack; Wardle & Derakhshan), and research on Alternative Influence Networks and the Intellectual Dark Web (Lewis; Kelsey; Baker). It contributes to debates on how alternative micro-celebrities, legacy media, and platform metrics interact to shape news circulation and inter-media agenda setting, with a specific focus on Covid-19 infodemic dynamics in Italy.",
+  "pdf_source": "drive"
+}

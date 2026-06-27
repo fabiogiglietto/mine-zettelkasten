@@ -1,0 +1,35 @@
+{
+  "abstract": "This position paper argues for an interdisciplinary redesign of Internet architecture that integrates social capital principles with technological considerations to accommodate the rise of the 'prosumer' — users who both produce and consume content and network resources. The authors trace the evolution from passive consumer to prosumer and to 'network prosumer' (as embodied in User-centric Networks), and contend that the current asymmetric Internet supply chain must become symmetric to unlock new business models and knowledge exchange. The paper proposes incorporating social capital metrics (reach, engagement, influence, trust) into Internet design and critically revisits how centrality measures are applied in networking versus social capital modeling.",
+  "key_claims": [
+    "The Internet end-user is transitioning from a consumer to a prosumer model, and increasingly to a 'network prosumer' role that extends user empowerment into lower OSI layers via User-centric Networks (UCNs).",
+    "The current 7-stage Internet supply-chain is asymmetric, with some stages benefiting from traffic growth while others stagnate due to lack of price signals; this asymmetry must be addressed to accommodate prosumers.",
+    "Future Internet architectural design should be socially-driven, integrating social capital models and metrics alongside technological adoption metrics.",
+    "Networking notions of centrality (degree, betweenness, closeness) are applied differently and sometimes incompatibly with their social capital counterparts, and these definitions need to be aligned.",
+    "Trust, influence, reach, and engagement are the key social capital properties that should be operationalized into networking metrics, particularly for pervasive and opportunistic routing.",
+    "Prosumer activity on the Internet exhibits power-law properties, evidencing the coexistence of consumer and prosumer models."
+  ],
+  "methods": [
+    "Conceptual and interdisciplinary position paper drawing on computer networking, social sciences, communication studies, and economics.",
+    "Literature review across related projects (GENI, EIFFEL, SocialNets, ULOOP) and social capital theorists (Bourdieu, Coleman, Putnam, Burt).",
+    "Comparative analysis of centrality definitions (degree, betweenness, closeness) as used in social capital modeling versus networking contexts, summarized in a comparison table.",
+    "Use of a 7-stage Internet supply-chain model (from Pigliapoco and Bogliolo) as the analytical framework for diagnosing asymmetry and proposing a symmetric variant.",
+    "Proposal of a socially-driven design cycle linking Social Media, open-data sets, social behavior models, and new media/business practices."
+  ],
+  "findings": [
+    "Vertical integration by operators contrasts with the modular TCP/IP stack, limits innovation, and creates misalignment between costs and price models.",
+    "Stages 2, 3, 5, and 7 of the Internet supply chain have benefited from traffic growth, while stages 1, 4, and 6 have stagnated due to weak price signals.",
+    "User-centric Networks rely on four properties — resource sharing, cooperation, trust, and self-organization — and push prosumer behavior to lower OSI layers.",
+    "Networking and social capital interpretations of centrality diverge: e.g., high betweenness nodes act as inter-cluster 'bridgers' socially but are treated merely as central relays in networking; high closeness centrality nodes can become bottlenecks in networks despite implying better diffusion socially.",
+    "The 'bridger' role and the transitivity property of strong ties are not adequately represented in current pervasive networking models.",
+    "Social capital can be conceptualized at both individual and collective levels, with trust and reciprocity central to Putnam's collective framing."
+  ],
+  "contributions": [
+    "Articulates a vision and design guidelines for a socially-driven Internet architecture that merges social capital theory with networking design.",
+    "Extends the prosumer concept into the network layer via the 'network prosumer' notion grounded in User-centric Networks.",
+    "Proposes a symmetric Internet supply-chain model that explicitly includes prosumers and UCNs as stages, contrasted with the conventional asymmetric model.",
+    "Provides a comparative mapping between social capital centrality concepts and their networking counterparts, identifying specific misalignments to be resolved.",
+    "Identifies reach, engagement, and influence as the social properties most actionable for incorporation into Internet design, with candidate networking metrics for each."
+  ],
+  "framing": "The paper positions itself at the intersection of Future Internet architectural research (e.g., GENI, EIFFEL, SocialNets, ULOOP) and social capital theory (Bourdieu, Coleman, Putnam), arguing against a purely technological framing of Internet evolution. It contributes to debates on user empowerment, prosumerism (Toffler, Ritzer), and the end-to-end principle by calling for an interdisciplinary design philosophy that treats the Internet as a knowledge-generation platform shaped by social structures.",
+  "pdf_source": "drive"
+}

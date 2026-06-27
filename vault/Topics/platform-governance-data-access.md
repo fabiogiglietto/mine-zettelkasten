@@ -34,6 +34,7 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]
 - [[Giglietto2025-1e9a0917]]
+- [[Giglietto2025-ed60bc90]]
 - [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
 - [[Heiss2026-qv]]
