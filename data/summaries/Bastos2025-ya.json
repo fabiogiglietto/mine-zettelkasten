@@ -1,0 +1,23 @@
+{
+  "abstract": "This chapter offers a retrospective on Twitter's role as a foundational platform for social science research prior to its 2023 rebranding as X. It reviews the suite of APIs Twitter made available to developers and researchers and examines how this access shaped a distinct body of scholarship often termed 'Twitter studies,' especially in political communication. The chapter reflects on what the loss of this research infrastructure means for the field.",
+  "key_claims": [
+    "Twitter functioned as an unusually open platform for social science research, enabling a distinctive scholarly subfield sometimes called 'Twitter studies.'",
+    "The platform's various APIs (REST, Search, Streaming, Academic, Compliance) were central to making large-scale social data accessible to researchers.",
+    "The rebranding to X and accompanying changes in data access mark a significant rupture for computational social science and political communication research."
+  ],
+  "methods": [
+    "Historical and reflective review of Twitter as a research platform.",
+    "Survey of the platform's APIs and their respective affordances for researchers and developers."
+  ],
+  "findings": [
+    "Twitter was disproportionately prevalent as a data source in early 21st-century social science, particularly in political communication scholarship.",
+    "The range of APIs Twitter offered (REST, Search, Streaming, Academic, Compliance) shaped what kinds of research questions could be asked and answered."
+  ],
+  "contributions": [
+    "Provides a historical account of Twitter's contribution to social science research before its transition to X.",
+    "Documents the API ecosystem that underpinned a generation of computational and political communication scholarship.",
+    "Frames the end of open Twitter access as a turning point worth reflecting on for the discipline."
+  ],
+  "framing": "The chapter situates itself within computational social science and political communication, treating Twitter as both a research object and a research infrastructure. It contributes to ongoing disciplinary conversations about platform dependence, data access, and the sustainability of digital social research after the closure of open APIs.",
+  "pdf_source": "abstract_only"
+}

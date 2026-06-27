@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper reports four preregistered online experiments (n=18,978 conversations from 6,923 participants) pitting frontier conversational AI systems against a range of human persuaders, including laypeople, tournament-selected laypeople, professional canvassers, and elite competitive debaters. The authors find that AI systems were reliably more persuasive than even highly incentivized, prepared, and expert humans on UK policy attitudes, and that AI was nearly 3x more effective than professional canvassers at eliciting real-money donations to Save the Children. Coaching debaters on the AI that beat them narrowed but did not close the gap; only constraining AI to human writing speeds and message lengths eliminated its advantage, implicating information throughput (fact density) as the key mechanism.",
+  "key_claims": [
+    "Frontier AI systems out-persuade expert human persuaders, including world-champion debaters and professional canvassers, on political attitude change.",
+    "No individual human persuader in the sample (of 275 unique humans) reliably matched AI persuasiveness, even after targeted coaching.",
+    "AI's persuasive advantage stems primarily from higher information throughput — the ability to deploy large volumes of fact-checkable claims per conversation — rather than from rapport or perceived humanness.",
+    "AI's advantage generalizes from attitude change to consequential real-world behavior, specifically real-money charitable giving.",
+    "These capabilities have significant implications for political communication, power consolidation, disinformation, and AI oversight."
+  ],
+  "methods": [
+    "Four preregistered, single-blind, between-subjects online experiments run via a custom real-time matchmaking web platform with text-based conversations (2–10 turns).",
+    "Comparator classes: Random Laypeople (n=132 Prolific workers), Selected Laypeople (n=87, top ~10% from a separate preregistered four-round persuasion tournament with 1,154 competitors), Elite Debaters (n=56, including 4 world and 11 continental champions), Coached Elite Debaters (n=43 returning with ~8 hrs AI-focused coaching), and Professional Canvassers (n=19 from UK firm AppcoUK).",
+    "AI persuaders: Claude Opus 4.1/4.6, ChatGPT-4o, GPT-5.4, Grok 4.20, Gemini 2.5 Pro, prompted with an 'information-first' strategy (Studies 1–3) or an 'impact-efficacy' donation prompt (Study 4).",
+    "Study 2 included a Constrained AI condition that capped message length (~51 words) and response latency (~92s) to match Elite Debater throughput via a lagged adaptive prompting design.",
+    "Outcomes: pre/post 0–100 attitude scales on 10 prespecified UK policy stances (Studies 1–3); proportion of a £1 study bonus donated to Save the Children plus a 14-item donation-mechanism battery (Study 4).",
+    "Analysis via linear mixed-effects models with crossed random intercepts for persuader and persuadee, fixed effects for issue, pre-treatment attitude, and attempt; active control was a non-political chat with ChatGPT-4o.",
+    "Automated two-stage fact-checking pipeline (claim extraction + web verification) applied to every persuader message to quantify fact density.",
+    "Large cash incentives for humans, including tiered £1,000/£750/£500/£250 prize pools and per-conversation bonuses tied to performance relative to AI."
+  ],
+  "findings": [
+    "AI beat Random Laypeople by 8.2 pp, Selected Laypeople by 5.6 pp, Elite Debaters by 4.6 pp, and Professional Canvassers by 5.9 pp on attitude change (all p<.001).",
+    "Coaching elite debaters on the AI that beat them produced only a non-significant +1.0 pp improvement and did not close the gap (+4.1 pp AI advantage remained).",
+    "Constraining AI to human throughput (message length and latency) collapsed AI's advantage over coached debaters to a non-significant 0.0 pp.",
+    "No individual human persuader's effect estimate exceeded the pooled AI estimate; AI's advantage was robust across all 10 issues and 46 of 49 prespecified persuadee subgroup levels.",
+    "Fact-checkable claims per conversation strongly predicted persuasive impact (R²=0.89 overall), and including log-fact density rendered the AI-vs-human coefficient near zero, supporting a fact-density mechanism.",
+    "Constraining AI selectively reduced perceived informational quality (argument strength, learning, both ~−11.8 pp) while perceived human-likeness actually increased (+7.5 pp).",
+    "In Study 4, AI elicited +17.2 pp donation of the £1 bonus vs. +6.4 pp for canvassers — nearly 3x more effective — with gains on both extensive (more donors) and intensive (larger donations) margins.",
+    "AI outscored canvassers on all 7 preregistered donation-relevant mechanisms (e.g., implementation intentions, commitment escalation, impact-efficacy information), including six it was not explicitly prompted to use.",
+    "Pre-treatment attitude and issue knowledge significantly moderated AI's advantage (larger effects on those with weaker priors and less knowledge)."
+  ],
+  "contributions": [
+    "Provides the first large-scale, well-powered evidence that frontier conversational AI surpasses expert human persuaders — including world-champion debaters and professional canvassers — in head-to-head contests.",
+    "Demonstrates that targeted human coaching, including practice against the specific AI opponent, fails to close the human–AI persuasion gap.",
+    "Identifies information throughput / fact density as a plausible mechanism underlying AI's persuasive advantage, supported by a constraint experiment and fact-checking pipeline.",
+    "Extends prior attitude-persuasion findings to a consequential behavioral outcome (real-money charitable donations) via a field-relevant partnership with a professional fundraising firm.",
+    "Introduces methodological innovations including a four-round preregistered persuasion-selection tournament for identifying top lay persuaders and a lagged adaptive prompting design for matching AI message length to human baselines.",
+    "Articulates a policy-relevant framework for thinking about how AI persuasion may consolidate or redistribute influence, with implications for elections, lobbying, fundraising, disinformation, and AI oversight."
+  ],
+  "framing": "The paper situates itself within the political communication, computational social science, and AI safety literatures on persuasion, building on recent work showing AI chatbots can shift attitudes, conspiracy beliefs, and behaviors. It positions itself against earlier findings that AI matches only crowd-worker persuasiveness and extends the inquiry to elite, professionally trained human persuaders, framing persuasion as a societally consequential 'contest' with implications for power, disinformation, and the oversight of misaligned AI systems.",
+  "pdf_source": "drive"
+}

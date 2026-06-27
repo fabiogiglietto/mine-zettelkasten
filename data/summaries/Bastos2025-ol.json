@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper analyzes the Twitter Moderation Research Consortium dataset, comprising 115,474 accounts, millions of tweets, and over a terabyte of media from influence operations removed between 2017 and 2022. Using Google's Vision API and Keras with TensorFlow, the author examines whether foreign influence operations can be distinguished by the visual self-presentation of fake user profiles, including features like gender, race, camera angle, and sensuality. The study probes whether troll farms exhibit identifiable visual signatures tied to their country of origin.",
+  "key_claims": [
+    "Foreign influence operations exhibit identifiable visual identities in the profile imagery of fake accounts.",
+    "Visual self-presentation features such as gender, race, camera angle, and sensuality can serve as signals for detecting and attributing troll farm activity.",
+    "Large-scale image analysis of removed platform content offers a tractable avenue for distinguishing among state-linked information operations."
+  ],
+  "methods": [
+    "Analysis of the Twitter Moderation Research Consortium database: 115,474 unique accounts, millions of tweets, and over 1 TB of media removed from Twitter between 2017 and 2022.",
+    "Computer vision analysis of profile images using Google's Vision API.",
+    "Deep learning classification with Keras and TensorFlow to code visual attributes (e.g., gender, race, camera angle, sensuality).",
+    "Comparative analysis of visual features across influence operations attributed to different state actors."
+  ],
+  "findings": [
+    "Troll farm accounts display distinctive visual presentation patterns across attributes such as gender, race, camera angle, and sensuality.",
+    "Visual identity features vary systematically across foreign influence operations, supporting attribution by country of origin (specifics not available from abstract)."
+  ],
+  "contributions": [
+    "Introduces and leverages the Twitter Moderation Research Consortium as a large-scale resource for studying influence operations.",
+    "Demonstrates a computer-vision-based methodology for profiling and potentially attributing troll farm activity through profile imagery.",
+    "Extends influence operations research beyond textual and network signals to include the visual self-presentation of inauthentic accounts."
+  ],
+  "framing": "The work sits at the intersection of platform governance, computational propaganda studies, and computer vision, contributing to debates on detection and attribution of state-linked information operations. It positions visual identity as a previously underexplored dimension of inauthentic behavior alongside more established text- and network-based approaches.",
+  "pdf_source": "abstract_only"
+}
