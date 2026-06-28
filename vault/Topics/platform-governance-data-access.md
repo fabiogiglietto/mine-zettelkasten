@@ -23,6 +23,7 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Brown2026-br]]
 - [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
+- [[Crosset2026-mq]]
 - [[De2026-ld]]
 - [[Donovan2025-ws]]
 - [[Efstratiou2025-gs]]

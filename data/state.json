@@ -1961,9 +1961,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "56cf2a6e45f2bd1c33c79d6977a82fff91f6af5b1caae5e7bf7f9dd8da5adf9b",
       "podcast_linked": false,
-      "last_processed": "2026-06-27T09:40:05.921364+00:00"
+      "last_processed": "2026-06-28T07:02:22.312538+00:00"
     },
     "bibtex:Unknown2023-9137f448": {
       "note_path": "Papers/Unknown2023-9137f448.md",
@@ -2460,8 +2460,28 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-27T09:39:39.409766+00:00"
+    },
+    "bibtex:Manovich2026-ih": {
+      "note_path": "Papers/Manovich2026-ih.md",
+      "topics": [],
+      "pdf_source": "drive",
+      "content_hash": "e157ebe34d98407292c149a3bce5d4c656a6c8e160a2d6ddcaede229c9551b03",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-28T07:01:50.131299+00:00"
+    },
+    "bibtex:Crosset2026-mq": {
+      "note_path": "Papers/Crosset2026-mq.md",
+      "topics": [
+        "platform-governance-data-access"
+      ],
+      "pdf_source": "drive",
+      "content_hash": "32203caea3cc728b9a7de58efaaedd5ba7872fd2e59127746d1d8b861f865552",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-28T07:01:51.313741+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 1
+  "papers_since_cluster": 3
 }
