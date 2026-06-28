@@ -2463,9 +2463,11 @@
     },
     "bibtex:Manovich2026-ih": {
       "note_path": "Papers/Manovich2026-ih.md",
-      "topics": [],
+      "topics": [
+        "generative-ai-media"
+      ],
       "pdf_source": "drive",
-      "content_hash": "e157ebe34d98407292c149a3bce5d4c656a6c8e160a2d6ddcaede229c9551b03",
+      "content_hash": "REGENERATE-WRONG-PDF",
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-28T07:01:50.131299+00:00"
