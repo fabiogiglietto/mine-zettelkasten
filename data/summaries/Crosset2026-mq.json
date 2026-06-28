@@ -1,0 +1,37 @@
+{
+  "abstract": "This article analyzes seven recent legislative texts from Europe and the United States that govern online content moderation, treating them as case studies in contemporary security governance. Using a quali-quantitative network analysis of legal language, the authors identify three distinct regimes for governing the circulation of digital information—free circulation, patrolling, and flow optimisation—and argue that despite their differences, all three converge on a shared logic of 'security bureaucratisation.' Rather than directly controlling content, states translate security imperatives into administrative procedures (transparency, auditing, reporting) that shape how platforms govern information flows, transforming them into quasi-public infrastructures.",
+  "key_claims": [
+    "Online content moderation has become a security practice in which states regulate the circulation of information flows rather than directly controlling content.",
+    "Recent platform-regulation legislation in Europe and the US produces three distinct circulation regimes—free circulation, patrolling, and flow optimisation—each reflecting different political and security rationalities.",
+    "Despite their divergent logics, these regimes converge on a common mechanism of 'security bureaucratisation,' in which security is enacted through administrative rationalities such as transparency, auditing, and reporting.",
+    "Transparency functions not merely as accountability but as a distributed security apparatus that programmes platform conduct from a distance.",
+    "Legislation transforms platforms into quasi-public entities subjected to bureaucratic oversight, blurring public/private boundaries in security governance.",
+    "Contrary to expectations of regulatory convergence, distinct national legal cultures generate fundamentally different security assemblages rather than variations of a single model."
+  ],
+  "methods": [
+    "Comparative quali-quantitative textual analysis of seven legislative texts: Germany's NetzDG, Austria's KommAustria law, the UK Online Safety Act, the EU Digital Services Act, Florida SB 7072, Texas HB 20, and California AB 587.",
+    "Natural language processing using the Cortext software to extract roughly 2,000 noun-phrase expressions, manually curated to retain those signalling distinct regulatory positioning.",
+    "Segmentation of each law into sections (preamble, definitions, obligations, etc.) treated as separate documents to test internal consistency.",
+    "Construction of a bipartite network linking expressions to legal documents, weighted by Pearson chi-squared specificity scores with edges below 0.29 filtered out.",
+    "Visualisation via the ForceAtlas2 force-directed layout to identify clusters of co-occurring legal language.",
+    "Iterative combination of distant reading (network clusters) and close reading (qualitative interpretation of legal texts and secondary literature)."
+  ],
+  "findings": [
+    "Three distinct circulation regimes emerge: 'free circulation' (Florida, Texas) prioritising unimpeded flow and restricting platform moderation power; 'patrolling' (Germany, Austria) imposing rapid removal of illegal content within strict deadlines; and 'flow optimisation' (EU DSA, UK Online Safety Act) emphasising anticipatory systemic risk management.",
+    "Each regime configures distinct relationships between state and platforms: the state as constrainer (free circulation), arbitrator (patrolling), or administrator (flow optimisation).",
+    "Two cross-cutting clusters—'transparency' and 'enrolment' of experts/auditors—appear central across all regimes, indicating a shared bureaucratic infrastructure.",
+    "Security bureaucratisation operates through three modalities: compelling formalisation of rules, mandating quantification through reporting, and institutionalising independent auditing.",
+    "Each regime encodes specific temporalities (e.g., NetzDG's 24-hour deletion, DSA's annual audit cycles, California's continuous transparency obligations) that programme circulation rhythms.",
+    "The 'free circulation' regime paradoxically requires state coercion to enforce non-intervention, illustrating that even libertarian regulatory stances generate bureaucratic burdens."
+  ],
+  "contributions": [
+    "Develops a comparative framework for Critical Security Studies that links regulatory diversity to distinct security assemblages, moving beyond single-jurisdiction or single-threat analyses.",
+    "Introduces the concept of 'security bureaucratisation' to capture how security imperatives are embedded in everyday administrative practices of private platforms.",
+    "Bridges Critical Security Studies with governance and regulation studies (e.g., meta-regulation, regulatory capitalism, enforced self-regulation).",
+    "Demonstrates the analytical value of digital and visual network methods for mapping legal-discursive fields in security studies, where such methods remain uncommon.",
+    "Extends the analytical focus beyond 'nodes' of security control (airports, borders) to continuous administrative processes governing digital circulation.",
+    "Reframes transparency as a governmentality technique rather than a neutral accountability mechanism."
+  ],
+  "framing": "The paper positions itself within Critical Security Studies, particularly Foucauldian work on governmentality, biopolitics, and the security of circulations, while drawing on regulation and governance literatures (Black, Braithwaite, Levi-Faur) on meta-regulation and post-regulatory states. It explicitly builds on and extends recent CSS work on platform–state co-production of security (Bellanova & De Goede, Crosset & Dupont, Planqué-van Hardeveld) by introducing a comparative, cross-jurisdictional perspective and emphasising bureaucratic rather than direct modes of security governance.",
+  "pdf_source": "drive"
+}

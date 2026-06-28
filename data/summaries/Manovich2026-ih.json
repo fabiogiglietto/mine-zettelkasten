@@ -1,0 +1,21 @@
+{
+  "abstract": "The extracted text does not correspond to the paper 'A medium that thinks: Generative AI and media cognition' by Lev Manovich. Instead, it is a World Health Organization Request for Proposals (RFP reference WHO-SHQ-RFP-26-3015-P) soliciting bids for a Long Term Agreement to conduct a literature review and evidence synthesis on AI, health information ecosystems, and misinformation. Because the source content does not match the stated title and author, no faithful summary of the named paper can be produced from it.",
+  "key_claims": [
+    "The document is a procurement solicitation, not an academic paper, so it advances no scholarly claims.",
+    "WHO asserts that health misinformation is a growing public health challenge amplified by digital platforms and that AI offers both opportunities and risks for detecting and responding to it.",
+    "Robust regulatory and ethical safeguards are framed as essential given the rapid evolution of AI and large multimodal models."
+  ],
+  "methods": [
+    "Not applicable: the text is an RFP describing procurement procedures (eligibility, technical and financial evaluation with a 70/30 weighting, mandatory forms, and submission via the UNGM e-tendering portal).",
+    "The work to be commissioned would involve systematic/scoping literature reviews, evidence synthesis, analytical framework development, comparative analysis of AI use cases, and review of AI governance frameworks, organized in three segments."
+  ],
+  "findings": [
+    "No research findings are presented; the document specifies expected deliverables such as a comprehensive literature review report, an analytical framework on misinformation pathways, evaluation frameworks for AI in misinformation detection, and policy/governance recommendation briefs."
+  ],
+  "contributions": [
+    "As a procurement instrument, the RFP's contribution is to establish a 3-year (extendable to 5) Long Term Agreement supporting WHO's Frontier Technologies team within the AI and Frontier Technologies Unit, with a focus including the Eastern Mediterranean Region.",
+    "It outlines required contractor expertise across evidence synthesis, AI/LLM evaluation, and AI governance, and specifies outputs intended to inform WHO guidance and standards."
+  ],
+  "framing": "The document situates itself within WHO's digital health and AI governance agenda, the 2030 Sustainable Development Agenda, and post-COVID-19 concerns about trust in science and institutions. It is administrative-procurement framing rather than a scholarly framing; the cited paper title and author appear unrelated to the supplied content.",
+  "pdf_source": "drive"
+}
