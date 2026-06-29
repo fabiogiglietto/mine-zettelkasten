@@ -1,12 +1,15 @@
-# fg-zettelkasten configuration
+# mine-zettelkasten configuration (MINE team fork of fg-zettelkasten)
 # CLI arguments override these values.
 
 inputs:
-  # toread enriched JSON Feed — GitHub Contents API, served fresh. The raw
-  # CDN caches ~5 min and fg-zk:summarize runs seconds after toread commits,
-  # so a cached read would miss brand-new papers.
-  feed_url: "https://api.github.com/repos/fabiogiglietto/toread/contents/output/feed.json"
+  # mine-toread enriched JSON Feed — GitHub Contents API, served fresh. The raw
+  # CDN caches ~5 min and mine-zk:summarize runs seconds after mine-toread
+  # commits, so a cached read would miss brand-new papers.
+  feed_url: "https://api.github.com/repos/fabiogiglietto/mine-toread/contents/output/feed.json"
   # research-radio podcast episodes — GitHub Contents API (same reason).
+  # Left pointing at research-radio: Fabio's papers (still flowing through the
+  # mine-toread feed via Paperpile) keep their episode links; team submissions
+  # simply won't match an episode.
   episodes_url: "https://api.github.com/repos/fabiogiglietto/research-radio/contents/docs/episodes.json"
   # Fabio Giglietto's own publications — a second paper source (see the
   # `own_publications` section). raw CDN is fine: own papers change rarely.
@@ -49,19 +52,19 @@ vault:
   structures_dir: "Structures"
 
 slack:
-  # Post a curated digest of each newly-added paper to Slack #toread.
-  # The incoming-webhook URL is read from the SLACK_WEBHOOK_URL env var (secret);
-  # posting is skipped entirely when that var is unset.
+  # Post a curated digest of each newly-added paper to the MINE #zettelkasten
+  # channel. The incoming-webhook URL is read from the SLACK_WEBHOOK_URL env var
+  # (secret); posting is skipped entirely when that var is unset.
   # Own publications are never posted — they are not a reading list.
   enabled: true
-  channel: "#toread"   # informational only; the webhook is bound to its channel
+  channel: "#zettelkasten"   # informational only; the webhook is bound to its channel
   # Each digest links to the paper's full note on the live Quartz website — the
   # Slack post is only a digest; the note also carries methods, framing and
   # related papers. The "<bibtex-key>" slug is appended; unset to omit.
   # Note: the digest is posted earlier in the update-vault run than the Quartz
   # deploy, so a brand-new note's link 404s for the ~2-5 min until Pages goes
   # live — an accepted, self-healing window, not a bug.
-  note_base_url: "https://fabiogiglietto.github.io/fg-zettelkasten/Papers"
+  note_base_url: "https://fabiogiglietto.github.io/mine-zettelkasten/Papers"
   # A new paper's digest waits for its research-radio episode so the post can
   # carry the 🎧 Listen link; after this many days it is posted regardless.
   episode_wait_days: 2
@@ -69,6 +72,7 @@ slack:
 own_publications:
   # Fabio's own papers, processed by `update` as a second source alongside the
   # toread feed. They get vault notes (kind: own) but no Slack digest.
+  # Set enabled: false to keep the team kasten free of own-publications.
   enabled: true
   # A note is built only when the paper is recent OR well-cited — old,
   # low-citation papers are skipped (re-checked every run, so a paper joins
