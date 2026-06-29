@@ -1,0 +1,36 @@
+{
+  "abstract": "This study uses a network approach to examine audience overlap between alternative and mainstream news media across six European countries (Norway, Sweden, Austria, Germany, France, and Spain). Drawing on the 2020 Reuters Digital News Report survey and applying backbone-extracted audience overlap networks, the authors assess how alternative media are positioned relative to mainstream outlets and how media systems and the institutional access of populist parties shape these patterns. They find generally low audience overlap, but with a distinctive dense alternative enclave in Sweden, and higher overlap in countries where far-right populist parties enjoy greater institutionalized political access.",
+  "key_claims": [
+    "Audience overlap between alternative and mainstream media is generally low across Western European democracies, indicating that co-use at the individual level does not necessarily produce structural overlap at the outlet level.",
+    "The relationality between 'alternative' and 'mainstream' media is context-dependent, shaped by media systems and the institutional access of alternative (especially radical populist) political actors.",
+    "Strong professional journalism combined with the political marginalization of populist actors produces isolated alternative media enclaves, as exemplified by Sweden.",
+    "Where far-right populist parties have institutionalized access to political discourse (e.g., Austria, Norway, France), the boundary between mainstream and alternative media blurs, yielding more audience overlap.",
+    "Alternative media's marginality is structural and contextual rather than inherent, challenging the assumption that alternative media operate in fully isolated spheres."
+  ],
+  "methods": [
+    "Cross-country comparative design covering six European countries representing Northern (Norway, Sweden), Central (Austria, Germany), and Southern (France, Spain) media system types per Brüggemann et al. (2014).",
+    "Secondary analysis of the 2020 Reuters Institute Digital News Report survey (N = 12,161 across the six countries), using two questions about online news brands used in the past week.",
+    "Content analysis of 46 emerging online outlets using a coding manual based on Holt, Ustad Figenschou, and Frischlich (2019) and Heft et al. (2020), assessing alternative financing, organizational structure, and ideological stance; intercoder reliability of 100% (Krippendorff's alpha = 1) on a 12-outlet subsample; 39 outlets classified as alternative.",
+    "Construction of weighted, undirected audience overlap networks among 257 outlets, with backbone (disparity filter) extraction using the R 'backbone' package to retain statistically significant ties (p < .05).",
+    "Computation of global network metrics (density, transitivity, components, assortativity) and node-level centralities (degree, betweenness, eigenvector); Welch's t-tests comparing alternative vs. mainstream outlets.",
+    "Classification of countries by populist parties' institutionalized access to political discourse (high vs. low) based on electoral success and government participation as of early 2020."
+  ],
+  "findings": [
+    "Overall audience overlap is low; backbone networks are sparse (density 0.01–0.09; transitivity 0.13–0.39) with many isolated alternative outlets.",
+    "Hypothesis H1-1 supported: Northern Type systems (Norway, Sweden) show the densest networks and positive assortativity, with alternative outlets sharing audiences mainly among themselves rather than with mainstream outlets.",
+    "Hypothesis H1-2 rejected: contrary to expectation, alternative media in Northern Type systems occupy more central (not peripheral) positions; in Sweden, alternative outlets have higher average degree centrality than mainstream, though mainstream still have higher eigenvector centrality.",
+    "Hypothesis H2-1 supported: greater institutionalized access of populist actors (Austria, Norway, France) corresponds to more audience overlap between alternative and mainstream outlets (e.g., Resett.no and Document.no sharing audiences with Nettavisen; Unzensuriert.at and Kontrast.at with ORF.at).",
+    "Hypothesis H2-2 rejected: Welch's t-tests showed no statistically significant differences in audience size or centrality measures between high- and low-access country groups.",
+    "Sweden uniquely exhibits a tightly knit, disconnected alternative cluster of seven outlets, illustrating an alternative enclave formed under strong professional journalism plus political marginalization of populist actors.",
+    "Spain is an outlier with high fragmentation (36 components) and limited overlap, with one notable bridge: the fact-checker Maldita.es sharing audiences with El País."
+  ],
+  "contributions": [
+    "Introduces an audience overlap network approach—new to alternative media research—to empirically map structural relations between alternative and mainstream outlets.",
+    "Provides systematic cross-country comparative evidence on how media systems and populist political access jointly condition alternative-mainstream audience dynamics.",
+    "Refines theoretical understanding of 'alternativeness' as relational, fluid, and context-dependent, distinguishing individual-level repertoires from outlet-level structural overlap.",
+    "Identifies the specific configuration (strong professional journalism + politically marginalized populism) that breeds isolated alternative enclaves, with implications for debates on polarization and radicalization.",
+    "Demonstrates the methodological value of backbone extraction (disparity filter) for cross-country comparisons of audience networks."
+  ],
+  "framing": "The paper situates itself within audience-centric and relational approaches to alternative media research (Frischlich et al. 2023; Holt et al. 2019), engaging comparative media systems theory (Hallin & Mancini 2004; Brüggemann et al. 2014) and literature on populism's influence on journalism. It bridges these conversations with social network analysis traditions of audience overlap and fragmentation (Webster & Ksiazek 2012; Fletcher & Nielsen 2017; Majó-Vázquez et al. 2019).",
+  "pdf_source": "drive"
+}

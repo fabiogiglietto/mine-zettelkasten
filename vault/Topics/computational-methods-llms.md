@@ -28,6 +28,7 @@ Methodological work on large language models, embeddings, text classification pi
 - [[Giglietto2024-cbeb3f70]]
 - [[Hackenburg2025-dj]]
 - [[Iris2026-pg]]
+- [[Kim2026-br]]
 - [[Lai2024-to]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]

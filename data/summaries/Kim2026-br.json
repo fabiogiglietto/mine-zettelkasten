@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper develops an explainable machine-learning framework to detect and longitudinally analyze suspected state-linked troll activity in South Korean online news comments. Applied to 112 million comments from Naver News spanning nearly two decades (2006-2025), the system identifies 23,998 accounts exhibiting behavior consistent with coordinated foreign influence. The authors find that suspected trolls rely predominantly on morally condemning rhetoric (especially 'Condemning Korea') rather than overt promotion of foreign-aligned narratives, and that such condemnation—frequently targeting domestic political figures across the ideological spectrum—achieves disproportionately high engagement and visibility.",
+  "key_claims": [
+    "Suspected troll accounts on Naver News rely more on morally condemning rhetoric than on direct praise of foreign agendas, with 'Condemning Korea' being the dominant and most visible narrative.",
+    "Condemning rhetoric, particularly when directed at domestic political leaders from both left- and right-leaning camps, receives significantly higher user engagement and is more likely to surface in top-ranked comment threads.",
+    "Influx of newly appearing suspected troll accounts intensifies around major elections and diplomatic tensions, indicating responsiveness to political context.",
+    "Explainable, hierarchical detection with span-level rationales can support transparent and auditable platform moderation while remaining computationally efficient at scale.",
+    "Adversarial evasion of such detection faces a trade-off: weakening the rhetorical cues used by the detector may also reduce a comment's visibility and influence."
+  ],
+  "methods": [
+    "Assembled a corpus of 112,658,554 Naver News comments by 4,047,831 users (April 2006–March 2025), seeded from 70 publicly identified troll accounts released by Korea's Institute for National Security Strategy.",
+    "Built a candidate pool through (i) the follow network of known trolls and (ii) users commenting on the same articles as known trolls.",
+    "Designed a three-level hierarchical labeling scheme grounded in cognitive warfare and moral-emotion theory: (1) foreign state-suspected origin, (2) other-condemning vs. other-praising moral emotion, and (3) target country (Korea, MNS, Partner, Rival, Unknown).",
+    "Human-annotated 1,452 gold-standard comments with class labels and span-level rationales (Krippendorff's α up to 0.994 for foreign-state label, 0.813 for final troll label).",
+    "Fine-tuned GPT-4.1 on annotated data and applied it to 50,000 candidate comments, then distilled into lightweight Korean PLMs (KcBERT, KLUE-RoBERTa, KcELECTRA ~0.1B params); KcELECTRA was selected as the final model.",
+    "Aggregated 14 content-based features and 10 behavioral/metadata features per user (24 total), then trained SVM, Random Forest, LightGBM, and XGBoost user-level classifiers evaluated by 10-fold cross-validation; SHAP used for interpretability.",
+    "Strategy analysis combining time-series correlations (Pearson, Williams test), Welch's t-tests, Kruskal-Wallis with Dunn post-hoc, and Fractional Logit regression of like ratio on rhetorical intensity, with year/month fixed effects."
+  ],
+  "findings": [
+    "The user-level XGBoost detector achieved F1 = 0.94 in 10-fold CV; the content-level KcELECTRA model attained the best macro-F1 average (0.7222) across hierarchical class and span tasks.",
+    "23,998 suspected troll accounts (0.59% of the user base) were identified; their activity time series correlated more strongly with known trolls (daily r=0.81, monthly r=0.85) than non-troll users (r=0.65–0.70), with differences statistically significant.",
+    "Model-detected trolls showed elevated rates of troll-related content: 67% troll comments and 81% foreign-state-suspected vs. 22% and 31% for non-trolls; they also exhibited markedly higher frequency and diversity of MNS-language tokens.",
+    "'Condemning Korea' was the only rhetorical strategy whose mean like ratio (0.514) exceeded the neutral 0.5 threshold; Fractional Logit shows its intensity positively predicts like ratio (β=0.11), while Condemning Rival (β=−0.51) and Praising MNS (β=−1.09) significantly suppress it.",
+    "Weekly influx of new troll-like users was 51% higher during election windows than non-election periods, and the penetration density of trolls among new users rose from 0.82% to 0.91% near elections.",
+    "Across nearly 20 years, 'Condemning Korea' dominated troll output, peaking in 2018 (~675K comments) amid the THAAD dispute; high-visibility condemnation targeted political figures from both liberal (Moon Jae-in, Lee Jae-myeong, Cho Kuk) and conservative (Yoon Suk-yeol) camps."
+  ],
+  "contributions": [
+    "Release of a near 20-year, 112M-comment dataset of South Korean news comments linked to verified troll seeds, with masked identifiers and a removal-request protocol (Zenodo DOI provided).",
+    "An explainable, theory-grounded hierarchical troll detector that produces both class labels and span-level rationales, distilled into a ~0.1B-parameter model for scalable inference.",
+    "Large-scale longitudinal evidence on influence strategies, demonstrating the dominance and amplification advantage of moral-condemnation rhetoric and election-timed account influx.",
+    "Practical implications for platform governance, including evidence-based moderation workflows and prioritization guidance for defensive interventions during high-risk periods and against high-visibility rhetorical patterns."
+  ],
+  "framing": "The paper positions itself at the intersection of security research on coordinated influence operations, computational social science on moral emotions and polarization, and explainable AI for content moderation. It engages with cognitive warfare frameworks (e.g., NATO definitions), social-psychological theory on other-condemning vs. other-praising moral emotions (Brady et al.), and prior troll-detection work (e.g., TrollMagnifier), arguing for transparent, auditable detection that can inform platform defense beyond black-box classification.",
+  "pdf_source": "drive"
+}

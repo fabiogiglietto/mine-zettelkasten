@@ -1961,9 +1961,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "56cf2a6e45f2bd1c33c79d6977a82fff91f6af5b1caae5e7bf7f9dd8da5adf9b",
       "podcast_linked": false,
-      "last_processed": "2026-06-28T10:05:12.202629+00:00"
+      "last_processed": "2026-06-29T10:05:33.369311+00:00"
     },
     "bibtex:Unknown2023-9137f448": {
       "note_path": "Papers/Unknown2023-9137f448.md",
@@ -2467,10 +2467,10 @@
         "generative-ai-media"
       ],
       "pdf_source": "drive",
-      "content_hash": "REGENERATE-WRONG-PDF",
+      "content_hash": "e157ebe34d98407292c149a3bce5d4c656a6c8e160a2d6ddcaede229c9551b03",
       "podcast_linked": true,
       "slack_posted": true,
-      "last_processed": "2026-06-28T07:01:50.131299+00:00"
+      "last_processed": "2026-06-29T10:04:49.811214+00:00"
     },
     "bibtex:Crosset2026-mq": {
       "note_path": "Papers/Crosset2026-mq.md",
@@ -2482,8 +2482,36 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-28T07:01:51.313741+00:00"
+    },
+    "bibtex:Kim2026-br": {
+      "note_path": "Papers/Kim2026-br.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "computational-methods-llms"
+      ],
+      "doi": "",
+      "title": "Cross-national information attacks: A two-decade analysis of troll behavior in Korea",
+      "pdf_source": "drive",
+      "content_hash": "b2ac8069942689763374190b3a5d5b068076f0807df3d6b8f330ed36eeba0a94",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-29T10:04:15.044824+00:00"
+    },
+    "bibtex:Zhu2026-tn": {
+      "note_path": "Papers/Zhu2026-tn.md",
+      "topics": [
+        "polarization-hybrid-media",
+        "information-disorder"
+      ],
+      "doi": "10.1080/21670811.2026.2683342",
+      "title": "Locate alternative media in the digital news ecosystem: A cross-country comparative study of alternative-mainstream audience overlap networks",
+      "pdf_source": "drive",
+      "content_hash": "6d601536b653e2b4e0596ab39855fbf70110a33200193255be1632494275233e",
+      "podcast_linked": true,
+      "slack_posted": true,
+      "last_processed": "2026-06-29T10:04:49.811189+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 3
+  "papers_since_cluster": 5
 }
