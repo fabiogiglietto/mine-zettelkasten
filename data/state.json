@@ -2527,8 +2527,25 @@
       "last_processed": "2026-06-29T12:33:29.037318+00:00",
       "kind": "team",
       "submitted_by": "Fabio Giglietto"
+    },
+    "bibtex:Jaidka2026-sl34": {
+      "note_path": "Papers/Jaidka2026-sl34.md",
+      "topics": [
+        "information-disorder",
+        "platform-governance-data-access"
+      ],
+      "doi": "10.21203/rs.3.rs-9347980/v1",
+      "title": "The Elite Effect: Blocking Political Leaders on X Decreases Misinformation Susceptibility and Low-credibility Content Sharing",
+      "pdf_source": "drive",
+      "content_hash": "58a2aff4d2508c431b1d92ded5c5d151fcdf865fb59dc8ef8dd47885b3d7f125",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": true,
+      "last_processed": "2026-06-29T14:17:49.081164+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 6
+  "papers_since_cluster": 7
 }

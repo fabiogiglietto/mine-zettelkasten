@@ -43,6 +43,7 @@ Mis-, dis- and malinformation in hybrid media systems, including problematic hea
 - [[Hollingshead2026-vx]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
+- [[Jaidka2026-sl34]]
 - [[Kim2026-wg]]
 - [[Kuznetsova2025-nu]]
 - [[Li2026-wq]]

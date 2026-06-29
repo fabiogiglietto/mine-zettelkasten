@@ -40,6 +40,7 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Giglietto2026-855a54cb]]
 - [[Heiss2026-qv]]
 - [[Hurcombe2025-cs]]
+- [[Jaidka2026-sl34]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]

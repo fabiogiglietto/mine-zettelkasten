@@ -1,0 +1,38 @@
+{
+  "abstract": "This preregistered field experiment tested whether reducing the visibility of political elites in X (Twitter) feeds improves users' belief accuracy. Using a custom mobile X client (Twilly), the authors randomly assigned 1,214 U.S. participants to a control condition, an Elite Blocking condition (hiding posts authored by political elites), or an Elite Scrubbing condition (additionally hiding posts mentioning elites) over a one-month period in late 2024. Both interventions reduced exposure to and resharing of low-credibility and highly partisan content, and produced significant improvements in factual knowledge and reductions in misinformation susceptibility, while leaving affective polarization, media trust, and related attitudes largely unchanged.",
+  "key_claims": [
+    "Elite-centered exposure on social media causally shapes belief accuracy and misinformation susceptibility, not merely individual traits like partisanship or inattention.",
+    "Selectively suppressing elite visibility can improve epistemic outcomes without broadly suppressing political content or requiring users to disengage from politics.",
+    "Elite-referential discourse (posts mentioning elites) contributes additional amplification of low-credibility content beyond elite-authored posts themselves.",
+    "Misinformation should be reframed as a problem of exposure architecture rather than only individual belief or motivation.",
+    "Platform-independent client-side interventions are a feasible and causally informative method for studying social media effects amid restricted API access."
+  ],
+  "methods": [
+    "Preregistered field experiment (September–December 2024) with a baseline (N=1,214) and endline (N=648) survey separated by a one-month intervention period.",
+    "Custom mobile X client ('Twilly') that filtered users' live timelines client-side while preserving follow networks and ordinary scrolling.",
+    "Three-arm random assignment: Control (unaltered feed), Elite Blocking (hide elite-authored posts), and Elite Scrubbing (hide elite-authored and elite-mentioning posts).",
+    "Elite accounts identified using ideology estimates from Barberá (2015) and Mukerjee et al. (2022), updated for 2024; low-credibility content identified via domain ratings (Mosleh & Rand; Robertson et al.); partisan content defined as tweets with |ideology score| > 0.3.",
+    "Recruitment via CloudResearch of active U.S. X users; behavioral compliance monitored via app usage logs.",
+    "Linear regression models for survey outcomes (with demographic and baseline covariates) and engagement models with treatment × engagement-type interactions; 2SLS instrumental-variable analyses using random assignment as instrument for exposure.",
+    "Outcomes measured pre/post: political knowledge (national/international), text and multimodal misinformation susceptibility, confidence in misinformation judgments, affective polarization, political attitudes, media trust, and news avoidance."
+  ],
+  "findings": [
+    "Both interventions reduced daily tweet volume substantially (e.g., from 586 to 350 tweets/day for left-leaning users under Elite Scrubbing) while leaving the share of political content roughly stable.",
+    "Exposure to low-credibility content dropped ~5.8–5.9 percentage points in viewed tweets under both interventions; partisan content viewed dropped ~13.7–14.0 percentage points.",
+    "Retweeting of partisan content fell sharply (~20 percentage points) under both conditions; retweeting of low-credibility content declined significantly under Elite Blocking (−6.79 pp).",
+    "Treatment effects concentrated in first-degree exposure (followed accounts) rather than second-degree exposure via linked domains; Elite Scrubbing produced larger reductions in low-credibility exposure than Elite Blocking (Δ ≈ 3.2 pp).",
+    "International news knowledge increased by 0.48 SD (Elite Blocking) and 0.32 SD (Elite Scrubbing); national news knowledge increased by ~0.24–0.28 SD.",
+    "Misinformation susceptibility decreased significantly across formats: political rumors (~−0.42 SD), multimodal misinformation (~−0.66 to −0.68 SD), and confidence in misinformation judgments (~−0.34 to −0.39 SD).",
+    "No significant effects detected on affective polarization, perceived partisan threat, social distance, political interest, institutional trust, media trust, or news avoidance.",
+    "Participants showed limited awareness of feed alterations: only 23% of treated participants noticed any change."
+  ],
+  "contributions": [
+    "Provides causal evidence that elite visibility, distinct from broader political content exposure, drives misinformation susceptibility and low-credibility content sharing.",
+    "Disentangles elites-as-creators from elites-as-objects-of-attention by contrasting Elite Blocking and Elite Scrubbing conditions.",
+    "Demonstrates a platform-independent, client-side experimental methodology (Twilly) for manipulating live feeds without platform consent while holding follow networks fixed.",
+    "Identifies elite visibility as an actionable design lever for content moderation that improves epistemic outcomes without wholesale suppression of political content.",
+    "Reframes misinformation interventions from individual-level bottom-up approaches toward top-down structural changes in exposure architecture."
+  ],
+  "framing": "The paper positions itself against bottom-up, individual-susceptibility accounts of misinformation (e.g., media literacy, inoculation, corrective prompts) and within a growing literature on top-down, structural and elite-driven misinformation dynamics. It contributes to platform-independent field experimentation on social media, building on and contrasting with prior work on feed re-ranking, unfollowing, and deactivation experiments by isolating elite-centered exposure as a distinct causal channel.",
+  "pdf_source": "drive"
+}
