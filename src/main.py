@@ -98,10 +98,16 @@ def _drive_client(cfg: dict):
     if not creds or not folder or not Path(creds).exists():
         print("WARN: Google Drive not configured — using abstract-only summaries")
         return None
+    # The team fork also searches team-toread's Slack-inbox Drive folder, where
+    # team-submitted PDFs are uploaded (separate from the Paperpile folder).
+    folders = [folder]
+    inbox_folder = os.environ.get("SLACK_INBOX_DRIVE_FOLDER_ID")
+    if inbox_folder:
+        folders.append(inbox_folder)
     try:
         from .drive_client import DriveClient
 
-        return DriveClient(creds, folder)
+        return DriveClient(creds, folders)
     except Exception as exc:  # noqa: BLE001 - Drive is optional, never fatal
         print(f"WARN: could not initialise Drive client ({exc}) — abstract-only")
         return None
@@ -503,6 +509,29 @@ def cmd_update(cfg: dict, args) -> int:
             new_papers.append(paper)
         elif entry.get("content_hash") != new_hash:
             changed_papers.append(paper)
+
+    # Duplicate safety net (multi-user archive): a brand-new id may refer to a
+    # paper already in the vault under a different id — e.g. a team-mate's Slack
+    # submission of a paper Fabio already curates. team-toread replies "already
+    # in the archive" at ingest time, but races/older notes can slip through, so
+    # we also skip here by normalized DOI/title. Changed papers keep their id and
+    # are never deduped.
+    dup_index = state_mod.dedup_index(state)
+    # Augment with the seeded corpus: notes whose state entry predates the
+    # per-entry doi/title fields (the ~hundreds of papers a team fork is seeded
+    # with) are only indexable from their frontmatter. Without this, a re-submit
+    # of an already-archived paper is missed at launch — the common case.
+    for k, v in state_mod.dedup_index_from_notes(Path(vault) / papers_dir).items():
+        dup_index.setdefault(k, v)
+    deduped = []
+    for paper in new_papers:
+        existing = state_mod.find_duplicate(dup_index, paper.doi, paper.title)
+        if existing:
+            print(f"  dedup: {paper.bibtex_key} duplicates {existing} "
+                  f"— skipping")
+            continue
+        deduped.append(paper)
+    new_papers = deduped
     print(f"update: {len(new_papers)} new, {len(changed_papers)} changed")
 
     summaries: dict[str, dict] = {}
@@ -524,9 +553,13 @@ def cmd_update(cfg: dict, args) -> int:
             paper, summary, register, claude, claude.reasoning_model
         )
         podcast = paper.id in episodes
-        state["papers"][paper.id] = {
+        entry = {
             "note_path": f"{papers_dir}/{paper.bibtex_key}.md",
             "topics": slugs,
+            # DOI + title persisted so dedup_index can catch a later id that
+            # refers to the same paper.
+            "doi": paper.doi or "",
+            "title": paper.title,
             "pdf_source": summary["pdf_source"],
             "content_hash": state_mod.content_hash(paper.abstract, podcast),
             "podcast_linked": podcast,
@@ -537,6 +570,12 @@ def cmd_update(cfg: dict, args) -> int:
             "slack_pending": True,
             "last_processed": _now(),
         }
+        # A team-mate's Slack submission: tag it `kind: team` and carry the
+        # submitter through to the note frontmatter (published for attribution).
+        if paper.is_team_submission:
+            entry["kind"] = "team"
+            entry["submitted_by"] = paper.submitted_by
+        state["papers"][paper.id] = entry
 
     # Changed papers: refresh the state hash (e.g. a podcast episode appeared).
     for paper in changed_papers:
@@ -560,6 +599,7 @@ def cmd_update(cfg: dict, args) -> int:
         note = note_builder.build_paper_note(
             paper, summary, entry["topics"], related,
             episodes.get(paper.id), claude, claude.reasoning_model,
+            kind=entry.get("kind"),
         )
         note_builder.write_note(vault, papers_dir, paper.bibtex_key, note)
 
@@ -678,6 +718,8 @@ def cmd_update(cfg: dict, args) -> int:
             "note_path": f"{papers_dir}/{paper.bibtex_key}.md",
             "topics": slugs,
             "kind": "own",
+            "doi": paper.doi or "",
+            "title": paper.title,
             "pdf_source": summary["pdf_source"],
             "content_hash": state_mod.content_hash(paper.abstract, podcast),
             "podcast_linked": podcast,
