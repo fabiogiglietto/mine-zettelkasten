@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "fg-zettelkasten",
+    pageTitle: "MINE Zettelkasten",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "fabiogiglietto.github.io/fg-zettelkasten",
+    baseUrl: "fabiogiglietto.github.io/mine-zettelkasten",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
