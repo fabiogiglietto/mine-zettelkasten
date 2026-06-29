@@ -15,10 +15,10 @@ that archive and then grown by the team.
 ## Adding papers (teammates start here)
 
 You add papers straight from Slack — no Git. In the MINE **`#zettelkasten`**
-channel, post the hashtag plus a link:
+channel, just **post a link to the paper** (no hashtag, no command):
 
 ```
-#zettelkasten https://doi.org/10.1080/1369118X.2024.2349123
+https://doi.org/10.1080/1369118X.2024.2349123
 ```
 
 A bot finds the open-access PDF (or asks you to attach one), summarizes the
@@ -30,7 +30,7 @@ are in **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 Three streams feed the vault, all joined on the `bibtex:AuthorYear-xx` id:
 
-1. **Team Slack submissions** — `#zettelkasten` suggestions, ingested by
+1. **Team Slack submissions** — links posted in `#zettelkasten`, ingested by
    [mine-toread](https://github.com/fabiogiglietto/mine-toread). Notes are tagged
    `kind: team` and carry `submitted_by`.
 2. **Paperpile reading list** — Fabio's curated to-read queue, also via
@@ -78,7 +78,8 @@ cp .env.example .env        # then fill in the keys
   the digest
 
 The matching ingestion secrets (`SLACK_BOT_TOKEN`, `PAPERPILE_EXPORT_URL`, …)
-live on **mine-toread**.
+live on **mine-toread**, where the repo variable `SLACK_REQUIRE_HASHTAG=false`
+puts ingestion in dedicated-channel mode (any link is a submission).
 
 ## Usage
 
