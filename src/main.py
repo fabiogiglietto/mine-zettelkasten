@@ -564,10 +564,14 @@ def cmd_update(cfg: dict, args) -> int:
             "content_hash": state_mod.content_hash(paper.abstract, podcast),
             "podcast_linked": podcast,
             "slack_posted": False,
-            # Queued for a #toread digest; the post itself is deferred until
-            # the paper's research-radio episode lands (see the Slack section
-            # below). Papers predating the Slack feature lack this flag.
-            "slack_pending": True,
+            # Queued for a #toread digest — but ONLY team Slack submissions are
+            # posted from here. This kasten and fg-zettelkasten both write to the
+            # same #toread channel; Paperpile-origin papers flow through both
+            # pipelines, so we leave those to fg-zettelkasten and post only the
+            # team submissions (which exist solely in this feed) to avoid a
+            # double-post. The post itself is deferred until the paper's
+            # research-radio episode lands (see the Slack section below).
+            "slack_pending": paper.is_team_submission,
             "last_processed": _now(),
         }
         # A team-mate's Slack submission: tag it `kind: team` and carry the
@@ -604,7 +608,9 @@ def cmd_update(cfg: dict, args) -> int:
         note_builder.write_note(vault, papers_dir, paper.bibtex_key, note)
 
     # --- Slack digests ----------------------------------------------------
-    # Post each new paper's digest to #toread exactly once. The post is held
+    # Post each new *team submission's* digest to #toread exactly once (see the
+    # is_team_submission guard below for why Paperpile papers are excluded). The
+    # post is held
     # until the paper's research-radio episode appears, so the digest can
     # carry the 🎧 Listen link — research-radio publishes episodes a few hours
     # after a paper is added, later than this `update` run. `episode_wait_days`
@@ -624,6 +630,13 @@ def cmd_update(cfg: dict, args) -> int:
         for paper in papers:
             entry = state["papers"].get(paper.id)
             if entry is None or entry.get("slack_posted"):
+                continue
+            # Only team Slack submissions are announced from this kasten —
+            # Paperpile-origin papers are posted to #toread by fg-zettelkasten,
+            # so posting them here too would duplicate. This also guards the
+            # backlog of papers queued (`slack_pending: True`) before this rule
+            # existed, so deploying it does not flood #toread.
+            if not paper.is_team_submission:
                 continue
             pending = entry.get("slack_pending")
             if pending is None:
