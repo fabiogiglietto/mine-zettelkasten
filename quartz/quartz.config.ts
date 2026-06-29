@@ -29,31 +29,32 @@ const config: QuartzConfig = {
         code: { name: "IBM Plex Mono", weights: [400, 500, 600] },
       },
       colors: {
-        // Light = the cream identity. ink (#232A5C) on cream (#F1EBDE),
-        // gold (#A9772B) as the signal/accent.
+        // MINE identity (mine.uniurb.it): the bold red wordmark as the signal,
+        // on a crisp near-white ground, with gold + teal-blue as the secondary
+        // brand colors (from the network-node graphic). Light = red on white.
         lightMode: {
-          light: "#f1ebde", // page background — cream
-          lightgray: "#c9c0ad", // borders / hr — rule (strong)
-          gray: "#6d6a5e", // muted / mono voice
-          darkgray: "#43455e", // body text
-          dark: "#232a5c", // headings / strong — ink
-          secondary: "#232a5c", // links — ink
-          tertiary: "#a9772b", // link hover / visited — accent gold
-          highlight: "rgba(169, 119, 43, 0.12)", // internal-link / search bg — accent wash
-          textHighlight: "#a9772b44", // ==mark== — accent wash
+          light: "#fcfcfb", // page background — crisp near-white
+          lightgray: "#e4e3df", // borders / hr — hairline
+          gray: "#6c7175", // muted / mono voice — steel grey
+          darkgray: "#32363a", // body text — slate
+          dark: "#1f2022", // headings / strong — near-black
+          secondary: "#d4283a", // links — MINE red (signal)
+          tertiary: "#a81f2d", // link hover / visited — deep red
+          highlight: "rgba(212, 40, 58, 0.10)", // internal-link / search bg — red wash
+          textHighlight: "#f0b04055", // ==mark== — MINE gold wash
         },
-        // Dark = the brand's "reversed on ink" treatment: ink-deep ground,
-        // cream text, accent gold preserved as the signal.
+        // Dark = the "reversed on slate" treatment: deep teal-slate ground,
+        // light slate-grey text, MINE red preserved (brightened) as the signal.
         darkMode: {
-          light: "#16182b", // page background — ink deep
-          lightgray: "#3a3c52", // borders / hr
-          gray: "#9a9383", // muted
-          darkgray: "#d8d2c4", // body text — warm cream-grey
-          dark: "#f1ebde", // headings / strong — cream
-          secondary: "#c3b9f0", // links — light blue-violet
-          tertiary: "#caa25e", // link hover / visited — brightened gold
-          highlight: "rgba(202, 162, 94, 0.15)",
-          textHighlight: "#caa25e44",
+          light: "#15191c", // page background — deep teal-slate
+          lightgray: "#2e353a", // borders / hr
+          gray: "#868d93", // muted
+          darkgray: "#cdd2d5", // body text — light slate-grey
+          dark: "#f3f4f2", // headings / strong — near-white
+          secondary: "#f2545b", // links — brightened MINE red
+          tertiary: "#ff8a90", // link hover / visited — light red
+          highlight: "rgba(242, 84, 91, 0.15)",
+          textHighlight: "#f0b04055", // gold wash
         },
       },
     },

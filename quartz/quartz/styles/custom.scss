@@ -1,19 +1,19 @@
 @use "./base.scss";
 
-// ── FG brand identity ───────────────────────────────────────────────────────
-// Site-wide brand touches that the theme tokens (quartz.config.ts) can't
-// express on their own. Kept deliberately small so the Quartz grid stays
-// intact. Full identity spec: static/brand.html.
+// ── MINE brand identity ─────────────────────────────────────────────────────
+// Palette drawn from mine.uniurb.it: red is the link/signal (theme tokens),
+// teal-blue is the secondary interactive accent (here), gold lives in the
+// highlight wash. Kept deliberately small so the Quartz grid stays intact.
 
 :root {
   // brand tokens, available for the touches below
-  --fg-accent: #a9772b; // signal / gold
-  --fg-rule-soft: #ddd5c6; // inner / secondary hairline
+  --fg-accent: #2e6f8f; // secondary accent / teal-blue
+  --fg-rule-soft: #ebe9e4; // inner / secondary hairline
 }
 
 :root[saved-theme="dark"] {
-  --fg-accent: #caa25e;
-  --fg-rule-soft: #2c2e44;
+  --fg-accent: #6fb6d6;
+  --fg-rule-soft: #262c31;
 }
 
 // Headings carry the brand weight (Saira 600) — DIN-grotesque, tight.

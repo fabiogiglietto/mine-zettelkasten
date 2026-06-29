@@ -145,7 +145,7 @@ def build_index(
 
     lines = [
         "---",
-        'title: "fg-zettelkasten"',
+        'title: "MINE Zettelkasten"',
         "---",
         "",
         f"A topic-anchored Zettelkasten built from the `toread` paper feed — "
