@@ -1,37 +1,64 @@
-# fg-zettelkasten
+# mine-zettelkasten
 
-An Obsidian knowledge base that turns the
-[toread](https://github.com/fabiogiglietto/toread) academic-paper feed into a
-densely interconnected Zettelkasten, modelled on the
-[Niklas Luhmann Archive](https://niklas-luhmann-archiv.de/).
+The **MINE** team's shared Zettelkasten (MINE = *Mapping Italian News*). It turns
+the papers the team reads into a densely interconnected knowledge base, modelled
+on the [Niklas Luhmann Archive](https://niklas-luhmann-archiv.de/), and publishes
+it as a website.
 
-Each paper becomes a richly-described note. Notes are organised under a **topic
-register** synthesized from the maintainer's live research agenda
-(`fabiogiglietto.github.io`), cross-linked into a navigable web, and linked to
-the matching [research-radio](https://github.com/fabiogiglietto/research-radio)
-podcast episode when one exists.
+**Browse it:** https://fabiogiglietto.github.io/mine-zettelkasten/
 
-A second source feeds the vault: the maintainer's **own publications**, taken
-from `fabiogiglietto.github.io`'s `own-publications.json`. These get notes
-tagged `kind: own` — built from the paper's green open-access PDF, for recent
-or well-cited papers only — but are never posted to the `#toread` Slack digest:
-they are not a reading list.
+Each paper becomes a richly-described note, organised under a **topic register**,
+cross-linked into a navigable web. It is a fork of
+[fg-zettelkasten](https://github.com/fabiogiglietto/fg-zettelkasten), seeded with
+that archive and then grown by the team.
+
+## Adding papers (teammates start here)
+
+You add papers straight from Slack — no Git. In the MINE **`#zettelkasten`**
+channel, post the hashtag plus a link:
+
+```
+#zettelkasten https://doi.org/10.1080/1369118X.2024.2349123
+```
+
+A bot finds the open-access PDF (or asks you to attach one), summarizes the
+paper, and publishes a note crediting you as the submitter. **Open-access papers
+only.** Full instructions — the PDF fallback, duplicate handling, attribution —
+are in **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
+## Sources
+
+Three streams feed the vault, all joined on the `bibtex:AuthorYear-xx` id:
+
+1. **Team Slack submissions** — `#zettelkasten` suggestions, ingested by
+   [mine-toread](https://github.com/fabiogiglietto/mine-toread). Notes are tagged
+   `kind: team` and carry `submitted_by`.
+2. **Paperpile reading list** — Fabio's curated to-read queue, also via
+   mine-toread.
+3. **Own publications** — from `fabiogiglietto.github.io`'s
+   `own-publications.json`, tagged `kind: own` (recent or well-cited, built from
+   the green open-access PDF). Toggle with the `own_publications` config block.
 
 ## Pipeline
 
 ```
-Paperpile -> toread (metadata enrichment) -> feed.json
-fabiogiglietto.github.io -> research agenda + own-publications.json
-        |
-        v
-fg-zettelkasten (Claude: topic register + full-PDF summaries + notes)
-   |- vault/           Obsidian vault
-   '- data/summaries/  shared structured summaries (consumed later by research-radio)
+#zettelkasten Slack channel ─┐
+Paperpile "To Read"          ├─► mine-toread (Unpaywall/arXiv/Crossref + Drive)
+                             ┘        │  -> output/feed.json (+ submitted_by)
+                                      v
+mine-zettelkasten (Claude: topic register + full-PDF summaries + notes)
+   |- vault/           Obsidian vault (Papers / Topics / Structures)
+   '- data/            state, topics, summaries (committed)
+                                      │
+                                      v
+                          Quartz site on GitHub Pages
 ```
 
-All projects join papers on the `bibtex:AuthorYear-xx` id.
+Duplicate submissions are caught twice: mine-toread replies *"already in the
+archive"* in Slack, and mine-zettelkasten skips any new id whose DOI/title
+already has a note.
 
-## Setup
+## Setup (maintainer)
 
 ```bash
 python -m venv venv && source venv/bin/activate
@@ -39,20 +66,33 @@ pip install -r requirements.txt
 cp .env.example .env        # then fill in the keys
 ```
 
-`.env` needs `ANTHROPIC_API_KEY`, `GOOGLE_APPLICATION_CREDENTIALS` (path to a
-Google service-account JSON with read access to Paperpile's Drive folder — the
-same account research-radio uses) and `GOOGLE_DRIVE_FOLDER_ID`.
+`.env` / GitHub Actions secrets:
+
+- `ANTHROPIC_API_KEY`
+- `GOOGLE_APPLICATION_CREDENTIALS` (path to a Google service-account JSON with
+  read access to **both** the Paperpile Drive folder and mine-toread's Slack-inbox
+  folder) and `GOOGLE_DRIVE_FOLDER_ID` (Paperpile folder)
+- `SLACK_INBOX_DRIVE_FOLDER_ID` — mine-toread's Slack-inbox upload folder (so
+  team-submitted PDFs are found)
+- `SLACK_WEBHOOK_URL` — incoming webhook to the team `#zettelkasten` channel for
+  the digest
+
+The matching ingestion secrets (`SLACK_BOT_TOKEN`, `PAPERPILE_EXPORT_URL`, …)
+live on **mine-toread**.
 
 ## Usage
 
 ```bash
 python -m src.main refresh-topics       # build the topic register from github.io
 python -m src.main bootstrap            # process the whole archive (run once)
-python -m src.main bootstrap --limit 5  # smoke test on the first 5 papers
-python -m src.main update               # daily incremental run
+python -m src.main update               # incremental run (new/changed papers)
 python -m src.main update --recluster   # incremental + full re-cluster
 python -m src.main export-site          # export the vault to quartz/content/
 ```
+
+In normal operation nothing is run by hand: mine-toread dispatches
+`pipeline-finalize` on a feed change, and a daily cron runs `update` as a
+fallback.
 
 ## Vault layout
 
@@ -60,75 +100,37 @@ python -m src.main export-site          # export the vault to quartz/content/
 - `vault/Topics/`     — register entry notes (the *Schlagwortregister*)
 - `vault/Structures/` — hub notes narrating an argument across papers in a topic
 
-Open `vault/` as an Obsidian vault. `data/` (state, topics, summaries) and
-`vault/` are committed; extracted PDF text is transient and never committed.
+Open `vault/` as an Obsidian vault. `data/` and `vault/` are committed; extracted
+PDF text is transient and never committed.
 
 ## Writing from the kasten (Claude Code skill)
 
-The repo ships a Claude Code skill, **`zettel-paper`**, that drafts new papers,
+The repo ships a Claude Code skill, **`zettel-paper`**, that drafts papers,
 literature reviews, and syntheses *from* the vault the Luhmann way — pulling a
-thread of linked notes that already forms an argument and turning it into prose,
-citing only real notes with traceable DOIs. It lives in
-`.claude/skills/zettel-paper/` and is auto-discovered when you open this repo in
-[Claude Code](https://claude.com/claude-code) — no install step.
+thread of linked notes that already forms an argument into prose, citing only
+real notes with traceable DOIs. It lives in `.claude/skills/zettel-paper/` and is
+auto-discovered when you open this repo in
+[Claude Code](https://claude.com/claude-code).
 
-Just ask in plain language; the skill triggers on intent, e.g.:
+Ask in plain language, e.g.:
 
 - "Draft a literature review on coordinated inauthentic behavior from the kasten."
-- "What non-obvious paper could I write from these notes?"
-- "Turn the platform-governance Structure into a framing piece."
+- "What non-obvious paper could the team write from these notes?"
 
-It works from the **public** notes and summaries, so collaborators can run it on
-a fresh clone. An optional full-text path (reading the source PDF from the
-maintainer's Paperpile Google Drive, via the Claude Drive connector) is
-maintainer-only and degrades silently to the published summaries when the folder
-isn't configured or accessible.
-
-### Using it on Claude.ai or in Claude Cowork
-
-The skill isn't only for Claude Code. A pre-built upload bundle —
-[`zettel-paper-skill.zip`](zettel-paper-skill.zip) — is committed at the repo
-root, so collaborators can load it as an Agent Skill on
-**[Claude.ai](https://claude.ai)** (web / desktop Chat) or in
-**[Claude Cowork](https://www.anthropic.com/product/claude-cowork)** without
-cloning anything. Both run it in a sandboxed shell that clones this **public**
-repo and executes a standard-library Python script; neither auto-discovers the
-repo's `.claude/skills/`, so add the skill once:
-
-- **Pro / Max:** download `zettel-paper-skill.zip` and upload it as a personal
-  Skill in your Claude account settings (under *Skills* / *Capabilities*). It then
-  works in Claude.ai Chat, Cowork, and Claude Code.
-- **Team / Enterprise:** an admin provisions it org-wide via
-  *Organization settings → Skills*, and every member gets it.
-
-The bundle is a snapshot of `.claude/skills/zettel-paper/`; a CI workflow
-(`.github/workflows/skill-bundle.yml`) rebuilds and commits it automatically
-whenever the skill changes on `main`, so it never goes stale. (To rebuild by hand:
-`cd .claude/skills && zip -r ../../zettel-paper-skill.zip zettel-paper`.) Invoke it
-the same way ("draft a review on X from the kasten"). The full-text Google Drive
-path stays maintainer-only; collaborators draft from the public summaries.
+It works from the **public** notes and summaries, so any teammate can run it on a
+fresh clone.
 
 ## Website
 
-The vault is also published as a public website with [Quartz](https://quartz.jzhao.xyz/)
-— interactive graph, backlinks, search, and topic/structure landing pages — at
-**https://fabiogiglietto.github.io/fg-zettelkasten/**. The `update-vault` GitHub
+Published with [Quartz](https://quartz.jzhao.xyz/) — interactive graph, backlinks,
+search, topic/structure landing pages — at
+**https://fabiogiglietto.github.io/mine-zettelkasten/**. The `update-vault` GitHub
 Action rebuilds and deploys it on every run.
 
 ```bash
-python -m src.main export-site                 # vault/ -> quartz/content/
+python -m src.main export-site                  # vault/ -> quartz/content/
 cd quartz && npm ci && npx quartz build --serve # preview at localhost:8080
 ```
 
-`export-site` is deterministic (no LLM): it copies the vault notes into
-`quartz/content/`, strips Obsidian-only `dataview` blocks, and generates the
-homepage. The vault itself is never modified. Quartz needs Node 22+; the
-generated `quartz/content/` and `quartz/public/` are not committed.
-
-## Status
-
-Scaffold. Data-fetching modules are implemented; LLM-driven steps
-(`topics_client.synthesize_register`, `summarizer.summarize_paper`,
-`themes.*`, `note_builder.build_paper_note` / `build_structure_note`, the
-`claude_client` SDK calls, and the `main.py` command bodies) are stubbed with
-`NotImplementedError` and pointers to the implementation plan.
+`export-site` is deterministic (no LLM) and never modifies the vault. Quartz
+needs Node 22+; `quartz/content/` and `quartz/public/` are not committed.
