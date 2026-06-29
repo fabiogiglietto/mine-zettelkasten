@@ -22,8 +22,10 @@ contain a paper **link or an attached PDF** are treated as submissions.)
 
 ### What the bot does
 
-1. Reads the link and looks up the paper's details (title, authors, year) from
-   Crossref / arXiv.
+1. Works out the paper's DOI — from the link itself (a `doi.org` link or a
+   publisher URL with the DOI in it) or, if the link doesn't show one, by
+   reading the DOI tag on the page — then looks up title/authors/year from
+   Crossref (or arXiv for an arXiv link).
 2. Tries to get the **full-text PDF**, in this order:
    - a PDF you attached to the message,
    - the arXiv PDF (if it's an arXiv link),
@@ -43,8 +45,14 @@ paper is paywalled and you don't have a shareable PDF, please don't force it in.
 
 ### Tips
 
-- **Include a DOI or arXiv link** when you can — it gives the cleanest metadata
-  and the best shot at an automatic open-access PDF.
+- **Almost any paper link works** — a `doi.org` link, or a journal/publisher
+  page (Taylor & Francis, SAGE, Springer, Wiley…), or an arXiv link. The bot
+  finds the DOI even when it isn't visible in the URL.
+- **A DOI or arXiv link is still the most reliable** and gives the best shot at
+  an automatic open-access PDF.
+- **DOI-less links** (some preprint/repository pages, news articles, a bare PDF
+  URL) may not yield metadata on their own — for those, **attach the PDF**, and
+  ideally paste the DOI too if you have it.
 - **One paper per message.** Post separate messages for separate papers.
 - **Fastest path:** attach the PDF to your message up front, and the bot won't
   need to go looking.
