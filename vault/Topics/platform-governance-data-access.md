@@ -42,6 +42,7 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Hurcombe2025-cs]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
+- [[Katzenbach2026-sl2e]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
 - [[Mahl2026-hc]]

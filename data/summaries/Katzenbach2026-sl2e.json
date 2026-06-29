@@ -1,0 +1,41 @@
+{
+  "abstract": "This paper analyzes how five major social media platforms (YouTube, Facebook, Instagram, Twitter/X, and TikTok) have developed and changed their election-related policies from roughly 2006 to 2024. Using a mixed-methods approach combining computational text analysis of Terms of Service and Community Guidelines with qualitative thematic analysis, the authors identify three distinct phases of election governance. They argue that platforms have shifted from protecting concrete election processes (2018–2020), to embracing broader civic integrity responsibilities (2020–2022), to a recent backlash characterized by policy rollbacks (since 2022). These dynamics reflect both general 'turn to responsibility' trends in platform governance and specific responses to US election cycles in 2016, 2020, and 2024.",
+  "key_claims": [
+    "Major social media platforms share a similar trajectory in election-related policy development despite individual differences, indicating cross-platform convergence.",
+    "Platform election policies evolved through three identifiable phases: protective beginnings (2018–2020), civic integrity expansion (2020–2022), and backlash/rollback (2023–2024).",
+    "US presidential elections (2016, 2020, 2024) have been the primary catalysts shaping platforms' election-related policy changes, with other regions (notably Brazil, Germany, EU) playing secondary roles.",
+    "Platforms are neither neutral nor stable institutions; their policies adapt to public, political, and regulatory pressure rather than principled commitments.",
+    "Recent rollbacks reflect 'platform illiberalism' — instrumental use of platforms to promote owners' interests — rather than a principled return to free speech values.",
+    "Platforms continue to focus disproportionately on powerful regions, neglecting election integrity issues in places like Myanmar and Kenya."
+  ],
+  "methods": [
+    "Compiled a corpus of 411 policy documents (Community Guidelines and Terms of Service) from YouTube, Facebook, Instagram, Twitter/X, and TikTok, spanning 2006–2024.",
+    "Built on the Platform Governance Archive (PGA v1 and v2) supplemented with additional data from platform websites and the Internet Archive.",
+    "Conducted computational collocation analysis using log-likelihood ratios in RStudio to identify election-related keywords (election, vote, integrity, civic).",
+    "Used the quanteda R package to tokenize text and compute relative frequencies of election-related terms per 1,000 tokens over time.",
+    "Calculated TF-IDF based cosine similarity between platforms' election-related policy texts to measure cross-platform convergence.",
+    "Applied a diachronic context window approach (30-word windows around 'elect*' stems) to identify policy passages with notable changes.",
+    "Performed thematic analysis (Clarke & Braun) on 71 selected documents, using Diffchecker to track changes across document versions.",
+    "Contextualized identified shifts with major elections and political events (following Siapera et al.'s approach) without claiming causal inference."
+  ],
+  "findings": [
+    "Election-related terminology was largely absent from platform policies until 2018–2019, when all major platforms introduced dedicated election policies.",
+    "Facebook focused on procedural terms (vote, official, count, poll), while Twitter/X and TikTok used more civic-oriented language (civic, integrity, process, society).",
+    "Cosine similarity between platforms' election policies increased markedly from 2019 onward (e.g., Facebook–YouTube rose from 0.03 in 2019 to 0.22 in 2024), indicating semantic convergence.",
+    "Phase 1 (2018–2020) policies focused narrowly on protecting officials, preventing voter suppression, and addressing direct election interference.",
+    "Phase 2 (2020–2022) saw dramatic expansion, with platforms like Twitter introducing 'civic integrity' framing, YouTube banning false fraud claims for select countries (US, Germany, Brazil), and explicit affirmations of responsibility for democratic processes.",
+    "Phase 3 (2023–2024) showed substantial rollbacks: YouTube removed prohibitions on 2020 US election fraud claims; X dismantled civic integrity policy after Musk's takeover; TikTok narrowed harm-related language.",
+    "Facebook was an exception in Phase 3 within the data period, continuing to expand election protections through 2024, though Meta's January 2025 announcement signaled a similar turn.",
+    "Policies often changed in the immediate weeks before US elections, suggesting reactive rather than proactive governance."
+  ],
+  "contributions": [
+    "Provides the first longitudinal, comparative empirical mapping of election-related policies across five major platforms over nearly two decades.",
+    "Introduces a three-phase periodization (protection, integrity, backlash) as a framework for understanding platform election governance.",
+    "Demonstrates methodological integration of computational keyword identification, frequency analysis, cosine similarity, and qualitative thematic analysis for studying platform policy evolution.",
+    "Extends the Platform Governance Archive dataset and demonstrates its analytical utility for tracking platform transience.",
+    "Offers empirical grounding for debates about platform self-regulation, the 'techlash,' and the politicization of content moderation.",
+    "Connects election-specific governance dynamics to broader theoretical discussions about the 'turn to responsibility' and 'platform illiberalism.'"
+  ],
+  "framing": "The paper situates itself within platform governance scholarship, building on Gillespie's notion of platforms as 'custodians,' Katzenbach's 'turn to responsibility,' and Barrett & Kreiss's concept of 'platform transience.' It contributes to debates about platforms' role in democracy, election integrity, and content moderation, engaging with literature on misinformation, deplatforming, and the recent 'techlash' and backlash dynamics. The analysis is positioned as empirically grounding normative debates about platform accountability in election contexts.",
+  "pdf_source": "drive"
+}

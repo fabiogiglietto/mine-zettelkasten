@@ -2510,8 +2510,25 @@
       "podcast_linked": true,
       "slack_posted": true,
       "last_processed": "2026-06-29T10:04:49.811189+00:00"
+    },
+    "bibtex:Katzenbach2026-sl2e": {
+      "note_path": "Papers/Katzenbach2026-sl2e.md",
+      "topics": [
+        "platform-governance-data-access",
+        "elections-political-communication"
+      ],
+      "doi": "10.1080/1369118x.2026.2686320",
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "pdf_source": "drive",
+      "content_hash": "91085f2eb6c362b28c2787d044c1f34a49da3cc3321fcc1e82639c5c7f2a4ef3",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": true,
+      "last_processed": "2026-06-29T12:33:29.037318+00:00",
+      "kind": "team",
+      "submitted_by": "Fabio Giglietto"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 5
+  "papers_since_cluster": 6
 }

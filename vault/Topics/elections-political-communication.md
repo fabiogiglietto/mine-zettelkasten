@@ -32,6 +32,7 @@ Empirical studies of electoral campaigns on digital platforms — Italian, Germa
 - [[Jurg2025-ur]]
 - [[Kalsnes2025-zb]]
 - [[Kansaon2025-id]]
+- [[Katzenbach2026-sl2e]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]
 - [[Larsson2026-ro]]
