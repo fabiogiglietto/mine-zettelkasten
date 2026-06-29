@@ -120,7 +120,11 @@ class DriveClient:
                     q=query,
                     fields="nextPageToken, files(id, name, size, modifiedTime)",
                     pageSize=1000,
-                    pageToken=page_token
+                    pageToken=page_token,
+                    # Required to see files in a Shared Drive (the team
+                    # Slack-inbox folder lives on one); harmless for My Drive.
+                    supportsAllDrives=True,
+                    includeItemsFromAllDrives=True,
                 ).execute()
 
                 files.extend(results.get('files', []))
@@ -205,7 +209,8 @@ class DriveClient:
     def download_pdf(self, file_id: str) -> Optional[bytes]:
         """Download a PDF file from Drive by its ID."""
         try:
-            request = self.service.files().get_media(fileId=file_id)
+            request = self.service.files().get_media(
+                fileId=file_id, supportsAllDrives=True)
             buffer = io.BytesIO()
             downloader = MediaIoBaseDownload(buffer, request)
 
