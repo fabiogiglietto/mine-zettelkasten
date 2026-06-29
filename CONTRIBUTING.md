@@ -10,16 +10,15 @@ straight from Slack; no Git, no PRs.
 
 ## How to add a paper
 
-In the MINE Slack **`#zettelkasten`** channel, post a message that contains the
-hashtag **`#zettelkasten`** and a link to the paper:
+In the MINE Slack **`#zettelkasten`** channel, just **post a link to the paper**:
 
 ```
-#zettelkasten https://doi.org/10.1080/1369118X.2024.2349123
+https://doi.org/10.1080/1369118X.2024.2349123
 ```
 
-That's it. A bot watches the channel (about every 30 minutes) and takes it from
-there. Messages **without** the `#zettelkasten` hashtag are ignored, so you can
-chat normally in the channel.
+That's it — no hashtag, no command. A bot watches the channel (about every 30
+minutes) and takes it from there. (Normal discussion is fine: only messages that
+contain a paper **link or an attached PDF** are treated as submissions.)
 
 ### What the bot does
 
@@ -47,8 +46,8 @@ paper is paywalled and you don't have a shareable PDF, please don't force it in.
 - **Include a DOI or arXiv link** when you can — it gives the cleanest metadata
   and the best shot at an automatic open-access PDF.
 - **One paper per message.** Post separate messages for separate papers.
-- **Fastest path:** attach the PDF to your `#zettelkasten` message up front, and
-  the bot won't need to go looking.
+- **Fastest path:** attach the PDF to your message up front, and the bot won't
+  need to go looking.
 
 ### Duplicates
 
