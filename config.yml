@@ -52,12 +52,17 @@ vault:
   structures_dir: "Structures"
 
 slack:
-  # Post a curated digest of each newly-added paper to the MINE #zettelkasten
-  # channel. The incoming-webhook URL is read from the SLACK_WEBHOOK_URL env var
+  # Post a curated digest of each newly-added paper to the MINE #toread
+  # channel — the team-wide announce channel (papers are *submitted* in
+  # #zettelkasten; the digest *advertises* the resulting note to everyone).
+  # The incoming-webhook URL is read from the SLACK_WEBHOOK_URL env var
   # (secret); posting is skipped entirely when that var is unset.
   # Own publications are never posted — they are not a reading list.
   enabled: true
-  channel: "#zettelkasten"   # informational only; the webhook is bound to its channel
+  # Informational only — an incoming webhook is bound to its channel, so the
+  # SLACK_WEBHOOK_URL secret MUST be a webhook created for #toread, not
+  # #zettelkasten. This value does not route the post; it only documents intent.
+  channel: "#toread"
   # Each digest links to the paper's full note on the live Quartz website — the
   # Slack post is only a digest; the note also carries methods, framing and
   # related papers. The "<bibtex-key>" slug is appended; unset to omit.

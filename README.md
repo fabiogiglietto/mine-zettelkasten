@@ -74,8 +74,9 @@ cp .env.example .env        # then fill in the keys
   folder) and `GOOGLE_DRIVE_FOLDER_ID` (Paperpile folder)
 - `SLACK_INBOX_DRIVE_FOLDER_ID` — mine-toread's Slack-inbox upload folder (so
   team-submitted PDFs are found)
-- `SLACK_WEBHOOK_URL` — incoming webhook to the team `#zettelkasten` channel for
-  the digest
+- `SLACK_WEBHOOK_URL` — incoming webhook bound to the team `#toread` channel,
+  where each new note's digest is announced (papers are *submitted* in
+  `#zettelkasten`; the digest goes to `#toread`)
 
 The matching ingestion secrets (`SLACK_BOT_TOKEN`, `PAPERPILE_EXPORT_URL`, …)
 live on **mine-toread**, where the repo variable `SLACK_REQUIRE_HASHTAG=false`
