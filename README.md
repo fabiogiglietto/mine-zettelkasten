@@ -1,6 +1,6 @@
 # mine-zettelkasten
 
-The **MINE** team's shared Zettelkasten (MINE = *Mapping Italian News*). It turns
+The **[MINE](https://mine.uniurb.it)** team's shared Zettelkasten (MINE = *Mapping Italian News*). It turns
 the papers the team reads into a densely interconnected knowledge base, modelled
 on the [Niklas Luhmann Archive](https://niklas-luhmann-archiv.de/), and publishes
 it as a website.

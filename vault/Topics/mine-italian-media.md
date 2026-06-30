@@ -6,7 +6,7 @@ emergent: false
 
 # MINE — Mapping Italian News
 
-The PI's institutional research umbrella since 2017: mapping Italian news media coverage, partisan attention and Facebook/Instagram interaction patterns around insular and cross-partisan sources.
+The PI's institutional research umbrella since 2017 ([mine.uniurb.it](https://mine.uniurb.it)): mapping Italian news media coverage, partisan attention and Facebook/Instagram interaction patterns around insular and cross-partisan sources.
 
 ## Papers
 

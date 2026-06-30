@@ -45,7 +45,7 @@
   {
     "slug": "mine-italian-media",
     "name": "MINE — Mapping Italian News",
-    "description": "The PI's institutional research umbrella since 2017: mapping Italian news media coverage, partisan attention and Facebook/Instagram interaction patterns around insular and cross-partisan sources.",
+    "description": "The PI's institutional research umbrella since 2017 ([mine.uniurb.it](https://mine.uniurb.it)): mapping Italian news media coverage, partisan attention and Facebook/Instagram interaction patterns around insular and cross-partisan sources.",
     "source_signals": [
       "_data/projects.yml",
       "_data/publications.yml",
