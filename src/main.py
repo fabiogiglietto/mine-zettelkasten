@@ -63,19 +63,6 @@ def _note_url(cfg: dict, bibtex_key: str) -> str | None:
     return f"{base.rstrip('/')}/{bibtex_key}" if base else None
 
 
-def _slack_wait_expired(entry: dict, max_days: float) -> bool:
-    """True once a paper has waited longer than `max_days` for its episode.
-
-    The fallback that lets a paper whose podcast episode never appears still
-    be announced. Measured from `last_processed` — when the paper was first
-    seen — so the wait does not restart on unrelated re-processing."""
-    ts = entry.get("last_processed")
-    if not ts:
-        return True
-    age = datetime.now(timezone.utc) - datetime.fromisoformat(ts)
-    return age.total_seconds() >= max_days * 86400
-
-
 def _claude(cfg: dict):
     """Build the Claude SDK wrapper from config (lazy import keeps --help cheap)."""
     from .claude_client import ClaudeClient
@@ -569,8 +556,8 @@ def cmd_update(cfg: dict, args) -> int:
             # same #toread channel; Paperpile-origin papers flow through both
             # pipelines, so we leave those to fg-zettelkasten and post only the
             # team submissions (which exist solely in this feed) to avoid a
-            # double-post. The post itself is deferred until the paper's
-            # research-radio episode lands (see the Slack section below).
+            # double-post. The digest is posted on this same run (team papers do
+            # not get a research-radio episode — see the Slack section below).
             "slack_pending": paper.is_team_submission,
             "last_processed": _now(),
         }
@@ -609,12 +596,12 @@ def cmd_update(cfg: dict, args) -> int:
 
     # --- Slack digests ----------------------------------------------------
     # Post each new *team submission's* digest to #toread exactly once (see the
-    # is_team_submission guard below for why Paperpile papers are excluded). The
-    # post is held
-    # until the paper's research-radio episode appears, so the digest can
-    # carry the 🎧 Listen link — research-radio publishes episodes a few hours
-    # after a paper is added, later than this `update` run. `episode_wait_days`
-    # caps the wait so a paper that never gets an episode is still announced.
+    # is_team_submission guard below for why Paperpile papers are excluded), on
+    # this same `update` run. We do *not* wait for a research-radio episode:
+    # research-radio only sources episodes from the Paperpile Drive folder and
+    # own-publications, never the Slack-inbox folder where team PDFs land, so a
+    # team paper never gets an episode — waiting would only delay every post. An
+    # episode link is still attached if one happens to exist (it won't today).
     # `slack_pending` marks a paper as awaiting its digest (set when first
     # seen, cleared once posted); `slack_posted` keeps the post idempotent
     # across retries.
@@ -626,7 +613,6 @@ def cmd_update(cfg: dict, args) -> int:
     # entry with no `slack_posted` key at all is pre-Slack bootstrap backlog
     # and must stay excluded so deploying this feature does not flood #toread.
     if post_to_slack:
-        wait_days = cfg.get("slack", {}).get("episode_wait_days", 2)
         for paper in papers:
             entry = state["papers"].get(paper.id)
             if entry is None or entry.get("slack_posted"):
@@ -643,9 +629,6 @@ def cmd_update(cfg: dict, args) -> int:
                 pending = "slack_posted" in entry  # Slack-era, never posted
             if not pending:
                 continue
-            if (paper.id not in episodes
-                    and not _slack_wait_expired(entry, wait_days)):
-                continue  # hold for the episode (or the fallback deadline)
             summary = summaries.get(paper.bibtex_key) or summarizer.load_summary(
                 summaries_dir, paper.bibtex_key
             )

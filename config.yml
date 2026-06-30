@@ -65,9 +65,6 @@ slack:
   # deploy, so a brand-new note's link 404s for the ~2-5 min until Pages goes
   # live — an accepted, self-healing window, not a bug.
   note_base_url: "https://fabiogiglietto.github.io/mine-zettelkasten/Papers"
-  # A new paper's digest waits for its research-radio episode so the post can
-  # carry the 🎧 Listen link; after this many days it is posted regardless.
-  episode_wait_days: 2
 
 own_publications:
   # Fabio's own papers, processed by `update` as a second source alongside the
