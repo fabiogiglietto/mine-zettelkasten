@@ -2577,8 +2577,22 @@
       "last_processed": "2026-06-29T16:41:12.830879+00:00",
       "kind": "team",
       "submitted_by": "Fabio Giglietto"
+    },
+    "bibtex:Gottfried2026-ww": {
+      "note_path": "Papers/Gottfried2026-ww.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "",
+      "title": "Americans and AI 2026: Chatbots, Smart Devices and Views on Impact",
+      "pdf_source": "drive",
+      "content_hash": "dbd38bd7d4ce1fe66d82fb48fae0e25f1632c98c9d79537dfc526c78f28d11b3",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-06-30T07:47:50.153390+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 9
+  "papers_since_cluster": 10
 }

@@ -1,0 +1,47 @@
+{
+  "abstract": "This Pew Research Center report presents findings from a February 2026 survey of 5,119 U.S. adults on their use of and attitudes toward artificial intelligence. It documents rising adoption of AI chatbots (about half of adults), AI-enabled smart home devices, and AI search summaries, while showing that public sentiment toward AI tilts negative across age groups. The report examines demographic differences by age, gender, race/ethnicity, and party in AI use, awareness, and views on AI's societal and personal impact, regulation, and pace of development.",
+  "key_claims": [
+    "Approximately half of U.S. adults now use AI chatbots, a substantial increase from 2024, with roughly a quarter using them daily.",
+    "Despite growing adoption, Americans—including younger adults—are deeply skeptical of AI, with more predicting negative than positive impacts on themselves and society.",
+    "About two-thirds of Americans believe AI is advancing too quickly, and roughly seven-in-ten believe AI will make their personal information less secure.",
+    "Confidence in U.S. government to regulate AI effectively has declined since 2024, with a notable partisan shift: Democrats have become significantly more skeptical while Republicans have become somewhat less so.",
+    "Asian adults stand out as the only racial/ethnic group whose views of AI's personal impact tilt more positive than negative.",
+    "A persistent gender gap exists, with women viewing AI more negatively and using chatbots less regularly than men, though overall use rates have converged.",
+    "ChatGPT remains the dominant chatbot brand, used by 44% of U.S. adults, more than double its 2023 reach."
+  ],
+  "methods": [
+    "Nationally representative survey of 5,119 U.S. adults conducted February 17-23, 2026, via Pew's American Trends Panel (Wave 187).",
+    "Mixed-mode data collection: 4,930 online and 189 live telephone interviews, in English and Spanish, administered by SSRS.",
+    "Address-based sampling for panel recruitment, with an oversample of non-Hispanic Asian adults for subgroup precision.",
+    "Survey-level response rate of 87%; cumulative response rate of 3%; margin of error of ±1.6 percentage points for full sample.",
+    "Weighting calibrated to benchmarks from the 2024 American Community Survey, 2023 CPS Volunteering Supplement, 2025 NPORS, and validated 2024 presidential vote data.",
+    "Open-ended question coded into categories asking what technology comes to mind when respondents think of AI.",
+    "Trend comparisons to prior Pew surveys (2022, 2023, 2024, 2025) on chatbot and AI awareness and use."
+  ],
+  "findings": [
+    "49% of U.S. adults use AI chatbots; 24% use them daily, including 4% almost constantly.",
+    "44% have used ChatGPT (up from 34% in 2025 and roughly 18% in 2023); Gemini (~24%), Copilot, and Meta AI follow.",
+    "Top chatbot uses: information search (~42%), work tasks (38% of employed adults), entertainment, image/video creation, and medical advice; 10% use chatbots for emotional support and fewer for companionship.",
+    "About a third of adults have an AI-enabled smart speaker; ~18% have smart doorbells; ~13% robot vacuums; ~11% smart thermostats; 37% own a smartwatch.",
+    "60% read AI summaries at the top of search engine results.",
+    "40% expect AI's societal impact over 20 years to be negative versus 16% positive; 31% expect negative personal impact versus 23% positive.",
+    "63% say AI is advancing too quickly; 71% expect it to make personal information less secure.",
+    "67% have little or no confidence in U.S. government to regulate AI effectively (up from 62% in 2024); ~60% lack confidence in companies to develop AI responsibly.",
+    "Democrats' lack of confidence in government AI regulation rose 20 points since 2024 (to 74%), while Republicans' fell from 70% to 61%.",
+    "Adults under 50 use chatbots at roughly 60%+ rates versus 42% (50-64) and 23% (65+); ChatGPT use is 57% under 50 vs 28% for 50+.",
+    "About 30% of Americans first associate 'chatbots' with AI when prompted; ~8% mention robots/sci-fi.",
+    "96% have heard at least a little about AI; 48% have heard 'a lot' (up from 26% in 2022).",
+    "70% of Asian adults use chatbots versus ~50% or less of White, Black, and Hispanic adults; 41% of Asian adults expect positive personal impact from AI.",
+    "Among non-users, top reasons cited as major are lack of interest (60%), privacy concerns (54%), and distrust of accuracy (45%); 70% are unlikely to start using chatbots in the next year."
+  ],
+  "contributions": [
+    "Provides updated 2026 benchmark statistics on U.S. adult AI chatbot adoption, frequency, brand use, and use cases.",
+    "Introduces new measures of AI-enabled smart home device ownership and consumption of AI search summaries.",
+    "Documents shifts in partisan attitudes toward AI regulation between 2024 and 2026.",
+    "Offers detailed demographic breakdowns (age, gender, race/ethnicity, income, party) for AI use and attitudes.",
+    "Captures public mental models of AI through a novel open-ended question about what technology comes to mind first.",
+    "Adds to longitudinal trend data on AI and chatbot awareness from 2022 through 2026."
+  ],
+  "framing": "The report situates itself within Pew Research Center's ongoing nonpartisan tracking of public opinion on emerging technologies, building on prior Pew studies of AI awareness, ChatGPT use, and attitudes toward AI regulation. It frames AI as a technology transitioning from novelty to embedded daily infrastructure, foregrounding tensions between rising adoption and persistent public skepticism about safety, pace, and governance.",
+  "pdf_source": "drive"
+}
