@@ -2591,8 +2591,24 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-06-30T07:47:50.153390+00:00"
+    },
+    "bibtex:Mota2026-sl59": {
+      "note_path": "Papers/Mota2026-sl59.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "10.1080/1369118x.2026.2691775",
+      "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
+      "pdf_source": "drive",
+      "content_hash": "1dcebe952f798ee419d7a86cb34195c0f70404e0970a80777d1bdcd199240f21",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": true,
+      "last_processed": "2026-06-30T08:33:46.511538+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 10
+  "papers_since_cluster": 11
 }

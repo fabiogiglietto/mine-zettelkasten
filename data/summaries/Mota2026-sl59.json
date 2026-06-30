@@ -1,0 +1,40 @@
+{
+  "abstract": "This study compares how mainstream news media in the Global North and Global South politically frame artificial intelligence, focusing on implications for digital governance and public opinion. Combining topic modelling and sentiment analysis on 6,829 English-language articles from twelve newspapers (2010–2024), the author identifies three temporal phases of coverage and fifteen thematic frames. The findings reveal that Northern outlets adopt a more pessimistic, risk-oriented tone, while Southern outlets are more optimistic and developmental in their framing, reflecting geopolitical asymmetries and differing technological positions.",
+  "key_claims": [
+    "AI should be understood not merely as a technical artifact but as a political infrastructure that reshapes institutions, governance, and power relations.",
+    "Media framing of AI diverges systematically between the Global North (risk- and threat-oriented, pessimistic) and Global South (opportunity-oriented, optimistic).",
+    "Coverage of AI-politics evolved through three discrete phases: an incipient technical phase (2010–2016), a crisis-driven politicisation phase (2017–2021), and an exponential acceleration phase (2022–2024) catalysed by ChatGPT.",
+    "Geopolitical framings—especially US–China rivalry—occupy a central place in AI discourse, positioning AI as both a 'weapon' in a new technological cold war and a 'wonder' for development.",
+    "The concentration of AI infrastructure and capacity in a small number of Big Tech firms produces a 'state-platform' risk entanglement that reconfigures sovereignty and democratic accountability.",
+    "Existing comparative scholarship has underexplored the political and emotional dimensions of AI news framing across North–South divides."
+  ],
+  "methods": [
+    "Comparative computational text analysis of 6,829 English-language news articles drawn from LexisNexis (2010–2024).",
+    "Sample of twelve newspapers across Europe, North America, Africa, and Asia/Oceania (e.g., The New York Times, The Guardian, China Daily, The Straits Times, Mail & Guardian, The Times of India, The Korea Herald, The News International, The Toronto Star, The Australian, Bangkok Post, Philippines Daily Inquirer).",
+    "Keyword-based article retrieval combining 'Artificial Intelligence/Generative AI/GenAI' with election- and politics-related terms.",
+    "Topic modelling via Latent Dirichlet Allocation (LDA) using Gibbs sampling (α=0.1, δ=0.1, 5,000 iterations), with 15 topics selected through triangulated metrics (Arun, Cao, Deveaud, Griffiths–Steyvers).",
+    "Headline sentiment analysis combining four lexicons: Bing (binary), sentimentr (contextual), NRC (discrete emotions), and AFINN (graded polarity).",
+    "Mann–Whitney non-parametric testing to validate North–South sentiment differences.",
+    "Hybrid qualitative–quantitative interpretation of topics using bigram analysis and keyword coherence; analysis structured around Hallin and Mancini's media systems framework."
+  ],
+  "findings": [
+    "Three temporal phases of coverage with inflection points at the Cambridge Analytica scandal (2018) and ChatGPT release (2022); article volume increased roughly 567% between 2022 and 2024.",
+    "Fifteen thematic frames emerged, dominated by Social Media and Tech Impact (16.03%), Technology and the Digital Economy (12.54%), China–US Relations and Trade (11.41%), Tech Companies and Innovation (11.27%), and AI and Society (10.40%).",
+    "Geopolitical frames (China–US relations, Global Development and China, International Conflicts) collectively account for 20.92% of coverage.",
+    "Global North headlines skew negative: 41.7% negative vs. 37.8% positive (mean AFINN −0.0113); The Guardian shows 68.15% negative headlines.",
+    "Global South headlines skew positive: 51.5% positive vs. 22.7% negative (mean AFINN +0.102); China Daily shows 71.01% positive headlines.",
+    "Mann–Whitney test confirms statistically significant North–South sentiment difference (W=4,157,516; p<0.001).",
+    "NRC analysis shows fear (17.85%) and trust (21.03%) coexisting in the North, while the South emphasizes anticipation (16.90%).",
+    "Outlet-level variation: Technology and Digital Economy dominates in The Korea Herald (39.13%) and Toronto Star (26.14%); geopolitical frames dominate in The Straits Times (22.47%); US politics frames concentrate in The New York Times.",
+    "Post-2022 coverage expanded the agenda from present harms (bias, disinformation, unemployment) to existential and AGI-related risks amplified by elite open letters."
+  ],
+  "contributions": [
+    "Provides the first systematic comparative analysis of political framings of AI in news media across Global North and Global South outlets.",
+    "Redirects analytical attention from generic AI coverage toward AI as a site of political contestation involving corporate power, geopolitics, and digital governance.",
+    "Offers a large-scale empirical corpus (6,829 articles, 12 outlets, 15 years) using a reproducible mixed-method computational pipeline with openly shared data and scripts.",
+    "Introduces an empirical periodisation of AI-politics coverage (incipient, crisis-politicisation, exponential acceleration) tied to identifiable catalytic events.",
+    "Extends the concept of 'risk entanglement' to a state-platform configuration, theorising how infrastructural dependence and regulatory pressure jointly reshape sovereignty."
+  ],
+  "framing": "The paper positions itself at the intersection of political communication, science and technology studies, and the sociology of risk, drawing on framing theory (Entman, Gamson), agenda-setting (McCombs & Shaw), Hallin and Mancini's comparative media systems model, Beck's risk society, and critical scholarship on AI infrastructure (Crawford, Zuboff, Van Dijk). It engages debates on Global North–South asymmetries and decolonial critiques of technological dependency, while contributing to emerging literature on AI governance and geopolitics.",
+  "pdf_source": "drive"
+}
