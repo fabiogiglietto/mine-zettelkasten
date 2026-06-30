@@ -2522,10 +2522,11 @@
       "pdf_source": "drive",
       "content_hash": "91085f2eb6c362b28c2787d044c1f34a49da3cc3321fcc1e82639c5c7f2a4ef3",
       "podcast_linked": false,
-      "slack_posted": true,
+      "slack_posted": false,
       "last_processed": "2026-06-29T12:33:29.037318+00:00",
       "kind": "team",
-      "submitted_by": "Fabio Giglietto"
+      "submitted_by": "Fabio Giglietto",
+      "slack_pending": true
     },
     "bibtex:Jaidka2026-sl34": {
       "note_path": "Papers/Jaidka2026-sl34.md",
@@ -2538,10 +2539,11 @@
       "pdf_source": "drive",
       "content_hash": "58a2aff4d2508c431b1d92ded5c5d151fcdf865fb59dc8ef8dd47885b3d7f125",
       "podcast_linked": false,
-      "slack_posted": true,
+      "slack_posted": false,
       "last_processed": "2026-06-29T14:17:49.081164+00:00",
       "kind": "team",
-      "submitted_by": "GiadaM. / Uniurb"
+      "submitted_by": "GiadaM. / Uniurb",
+      "slack_pending": true
     },
     "bibtex:Dahlke2026-sl34": {
       "note_path": "Papers/Dahlke2026-sl34.md",
@@ -2554,10 +2556,11 @@
       "pdf_source": "drive",
       "content_hash": "56172ce97dc9cf97ad3d68ba22f7371c1c26c33413868555235868472f0021dc",
       "podcast_linked": false,
-      "slack_posted": true,
+      "slack_posted": false,
       "last_processed": "2026-06-29T16:40:53.372252+00:00",
       "kind": "team",
-      "submitted_by": "GiadaM. / Uniurb"
+      "submitted_by": "GiadaM. / Uniurb",
+      "slack_pending": true
     },
     "bibtex:Unknown2026-sl3d": {
       "note_path": "Papers/Unknown2026-sl3d.md",
@@ -2569,10 +2572,11 @@
       "pdf_source": "drive",
       "content_hash": "8c408b1fc932b3dca6be0c3ebca282281b0c984cbe1fdc3e2bf5eb3ec3ebabed",
       "podcast_linked": false,
-      "slack_posted": true,
+      "slack_posted": false,
       "last_processed": "2026-06-29T16:41:12.830879+00:00",
       "kind": "team",
-      "submitted_by": "Fabio Giglietto"
+      "submitted_by": "Fabio Giglietto",
+      "slack_pending": true
     },
     "bibtex:Gottfried2026-ww": {
       "note_path": "Papers/Gottfried2026-ww.md",
@@ -2598,10 +2602,11 @@
       "pdf_source": "drive",
       "content_hash": "1dcebe952f798ee419d7a86cb34195c0f70404e0970a80777d1bdcd199240f21",
       "podcast_linked": false,
-      "slack_posted": true,
+      "slack_posted": false,
       "last_processed": "2026-06-30T08:33:46.511538+00:00",
       "kind": "team",
-      "submitted_by": "Massimo Terenzi"
+      "submitted_by": "Massimo Terenzi",
+      "slack_pending": true
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
