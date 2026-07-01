@@ -2630,8 +2630,22 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-01T12:49:50.858562+00:00"
+    },
+    "bibtex:Bechmann2026-dr": {
+      "note_path": "Papers/Bechmann2026-dr.md",
+      "topics": [
+        "platform-governance-data-access"
+      ],
+      "doi": "10.1080/10584609.2026.2679475",
+      "title": "Platform collective behavior as democratic infrastructure: Beyond causal effects in the DSA era",
+      "pdf_source": "abstract_only",
+      "content_hash": "3cf00d30a76239d6a1e2d224f421c00f8a89d851a8c9d63d206002f231426704",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-01T17:30:16.908114+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 13
+  "papers_since_cluster": 14
 }
