@@ -101,6 +101,27 @@ def strip_duplicate_title(text: str) -> str:
     return text[:match.start()] + text[end:].lstrip("\n")
 
 
+def inject_contributor(text: str) -> str:
+    """Append a "Suggested by <name>" footer when the note carries a
+    `submitted_by` frontmatter (a team-mate's Slack submission).
+
+    A website-only presentation detail: the attribution already lives in the
+    vault frontmatter, and this surfaces it at the bottom of the page. No-op for
+    own publications and plain toread papers, which have no `submitted_by`.
+    Runs last, on the already-cleaned body, so the footer sits below any
+    `## Podcast` section. The Slack permalink is deliberately not linked — it
+    points to a private workspace, useless to public visitors.
+    """
+    fm = _FRONTMATTER.match(text)
+    if not fm:
+        return text
+    data = yaml.safe_load(fm.group(1)) or {}
+    contributor = data.get("submitted_by")
+    if not contributor:
+        return text
+    return f"{text.rstrip()}\n\n---\n\n*Suggested by {contributor}*\n"
+
+
 def _read_paper_meta(text: str) -> dict | None:
     """Extract the fields needed for the homepage 'Latest papers' list.
 
@@ -247,7 +268,8 @@ def export_site(
             cleaned = strip_duplicate_title(strip_dataview(text))
             if cleaned != text:
                 stripped += 1
-            (dst / note.name).write_text(inject_date(cleaned), encoding="utf-8")
+            exported = inject_contributor(inject_date(cleaned))
+            (dst / note.name).write_text(exported, encoding="utf-8")
             notes += 1
             if subdir == papers_dir:
                 meta = _read_paper_meta(text)
