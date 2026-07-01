@@ -2009,9 +2009,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "3cb0d1b609ce1b66a38145c9bb959ee96781f985ffd52ebf9b31ed77f54f9dc0",
       "podcast_linked": false,
-      "last_processed": "2026-07-01T08:45:57.057994+00:00"
+      "last_processed": "2026-07-01T12:50:11.034994+00:00"
     },
     "bibtex:Ghezzi2023-8bebc91f": {
       "note_path": "Papers/Ghezzi2023-8bebc91f.md",
@@ -2616,8 +2616,22 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-01T09:04:33.166806+00:00"
+    },
+    "bibtex:Gilardi2026-hw": {
+      "note_path": "Papers/Gilardi2026-hw.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "10.1038/s41598-026-58743-0",
+      "title": "Quality perceptions and intended engagement in response to AI-generated and AI-assisted news",
+      "pdf_source": "drive",
+      "content_hash": "d7497863802c0b027c61e4fd4e3efe8c3dc534b77b86fe7c4d3dd56879776d02",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-01T12:49:50.858562+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 12
+  "papers_since_cluster": 13
 }

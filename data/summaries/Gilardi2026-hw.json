@@ -1,0 +1,34 @@
+{
+  "abstract": "This preregistered survey experiment (N = 599, German-speaking Switzerland) tests how audiences perceive the quality of news excerpts that were human-written, AI-assisted, or fully AI-generated, and how disclosure of AI involvement affects intended engagement. Participants rated credibility, readability, and expertise before learning how the articles were produced, then reported willingness to continue reading and to read AI-generated news in the future. Perceived quality did not differ across conditions, and equivalence tests confirmed comparable ratings. After disclosure, participants in both AI conditions reported higher willingness to continue reading the presented article (d ≈ 0.53–0.61), but no difference emerged for future willingness to read AI-generated news.",
+  "key_claims": [
+    "Readers evaluate AI-generated, AI-assisted, and human-written news as comparable in perceived credibility, readability, and expertise when authorship is not disclosed.",
+    "Disclosure of AI involvement produces a short-term increase in willingness to continue reading a specific article, likely reflecting curiosity or scrutiny rather than genuine acceptance.",
+    "This short-term engagement boost does not extend to general future willingness to read AI-generated news, indicating a decoupling of immediate reactions from longer-term attitudes.",
+    "Effects on quality perception should be interpreted as source effects on message credibility, not as evidence about broader media trust or sustained acceptance of AI journalism."
+  ],
+  "methods": [
+    "Preregistered between-subjects online survey experiment with 599 adults from German-speaking Switzerland, recruited via Bilendi with age and gender quotas (May 2024).",
+    "Three conditions: human-written excerpts from SRF (Swiss public broadcaster) articles on Swiss politics, AI-assisted rewrites via ChatGPT, and fully AI-generated articles (ChatGPT given only title and lead).",
+    "Each participant read two 150-word excerpts drawn from a pool of ten per condition, with attention-check comprehension questions.",
+    "Quality measured as expertise, readability, and credibility using Sundar (1999)-based Likert items before disclosure; engagement measured as willingness to continue reading and future willingness to read AI-generated news after disclosure.",
+    "Linear regression models with treatment as a three-level factor and demographic covariates (age, gender, education, political orientation); planned pairwise contrasts, Benjamini–Hochberg correction, Cohen's d, η², ω², and TOST equivalence tests (SESOI = ±0.20).",
+    "Robustness checks with article-pair fixed effects and an aggregate quality index (Cronbach's α = 0.79)."
+  ],
+  "findings": [
+    "No significant differences in perceived expertise, readability, or credibility across the three conditions (all omnibus p > .45; η² ≤ .003; pairwise d between −0.05 and 0.11).",
+    "Hypotheses H1–H6 predicting lower quality ratings for AI-assisted and AI-generated articles were rejected.",
+    "Participants in the AI-assisted (b = 0.566, d = 0.53) and AI-generated (b = 0.697, d = 0.61) conditions reported significantly higher willingness to continue reading than the human-written control (both p < .001).",
+    "Willingness to read AI-generated news in the future did not differ across conditions, leading to rejection of H9 and H10.",
+    "Equivalence tests confirmed statistical equivalence for quality outcomes but not for future reading intentions, where small effects could not be ruled out.",
+    "No significant differences emerged between the AI-assisted and AI-generated conditions on any measure."
+  ],
+  "contributions": [
+    "Provides up-to-date evidence, using LLM-generated (ChatGPT/GPT-4 Turbo) stimuli, that contemporary AI-produced news is perceived as equivalent in quality to human-written journalism.",
+    "Introduces a design that separates pre-disclosure quality assessment from post-disclosure engagement, isolating source effects from message evaluation.",
+    "Distinguishes short-term, curiosity-driven engagement responses to AI disclosure from longer-term reading intentions, refining prior claims about transparency and trust.",
+    "Extends findings on algorithmic aversion and the 'automation heuristic' to the generative AI era and to the Swiss German-language context.",
+    "Offers preregistered stimuli, equivalence-testing procedures, and robustness checks (article-pair FE, composite index) that can serve as a template for future AI-journalism experiments."
+  ],
+  "framing": "The paper positions itself within research on audience perceptions of automated and AI-generated journalism, source credibility theory (Sundar 1999, 2008), and debates over algorithmic transparency and trust in news. It engages with recent work on generative AI in journalism (Toff & Simon, Jia et al., Altay & Gilardi, Nanz et al.) to argue that LLM-based news production raises qualitatively new questions about disclosure, curiosity, and the decoupling of message quality from source acceptance.",
+  "pdf_source": "drive"
+}
