@@ -34,6 +34,7 @@ Studies of generative AI as both an object (synthetic visual persuasion, AI-driv
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Stanusch2026-ec]]
+- [[Suk2026-ai]]
 - [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
 - [[Unknown2025-qj]]

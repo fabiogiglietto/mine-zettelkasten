@@ -2602,8 +2602,22 @@
       "last_processed": "2026-06-30T08:33:46.511538+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Suk2026-ai": {
+      "note_path": "Papers/Suk2026-ai.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "10.1080/08838151.2026.2694048",
+      "title": "From mass media and social media to AI: A multilevel framework for understanding trust in generative AI",
+      "pdf_source": "abstract_only",
+      "content_hash": "677015a8e317f6fb0e96d0bcc0d7cc5a97c2a2b4bebc1272e6817f2df80f114b",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-01T09:04:33.166806+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 11
+  "papers_since_cluster": 12
 }
