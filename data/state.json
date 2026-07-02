@@ -1949,9 +1949,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "f2c5c99ba774c8e3dd39f84f62e95eab7c0629c58f4cb504d78c5f77f05e48b7",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-06-22T12:01:59.764587+00:00"
+      "last_processed": "2026-07-02T18:07:03.804850+00:00"
     },
     "bibtex:Rossi2023-847d5a9f": {
       "note_path": "Papers/Rossi2023-847d5a9f.md",
@@ -1961,9 +1961,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "56cf2a6e45f2bd1c33c79d6977a82fff91f6af5b1caae5e7bf7f9dd8da5adf9b",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-06-29T10:05:33.369311+00:00"
+      "last_processed": "2026-07-02T18:07:03.804852+00:00"
     },
     "bibtex:Unknown2023-9137f448": {
       "note_path": "Papers/Unknown2023-9137f448.md",
@@ -1985,9 +1985,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "3e1fc597d891c59df345b4a61c2f8d1ec90c4229caf9a15793cea82b345538ad",
+      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
       "podcast_linked": true,
-      "last_processed": "2026-06-17T11:39:53.411914+00:00"
+      "last_processed": "2026-07-02T18:07:03.804845+00:00"
     },
     "bibtex:Giglietto2024-cbeb3f70": {
       "note_path": "Papers/Giglietto2024-cbeb3f70.md",
@@ -2009,9 +2009,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "3cb0d1b609ce1b66a38145c9bb959ee96781f985ffd52ebf9b31ed77f54f9dc0",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-07-01T12:50:11.034994+00:00"
+      "last_processed": "2026-07-02T18:07:03.804847+00:00"
     },
     "bibtex:Ghezzi2023-8bebc91f": {
       "note_path": "Papers/Ghezzi2023-8bebc91f.md",
@@ -2132,9 +2132,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "dc2819c4a9dfeed337eeca518b6a89dfbc37cd3cf6e13a740cb24172adb78ab1",
+      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
       "podcast_linked": true,
-      "last_processed": "2026-05-31T08:52:20.301522+00:00"
+      "last_processed": "2026-07-02T18:07:03.804827+00:00"
     },
     "bibtex:Vertesi2026-lv": {
       "note_path": "Papers/Vertesi2026-lv.md",
@@ -2381,9 +2381,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "946cdaf1a586f653b55b2920324849e62e5ea2fcf52dac5ee41fdeb430edc583",
+      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
       "podcast_linked": true,
-      "last_processed": "2026-06-16T11:07:34.672250+00:00"
+      "last_processed": "2026-07-02T18:07:03.804842+00:00"
     },
     "bibtex:Fattorini2026-bo": {
       "note_path": "Papers/Fattorini2026-bo.md",
@@ -2437,9 +2437,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "7fe0a3fc99f8cebc6b18df207c4c78ab25786851770b644bfbd99e7546ab5fa9",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-06-27T08:45:53.348004+00:00"
+      "last_processed": "2026-07-02T18:07:03.804854+00:00"
     },
     "bibtex:Sofia2012-802a21dc": {
       "note_path": "Papers/Sofia2012-802a21dc.md",
@@ -2659,8 +2659,33 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-02T04:42:18.968975+00:00"
+    },
+    "bibtex:Cerulli2026-sl75": {
+      "note_path": "Papers/Cerulli2026-sl75.md",
+      "topics": [],
+      "doi": "10.1016/j.chb.2026.109085",
+      "title": "Dark personality traits and online toxicity: Linking self-reports to Reddit activity",
+      "pdf_source": "drive",
+      "content_hash": "da9d955758aa0aa05499cc56a845cd8765c4982f2b25f1474f27aa2aa41d3f05",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-02T18:05:55.616335+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Jayaram2026-wd": {
+      "note_path": "Papers/Jayaram2026-wd.md",
+      "topics": [],
+      "doi": "",
+      "title": "Towards automating scientific review with Google&#x27;s Paper Assistant Tool",
+      "pdf_source": "drive",
+      "content_hash": "c58a45f6ffcc48989cdad244a13b4dba7c5ac02263e013844c6f4466115e2a06",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-02T18:06:28.249841+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 15
+  "papers_since_cluster": 17
 }

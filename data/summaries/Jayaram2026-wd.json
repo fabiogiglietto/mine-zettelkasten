@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper introduces the Paper Assistant Tool (PAT), an agentic AI framework developed at Google Research for deep scientific review of mathematics and computer science manuscripts. PAT uses a multi-stage inference-scaling pipeline—segmentation, adaptive compute budgeting, deep parallel review, and global synthesis—to detect logical, mathematical, and experimental flaws in full papers. The authors report a 34% improvement over zero-shot recall on the SPOT benchmark's math/CS proof-error subset and describe pilot deployments as a pre-submission tool at STOC 2026 and ICML 2026 covering over 4,700 papers. They also propose a four-level taxonomy of AI roles in peer review, from author-side tool to fully automated review.",
+  "key_claims": [
+    "Peer review faces a scaling crisis driven by the surge of AI-assisted submissions to major conferences (e.g., combined ICLR/ICML/NeurIPS submissions estimated at ~73,883 in 2026).",
+    "Specialized inference-scaling pipelines like PAT substantially outperform single-call LLM baselines for detecting technical errors in scientific manuscripts.",
+    "AI verification tools are now mature enough to be usefully deployed as pre-submission assistants for authors (Role 1) without displacing human reviewer judgment.",
+    "A structured taxonomy of four progressive roles (Tool for Authors, Tool for Reviewers, Supporting Reviewer, Total Automation) is needed to guide policy on AI in peer review.",
+    "Automated review could enable new publication tiers (e.g., an 'AIrXiv' repository) that sit between preprints and human-reviewed venues."
+  ],
+  "methods": [
+    "Design of a four-stage agentic pipeline: (1) a segmenter agent partitioning papers into thematic segments, (2) adaptive compute budgeting (Light/Medium/High thinking) per segment, (3) Deep Review agents built on Gemini Deep Think that verify each segment with full-paper context, and (4) a synthesis agent using Google Search for grounding and deduplication.",
+    "Benchmark evaluation on a filtered subset of the SPOT benchmark (26 papers, 29 equation/proof errors from math and CS retractions/errata).",
+    "Use of a logic-aware LLM autograder (audited by human authors) to judge whether generated reports capture ground-truth errors, rather than strict keyword matching.",
+    "Comparison of PAT (Gemini 3.1 Pro backbone) against zero-shot Gemini 3.1 Pro and the original SPOT SOTA.",
+    "Real-world pilot deployments at STOC 2026 (Nov 2025) and ICML 2026 (Jan 2026), providing one PAT review per submission to authors pre-deadline, followed by author surveys (n=124 STOC, n=733 ICML) and collection of qualitative testimonials."
+  ],
+  "findings": [
+    "PAT achieves 89.7% detection accuracy on the SPOT math/CS proof-error subset, compared to 55.2% for zero-shot Gemini 3.1 Pro and 21.1% for the original SPOT SOTA—a 34-percentage-point gain over zero-shot.",
+    "In one case (a dual Banach spaces paper), PAT constructed a concrete counterexample invalidating a main theorem that the zero-shot baseline accepted.",
+    "Over 4,700 submissions were reviewed across the STOC and ICML pilots.",
+    "Author surveys showed 97% (STOC) and 92.1% (ICML) would use PAT again; ~90% found feedback very or mostly helpful; 55.8%/64.8% found feedback mostly or all grounded.",
+    "PAT identified substantive theory gaps requiring >1 hour to fix in 11.6% of STOC responses and 35.4% of ICML responses; 31% of ICML respondents ran new experiments as a result of PAT feedback.",
+    "Reported limitations include date hallucinations, PDF parsing issues, and occasional false claims that a valid proof is incorrect."
+  ],
+  "contributions": [
+    "Introduction of PAT, a segmenter–budgeter–deep-reviewer–synthesizer agentic pipeline specialized for math/CS manuscript verification.",
+    "Empirical evidence that orchestrated inference-scaling substantially improves error detection over single-call and Pass@k baselines on a real retraction-derived benchmark.",
+    "First large-scale pilot study (STOC and ICML) of AI pre-submission review at premier CS conferences, with quantitative survey and qualitative testimonial data.",
+    "A four-level taxonomy of AI roles in peer review (Tool for Authors, Tool for Reviewers, Supporting Reviewer with a 3.5 variant for ratings, Total Automation) as a framework for policy discussion.",
+    "Proposal of adjacent concepts such as an 'AIrXiv' automated-review repository and 'AI for Students' as future directions."
+  ],
+  "framing": "The paper positions itself within ongoing debates about the scalability crisis of scientific peer review under AI-accelerated paper generation, drawing on prior work documenting rising LLM usage in scientific writing and inconsistency in human review (e.g., the NeurIPS 2014/2021 experiments). It frames automated verification as a necessary counterpart to automated discovery, situating PAT alongside benchmarks like SPOT and analogizing its taxonomy to SAE vehicle autonomy levels and prior autonomy hierarchies for mathematical research.",
+  "pdf_source": "drive"
+}

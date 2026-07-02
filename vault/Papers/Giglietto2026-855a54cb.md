@@ -23,33 +23,32 @@ discovery_date:
 
 ## Summary
 
-This article offers a historical-analytical account of academic data access to Twitter/X, periodizing two decades of platform–researcher relations into three phases: an open "Wild West" API era (2006–2020), a brief "Golden Age" under the Academic API (2020–2023), and the post-Musk commercial paywall regime. Giglietto and Puschmann argue that this trajectory is not idiosyncratic to Twitter but reflects a structural pattern across major platforms, exposing the fragility of voluntary, philanthropy-based access. Against this backdrop, they assess the EU's Digital Services Act—particularly Article 40—as a paradigm shift from discretionary access to regulatory right, while documenting its uneven implementation. The central claim is that independent platform research must be reconceived as a public good sustained by institutional infrastructure rather than corporate goodwill.
+Giglietto and Puschmann trace two decades of academic data access to Twitter/X, arguing that the platform's trajectory — from an open API "Wild West" (2006–2020), through a brief "Golden Age" under the Academic API (2020–2023), to a post-Musk commercial paywall — exemplifies a broader structural pattern across major platforms rather than an idiosyncratic collapse. They contend that voluntary, platform-led access regimes are inherently fragile because they are reversible by ownership change or strategic pivot, and they read the EU's Digital Services Act, particularly Article 40, as a paradigm shift from discretionary "data philanthropy" to a regulatory right. Yet early implementation reveals uneven compliance, information asymmetries, and a bifurcated global regime that excludes Global South researchers, early-career scholars, and civil society — a "data abyss" that demands treating independent platform research as a publicly-supported good.
 
 ## Key Contributions
 
-- A synthesized two-decade periodization of Twitter/X data access useful for platform governance and digital methods scholarship.
-- Generalization of the Twitter case into a cross-platform structural pattern (Meta/CrowdTangle, Reddit, TikTok).
-- Early empirical assessment of DSA Article 40 implementation, drawing on EDMO reports and Commission proceedings.
-- Forward-looking proposals: academic consortia for collective bargaining, public data intermediaries/trusts, multi-method resilience, and extension of DSA-style frameworks globally.
-- Reframing of platform research access as a public good requiring sustained institutional support.
+- A synthesized three-phase periodization of Twitter/X data access spanning 2006 to the present.
+- Generalization of the Twitter case to a cross-platform structural pattern (CrowdTangle closure, Reddit API pricing, TikTok restrictions).
+- An early empirical assessment of DSA Article 40 implementation drawing on EDMO reports and initial enforcement actions.
+- Forward-looking proposals: academic consortia for collective bargaining, public investment in data intermediaries and trusts, multi-method research resilience, and extension of DSA-like frameworks beyond the EU.
+- Reframing of research access as a public good requiring institutional infrastructure rather than platform generosity.
 
 ## Methods
 
-Historical-analytical review combined with a case-study approach centered on Twitter/X and comparative reference to Meta, Reddit, TikTok, and earlier data-sharing programs (Yahoo Webscope, AOL, Microsoft Research). The authors construct a three-phase periodization and analyze regulatory frameworks—especially DSA Article 40—through EDMO reports and early enforcement actions.
+Historical-analytical review combined with a case study of Twitter/X and comparative reference to Meta, Reddit, TikTok, Yahoo Webscope, AOL, and Microsoft Research. The authors periodize the evolution of access regimes into three phases and analyze the DSA Article 40 regulatory framework through EDMO reports and early Commission enforcement proceedings.
 
 ## Findings
 
-- Early "data philanthropy" (Facebook's 61-million-person experiment, Emotional Contagion, Twitter Data Grants, Yahoo Webscope) operated as "independence by permission"—opaque and relationship-based.
-- The 2014 Data Grants and 2020 Academic API briefly created sanctioned, merit-based access hailed as best practice.
-- Musk's 2023 closure of the Academic API and disbanding of policy teams reverted access to a financially-determined regime.
-- DSA implementation is highly uneven: platform response times range from 2 to 100+ days, with boilerplate denials, track conflation, and offers of mere scraping whitelisting in place of structured data.
-- The Commission has opened formal proceedings against X, TikTok, and Meta; 2025 preliminary findings found TikTok and Meta in breach of Article 40.12.
-- The DSA's EU-only reach creates a two-tier global research system; data donations, browser-based collection, and scraping have emerged as limited alternatives.
-- The current bifurcated regime (commercial paywalls vs. DSA channels) disproportionately excludes Global South researchers, early-career scholars, and civil society—producing a "data abyss".
+- Early "data philanthropy" (Facebook's 61-million-person experiment, Emotional Contagion, Twitter Data Grants, Yahoo Webscope) was opaque and relationship-based, an "independence by permission" model.
+- The 2014 Twitter Data Grants and 2020 Academic API briefly established sanctioned, merit-based access hailed as best-practice.
+- Musk's 2023 closure of the Academic API and disbanding of policy teams returned access to a financially-determined regime.
+- DSA implementation is highly uneven: response times ranging from 2 to over 100 days, boilerplate denials, conflation of access tracks, and offers of mere scraping whitelists in lieu of structured data.
+- The European Commission has opened formal proceedings against X, TikTok, and Meta; 2025 preliminary findings determined TikTok and Meta breached Article 40.12 obligations.
+- The DSA's EU-only reach produces a two-tier global research system; data donation, browser-based collection, and scraping have emerged as partial workarounds.
 
 ## Connections
 
-This paper sits at the intersection of the "APIcalypse"/post-API debates and the emerging empirical literature on DSA Article 40 implementation, connecting directly to work on the post-API landscape such as [[Freelon2024-sc]] and to the "data abyss" diagnosis developed in [[de-Vreese2026-zx]]. Its assessment of DSA enforcement and researcher access aligns with [[Rieder2025-ju]], [[Rieder2026-pp]], and [[Ohme2026-nv]], while its concerns about alternative methods and platform asymmetries resonate with the data-donation and scraping discussions in [[Ulloa2024-jm]], [[Helmond2026-ll]], and [[Bruns2025-fz]]. The authors' earlier and adjacent contributions to this agenda are reflected in [[Giglietto2026-632ef967]], [[Giglietto2025-1765bb4f]], and [[Giglietto2025-1e9a0917]].
+This paper sits at the center of the platform-governance-and-data-access debate, directly extending the "APIcalypse" and "post-API age" arguments in [[Bruns2025-fz]] and [[Freelon2024-sc]], and engaging the "data abyss" framing developed in [[de-Vreese2026-zx]]. Its analysis of DSA Article 40 implementation resonates with empirical audits and critiques in [[Rieder2025-ju]], [[Rieder2026-pp]], [[Ohme2026-nv]], [[Bouchaud2026-lr]], and [[Bouchaud2026-np]], while its concerns about alternative methods and structural inequities connect to work on data donation and scraping resilience such as [[Ohme2026-nv]] and [[Pierri2025-hm]]. It also complements the authors' related empirical work in [[Giglietto2026-632ef967]] and [[Giglietto2025-1765bb4f]].
 
 ## Podcast
 
