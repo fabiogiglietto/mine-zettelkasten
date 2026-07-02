@@ -12,6 +12,7 @@ explicit folder paths rather than bare basenames.
 """
 from __future__ import annotations
 
+import json
 import re
 import shutil
 from pathlib import Path
@@ -48,6 +49,7 @@ _FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 _YEAR = re.compile(r"^year:[ \t]*(\d{4})[ \t]*$", re.MULTILINE)
 _DISCOVERY = re.compile(r"^discovery_date:[ \t]*(\S+)[ \t]*$", re.MULTILINE)
 _HAS_DATE = re.compile(r"^date:", re.MULTILINE)
+_HAS_TITLE = re.compile(r"^title:", re.MULTILINE)
 
 
 def inject_date(text: str) -> str:
@@ -99,6 +101,33 @@ def strip_duplicate_title(text: str) -> str:
     if text[end:end + 2] == "\n\n":
         end += 1
     return text[:match.start()] + text[end:].lstrip("\n")
+
+
+def inject_title(text: str, suffix: str = "") -> str:
+    """Promote the body's leading `# H1` to a frontmatter `title` (plus
+    `suffix`) and drop the H1 line.
+
+    Topic and Structure notes carry no `title`, so Quartz falls back to the
+    file stem — and because the two kinds share a slug basename, the graph
+    shows every topic as two identically-labelled nodes. The suffix keeps the
+    pair distinguishable (" (Structure)"). No-op when the note already has a
+    `title` or no body H1.
+    """
+    fm = _FRONTMATTER.match(text)
+    if not fm:
+        return text
+    block = fm.group(1)
+    if _HAS_TITLE.search(block):
+        return text
+    match = _BODY_H1.search(text, fm.end())
+    if not match:
+        return text
+    title = json.dumps(match.group(1).strip() + suffix)
+    end = match.end()
+    if text[end:end + 2] == "\n\n":
+        end += 1
+    body = text[fm.end():match.start()] + text[end:].lstrip("\n")
+    return f"---\ntitle: {title}\n{block}\n---\n{body}"
 
 
 def inject_contributor(text: str) -> str:
@@ -250,6 +279,9 @@ def export_site(
     stats dict: `{"notes": int, "stripped": int}`.
     """
     papers_dir, topics_dir, structures_dir = subdirs
+    # Topic and Structure notes share slug basenames and identical H1s; the
+    # suffix keeps their graph-node labels apart.
+    title_suffix = {topics_dir: "", structures_dir: " (Structure)"}
 
     shutil.rmtree(content_dir, ignore_errors=True)
     content_dir.mkdir(parents=True, exist_ok=True)
@@ -266,6 +298,8 @@ def export_site(
         for note in sorted(src.glob("*.md")):
             text = note.read_text(encoding="utf-8")
             cleaned = strip_duplicate_title(strip_dataview(text))
+            if subdir in title_suffix:
+                cleaned = inject_title(cleaned, title_suffix[subdir])
             if cleaned != text:
                 stripped += 1
             exported = inject_contributor(inject_date(cleaned))
