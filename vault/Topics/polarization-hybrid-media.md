@@ -13,6 +13,7 @@ Theoretical and empirical work on how the interplay between social media and tra
 - [[Askanius2026-de]]
 - [[Bakshy2015-rn]]
 - [[Bennett2025-xs]]
+- [[Bouchaud2026-np]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]
 - [[Copland2025-em]]

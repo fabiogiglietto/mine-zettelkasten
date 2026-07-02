@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper evaluates X's Community Notes system, which uses a bridging algorithm to select moderation notes that garner cross-partisan support along an inferred latent ideological dimension. The authors analyze the full corpus of 1.9 million moderation notes and 135 million ratings through March 2025, cross-referenced with ideological scaling data across 13 countries. They argue that the system's design systematically undermoderates polarizing content, creating risks for electoral integrity worldwide.",
+  "key_claims": [
+    "Community Notes' bridging-based selection mechanism structurally undermoderates polarizing content by design.",
+    "This undermoderation creates concrete risks in electoral processes across diverse political contexts.",
+    "The system's performance varies with the polarization context of the country in which it operates."
+  ],
+  "methods": [
+    "Large-scale analysis of the complete Community Notes dataset: 1.9 million notes and 135 million ratings up to March 2025.",
+    "Cross-referencing note and rating data with ideological scaling data covering 13 countries.",
+    "Comparative evaluation of moderation outcomes across polarization contexts."
+  ],
+  "findings": [
+    "Notes addressing highly polarizing content are less likely to achieve the cross-partisan agreement required for public display.",
+    "The bridging algorithm's behavior differs across national contexts depending on levels of ideological polarization.",
+    "Electoral-related content is among the categories most affected by this systematic undermoderation (as implied by the abstract's framing)."
+  ],
+  "contributions": [
+    "Provides the first large-scale, cross-national empirical evaluation of Community Notes as a global moderation system.",
+    "Identifies a structural, design-level limitation of bridging-based moderation rather than a purely operational shortcoming.",
+    "Links platform moderation design choices to electoral risk, informing debates on platform governance and democratic integrity."
+  ],
+  "framing": "The paper situates itself in the literature on platform content moderation, algorithmic governance, and bridging-based systems, engaging with debates on how cross-partisan consensus mechanisms perform under polarization. It contributes to research on the democratic implications of social media moderation, particularly regarding elections.",
+  "pdf_source": "abstract_only"
+}

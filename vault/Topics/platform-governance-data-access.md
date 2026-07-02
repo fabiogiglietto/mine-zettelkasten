@@ -19,6 +19,7 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Bastos2025-ya]]
 - [[Bechmann2026-dr]]
 - [[Bouchaud2026-lr]]
+- [[Bouchaud2026-np]]
 - [[Boyd2026-op]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]

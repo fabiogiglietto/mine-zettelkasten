@@ -2644,8 +2644,23 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-01T17:30:16.908114+00:00"
+    },
+    "bibtex:Bouchaud2026-np": {
+      "note_path": "Papers/Bouchaud2026-np.md",
+      "topics": [
+        "platform-governance-data-access",
+        "polarization-hybrid-media"
+      ],
+      "doi": "10.1126/sciadv.aee6932",
+      "title": "Community Notes undermoderate polarizing content by design creating risks in electoral processes",
+      "pdf_source": "abstract_only",
+      "content_hash": "dc8d76f48c69b1267bf36ee808d329140bb43f5c845da09321de68313c764762",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-02T04:42:18.968975+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 14
+  "papers_since_cluster": 15
 }
