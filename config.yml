@@ -50,6 +50,8 @@ vault:
   papers_dir: "Papers"
   topics_dir: "Topics"
   structures_dir: "Structures"
+  # Title of the published Quartz site homepage (the team fork overrides it).
+  site_title: "MINE Zettelkasten"
 
 slack:
   # Post a curated digest of each newly-added paper to the MINE #toread
@@ -70,6 +72,12 @@ slack:
   # deploy, so a brand-new note's link 404s for the ~2-5 min until Pages goes
   # live — an accepted, self-healing window, not a bug.
   note_base_url: "https://fabiogiglietto.github.io/mine-zettelkasten/Papers"
+  # Only team Slack submissions get a #toread digest from this kasten —
+  # Paperpile papers flow through both pipelines and fg-zettelkasten already
+  # announces them (digest_scope "all" would double-post).
+  digest_scope: "team"
+  # Team papers never get a research-radio episode — post immediately.
+  episode_wait_days: 0
 
 own_publications:
   # Fabio's own papers, processed by `update` as a second source alongside the

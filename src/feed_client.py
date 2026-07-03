@@ -14,6 +14,8 @@ from typing import Optional
 
 import requests
 
+from .feed_contract import validate_toread_feed
+
 # The toread feed carries the journal name only inside the rendered
 # `content_html` ("Published in: <name>"); the own-publications feed carries it
 # in `_academic.venue`. This pulls it out of the toread HTML.
@@ -45,17 +47,18 @@ class Paper:
     slack_permalink: Optional[str] = None          # link to the originating Slack message
 
     @property
-    def bibtex_key(self) -> str:
-        """`Boyd2026-pm` from `bibtex:Boyd2026-pm` — used as the note filename."""
-        return self.id.split(":", 1)[-1]
-
-    @property
     def is_team_submission(self) -> bool:
         """True for a paper that entered via a team-mate's Slack suggestion
         (the feed carries a `_slack_suggestion` block identifying the suggester
         by display name and/or opaque user-id). Either is enough — a submission
-        whose display name failed to resolve still carries the user-id."""
+        whose display name failed to resolve still carries the user-id. Always
+        False on the fg chain, whose feed strips suggester identity."""
         return bool(self.submitted_by or self.submitted_by_id)
+
+    @property
+    def bibtex_key(self) -> str:
+        """`Boyd2026-pm` from `bibtex:Boyd2026-pm` — used as the note filename."""
+        return self.id.split(":", 1)[-1]
 
 
 def _extract_journal(item: dict, academic: dict) -> Optional[str]:
@@ -73,8 +76,8 @@ def _extract_journal(item: dict, academic: dict) -> Optional[str]:
 
 def _item_to_paper(item: dict) -> Paper:
     academic = item.get("_academic", {}) or {}
-    # team-toread adds a `submitted_by` (display name) to the `_slack_suggestion`
-    # block for team submissions; upstream fg/toread feeds omit it.
+    # The team (mine) chain adds `submitted_by` / `submitted_by_id` to the
+    # `_slack_suggestion` block for team submissions; fg feeds omit them.
     slack = item.get("_slack_suggestion", {}) or {}
     return Paper(
         id=item["id"],
@@ -118,6 +121,8 @@ def fetch_feed(url: str, timeout: int = 30) -> list[Paper]:
     resp = requests.get(url, headers=github_raw_headers(), timeout=timeout)
     resp.raise_for_status()
     data = resp.json()
+    # Contract gate: abort before any vault/state mutation on drift.
+    validate_toread_feed(data)
     return [_item_to_paper(it) for it in data.get("items", [])]
 
 

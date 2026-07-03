@@ -193,6 +193,7 @@ def build_index(
     structures_dir: str,
     recent_papers: list[tuple[str, dict]],
     papers_dir: str,
+    site_title: str = "fg-zettelkasten",
 ) -> str:
     """Render `content/index.md`: a homepage listing recent papers, Topics and Structures.
 
@@ -205,7 +206,7 @@ def build_index(
 
     lines = [
         "---",
-        'title: "MINE Zettelkasten"',
+        f'title: "{site_title}"',
         "---",
         "",
         f"A topic-anchored Zettelkasten built from the `toread` paper feed — "
@@ -271,6 +272,7 @@ def export_site(
     subdirs: list[str],
     topics: list[dict],
     state: dict,
+    site_title: str = "fg-zettelkasten",
 ) -> dict:
     """Populate `content_dir` from the vault and write the homepage.
 
@@ -324,6 +326,7 @@ def export_site(
         structures_dir,
         recent_papers,
         papers_dir,
+        site_title=site_title,
     )
     (content_dir / "index.md").write_text(index, encoding="utf-8")
 
