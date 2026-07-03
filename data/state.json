@@ -1949,9 +1949,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "f2c5c99ba774c8e3dd39f84f62e95eab7c0629c58f4cb504d78c5f77f05e48b7",
       "podcast_linked": false,
-      "last_processed": "2026-07-02T18:07:03.804850+00:00"
+      "last_processed": "2026-07-03T07:49:14.564983+00:00"
     },
     "bibtex:Rossi2023-847d5a9f": {
       "note_path": "Papers/Rossi2023-847d5a9f.md",
@@ -1961,9 +1961,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "56cf2a6e45f2bd1c33c79d6977a82fff91f6af5b1caae5e7bf7f9dd8da5adf9b",
       "podcast_linked": false,
-      "last_processed": "2026-07-02T18:07:03.804852+00:00"
+      "last_processed": "2026-07-03T07:49:14.564987+00:00"
     },
     "bibtex:Unknown2023-9137f448": {
       "note_path": "Papers/Unknown2023-9137f448.md",
@@ -1985,9 +1985,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
+      "content_hash": "3e1fc597d891c59df345b4a61c2f8d1ec90c4229caf9a15793cea82b345538ad",
       "podcast_linked": true,
-      "last_processed": "2026-07-02T18:07:03.804845+00:00"
+      "last_processed": "2026-07-03T07:49:14.564980+00:00"
     },
     "bibtex:Giglietto2024-cbeb3f70": {
       "note_path": "Papers/Giglietto2024-cbeb3f70.md",
@@ -2132,9 +2132,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
+      "content_hash": "dc2819c4a9dfeed337eeca518b6a89dfbc37cd3cf6e13a740cb24172adb78ab1",
       "podcast_linked": true,
-      "last_processed": "2026-07-02T18:07:03.804827+00:00"
+      "last_processed": "2026-07-03T07:49:14.564955+00:00"
     },
     "bibtex:Vertesi2026-lv": {
       "note_path": "Papers/Vertesi2026-lv.md",
@@ -2381,9 +2381,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
+      "content_hash": "946cdaf1a586f653b55b2920324849e62e5ea2fcf52dac5ee41fdeb430edc583",
       "podcast_linked": true,
-      "last_processed": "2026-07-02T18:07:03.804842+00:00"
+      "last_processed": "2026-07-03T07:49:14.564974+00:00"
     },
     "bibtex:Fattorini2026-bo": {
       "note_path": "Papers/Fattorini2026-bo.md",
@@ -2437,9 +2437,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "7fe0a3fc99f8cebc6b18df207c4c78ab25786851770b644bfbd99e7546ab5fa9",
       "podcast_linked": false,
-      "last_processed": "2026-07-02T18:07:03.804854+00:00"
+      "last_processed": "2026-07-03T07:49:14.564990+00:00"
     },
     "bibtex:Sofia2012-802a21dc": {
       "note_path": "Papers/Sofia2012-802a21dc.md",
@@ -2611,11 +2611,11 @@
       "doi": "10.1080/08838151.2026.2694048",
       "title": "From mass media and social media to AI: A multilevel framework for understanding trust in generative AI",
       "pdf_source": "abstract_only",
-      "content_hash": "677015a8e317f6fb0e96d0bcc0d7cc5a97c2a2b4bebc1272e6817f2df80f114b",
-      "podcast_linked": false,
+      "content_hash": "947d3e3a1df9f9790746e49e66295c5b9f24d685820f764d14c79d3f8232f77d",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-01T09:04:33.166806+00:00"
+      "last_processed": "2026-07-03T07:48:01.831339+00:00"
     },
     "bibtex:Gilardi2026-hw": {
       "note_path": "Papers/Gilardi2026-hw.md",
@@ -2639,11 +2639,11 @@
       "doi": "10.1080/10584609.2026.2679475",
       "title": "Platform collective behavior as democratic infrastructure: Beyond causal effects in the DSA era",
       "pdf_source": "abstract_only",
-      "content_hash": "3cf00d30a76239d6a1e2d224f421c00f8a89d851a8c9d63d206002f231426704",
-      "podcast_linked": false,
+      "content_hash": "e3acf719a14d5eab23b4f5afe9a22beb85d62bcd1221f87f6fb73befba3da203",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-01T17:30:16.908114+00:00"
+      "last_processed": "2026-07-03T07:48:01.831335+00:00"
     },
     "bibtex:Bouchaud2026-np": {
       "note_path": "Papers/Bouchaud2026-np.md",
@@ -2654,11 +2654,11 @@
       "doi": "10.1126/sciadv.aee6932",
       "title": "Community Notes undermoderate polarizing content by design creating risks in electoral processes",
       "pdf_source": "abstract_only",
-      "content_hash": "dc8d76f48c69b1267bf36ee808d329140bb43f5c845da09321de68313c764762",
-      "podcast_linked": false,
+      "content_hash": "dd7bc5ed1396eb2b4a161debf0f8d2a86c11fc9bc70fafc966452aced1ef01a0",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-02T04:42:18.968975+00:00"
+      "last_processed": "2026-07-03T07:48:01.831330+00:00"
     },
     "bibtex:Cerulli2026-sl75": {
       "note_path": "Papers/Cerulli2026-sl75.md",
@@ -2679,13 +2679,25 @@
       "doi": "",
       "title": "Towards automating scientific review with Google&#x27;s Paper Assistant Tool",
       "pdf_source": "drive",
-      "content_hash": "c58a45f6ffcc48989cdad244a13b4dba7c5ac02263e013844c6f4466115e2a06",
+      "content_hash": "2935dc317d16acdb237212db005102e4ca65c0ee578f5c2f07ea1ad44d5c4e9d",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-03T07:48:01.831324+00:00"
+    },
+    "bibtex:Hinck2026-yj": {
+      "note_path": "Papers/Hinck2026-yj.md",
+      "topics": [],
+      "doi": "",
+      "title": "Where&#x27;s the Evidence that Respondents Understand Your Survey Questions?",
+      "pdf_source": "abstract_only",
+      "content_hash": "77920868da1384096bfce8fce8f9fc8a81b7f627ca542a22dc6d0dd6c7adf0d9",
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-02T18:06:28.249841+00:00"
+      "last_processed": "2026-07-03T07:48:01.831300+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 17
+  "papers_since_cluster": 18
 }

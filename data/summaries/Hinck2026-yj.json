@@ -1,0 +1,21 @@
+{
+  "abstract": "This paper argues that survey researchers routinely assume respondents understand questions in the way researchers intend, but rarely provide evidence to support that assumption. The authors call attention to this evidentiary gap and propose that measuring and demonstrating respondent comprehension should be a standard part of survey methodology. Based on the abstract alone, the paper appears to advocate new practices for validating question interpretation in survey research.",
+  "key_claims": [
+    "Survey research typically lacks explicit evidence that respondents interpret questions as intended by researchers.",
+    "This unexamined assumption of shared understanding threatens the validity of survey-based inference.",
+    "Researchers should provide and report evidence of respondent comprehension as a routine part of survey design and analysis."
+  ],
+  "methods": [
+    "Methodological/critical essay format (inferred from abstract); specific empirical procedures are not described in the available abstract."
+  ],
+  "findings": [
+    "The abstract does not report specific empirical findings; the paper's central observation is the pervasive absence of comprehension evidence in survey practice."
+  ],
+  "contributions": [
+    "Frames respondent comprehension as an underappreciated source of measurement error in surveys.",
+    "Calls for a methodological standard in which evidence of question understanding is explicitly demonstrated.",
+    "Positions comprehension validation as a research agenda for survey methodology."
+  ],
+  "framing": "The paper situates itself within survey methodology and measurement validity, extending long-standing concerns about question wording and response processes. It challenges the discipline to treat respondent understanding as an empirical question requiring evidence rather than an assumption.",
+  "pdf_source": "abstract_only"
+}
