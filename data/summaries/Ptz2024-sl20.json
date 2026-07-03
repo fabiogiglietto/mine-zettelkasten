@@ -1,0 +1,29 @@
+{
+  "abstract": "This article argues that the impressive dialog performance of LLM-based chatbots like ChatGPT does not stem from an ability to understand text, but from their ability to generate contextually appropriate responses while parasitically drawing on the intelligence and repair work of human users. Drawing on Luhmann's systems theory and conversation analysis, the authors analyze empirical dialogs with ChatGPT (GPT-3.5) to show that the chatbot manages conversational trouble without grasping what the trouble is about. They conclude that improving human-chatbot interaction requires not better machine cognition but a new communicative competence on the part of users.",
+  "key_claims": [
+    "The abilities to 'generate' and to 'understand' text should be conceptually separated; LLMs demonstrate the former without possessing the latter.",
+    "LLM-based chatbots can be competent communication partners without understanding, because their performance is parasitic on the intelligence of their human interlocutors and the human-produced training data.",
+    "Chatbots do not identify or initiate repair of conversational trouble on their own; when they appear to handle repair successfully, this is accidental and driven by the surface wording of user input.",
+    "The correct path forward is not to make machines understand, but to cultivate a new communicative competence in users that enables critical, productive interaction with these systems."
+  ],
+  "methods": [
+    "Theoretical argument grounded in Luhmann's systems-theoretic concept of communication, ethnomethodology (Garfinkel), and conversation analysis (Schegloff on repair).",
+    "Qualitative analysis of empirical dialog excerpts with ChatGPT (GPT-3.5), including experimental manipulations that edit user turns to test variations in the chatbot's responses.",
+    "Case-based illustration using three excerpts: (1) ambiguous reference with similar-sounding names, (2) third position repair around a violin/bottle scenario with multiple edited variants, (3) a 'hallucination' example concerning the primality of 9791."
+  ],
+  "findings": [
+    "In the reference-ambiguity example, ChatGPT selects one interpretation based on internal likelihood without initiating repair, ignoring alternative readings.",
+    "In the violin/bottle third position repair example, the chatbot's responses are highly sensitive to the exact wording of the user's repair; some versions produce coherent responses while others (e.g., Version 5) fail to correctly reconstruct the scenario, indicating that apparent success is accidental.",
+    "Chatbot responses often reuse wording from the user's repair turn rather than reevaluating prior associations in the dialog history.",
+    "In the primality hallucination example, the chatbot flips between correct and incorrect answers depending on the pragmatic direction implied by the user's questioning, suggesting no stable 'conviction' or knowledge state.",
+    "Users are better able to catch plausibly-sounding nonsense when they already suspect the system might produce it, highlighting the need for close human monitoring."
+  ],
+  "contributions": [
+    "Reframes debates about LLM 'understanding' by shifting from machine intelligence to communicative competence and artificial communication.",
+    "Applies conversation-analytic concepts of repair (especially third position repair) as a diagnostic tool for probing what chatbots do and do not do in dialog.",
+    "Provides concrete empirical demonstrations of how ChatGPT manages trouble without understanding, using edited-turn experiments.",
+    "Argues for a social rather than computational solution to human-chatbot interaction problems: developing user-side communicative competence and critical attitudes."
+  ],
+  "framing": "The paper is situated at the intersection of sociological systems theory (Luhmann), ethnomethodology and conversation analysis, and critical AI/human-computer interaction studies. It positions itself against both hype about emergent machine intelligence and fears of superintelligence, engaging debates (e.g., Bender & Koller, Aguera-Arcas, Sejnowski) about whether LLMs 'understand' language by reframing the question in terms of communication rather than cognition.",
+  "pdf_source": "drive"
+}

@@ -2009,9 +2009,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "3cb0d1b609ce1b66a38145c9bb959ee96781f985ffd52ebf9b31ed77f54f9dc0",
       "podcast_linked": false,
-      "last_processed": "2026-07-02T18:07:03.804847+00:00"
+      "last_processed": "2026-07-03T12:18:28.678026+00:00"
     },
     "bibtex:Ghezzi2023-8bebc91f": {
       "note_path": "Papers/Ghezzi2023-8bebc91f.md",
@@ -2696,8 +2696,21 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-03T07:48:01.831300+00:00"
+    },
+    "bibtex:Ptz2024-sl20": {
+      "note_path": "Papers/Ptz2024-sl20.md",
+      "topics": [],
+      "doi": "10.1177/17504813241271492",
+      "title": "Performance without understanding: How ChatGPT relies on humans to repair conversational trouble",
+      "pdf_source": "drive",
+      "content_hash": "3429defbf4dc88c251b5d20d377176a01961e08431b8768251c4e39c6a5cc284",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-03T12:18:03.670225+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 18
+  "papers_since_cluster": 19
 }
