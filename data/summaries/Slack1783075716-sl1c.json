@@ -1,0 +1,24 @@
+{
+  "abstract": "This article critiques the framing of recent machine learning systems like ChatGPT as milestones in Artificial Intelligence that replicate human cognition. Esposito argues instead that these systems succeed by producing outputs from which human users generate meaning and relevant information, without the algorithms themselves understanding content. The paper reframes the phenomenon away from 'artificial intelligence' toward a different conceptual register for understanding human-machine interaction.",
+  "key_claims": [
+    "The performance of ML/Big Data algorithms should not be interpreted as machines replicating human cognitive processes.",
+    "Systems like ChatGPT succeed by producing outputs usable by humans for their own information generation, not by understanding content.",
+    "The dominant AI framing misconstrues what these algorithms actually do and how they interact with users.",
+    "A conceptual reorientation is needed to understand these systems on their own terms rather than as approximations of human intelligence."
+  ],
+  "methods": [
+    "Conceptual and theoretical argument critiquing prevailing interpretations of AI.",
+    "Analysis of contemporary large language models (e.g., ChatGPT) as illustrative cases."
+  ],
+  "findings": [
+    "Algorithmic outputs derive their usefulness from human interpretive work rather than from machine understanding.",
+    "The 'intelligence' attributed to these systems is better understood as a communicative or informational relation between users and machine outputs."
+  ],
+  "contributions": [
+    "Offers a critical reframing of AI discourse away from cognitive replication.",
+    "Advances a sociological/communication-theoretic account of how humans generate information through interaction with algorithms.",
+    "Contributes to debates on the nature and social role of machine learning systems."
+  ],
+  "framing": "The paper positions itself within sociological and communication-theoretic critiques of AI, challenging cognitivist and computationalist interpretations of machine learning. It engages debates about the meaning of 'intelligence' in artificial systems and the mediating role of algorithms in human information practices.",
+  "pdf_source": "abstract_only"
+}

@@ -2709,8 +2709,51 @@
       "last_processed": "2026-07-03T12:18:03.670225+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Slack1783075716-sl1c": {
+      "note_path": "Papers/Slack1783075716-sl1c.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "10.18716/pd.v2i1.11657",
+      "title": "Untitled",
+      "pdf_source": "abstract_only",
+      "content_hash": "151610ec32774ac9c6968a1c8ee0da2b7aab22199c9434313864435abce8d20a",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-03T12:53:21.296114+00:00",
+      "kind": "team",
+      "submitted_by": "Fabio Giglietto"
+    },
+    "bibtex:Slack1783073271-slbb": {
+      "note_path": "Papers/Slack1783073271-slbb.md",
+      "topics": [
+        "generative-ai-media"
+      ],
+      "doi": "10.1093/ct/qtaf036",
+      "title": "Answer engines and other communication partners",
+      "pdf_source": "abstract_only",
+      "content_hash": "28ac15ea0bcd674f40457a4fa32d52bf45f0606064ff104d0479a2bdf30c381a",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-03T12:53:33.450040+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Slack1782736288-sl09": {
+      "note_path": "Papers/Slack1782736288-sl09.md",
+      "topics": [],
+      "doi": "",
+      "title": "When Chatbots Accommodate: What AI Companions Optimize for in Vulnerable Conversations",
+      "pdf_source": "abstract_only",
+      "content_hash": "9c2d79678c77350cbcf0083818924c6a69f5fe1e9fc75fcd73d88a8e1d225a32",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-03T12:53:45.544403+00:00",
+      "kind": "team",
+      "submitted_by": "Fabio Giglietto"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 19
+  "papers_since_cluster": 22
 }

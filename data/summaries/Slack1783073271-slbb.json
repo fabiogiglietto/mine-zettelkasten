@@ -1,0 +1,24 @@
+{
+  "abstract": "This article reframes large language models (LLMs) not as advanced artificial intelligence but as communication partners, drawing on media theory to interpret their social role. Esposito argues that a communication-focused perspective better illuminates how LLMs affect information management, alongside historical tools like archives, catalogs, and libraries. The piece further addresses ethical and operational challenges that arise from treating LLMs as interlocutors rather than intelligent agents.",
+  "key_claims": [
+    "LLMs are better understood as communication partners than as forms of artificial intelligence.",
+    "A media-theoretical, communication-focused lens is more productive for analyzing LLMs' societal impact than an AI or cognitive framing.",
+    "LLMs should be situated within a longer history of information management tools such as archives, catalogs, and libraries.",
+    "This reframing helps clarify the ethical and operational challenges LLMs pose in contemporary society."
+  ],
+  "methods": [
+    "Conceptual and theoretical analysis grounded in media theory and sociology of communication.",
+    "Comparative situating of LLMs alongside historical information management technologies (archives, catalogs, libraries)."
+  ],
+  "findings": [
+    "Interpreting LLMs as 'answer engines' and communication partners reveals dimensions of their social impact that AI-centric framings obscure.",
+    "Continuities exist between LLMs and prior information management infrastructures, though LLMs introduce distinctive communicative dynamics."
+  ],
+  "contributions": [
+    "Offers a media-theoretical reframing of LLMs as communication partners rather than intelligent agents.",
+    "Connects LLMs to a broader genealogy of information management tools.",
+    "Provides conceptual grounding for addressing ethical and operational challenges associated with LLM use."
+  ],
+  "framing": "The paper positions itself within media theory and the sociology of communication, engaging critically with dominant AI-centric discourses on LLMs. It extends Esposito's ongoing project of analyzing algorithmic systems as participants in communication rather than as artificial minds.",
+  "pdf_source": "abstract_only"
+}

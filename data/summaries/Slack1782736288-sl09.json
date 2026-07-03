@@ -1,0 +1,21 @@
+{
+  "abstract": "This paper examines how AI companion chatbots respond to users in emotionally vulnerable states such as loneliness, grief, and personal crises. The authors argue that existing safety audits, which score responses to pre-defined crisis prompts, fail to capture the underlying decision policies that shape sustained interactions. They introduce a framework (the AI Companion audit) to characterize what companion platforms optimize for during vulnerable conversations.",
+  "key_claims": [
+    "AI companion chatbots play a consequential role in shaping the trajectory of users' vulnerable emotional states.",
+    "Current audit approaches based on isolated crisis-prompt responses are insufficient for understanding companion chatbot behavior.",
+    "Companion platforms operate according to implicit decision policies that govern sustained interaction, and these policies can be surfaced and evaluated.",
+    "Chatbots exhibit accommodating behaviors that may not align with users' well-being in vulnerable moments."
+  ],
+  "methods": [
+    "Development of an AI Companion audit framework designed to characterize platform behavior in vulnerable conversations (specific methodological details not available from the abstract excerpt)."
+  ],
+  "findings": [
+    "Findings not specified in the available abstract excerpt."
+  ],
+  "contributions": [
+    "Introduction of an AI Companion audit framework for evaluating chatbot behavior in vulnerable conversations.",
+    "A shift in evaluation focus from single-prompt crisis reactions toward the sustained decision policies governing companion interactions."
+  ],
+  "framing": "The paper positions itself within AI safety and auditing research, particularly critiques of prompt-based evaluation methods, and engages with concerns about the psychosocial impact of companion chatbots on users experiencing loneliness, grief, and crisis.",
+  "pdf_source": "abstract_only"
+}

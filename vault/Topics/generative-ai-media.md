@@ -34,6 +34,8 @@ Studies of generative AI as both an object (synthetic visual persuasion, AI-driv
 - [[Orlando2025-ul]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
+- [[Slack1783073271-slbb]]
+- [[Slack1783075716-sl1c]]
 - [[Stanusch2026-ec]]
 - [[Suk2026-ai]]
 - [[Tornberg2026-lc]]
