@@ -2,68 +2,49 @@
 
 Guidance for Claude Code when working in this repository.
 
-## Project
+## What this repo is
 
-fg-zettelkasten builds an Obsidian Zettelkasten from the `toread` paper feed.
-It is the **most downstream** stage of a four-repo pipeline and consumes the
-published artifacts of all three upstream repos: the `toread` feed, the
-`research-radio` episodes, and topic signals from `fabiogiglietto.github.io`.
-All repos join papers on the `bibtex:AuthorYear-xx` id.
+`mine-zettelkasten` is the **MINE team fork** of
+[`fabiogiglietto/fg-zettelkasten`](https://github.com/fabiogiglietto/fg-zettelkasten)
+— the same feed → Claude-written Obsidian Zettelkasten → Quartz site pipeline,
+fed by `mine-toread` instead of `toread` and grown by the whole team.
 
-Full DAG and orchestration model:
+For commands, architecture, and conventions, read the **upstream CLAUDE.md**:
+https://github.com/fabiogiglietto/fg-zettelkasten/blob/main/CLAUDE.md
+Everything there applies here. Published site:
+https://fabiogiglietto.github.io/mine-zettelkasten/
+
+## What differs from upstream (deliberate)
+
+- **Feed source:** `mine-toread`'s `feed.json` (team Slack submissions carry
+  `submitted_by`; their notes are tagged `kind: team` and render a
+  "suggested by" line — `note_builder.py`).
+- **Dedup against the seeded corpus:** `state.py` keeps a DOI/title index so a
+  team submission that already has a note is skipped (and mine-toread replies
+  "already in the archive" in Slack).
+- **Slack-inbox Drive folder:** team-attached PDFs are found via
+  `SLACK_INBOX_DRIVE_FOLDER_ID` (`drive_client.py`).
+- **No research-radio dispatch:** the team chain ends here; the workflow is
+  triggered by mine-toread's `pipeline-finalize` plus its own daily cron.
+- Teammate-facing instructions live in `CONTRIBUTING.md`.
+
+## Code vs content — merge discipline
+
+- **Code:** `src/`, `scripts/`, `quartz/`, `.github/` — comes from upstream.
+- **Content and state:** `vault/`, `data/` — belongs to this repo (and to the
+  bots); upstream merges must **never** touch these paths.
+
+## Fork policy — read before changing code
+
+This is a **config-diff fork**. Feature code and bug fixes land in upstream
+`fg-zettelkasten` (behind config flags defaulting to fg behavior) and arrive
+here via `git merge upstream/main`. Permanent local differences are limited to
+`config.yml` values, repo Actions variables/secrets, `CONTRIBUTING.md`, these
+doc stubs, and the content/state paths above. **Do not land feature code
+directly in this repo** — implement upstream, flag it, then merge.
+
+Pipeline DAG for both chains:
 https://github.com/fabiogiglietto/toread/blob/main/PIPELINE.md
 
-## Commands
-
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-python -m src.main refresh-topics      # rebuild the topic register from github.io
-python -m src.main bootstrap [--limit N]
-python -m src.main update [--recluster]
-python -m src.main export-site         # export vault/ -> quartz/content/ for the website
-```
-
-## Architecture
-
-- `src/feed_client.py`     — fetch the toread feed + the own-publications feed -> `Paper` objects
-- `src/episodes_client.py` — fetch research-radio episodes -> {id: audio_url}
-- `src/topics_client.py`   — synthesize the topic register from github.io signals
-- `src/drive_client.py`    — fetch + extract PDF text from Paperpile's Drive folder
-                             (ported verbatim from research-radio)
-- `src/claude_client.py`   — Anthropic SDK wrapper; Claude does all LLM work
-- `src/summarizer.py`      — full PDF -> structured summary (shared artifact)
-- `src/themes.py`          — topic-anchored assignment + emergent sub-themes
-- `src/note_builder.py`    — render Papers/, Topics/, Structures/ markdown
-- `src/site_export.py`     — export the vault to `quartz/content/` for the website
-- `src/state.py`           — data/state.json persistence
-
-## Conventions
-
-- LLM provider split: Claude for all comprehension/writing. Gemini stays only in
-  research-radio for TTS — never add a non-Claude LLM here.
-- Paper note filename = bibtex key (stable wikilinks); readable title in `aliases`.
-- `vault/` and `data/` (state, topics, summaries) are committed. Extracted PDF
-  full text is transient (`data/.cache/`, gitignored) — never commit it.
-- Topic register notes are deterministic templating; structure/hub notes are
-  LLM-written and regenerate only on bootstrap/recluster.
-- Own publications (Fabio's own papers, from github.io's `own-publications.json`)
-  are a second source in `update`: notes tagged `kind: own`, never posted to the
-  `#toread` Slack digest, gated by the `own_publications` config block. A note
-  is built only for a paper that has a green-OA PDF (`open_access_pdf_url`,
-  resolved from ORA) *and* is recent or well-cited; the PDF is its summary
-  source (`pdf_fetcher.py`). Backfill is capped per run.
-- Derived notes (Topics/, Structures/) are regenerated, never appended to.
-- Inputs are fetched live from published URLs, never local sibling working copies.
-- Run as a module: `python -m src.main`. `src/` modules use relative imports.
-- Website: `quartz/` vendors Quartz v4 (Node 22+) to publish the vault to GitHub
-  Pages. `export-site` regenerates `quartz/content/` from `vault/` — deterministic,
-  no LLM, never modifies the vault. Generated dirs (`quartz/content/`,
-  `quartz/public/`) are gitignored; the build + deploy run in `update-vault.yml`.
-  `quartz/util/glob.ts` carries one vendored edit (`gitignore: false`) — re-apply
-  it on Quartz upgrades.
-
-## Style
-
-- Python, standard library + the deps in `requirements.txt`. Keep it tidy.
-- Match the existing module docstring + type-hint style when adding code.
+> **Status:** unification with upstream is in progress; until it completes,
+> some `src/` files still diverge from `fg-zettelkasten`.
