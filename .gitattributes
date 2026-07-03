@@ -1,0 +1,5 @@
+# Content and state belong to THIS repo; upstream merges must never touch
+# them (upstream main contains fg's own vault). Requires the one-time local
+# setup documented in scripts/sync-upstream.sh (merge.ours driver).
+vault/** merge=ours
+data/** merge=ours
