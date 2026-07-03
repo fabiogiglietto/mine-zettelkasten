@@ -58,6 +58,12 @@ Duplicate submissions are caught twice: mine-toread replies *"already in the
 archive"* in Slack, and mine-zettelkasten skips any new id whose DOI/title
 already has a note.
 
+**Code vs content:** code (`src/`, `scripts/`, `quartz/`, `.github/`) is
+maintained upstream in
+[fg-zettelkasten](https://github.com/fabiogiglietto/fg-zettelkasten) and
+merged in; content and state (`vault/`, `data/`) belong to this repo and are
+never touched by upstream merges. See `CLAUDE.md` for the fork policy.
+
 ## Setup (maintainer)
 
 ```bash
