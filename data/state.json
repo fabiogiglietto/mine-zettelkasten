@@ -2709,8 +2709,23 @@
       "last_processed": "2026-07-03T12:18:03.670225+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Mosca2026-yh": {
+      "note_path": "Papers/Mosca2026-yh.md",
+      "topics": [
+        "information-disorder",
+        "elections-political-communication"
+      ],
+      "doi": "10.1177/02673231261458935",
+      "title": "Fake news as a rhetorical weapon: Strategic delegitimization and selective amplification in Italian newspapers",
+      "pdf_source": "abstract_only",
+      "content_hash": "1f9d5951fe3ca26363a737296b481c6501699545f03f9d6d1773bd6e19e94d7a",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-04T07:24:20.189322+00:00"
     }
   },
   "last_full_cluster": "2026-06-22T10:04:41.162976+00:00",
-  "papers_since_cluster": 22
+  "papers_since_cluster": 23
 }

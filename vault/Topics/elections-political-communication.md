@@ -40,6 +40,7 @@ Empirical studies of electoral campaigns on digital platforms — Italian, Germa
 - [[Lin2025-xp]]
 - [[Lukito2026-nb]]
 - [[Marino2024-2fbc690f]]
+- [[Mosca2026-yh]]
 - [[Munger2025-cz]]
 - [[Oprea2025-lf]]
 - [[Philipp2026-tl]]
