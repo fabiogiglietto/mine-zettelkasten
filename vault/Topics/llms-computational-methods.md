@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: computational-methods-llms
+slug: llms-computational-methods
 emergent: false
 ---
 
-# Computational Methods and LLMs for Communication Research
+# LLMs and Computational Methods for Communication Research
 
-Methodological work on large language models, embeddings, text classification pipelines and digital trace analysis for political discourse and media studies — a growing axis aligned with the new 'IA Generativa e Media' course.
+Methodological work on integrating large language models, embeddings and human-in-the-loop pipelines for text classification, annotation and clustering of political discourse. Growing methodological thread across 2024–2026 outputs.
 
 ## Papers
 
@@ -15,7 +15,6 @@ Methodological work on large language models, embeddings, text classification pi
 - [[Arminio2025-tw]]
 - [[Arora2025-tx]]
 - [[Bailard2024-pj]]
-- [[Balluff2026-bv]]
 - [[Balluff2026-if]]
 - [[Brown2025-jk]]
 - [[Bruns2025-fz]]
@@ -24,12 +23,8 @@ Methodological work on large language models, embeddings, text classification pi
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
 - [[Fan2026-af]]
-- [[Gerard2025-br]]
 - [[Giglietto2024-cbeb3f70]]
-- [[Hackenburg2025-dj]]
-- [[Iris2026-pg]]
 - [[Kim2026-br]]
-- [[Lai2024-to]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]
@@ -37,6 +32,7 @@ Methodological work on large language models, embeddings, text classification pi
 - [[Meher2025-qb]]
 - [[Minici2024-tf]]
 - [[Nenno2025-xa]]
+- [[Ober2026-vd]]
 - [[Paci2025-ag]]
 - [[Sarmiento2025-as]]
 - [[Tan2024-vl]]
@@ -46,6 +42,6 @@ Methodological work on large language models, embeddings, text classification pi
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "computational-methods-llms")
+WHERE contains(topics, "llms-computational-methods")
 SORT discovery_date DESC
 ```

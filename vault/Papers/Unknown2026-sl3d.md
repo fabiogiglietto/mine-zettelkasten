@@ -8,7 +8,7 @@ bibtex_key: Unknown2026-sl3d
 kind: team
 submitted_by: "Fabio Giglietto"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782741381233179
-topics: [polarization-hybrid-media]
+topics: [polarization-partisan-media]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1038/d41586-026-01952-4

@@ -4,9 +4,9 @@ slug: elections-political-communication
 emergent: false
 ---
 
-# Elections and Political Communication on Social Media
+# Elections and Political Communication
 
-Empirical studies of electoral campaigns on digital platforms — Italian, German, Brazilian and European — covering partisanship, polarisation, political advertising and parliamentarians' online visibility.
+Empirical analysis of political campaigns, partisan attention, hyperpartisan networks and news coverage around Italian, German, Brazilian and European elections. Core MINE research line since 2017.
 
 ## Papers
 
@@ -20,15 +20,19 @@ Empirical studies of electoral campaigns on digital platforms — Italian, Germa
 - [[Di-Marco2025-aa]]
 - [[F2020-6278a4aa]]
 - [[Gattermann2025-yx]]
-- [[Gauthier2026-iq]]
 - [[Gaw2025-ru]]
+- [[Gerard2025-br]]
+- [[Giglietto2019-882f1900]]
 - [[Giglietto2020-9d8acdd7]]
+- [[Giglietto2023-fa71a001]]
+- [[Giglietto2024-cbeb3f70]]
 - [[Giglietto2025-1765bb4f]]
 - [[Giglietto2025-1e9a0917]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Iannelli2015-e0818c3e]]
 - [[Inacio-da-Silva2026-zf]]
 - [[Iris2026-pg]]
+- [[Jaidka2026-sl34]]
 - [[Jurg2025-ur]]
 - [[Kalsnes2025-zb]]
 - [[Kansaon2025-id]]
@@ -38,7 +42,6 @@ Empirical studies of electoral campaigns on digital platforms — Italian, Germa
 - [[Larsson2026-ro]]
 - [[Li2026-wq]]
 - [[Lin2025-xp]]
-- [[Lukito2026-nb]]
 - [[Marino2024-2fbc690f]]
 - [[Mosca2026-yh]]
 - [[Munger2025-cz]]
@@ -46,14 +49,17 @@ Empirical studies of electoral campaigns on digital platforms — Italian, Germa
 - [[Philipp2026-tl]]
 - [[Prochaska2025-ef]]
 - [[Rodarte2026-dk]]
+- [[Rossi2023-847d5a9f]]
 - [[Rossini2026-jn]]
 - [[Schulte2026-df]]
+- [[Simeone2025-vo]]
 - [[Starbird2025-jj]]
 - [[Tai2026-qk]]
 - [[Tornberg2025-ir]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2025-sw]]
 - [[Votta2025-xz]]
+- [[noauthor_undated-bm]]
 
 ## All papers (Dataview)
 

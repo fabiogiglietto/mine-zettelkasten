@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: platform-governance-data-access
+slug: platform-governance-apis
 emergent: false
 ---
 
-# Platform Governance and Research Data Access
+# Platform Governance, APIs and the DSA Era
 
-Algorithmic curation, content moderation and visibility policies (e.g. Meta's political content reduction), together with the shifting landscape of social media APIs, DSA-era research access and the post-CrowdTangle ecosystem.
+Research on platform policies, data access regimes, algorithmic governance and content moderation — from CrowdTangle's shutdown to Meta's political content reduction and the Digital Services Act. Increasingly prominent in the current agenda.
 
 ## Papers
 
@@ -15,8 +15,8 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Bak-Coleman2025-pm]]
 - [[Bak-Coleman2026-mk]]
 - [[Bakshy2015-rn]]
-- [[Bastos2025-ol]]
 - [[Bastos2025-ya]]
+- [[Baym2026-tr]]
 - [[Bechmann2026-dr]]
 - [[Bouchaud2026-lr]]
 - [[Bouchaud2026-np]]
@@ -26,8 +26,8 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
 - [[Crosset2026-mq]]
-- [[Dahlke2026-sl34]]
 - [[De2026-ld]]
+- [[Dehghan2026-sy]]
 - [[Donovan2025-ws]]
 - [[Efstratiou2025-gs]]
 - [[Entrena-Serrano2025-gw]]
@@ -37,16 +37,17 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Gerbaudo2026-fo]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]
-- [[Giglietto2025-1e9a0917]]
 - [[Giglietto2025-ed60bc90]]
 - [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
 - [[Heiss2026-qv]]
+- [[Helmond2026-ll]]
 - [[Hurcombe2025-cs]]
-- [[Jaidka2026-sl34]]
+- [[Inacio-da-Silva2026-zf]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]
+- [[Kristensen2025-ni]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
 - [[Mahl2026-hc]]
@@ -54,7 +55,6 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Moran2025-qn]]
 - [[Munger2025-cz]]
 - [[Murtfeldt2025-wu]]
-- [[Nangle2026-yo]]
 - [[Ohme2026-nv]]
 - [[Peters2026-mo]]
 - [[Philipp2026-tl]]
@@ -62,16 +62,15 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 - [[Renault2025-uh]]
 - [[Rieder2025-ju]]
 - [[Rieder2026-pp]]
-- [[Rossi2023-847d5a9f]]
 - [[Schiffrin_undated-gi]]
-- [[Schulte2026-df]]
 - [[Simeone2025-vo]]
+- [[Swartz2026-zb]]
 - [[Tonneau2025-bv]]
 - [[Tornberg2026-lc]]
-- [[Unknown2025-ed60bc90]]
 - [[Ventura2026-yc]]
 - [[Vincent_undated-re]]
 - [[Votta2025-xz]]
+- [[Weinbrand2026-sf]]
 - [[Yang2026-tq]]
 - [[de-Vreese2026-zx]]
 
@@ -79,6 +78,6 @@ Algorithmic curation, content moderation and visibility policies (e.g. Meta's po
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "platform-governance-data-access")
+WHERE contains(topics, "platform-governance-apis")
 SORT discovery_date DESC
 ```

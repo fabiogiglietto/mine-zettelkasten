@@ -6,16 +6,17 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection, conceptualisation and longitudinal study of coordinated link sharing and inauthentic network activity on social media, the methodological core of the PI's work and the foundation of the CooRnet/CooRTweet lineage.
+Detection, conceptualization and typology of coordinated link sharing and inauthentic network behaviour on social media platforms. Central research signature of the PI, anchoring CooRnet, vera.ai WP4, and multiple election studies.
 
 ## Papers
 
 - [[Appel2026-qr]]
+- [[Askanius2026-de]]
+- [[Bastos2025-ol]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
-- [[Gerard2025-br]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
@@ -43,6 +44,7 @@ Detection, conceptualisation and longitudinal study of coordinated link sharing 
 - [[Thiele2025-ol]]
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
+- [[noauthor_undated-bm]]
 
 ## All papers (Dataview)
 
