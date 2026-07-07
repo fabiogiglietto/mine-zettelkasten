@@ -52,6 +52,7 @@ Study of misleading information, fake news taxonomies, problematic content circu
 - [[Luhring2025-od]]
 - [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
+- [[Makeev2026-ma]]
 - [[Marwick2025-ov]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]

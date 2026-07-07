@@ -6,8 +6,8 @@ year: 2025
 doi: 10.1177/09636625251328518
 bibtex_key: Wang2025-zy
 topics: [generative-ai-media]
-citation_count: 6
-open_access: false
+citation_count: 9
+open_access: true
 source_url: https://doi.org/10.1177/09636625251328518
 podcast_url: 
 pdf_available: false
@@ -22,26 +22,28 @@ discovery_date: 2026-05-05T16:59:54.865190Z
 
 ## Summary
 
-This paper develops a comparative, quantitative mapping of how generative AI is imagined in newspaper coverage across four major media systems: the UK, US, China, and India. Drawing on the sociotechnical imaginaries tradition and Cave and Dihal's typology of utopian and dystopian AI narratives, the authors argue that public discourse on generative AI oscillates between technologically deterministic visions of salvation and ruin, and that these visions are structured in nationally distinctive ways. By operationalising a previously qualitative framework into a content-analytic methodology, the paper offers an empirical account of how hopes and fears about generative AI are unevenly distributed across press systems shaped by different political, economic, and cultural conditions.
+This paper offers a comparative analysis of how generative AI is imagined in newspaper coverage across four major media systems: the UK, US, China, and India. Drawing on the concept of sociotechnical imaginaries and Cave and Dihal's typology of AI hopes and fears, the authors argue that press discourse on generative AI oscillates between technologically deterministic utopian and dystopian visions of the near future. They develop a quantitative content-analytic method to map these narratives systematically, showing that while similar tropes recur across countries, the prevalence and framing of particular hopes and fears reflect nationally specific political, economic, and cultural stakes in AI development.
 
 ## Key Contributions
 
-- Empirical comparative mapping of generative AI imaginaries across four major national press systems.
-- Operationalisation of Cave and Dihal's qualitative hopes/fears typology into a quantitative content-analytic instrument.
-- Extension of sociotechnical imaginaries scholarship to the specific, fast-moving case of generative AI in news discourse.
-- Analytical insights into how national sociopolitical context shapes the framing of emerging AI technologies in mainstream media.
+- Provides the first cross-national comparative empirical mapping of generative AI imaginaries across the UK, US, Chinese, and Indian press.
+- Operationalises Cave and Dihal's qualitative framework of AI hopes and fears into a scalable quantitative content-analytic method.
+- Extends sociotechnical imaginaries research from earlier waves of AI/technology discourse to the specific case of generative AI.
+- Connects media narratives to the broader political-economic contexts shaping national AI strategies and public understanding.
 
 ## Methods
 
-The study combines conceptual grounding in sociotechnical imaginaries and Cave and Dihal's utopian/dystopian AI narrative framework with a quantitative content analysis of newspaper coverage. Articles from the UK, US, Chinese, and Indian press are coded for recurring narrative tropes, enabling cross-national comparison of the prevalence and configuration of particular hopes and fears about generative AI.
+- Conceptual grounding in sociotechnical imaginaries theory and Cave and Dihal's utopian/dystopian AI narrative typology.
+- Development of a quantitative content-analytic coding scheme to identify hopes and fears in press coverage.
+- Cross-national comparative sampling and analysis of newspaper articles from the UK, US, China, and India.
 
 ## Findings
 
-- Coverage in all four national presses is structured by a recurring repertoire of utopian and dystopian tropes about generative AI.
-- The prevalence and framing of specific hopes and fears differs systematically across the UK, US, China, and India.
-- These differences track each country's political and economic stakes in AI development, with media imaginaries reflecting and reinforcing nationally specific agendas.
-- Technologically deterministic narratives — both optimistic and catastrophist — dominate over more nuanced or structural accounts.
+- Coverage across all four countries is structured by a recurring set of utopian and dystopian tropes about generative AI's societal impact.
+- Substantial cross-national differences exist in which hopes and fears dominate and how they are framed.
+- National media imaginaries reflect and reinforce distinct political-economic stakes: strategic competition, regulatory posture, developmental aspirations, and cultural anxieties vary systematically across the four contexts.
+- Technologically deterministic framings dominate, leaving limited discursive space for more socially contingent visions of AI's trajectory.
 
 ## Connections
 
-This paper sits alongside other work probing the discursive construction of AI hype and imaginaries, including [[Dodds2026-df]] and [[Stanusch2026-ec]], which similarly interrogate how narratives about AI's future are produced and circulated. Its distinctive contribution to that conversation is the cross-national comparative scope and the methodological move from qualitative typology to quantitative mapping.
+This paper sits within a growing wave of studies analysing how news media construct public narratives about generative AI, connecting closely with work on framing and discourse such as [[Waight2026-ts]], [[Dodds2026-df]], [[Schroeder2026-im]], and [[Baym2026-tr]]. Its comparative attention to national contexts and utopian/dystopian polarities complements longer-run analyses of AI press discourse like [[Ptz2024-sl20]], while its focus on media imaginaries also speaks to research on journalistic engagement with generative AI systems such as [[Dierickx2026-tw]] and [[Gottfried2026-ww]].

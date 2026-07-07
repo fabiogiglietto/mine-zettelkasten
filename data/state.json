@@ -113,9 +113,9 @@
         "generative-ai-media"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "e986458b0204112456cd40c8917f0f772d7ecf22a4412657e44c8c6bd9fac0f7",
+      "content_hash": "963cb88170b85cdee7c5a192f24169724370c1849ed532a36661b199dff1e3ce",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.229097+00:00"
+      "last_processed": "2026-07-07T07:55:58.698728+00:00"
     },
     "bibtex:Achmann-Denkler2026-lx": {
       "note_path": "Papers/Achmann-Denkler2026-lx.md",
@@ -2052,9 +2052,9 @@
       ],
       "kind": "own",
       "pdf_source": "drive",
-      "content_hash": "3cb0d1b609ce1b66a38145c9bb959ee96781f985ffd52ebf9b31ed77f54f9dc0",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-07-06T08:19:36.725872+00:00"
+      "last_processed": "2026-07-07T07:56:26.140055+00:00"
     },
     "bibtex:Ghezzi2023-8bebc91f": {
       "note_path": "Papers/Ghezzi2023-8bebc91f.md",
@@ -2784,8 +2784,22 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-04T07:24:20.189322+00:00"
+    },
+    "bibtex:Makeev2026-ma": {
+      "note_path": "Papers/Makeev2026-ma.md",
+      "topics": [
+        "information-disorder"
+      ],
+      "doi": "",
+      "title": "Selling war at home and abroad: The dual objective of state media propaganda in the Russo-Ukrainian war",
+      "pdf_source": "abstract_only",
+      "content_hash": "4b54ae7d350955e05544c2ea1077c34b18378fd8a887d552b93cc1e1981f4262",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-07T07:55:58.698699+00:00"
     }
   },
   "last_full_cluster": "2026-07-06T08:38:59.265833+00:00",
-  "papers_since_cluster": 0
+  "papers_since_cluster": 1
 }
