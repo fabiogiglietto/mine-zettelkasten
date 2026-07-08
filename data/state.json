@@ -3033,23 +3033,6 @@
       "kind": "team",
       "submitted_by": "Nicola Righetti"
     },
-    "bibtex:Slack1783507463-sl24": {
-      "note_path": "Papers/Slack1783507463-sl24.md",
-      "topics": [
-        "coordinated-inauthentic-behavior",
-        "platforms-audiences-and-online-communities"
-      ],
-      "assign_fp": "dbb3f12c2622f866fceb1bedaa34c7ebcb39d68cc8fedd88c00422d26ae29e08",
-      "doi": "10.13136/isr.v15i1.850",
-      "title": "The Multiple Nuances of Online Firestorms: The Case of a Pro-Vietnam Attack on the Facebook Digital Embassy of China in Italy Amidst the Pandemic",
-      "pdf_source": "abstract_only",
-      "content_hash": "e6213debf0e8471f5a6d3cf81d0e121c9b9a833ef0e993899b5a4bbd52d942d1",
-      "podcast_linked": false,
-      "slack_posted": true,
-      "last_processed": "2026-07-08T14:20:34.590001+00:00",
-      "kind": "team",
-      "submitted_by": "Nicola Righetti"
-    },
     "bibtex:Giada2026-fc9a3833": {
       "note_path": "Papers/Giada2026-fc9a3833.md",
       "topics": [
