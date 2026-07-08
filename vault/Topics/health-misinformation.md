@@ -12,6 +12,7 @@ Coordinated circulation of problematic health content, COVID-19 fact-checking, a
 
 - [[Adam2026-tz]]
 - [[Bollenbacher2026-vz]]
+- [[Ducci2022-10cb5d70]]
 - [[Efstratiou2026-ij]]
 - [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2022-0e951ac5]]

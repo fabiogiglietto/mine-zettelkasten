@@ -1,0 +1,35 @@
+{
+  "abstract": "Marwick and boyd examine how Twitter users navigate the challenge of 'context collapse'—the flattening of multiple distinct audiences into a single online space—by imagining who is reading their tweets and adjusting self-presentation accordingly. Drawing on 226 responses from 181 Twitter users, the authors identify strategies including targeting different audiences, self-censorship, balancing personal and professional content, and adopting practices of 'micro-celebrity' and personal branding. They propose a model of the 'networked audience' that synthesizes elements of the writer's imagined audience and the broadcast audience, in which many-to-many communication requires users to conjure an imagined audience through their tweets. The paper argues that authenticity itself becomes a strategically managed performance in this environment.",
+  "key_claims": [
+    "Social media technologies collapse multiple distinct audiences into a single context, making face-to-face techniques for handling social multiplicity impossible online.",
+    "Twitter users cannot know their actual readership and therefore construct an 'imagined audience' that shapes their self-presentation, linguistic choices, and content decisions.",
+    "Users navigate context collapse through strategies of self-censorship, targeting tweets to particular subgroups, and balancing personal disclosure with professional or promotional content.",
+    "Practices of 'micro-celebrity' and personal branding—strategic self-commodification aimed at building and maintaining followers—are widespread but sit in tension with norms of authenticity.",
+    "Authenticity on Twitter is a socially constructed, context-dependent performance rather than an intrinsic quality, and it is often defined in opposition to overt self-promotion.",
+    "The 'networked audience' constitutes a new audience model combining features of the writer's imagined audience and the broadcast audience, distinguished by many-to-many communication and the presence of familiar faces alongside strangers."
+  ],
+  "methods": [
+    "Qualitative study of Twitter users conducted by posting questions via the authors' own Twitter accounts and sending @reply queries.",
+    "Purposive sampling across three groups: users appearing in the public timeline, the 249 most-followed accounts (from a target of 300), and a subset of users with 1,000–15,000 followers.",
+    "Open-ended questions such as 'Who do you imagine reading your tweets?', 'Who do you tweet to?', 'What makes an individual seem authentic on Twitter?', and 'What subjects are inappropriate for Twitter?'",
+    "Analysis of 226 responses from 181 respondents received via direct messages and @replies; highly-followed users identified by name, others anonymized.",
+    "Interpretive analysis drawing on situationist theory, symbolic interactionism, and Goffman's dramaturgical framework rather than statistical or representative claims."
+  ],
+  "findings": [
+    "Respondents conceptualized their audience variably: as friends, as fans, as themselves, as an 'ideal reader,' or as tweet-dependent situational audiences.",
+    "Users with large followings (e.g., Soraya Darabi, Brandon Mendelson, Guy Kawasaki) tended to describe audiences pragmatically in terms of communities, tribes, or news constituencies and used tools like Twittersheep and hashtags to segment content.",
+    "Users commonly self-censored around topics such as sex, dating, family conflict, TMI bodily matters, workplace complaints, religion, and politics, often imagining a 'nightmare reader' (parent, boss, partner).",
+    "Popular users balanced personal and professional tweets to appear authentic while maintaining broad appeal, treating personal disclosures as strategic markers of humanness.",
+    "Micro-celebrity practices—engaging followers, appealing to multiple audiences, cultivating a brand—were widely adopted but simultaneously criticized as inauthentic by many respondents.",
+    "Some users rejected the very concept of 'audience,' framing tweeting for oneself as a marker of authenticity, though they still had followers and functioned within networked visibility."
+  ],
+  "contributions": [
+    "Introduces and develops the concept of the 'networked audience' as distinct from both the writer's imagined audience and the traditional broadcast audience.",
+    "Extends Meyrowitz's situationism and Goffman's impression management into the domain of many-to-many social media, articulating 'context collapse' as a defining feature.",
+    "Provides empirical grounding for how authenticity operates as a managed, strategic performance in microblogging environments.",
+    "Connects the practices of Twitter users to broader theoretical literatures on micro-celebrity (Senft), personal branding (Hearn), and publicity culture (Dean).",
+    "Offers a typology of audience-management tactics (self-censorship, balance, targeting, ideal-reader imagining) that has become foundational for later social media research."
+  ],
+  "framing": "The paper situates itself at the intersection of media studies, symbolic interactionism, and internet research, extending Goffman's theory of self-presentation and Meyrowitz's situationist account of electronic media to networked social platforms. It engages ongoing debates about audience theory—between broadcast, active-audience, and writerly conceptions—and contributes to emerging scholarship on social network sites, identity performance, and the commodification of the self online.",
+  "pdf_source": "drive"
+}

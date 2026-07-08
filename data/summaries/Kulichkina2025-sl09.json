@@ -1,0 +1,40 @@
+{
+  "abstract": "This study examines the interplay between pro-Navalny protest mobilization and pro-government counter-mobilization on Russian Twitter during the 2021 protests. Using time series analysis (Granger causality, Impulse Response Functions) and co-retweet network analysis, the authors measure how each camp's activity related to offline events and characterize their coordination through synchronization, centralization, and modularity. Findings show pro-Navalny accounts were more active and organized in centralized networks, while pro-government accounts used preventive tactics and coordinated in more modular (clustered) networks. The paper extends Bennett and Segerberg's connective action framework to include connective counteraction in authoritarian contexts.",
+  "key_claims": [
+    "Bennett and Segerberg's connective action framework can be productively extended to analyze pro-regime counteraction, not just protest mobilization.",
+    "Coordinated networks can be meaningfully characterized along three distinct dimensions—synchronization, centralization, and modularity—which map onto different types of connective/collective action.",
+    "In authoritarian contexts, digital repression can manifest as a coordinated countermovement that mimics grassroots mobilization while relying on organizational brokerage.",
+    "Pro-Navalny Twitter activity was substantially more voluminous and centralized around key figures (e.g., @teamnavalny), while pro-government activity was less voluminous but more modular, suggesting team-based astroturfing.",
+    "The directionality of Granger-causal influence between the two camps varied by protest event, indicating a dynamic, reactive interplay rather than a fixed leader-follower pattern.",
+    "External repression (arrests, Twitter throttling from March–May 2021) likely suppressed tweeting activity from both sides after February 2021."
+  ],
+  "methods": [
+    "Case study of the 2021 Russian pro-Navalny protests, focusing on Russian-language Twitter.",
+    "Data collection via Twitter API v2 Academic Research track using protest-related hashtags identified through daily monitoring of Russian trending topics (Jan 1–Dec 18, 2021), yielding 729,246 pro-Navalny and 41,642 pro-government tweets.",
+    "Manual validation of hashtag assignment using random samples of 500 tweets per corpus, tested with Welch's t-tests.",
+    "Changepoint analysis to segment the time series into nine substantive protest phases.",
+    "Vector autoregression (VAR) models with 16-lag specification (4 hours), diagnostics (OLS-CUSUM, ARCH-LM, Jarque–Bera), and Granger causality tests using wild bootstrapping to address heteroscedasticity/non-normality.",
+    "Impulse Response Function (IRF) analysis to gauge direction and magnitude of causal effects.",
+    "Co-retweet network analysis across 15 time intervals (1 second to 1 hour) and co-retweet frequency thresholds (1 to 10), measuring synchronization (proportion coordinated), centralization (degree-based), and modularity (Louvain method).",
+    "Development of an R application for coordination detection, later released as the CooRTweet package."
+  ],
+  "findings": [
+    "Pro-Navalny accounts tweeted about 17.5 times more than pro-government accounts overall.",
+    "Pro-government accounts intensified activity preemptively before protest days, often during lulls in pro-Navalny activity.",
+    "Tweeting activity in both camps declined after the February protests and remained low around the April 21 protests, coinciding with mass arrests and Twitter throttling.",
+    "Granger tests: pro-Navalny tweets caused increased pro-government tweeting during the Jan 23 and April 21 protests; pro-government tweets caused pro-Navalny reactions during the Feb 14 courtyard protests.",
+    "IRF: a 1% increase in pro-Navalny tweets on Jan 23 produced ~0.88% increase in pro-government tweets after 1 hour; on April 21, effects were more sustained (10–20% increases at multiple lags).",
+    "Pro-Navalny co-retweet networks showed higher synchronization and centralization (star-shaped structures around figures like @teamnavalny), while pro-government networks were more modular, consistent with coordinated team-based astroturfing.",
+    "Approximately 50% of users in both camps co-retweeted at least once within 3 minutes, and ~25% co-retweeted twice or more within 30 minutes.",
+    "Compliance check two years later showed 81.3% of pro-Navalny and 77.4% of pro-government tweets still accessible, with pro-government losses driven mainly by account suspensions (14.5%)."
+  ],
+  "contributions": [
+    "Extends Bennett and Segerberg's connective action framework to encompass 'connective counteraction' by pro-regime actors in authoritarian settings.",
+    "Introduces a three-dimensional operationalization of coordination (synchronization, centralization, modularity) for empirical analysis of social media networks.",
+    "Provides an integrated methodological approach combining time series (VAR, Granger, IRF) with co-retweet network analysis to study protest-repression dynamics.",
+    "Delivers an open-source R tool (later the CooRTweet package) for detecting coordinated behavior on social media.",
+    "Offers empirical evidence on the 2021 Russian pro-Navalny protests, documenting how digital protest and repression co-evolved on Twitter under an authoritarian regime."
+  ],
+  "framing": "The paper situates itself at the intersection of two strands of literature on social media and authoritarian politics—one emphasizing digital media's empowering role for protest, the other its use for digital repression—and proposes to bridge them through Bennett and Segerberg's connective action framework. It contributes to ongoing debates about coordinated inauthentic behavior, astroturfing, and the 'cat-and-mouse' dynamics between activists and regimes.",
+  "pdf_source": "drive"
+}

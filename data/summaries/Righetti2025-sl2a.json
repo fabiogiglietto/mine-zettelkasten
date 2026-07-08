@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper introduces CooRTweet, an R package for detecting coordinated behavior on and across social media platforms. Built on a minimal, abstract definition of coordinated behavior as repeated near-synchronous sharing of uniquely identifiable objects, the tool supports mono- and multi-modal as well as single- and cross-platform network analysis of any content type. The authors demonstrate the package via a case study of the 2021 German elections, benchmark its performance on simulated data, and validate it against the 86-million-tweet South Korean NIS disinformation dataset from Keller et al. (2019), recovering 85–92% of known coordinated accounts.",
+  "key_claims": [
+    "A minimal, abstract conceptualization of coordinated behavior — repeated near-synchronous sharing of any uniquely identifiable object by a stable set of accounts — enables a generalized detection tool applicable across platforms, modalities, and object types.",
+    "Existing tools (CooRnet, Coordination Network Toolkit) are constrained to specific platforms, content types, or predefined network types, whereas CooRTweet is agnostic to the empirical nature of the shared object.",
+    "The distinction between coordinated and non-coordinated behavior is a matter of degree; rigid thresholds should be complemented by flexible tagging that preserves borderline accounts for further inspection.",
+    "Generalized, platform-independent architectures are methodologically valuable for social media research given the volatility of platform APIs.",
+    "Coordination detection based on synchronicity and repetition captures only a subset of coordinated activity and should be extended to cover other patterns (e.g., single-share evasion tactics observed on TikTok)."
+  ],
+  "methods": [
+    "Formalization of coordinated behavior in terms of accounts, actions, objects, time intervals (τ), and repetition, yielding an undirected weighted graph G=(V,E,W) with edge symmetry scores.",
+    "Two-step R implementation: detect_groups() identifies co-sharing within a time window τ with a min_participation filter; generate_coordinated_network() builds an igraph object with edge weights, symmetry scores, average time deltas, and object IDs.",
+    "Auxiliary function flag_speed_share() to apply nested, stricter time windows, and subgraph options to extract fastest coordinated cores and adjacent vertices.",
+    "Support for multi-modal analysis by concatenating detect_groups outputs across object types (URLs, domains, hashtags, images) and cross-platform analysis via platform-prefixed account IDs.",
+    "Validation using the Keller et al. (2019) NIS dataset (~86 million tweets, 801 known NIS accounts) with an 80/20 train-test split repeated 20 times for suspect-marking evaluation.",
+    "Performance benchmarking via a built-in simulate_data function generating symmetric adjacency matrices from Poisson distributions across 1,000 runs, measuring peak memory and elapsed time on an AMD Ryzen 7 5800X with 64GB RAM."
+  ],
+  "findings": [
+    "On the NIS dataset with τ=60s and median edge-weight threshold, CooRTweet recovered 731 (91%) NIS accounts via co-retweet, 139 (17%) via co-tweet, and 737 (92%) in a combined network.",
+    "Suspect marking on the combined network retrieved 90.8% of NIS accounts held out in the test set, comparable to or exceeding Keller et al. (2019)'s reported 85%.",
+    "Results confirm Keller et al.'s finding that co-retweeting was the dominant coordination mode for NIS agents, with co-tweeting rarely used.",
+    "detect_groups memory usage scales linearly with number of posts but quadratically with the number of unique objects; generate_coordinated_network scales linearly and requires much less memory.",
+    "The FOCUS Online case study illustrates how strict thresholds can exclude relevant coordinated vertices, motivating the flexible tagging and time-window layering approach."
+  ],
+  "contributions": [
+    "Release of CooRTweet, an open-source R package on CRAN that generalizes coordinated network detection beyond specific platforms or predefined network types.",
+    "A minimal abstract formal definition of coordinated behavior in terms of accounts, actions, and uniquely identifiable objects, decoupled from empirical object type.",
+    "Introduction of edge symmetry scores to mitigate the 'time window problem' where hyperactive accounts inflate edge weights with less active partners.",
+    "A flexible threshold-tagging approach (subgraph options, flag_speed_share) that retains rather than discards borderline accounts, enabling study of organic amplification and co-optation.",
+    "A validation strategy using the ground-truth NIS dataset and a simulate_data function for reproducible benchmarking of coordination detection tools.",
+    "A methodological example for building platform-independent research software resilient to social media API changes."
+  ],
+  "framing": "The paper positions itself within computational communication and social media research on coordinated inauthentic behavior, disinformation, and information operations, building on operational definitions from Giglietto et al. (2020), Keller et al. (2019), and Graham et al. (2020, 2024). It contributes to the methodological conversation about detection tools (CooRnet, Coordination Network Toolkit) by advocating a generalized, platform-agnostic architecture responsive to the instability of social media APIs.",
+  "pdf_source": "drive"
+}

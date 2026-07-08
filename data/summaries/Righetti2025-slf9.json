@@ -1,0 +1,42 @@
+{
+  "abstract": "This study investigates how the transnational anti-gender organization CitizenGO uses social media to mainstream and globalize its agenda. Analyzing a decade (2013–2022) of activity across Facebook, Twitter, Instagram, and Telegram using computational and digital methods, the authors map CitizenGO's core network of multilingual accounts and the broader amplification network that redistributes its content. They find evidence of centralized coordination from CitizenGO's Spanish headquarters, with anti-gender and pro-life narratives functioning as transnational 'symbolic glue' amplified by right-wing, religious, and pro-life accounts across multiple language communities.",
+  "key_claims": [
+    "Social media—particularly mainstream platforms like Facebook—is central to CitizenGO's strategy for mainstreaming and transnationalizing anti-gender ideas.",
+    "CitizenGO operates a centrally coordinated network of multilingual accounts rather than a purely grassroots or member-driven advocacy structure.",
+    "Anti-gender narratives function as transnational 'symbolic glue,' being more evenly distributed across national pages than pro-life content, though pro-life topics are more prevalent overall.",
+    "CitizenGO's content is amplified by a homophilic international network of right-wing, religious, pro-life, and anti-gender accounts that shows signs of coordination and varying centralization.",
+    "CitizenGO imitates progressive digital advocacy organizations (notably Change.org) in website design and platform strategy to gain perceived legitimacy and reach broader audiences.",
+    "Coordinated link-sharing behavior in the amplification network suggests elements of astroturfing rather than purely organic connective action."
+  ],
+  "methods": [
+    "Open-source intelligence gathering (LinkedIn, job ads, Facebook transparency data, Wayback Machine) to map CitizenGO's organizational structure.",
+    "Collection of social media data from Twitter API, CrowdTangle, and manual Telegram searches for CitizenGO, Avaaz, and Change.org accounts (2013–2022).",
+    "Extraction and analysis of 3,413 petition URLs (3,165 successfully scraped) shared on CitizenGO Facebook pages to identify authorship and signature counts.",
+    "Structural topic modeling (R 'stm' package) on 24,401 Facebook posts translated via Google Translation API, selecting a 100-topic model.",
+    "Gini coefficient analysis to measure transnational distribution of topics across national pages.",
+    "Co-URL sharing network analysis using CooRTweet, with Louvain community detection to identify amplification communities; qualitative coding of communities by native-speaking coauthors.",
+    "Coordination analysis using a narrow 2.5-hour co-sharing time window to detect closely coordinated accounts.",
+    "Wilcoxon rank-sum tests for comparing skewed engagement metrics."
+  ],
+  "findings": [
+    "CitizenGO's core network comprises 18 Facebook, 8 Twitter, 6 Instagram, and 1 (inactive) Telegram accounts, with Facebook showing the highest follower counts and engagement.",
+    "CitizenGO itself initiated 54.4% of petitions shared on its Facebook pages, and these petitions gathered significantly more signatures than externally initiated ones.",
+    "Every national Facebook page includes an administrator based at the Spanish headquarters, indicating central control.",
+    "Of 100 extracted topics, 38 concerned abortion/pro-life issues (proportion .40) and 19 directly addressed anti-gender issues (proportion .19); 'gender' was among the ten most frequent terms.",
+    "Anti-gender topics were more evenly distributed across national pages (Gini 0.77) than pro-life topics (Gini 0.88).",
+    "The amplification network of 19,176 accounts includes a highly active core of 212 accounts (25M+ cumulative followers) categorized as right-wing political (36.2%), less partisan political (15.3%), pro-life/anti-gender (28.6%), and religious (18.4%).",
+    "Major linguistic clusters include Spanish-English (most centralized, star-configured around CitizenGO/HazteÓir affiliates), Portuguese (least centralized, Bolsonarist-aligned, dominated by Facebook groups), and Hungarian (Fidesz-aligned, anti-EU, anti-LGBTQ+).",
+    "A tightly coordinated subnetwork of 148 accounts posts CitizenGO URLs within 2.5 hours of each other across 11 languages.",
+    "CitizenGO's website homepage became visually nearly identical to Change.org's by June 2022."
+  ],
+  "contributions": [
+    "Provides the first systematic, large-scale empirical analysis of CitizenGO's social media communication across multiple platforms and a decade.",
+    "Introduces and operationalizes the concepts of 'core network' and 'amplification network' for studying digital advocacy mainstreaming.",
+    "Empirically demonstrates the role of anti-gender content as transnational symbolic glue in social media diffusion.",
+    "Bridges literatures on the anti-gender movement, digital advocacy organizations, coordinated inauthentic behavior, and mainstreaming of radical positions.",
+    "Offers a structural (rather than purely content-based) perspective on how transnational anti-gender networks operate online.",
+    "Contributes methodologically by combining topic modeling, co-sharing network analysis, and coordination detection (via CooRTweet) applied to multilingual data."
+  ],
+  "framing": "The paper situates itself at the intersection of anti-gender movement studies, digital advocacy scholarship, and research on strategic mainstreaming and transnationalization of radical politics. It engages with theories of connective action (Bennett & Segerberg), transnational advocacy networks (Keck & Sikkink), digital advocacy organizations (Karpf, Hall), and coordinated inauthentic behavior, arguing that structural features of social media networks—not just content—are essential to understanding how anti-gender ideas globalize.",
+  "pdf_source": "drive"
+}

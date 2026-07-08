@@ -12,6 +12,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 
 - [[Cabbuag2024-me]]
 - [[Farci2017-2a88c00e]]
+- [[Marwick2011-sl02]]
 - [[Marwick2026-ss]]
 - [[Volpe2026-um]]
 - [[Wang2026-ub]]

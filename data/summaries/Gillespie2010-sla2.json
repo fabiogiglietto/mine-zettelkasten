@@ -1,0 +1,32 @@
+{
+  "abstract": "Gillespie examines how online content intermediaries, particularly YouTube, strategically deploy the term 'platform' to position themselves discursively across multiple audiences and regulatory contexts. Tracing the term's four semantic lineages (computational, architectural, figurative, and political), he shows how its ambiguity allows companies to appeal simultaneously to users, advertisers, media partners, and policymakers while eliding the tensions between these constituencies. The paper argues that this rhetorical framing obscures the substantive editorial, technical, and economic interventions these companies make in shaping public discourse, and warns that the 'platform' trope forecloses critical vocabulary for holding intermediaries accountable.",
+  "key_claims": [
+    "The word 'platform' does significant discursive work for online intermediaries by drawing on computational, architectural, figurative, and political meanings simultaneously, connoting neutrality, openness, egalitarianism, and support for activity.",
+    "The term's semantic flexibility allows YouTube and similar firms to address users, advertisers, and media partners with a single vocabulary that elides tensions between UGC populism, commercial advertising, and partnerships with major media producers.",
+    "'Platform' also functions as a legal and policy tool, enabling firms to claim protections associated with being a neutral conduit (echoing common carrier and DMCA safe harbor frameworks) while limiting liability for user content.",
+    "Despite the rhetoric of neutrality, intermediaries make substantive, deliberate interventions—through content policies, algorithmic demotion, ContentID and takedown tools, and business partnerships—that shape public discourse in ways closer to traditional media gatekeeping than the 'platform' term admits.",
+    "The uptake of 'platform' in industry, popular, and legal discourse risks foreclosing more precise language for evaluating intermediaries' responsibilities and interventions."
+  ],
+  "methods": [
+    "Critical discourse analysis of the term 'platform' as used by online intermediaries, focused primarily on YouTube/Google.",
+    "Etymological analysis drawing on the Oxford English Dictionary's four semantic categories for 'platform' (computational, architectural, figurative, political).",
+    "Close reading of corporate press releases, blog posts, executive statements (e.g., Chad Hurley's MIPCOM keynote, Eric Schmidt quotes), policy filings, and industry commentary from Google, YouTube, Microsoft, Brightcove, News Corp, Tim O'Reilly, and Marc Andreessen.",
+    "Case analysis of policy and legal contexts including net neutrality advocacy, the DMCA safe harbor, Viacom v. YouTube, and the Warner Music Group takedown episodes.",
+    "Situating the analysis within STS and media policy scholarship on structural metaphors (conduit, common carrier, network)."
+  ],
+  "findings": [
+    "YouTube shifted its self-description over time to include 'distribution platform,' reflecting a strategic discursive repositioning around the term.",
+    "The term migrated across Microsoft's product lines and industry-wide from strictly computational usage toward figurative meanings tied to opportunity, participation, and communication.",
+    "YouTube's business model depends heavily on commercial partnerships and advertising (with reported figures such as ~$240m revenue against $711m costs in 2009, and ads paired with only ~9% of content), which contradicts the egalitarian UGC framing implied by 'platform.'",
+    "YouTube uses 'platform' to signal both openness (to users and speech) and neutrality (to limit liability), while simultaneously deploying tools like ContentID and algorithmic demotion (e.g., the 2008 'YouTube for All of Us' policy) that constitute editorial intervention.",
+    "Structural metaphors like 'conduit,' 'common carrier,' and 'network' have historically shaped information policy; 'platform' now performs analogous work but with added connotations of participation and populism."
+  ],
+  "contributions": [
+    "Introduces a critical framework for analyzing 'platform' as a strategically ambiguous term that reveals the discursive politics of online intermediaries.",
+    "Provides an early and influential intervention that foregrounds the political and regulatory stakes of platform self-description, seeding later 'platform studies' and platform governance literatures.",
+    "Connects media policy history (common carrier, conduit, DMCA safe harbor) to contemporary internet intermediary discourse.",
+    "Highlights the misalignment between intermediaries' claims of neutrality and their substantive interventions in shaping public discourse, calling for more precise critical vocabulary."
+  ],
+  "framing": "The paper sits at the intersection of media and communication studies, science and technology studies, and information policy, drawing on scholars like Bourdieu, Streeter, Gieryn, and Benkler. It positions itself within debates about structural metaphors in technology policy and the political economy of user-generated content, treating discursive framing as constitutive of how technologies are regulated and understood.",
+  "pdf_source": "drive"
+}

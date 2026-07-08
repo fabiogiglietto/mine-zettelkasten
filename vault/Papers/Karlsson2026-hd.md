@@ -9,7 +9,7 @@ topics: [elections-political-communication, polarization-partisan-media]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448251410509
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Karlsson2026-hd.mp3
 pdf_available: true
 discovery_date: 2026-07-08T06:31:09.042081Z
 ---
@@ -22,30 +22,31 @@ discovery_date: 2026-07-08T06:31:09.042081Z
 
 ## Summary
 
-This paper asks whether *media narratives about* digital election interference — not the interference itself — can causally worsen political polarisation. Using a pre-registered UK survey experiment (N=3,779) in which respondents read a fictitious news vignette about coordinated fake accounts during the 2019 general election, Karlsson varies the ostensible beneficiary of the interference (Labour, Conservative, or unspecified) and the source (foreign, domestic, unspecified). Aggregate exposure had no polarising effect, but respondents told the *opposing* party benefitted reported greater perceived societal division and greater affective polarisation toward ideological opponents. The paper argues that alarmist discourse about interference may itself deliver the divisive outcomes such campaigns aim to produce, even when their direct persuasive impact is doubtful.
+This paper asks whether *media discourse about* digital election interference — as opposed to the interference itself — can causally shape political polarisation. Using a pre-registered survey experiment in the UK (N=3,779), Karlsson exposed partisan respondents to a fictitious news article describing coordinated fake accounts during the 2019 general election, varying the alleged beneficiary (Labour, Conservative, or unspecified). Aggregate exposure produced no polarising effect, but respondents who read that the *opposing* side benefitted reported greater perceived societal division and stronger affective polarisation toward ideological opponents. The paper argues that alarmist coverage of interference may itself deliver on the polarising goals such campaigns are alleged to pursue, independent of the campaigns' actual reach or efficacy.
 
 ## Key Contributions
 
-- Provides rare *causal* experimental evidence connecting media discourse about election interference to polarisation outcomes, rather than to institutional trust.
-- Separates perceived, affective, and ideological polarisation, showing effects concentrate in perceived division and ideology-based affective polarisation.
-- Introduces a partisan "match / no-match" design that surfaces asymmetric, partisanship-conditional effects of interference narratives.
-- Bridges the "sceptical" disinformation-discourse literature (Benkler, Karpf, Jungherr) with polarisation theory.
-- Draws normative implications for journalistic practice: alarmist framing may inadvertently amplify the very harms interference is said to cause.
+- Provides causal experimental evidence that news narratives about digital interference can move polarisation outcomes, extending the "sceptical" disinformation literature beyond institutional-trust effects.
+- Disaggregates polarisation into perceived, affective, and ideological components, showing effects concentrate in the first two.
+- Introduces a partisan match/no-match design that surfaces *asymmetrical*, partisanship-conditional effects hidden in aggregate estimates.
+- Draws normative implications for journalism: informing the public about interference risks amplifying the very divisions the interference aims to create.
 
 ## Methods
 
-Pre-registered online survey experiment fielded in the UK in March 2024 via Prolific/Qualtrics. Ten conditions crossed interference source (foreign/domestic/unspecified) × beneficiary (Labour/Conservative/unspecified) plus a no-treatment control (~378 per cell). Treatment was a news-style vignette about coordinated fake accounts in the 2019 election. Samples were balanced on Labour/Conservative partisanship; manipulation checks excluded inattentive treated respondents. Outcomes covered perceived polarisation (division, extremism), affective polarisation (feeling-thermometer differentials by party and by ideology), and ideological polarisation (strength of support, left–right placement). Analysis used OLS with robust SEs, average marginal effects, and Benjamini–Hochberg corrections; a constructed partisan match/no-match variable tested asymmetric effects.
+Pre-registered online survey experiment (Qualtrics/Prolific, UK, March 2024) with ten conditions crossing interference source (foreign/domestic/unspecified) with beneficiary party (Labour/Conservative/unspecified), plus a no-treatment control (~378/cell). Treatment was a news-style vignette about coordinated fake accounts before the 2019 UK election. Partisanship was balanced at pre-screen. Outcomes covered perceived division and extremism, affective polarisation (party- and ideology-based feeling thermometers), and ideological polarisation (party-support strength and left-right placement). Estimation used linear regression with robust standard errors, Benjamini–Hochberg corrections, and a constructed partisan match/no-match indicator.
 
 ## Findings
 
-- Binary treatment exposure had no significant effect on perceived division or perceived extremism (H1a/H1b rejected).
-- "No-match" respondents (opposing party framed as beneficiary) reported significantly higher perceived societal division (~0.026 on a 0–1 scale, p=.01, q=.09), but no effect on perceived extremism.
-- No aggregate treatment effect on affective polarisation (H2a rejected).
-- Partial support for H2b: "no-match" respondents showed higher affective polarisation *toward ideological opponents* (~0.026, p=.016, q=.094); no effect via partisan identity.
-- Exploratory results suggest respondents whose preferred party was framed as the beneficiary reported *lower* affective polarisation — consistent with motivated reasoning / dissonance reduction.
-- No effects on ideological polarisation (H3a/H3b rejected) — neither strength of party support nor left–right placement moved.
-- Effects appear asymmetric, potentially widening perceived distance between beneficiary and non-beneficiary partisans.
+- Binary exposure to the interference article had no significant effect on perceived division, perceived extremism, aggregate affective polarisation, or either ideological polarisation measure.
+- Respondents in the "no-match" condition (opposing party framed as beneficiary) reported significantly higher perceived societal division (~0.026 on a 0–1 scale, p=.01).
+- The same "no-match" group showed elevated affective polarisation, but only toward *ideological* opponents (~0.026, p=.016), not toward partisan opponents.
+- Exploratory analyses suggest respondents whose preferred party was the beneficiary reported *lower* affective polarisation — consistent with motivated reasoning or dissonance reduction.
+- Effects are asymmetrical: interference narratives appear to widen the gap between perceived winners and losers rather than shifting everyone uniformly.
 
 ## Connections
 
-This work sits alongside other experimental and observational studies interrogating how *discourse about* manipulation and coordinated behaviour shapes public attitudes, including [[Rossini2026-jn]] and [[Kalsnes2025-zb]] on disinformation-adjacent effects, and connects to the broader affective-polarisation and partisan-media literature represented by [[Arceneaux2026-xk]], [[Tornberg2025-ir]], and [[Bakshy2015-rn]]. It also complements the substantial strand of research on coordinated inauthentic behaviour and election interference itself (e.g. [[Giglietto2020-9d8acdd7]], [[Giglietto2024-cbeb3f70]], [[Starbird2025-jj]]), reframing that agenda by treating *media narratives about* interference — not the campaigns — as the causal object of study.
+This paper sits at the intersection of alarmist-disinformation-discourse scholarship and affective polarisation research, and pairs naturally with work questioning the causal footprint of influence operations and platform-mediated persuasion such as [[Bailard2024-pj]], [[Allcott2025-jb]], and [[Bakshy2015-rn]]. It also speaks to research on how media and elite framing shape perceived division and partisan animus — see [[Arceneaux2026-xk]], [[Tornberg2025-ir]], and [[Kalsnes2025-zb]] — and complements studies on coordinated inauthentic behaviour and its public reception, e.g. [[Starbird2025-jj]] and [[Giglietto2024-cbeb3f70]].
+
+## Podcast
+
+A [research-radio](https://fabiogiglietto.github.io/research-radio/) episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Karlsson2026-hd.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX)

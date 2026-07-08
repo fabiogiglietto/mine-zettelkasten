@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper extends the study of coordinated inauthentic behaviour (CIB) on Facebook beyond deceptive influence operations by empirically analyzing near-synchronous link-sharing across a range of coordinating actors. Using CooRnet-based detection on data collected between October 2023 and July 2024, the authors identify 19 highly coordinated communities and develop a typology of 'manufactured attention' that includes influence operations, media groups, political activists, advertising networks (gambling, cyber scams), and hijacked public groups. They argue that Meta's evolving definition of CIB has narrowed from broad 'false amplifiers' to 'adversarial actors', allowing many once-CIB activities to remain on-platform.",
+  "key_claims": [
+    "Coordination signatures identified by CIB-detection techniques cannot by themselves distinguish inauthentic from authentic behaviour; actor and content analysis is required.",
+    "Influence operations and legitimate media groups can exhibit identical coordination signatures (full-scale, equally distributed link-sharing).",
+    "Authenticity should be understood as a continuum ranging from anonymous influence operations to openly identified grassroots political sharers, with intermediate cases of identified actors who do not disclose ties to a master source.",
+    "Meta's definition of CIB has narrowed over time from 'people or organisations working together to mislead' to targeting only 'adversarial threat actors', effectively allowing much coordinated attention manufacture to remain on-platform.",
+    "Platform architecture and engagement-based metrics structurally invite coordination, making high-degree coordination a routine practice rather than an inherently deceptive one."
+  ],
+  "methods": [
+    "Empirical detection of coordinated link-sharing behaviour on Facebook using the CooRnet R package via the CrowdTangle API.",
+    "Data collection running from October 2023 to August 2024 (analysis dataset frozen July 1, 2024), seeded from the Global Map of Coordinated Accounts 2023 and problematic URLs rated by Facebook third-party fact-checkers.",
+    "An iterative workflow collecting up to 100 overperforming posts every six hours from monitored accounts (initially 304 Pages and 2,095 Groups), extracting URLs and identifying co-sharers.",
+    "Coordination operationalized as co-sharing the same URL within a 60-second window more frequently than 99% of accounts, yielding 743 nodes (59 Pages, 684 Groups), 16,670 edges, and 6,200 unique URLs.",
+    "Community detection via the Louvain algorithm producing 19 coordinated communities.",
+    "Chaffee's (1991) concept explication framework applied to build a typology by qualitatively characterizing actors and content and quantitatively assessing degree of centralized coordination.",
+    "Discursive/policy analysis tracing the evolution of Facebook/Meta's definitions of CIB from the 2017 'Information Operations' white paper through 2022-2024 policy statements."
+  ],
+  "findings": [
+    "19 highly coordinated communities were identified, sorted into six actor-based types: influence operations, media groups sharing news, political activists sharing memes, gambling ad networks, cyber-scam ad networks, and hijacked large public groups spreading ads.",
+    "A Czech influence operation and mainstream/tabloid media outlets (e.g., FOCUS, TAG24) exhibited nearly identical full-scale, evenly distributed coordination signatures.",
+    "Political meme-sharing communities showed varying signatures: Brazilian, Ukrainian, and Slovakian networks had a core-driven pattern, while the pro-AMLO Mexican community showed broadly distributed, more organic 'participatory propaganda'.",
+    "Online gambling communities were among the largest, with one core-driven and one broadly distributed pattern.",
+    "AfD-related networks in Germany included fan groups sharing administrators across pages, sometimes linked to right-wing groups administered by AfD politicians.",
+    "The U.S. Daily Wire case illustrates identified-but-undisclosed coordination, where Pages amplify a single source without disclosing affiliation.",
+    "Meta's terminology evolved from 'fake news' (2016) to 'false news' and 'false amplifiers' (2017) to 'coordinated inauthentic behaviour' (2018) to a narrower focus on 'adversarial threat actors' (2022 onward)."
+  ],
+  "contributions": [
+    "Provides the first empirically-grounded typology of highly coordinated link-sharing behaviours on Facebook that extends beyond disinformation and influence operations.",
+    "Introduces the concept of 'manufactured attention' as a broader analytic frame encompassing both authentic and inauthentic coordination.",
+    "Demonstrates methodologically that content-agnostic coordination detection tools require complementary actor and content analysis to assess inauthenticity.",
+    "Offers a critical policy analysis of how Meta's narrowing definition of CIB shapes what remains permissible on-platform.",
+    "Introduces an authenticity continuum based on actor identification and disclosure of affiliations to master sources or campaigns.",
+    "Documents a data-collection workflow combining CooRnet with iterative monitoring, and notes methodological continuity via the CooRTweet package following CrowdTangle's discontinuation."
+  ],
+  "framing": "The paper situates itself within platform studies, computational social science research on CIB and astroturfing, and trust-and-safety/content-moderation scholarship, engaging with Goldhaber's attention economy, Bennett and Segerberg's logic of connective action, and Durkheimian views of ritualistic collective coordination. It positions itself as a critical intervention in debates about how platforms (particularly Meta) define and operationalize inauthenticity, drawing on Graham's notion of CIB as a 'strategically ambiguous concept' and Lindquist's idea of being 'authentic enough'.",
+  "pdf_source": "drive"
+}

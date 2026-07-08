@@ -7,7 +7,7 @@ doi: 10.1080/1369118x.2015.1006658
 bibtex_key: Iannelli2015-e0818c3e
 kind: own
 topics: [audience-engagement-social-tv, elections-political-communication]
-citation_count: 22
+citation_count: 42
 open_access: true
 source_url: https://doi.org/10.1080/1369118x.2015.1006658
 podcast_url: 
@@ -23,29 +23,29 @@ discovery_date:
 
 ## Summary
 
-This article maps the hybrid entanglement of television and Twitter during the run-up to Italy's 2013 general elections, treating second-screen activity around political talk shows as a privileged site for studying contemporary political communication. Combining a near-complete capture of tweets bearing official talk-show hashtags with scene-anchored content analysis of peak moments around the three main parties (PD, PDL, M5S), the authors argue that while volumes appear impressive, access remains narrow, broadcasters and politicians rarely engage with the connected audience, and tweeting takes the form of opinion and demands for interaction rather than genuine agenda-shaping. Twitter, in this Italian configuration, amplifies TV logic more than it disrupts it.
+This article investigates how Italian audiences, politicians, and journalists used Twitter as a second screen during political talk shows in the "permanent campaign" leading up to the 2013 general elections. Rejecting accounts that treat social media as independent from broadcast politics, Iannelli and Giglietto adopt a hybrid-media, practice-based framework to examine the interdependence of TV logic and networked publics. Combining firehose-level Twitter collection with scene-anchored content analysis, they map participation "in" and "through" the media and conclude that despite substantial tweet volumes, access was narrow, broadcasters and politicians largely failed to engage connected audiences, and second-screen tweeting overwhelmingly took the form of opinion and requests for interaction rather than agenda-shaping contributions.
 
 ## Key Contributions
 
-- One of the first large-scale empirical mappings of TV–Twitter hybrid practices in an Italian national election cycle.
-- Operationalizes Carpentier, Dahlgren, and Pasquali's distinction between participation *in* and *through* the media for second-screen Twitter practices, refining Wohn and Na's typology.
-- Demonstrates a reproducible mixed-method workflow integrating firehose-level Twitter capture, per-minute metrics, peak detection, stratified sampling, and content analysis of tweets paired with the corresponding on-air scene.
-- Releases an open dataset of episodes and metrics to support replication.
-- Advances hybrid-media-systems theory by showing how broadcast logic continues to structure networked political talk.
+- One of the first large-scale empirical mappings of TV–Twitter hybrid practices in the Italian political context during a national election cycle.
+- Operationalizes Carpentier, Dahlgren, and Pasquali's distinction between participation *in* and *through* the media for second-screen Twitter practices, adapting Wohn and Na's typology.
+- Demonstrates a mixed-method workflow that integrates big-data collection, peak detection, stratified sampling, and content analysis of tweets paired with their corresponding TV scenes.
+- Releases an open dataset of episodes and per-minute metrics to support replication.
+- Contributes empirical grounding to debates on hybrid media systems and mediatization, showing the largely unrealized democratic potential of second-screen practices in Italy.
 
 ## Methods
 
-A practice-based, hybrid-media design. The authors collected 2,489,669 tweets (Aug 2012–Jun 2013) containing official hashtags of 11 Italian political talk shows via DiscoverText/GNIP, filtered 1,889,281 of them to airtime windows, and computed per-minute Twitter metrics following Bruns and Stieglitz. Keyword attribution assigned tweets to PD, PDL, and M5S streams; the Marcus et al. peak-detection algorithm identified 530 peaks, from which stratified sampling yielded 23 peaks (8,031 original tweets). Each tweet was coded jointly with its corresponding TV scene along orientation (political/media), form (opinion, information/streaming, request for interaction, new issues/angles, plus tone markers) and content categories, with double-coding (final Krippendorff's α < 0.81).
+The authors collected 2,489,669 tweets (Aug 2012–Jun 2013) containing official or dominant hashtags of 11 Italian political talk shows via DiscoverText/GNIP, filtering 1,889,281 to airtime windows. Per-minute metrics (replies, retweets, unique contributors, reach) were computed following Bruns and Stieglitz, and tweets were attributed by keyword to PD, PDL, and M5S. Applying the Marcus et al. peak-detection algorithm produced 530 peaks; stratified sampling (one peak per party per political period) yielded 23 peaks and 8,031 original tweets. A hybrid content-analysis codebook — pairing each tweet with the on-air TV scene and coding orientation, form (opinion, streaming, request for interaction, new-issue introduction, plus emotion/irony/violence), and content — was applied with double coding (final Krippendorff's α < 0.81).
 
 ## Findings
 
-- Only 187,031 unique users tweeted during talk-show airtime—a thin sliver of Italy's ~4 million Twitter users—signalling narrow access.
-- Just 3 of 11 talk shows displayed audience tweets on air; official party/leader accounts contributed only 969 tweets, and Grillo/M5S were almost wholly absent from the conversation.
-- Tweet volumes across the three parties were comparable (PDL 11%, PD 10%, M5S 8%) and tracked the broadcast and political event calendar.
-- Of the coded sample, 77.3% was politics-oriented; opinion/comment (79.8%) and requests for interaction (28.6%) dominated, while introduction of new issues/angles/sources reached only 2.4%.
-- Party-specific signatures emerged: media-oriented opinions clustered around Berlusconi (PDL), politics-oriented live streaming around PD, and interaction requests on political issues around M5S.
-- Requests for interaction were disproportionately laced with irony (35%) and violent/vulgar language (11%).
+- Participation was narrow: only 187,031 unique users tweeted during airtime, a small share of Italy's ~4 million Twitter users.
+- Only 3 of 11 shows displayed selected tweets on screen; party/leader official accounts produced just 969 tweets, and Beppe Grillo/M5S were almost entirely absent.
+- Tweet volumes across parties were comparable (PDL 11%, PD 10%, M5S 8%) and tracked the broadcast/political calendar.
+- 77.3% of tweets were politics-oriented; opinions/comments dominated (79.8%) and requests for interaction (28.6%) were common, while introduction of new issues/angles/sources was residual (2.4%).
+- Party-specific patterns diverged: PDL tweets emphasized media-oriented opinion (notably around Berlusconi on *Servizio Pubblico*), PD tweets featured politics-oriented streaming, and M5S tweets centered on requests for interaction.
+- Requests for interaction showed elevated irony (35%) and violent/vulgar language (11%).
 
 ## Connections
 
-This paper anchors a long-running Italian-elections research line on how broadcast and social-platform logics interlock; it can be read alongside later work tracing the same hybrid arena into Facebook, problematic information, and coordinated behaviour in subsequent Italian campaigns, including [[Giglietto2019-882f1900]], [[Giglietto2020-9d8acdd7]], [[Giglietto2023-fa71a001]], [[Marino2024-2fbc690f]], [[Giglietto2025-1765bb4f]], and [[Giglietto2025-1e9a0917]]. Together they chart a trajectory from spontaneous second-screen commentary to more strategically engineered cross-platform political communication.
+This paper sits alongside other early efforts to theorize the audience-engagement dimension of social TV and hybrid political communication, connecting to [[Giglietto2019-882f1900]] and [[F2020-6278a4aa]] on second-screen and Twitter–TV dynamics, as well as to [[Mosca2026-yh]] on Italian political communication and networked publics. Its practice-based, mixed-method template for pairing platform data with broadcast content also anticipates methodological choices developed further in later work such as [[Giglietto2020-9d8acdd7]].

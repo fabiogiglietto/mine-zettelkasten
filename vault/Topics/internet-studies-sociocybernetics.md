@@ -13,6 +13,7 @@ Theoretical foundations connecting systems theory, sociocybernetics and internet
 - [[Boyd2026-op]]
 - [[Giglietto2019-e9be81c1]]
 - [[Ptz2024-sl20]]
+- [[Slack1783507648-sl94]]
 - [[Sofia2012-802a21dc]]
 
 ## All papers (Dataview)

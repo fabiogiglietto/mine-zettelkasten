@@ -42,6 +42,7 @@ Tools, workflows and methodological reflections for collecting and analysing soc
 - [[Oswald2025-km]]
 - [[Peters2026-mo]]
 - [[Rieder2025-ju]]
+- [[Righetti2025-sl2a]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Scalco2026-bd]]
 - [[Schulte2026-df]]

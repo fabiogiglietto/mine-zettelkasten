@@ -7,7 +7,7 @@ doi: 10.1177/0894439318816638
 bibtex_key: Iannelli2018-ebd918b7
 kind: own
 topics: [social-media-analytics-methods]
-citation_count: 40
+citation_count: 88
 open_access: true
 source_url: https://doi.org/10.1177/0894439318816638
 podcast_url: 
@@ -23,29 +23,29 @@ discovery_date:
 
 ## Summary
 
-This paper proposes and tests a Facebook ad-based recruitment procedure for online surveys targeting niche, hard-to-reach populations, using Italian supporters of vaccine and chemtrails conspiracy theories as a case study. The authors leverage post-2017 Facebook marketing infrastructure — Pixel conversion tracking, URL parameter passing, and custom audience exclusion — to gain tighter control over sample boundaries and to compute a more precise response-rate metric than the click-through rates used in earlier work. They argue the approach is highly efficient (cheap, fast, replicable), but find its effectiveness at recruiting ideologically distinctive respondents inconclusive: Facebook interest-targeted respondents did not endorse conspiracy claims significantly more than a general-population CAWI benchmark.
+This paper develops and tests a Facebook ad-based recruitment protocol for online surveys targeting niche, hard-to-reach populations, using Italian supporters of vaccine and chemtrail conspiracy theories as a test case. The authors argue that recent Facebook marketing features — Pixel conversion tracking, URL parameter passing, and Pixel-based custom audience exclusion — allow researchers to measure response rates and control sample quality more rigorously than earlier click-through-rate–based approaches. They demonstrate the procedure is highly efficient (low cost, fast recruitment, good conversion rates) but find its *effectiveness* — reaching ideologically distinctive respondents via Facebook interest targeting — to be inconclusive when benchmarked against a general-population CAWI sample.
 
 ## Key Contributions
 
-- A technically detailed, replicable protocol for Facebook ad-based survey recruitment integrating Pixel, URL parameters, and custom audience exclusion.
-- Introduction of a **conversion rate** metric (valid completions / reach) as a more precise alternative to CTR for evaluating Facebook ad-based surveys.
-- Empirical efficiency benchmarks (€0.46/respondent, 3.28% conversion rate, 53-day fielding) for future comparison.
-- Extension of Facebook ad-recruitment methodology from health/political-affiliation domains into stigmatized belief domains (conspiracy theories).
-- Practical guidance on ad creative design, image rotation, comment moderation, and using brevity as an alternative to monetary incentives.
+- A replicable, technically detailed protocol for Facebook ad–based survey recruitment integrating Pixel conversion tracking, URL parameters, and custom audience exclusion.
+- Proposal of a "conversion rate" (valid completions / reach) as a more precise response-rate metric than CTR for platform-recruited surveys.
+- Empirical efficiency benchmarks (€0.46/respondent, 3.28% conversion, 53 days) usable as comparators for future ad-based studies.
+- Extension of Facebook ad–recruitment methodology from health and political domains to controversial belief/opinion targeting.
+- Practical design guidance on ad creatives, image rotation, comment moderation, and brevity as an incentive substitute.
 
 ## Methods
 
-Non-probability quota survey (Italian adults, age/gender quotas from ISTAT) recruited via Facebook ads targeting users tagged with "vaccines controversy" and "chemtrails conspiracy" interests. 12 demographic micro-segments (6 age × 2 gender) each received 4 ad creatives; the campaign was optimized for conversions rather than clicks. The survey was hosted on TypeForm PRO via a dedicated domain, with a Facebook Pixel on the thank-you page tracking completions, auto-excluding completers, and building a custom audience. URL parameters carrying age/gender detected and removed socially-shared completions. After cleaning (45 duplicate IPs, 26 sharing-based responses), 1,069 valid responses were post-stratification weighted and compared against the ITANES 2016 CAWI panel (n=3,027) on three conspiracy-belief items using Kruskal–Wallis tests and effect sizes.
+Non-probability quota survey of Italian adults recruited via Facebook ads targeting the interests "vaccines controversy" and "chemtrails conspiracy," split across 12 age×gender micro-segments each receiving 4 ad creatives. The survey was hosted on TypeForm PRO via a dedicated domain, with a Facebook Pixel on the thank-you page enabling conversion tracking, automatic exclusion of completers, and custom audience construction. URL parameters carried demographic tags to detect socially shared submissions. After cleaning (removing 45 duplicate-IP and 26 shared-link responses) and post-stratification weighting, the sample was compared to the ITANES 2016 CAWI benchmark (n=3,027) on three conspiracy statements using Kruskal–Wallis tests and effect-size measures in R.
 
 ## Findings
 
-- 53-day campaign: 82,233 impressions, 32,613 unique users reached, 1,140 conversions, 1,069 valid responses.
-- Conversion rate of 3.28% exceeded nearly all CTRs reported in prior Facebook ad-based survey work.
-- Total cost €488 (~€0.46 per valid respondent), well below typical online panel costs.
-- Facebook-recruited respondents did **not** significantly differ from the ITANES general-population sample in conspiracy endorsement; effect sizes were negligible.
-- Some sign of polarization: 68% of the Facebook sample endorsed no conspiracy theory vs. 53% in ITANES, though comparability transformations complicate interpretation.
-- The Pixel + URL parameter setup successfully filtered out duplicate-IP and socially-shared completions.
+- 53-day campaign yielded 82,233 impressions, 32,613 unique users reached, and 1,069 valid respondents.
+- Conversion rate of 3.28% outperformed nearly all CTRs reported in prior Facebook ad-based survey literature.
+- Total campaign cost €488, or €0.46 per valid respondent — substantially cheaper than typical panel recruitment.
+- Kruskal–Wallis tests found no significant differences in conspiracy endorsement between the Facebook and ITANES samples; effect sizes were negligible.
+- Some polarization signal: 68% of Facebook respondents endorsed no conspiracy vs. 53% in ITANES, though comparability transformations complicate interpretation.
+- Pixel + URL parameter tracking successfully identified and excluded duplicate and socially-shared completions.
 
 ## Connections
 
-This study sits in the methodological strand of computational social science concerned with combining platform data and survey research, sharing concerns with [[Schulte2026-df]] and [[Hepp2026-oi]] on integrating digital traces into social-scientific inquiry, and complementing work on the affordances and constraints of platform-mediated research after the post-Cambridge-Analytica API contraction (e.g., [[Freelon2024-sc]], [[Rieder2025-ju]]). Its skepticism toward Facebook interest categories as reliable proxies for offline opinions echoes broader concerns about platform-elaborated user attributes raised in audit and measurement work such as [[Ulloa2024-jm]].
+This paper fits within the methodological strand of social-media–based research infrastructure and sampling, and connects to broader concerns about platform access and measurement validity that intensified after API restrictions — themes shared with work on alternative data collection tooling like [[Ohme2026-nv]] and infrastructural critiques such as [[Rieder2025-ju]] and [[Freelon2024-sc]]. Its concern with validating whether platform-inferred interests reflect substantive offline attributes resonates with audit-style studies of platform categorization, though most other papers in this topic cluster address content-side analytics rather than survey recruitment, so the direct methodological overlap is limited.
