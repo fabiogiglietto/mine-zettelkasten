@@ -2779,11 +2779,11 @@
       "doi": "10.1177/02673231261458935",
       "title": "Fake news as a rhetorical weapon: Strategic delegitimization and selective amplification in Italian newspapers",
       "pdf_source": "abstract_only",
-      "content_hash": "1f9d5951fe3ca26363a737296b481c6501699545f03f9d6d1773bd6e19e94d7a",
-      "podcast_linked": false,
+      "content_hash": "baca247fbf7265d60a60216456f28ff632a1eddbac013688f4963a7951e72f9e",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-04T07:24:20.189322+00:00"
+      "last_processed": "2026-07-08T19:38:22.322973+00:00"
     },
     "bibtex:Makeev2026-ma": {
       "note_path": "Papers/Makeev2026-ma.md",
@@ -3044,9 +3044,9 @@
       "doi": "",
       "title": "Exploring the Zombie Internet: Anatomy of Three Deceptive Information Operations on Facebook",
       "pdf_source": "drive",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
-      "podcast_linked": false,
-      "last_processed": "2026-07-08T14:22:11.934544+00:00"
+      "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
+      "podcast_linked": true,
+      "last_processed": "2026-07-08T19:38:34.822482+00:00"
     }
   },
   "last_full_cluster": "2026-07-06T08:38:59.265833+00:00",

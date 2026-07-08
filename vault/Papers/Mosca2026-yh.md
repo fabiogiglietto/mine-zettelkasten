@@ -9,7 +9,7 @@ topics: [information-disorder, elections-political-communication]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/02673231261458935
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Mosca2026-yh.mp3
 pdf_available: false
 discovery_date: 2026-07-04T07:23:37.877297Z
 ---
@@ -22,26 +22,30 @@ discovery_date: 2026-07-04T07:23:37.877297Z
 
 ## Summary
 
-This paper reframes "fake news" not as a category of false content but as a rhetorical weapon deployed by political actors to delegitimize opponents. Focusing on Italian newspapers, Mosca and Paxton propose the **Strategic Delegitimization and Selective Amplification (SDSA) model**, which theorizes fake news accusations as strategic communicative practices embedded in negative campaigning, and media outlets as partisan amplifiers that selectively boost some accusations over others. The argument shifts scholarly attention from the veracity of information to the political work performed by *accusations* of falsehood.
+This article reframes the concept of "fake news" away from its familiar treatment as a misinformation problem, arguing instead that accusations of fake news operate as **rhetorical weapons** in political conflict. The authors propose the **Strategic Delegitimization and Selective Amplification (SDSA) model**, which theorizes how political actors deploy fake news charges to delegitimize opponents and how media outlets selectively amplify those charges to shape their political impact. Drawing on the case of Italian newspapers, the paper situates fake news discourse within the study of negative campaigning and strategic political communication rather than epistemology or fact-checking.
 
 ## Key Contributions
 
-- Introduces the **SDSA model** as a conceptual framework for analyzing fake news accusations as strategic rhetoric.
-- Reframes fake news scholarship: from a misinformation/epistemic problem to a problem of political delegitimization.
-- Bridges fake news research with the literature on **negative campaigning** and strategic political communication.
-- Offers Italy as a case for studying partisan media ecosystems that selectively amplify elite accusations.
+- Introduces the **SDSA model** as a conceptual tool for analyzing fake news accusations as strategic practices.
+- Reframes fake news scholarship from a misinformation problem toward a **rhetorical and strategic practice** of delegitimization.
+- Connects fake news research to literatures on **negative campaigning** and **political delegitimization**.
+- Offers an Italian case-based lens on how partisan media ecosystems amplify political accusations.
 
 ## Methods
 
-The paper is primarily theoretical, building the SDSA framework, and grounds it empirically in Italian newspaper coverage of political fake news accusations. Detailed methodological procedures are not specified in the available abstract.
+The paper is primarily theory-building: its central methodological move is the development of the SDSA framework. Empirically, it focuses on Italian newspapers as sites where fake news accusations circulate and are amplified. Detailed empirical procedures are not specified in the available abstract.
 
 ## Findings
 
-- Fake news accusations operate as tools of delegitimization rather than as neutral factual claims.
-- Political actors deploy such accusations strategically within negative campaigning repertoires.
-- Newspapers do not amplify all accusations equally — selective amplification shapes which delegitimization attempts gain political traction.
-- Specific empirical results are not reported in the abstract.
+- Fake news accusations function as strategic communicative acts, not merely reactions to false information.
+- Political actors weaponize such accusations for delegitimization within negative campaigning.
+- Media outlets do not amplify all accusations equally — **selective amplification** shapes which claims gain political traction.
+- Specific quantitative empirical results are not reported in the available abstract.
 
 ## Connections
 
-This paper speaks directly to work treating "fake news" as an elite discursive label rather than a content category, resonating with [[Farkas2026-lr]] on the politics of the fake news concept and with [[Hameleers2026-mc]] on strategic accusation. Its emphasis on partisan media amplification connects to [[Frischlich2025-vn]] and [[Humprecht2025-ml]] on comparative information ecosystems, while the negative-campaigning framing links to [[Kalsnes2025-zb]] and broader delegitimization dynamics discussed in [[Marwick2025-ov]].
+This paper's reframing of "fake news" as a strategic label rather than a factual category resonates strongly with work treating fake news as a discursive and political construct, notably [[Farkas2026-lr]]. Its concern with how partisan media ecosystems selectively amplify political claims connects to broader accounts of amplification and misinformation politics such as [[Marwick2025-ov]] and [[Humprecht2025-ml]], while its focus on delegitimization within electoral communication links it to research on political actors and campaigning like [[Hameleers2026-mc]].
+
+## Podcast
+
+A [research-radio](https://fabiogiglietto.github.io/research-radio/) episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Mosca2026-yh.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX)

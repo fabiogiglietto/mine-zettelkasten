@@ -45,7 +45,6 @@ Detection, conceptualization and typology of coordinated link sharing and inauth
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
 - [[Schroeder2026-im]]
-- [[Slack1783507463-sl24]]
 - [[Slack1783507532-sl10]]
 - [[Song2025-yh]]
 - [[Thiele2025-ol]]
