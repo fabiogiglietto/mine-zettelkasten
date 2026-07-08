@@ -2965,8 +2965,107 @@
       "content_hash": "c7e116c288d22cc16f9e3a029297f1cfbece435e24bba098ecf3eab6f231cfb8",
       "podcast_linked": false,
       "last_processed": "2026-07-08T13:18:24.157905+00:00"
+    },
+    "bibtex:Castells2009-sle8": {
+      "note_path": "Papers/Castells2009-sle8.md",
+      "topics": [
+        "internet-studies-sociocybernetics"
+      ],
+      "assign_fp": "bdb4f6655065e80eb11284f63f8d24b798c6ec151a506a3a2d5df08b28d30f9c",
+      "doi": "10.1002/9781444319514",
+      "title": "The Rise of the Network Society",
+      "pdf_source": "drive",
+      "content_hash": "76b6f30875c1a5c8b6c3f8643b4292598b713a080fc118c0bad3a2fc7a19b97c",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-08T14:19:39.251746+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Slack1783508184-sld3": {
+      "note_path": "Papers/Slack1783508184-sld3.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "internet-studies-sociocybernetics"
+      ],
+      "assign_fp": "a52a0e3698352bad8a3487a3824f517a42cfe3ffd33c55460de116613e8d59f2",
+      "doi": "",
+      "title": "Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications",
+      "pdf_source": "abstract_only",
+      "content_hash": "4fd293a85f49b25dc6a38175dd7e3800d1c9055aa4652652e6f3549820b95e56",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-08T14:19:56.271587+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Slack1783508042-sl69": {
+      "note_path": "Papers/Slack1783508042-sl69.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "internet-studies-sociocybernetics"
+      ],
+      "assign_fp": "94beb856cb2c667a7952da8bc418a2c18648a63ae9999d848dd00fd60edc6792",
+      "doi": "",
+      "title": "A Networked Self: Identity, Community, and Culture on Social Network Sites",
+      "pdf_source": "abstract_only",
+      "content_hash": "006b6cc02554e075d57ab868bf175af107a04bb36203b7c84c557918efab3c78",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-08T14:20:11.397348+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Slack1783507532-sl10": {
+      "note_path": "Papers/Slack1783507532-sl10.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "elections-political-communication"
+      ],
+      "assign_fp": "07fd35b3427595f9361229e06a0df193b4e6ea45538e422bfc44150a0fa36dad",
+      "doi": "10.17605/osf.io/yqkfz",
+      "title": "Political Advertisement and Coordinated Behavior on Social Media in the Lead-Up to the 2021 German Federal Elections",
+      "pdf_source": "abstract_only",
+      "content_hash": "6ba38c4aa8317acbbf2680df1135bddcca8ea6a68fb6236b36113fe5421f4344",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-08T14:20:23.288430+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Slack1783507463-sl24": {
+      "note_path": "Papers/Slack1783507463-sl24.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "dbb3f12c2622f866fceb1bedaa34c7ebcb39d68cc8fedd88c00422d26ae29e08",
+      "doi": "10.13136/isr.v15i1.850",
+      "title": "The Multiple Nuances of Online Firestorms: The Case of a Pro-Vietnam Attack on the Facebook Digital Embassy of China in Italy Amidst the Pandemic",
+      "pdf_source": "abstract_only",
+      "content_hash": "e6213debf0e8471f5a6d3cf81d0e121c9b9a833ef0e993899b5a4bbd52d942d1",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-08T14:20:34.590001+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Giada2026-fc9a3833": {
+      "note_path": "Papers/Giada2026-fc9a3833.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "platform-governance-apis"
+      ],
+      "assign_fp": "dbf659854413262392ce9a9307d979f72266eec59325860c5ad6d96cc03cdaff",
+      "kind": "own",
+      "doi": "",
+      "title": "Exploring the Zombie Internet: Anatomy of Three Deceptive Information Operations on Facebook",
+      "pdf_source": "drive",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-07-08T14:22:11.934544+00:00"
     }
   },
   "last_full_cluster": "2026-07-06T08:38:59.265833+00:00",
-  "papers_since_cluster": 10
+  "papers_since_cluster": 15
 }

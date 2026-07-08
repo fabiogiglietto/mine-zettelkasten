@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper introduces the concept of Deceptive Information Operations (DIOs) as an analytical framework that goes beyond traditional false-news taxonomies to capture a broader spectrum of manipulative communicative activity on social media. Through an automated detection workflow monitoring coordinated sharing behaviour on Facebook, the authors examine three cases: a state-aligned pro-Putin propaganda network, a coordinated online gambling promotion campaign, and a network of poorly moderated public groups distributing adult content and fraudulent links. The study finds shared structural mechanisms across all three operations despite their differing actors, content, and intent, and argues these dynamics constitute a 'Zombie Internet' condition that exposes governance vulnerabilities in platform enforcement frameworks.",
+  "key_claims": [
+    "Deceptive Information Operations (DIOs) form a unifying category defined by the convergence of three dimensions: deceptive intent in content/identity, strategic exploitation of platform affordances, and (real or simulated) multi-account coordination.",
+    "DIOs need not rely on false content; misinformation is neither a necessary nor sufficient condition — what defines them is orchestrated misleading practice combined with affordance exploitation and coordinated participation.",
+    "Operations that differ in actor, content, and motivation (epistemic, economic, and social-normative harm) share a common underlying structural logic, making motivational distinctions analytically secondary.",
+    "Existing frameworks (Deception Theory, Strategic Information Operations, and Meta's Coordinated Inauthentic Behaviour) each draw their boundaries too tightly and cannot account for structurally similar operations.",
+    "Facebook's engagement-driven ranking combined with inconsistent moderation creates a 'Zombie Internet' condition where human and automated participation become indistinguishable, forming a feedback loop that lowers the cost of further operations.",
+    "Platform governance frameworks that focus narrowly on content inauthenticity fail to address the structural conditions enabling manipulation at scale."
+  ],
+  "methods": [
+    "Automated detection using the vera.ai / VeraAI Alert System, a CrowdTangle-based dynamic tracking workflow that monitors coordinated sharing behaviour among problematic accounts.",
+    "Seed list of 1,225 Facebook Pages and public groups selected for having coordinatedly shared at least four URLs from a corpus of 36,091 fact-checker-flagged web pages (2017-2022); iterative account tracking and network expansion.",
+    "Coordination detection via the CooRTweet tool, identifying synchronous sharing (identical URLs, image/text similarity, temporal clustering).",
+    "Purposive sampling (Palys, 2008) of three cases from 17 detected networks, chosen for typological, actor, and coordination-mechanism diversity.",
+    "Data retrieval via the Meta Content Library (one of the first studies to use it at scale), combining account-level metadata with the 500 most-viewed posts per network (time period October 2023–August 2024; tracked November 2024–January 2025).",
+    "Inductive category development informed by constructivist grounded theory (Charmaz), with three theoretically-motivated dimensions (identity management, behavioural coordination, content manipulation) and inductively emergent categories; lead author cross-coded 30% for consistency, with collaborative review."
+  ],
+  "findings": [
+    "The pro-Putin network comprised 27 public groups with coordinated naming conventions, synchronised name changes before geopolitical events, and synchronised posting (e.g., an identical image posted across 10 groups in a three-minute window; a Zelenskyy meme accumulating over 1.1 million views); it blends benign content with polarising propaganda and mixes coordinated seeding with genuine user engagement.",
+    "The gambling network spanned 260 groups (30,000–600,000 members) relying almost entirely on synthetic activity — AI-generated visuals, bot-driven comment inflation (e.g., a post with 169.1K views and 44.1K comments but only 7 reactions), brandjacking of names like Orion Stars and Juwa, and administrators with minimal authentic activity; 368 of the top 500 posts had been removed, suggesting a maximise-exposure-before-takedown strategy.",
+    "The unmoderated groups (222 groups in two communities) exploited weak moderation, renaming accounts between political and entertainment themes (one changed names 13 times), disguising adult content and fraudulent links behind innocuous blurbs (e.g., BMW history text) and 'listening to' activity-status posts linking to empty Musician/Band pages to evade CIB detection; a false Coca-Cola-contains-alcohol claim reached 3.5 million views.",
+    "Across all cases, actors conceal intent behind benign content, use coordinated sharing to game algorithmic ranking and simulate organic popularity, and deploy synthetic/AI-generated material.",
+    "The three operations diverge in user engagement mode: coordinated seeding plus real engagement (propaganda), near-total synthetic activity (gambling), and inadvertent amplification by genuine users (unmoderated groups), producing distinct harm types.",
+    "Reporting findings to Meta (October 2023 and November 2024) yielded acknowledgement but limited follow-up action, consistent with enforcement categories that fail to recognise such operations as harmful."
+  ],
+  "contributions": [
+    "Introduces and empirically grounds the concept of Deceptive Information Operations (DIOs) as a unifying framework synthesising Deception Theory, Strategic Information Operations, and Coordinated Inauthentic Behaviour.",
+    "Provides an empirical demonstration that operations differing in actor, content, and intent share a common structural logic.",
+    "Identifies critical gaps in platform governance frameworks (CIB, CSH) that focus on content inauthenticity rather than structural enabling conditions.",
+    "Demonstrates an automated, cyclical detection workflow (VeraAI Alert System) usable by researchers and civil society to monitor coordinated deceptive activity at scale.",
+    "One of the first studies to employ the Meta Content Library dataset at scale, documenting both its analytical potential and limitations (e.g., post download caps).",
+    "Operationalises the 'Zombie Internet' concept as a systemic ecosystem condition and connects it to platform-level systemic risks recognised by EU regulators."
+  ],
+  "framing": "The paper positions itself within the study of information disorder, platform governance, and strategic information operations, integrating Chadwick and Stanyer's deception theory, Starbird et al.'s participatory strategic information operations, and Meta's Coordinated Inauthentic Behaviour policy category. It frames contemporary manipulation through Koebler's notion of the 'Zombie Internet' — an engagement-oriented ecosystem where the boundary between human and automated activity dissolves — arguing that the features making social media commercially successful are the same ones that make it hospitable to manipulation.",
+  "pdf_source": "drive"
+}

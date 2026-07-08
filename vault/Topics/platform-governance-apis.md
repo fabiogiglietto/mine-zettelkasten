@@ -35,6 +35,7 @@ Research on platform policies, data access regimes, algorithmic governance and c
 - [[Freelon2024-sc]]
 - [[Gauthier2026-iq]]
 - [[Gerbaudo2026-fo]]
+- [[Giada2026-fc9a3833]]
 - [[Giglietto2020-6278a4aa]]
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]

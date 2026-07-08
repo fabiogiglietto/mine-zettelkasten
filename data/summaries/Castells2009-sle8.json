@@ -1,0 +1,35 @@
+{
+  "abstract": "The first volume of Manuel Castells' Information Age trilogy proposes a systematic theory of the 'network society' — a new social structure emerging at the end of the twentieth century, built on digital information and communication technologies that enable networks to expand and reconfigure endlessly across all domains of social life. Castells argues that the global economy, work, culture, space, and time have been fundamentally reorganized around informational networks. This second edition (2010) adds a substantial new preface in which Castells revisits his original hypotheses in light of developments across the 2000s, including the 2008 global financial crisis, the communication revolution, and accelerating global urbanization.",
+  "key_claims": [
+    "A qualitatively new form of social organization, the 'network society,' arose around the end of the second millennium, structured by digital networking technologies that overcome traditional limits on the size and complexity of networks.",
+    "Globalization is inherent to this structure because networks do not stop at national borders, but global networks selectively include some people and territories while excluding others, producing a geography of inequality.",
+    "The nation-state has progressively lost capacity to regulate global flows of wealth, information, and technology, even though states were themselves active agents of globalization.",
+    "A new culture of 'real virtuality' is emerging in which multimodal digital communication makes virtuality a fundamental dimension of lived reality.",
+    "Space and time are being transformed: a 'space of flows' coexists with and reorganizes the 'space of places,' and a 'timeless time' emerges from network dynamics.",
+    "The 2008 financial crisis was a direct consequence of the specific dynamics of the networked global economy — a 'global automaton' that escaped the control of investors, governments, and regulators."
+  ],
+  "methods": [
+    "Grounded, comparative empirical social science analysis rather than futurology or prediction; identification of observable trends and their theoretical interpretation.",
+    "Cross-regional research drawing on the USA, Asia (Japan, Korea, China, the Asian Pacific), Latin America, and Europe.",
+    "Extensive statistical analysis of employment and occupational structure in the G-7 countries (1920–2005), with detailed appendix tables by industry and occupation.",
+    "Analysis of macroeconomic and financial data on productivity, international trade, foreign direct investment, cross-border capital flows, and stock valuations.",
+    "Case studies of organizational forms (e.g., Toyotism, the Cisco networking model, East Asian business networks) and of communication technologies (Minitel, the Internet, wireless, YouTube, Second Life).",
+    "Synthesis of urban research (Sassen, Peter Hall, Peter Taylor and the Loughborough group, Dear and Wolch, and others) to build a theory of space."
+  ],
+  "findings": [
+    "Technological change has not reduced aggregate employment but has restructured it, producing a dual labor market of highly educated 'self-programmable labor' ('talent') and 'generic labor,' driving growing inequality.",
+    "Productivity in the US grew nearly 30% cumulatively (1998–2008) while real wages stagnated (rising only ~2%), with financial services capturing a rising share of profits (from 10% in the 1980s to 40% in 2007).",
+    "US household debt as a share of disposable income rose from roughly 3% in 1998 to 130% in 2008, contributing to the mortgage and financial crisis.",
+    "Internet users grew from under 40 million in 1995 to about 1.5 billion in 2009; wireless subscriptions surpassed 3.4 billion (about 52% of world population) by 2008; the digital divide (OECD vs. developing access ratio) fell from 80.6:1 in 1997 to 5.8:1 in 2007.",
+    "Contrary to predictions of the 'end of cities,' the world crossed the 50% urban threshold, entering the largest wave of urbanization in history, organized into polycentric 'metropolitan regions' (e.g., the ~60 million-person Pearl River Delta region).",
+    "Global networks are multilayered and do not share the same geography; nodes where multiple networks overlap (e.g., London, New York) become dominant 'mega-nodes,' while face-to-face 'milieus' remain essential for high-level decision-making."
+  ],
+  "contributions": [
+    "Offers a comprehensive theoretical framework and vocabulary — network society, space of flows, timeless time, real virtuality, network enterprise, self-programmable vs. generic labor, mass self-communication — for analyzing the information age.",
+    "Provides an integrated interpretation linking economy, technology, work, culture, and spatial/temporal transformation into a coherent account of structural social change.",
+    "Introduces the concept of the 'metropolitan region' as the distinctive urban form of the network society and a networked theory of urbanism.",
+    "Establishes a landmark, widely cited reference work for the social scientific study of globalization and information technology."
+  ],
+  "framing": "Castells positions his work within macro-sociology and political economy as an attempt to fill the gap in great sociological theories charting the transition beyond industrial society. He draws on and revises debates about post-industrialism, informationalism versus industrialism, and globalization, insisting that new intellectual categories are needed because inherited concepts from the Modern and industrial ages cannot grasp the emergent social structure.",
+  "pdf_source": "drive"
+}

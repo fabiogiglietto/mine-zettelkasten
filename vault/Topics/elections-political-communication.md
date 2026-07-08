@@ -56,6 +56,7 @@ Empirical analysis of political campaigns, partisan attention, hyperpartisan net
 - [[Rossini2026-jn]]
 - [[Schulte2026-df]]
 - [[Simeone2025-vo]]
+- [[Slack1783507532-sl10]]
 - [[Starbird2025-jj]]
 - [[Tai2026-qk]]
 - [[Tornberg2025-ir]]
