@@ -33,6 +33,7 @@ Analysis of insularity, cross-partisanship, alternative influence networks and t
 - [[Hartmann2025-px]]
 - [[Hollingshead2026-vx]]
 - [[Iris2026-pg]]
+- [[Karlsson2026-hd]]
 - [[Knupfer2025-vt]]
 - [[Kristensen2025-ni]]
 - [[Lai2024-to]]

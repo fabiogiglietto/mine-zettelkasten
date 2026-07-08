@@ -12,6 +12,7 @@ Uses and challenges of generative AI in media production, disinformation (synthe
 
 - [[Balluff2026-if]]
 - [[Baym2026-tr]]
+- [[Beacken2026-zb]]
 - [[Choi2026-bz]]
 - [[Costello2024-bg]]
 - [[DiGiuseppe2026-pu]]

@@ -36,6 +36,7 @@ Empirical analysis of political campaigns, partisan attention, hyperpartisan net
 - [[Jurg2025-ur]]
 - [[Kalsnes2025-zb]]
 - [[Kansaon2025-id]]
+- [[Karlsson2026-hd]]
 - [[Katzenbach2026-sl2e]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]

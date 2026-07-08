@@ -13,6 +13,7 @@ Study of misleading information, fake news taxonomies, problematic content circu
 - [[Adam2026-tz]]
 - [[Arceneaux2026-xk]]
 - [[Bastos2025-ol]]
+- [[Beacken2026-zb]]
 - [[Bennett2025-xs]]
 - [[Bollenbacher2026-vz]]
 - [[Bosch2024-hj]]
