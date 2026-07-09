@@ -48,6 +48,7 @@ Analysis of insularity, cross-partisanship, alternative influence networks and t
 - [[Rodarte2026-dk]]
 - [[Rothut2026-or]]
 - [[Sarmiento2025-as]]
+- [[Trilling2024-slc8]]
 - [[Unknown2026-sl3d]]
 - [[Ventura2026-yc]]
 - [[Yoo2026-ev]]

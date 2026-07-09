@@ -18,6 +18,7 @@ Theoretical foundations connecting systems theory, sociocybernetics and internet
 - [[Slack1783508042-sl69]]
 - [[Slack1783508184-sld3]]
 - [[Sofia2012-802a21dc]]
+- [[Trilling2024-slc8]]
 
 ## All papers (Dataview)
 

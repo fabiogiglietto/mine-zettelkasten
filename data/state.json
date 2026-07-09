@@ -3064,8 +3064,25 @@
       "last_processed": "2026-07-09T12:14:30.557075+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Trilling2024-slc8": {
+      "note_path": "Papers/Trilling2024-slc8.md",
+      "topics": [
+        "polarization-partisan-media",
+        "internet-studies-sociocybernetics"
+      ],
+      "assign_fp": "e4d0266986909fdb4d29eb053c439b60bc20de07b93631500a88fd54ecf624ec",
+      "doi": "10.34669/wi.wjds/4.2.4",
+      "title": "Communicative Feedback Loops in the Digital Society",
+      "pdf_source": "drive",
+      "content_hash": "c41b364667afdd0b0a931b457d3a79762f89a7465f59c3040266e5e9272fb515",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-09T15:43:15.456917+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
     }
   },
   "last_full_cluster": "2026-07-06T08:38:59.265833+00:00",
-  "papers_since_cluster": 16
+  "papers_since_cluster": 17
 }
