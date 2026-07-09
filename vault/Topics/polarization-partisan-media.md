@@ -39,6 +39,7 @@ Analysis of insularity, cross-partisanship, alternative influence networks and t
 - [[Lai2024-to]]
 - [[Lee2026-je]]
 - [[Marino2023-9137f448]]
+- [[Marino2026-slef]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]
 - [[Mosleh2024-op]]

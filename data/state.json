@@ -2748,11 +2748,11 @@
       "doi": "",
       "title": "Where&#x27;s the Evidence that Respondents Understand Your Survey Questions?",
       "pdf_source": "abstract_only",
-      "content_hash": "77920868da1384096bfce8fce8f9fc8a81b7f627ca542a22dc6d0dd6c7adf0d9",
-      "podcast_linked": false,
+      "content_hash": "b9affc30e26de312c570638b7c86c436599d74ef5a0e50ee5d5227aee92df4c4",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-03T07:48:01.831300+00:00"
+      "last_processed": "2026-07-09T12:14:30.557099+00:00"
     },
     "bibtex:Ptz2024-sl20": {
       "note_path": "Papers/Ptz2024-sl20.md",
@@ -3047,8 +3047,25 @@
       "content_hash": "6366542548a6695d2e09b4bcf6f7ede62ba864b13744ea7da61dc4f0664d789d",
       "podcast_linked": true,
       "last_processed": "2026-07-08T19:38:34.822482+00:00"
+    },
+    "bibtex:Marino2026-slef": {
+      "note_path": "Papers/Marino2026-slef.md",
+      "topics": [
+        "elections-political-communication",
+        "polarization-partisan-media"
+      ],
+      "assign_fp": "6ad28c2667ba340366d8448dea1c1cbe11342396323dfb43bc667c1e94d7e8ee",
+      "doi": "10.1080/1369118x.2026.2696929",
+      "title": "Measuring partisan community dynamics: a longitudinal analysis of affective engagement in pro-Bolsonaro Facebook networks",
+      "pdf_source": "drive",
+      "content_hash": "3e6bd0458eb3a09b0fe6a48b421a7adbca0f0b8b9532bd50dc66febf1d7b6e65",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-07-09T12:14:30.557075+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
     }
   },
   "last_full_cluster": "2026-07-06T08:38:59.265833+00:00",
-  "papers_since_cluster": 15
+  "papers_since_cluster": 16
 }

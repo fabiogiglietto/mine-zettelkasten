@@ -46,6 +46,7 @@ Empirical analysis of political campaigns, partisan attention, hyperpartisan net
 - [[Li2026-wq]]
 - [[Lin2025-xp]]
 - [[Marino2024-2fbc690f]]
+- [[Marino2026-slef]]
 - [[Mosca2026-yh]]
 - [[Munger2025-cz]]
 - [[Oprea2025-lf]]
