@@ -47,6 +47,7 @@ Study of misleading information, fake news taxonomies, problematic content circu
 - [[Jaidka2026-sl34]]
 - [[Karo2026-dn]]
 - [[Kim2026-wg]]
+- [[Kotz2026-lk]]
 - [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]
 - [[Li2026-wq]]

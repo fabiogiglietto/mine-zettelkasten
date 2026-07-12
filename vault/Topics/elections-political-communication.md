@@ -55,6 +55,7 @@ Empirical analysis of political campaigns, partisan attention, hyperpartisan net
 - [[Rodarte2026-dk]]
 - [[Rossi2023-847d5a9f]]
 - [[Rossini2026-jn]]
+- [[Schemer2026-mh]]
 - [[Schulte2026-df]]
 - [[Simeone2025-vo]]
 - [[Slack1783507532-sl10]]

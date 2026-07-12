@@ -25,6 +25,7 @@ Methodological work on integrating large language models, embeddings and human-i
 - [[Fan2026-af]]
 - [[Giglietto2024-cbeb3f70]]
 - [[Kim2026-br]]
+- [[Kotz2026-lk]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]

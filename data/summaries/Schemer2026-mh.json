@@ -1,0 +1,37 @@
+{
+  "abstract": "This study examines how methodological choices in measuring the partisan slant of media outlets and in operationalizing polarization affect conclusions about the relationship between partisan media use and polarization in the United States. Using three-wave panel survey data from the 2020 U.S. presidential election and specification curve analysis (SCA), the authors test 504 different ways of operationalizing the independent variable (media partisanship) and dependent variables (affective and belief polarization). They find that methodological decisions substantially alter the strength and significance—though generally not the direction—of the observed relationships, with implications for how scholars interpret whether partisan media pose a democratic problem.",
+  "key_claims": [
+    "The methods used to measure both media partisanship and polarization significantly influence the strength of the observed relationship between partisan media use and polarization.",
+    "Different measurement approaches change the magnitude and significance of coefficients but do not reverse their direction; observed inconsistencies reflect variation in strength, not conflicting relationships.",
+    "Audience-based media partisanship scores (MPS) inflate estimates relative to content-based scores, and may reflect audience selectivity more than actual news content.",
+    "Bipolar media partisanship scores and difference-score measures of polarization obscure asymmetries; relationships with conservative news diets and Trump-related outcomes are stronger than those with liberal diets and Biden-related outcomes.",
+    "Because there is no gold-standard measure of media slant, researchers should justify their methodological choices and conduct robustness/sensitivity checks."
+  ],
+  "methods": [
+    "Original three-wave online panel survey conducted via YouGov's web access panel during the 2020 U.S. presidential election (September 24–October 30, 2020); final wave-1 sample of 1,800 and 1,401 reinterviewed in wave 2.",
+    "Media use measured with the list-frequency technique across a list of 63 prominent U.S. news outlets, capturing both which outlets were used in the past 14 days and frequency of use.",
+    "Compiled 17 different Media Partisanship Scores (MPS) from prior literature spanning three method types—analytic content-based (e.g., Groseclose, Gentzkow), holistic content-based (e.g., Budak, Allsides, MBFC), and audience-based (e.g., Bakshy, Robertson, Pew, Kim)—yielding 42 independent-variable specifications through weighting and categorization procedures.",
+    "Twelve dependent-variable specifications: nine affective polarization measures (feeling thermometers and trust ratings for Trump, Biden, and their supporters, as single and difference scores) and three belief polarization measures (misperceptions about each candidate and a difference score).",
+    "Specification Curve Analysis (SCA) using the R package 'specr' across all 504 combinations, with variance decomposition plots; covariates included partisanship, political interest, knowledge, demographics, and local news use.",
+    "Robustness checks excluding Independents and lagged-dependent-variable regressions (wave 2 outcomes regressed on wave 1 MPS) to examine over-time relationships."
+  ],
+  "findings": [
+    "Relationships were mostly positive: more conservative media diets were associated with greater favorability of and trust in Trump and misperceptions favoring Trump.",
+    "Coefficient sizes varied substantially (mean b = .33); the largest significant estimate (b = .47) was nearly seven times the smallest (b = .07).",
+    "Audience-based MPS produced the largest coefficients (M = .35), analytic content-based the smallest (e.g., Groseclose M = .21, Gentzkow M = .26), with holistic content-based in between (M = .33); notable variation existed within categories.",
+    "Categorical MPS yielded larger estimates than non-categorical ones; weighting by frequency generally made little difference, though for some scores (Kim2021, Flaxman) unweighted versions were stronger.",
+    "About 56% of coefficient variation was attributable to MPS choice and 42% to dependent-variable choice.",
+    "Disaggregating bipolar scores revealed asymmetry: conservative news diets showed stronger relationships (absolute M = .24) than liberal diets (M = -.19); centrist diets showed small or nonsignificant associations.",
+    "Trust and misperception measures produced stronger coefficients than feeling thermometers.",
+    "Longitudinal (lagged) estimates were consistently small and varied little (largest b = .06 unweighted MBFC; smallest b = .03 weighted Groseclose), and excluding Independents reduced estimates by roughly 20%."
+  ],
+  "contributions": [
+    "Provides a systematic, empirical demonstration—via 504 specifications in an SCA framework—of how measurement choices shape conclusions about partisan media and polarization.",
+    "Documents and quantifies the inflationary effect of audience-based versus content-based partisanship measures.",
+    "Highlights partisan and candidate-level asymmetries hidden by bipolar scores and difference-score measures.",
+    "Offers concrete best-practice recommendations: justify measurement choices, run sensitivity analyses, report both bipolar and disaggregated results, and prefer content-based measures when studying content effects.",
+    "Contributes to the normative debate about whether partisan media and affective/belief polarization are serious social problems by showing that interpretations hinge on method."
+  ],
+  "framing": "The paper situates itself within political communication scholarship on partisan media use and affective/belief polarization, engaging directly with debates over inconsistent findings and their measurement causes (e.g., Muise et al., Wittenberg et al., Druckman et al.). It positions specification curve analysis as a tool for addressing 'researcher degrees of freedom' and reflexive methodological rigor across the field.",
+  "pdf_source": "drive"
+}

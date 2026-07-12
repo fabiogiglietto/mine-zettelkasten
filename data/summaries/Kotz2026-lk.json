@@ -1,0 +1,39 @@
+{
+  "abstract": "This preregistered experiment with 6,558 American participants tested whether short, interactive dialogues with conversational AI (GPT-5) can shift beliefs and policy support across three structurally distinct contested societal issues: climate change, vaccination, and economic inequality. Compared to a neutral control conversation (about cats vs. dogs), AI dialogues shifted beliefs across all three domains and increased support for contested policies such as carbon and estate taxes. Effects were strongest among initially skeptical participants and those with higher trust in science, and text analysis showed GPT-5 adapted its persuasive strategy to skeptics. The authors argue that brief AI dialogues may serve as a scalable, generalizable tool for evidence-based public communication.",
+  "key_claims": [
+    "Evidence-based AI dialogue is a domain-general persuasive tool that shifts beliefs across structurally distinct issues (climate change, vaccination, economic inequality) rather than working only under favorable single-domain conditions.",
+    "AI dialogue can increase support for concrete, politically contested policy instruments (carbon tax, mandatory school-entry vaccination, estate tax), not just underlying beliefs.",
+    "Changing beliefs does not reliably translate into policy support; policy attitudes must be targeted directly rather than relying on belief change as an intermediary.",
+    "Treatment effects are strongest among initially skeptical participants (low baseline attitudes), who are typically hardest to reach, contrasting with prior work where static AI messages worked best on already-sympathetic audiences.",
+    "Trust in science is the most consistent moderator, nearly doubling effect sizes at +1 SD, while trust in AI and trust in government matter less; actively open-minded thinking did not reliably moderate effects.",
+    "The AI's persuasive power stems from responsive, concern-specific, non-confrontational dialogue adapted to individuals rather than generic informational messaging."
+  ],
+  "methods": [
+    "Preregistered large-scale online experiment (N = 6,558 U.S. participants after exclusions; mean age 58.6, 62.8% female), fielded via panel provider Bilendi in December 2025-January 2026 on Qualtrics.",
+    "Deliberate oversample of conservatives (~57.6% Republican, 42.4% Democrat) using quotas to ensure baseline attitude variation; participants randomly assigned to one of ten conditions (3 topics x 3 intervention types [belief, policy, combined] + a neutral cats-vs-dogs control).",
+    "Three-round interactive dialogue with GPT-5, prompted to advocate the target belief/policy using best available scientific evidence while inviting questions; one-minute minimum per round and forced responses to ensure engagement.",
+    "Outcomes measured pre- and post-intervention on 0-100 slider scales: validated multi-item scales for climate belief (omega=.97) and vaccine confidence (omega=.95), single items for inequality belief and for carbon tax, mandatory vaccination, and estate tax support.",
+    "Moderators measured: actively open-minded thinking (13-item scale, omega=.80), trust in science, trust in AI, trust in U.S. government, plus demographics and party affiliation.",
+    "Analysis: six multiple linear regressions predicting post-intervention outcomes controlling for baseline and AOT, with interaction terms for moderation; Bonferroni correction within outcome families (alpha=.0056); within-subject linear mixed-effects models comparing targeted vs. non-targeted outcomes; power analysis for d=0.20 at 80% power (required N~6,550).",
+    "Exploratory text analysis of dialogues: GPT-5 generated 11 conceptually distinct persuasive strategies and rated their usage per conversation (0-3 scale); reproducibility check on 100 conversations yielded 88.5% identical ratings; correlations between strategy use and baseline attitudes."
+  ],
+  "findings": [
+    "All interventions raised beliefs and policy support in their respective domains, with the largest main effects where baseline attitudes were lower (e.g., inequality belief +6.36 pps for belief treatment; estate tax support +8.98 pps for policy treatment).",
+    "Climate belief rose 3.66/3.46 pps (belief/combined); carbon tax support rose 3.74/4.80 pps (policy/combined), with a smaller spillover from the belief intervention (+1.94 pps).",
+    "Vaccination effects were smaller (belief +2.76 to +3.40 pps) reflecting high baselines; changes in mandatory-vaccination support did not survive multiple-testing correction.",
+    "Interventions were most effective when directly targeting the specific outcome; combined belief+policy interventions generally did not outperform outcome-specific ones (advantage only for inequality beliefs).",
+    "Effects consistently increased as baseline attitudes declined, exceeding what regression to the mean would predict (treatment slopes significantly steeper than control), indicating greatest impact among skeptics.",
+    "Trust in science amplified effects across all domains (effect sizes roughly doubling at +1 SD); trust in AI showed a weaker similar trend; trust in government was inconsistent; AOT did not reliably moderate after controlling for baseline attitudes.",
+    "No significant difference in treatment effects between Republicans and Democrats once baseline attitudes were controlled, though Republicans had lower baseline beliefs/support.",
+    "GPT-5 most consistently used iterative collaborative dialogue and person-centered alignment; it used prebunking/debunking and steelmanning more with skeptics (r = -.19 to -.42) and bridging-to-commitment strategies more with already-supportive participants, indicating systematic adaptation to skepticism."
+  ],
+  "contributions": [
+    "Demonstrates the cross-domain generalizability of conversational AI persuasion across three theoretically distinct contested issues within a single unified experiment.",
+    "Extends AI persuasion evidence from beliefs to specific, contested policy instruments (carbon tax, estate tax, mandatory vaccination) and shows belief change does not automatically produce policy change.",
+    "Provides systematic evidence on heterogeneity of effects, showing AI dialogue is most effective among skeptics and those high in trust in science, and identifying trust in science as the key moderator.",
+    "Characterizes the persuasive strategies AI uses and how it adapts them to recipients' baseline positions via a reproducible text-analysis pipeline.",
+    "Offers a scalable, low-effort (single prompt), adaptable tool for evidence-based public communication, while flagging ethical and governance requirements (transparency, grounding in consensus, safeguards against misuse)."
+  ],
+  "framing": "The paper positions itself within science communication and political persuasion research, engaging debates about why public beliefs diverge from scientific evidence and the limited success of traditional informational interventions, especially with skeptical audiences. It builds directly on recent work using LLM dialogues to durably reduce conspiracy beliefs and shift attitudes, drawing on theories of motivated reasoning, attitude change constrained by prior positions, actively open-minded thinking, and trust in institutions.",
+  "pdf_source": "drive"
+}
