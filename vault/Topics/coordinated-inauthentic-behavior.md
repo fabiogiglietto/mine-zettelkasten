@@ -6,30 +6,25 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection, conceptualization and typology of coordinated link sharing and inauthentic network behaviour on social media platforms. Central research signature of the PI, anchoring CooRnet, vera.ai WP4, and multiple election studies.
+Detection and analysis of coordinated link sharing, inauthentic networks, and manipulated amplification on social media platforms, including the CooRnet/CLSB methodology the researcher co-developed and its downstream successors. A core, long-running methodological and empirical program spanning elections, health topics, and information operations worldwide.
 
 ## Papers
 
 - [[Appel2026-qr]]
+- [[Arceneaux2026-xk]]
 - [[Askanius2026-de]]
-- [[Bastos2025-ol]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
-- [[Gaw2025-ru]]
+- [[Gerard2025-br]]
 - [[Giada2026-fc9a3833]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
-- [[Goel2025-iq]]
-- [[Graham2025-gp]]
-- [[Graham2026-fb]]
-- [[Hurcombe2025-cs]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
 - [[Kansaon2025-id]]
-- [[Kim2026-br]]
 - [[Kulichkina2025-sl09]]
 - [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]
@@ -44,7 +39,9 @@ Detection, conceptualization and typology of coordinated link sharing and inauth
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
+- [[Rothut2026-or]]
 - [[Schroeder2026-im]]
+- [[Simeone2025-vo]]
 - [[Slack1783507532-sl10]]
 - [[Song2025-yh]]
 - [[Thiele2025-ol]]

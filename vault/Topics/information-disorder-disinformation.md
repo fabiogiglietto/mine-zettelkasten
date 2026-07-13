@@ -1,23 +1,18 @@
 ---
 type: topic
-slug: information-disorder
+slug: information-disorder-disinformation
 emergent: false
 ---
 
-# Information Disorder and Disinformation Narratives
+# Information Disorder & Disinformation
 
-Study of misleading information, fake news taxonomies, problematic content circulation and disinformation narratives across hybrid media systems, including health, war and electoral contexts. Umbrella theme for MINE, PROMPT and vera.ai.
+Study of misinformation, disinformation narratives, and problematic content circulation across news and social media, including EU-funded monitoring of disinformation trajectories (PROMPT) and countering disinformation with AI-based verification tools (vera.ai).
 
 ## Papers
 
 - [[Adam2026-tz]]
-- [[Arceneaux2026-xk]]
-- [[Bastos2025-ol]]
-- [[Beacken2026-zb]]
-- [[Bennett2025-xs]]
-- [[Bollenbacher2026-vz]]
+- [[Balluff2026-bv]]
 - [[Bosch2024-hj]]
-- [[Bruns2026-yv]]
 - [[Budak2024-ef]]
 - [[Cazzamatta2026-lo]]
 - [[Choi2026-bz]]
@@ -28,63 +23,54 @@ Study of misleading information, fake news taxonomies, problematic content circu
 - [[Di-Domenico2026-zq]]
 - [[Dierickx2026-tw]]
 - [[Donovan2025-ws]]
-- [[Ducci2022-10cb5d70]]
 - [[Emilio2026-ik]]
 - [[Farkas2026-lr]]
 - [[FitzGerald2025-nv]]
 - [[Frischlich2025-vn]]
 - [[Gardam2025-er]]
 - [[Gattermann2025-yx]]
+- [[Gaw2025-ru]]
+- [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2019-e9be81c1]]
+- [[Gilardi2026-hw]]
 - [[Goel2025-iq]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Graham2025-gp]]
-- [[Grusauskaite2026-po]]
 - [[Hameleers2026-mc]]
-- [[Hollingshead2026-vx]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
+- [[Hurcombe2025-cs]]
 - [[Jaidka2026-sl34]]
-- [[Karo2026-dn]]
-- [[Kim2026-wg]]
-- [[Kotz2026-lk]]
-- [[Kulichkina2026-zk]]
-- [[Kuznetsova2025-nu]]
-- [[Li2026-wq]]
+- [[Karlsson2026-hd]]
 - [[Lieu2025-nl]]
 - [[Luhring2025-od]]
 - [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
-- [[Makeev2026-ma]]
 - [[Marwick2025-ov]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]
 - [[Mosca2026-yh]]
-- [[Mosleh2024-op]]
+- [[Mota2026-sl59]]
 - [[Nenno2025-xa]]
-- [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
-- [[Renault2025-uh]]
-- [[Righetti2025-slf9]]
+- [[Rodriguez_Farres2025-sg]]
 - [[Rohrbach2026-rc]]
 - [[Rossi2023-847d5a9f]]
 - [[Rossini2026-jn]]
-- [[Rothut2026-or]]
+- [[Rothut2026-wt]]
 - [[Sadler2025-vu]]
+- [[Scalco2026-bd]]
 - [[Spampatti2026-kx]]
 - [[Starbird2025-jj]]
 - [[Suau_Martinez2026-lv]]
 - [[Szabo2026-rd]]
 - [[Tai2026-qk]]
-- [[Thiele2025-ol]]
+- [[Tonneau2025-bv]]
 - [[Tornberg2025-ir]]
 - [[Triedman2025-uy]]
-- [[Unknown2023-9137f448]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2025-sw]]
 - [[Vincent_undated-re]]
-- [[Waight2025-al]]
-- [[Waight2026-ts]]
 - [[Xue2025-bp]]
 - [[Yoo2026-ev]]
 - [[Zhao2025-ny]]
@@ -94,6 +80,6 @@ Study of misleading information, fake news taxonomies, problematic content circu
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "information-disorder")
+WHERE contains(topics, "information-disorder-disinformation")
 SORT discovery_date DESC
 ```

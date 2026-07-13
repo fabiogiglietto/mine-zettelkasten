@@ -5,7 +5,7 @@ authors: ["Weili Wang", "John Downey"]
 year: 2025
 doi: 10.1177/09636625251328518
 bibtex_key: Wang2025-zy
-topics: [generative-ai-media]
+topics: [ai-industry-imaginaries-and-discourse]
 citation_count: 9
 open_access: true
 source_url: https://doi.org/10.1177/09636625251328518

@@ -5,7 +5,7 @@ authors: ["Paolo Gerbaudo"]
 year: 2026
 doi: 10.1177/14614448241304106
 bibtex_key: Gerbaudo2026-fo
-topics: [platform-governance-apis, audience-engagement-social-tv]
+topics: [platforms-audiences-and-online-communities, platform-governance-content-moderation]
 citation_count: 38
 open_access: false
 source_url: https://doi.org/10.1177/14614448241304106

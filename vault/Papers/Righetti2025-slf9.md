@@ -8,7 +8,7 @@ bibtex_key: Righetti2025-slf9
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783507450330309
-topics: [coordinated-inauthentic-behavior, information-disorder]
+topics: [coordinated-inauthentic-behavior, cross-national-coordinated-campaigns]
 citation_count: 5
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2025.2470229

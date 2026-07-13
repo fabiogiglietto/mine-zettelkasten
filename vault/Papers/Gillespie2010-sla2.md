@@ -8,7 +8,7 @@ bibtex_key: Gillespie2010-sla2
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783507893641149
-topics: [platform-governance-apis]
+topics: [platform-governance-content-moderation]
 citation_count: 1894
 open_access: false
 source_url: https://doi.org/10.1177/1461444809342738

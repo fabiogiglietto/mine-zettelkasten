@@ -5,7 +5,7 @@ authors: ["Axel Bruns", "Kateryna Kasianenko", "Vish Padinjaredath Suresh", "Ehs
 year: 2025
 doi: 10.1177/20563051251331748
 bibtex_key: Bruns2025-fz
-topics: [social-media-analytics-methods, llms-computational-methods]
+topics: [computational-methods-llms-social-media]
 citation_count: 4
 open_access: false
 source_url: https://doi.org/10.1177/20563051251331748
