@@ -3435,11 +3435,11 @@
       "doi": "10.17645/mac.12085",
       "title": "TubeStats and TokStats: Research tools for random samples of YouTube and TikTok",
       "pdf_source": "drive",
-      "content_hash": "a2a01b25e2d5f41f5745714555c5f50e19c754769ffbee7a910cf2dc6fc58f78",
-      "podcast_linked": false,
+      "content_hash": "fe338624c5ee923a60c4e07eac6f9c7b423152c3e7804e157f8f36d7e519aac4",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-14T06:37:53.547988+00:00"
+      "last_processed": "2026-07-14T07:05:43.901161+00:00"
     },
     "bibtex:Goldberg2026-eb": {
       "note_path": "Papers/Goldberg2026-eb.md",
@@ -3451,11 +3451,11 @@
       "doi": "10.1177/26339137261459441",
       "title": "AI and the future of digital public squares",
       "pdf_source": "drive",
-      "content_hash": "82861771daecc6389c42477b777295e8773253abf3c6de3de11db5a5398ca76f",
-      "podcast_linked": false,
+      "content_hash": "c3b513402d4cf66e35c54b10c1bb5bf26edf88ddc5454f68091ba6e8bd735d60",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-14T06:38:28.904372+00:00"
+      "last_processed": "2026-07-14T07:05:43.901176+00:00"
     }
   },
   "last_full_cluster": "2026-07-13T07:11:43.925907+00:00",
