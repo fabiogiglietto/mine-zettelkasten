@@ -1,0 +1,33 @@
+{
+  "abstract": "This position paper, developed from a 2024 convening of over 70 civil society experts and technologists in New York City, examines how large language models (LLMs) could reshape digital public squares. It argues that LLMs offer opportunities to shift toward more decentralized, participatory, and deliberative online spaces at scale, while also posing distinct risks such as exacerbating societal division and undermining democratic legitimacy. The paper explores four families of AI-enabled applications—collective dialogue systems, bridging systems, community-driven moderation, and proof-of-humanity systems—and lays out research and investment agendas for each.",
+  "key_claims": [
+    "LLMs afford a potential paradigm shift toward more decentralized, participatory, and deliberative digital public squares, but also pose distinct risks of deepening societal schisms.",
+    "Today's digital public squares fall short of democratic ideals across three dimensions: access and inclusion, privacy and surveillance, and distorted information ecosystems (engagement optimization, echo chambers, manipulative propaganda, extremism).",
+    "Collective dialogue systems can bridge the gap between surveys and focus groups, enabling scalable, inclusive, iterative public feedback that can be integrated into formal decision-making.",
+    "Bridging systems can be designed to reward content that builds trust and common ground across diverse users, offering an alternative to engagement-optimized recommender systems that amplify polarization.",
+    "Community-driven moderation, rather than platform-level moderation, can make moderation more robust, contextual, and legitimate, and AI tools can alleviate moderator burnout.",
+    "AI applications in deliberation should augment rather than substitute human deliberation, and synthetic participation, while promising, is democratically problematic and requires transparency."
+  ],
+  "methods": [
+    "Synthesis of insights from a convening of authors and roughly 50 additional leading thinkers and technologists held April 3, 2024 in New York City.",
+    "Literature review and integration of applied research across democratic theory, internet studies, computational social science, and platform governance.",
+    "Structured analysis of four AI application areas, each examined through opportunities, risks/mitigations, and future research directions.",
+    "Documentation of existing systems and case studies (e.g., Polis, Remesh, X's Community Notes, Meta's diverse engagement, Jigsaw's Perspective API, Policy Synth, New Jersey AI Task Force deliberations)."
+  ],
+  "findings": [
+    "Collective dialogue systems face adoption obstacles including labor-intensive sensemaking, education/onboarding costs, hosting costs, institutional will, and content moderation burdens, many of which LLMs could reduce via translation, prompt generation, elicitation inference (vote prediction), and summarization.",
+    "Meta's 'diverse engagement' comment ranking reduced polarizing and bullying content and increased comment views by 0.69%, while X's Community Notes uses matrix factorization to surface notes rated helpful across the primary axis of division.",
+    "Bridging can be signaled through user diversity (embeddings, behavior, social networks) or content analysis (curiosity, compassion, personal stories, reasoned argument); a combination is likely optimal.",
+    "Bridging risks include elevating generic insubstantial content and gaming of ranking incentives; increasing content heterogeneity does not always reduce polarization, since uncivil opposing content can increase attitude polarization.",
+    "Community moderators face declining platform support, volunteer burnout, quality-control problems, and inadequate tooling; ChatGPT 3.5 performed worse than a coin toss at moderating context-heavy subreddits, cautioning against wholesale AI replacement of human moderators.",
+    "AI tools can support moderation proactively (listening/summarization, LLM simulations, guideline co-creation, author nudges, conversational bots) and reactively (customizable filters, triaging, appeals support, governance procedures)."
+  ],
+  "contributions": [
+    "Offers a consolidated, multidisciplinary agenda for using LLMs to strengthen digital public squares while safeguarding against misuse.",
+    "Frames four concrete AI application families (collective dialogue systems, bridging systems, community moderation, proof-of-humanity) with opportunities, risks, and future research questions.",
+    "Bridges democratic theory (Habermas, Rawls, Landemore's Open Democracy, DuBois) with applied technical and platform-governance work.",
+    "Provides design principles for a meta-platform enabling interoperability and composability among deliberative technologies."
+  ],
+  "framing": "The paper positions itself within democratic theory of the public sphere—drawing on Habermas's public sphere, Rawls's public reason, and Landemore's ideal of Open Democracy—and connects it to contemporary computational social science, platform governance, and AI research. It frames LLMs as the second major technological inflection point (after the internet) reshaping deliberation at scale, arguing for technology designed to move digital public squares closer to democratic ideals of inclusion, deliberation, and legitimacy.",
+  "pdf_source": "drive"
+}

@@ -23,6 +23,7 @@ Emerging research on generative AI's role in producing and countering persuasive
 - [[Giglietto2026-9b6a992d]]
 - [[Gilardi2026-hw]]
 - [[Gillespie2026-aa]]
+- [[Goldberg2026-eb]]
 - [[Hackenburg2025-dj]]
 - [[Hackenburg2026-ud]]
 - [[Hameleers2026-mc]]

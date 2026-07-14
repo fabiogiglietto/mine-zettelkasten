@@ -3424,10 +3424,42 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-13T06:52:19.214270+00:00"
+    },
+    "bibtex:Zheng2026-bi": {
+      "note_path": "Papers/Zheng2026-bi.md",
+      "topics": [
+        "computational-methods-llms-social-media",
+        "platform-governance-content-moderation"
+      ],
+      "assign_fp": "665a7edc6afaeba1abe38881c61e1b4584f4003728fda7f53b4c32b06829338f",
+      "doi": "10.17645/mac.12085",
+      "title": "TubeStats and TokStats: Research tools for random samples of YouTube and TikTok",
+      "pdf_source": "drive",
+      "content_hash": "a2a01b25e2d5f41f5745714555c5f50e19c754769ffbee7a910cf2dc6fc58f78",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-14T06:37:53.547988+00:00"
+    },
+    "bibtex:Goldberg2026-eb": {
+      "note_path": "Papers/Goldberg2026-eb.md",
+      "topics": [
+        "platform-governance-content-moderation",
+        "generative-ai-persuasion-synthetic-media"
+      ],
+      "assign_fp": "62efc4f36034a71364a4ba3fce2659b3b636b677aadf91712bbf8cd4f457225f",
+      "doi": "10.1177/26339137261459441",
+      "title": "AI and the future of digital public squares",
+      "pdf_source": "drive",
+      "content_hash": "82861771daecc6389c42477b777295e8773253abf3c6de3de11db5a5398ca76f",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-14T06:38:28.904372+00:00"
     }
   },
   "last_full_cluster": "2026-07-13T07:11:43.925907+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 2,
   "register_signals_hash": "a1567710d559cc085a6ae3d85371b77fedc6d3363bbcfdc6bde899876c1a2bf3",
   "emergent_fp": "59102cea5519041013bfbc27c2023d59999a09bb57dd070af0ab3af5d090270e",
   "structure_fps": {

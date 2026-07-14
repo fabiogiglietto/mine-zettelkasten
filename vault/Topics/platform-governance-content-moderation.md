@@ -43,6 +43,7 @@ Analysis of platform policy, the Digital Services Act era, data access APIs for 
 - [[Giglietto2026-855a54cb]]
 - [[Gillespie2010-sla2]]
 - [[Gillespie2026-aa]]
+- [[Goldberg2026-eb]]
 - [[Heiss2026-qv]]
 - [[Helmond2026-ll]]
 - [[Hurcombe2025-cs]]
@@ -79,6 +80,7 @@ Analysis of platform policy, the Digital Services Act era, data access APIs for 
 - [[Votta2025-xz]]
 - [[Weinbrand2026-sf]]
 - [[Yang2026-tq]]
+- [[Zheng2026-bi]]
 - [[de-Vreese2026-zx]]
 
 ## All papers (Dataview)
