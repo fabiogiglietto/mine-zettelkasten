@@ -1,0 +1,26 @@
+{
+  "abstract": "This study investigates the difficulties academic researchers encountered when using Meta's CrowdTangle (CT) API to access, interpret, and evaluate social media platform data before the tool was discontinued. Based on interviews with 20 academic users, the authors develop the conceptual framework of 'Seeing like an API' to explain how the API's technical design, governance rules, and platform-mediated knowledge networks constrained what researchers could observe, investigate, and conclude about platform activity. The paper foregrounds the politics of access in platform-mediated research.",
+  "key_claims": [
+    "APIs are not neutral conduits of data but active mediators that shape the boundaries of what researchers can see, ask, and conclude.",
+    "CrowdTangle's technical design, governance rules, and knowledge networks jointly structured the epistemic conditions of platform research.",
+    "The 'Seeing like an API' framework captures how platform-mediated access constrains and shapes research knowledge production.",
+    "The sunsetting of tools like CrowdTangle exposes the precarity and power asymmetries inherent in platform-dependent research."
+  ],
+  "methods": [
+    "Qualitative interview study with 20 academic users of the CrowdTangle API.",
+    "Development of a conceptual framework ('Seeing like an API') derived from analysis of researchers' experiences.",
+    "Analysis of how technical design, governance rules, and platform-mediated knowledge networks affected research practice."
+  ],
+  "findings": [
+    "Researchers faced challenges in accessing, interpreting, and assessing data obtained through the CT API.",
+    "Participants adapted their practices to work within the API's limitations (detail truncated in available abstract).",
+    "The API's design and governance shaped the scope of observable platform activity and the conclusions researchers could draw."
+  ],
+  "contributions": [
+    "Introduces the 'Seeing like an API' framework for understanding platform-mediated research.",
+    "Provides empirical insight into researcher experiences with CrowdTangle before its discontinuation.",
+    "Advances scholarship on the politics of data access and platform dependence in academic research."
+  ],
+  "framing": "The paper situates itself within critical platform studies and science-and-technology studies, drawing on the tradition of 'seeing like' framings (evoking Scott's 'Seeing Like a State') to theorize how infrastructural intermediaries govern knowledge production and access in social media research.",
+  "pdf_source": "abstract_only"
+}
