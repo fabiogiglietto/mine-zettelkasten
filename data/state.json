@@ -3483,11 +3483,11 @@
       "doi": "10.37016/mr-2020-198",
       "title": "Narrative monitoring and argument-checking: Enhancing effectiveness in countering disinformation beyond fact-checking",
       "pdf_source": "drive",
-      "content_hash": "aba02dadbe3a2232b8b8d52bfa563054268244dff157c08a183135da8218ddb1",
-      "podcast_linked": false,
+      "content_hash": "a178d98e6924c10060143f107e32e42f226a8c657f4d6d2cf7c058482126be2c",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-15T06:37:58.462723+00:00"
+      "last_processed": "2026-07-15T07:08:37.630736+00:00"
     }
   },
   "last_full_cluster": "2026-07-13T07:11:43.925907+00:00",
