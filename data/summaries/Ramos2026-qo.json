@@ -1,0 +1,32 @@
+{
+  "abstract": "This commentary argues that traditional fact-checking, while necessary, is insufficient to counter the persistence and adaptability of disinformation narratives during crises. Drawing on a case study of the October 2024 Valencia (DANA) floods in Spain, the authors—members of the fact-checking organization Maldita.es—propose complementing fact-checking with two additional strategies: narrative monitoring (real-time tracking of clustered claims) and argument-checking (analyzing the logical and rhetorical structures that make claims persuasive). They illustrate these tools through the conspiracy theory alleging that authorities were hiding hundreds of bodies in a flooded underground parking structure at the Bonaire shopping center in Aldaia.",
+  "key_claims": [
+    "Fact-checking remains necessary but insufficient to disrupt narrative persistence and adaptation during crises, since corrected beliefs regress over time and claim-level corrections do not neutralize narrative momentum.",
+    "Interventions that target arguments (testing causal premises, warrants, and fallacies) produce more anticipatory and transferable responses across claim variants than purely factual corrections.",
+    "Integrating narrative and argument maps with routine debunks improves situational awareness for authorities and newsrooms and may reduce spillover harms such as erosion of institutional trust, even when specific rumors persist.",
+    "Disinformation narratives function as evolving units that group multiple hoaxes under a shared, emotionally resonant explanatory framework, requiring deactivation of the narrative as a whole rather than isolated claims."
+  ],
+  "methods": [
+    "A single-case study of the Bonaire parking structure 'hidden victims' conspiracy during the October 29, 2024 Valencia DANA floods.",
+    "Narrative monitoring via Maldita.es's AI-assisted platform (DMS) that systematically tracks user queries, social media posts, and forwarded messages in real time, clustering thematically related claims and mapping their evolution over time.",
+    "Argument-checking grounded in argumentation theory, applying critical questions to assess causal links, logical coherence, and rhetorical mechanisms rather than only claim veracity.",
+    "Use of David Grimes's probabilistic model on the viability of conspiracies to assess the logistical feasibility of concealing hundreds of victims.",
+    "Documentation of message volumes and narrative variants (e.g., Figures 1 and 2 tracking daily message counts and dominant claims) linked to the AC/DC project with the University of Navarra."
+  ],
+  "findings": [
+    "An information vacuum around the inaccessible flooded parking structure fostered rumors of trapped bodies before rescue teams entered, with claimed victim figures escalating from 44 to 86, 258, over 800, and even 1,000.",
+    "Official confirmation on November 5, 2024 that no bodies were found did not dissolve the narrative but triggered a second, conspiratorial phase alleging cover-ups, hidden child victims, and refrigerated-truck body removals.",
+    "The conspiracy relied on identifiable persuasive tactics: appeals to (false) authority via anonymous testimonies, fabricated documents, personal-experience storytelling, and emotional appeals (anger, fear).",
+    "Recurring logical fallacies were identified, including post hoc ergo propter hoc, non sequitur, argument from ignorance, false authority, and slippery slope.",
+    "Message volume reached about 13,000 in seven days—four times the average—demonstrating the scale that overwhelmed claim-by-claim debunking.",
+    "Argument-checking counterarguments were reformulated as accessible questions (e.g., about missing family reports or logistical feasibility of coordinated silence) to give the public reusable reasoning tools."
+  ],
+  "contributions": [
+    "Proposes a three-step hybrid workflow: rapid claim-level verification, concurrent narrative surveillance to detect storyline recombinations, and argument-checking templates exposing recurring fallacies.",
+    "Reframes fact-checking as one layer within a broader 'narrative and argument integrity' strategy rather than a standalone solution.",
+    "Provides a concrete practitioner account of applying narrative monitoring and argument-checking during a real crisis, bridging argumentation theory and fact-checking practice.",
+    "Articulates how argument-checking has both a debunking function and an anticipatory dimension that can seed future prebunking interventions functioning as cognitive inoculation."
+  ],
+  "framing": "The commentary positions itself within misinformation and disinformation research, argumentation theory (Walton, Rubinelli & Diviani, Brave et al.), and inoculation/prebunking scholarship, engaging debates about the limits of claim-level fact-checking and the treatment of disinformation as evolving, emotionally resonant narratives in crisis contexts characterized by uncertainty and collective sensemaking.",
+  "pdf_source": "drive"
+}

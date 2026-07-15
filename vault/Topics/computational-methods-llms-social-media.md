@@ -76,6 +76,7 @@ Development and validation of computational and NLP methods for communication re
 - [[Peters2026-mo]]
 - [[Pierri2025-hm]]
 - [[Ptz2024-sl20]]
+- [[Ramos2026-qo]]
 - [[Richter2026-bt]]
 - [[Rieder2025-ju]]
 - [[Rieder2026-pp]]
