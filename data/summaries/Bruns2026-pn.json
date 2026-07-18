@@ -1,0 +1,35 @@
+{
+  "abstract": "This report examines the emerging 'clean room' model of researcher access to social media and platform data, in which analysis occurs within platform-hosted, Web-disconnected environments rather than via traditional API data downloads. Using the Meta Content Library (MCL) as the primary case, along with ProQuest's TDM Studio, the authors assess how well these environments serve independent, public-interest research. They argue that while clean rooms address legitimate privacy and copyright concerns, their design substantially constrains who can conduct research and what kinds of research are possible.",
+  "key_claims": [
+    "Clean room environments impose severe limitations on both the users who can access platform data and the types of analysis that can be performed.",
+    "Platforms have overemphasised privacy and data-control concerns to justify restrictive access models that frustrate critical, independent scrutiny.",
+    "Clean rooms privilege quantitative, code-based analysis and exclude researchers lacking programming skills, disadvantaging communication, media, and political communication scholars.",
+    "The clean room model obstructs qualitative, mixed-methods, longitudinal, and cross-platform comparative research by design.",
+    "These access constraints widen inequities between well-resourced Global North institutions and researchers in smaller institutions and the Majority World, reinforcing a WEIRD/English-language bias.",
+    "Regulators must scrutinise not only whether platforms provide access (e.g. under the EU Digital Services Act Article 40) but whether that access is genuinely useful to researchers."
+  ],
+  "methods": [
+    "Conceptual and critical analysis situated in the historical evolution of platform data access (from permissive APIs through the 'APIcalypse' to clean rooms).",
+    "Case-study description of the Meta Content Library, including its predecessor CrowdTangle and its access frameworks (the Virtual Data Enclave and the Secure Research Environment).",
+    "Comparative reference to ProQuest's TDM Studio as an analogous clean room for news media content.",
+    "Drawing on the authors' hands-on experience navigating clean room accreditation, access, and analysis workflows."
+  ],
+  "findings": [
+    "The MCL replaced CrowdTangle (decommissioned August 2024), reducing data access precisely during the final phase of the 2024 US presidential election.",
+    "Access via the original Virtual Data Enclave required a cumbersome multi-layered login (virtual Windows to virtual Linux to Jupyter Notebook) and was exceptionally slow outside the United States.",
+    "The newer Secure Research Environment streamlines access but mandatorily deletes all accessed data monthly, obstructing longitudinal studies.",
+    "Analysis is restricted to Jupyter Notebooks with Python or R and a limited, provider-approved set of tools, excluding industry-standard software like Tableau, Power BI, NVivo, and MaxQDA.",
+    "Web disconnection prevents use of commercial LLMs for coding, and open-source LLMs are constrained by allocated memory and disk space.",
+    "Clean rooms exist in isolation, preventing data from being combined across platforms; cross-platform work is limited to parallelised analysis of high-level aggregate outcomes.",
+    "The EU has begun proceedings against Meta and TikTok for failing transparency and data-access obligations under the DSA."
+  ],
+  "contributions": [
+    "Provides an early critical assessment of the fit-for-purpose of clean room data access models, whose adequacy the authors note has not yet been comprehensively evaluated.",
+    "Documents the technical architecture and evolution of the Meta Content Library's access frameworks for the research record.",
+    "Articulates a structured taxonomy of clean room limitations spanning skills, tools, methodological breadth, longitudinal capacity, and cross-platform comparison.",
+    "Frames data-access equity as a Global North versus Majority World issue with implications for the geographic focus of platform research.",
+    "Offers guidance to legislators and regulators to move beyond baseline access requirements toward assessing genuine researcher usefulness."
+  ],
+  "framing": "The paper positions itself within the political communication and internet studies conversation on platform data access and platform governance, extending debates on the 'APIcalypse' and the shift from a permissive 'Wild West' to enclosed 'walled garden' regimes. It engages regulatory developments such as the EU Digital Services Act while foregrounding methodological consequences for independent, public-interest platform research.",
+  "pdf_source": "drive"
+}

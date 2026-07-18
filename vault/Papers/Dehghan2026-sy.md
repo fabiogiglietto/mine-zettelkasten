@@ -3,12 +3,12 @@ title: "The entangled dynamics leading to the sedimentation of polarisation on p
 aliases: ["The entangled dynamics leading to the sedimentation of polarisation on political Reddit"]
 authors: ["Ehsan Dehghan", "Dominique Carlon", "Kateryna Kasianenko", "Ashwin Nagappa", "Vish Padinjaredath Suresh"]
 year: 2026
-doi: 10.6084/m9.figshare.31275028
+doi: 10.1080/1369118x.2026.2623523
 bibtex_key: Dehghan2026-sy
 topics: [political-polarization-partisanship, platforms-audiences-and-online-communities]
 citation_count: 0
-open_access: true
-source_url: https://doi.org/10.6084/m9.figshare.31275028
+open_access: false
+source_url: https://doi.org/10.1080/1369118x.2026.2623523
 podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Dehghan2026-sy.mp3
 pdf_available: true
 discovery_date: 2026-02-12T19:43:06.526356Z
@@ -16,40 +16,40 @@ discovery_date: 2026-02-12T19:43:06.526356Z
 
 # The entangled dynamics leading to the sedimentation of polarisation on political Reddit
 
-> Dehghan, E., Carlon, D., Kasianenko, K., Nagappa, A., & Suresh, V. P. (2026). The entangled dynamics leading to the sedimentation of polarisation on political Reddit. *Figshare*, 1–24. https://doi.org/10.6084/m9.figshare.31275028
+> Dehghan, E., Carlon, D., Kasianenko, K., Nagappa, A., & Suresh, V. P. (2026). The entangled dynamics leading to the sedimentation of polarisation on political Reddit. *Information, Communication & Society*, 1–24. https://doi.org/10.1080/1369118x.2026.2623523
 >
-> [View paper](https://doi.org/10.6084/m9.figshare.31275028)
+> [View paper](https://doi.org/10.1080/1369118x.2026.2623523)
 
 ## Summary
 
-This paper investigates cross-ideological communication across 11 major political subreddits over 16 years, combining quantitative overlap measures with corpus-assisted discourse analysis and thematic coding of moderation practices. The authors find vanishingly small overlaps in users, sources, cross-posts, and cross-comments — even between discursively similar communities — and reject the common framing of r/politics as a cross-ideological "town square." They advance the concept of *sedimentation of polarisation*: polarization is not the output of toxic discourse or algorithmic sorting alone, but a discursive-digital precondition arising from the entanglement of platform design, moderation, user agency, discourse, and socio-political context.
+This paper interrogates whether cross-ideological political deliberation actually occurs on Reddit, examining 16 years of activity across 11 major political subreddits. Through multiple overlap measures — shared sources, cross-posting, cross-commenting, inter-subreddit links, and discursive identity — the authors find consistently minimal cross-ideological interaction, even between communities that share political leaning and vocabulary. They directly challenge the recurring framing of r/politics as a cross-ideological "town square" or Habermasian public sphere, showing that genuinely partisan users largely do not participate there. Their central theoretical move is to reject monocausal explanations: polarisation is neither purely a matter of discourse, nor platform design, nor moderation, but emerges from their entanglement. They term this the "sedimentation of polarisation" — polarisation functions as a precondition of communication rather than its outcome, with each subreddit operating as if already in opposition to all others.
 
 ## Key Contributions
 
-- Introduces **sedimentation of polarisation** — drawing on Laclau — as polarization treated as precondition rather than outcome of subreddit communication.
-- Develops the **Normalised Similarity Score (NSS)**, comparing observed cross-community overlaps to expectations based on contribution rates and contributor counts.
-- Provides large-scale empirical evidence that **r/politics is not a bridging public sphere**, complicating prior characterisations of it as left-leaning or deliberative.
-- Extends polarization research beyond the left–right binary by documenting fragmentation among ideologically aligned subreddits (e.g., r/Conservative vs. r/conservatives).
-- Articulates a non-hierarchical **discursive-digital entanglement** framework integrating platform materiality, moderation, agency, and discourse.
-- Contributes to the comparatively thin empirical literature on Reddit as a political communication space.
+- Introduces the concept of **"sedimentation of polarisation"** — polarisation as a discursive-digital precondition rather than an emergent outcome of communication.
+- Develops a **Normalised Similarity Score (NSS)** that compares observed cross-community overlaps against expected values while accounting for differing subreddit sizes and activity levels.
+- Provides large-scale empirical evidence that **r/politics does not function as a cross-ideological public sphere**, undercutting a common assumption in the literature.
+- Extends polarisation research beyond the **left-right binary**, showing fragmentation even among ideologically aligned subreddits.
+- Advances a **non-hierarchical "discursive-digital entanglement" framework** integrating platform design, moderation, user agency, and discourse as co-constituents.
+- Adds to the comparatively thin empirical literature on **Reddit** as a site of political communication.
 
 ## Methods
 
-Mixed-methods analysis of 16 years of submissions and comments from 11 political subreddits (r/politics, r/Conservative, r/conservatives, r/Republican, r/republicans, r/Libertarian, r/Liberal, r/democrats, r/progressive, r/DemocraticSocialism, r/esist). Overlaps were measured across shared domains, shared URLs, linked subreddits, cross-submitters, and cross-commenters using the NSS. Discourse was analysed via keyness (log-likelihood) in AntConc 4.3.1 with r/politics as the reference corpus. Two coders thematically analysed subreddit descriptions, rules widgets, and wikis to map moderation features (including AutoModerator configurations).
+A mixed-methods design combining computational overlap analysis with corpus-assisted discourse analysis. The authors constructed the NSS metric (based on geometric means of contribution rates and contributor counts) to compare overlaps across shared domains, shared URLs, linked subreddits, cross-submitting users, and cross-commenting users. Discursive identities were characterised through keyness analysis (log-likelihood) in AntConc, using r/politics as a reference corpus against each target subreddit. Finally, two independent coders performed thematic analysis of subreddit descriptions, rules widgets, and wikis to identify how moderation features — including AutoModerator — shaped communicative possibilities.
 
 ## Findings
 
-- No subreddit pair reached NSS ≥ 1.0 on shared domains; the highest pairing was r/progressive–r/DemocraticSocialism at 0.879.
-- URL-level overlaps collapsed compared to domain-level overlaps (e.g., the same pair dropped to 0.094) — communities draw from overlapping sources but circulate different stories.
-- Cross-posting never exceeded NSS = 0.206 and cross-commenting never exceeded 0.280; users rarely leave their homebase subreddit.
-- r/politics shows uniformly low overlaps with both left- and right-leaning subreddits, undermining its framing as a cross-ideological hub or a clearly left-biased space.
-- Right-leaning subreddits cohere around shared antagonists ("woke," "the left," "cancel culture"); left-leaning subreddits are more topically heterogeneous (guns, gender, electoral politics, economic critique, anti-Trump resistance).
-- Strict civility moderation (r/Liberal, r/Republican) suppresses derogatory language; loosely moderated spaces (r/republicans) feature loaded terms like "libtards."
-- Intra-ideological splits — e.g., r/conservatives as a "minimally moderated" offshoot of r/Conservative — show that moderation conflicts themselves generate polarization.
+- No subreddit pair reached NSS ≥ 1.0 on shared domains; the highest overlaps came from discursively resonant pairs (r/progressive–r/DemocraticSocialism at 0.879).
+- URL-level overlap was dramatically lower than domain-level overlap (that same pair dropped from 0.879 to 0.094) — communities cite the same sources but share different specific stories.
+- Cross-posting never exceeded NSS = 0.206 and cross-commenting never exceeded 0.280; users rarely leave their "homebase."
+- r/politics shows uniformly low overlap with both left- and right-leaning subreddits, contradicting claims of a clear left bias and its status as a bridging space.
+- Right-leaning subreddits cluster around shared antagonists ("woke," "cancel culture," "the left"); left-leaning subreddits show greater topical diversity across gun control, electoral politics, economic reform, and anti-Trump resistance.
+- Moderation visibly shapes language: strictly moderated spaces (r/Liberal, r/Republican) show little derogatory language, while loosely moderated ones (r/republicans) use loaded slurs.
+- Intra-ideological splits (r/conservatives as a "minimally moderated" alternative to r/Conservative) show polarisation arising from moderation conflicts, not just ideology.
 
 ## Connections
 
-This paper contributes to a Reddit-focused empirical literature that remains relatively sparse next to Twitter/Facebook work, and its critique of the cross-ideological "town square" thesis speaks directly to debates about exposure and echo chambers carried out on other platforms in [[Bakshy2015-rn]] and [[Gonzalez-Bailon2024-rq]]. Its insistence that platform affordances and moderation co-constitute polarization resonates with platform-materialist accounts such as [[Munger2025-cz]] and with work on community/moderation dynamics shaping political talk like [[Rossini2026-jn]]. The "sedimentation" argument — polarization as precondition rather than emergent outcome — offers a useful counterpoint to discourse- or affect-centric framings such as [[Brady2026-ln]].
+This work sits within the broader debate over echo chambers and cross-cutting exposure, offering a corrective to selective-exposure findings such as [[Bakshy2015-rn]] by treating platform materiality and moderation as inseparable from user discourse. Its emphasis on how moderation and platform design constitute community boundaries connects to platform-governance and community-formation research including [[Grusauskaite2026-po]], while its challenge to Habermasian town-square framings resonates with critical accounts of political communities like [[Gerbaudo2026-fo]].
 
 ## Podcast
 

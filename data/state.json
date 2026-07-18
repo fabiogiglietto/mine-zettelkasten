@@ -718,9 +718,9 @@
         "platforms-audiences-and-online-communities"
       ],
       "pdf_source": "drive",
-      "content_hash": "4f8003f130ea1c1e23994d27955a03cc1049afa100a089c5f7b47d62e5988c2e",
+      "content_hash": "a70ae877401964bb57802ca36190ee1e41c0807234785a6ffb5ce024f1b4f182",
       "podcast_linked": true,
-      "last_processed": "2026-06-16T11:06:24.188018+00:00",
+      "last_processed": "2026-07-18T06:30:26.340161+00:00",
       "assign_fp": "40f2f58b7231fc45729a16a8faec8d158065c36b41386b4bff44767bbe6e3532"
     },
     "bibtex:Yoo2026-ev": {
@@ -3488,10 +3488,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-15T07:08:37.630736+00:00"
+    },
+    "bibtex:Bruns2026-pn": {
+      "note_path": "Papers/Bruns2026-pn.md",
+      "topics": [
+        "platform-governance-content-moderation",
+        "computational-methods-llms-social-media"
+      ],
+      "assign_fp": "4cf7540a782735c38195f8aabc681c119e115d22f5e851bbda4e37c23bd6f4a3",
+      "doi": "10.25358/openscience-15825",
+      "title": "The challenges of working with platform data from clean room environments",
+      "pdf_source": "drive",
+      "content_hash": "8e7e17c569e7ba3802f0ebddb5f42c43860449d765d81687859c9d019501c64e",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-18T06:30:26.340121+00:00"
     }
   },
   "last_full_cluster": "2026-07-13T07:11:43.925907+00:00",
-  "papers_since_cluster": 4,
+  "papers_since_cluster": 5,
   "register_signals_hash": "a1567710d559cc085a6ae3d85371b77fedc6d3363bbcfdc6bde899876c1a2bf3",
   "emergent_fp": "59102cea5519041013bfbc27c2023d59999a09bb57dd070af0ab3af5d090270e",
   "structure_fps": {

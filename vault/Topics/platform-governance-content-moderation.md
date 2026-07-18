@@ -22,6 +22,7 @@ Analysis of platform policy, the Digital Services Act era, data access APIs for 
 - [[Boyd2026-op]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]
+- [[Bruns2026-pn]]
 - [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
 - [[Crosset2026-mq]]

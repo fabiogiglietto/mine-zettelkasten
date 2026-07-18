@@ -23,6 +23,7 @@ Development and validation of computational and NLP methods for communication re
 - [[Bouchaud2026-lr]]
 - [[Brown2025-jk]]
 - [[Bruns2025-fz]]
+- [[Bruns2026-pn]]
 - [[Cerulli2026-sl75]]
 - [[Cullen2026-cb]]
 - [[Di-Domenico2026-zq]]
