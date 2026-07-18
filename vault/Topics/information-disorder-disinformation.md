@@ -58,6 +58,7 @@ Study of misinformation, disinformation narratives, and problematic content circ
 - [[Rohrbach2026-rc]]
 - [[Rossi2023-847d5a9f]]
 - [[Rossini2026-jn]]
+- [[Rossini2026-mj]]
 - [[Rothut2026-wt]]
 - [[Sadler2025-vu]]
 - [[Scalco2026-bd]]

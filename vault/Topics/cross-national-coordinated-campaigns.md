@@ -31,6 +31,7 @@ Comparative analysis of coordinated behavior and political advertising across na
 - [[Righetti2025-slf9]]
 - [[Rodarte2026-dk]]
 - [[Rossini2026-jn]]
+- [[Rossini2026-mj]]
 - [[Schulte2026-df]]
 - [[Slack1783507532-sl10]]
 - [[Ventura2025-sw]]
