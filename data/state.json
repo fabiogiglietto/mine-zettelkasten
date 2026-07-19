@@ -3515,11 +3515,11 @@
       "doi": "10.1080/17457289.2026.2701896",
       "title": "Disrupting democracy: how informational pathways and misinformation shape trust in election results",
       "pdf_source": "drive",
-      "content_hash": "1d9be02d9a9aded2624c74bad44b798c6a626dae88d40629339953e36d4c9f5f",
-      "podcast_linked": false,
+      "content_hash": "87d162e03049c55cd20717b6d00532ecfce77a3d1d7d9240dbdfcb89b09c3af6",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-18T09:59:12.076073+00:00"
+      "last_processed": "2026-07-19T07:23:26.025971+00:00"
     }
   },
   "last_full_cluster": "2026-07-13T07:11:43.925907+00:00",
