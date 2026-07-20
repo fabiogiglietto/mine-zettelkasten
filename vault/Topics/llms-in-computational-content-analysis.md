@@ -26,6 +26,7 @@ Methodological research on integrating and validating large language models for 
 - [[DeVerna2025-dl]]
 - [[DiGiuseppe2025-es]]
 - [[DiGiuseppe2026-pu]]
+- [[Eady2025-vm]]
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
 - [[Fan2026-af]]

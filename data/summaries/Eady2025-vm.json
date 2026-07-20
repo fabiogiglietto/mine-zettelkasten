@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper introduces a statistical measurement model and accompanying R software that jointly estimates the ideology of news media organizations, politicians, and ordinary social media users from a single common source of behavioral data: shared web links (URLs). Applied to Twitter data on U.S. members of Congress, other political actors, and politically engaged users, the model maps the ideological structure of the online political news environment. Substantively, the authors find that ideologically extreme politicians share far more news than moderates, and that politicians in less electorally competitive districts share more polarized content, implying that reduced electoral competition (e.g., through gerrymandering) may fuel a more polarized online information ecosystem.",
+  "key_claims": [
+    "Web links (URLs) are a near-universal, platform-agnostic currency of online information sharing that can be used to measure ideology consistently across social media platforms.",
+    "Ideology can be jointly estimated for news media organizations, politicians, and the mass public on a common scale using sharing behavior alone, without labeled data such as party or ideology tags.",
+    "Politicians who share ideologically polarized content share, by far, the most political news and commentary, making the shared information environment unrepresentative of the broader legislative body.",
+    "The less electorally competitive a politician's district or state, the more likely that politician is to share ideologically polarized information.",
+    "News sharing constitutes a behavioral measure of ideology (for both elites and users) rather than a perception-based measure, distinguishing it from prior following/endorsement approaches."
+  ],
+  "methods": [
+    "A Bayesian measurement model treating link-sharing counts (a user-by-media-domain count matrix) as arising from a negative binomial distribution, with sharing probability declining in the squared distance between a user's ideology (theta) and a news outlet's ideology (zeta).",
+    "Model parameters include user-specific and domain-specific intercepts and a news-organization dispersion parameter (omega); hierarchical priors placed separately on Democratic politicians, Republican politicians, and ordinary users, with reflection invariance and additive aliasing handled via Jackman's (2001) identification approach.",
+    "Data collected from Twitter: 1,152 accounts from 699 political actors (116th Congress members, governors, executive/cabinet, prominent party figures), a random sample of 10,000 politically engaged ordinary users (following Barberá 2015a), and 220 national news media web domains.",
+    "Validation via convergent validity against NOMINATE roll-call scores for members of Congress, and against YouGov survey-linked Twitter data (2016 election) for ordinary users using issue-position factor scores, ideological self-placement, and partisan attachment strength.",
+    "OLS regression models predicting the ideological extremity of politicians' news sharing from district/state partisan alignment, controlling for party, chamber, and NOMINATE scores; comparison of sharing-based estimates to Barberá's (2015a) following-based estimates.",
+    "Software implemented as a parallelized R statistical library ('mediascores') released open-source on GitHub."
+  ],
+  "findings": [
+    "Politicians' news sharing nearly perfectly separates them by party; even a model with a single common prior (removing party information) shows only ~3% overlap between Democratic and Republican distributions.",
+    "Media scores correlate very highly with NOMINATE scores overall (rho = 0.96); within-party correlations are moderate to high (Senate Dem 0.76, Rep 0.61; House Dem 0.51, Rep 0.58).",
+    "Members of 'The Squad' appear far to the left in news-sharing ideology (left of 99% of Congress) despite centrist NOMINATE placement, illustrating that sharing captures behavior missed by roll-call measures.",
+    "For ordinary users, sharing-based ideology correlates on average rho = 0.73 with survey measures, comparable to the ~0.64 average correlation among the survey measures themselves.",
+    "The distribution of news media ideology is bimodal, with many liberal outlets and a smaller cluster of conservative ones; well-known outlets order with high face validity (e.g., Breitbart right of Fox News right of WSJ; Reuters/AP centrist).",
+    "Politically engaged users include a large group more liberal than any member of Congress, whereas Republican legislators and their co-partisans share more ideologically similar content; following-based estimates yield a different mapping than sharing-based estimates.",
+    "Politicians share more news than users (0.082 vs. 0.024 news links per tweet); ideologically extreme politicians share substantially more news than moderates.",
+    "Greater district/state partisan alignment (lower competitiveness) is significantly associated (99% level) with more ideologically extreme news sharing, even after controlling for NOMINATE ideology, party, and chamber."
+  ],
+  "contributions": [
+    "A unified, platform-agnostic measurement framework and open-source R software ('mediascores') for jointly estimating ideology of news outlets, politicians, and users from link-sharing data.",
+    "A method requiring no labeled/pre-existing ideology data and capable of estimating ideology for little-known candidates lacking voting records.",
+    "A behavioral (rather than perceptual) measure of elite ideology derived from politicians' own actions, enabling analysis independent of legislative agendas or party discipline.",
+    "Empirical documentation that the online political information ecosystem is skewed toward polarizing content from a small set of ideologically extreme, prolific legislators.",
+    "Linking electoral competition to online sharing behavior, suggesting institutional/judicial interventions (e.g., anti-gerrymandering) could indirectly reduce online polarization."
+  ],
+  "framing": "The paper situates itself within the political-science literature on ideal-point and ideology measurement (NOMINATE, DIME, Wordfish) and, more specifically, within homophily-based social media measurement models (Barberá 2015; Bond and Messing 2015) and studies of media slant and polarization. It advances that conversation by shifting from perception-based following/endorsement data to equivalent sharing behavior by both elites and the mass public, and connects measurement to substantive debates on representation, elite–public polarization, and electoral incentives.",
+  "pdf_source": "drive"
+}

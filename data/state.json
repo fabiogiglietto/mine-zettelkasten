@@ -3517,10 +3517,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-19T07:23:26.025971+00:00"
+    },
+    "bibtex:Eady2025-vm": {
+      "note_path": "Papers/Eady2025-vm.md",
+      "topics": [
+        "political-polarization-and-partisanship",
+        "llms-in-computational-content-analysis"
+      ],
+      "assign_fp": "36ba39e79c3f7d3c810087caa3f525a4429e1dfd826d8c72207b8f970d3e9a0f",
+      "doi": "10.31219/osf.io/ch8gj",
+      "title": "News sharing on social media: Mapping the ideology of news media, politicians, and the mass public",
+      "pdf_source": "drive",
+      "content_hash": "2b8ac4e18d8cf1cc172c9f9c8c8dc5cb582f528edac7f5e6d9c5cb9674c8a7b3",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-20T15:31:47.347121+00:00"
     }
   },
   "last_full_cluster": "2026-07-20T07:05:27.706549+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "9db3747d4169b414be111bda5a7c1ab499e850c778bab029df4f7ede43fd2a7b",
   "emergent_fp": "b9f003b4c581871c3bf645b5223b4a4546f42cd0a7e06b8e96ce702f4e6b43f0",
   "structure_fps": {
