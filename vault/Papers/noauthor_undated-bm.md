@@ -5,7 +5,7 @@ authors: []
 year: 
 doi: 
 bibtex_key: noauthor_undated-bm
-topics: [coordinated-inauthentic-behavior, cross-national-coordinated-campaigns]
+topics: [coordinated-inauthentic-behavior, platform-governance-and-content-policy]
 citation_count: 0
 open_access: false
 source_url: https://scholar.google.com/scholar?q=cib.pdf

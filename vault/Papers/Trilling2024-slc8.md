@@ -8,7 +8,7 @@ bibtex_key: Trilling2024-slc8
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783592991086239
-topics: [political-polarization-partisanship, computational-methods-llms-social-media]
+topics: [political-polarization-and-partisanship, platforms-audiences-and-online-communities]
 citation_count: 3
 open_access: true
 source_url: https://doi.org/10.34669/wi.wjds/4.2.4

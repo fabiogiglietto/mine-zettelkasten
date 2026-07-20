@@ -5,7 +5,7 @@ authors: ["Shir Weinbrand", "Ashwin Nagappa", "Daniel Angus"]
 year: 2026
 doi: 10.1177/17504813261447684
 bibtex_key: Weinbrand2026-sf
-topics: [platform-governance-content-moderation, generative-ai-persuasion-synthetic-media]
+topics: [ai-industry-imaginaries-and-discourse, platform-governance-and-content-policy]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/17504813261447684

@@ -5,7 +5,7 @@ authors: ["Thomas H Costello", "Gordon Pennycook", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/xcwdn
 bibtex_key: Costello2024-bg
-topics: [generative-ai-persuasion-synthetic-media, information-disorder-disinformation]
+topics: [llms-in-computational-content-analysis, ai-assisted-verification-tools]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/xcwdn

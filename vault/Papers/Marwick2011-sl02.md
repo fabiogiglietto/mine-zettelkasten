@@ -8,7 +8,7 @@ bibtex_key: Marwick2011-sl02
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783508088702279
-topics: [platforms-audiences-and-online-communities, political-polarization-partisanship]
+topics: [platforms-audiences-and-online-communities, political-polarization-and-partisanship]
 citation_count: 2853
 open_access: false
 source_url: https://doi.org/10.1177/1461444810365313

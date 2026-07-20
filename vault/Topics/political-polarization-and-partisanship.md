@@ -1,54 +1,51 @@
 ---
 type: topic
-slug: political-polarization-partisanship
+slug: political-polarization-and-partisanship
 emergent: false
 ---
 
-# Political Polarization & Partisanship
+# Political Polarization and Partisanship
 
-Investigation of affective and media-driven polarization, partisan attention and engagement patterns, and the interplay between social and traditional media in amplifying political divides, a recurring theoretical and empirical concern across the researcher's publications.
+Analysis of partisan communities, affective polarization, hyperpartisan networks and cross-partisan media exposure on social platforms, a long-running and continuing thread from Bolsonaro networks to Italian and Latin American cases.
 
 ## Papers
 
-- [[Allen2025-ot]]
+- [[Allcott2025-jb]]
 - [[Anwar2024-34dba628]]
+- [[Appel2026-qr]]
 - [[Arceneaux2026-xk]]
 - [[Arora2025-tx]]
 - [[Bakshy2015-rn]]
-- [[Balluff2026-bv]]
-- [[Balluff2026-if]]
-- [[Bechmann2026-dr]]
 - [[Bennett2025-xs]]
+- [[Bouchafra2026-ts]]
 - [[Bouchaud2026-np]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]
-- [[Budak2024-ef]]
 - [[Dehghan2026-sy]]
 - [[DiGiuseppe2026-pu]]
-- [[Dubey2026-bl]]
 - [[Elfes2026-jb]]
 - [[Esau2025-tf]]
 - [[Gaisbauer2025-by]]
 - [[Gattermann2025-yx]]
 - [[Gauthier2026-iq]]
+- [[Gaw2025-ru]]
 - [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2017-4375de2f]]
 - [[Giglietto2019-882f1900]]
-- [[Giglietto2019-e9be81c1]]
 - [[Giglietto2020-6278a4aa]]
-- [[Giglietto2026-632ef967]]
 - [[Green2025-ap]]
 - [[Grusauskaite2026-po]]
-- [[Hackenburg2026-ud]]
 - [[Hartmann2025-px]]
-- [[Hollingshead2026-vx]]
-- [[Iannelli2015-e0818c3e]]
+- [[Inacio-da-Silva2026-zf]]
 - [[Iris2026-pg]]
+- [[Jaidka2026-sl34]]
 - [[Kalsnes2025-zb]]
+- [[Kansaon2025-id]]
 - [[Karlsson2026-hd]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]
 - [[Kristensen2025-ni]]
+- [[Kulichkina2025-sl09]]
 - [[Lai2024-to]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
@@ -58,25 +55,25 @@ Investigation of affective and media-driven polarization, partisan attention and
 - [[Marino2026-slef]]
 - [[Marwick2011-sl02]]
 - [[Marwick2026-qd]]
+- [[Mosca2026-yh]]
 - [[Mosleh2024-op]]
-- [[Munger2025-cz]]
-- [[Nangle2026-yo]]
 - [[Oswald2025-km]]
+- [[Paci2025-ag]]
 - [[Prochaska2025-ef]]
 - [[Renault2025-uh]]
 - [[Rodarte2026-dk]]
-- [[Rohrbach2026-rc]]
+- [[Rossini2026-jn]]
+- [[Rossini2026-mj]]
 - [[Sarmiento2025-as]]
 - [[Schemer2026-mh]]
+- [[Smith2025-kc]]
 - [[Starbird2025-jj]]
-- [[Suau_Martinez2026-lv]]
 - [[Tai2026-qk]]
 - [[Tornberg2025-ir]]
 - [[Trilling2024-slc8]]
 - [[Unknown2026-sl3d]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2026-yc]]
-- [[Voelkel2026-lc]]
 - [[Votta2025-xz]]
 - [[Yoo2026-ev]]
 - [[Zhu2026-tn]]
@@ -86,6 +83,6 @@ Investigation of affective and media-driven polarization, partisan attention and
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "political-polarization-partisanship")
+WHERE contains(topics, "political-polarization-and-partisanship")
 SORT discovery_date DESC
 ```

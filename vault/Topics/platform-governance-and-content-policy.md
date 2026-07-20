@@ -1,20 +1,19 @@
 ---
 type: topic
-slug: platform-governance-content-moderation
+slug: platform-governance-and-content-policy
 emergent: false
 ---
 
-# Platform Governance & Content Moderation
+# Platform Governance and Content Policy
 
-Analysis of platform policy, the Digital Services Act era, data access APIs for researchers, and algorithmic governance shaping content visibility (e.g., Meta's political content reduction policy, Community Notes, and research API ecosystems post-CrowdTangle).
+Examination of platform moderation and content-distribution policies (Meta's political content reduction, algorithmic governance of the newsfeed, the shift to 'walled garden' platforms) and their effects on visibility and public discourse.
 
 ## Papers
 
 - [[Ahuja2025-ku]]
 - [[Allcott2025-jb]]
-- [[Bak-Coleman2025-pm]]
-- [[Bak-Coleman2026-mk]]
-- [[Bastos2025-ya]]
+- [[Askanius2026-de]]
+- [[Balluff2026-bv]]
 - [[Baym2026-tr]]
 - [[Bechmann2026-dr]]
 - [[Bouchaud2026-lr]]
@@ -25,12 +24,13 @@ Analysis of platform policy, the Digital Services Act era, data access APIs for 
 - [[Bruns2026-pn]]
 - [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
+- [[Copland2025-em]]
 - [[Crosset2026-mq]]
-- [[Cullen2026-cb]]
 - [[Dahlke2026-sl34]]
 - [[De2026-ld]]
 - [[Dodds2026-df]]
 - [[Donovan2025-ws]]
+- [[Ducci2022-10cb5d70]]
 - [[Efstratiou2025-gs]]
 - [[Entrena-Serrano2025-gw]]
 - [[Farkas2026-lr]]
@@ -38,57 +38,57 @@ Analysis of platform policy, the Digital Services Act era, data access APIs for 
 - [[Gagrcin2024-dl]]
 - [[Gauthier2026-iq]]
 - [[Gerbaudo2026-fo]]
-- [[Giglietto2022-b30e8b4e]]
+- [[Giada2026-fc9a3833]]
 - [[Giglietto2025-1765bb4f]]
-- [[Giglietto2025-ed60bc90]]
 - [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
 - [[Gillespie2010-sla2]]
 - [[Gillespie2026-aa]]
 - [[Goldberg2026-eb]]
+- [[Graham2025-gp]]
 - [[Heiss2026-qv]]
 - [[Helmond2026-ll]]
 - [[Hurcombe2025-cs]]
-- [[Inacio-da-Silva2026-zf]]
 - [[Jaidka2026-sl34]]
+- [[Jovanovic-Harrington2026-ze]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]
+- [[Kuznetsova2025-nu]]
 - [[Lewandowsky2026-ob]]
-- [[Lukito2026-nb]]
+- [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
-- [[Matias2025-px]]
 - [[McNally2025-dn]]
 - [[Moran2025-qn]]
 - [[Mota2026-sl59]]
 - [[Munger2025-cz]]
-- [[Murtfeldt2025-wu]]
-- [[Ohme2026-nv]]
+- [[Nangle2026-yo]]
 - [[Peters2026-mo]]
-- [[Philipp2026-tl]]
 - [[Pierri2025-hm]]
 - [[Renault2025-uh]]
 - [[Richter2026-bt]]
-- [[Rieder2025-ju]]
 - [[Rieder2026-pp]]
 - [[Rogers2025-sl8f]]
+- [[Rohrbach2026-rc]]
 - [[Schiffrin_undated-gi]]
-- [[Schulte2026-df]]
 - [[Simeone2025-vo]]
 - [[Swartz2026-zb]]
 - [[Tonneau2025-bv]]
-- [[Unknown2025-qj]]
+- [[Ventura2025-sw]]
+- [[Ventura2026-yc]]
 - [[Vincent_undated-re]]
+- [[Volpe2026-um]]
 - [[Votta2025-xz]]
+- [[Wang2026-ub]]
 - [[Weinbrand2026-sf]]
-- [[Yang2026-tq]]
-- [[Zheng2026-bi]]
 - [[de-Vreese2026-zx]]
+- [[noauthor_undated-bm]]
+- [[van-der-Linden2026-jt]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "platform-governance-content-moderation")
+WHERE contains(topics, "platform-governance-and-content-policy")
 SORT discovery_date DESC
 ```

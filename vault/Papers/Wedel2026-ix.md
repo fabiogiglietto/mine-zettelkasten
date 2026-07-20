@@ -5,7 +5,7 @@ authors: ["Lion Wedel"]
 year: 2026
 doi: 10.1080/21670811.2026.2685660
 bibtex_key: Wedel2026-ix
-topics: [platforms-audiences-and-online-communities]
+topics: [platforms-audiences-and-online-communities, llms-in-computational-content-analysis]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/21670811.2026.2685660

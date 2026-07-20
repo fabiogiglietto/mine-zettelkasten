@@ -5,7 +5,7 @@ authors: ["Emilija Gagrčin", "Teresa K. Naab", "Maria F. Grub"]
 year: 2026
 doi: 10.1177/14614448241291137
 bibtex_key: Gagrcin2024-dl
-topics: [platform-governance-content-moderation, platforms-audiences-and-online-communities]
+topics: [platform-governance-and-content-policy, platforms-audiences-and-online-communities]
 citation_count: 15
 open_access: false
 source_url: https://doi.org/10.1177/14614448241291137

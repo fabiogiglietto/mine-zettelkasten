@@ -5,7 +5,7 @@ authors: ["Raffael Heiss", "Isabelle Freiling"]
 year: 2026
 doi: 10.31235/osf.io/ny2tx_v2
 bibtex_key: Heiss2026-qv
-topics: [platform-governance-content-moderation, computational-methods-llms-social-media]
+topics: [platform-data-access-and-research-infrastructure, platform-governance-and-content-policy]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/ny2tx_v2

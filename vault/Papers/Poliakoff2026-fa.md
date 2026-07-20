@@ -5,7 +5,7 @@ authors: ["Serge Poliakoff", "Florian Toepfl"]
 year: 2026
 doi: 10.1080/09668136.2025.2588334
 bibtex_key: Poliakoff2026-fa
-topics: [digital-authoritarianism-state-propaganda, coordinated-inauthentic-behavior]
+topics: [coordinated-inauthentic-behavior, disinformation-narrative-monitoring]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1080/09668136.2025.2588334

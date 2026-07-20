@@ -2,81 +2,87 @@
   {
     "slug": "coordinated-inauthentic-behavior",
     "name": "Coordinated Inauthentic Behavior",
-    "description": "Detection and analysis of coordinated link sharing, inauthentic networks, and manipulated amplification on social media platforms, including the CooRnet/CLSB methodology the researcher co-developed and its downstream successors. A core, long-running methodological and empirical program spanning elections, health topics, and information operations worldwide.",
+    "description": "Detection and analysis of coordinated link-sharing and inauthentic network activity across social media platforms, the researcher's signature methodological contribution (CooRnet, CLSB) spanning elections, health topics and information operations.",
     "source_signals": [
-      "_data/projects.yml",
       "_data/publications.yml",
+      "_data/projects.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "information-disorder-disinformation",
-    "name": "Information Disorder & Disinformation",
-    "description": "Study of misinformation, disinformation narratives, and problematic content circulation across news and social media, including EU-funded monitoring of disinformation trajectories (PROMPT) and countering disinformation with AI-based verification tools (vera.ai).",
+    "slug": "disinformation-narrative-monitoring",
+    "name": "Disinformation Narrative Monitoring",
+    "description": "Tracking and modeling the propagation of disinformation narratives across Europe (war in Ukraine, LGBTQI+ rights, elections) using language models and monitoring dashboards, central to the PROMPT project and current news on narrative-level fact-checking.",
     "source_signals": [
       "_data/projects.yml",
-      "_data/publications.yml",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "generative-ai-persuasion-synthetic-media",
-    "name": "Generative AI, Persuasion & Synthetic Media",
-    "description": "Emerging research on generative AI's role in producing and countering persuasive content, deceptive information operations, and synthetic visual/textual media, including AI's capacity to sway beliefs, reduce conspiracy thinking, and power coordinated gambling promotion or 'zombie internet' campaigns.",
-    "source_signals": [
-      "_data/news.yml",
-      "_data/publications.yml",
-      "_data/teaching.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "platform-governance-content-moderation",
-    "name": "Platform Governance & Content Moderation",
-    "description": "Analysis of platform policy, the Digital Services Act era, data access APIs for researchers, and algorithmic governance shaping content visibility (e.g., Meta's political content reduction policy, Community Notes, and research API ecosystems post-CrowdTangle).",
-    "source_signals": [
-      "_data/news.yml",
-      "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "political-polarization-partisanship",
-    "name": "Political Polarization & Partisanship",
-    "description": "Investigation of affective and media-driven polarization, partisan attention and engagement patterns, and the interplay between social and traditional media in amplifying political divides, a recurring theoretical and empirical concern across the researcher's publications.",
-    "source_signals": [
-      "_data/publications.yml",
       "_data/news.yml"
     ],
     "is_emergent": false
   },
   {
-    "slug": "italian-elections-mine",
-    "name": "Italian Elections & News Ecosystem (MINE)",
-    "description": "The MINE research program's core empirical focus: mapping Italian news media coverage, Facebook/Instagram interaction patterns, and political communication dynamics across Italian general and European elections since 2017, the institutional umbrella for the researcher's ongoing work.",
+    "slug": "ai-assisted-verification-tools",
+    "name": "AI-Assisted Verification Tools",
+    "description": "Development of AI-based tools and workflows to help journalists and fact-checkers verify multimedia content and detect coordinated networks, rooted in the vera.ai WP4 leadership and continued through self-updating detection systems.",
     "source_signals": [
       "_data/projects.yml",
+      "_data/publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "generative-ai-and-synthetic-media",
+    "name": "Generative AI and Synthetic Media",
+    "description": "Study of how generative AI is reshaping visual persuasion, deceptive campaigns, and information operations (e.g. synthetic gambling promotion, deepfakes), reflecting a growing current research and teaching focus (IA Generativa e Media course).",
+    "source_signals": [
       "_data/publications.yml",
+      "_data/teaching.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "platform-data-access-and-research-infrastructure",
+    "name": "Platform Data Access and Research Infrastructure",
+    "description": "Critical and methodological work on how researchers access and analyze platform data (Meta URL Shares Dataset, CrowdTangle shutdown, clean rooms, APIs under the DSA, open-source sampling tools), a recurring concern given the loss of CrowdTangle access.",
+    "source_signals": [
+      "_data/publications.yml",
+      "_data/news.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "computational-methods-llms-social-media",
-    "name": "Computational Methods & LLMs for Social Media Research",
-    "description": "Development and validation of computational and NLP methods for communication research, including LLM-in-the-loop pipelines for political discourse classification, embedding model comparisons, and workflows for detecting coordinated accounts.",
+    "slug": "political-polarization-and-partisanship",
+    "name": "Political Polarization and Partisanship",
+    "description": "Analysis of partisan communities, affective polarization, hyperpartisan networks and cross-partisan media exposure on social platforms, a long-running and continuing thread from Bolsonaro networks to Italian and Latin American cases.",
     "source_signals": [
-      "_data/publications.yml",
-      "_data/teaching.yml"
+      "_data/publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "italian-election-media-studies",
+    "name": "Italian Election Media Studies",
+    "description": "The MINE programme's core empirical focus: mapping Italian news media and social media dynamics around national elections (2018, 2022) and related campaigns, providing the longitudinal backbone of the researcher's work.",
+    "source_signals": [
+      "_data/projects.yml",
+      "_data/publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "llms-in-computational-content-analysis",
+    "name": "LLMs in Computational Content Analysis",
+    "description": "Methodological research on integrating and validating large language models for text classification, annotation, and clustering in political and media discourse studies, an active and rapidly growing agenda item.",
+    "source_signals": [
+      "_data/publications.yml"
     ],
     "is_emergent": false
   },
   {
     "slug": "health-misinformation-networks",
     "name": "Health Misinformation Networks",
-    "description": "Studies mapping coordinated networks that spread problematic health information, including COVID-19 fact-checking acceleration and cross-national analyses of health misinformation circulation in India and Nigeria.",
+    "description": "Mapping coordinated networks and alternative influence structures that circulate problematic health information (COVID-19, vaccine and gatekeeping issues) across Italy, India and Nigeria.",
     "source_signals": [
       "_data/projects.yml",
       "_data/publications.yml"
@@ -84,21 +90,11 @@
     "is_emergent": false
   },
   {
-    "slug": "cross-national-coordinated-campaigns",
-    "name": "Cross-National Coordinated Campaigns & Elections",
-    "description": "Comparative analysis of coordinated behavior and political advertising across national election contexts (Germany 2021, Brazil, Latin America), examining how information campaigns and inauthentic networks operate beyond Italy.",
+    "slug": "platform-governance-and-content-policy",
+    "name": "Platform Governance and Content Policy",
+    "description": "Examination of platform moderation and content-distribution policies (Meta's political content reduction, algorithmic governance of the newsfeed, the shift to 'walled garden' platforms) and their effects on visibility and public discourse.",
     "source_signals": [
-      "_data/projects.yml",
       "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "digital-authoritarianism-state-propaganda",
-    "name": "Digital Authoritarianism & State Propaganda",
-    "description": "Tracking of state-sponsored manipulation, troll networks, and generative-AI-enabled propaganda in democratically weakened or authoritarian contexts, an emerging thread connecting the researcher's coordinated-behavior expertise to geopolitical information warfare.",
-    "source_signals": [
-      "_data/news.yml"
     ],
     "is_emergent": false
   },
@@ -113,6 +109,13 @@
     "slug": "ai-industry-imaginaries-and-discourse",
     "name": "Critical Analysis of AI Industry Imaginaries and Discourse",
     "description": "Studies examining how AI industry actors, media, and communities construct and circulate narratives, imaginaries, and framings (e.g., longtermism, techno-hagiography, 'quiet futuring', political-economy 'decoys') that shape public understanding and obscure or legitimize the underlying power structures of AI development.",
+    "source_signals": [],
+    "is_emergent": true
+  },
+  {
+    "slug": "meta-science-of-misinformation-research",
+    "name": "Reflections on the State of Misinformation and Online Harm Research",
+    "description": "Papers that step back from primary empirical study to critically assess the misinformation/online-harms research field itself — diagnosing biases (e.g., WEIRD-centrism, overreliance on cognitive proxies), mapping gaps in evidence (causal, longitudinal, cross-national), and proposing directions or borrowed lessons (e.g., from climate psychology) to make the field more rigorous and generalizable.",
     "source_signals": [],
     "is_emergent": true
   }

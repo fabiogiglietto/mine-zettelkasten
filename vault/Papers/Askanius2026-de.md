@@ -5,7 +5,7 @@ authors: ["Tina Askanius", "Jullietta Stoencheva", "Hernan Mondani"]
 year: 2026
 doi: 10.2478/nor-2026-0008
 bibtex_key: Askanius2026-de
-topics: [coordinated-inauthentic-behavior, digital-authoritarianism-state-propaganda]
+topics: [coordinated-inauthentic-behavior, platform-governance-and-content-policy]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.2478/nor-2026-0008

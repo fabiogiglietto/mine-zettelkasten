@@ -5,7 +5,7 @@ authors: ["Jaehong Kim", "Hyeonseung Kim", "Jiseon Kim", "Alice Oh", "Thorsten H
 year: 2026
 doi: 
 bibtex_key: Kim2026-br
-topics: [digital-authoritarianism-state-propaganda, computational-methods-llms-social-media]
+topics: [coordinated-inauthentic-behavior, llms-in-computational-content-analysis]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2606.22785v1

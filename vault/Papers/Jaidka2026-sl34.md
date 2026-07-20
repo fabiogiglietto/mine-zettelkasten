@@ -8,7 +8,7 @@ bibtex_key: Jaidka2026-sl34
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782741616256159
-topics: [information-disorder-disinformation, platform-governance-content-moderation]
+topics: [platform-governance-and-content-policy, political-polarization-and-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.21203/rs.3.rs-9347980/v1
