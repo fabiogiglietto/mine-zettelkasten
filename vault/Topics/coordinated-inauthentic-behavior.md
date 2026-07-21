@@ -58,6 +58,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
+- [[Rogers2026-cy]]
 - [[Rothut2026-or]]
 - [[Schroeder2026-im]]
 - [[Simeone2025-vo]]

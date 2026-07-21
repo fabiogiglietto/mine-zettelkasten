@@ -3528,15 +3528,31 @@
       "doi": "10.31219/osf.io/ch8gj",
       "title": "News sharing on social media: Mapping the ideology of news media, politicians, and the mass public",
       "pdf_source": "drive",
-      "content_hash": "2b8ac4e18d8cf1cc172c9f9c8c8dc5cb582f528edac7f5e6d9c5cb9674c8a7b3",
-      "podcast_linked": false,
+      "content_hash": "2d9bbb93808dcbb0931981a4e4f36f85c6b1fa1433dcbdf81cac86eede750427",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-20T15:31:47.347121+00:00"
+      "last_processed": "2026-07-21T08:35:19.404920+00:00"
+    },
+    "bibtex:Rogers2026-cy": {
+      "note_path": "Papers/Rogers2026-cy.md",
+      "topics": [
+        "ai-assisted-verification-tools",
+        "coordinated-inauthentic-behavior"
+      ],
+      "assign_fp": "5dbb939cff72c36af6d891ad0631cce7fbb916a514a0ceaba71678f8a1e895ea",
+      "doi": "10.65476/1fw44702",
+      "title": "Beyond verification| post-truth spaces: Studying authenticity and influence on the internet",
+      "pdf_source": "drive",
+      "content_hash": "da6bb82ce162a83e7b1ca98949be394daf5a0a625338fd9ff2440644ca9d89e6",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-21T08:35:19.404897+00:00"
     }
   },
   "last_full_cluster": "2026-07-20T07:05:27.706549+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "9db3747d4169b414be111bda5a7c1ab499e850c778bab029df4f7ede43fd2a7b",
   "emergent_fp": "b9f003b4c581871c3bf645b5223b4a4546f42cd0a7e06b8e96ce702f4e6b43f0",
   "structure_fps": {

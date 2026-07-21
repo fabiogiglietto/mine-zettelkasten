@@ -33,6 +33,7 @@ Development of AI-based tools and workflows to help journalists and fact-checker
 - [[Rieder2025-ju]]
 - [[Righetti2025-sl2a]]
 - [[Rodriguez_Farres2025-sg]]
+- [[Rogers2026-cy]]
 - [[van-der-Linden2026-jt]]
 
 ## All papers (Dataview)
