@@ -26,6 +26,7 @@ Analysis of partisan communities, affective polarization, hyperpartisan networks
 - [[Eady2025-vm]]
 - [[Elfes2026-jb]]
 - [[Esau2025-tf]]
+- [[Falkenberg2026-ka]]
 - [[Gaisbauer2025-by]]
 - [[Gattermann2025-yx]]
 - [[Gauthier2026-iq]]

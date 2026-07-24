@@ -11,9 +11,11 @@ Papers that step back from primary empirical study to critically assess the misi
 ## Papers
 
 - [[Budak2024-ef]]
+- [[Falkenberg2026-ka]]
 - [[Humprecht2025-ml]]
 - [[Rothut2026-wt]]
 - [[Spampatti2026-kx]]
+- [[Wack2026-bt]]
 
 ## All papers (Dataview)
 

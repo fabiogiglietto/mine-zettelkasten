@@ -3549,10 +3549,42 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-21T08:35:19.404897+00:00"
+    },
+    "bibtex:Falkenberg2026-ka": {
+      "note_path": "Papers/Falkenberg2026-ka.md",
+      "topics": [
+        "political-polarization-and-partisanship",
+        "meta-science-of-misinformation-research"
+      ],
+      "assign_fp": "f50e716eca382adcf6dcfd081ae2a41cb111c992af170ba9609c86e83a09b5a7",
+      "doi": "",
+      "title": "Toward an integrated and globally equitable understanding of political polarization",
+      "pdf_source": "abstract_only",
+      "content_hash": "9881bfaa3b3fb9edca7e29091a07500cfef9c1481d58002c0773c115ab00d46e",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-24T11:18:56.423333+00:00"
+    },
+    "bibtex:Wack2026-bt": {
+      "note_path": "Papers/Wack2026-bt.md",
+      "topics": [
+        "generative-ai-and-synthetic-media",
+        "meta-science-of-misinformation-research"
+      ],
+      "assign_fp": "17b664a56d2efef8308396bcd71bab88f371af4d2ed1ee7a03829032f606f540",
+      "doi": "10.1177/20563051261462092",
+      "title": "Making sense of AI-generated disinformation: How audience interpretations influence the impact of deepfakes in Kenya",
+      "pdf_source": "drive",
+      "content_hash": "1ddfe337a65926dc0b6e08867a5077a94ce68655efafe09a138ebbcc17d6da34",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-24T11:19:24.369439+00:00"
     }
   },
   "last_full_cluster": "2026-07-20T07:05:27.706549+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 4,
   "register_signals_hash": "9db3747d4169b414be111bda5a7c1ab499e850c778bab029df4f7ede43fd2a7b",
   "emergent_fp": "b9f003b4c581871c3bf645b5223b4a4546f42cd0a7e06b8e96ce702f4e6b43f0",
   "structure_fps": {

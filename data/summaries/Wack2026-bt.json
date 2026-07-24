@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper investigates whether social commentary shapes the persuasive impact of political deepfakes, using a large survey experiment (N=7,008) conducted in Kenya. Participants viewed AI-generated audio or video of a presidential candidate (Ruto or Odinga) confessing to a fabricated corruption scheme, accompanied by comments expressing varying levels of skepticism. The authors find that comments meaningfully alter audience interpretations and candidate support: credulous comments deepened the deepfake's negative effect while skeptical comments partially restored support, with partisanship moderating these effects. They frame their findings through 'collective sensemaking,' arguing that a deepfake's impact is socially negotiated rather than fixed at production.",
+  "key_claims": [
+    "The impact of political deepfakes is not fixed but is shaped by the social context and audience commentary in which they are encountered.",
+    "Comments that fail to flag the synthetic origin of a video (credulous) amplify the deepfake's negative effect on candidate support, while skeptical (incredulous) comments partially restore support.",
+    "Partisanship moderates deepfake effects: respondents more readily dismiss deepfakes targeting candidates they support, while counter-narratives can blunt or reverse damage among opponents of the depicted candidate.",
+    "Deepfakes function as flexibly deceptive cues within participatory disinformation ecosystems rather than merely as individual credibility problems.",
+    "Low-resource contexts (LMICs like Kenya) with limited moderation and inconsistent AI labeling are particularly vulnerable, and represent the experience of most global social media users.",
+    "Simply viewing an ambiguous deepfake tends to reduce candidate support even when a comment identifies it as fake, suggesting uncertainty itself carries negative consequences."
+  ],
+  "methods": [
+    "Preregistered (OSF #182038) between-subjects online survey experiment with 7,008 validated Kenyan participants recruited via Instagram, WhatsApp, and Facebook, stratified by region, age, and gender.",
+    "Participants assigned to video (N=2,820), audio (N=2,733), or control (N=1,455) conditions, and randomly shown a fabricated corruption 'confession' by either William Ruto or Raila Odinga to test aligned vs. misaligned partisanship effects.",
+    "Deepfake stimuli created with accessible open-source tools: DeepFaceLab and Wav2Lip for video (overlaying a manipulated face on a stock newscaster) and ElevenLabs for AI-generated candidate voices, refined with feedback from local Kenyans for realism.",
+    "A novel in-survey comment instrument embedded three comment-consensus conditions—credulous ('not surprising'), incredulous ('clearly fake'), and mixed—integrated naturally into the survey flow to improve ecological validity, with no AI labels or watermarks in the stimuli.",
+    "Outcome measures included a 0–100 warmth/support thermometer, perceived media legitimacy/accuracy, institutional trust, and corruption perceptions; analysis used robust regression with standard errors clustered at the respondent level, reporting standardized coefficients.",
+    "Ethical safeguards included IRB exemption review, extensive debriefing, comprehension checks (95% correct identification of inauthenticity), and consultation with local citizens."
+  ],
+  "findings": [
+    "Support for the depicted candidate dropped most sharply under the credulous 'not surprising' comment (approximately five points below baseline; β=−4.90, p<.001).",
+    "Simply viewing the video without comments modestly reduced support (β=−2.25, p=.04), while the incredulous 'clearly fake' comment had no reliable effect relative to baseline (β=−0.64, p=.56).",
+    "The mixed-comment condition produced an intermediate drop (β=−2.85, p<.05) that was statistically indistinguishable from the no-comment video control, implying uncertainty drove reduced support.",
+    "Among co-partisans (aligned with the depicted candidate), viewing the video reduced support regardless of comment type, with little additional movement from comment cues.",
+    "Among cross-partisans (misaligned), the incredulous comment increased support—about 2.78 points above baseline and nearly five points above the no-comment condition (β=4.77, p=.006)—suggesting counter-narratives can blunt or reverse deepfake harm.",
+    "Perceived accuracy moderated effects: seeing the video as real lowered support, while seeing it as fake raised support above baseline (though not reaching p<.05)."
+  ],
+  "contributions": [
+    "Provides experimental evidence that audience commentary and social context, not just individual cognition, shape the persuasive impact of deepfakes.",
+    "Introduces a novel in-survey comment instrument designed to improve the ecological validity of deepfake experiments by simulating platform-native social commentary.",
+    "Centers an understudied, low-resource, non-Western (Kenyan) electoral context, addressing gaps in cross-cultural deepfake and misinformation research.",
+    "Bridges individual-focused psychology of deepfake interpretation with meso-level collective sensemaking and participatory disinformation frameworks.",
+    "Offers practical implications for countermeasures and moderation in resource-constrained environments where AI labeling is inconsistent."
+  ],
+  "framing": "The paper positions itself at the intersection of participatory disinformation theory and collective sensemaking, drawing on organizational psychology and crisis informatics, to argue that deepfake interpretation is a social, discursive process rather than a purely individual cognitive act. It engages the deepfake credibility literature, motivated reasoning research, and scholarship on misinformation in low- and middle-income countries and African media ecosystems.",
+  "pdf_source": "drive"
+}

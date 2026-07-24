@@ -28,6 +28,7 @@ Study of how generative AI is reshaping visual persuasion, deceptive campaigns, 
 - [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
 - [[Unknown2025-qj]]
+- [[Wack2026-bt]]
 
 ## All papers (Dataview)
 

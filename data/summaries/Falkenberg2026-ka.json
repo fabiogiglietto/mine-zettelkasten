@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper argues for a more integrated and globally equitable approach to studying political polarization. It notes that much existing polarization research is fragmented across disciplines and heavily focused on a small set of countries, particularly the United States, which limits the generalizability of findings. The authors call for frameworks and collaborations that account for diverse political, cultural, and media contexts worldwide.",
+  "key_claims": [
+    "Political polarization research is disciplinarily fragmented and would benefit from greater integration across fields.",
+    "The existing evidence base is geographically skewed toward a limited set of (often Western, especially US) contexts, producing a globally inequitable understanding of polarization.",
+    "A more integrated and globally representative research agenda is needed to accurately understand polarization dynamics across different societies."
+  ],
+  "methods": [
+    "Perspective/commentary style synthesis drawing on the collective expertise of a large multidisciplinary and multinational group of authors (from network science, political science, computational social science, communication, and psychology).",
+    "Review and critique of the current landscape of polarization scholarship rather than presentation of new empirical data (as inferable from the abstract)."
+  ],
+  "findings": [
+    "Polarization scholarship remains siloed across disciplines, hindering cumulative understanding.",
+    "Empirical attention is disproportionately concentrated on a few countries, leaving many global contexts understudied."
+  ],
+  "contributions": [
+    "Proposes an agenda for integrating polarization research across disciplinary boundaries.",
+    "Advocates for global equity in polarization research by broadening geographic and cultural scope beyond dominant Western/US cases.",
+    "Frames a collaborative, cross-national approach to studying political polarization."
+  ],
+  "framing": "The paper situates itself at the intersection of computational social science, political science, and communication research, positioning polarization as a phenomenon requiring interdisciplinary integration and globally inclusive study rather than the current fragmented, geographically narrow approach.",
+  "pdf_source": "abstract_only"
+}
