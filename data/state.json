@@ -3576,11 +3576,11 @@
       "doi": "10.1177/20563051261462092",
       "title": "Making sense of AI-generated disinformation: How audience interpretations influence the impact of deepfakes in Kenya",
       "pdf_source": "drive",
-      "content_hash": "1ddfe337a65926dc0b6e08867a5077a94ce68655efafe09a138ebbcc17d6da34",
-      "podcast_linked": false,
+      "content_hash": "b6f8c0a605e34573999955ddb1116b91a8f137e1b46ea2a0ffa724a471542229",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-24T11:19:24.369439+00:00"
+      "last_processed": "2026-07-25T07:10:48.344716+00:00"
     }
   },
   "last_full_cluster": "2026-07-20T07:05:27.706549+00:00",
