@@ -32,6 +32,7 @@ Study of how generative AI (LLMs, synthetic images/video, deepfakes, conversatio
 - [[Jayaram2026-wd]]
 - [[Kotz2026-lk]]
 - [[Lin2025-xp]]
+- [[Mattis2026-gu]]
 - [[Nguyen2026-vm]]
 - [[Orlando2025-ul]]
 - [[Ptz2024-sl20]]

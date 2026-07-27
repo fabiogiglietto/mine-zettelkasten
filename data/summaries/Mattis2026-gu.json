@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper investigates how disclosing that generative AI (rather than a human) performed specific journalistic tasks affects audiences' perceptions of news trustworthiness. Using a preregistered conjoint experiment with 683 Dutch respondents, the authors test task-specific AI disclosures across seven journalistic tasks and probe context- and person-specific moderators. They find consistently negative but varied effects across tasks, identify individual-level moderators, and describe five distinct reader preference profiles.",
+  "key_claims": [
+    "All task-specific AI disclosures reduce the perceived trustworthiness of news, but the magnitude of the trust penalty varies by journalistic task.",
+    "Prior research relied on generic 'AI-generated' vs 'human-generated' labels that fail to reflect how journalists actually integrate AI into workflows; more nuanced, task-specific disclosures are needed to inform the transparency debate.",
+    "Trust penalties are not universal but depend on individual-level characteristics such as political position and knowledge of journalistic AI, rather than on news topic controversiality.",
+    "Contrary to expectations, tasks later in the news value chain do not automatically incur larger penalties; instead the perceived importance of a task for safeguarding quality/accuracy (e.g., fact-checking) matters more.",
+    "Distinct audience preference profiles exist, meaning news organizations could potentially tailor AI disclosures to specific reader subgroups."
+  ],
+  "methods": [
+    "Preregistered conjoint experiment conducted via Qualtrics with Dutch respondents in January 2025 (N = 683; final analytic sample after excluding 107 non-varying respondents).",
+    "Sample quota-matched to Dutch population on age, gender, and education; average age 50.",
+    "Stimuli combined pretested mock-up news articles (generated with ChatGPT 3.5) with an 'AI Monitor' table indicating whether each of seven tasks (idea generation, image generation, background research, article writing, proofreading, fact-checking, and human-in-the-loop) was done by a human or an AI; a fractional factorial design produced eight stimulus compositions and respondents rated 24 profiles.",
+    "Three news topics selected via pretest (N=48) for varying controversiality: vaccination (most controversial), housing policy, and logistics (control).",
+    "Dependent variable: perceived trustworthiness on a 7-point Likert scale. Moderators: political position (10-point self-placement) and AI journalism knowledge (7 true/false items). Additional controls included general AI attitudes (20-item GAAIS scale), GenAI experience, general news trust, and topic interests.",
+    "Analysis using the cjoint R package: average marginal component effects (AMCEs), average marginal component interaction effects (AMCIEs) for moderation; k-means cluster analysis (k=5) on respondents' conjoint coefficients to identify preference profiles; MANOVA/ANOVA with Tukey's HSD to predict cluster membership from individual characteristics."
+  ],
+  "findings": [
+    "Every AI disclosure attribute significantly reduced perceived trustworthiness, with effects ranging from 0.23 to 0.62 points on a 7-point scale.",
+    "A hierarchy emerged: earlier value-chain tasks (image and idea generation) had smaller negative effects, while news-production tasks and especially fact-checking incurred the largest penalties; lacking a human in the loop had only a modest negative effect.",
+    "No significant differences in disclosure effects across the three news topics, suggesting topic controversiality is not an important contextual moderator.",
+    "Politically left respondents showed stronger negative reactions to AI-written articles; right-leaning respondents cared relatively less about human fact-checking (for logistics and vaccination news).",
+    "High AI-journalism-knowledge respondents (~40%, answering ≥6/7 correctly) showed even more pronounced penalties for AI fact-checking across all topics; moderation effects muted but never reversed the overall negative direction.",
+    "Five preference clusters identified (for the vaccination topic): Cautious Optimists (27.7%, only group generally trusting AI; young, positive about AI, low knowledge, right-leaning), Indifferents (28.7%, no strong preference; centrist, low knowledge), Fact-Checkers (15.2%, value human fact-checking; most knowledgeable, left-leaning, highly educated), Human Creatives (14.2%, value human creative tasks; oldest, least educated, most negative about AI), and Human in the Loops (14.2%, value human oversight; highly educated, knowledgeable, comparatively positive about AI).",
+    "Lower concern about GenAI use was concentrated among respondents who know little about how journalists actually use AI."
+  ],
+  "contributions": [
+    "Provides empirical evidence on the effects of task-specific (rather than generic) AI disclosures across the journalistic value chain, addressing a gap in the transparency literature.",
+    "Identifies political position and AI-journalism knowledge as consistent individual-level moderators of disclosure effects.",
+    "Introduces and empirically validates five distinctive audience preference profiles and their socio-demographic/attitudinal predictors, offering actionable segmentation for practitioners.",
+    "Tests robustness across three news topics of differing controversiality, showing topic has little effect and increasing confidence in generalizability.",
+    "Situates findings within normative debates about meaningful journalistic transparency, cautioning that trust penalties should not justify abandoning disclosure and calling for media literacy investment."
+  ],
+  "framing": "The paper positions itself within journalism studies debates on journalistic transparency and audience trust in an age of generative AI, engaging with attribution theory and expectancy violations theory to explain disclosure effects and with the algorithmic aversion/appreciation literature to interpret heterogeneous audience reactions.",
+  "pdf_source": "drive"
+}

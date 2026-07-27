@@ -1,13 +1,13 @@
 ---
 title: "Multi-platform analysis of electoral discourse on social media as a research infrastructure problem"
 aliases: ["Multi-platform analysis of electoral discourse on social media as a research infrastructure problem"]
-authors: ["Ludwig Schulte", "Dino Pasic", "Catalina Goanta", "Adriana Iamnitchi"]
+authors: ["Ludwig Schulte", "Dino Pasic", "Cătălina Goanță", "Adriana Iamnitchi"]
 year: 2026
 doi: 10.1145/3795513.3807440
 bibtex_key: Schulte2026-df
 topics: [platform-governance-research-access, italian-political-communication-mine]
 citation_count: 0
-open_access: false
+open_access: true
 source_url: https://doi.org/10.1145/3795513.3807440
 podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Schulte2026-df.mp3
 pdf_available: true
@@ -16,39 +16,43 @@ discovery_date: 2026-05-26T17:18:00.349369Z
 
 # Multi-platform analysis of electoral discourse on social media as a research infrastructure problem
 
-> Schulte, L., Pasic, D., Goanta, C., & Iamnitchi, A. (2026). Multi-platform analysis of electoral discourse on social media as a research infrastructure problem. *Companion Publication of the 2026 18th ACM Web Science Conference*, 66–69. https://doi.org/10.1145/3795513.3807440
+> Schulte, L., Pasic, D., Goanță, C., & Iamnitchi, A. (2026). Multi-platform analysis of electoral discourse on social media as a research infrastructure problem. 66–69. https://doi.org/10.1145/3795513.3807440
 >
 > [View paper](https://doi.org/10.1145/3795513.3807440)
 
 ## Summary
 
-Using the 2025 German federal election as a case study, this paper recasts multi-platform electoral discourse analysis as a research infrastructure problem rather than a sequence of standalone empirical studies. The authors collected 81,866 X posts and 43,597 TikTok videos across seven German parties, applied BERTopic for topic modeling, and built a multimodal pipeline combining facial, vocal, and textual analysis on diarized TikTok segments. They argue that the central obstacle to studying electoral harms is not a lack of studies but the absence of consolidated, reusable tools, workflows, and documentation for cross-platform observability under increasingly constrained platform access. The paper closes with four recommendations on data standardization, quality, content-type-tailored analysis, and interdisciplinary collaboration.
+This paper uses the 2025 German federal election as a case study to argue that the central problem in multi-platform electoral discourse research is not a shortage of studies but the absence of consolidated, reusable **research infrastructure** for platform observability under constrained access. Collecting 81,866 X posts and 43,597 TikTok videos across seven German parties, the authors apply topic modeling and multimodal (facial, vocal, textual) analysis — but foreground the bottlenecks in data access, collection, and analysis rather than campaign findings per se. Their core move is to reconceptualize observability as a reusable foundation of tools, workflows, and documentation that can support reliable cross-platform, cross-temporal, and cross-context comparison in the "post-API age."
 
 ## Key Contributions
 
-- Reframes multi-platform election analysis as an infrastructure problem requiring reusable foundations rather than ad hoc empirical projects.
-- A documented parallel X/TikTok collection case study, distinguishing "authored" (official accounts) from "promoted" (mentions, hashtags, retweets) content.
-- A concrete multimodal TikTok pipeline integrating facial emotion (DeepFace), vocal tone (HuBERT), and textual sentiment (XLM-R) at the diarized-segment level.
-- A catalogue of biases — algorithmic, temporal, sampling, and noise — arising from post-API scraping conditions.
-- Four actionable recommendations: standardized data structures, higher data-quality benchmarks (e.g., transparent electoral account labeling), content-type-tailored analysis, and interdisciplinary expertise integration.
+- Reframes multi-platform electoral discourse analysis as a **research infrastructure problem** rather than a series of one-off empirical studies.
+- Provides a documented case study of parallel X and TikTok data collection during the 2025 German federal election, with dataset statistics and platform-specific methodological adaptations.
+- Demonstrates a concrete multimodal analysis pipeline for TikTok political videos integrating facial, vocal, and textual signals at the diarized-segment level.
+- Identifies and catalogues specific biases (algorithmic, temporal, sampling, noise) that arise under post-API collection conditions.
+- Offers four actionable recommendations: standardize data structures, raise data-quality standards (e.g., transparent electoral account labeling), tailor analysis to content type, and integrate interdisciplinary expertise.
 
 ## Methods
 
-The study covers 6 Nov 2024 (collapse of the German government) to 23 Feb 2025 (election day). X data was gathered via an API v2-based scraper seeded with official party accounts and expanded through mentions; TikTok data was assembled by aggregating partial results across repeated hashtag-based calls and expanded via party-linked accounts. Posts were clustered with BERTopic and tracked temporally. TikTok videos were diarized with pyannote.audio, then analyzed for facial emotion (OpenCV + DeepFace), vocal tone (HuBERT), and textual sentiment (XLM-R), with Cramér's V quantifying inter-modal associations.
+- Case study of the 2025 German federal election, spanning 6 Nov 2024 (government collapse) to 23 Feb 2025 (election day).
+- Parallel scraping of X (X API v2 based) and TikTok (aggregating partial results across repeated calls), seeded with official party accounts and expanded via mentions (X) and hashtags (TikTok).
+- Distinction between **authored** posts (official party accounts) and **promoted** posts (retweets, mentions, hashtag-linked content).
+- Topic modeling with BERTopic to cluster posts and track temporal evolution.
+- Multimodal pipeline on diarized TikTok segments (pyannote.audio): facial emotion via OpenCV + DeepFace, vocal tone via HuBERT, textual sentiment via XLM-R, with Cramér's V to measure inter-modal association.
 
 ## Findings
 
 - Dataset: 81,866 X posts from 541 accounts and 43,597 TikTok videos from 4,682 accounts across seven parties.
-- Parties strategically diverge across platforms: BSW dominates on X but barely uses TikTok; AfD is highly active on TikTok; FDP and CDU span both.
-- Facial, vocal, and textual modalities on TikTok are only weakly associated (Cramér's V ≤ 0.104), functioning as semi-independent channels.
-- Political TikTok content frequently pairs negative/critical text and visuals with calm, neutral vocal delivery — a politainment signature.
-- Russia/Ukraine and immigration top both platforms but in reversed order; migration is more salient on TikTok, while Israel/Gaza and EU topics dominate on X.
-- About two-thirds of hashtag-scraped TikTok content was non-political, signaling substantial noise bias.
-- X's ~1,000 posts/day per-account API ceiling prevents historical recovery for active users; TikTok returns algorithmically filtered partials, embedding temporal and engagement bias.
+- Parties differ markedly in platform preference: BSW most active on X, least on TikTok; AfD highly active on TikTok, less on X; FDP and CDU active on both.
+- Textual, vocal, and facial signals on TikTok are only weakly associated (Cramér's V ≤ 0.104) — they operate as largely independent channels.
+- TikTok political content pairs negative/critical text and visuals with calm, neutral vocal delivery — a **politainment** style.
+- Russia/Ukraine and immigration are the top two topics on both platforms but in reversed order; migration is more prominent on TikTok, while Israel/Gaza and EU topics feature more on X.
+- Roughly two-thirds of hashtag-scraped TikTok content was non-political, revealing substantial noise bias.
+- X API limits (~1,000 posts/day per account) prevent full historical recovery, while TikTok returns algorithmically filtered partial results, introducing temporal and engagement-driven biases.
 
 ## Connections
 
-This paper sits squarely in the "post-API age" debate over what computational election research can still do, connecting to [[Freelon2024-sc]], [[Bruns2025-fz]], and [[Bruns2026-yv]] on access decay, and to [[Rieder2025-ju]] and [[Rieder2026-pp]] on platform observability as infrastructure. Its multimodal TikTok pipeline and emphasis on TikTok-specific scraping artefacts connect to [[Achmann-Denkler2026-lx]], [[Pierri2025-hm]], and [[Bouchaud2026-lr]], while its cross-platform German election framing relates to [[Heiss2026-qv]] and the DSA Article 40 vetted-access discussions echoed in [[Ohme2026-nv]] and [[Vincent_undated-re]].
+This paper sits squarely in the "post-API age" methodological debate and the platform-transparency policy conversation around DSA Article 40 and vetted-researcher access, connecting to work on scraping, access, and observability such as [[Bruns2026-yv]], [[Rieder2025-ju]], Davies2026-cy and the DSA-focused strands in [[Rieder2026-pp]] and [[Bruns2026-pn]]. Its multi-platform electoral monitoring design resonates with the longitudinal election-observatory and coordinated-behavior tradition represented by [[Giglietto2026-632ef967]], [[Giglietto2025-1765bb4f]], and [[Pierri2025-hm]], while its TikTok multimodal and politainment focus links to short-video political communication work like [[Achmann-Denkler2026-lx]] and [[Jurg2025-ur]].
 
 ## Podcast
 

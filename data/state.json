@@ -394,9 +394,9 @@
         "platform-governance-research-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "de35e55acf3a860d02ee2281273e391b613bdc6b7af7f8a51d444714983d08c9",
+      "content_hash": "798f3344817fd86ad3e9a84a6db5f9c9e4e968ebf1818b41bd2876218ec23e62",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.239411+00:00",
+      "last_processed": "2026-07-27T14:44:47.797531+00:00",
       "assign_fp": "05adec039550a1dc87d0ed594ba56528377561c4ad7934b3ab121316c3ec1bb7"
     },
     "bibtex:Stagnaro2025-pz": {
@@ -2401,10 +2401,10 @@
         "italian-political-communication-mine"
       ],
       "pdf_source": "drive",
-      "content_hash": "a47ebe0a693a1df58f41561911025be7d5f0e2eb261efc32431c39a40ecd2f5f",
+      "content_hash": "24ec4d48acc3ba85bf0266a5a20469834cb1c9cd63fda2dc8c407ea87dcc05a7",
       "podcast_linked": true,
       "slack_posted": true,
-      "last_processed": "2026-05-26T17:31:41.341628+00:00",
+      "last_processed": "2026-07-27T14:44:47.797524+00:00",
       "assign_fp": "bd7cc64a3bd05471a8f0a4c8a91488aae26c46312e0b4fb64e270f0e070e4666"
     },
     "bibtex:Hepp2026-oi": {
@@ -3587,10 +3587,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-25T07:10:48.344716+00:00"
+    },
+    "bibtex:Mattis2026-gu": {
+      "note_path": "Papers/Mattis2026-gu.md",
+      "topics": [
+        "generative-ai-media-manipulation",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "a22523c8ddc1bfc31266b14cc2eb5bd67c4652baad26a83ec5d84925df0830af",
+      "doi": "10.1080/21670811.2026.2703599",
+      "title": "Feeling iffy about generative AI: Investigating audiences’ trustworthiness perceptions of task-specific AI disclosures",
+      "pdf_source": "drive",
+      "content_hash": "95e6643a9d1735c07a0328d48cfcb7ff85ae22b3af8a85f63c26f8622f2609f8",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-27T14:44:47.797497+00:00"
     }
   },
   "last_full_cluster": "2026-07-27T07:50:47.813286+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "d7400dbc4e55d9ede418876fe433ea1ab1ea222c048868d87756a84eea230e92",
   "emergent_fp": "e541da0fd0a1ce31e21dcf7e3c031918684cadaecd01eae0b5d73b936479b933",
   "structure_fps": {

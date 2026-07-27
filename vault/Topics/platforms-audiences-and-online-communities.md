@@ -38,6 +38,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Marwick2011-sl02]]
 - [[Marwick2025-ov]]
 - [[Marwick2026-ss]]
+- [[Mattis2026-gu]]
 - [[Mosleh2024-op]]
 - [[Nangle2026-yo]]
 - [[Slack1783507648-sl94]]
