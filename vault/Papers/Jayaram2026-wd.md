@@ -5,7 +5,7 @@ authors: ["Rajesh Jayaram", "Drew Tyler", "David Woodruff", "Corinna Cortes", "Y
 year: 2026
 doi: 
 bibtex_key: Jayaram2026-wd
-topics: [ai-assisted-verification-tools, llms-in-computational-content-analysis]
+topics: [computational-methods-llm-annotation, generative-ai-media-manipulation]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2606.28277v1

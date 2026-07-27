@@ -5,7 +5,7 @@ authors: ["Gregory Eady", "Richard Bonneau", "Joshua A Tucker", "Jonathan Nagler
 year: 2025
 doi: 10.31219/osf.io/ch8gj
 bibtex_key: Eady2025-vm
-topics: [political-polarization-and-partisanship, llms-in-computational-content-analysis]
+topics: [news-diffusion-platform-algorithms, political-polarization-partisan-networks]
 citation_count: 14
 open_access: false
 source_url: https://doi.org/10.31219/osf.io/ch8gj

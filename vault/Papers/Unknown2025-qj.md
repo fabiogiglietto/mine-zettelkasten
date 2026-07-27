@@ -5,7 +5,7 @@ authors: ["Ranjit Singh", "Borhane Blili-Hamelin", "Carol Anderson", "Emnet Tafe
 year: 2025
 doi: 10.69985/vvgp4368
 bibtex_key: Unknown2025-qj
-topics: [ai-industry-imaginaries-and-discourse, generative-ai-and-synthetic-media]
+topics: [generative-ai-media-manipulation, ai-industry-imaginaries-and-discourse]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.69985/vvgp4368

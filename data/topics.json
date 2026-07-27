@@ -2,48 +2,29 @@
   {
     "slug": "coordinated-inauthentic-behavior",
     "name": "Coordinated Inauthentic Behavior",
-    "description": "Detection and analysis of coordinated link-sharing and inauthentic network activity across social media platforms, the researcher's signature methodological contribution (CooRnet, CLSB) spanning elections, health topics and information operations.",
+    "description": "Detection and analysis of coordinated link-sharing and other inauthentic network behaviors on social media, including the CooRnet/CoorTweet methodology, workflow papers for monitoring coordinated accounts, and case studies from Italian, German, Nigerian and Ukrainian contexts. This is the researcher's signature methodological contribution and remains central to current publications and tools.",
     "source_signals": [
-      "_data/publications.yml",
       "_data/projects.yml",
+      "_data/publications.yml",
       "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "disinformation-narrative-monitoring",
-    "name": "Disinformation Narrative Monitoring",
-    "description": "Tracking and modeling the propagation of disinformation narratives across Europe (war in Ukraine, LGBTQI+ rights, elections) using language models and monitoring dashboards, central to the PROMPT project and current news on narrative-level fact-checking.",
+    "slug": "generative-ai-media-manipulation",
+    "name": "Generative AI and Media Manipulation",
+    "description": "Study of how generative AI (LLMs, synthetic images/video, deepfakes, conversational agents) is used to produce persuasive, deceptive or manipulative content, and how it reshapes disinformation tactics and countermeasures. Reflected in recent publications on synthetic gambling promotion, LLM-based dashboards, and the new 'IA Generativa e Media' course.",
     "source_signals": [
-      "_data/projects.yml",
+      "_data/publications.yml",
+      "_data/teaching.yml",
       "_data/news.yml"
     ],
     "is_emergent": false
   },
   {
-    "slug": "ai-assisted-verification-tools",
-    "name": "AI-Assisted Verification Tools",
-    "description": "Development of AI-based tools and workflows to help journalists and fact-checkers verify multimedia content and detect coordinated networks, rooted in the vera.ai WP4 leadership and continued through self-updating detection systems.",
-    "source_signals": [
-      "_data/projects.yml",
-      "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "generative-ai-and-synthetic-media",
-    "name": "Generative AI and Synthetic Media",
-    "description": "Study of how generative AI is reshaping visual persuasion, deceptive campaigns, and information operations (e.g. synthetic gambling promotion, deepfakes), reflecting a growing current research and teaching focus (IA Generativa e Media course).",
-    "source_signals": [
-      "_data/publications.yml",
-      "_data/teaching.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "platform-data-access-and-research-infrastructure",
-    "name": "Platform Data Access and Research Infrastructure",
-    "description": "Critical and methodological work on how researchers access and analyze platform data (Meta URL Shares Dataset, CrowdTangle shutdown, clean rooms, APIs under the DSA, open-source sampling tools), a recurring concern given the loss of CrowdTangle access.",
+    "slug": "platform-governance-research-access",
+    "name": "Platform Governance and Research Data Access",
+    "description": "Analysis of how platform policies, APIs, and regulatory frameworks (e.g., the Digital Services Act, Meta's URL Shares Dataset, CrowdTangle shutdown, political content reduction) shape what researchers and the public can see, and the methodological consequences for social media research.",
     "source_signals": [
       "_data/publications.yml",
       "_data/news.yml",
@@ -52,37 +33,30 @@
     "is_emergent": false
   },
   {
-    "slug": "political-polarization-and-partisanship",
-    "name": "Political Polarization and Partisanship",
-    "description": "Analysis of partisan communities, affective polarization, hyperpartisan networks and cross-partisan media exposure on social platforms, a long-running and continuing thread from Bolsonaro networks to Italian and Latin American cases.",
-    "source_signals": [
-      "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "italian-election-media-studies",
-    "name": "Italian Election Media Studies",
-    "description": "The MINE programme's core empirical focus: mapping Italian news media and social media dynamics around national elections (2018, 2022) and related campaigns, providing the longitudinal backbone of the researcher's work.",
+    "slug": "italian-political-communication-mine",
+    "name": "Italian Political Communication (MINE Program)",
+    "description": "The long-running Mapping Italian News (MINE) research line tracking Italian media and social media coverage of elections (2018, 2019, 2022), political parallelism, and campaign engagement — the institutional umbrella under which most of the researcher's empirical work is filed.",
     "source_signals": [
       "_data/projects.yml",
-      "_data/publications.yml"
+      "_data/publications.yml",
+      "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },
   {
-    "slug": "llms-in-computational-content-analysis",
-    "name": "LLMs in Computational Content Analysis",
-    "description": "Methodological research on integrating and validating large language models for text classification, annotation, and clustering in political and media discourse studies, an active and rapidly growing agenda item.",
+    "slug": "computational-methods-llm-annotation",
+    "name": "Computational Methods and LLM-Assisted Annotation",
+    "description": "Development and validation of computational text-analysis pipelines, including embedding models for clustering political news and 'LLMs-in-the-loop' approaches for content classification and annotation in communication research, addressing challenges of reliability and disagreement.",
     "source_signals": [
-      "_data/publications.yml"
+      "_data/publications.yml",
+      "_data/teaching.yml"
     ],
     "is_emergent": false
   },
   {
     "slug": "health-misinformation-networks",
     "name": "Health Misinformation Networks",
-    "description": "Mapping coordinated networks and alternative influence structures that circulate problematic health information (COVID-19, vaccine and gatekeeping issues) across Italy, India and Nigeria.",
+    "description": "Mapping coordinated networks and gatekeeping dynamics that circulate problematic health information, including COVID-19 fact-checking acceleration and cross-national studies of health misinformation in India and Nigeria.",
     "source_signals": [
       "_data/projects.yml",
       "_data/publications.yml"
@@ -90,11 +64,41 @@
     "is_emergent": false
   },
   {
-    "slug": "platform-governance-and-content-policy",
-    "name": "Platform Governance and Content Policy",
-    "description": "Examination of platform moderation and content-distribution policies (Meta's political content reduction, algorithmic governance of the newsfeed, the shift to 'walled garden' platforms) and their effects on visibility and public discourse.",
+    "slug": "political-polarization-partisan-networks",
+    "name": "Political Polarization and Partisan Networks",
+    "description": "Examination of partisan community dynamics, affective engagement, and polarization amplification across social and traditional media, including longitudinal studies of pro-Bolsonaro Facebook networks and comparative work on Latin American digital public debate.",
+    "source_signals": [
+      "_data/publications.yml",
+      "_data/news.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "news-diffusion-platform-algorithms",
+    "name": "News Diffusion and Platform Algorithms",
+    "description": "Research on how algorithmic governance, partisan alignment and journalistic quality shape the circulation and visibility of news on social platforms, from cross-partisan interaction patterns to what 'millions see' on Facebook feeds.",
+    "source_signals": [
+      "_data/publications.yml",
+      "scripts/config.js"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "social-tv-second-screen",
+    "name": "Social TV and Second-Screen Engagement",
+    "description": "Earlier but recurring strand analyzing audience participation, engagement and identity construction around television via Twitter and other second-screen social media use, foundational to the researcher's move into large-scale social media data analysis.",
     "source_signals": [
       "_data/publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "sociocybernetics-social-systems-theory",
+    "name": "Sociocybernetics and Social Systems Theory",
+    "description": "Theoretical work bridging sociocybernetics and internet studies, exploring social systems theory as a lens for understanding networked communication — a foundational, lower-frequency but persistent thread underlying the researcher's broader empirical agenda.",
+    "source_signals": [
+      "_data/publications.yml",
+      "scripts/data/bio-seed.md"
     ],
     "is_emergent": false
   },

@@ -8,7 +8,7 @@ bibtex_key: Castells2009-sle8
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783516940679799?thread_ts=1783516940.679799&cid=C0BDU82EBHQ
-topics: []
+topics: [sociocybernetics-social-systems-theory]
 citation_count: 1716
 open_access: false
 source_url: https://doi.org/10.1002/9781444319514

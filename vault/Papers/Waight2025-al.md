@@ -5,7 +5,7 @@ authors: ["Hannah Waight", "Solomon Messing", "Anton Shirikov", "Margaret E. Rob
 year: 2025
 doi: 10.1177/00491241251340080
 bibtex_key: Waight2025-al
-topics: [disinformation-narrative-monitoring, llms-in-computational-content-analysis]
+topics: [computational-methods-llm-annotation, news-diffusion-platform-algorithms]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1177/00491241251340080

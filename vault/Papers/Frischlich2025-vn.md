@@ -5,7 +5,7 @@ authors: ["Lena Frischlich", "Henrik Olsson", "Abhishek Roy", "Heidi Schulze", "
 year: 2025
 doi: 10.1038/s44260-025-00053-z
 bibtex_key: Frischlich2025-vn
-topics: [disinformation-narrative-monitoring]
+topics: [meta-science-of-misinformation-research, sociocybernetics-social-systems-theory]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1038/s44260-025-00053-z

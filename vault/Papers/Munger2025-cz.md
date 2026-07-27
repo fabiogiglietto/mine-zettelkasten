@@ -5,7 +5,7 @@ authors: ["Kevin Munger"]
 year: 2025
 doi: 10.1080/10584609.2024.2446351
 bibtex_key: Munger2025-cz
-topics: [platform-data-access-and-research-infrastructure, platform-governance-and-content-policy]
+topics: [meta-science-of-misinformation-research, platform-governance-research-access]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2024.2446351

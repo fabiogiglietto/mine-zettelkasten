@@ -5,7 +5,7 @@ authors: ["Marcio Inacio da Silva", "Lucas de Oliveira", "Pedro Olmo Vaz de Melo
 year: 2026
 doi: 10.1145/3796545
 bibtex_key: Inacio-da-Silva2026-zf
-topics: [ai-assisted-verification-tools, political-polarization-and-partisanship]
+topics: [platform-governance-research-access, political-polarization-partisan-networks]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1145/3796545

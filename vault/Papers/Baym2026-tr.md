@@ -5,7 +5,7 @@ authors: ["Nancy K. Baym"]
 year: 2026
 doi: 10.1177/20563051261432484
 bibtex_key: Baym2026-tr
-topics: [ai-industry-imaginaries-and-discourse, platform-governance-and-content-policy]
+topics: [meta-science-of-misinformation-research, ai-industry-imaginaries-and-discourse]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/20563051261432484

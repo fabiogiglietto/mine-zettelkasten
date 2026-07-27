@@ -5,7 +5,7 @@ authors: ["William Hollingshead", "Anatoliy Gruzd", "Philip Mai"]
 year: 2026
 doi: 10.17645/mac.11409
 bibtex_key: Hollingshead2026-vx
-topics: [platforms-audiences-and-online-communities, generative-ai-and-synthetic-media]
+topics: [platforms-audiences-and-online-communities, generative-ai-media-manipulation]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.17645/mac.11409

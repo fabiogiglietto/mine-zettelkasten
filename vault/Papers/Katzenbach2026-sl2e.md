@@ -8,7 +8,7 @@ bibtex_key: Katzenbach2026-sl2e
 kind: team
 submitted_by: "Fabio Giglietto"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782728446616189
-topics: [platform-governance-and-content-policy, italian-election-media-studies]
+topics: [platform-governance-research-access]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2026.2686320
