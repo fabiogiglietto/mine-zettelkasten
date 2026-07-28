@@ -1,0 +1,34 @@
+{
+  "abstract": "This exploratory study examines named entity networks in German alternative and legacy media through their coverage of the Nord Stream 2 gas pipeline from 2011 to 2022. Using computational methods, the authors extract named entities from nearly 40,000 news articles across 37 alternative (mostly right-wing) and 98 legacy outlets and construct co-occurrence networks to compare reporting patterns. Contrary to the assumption that alternative media inherently reference different actors, the study finds substantial overlap in entities used, though alternative media display distinctive network structures and mention other media more frequently.",
+  "key_claims": [
+    "Alternative media do not fundamentally diverge from legacy media in which named entities they reference, at least for internationally significant topics like Nord Stream 2.",
+    "Differences between alternative and legacy media emerge less in which actors are mentioned and more in how those actors are relationally organized in co-occurrence networks.",
+    "Alternative media organize entities into more cohesive, tightly-knit constellations (higher transitivity, lower modularity), while legacy media exhibit more fragmented, modular structures.",
+    "Alternative media mention other media outlets more frequently than legacy outlets, reflecting resource limitations, reactive reporting, and strategic positioning toward the mainstream.",
+    "Alternative media engagement with the topic intensified in later periods, suggesting a reactive orientation combined with political opportunism as conflict lines aligned with ideological positions."
+  ],
+  "methods": [
+    "Collection of 39,853 news articles (3,918 from 37 alternative outlets; ~35,707 from 98 legacy outlets) about Nord Stream 2 from 2011 to 2022, sourced via the Meteor database, LexisNexis, and the Tagesschau API, split into four time periods.",
+    "Named entity recognition using a fine-tuned mLUKE multilingual transformer model (F1 = 0.85 for German), extracting over 2.5 million named entities (persons, organizations, locations).",
+    "Entity linking/reconciliation against Wikidata using the mGENRE sequence-to-sequence model (80.5% accuracy on a self-created validation set of 1,902 entities from netzpolitik.org).",
+    "Diversity measurement via entropy (Shannon's H), disparity (cosine-similarity-based distance), and novelty (Z-scores following Uzzi et al.).",
+    "Construction of weighted co-occurrence networks per outlet and time period using igraph, computing metrics such as number of communities, density, diameter, transitivity, modularity, and network growth.",
+    "A structural topic model (STM) applied to a document-term matrix built only from media-named entities to identify media-mentioning profiles, with 'alternative media' as a binary covariate and time period as a categorical covariate (four topics optimal).",
+    "A Bayesian generalized linear mixed-effects model (Bernoulli likelihood, logit link) with random outlet intercepts to identify predictors distinguishing alternative from legacy media, using standardized predictors and weakly informative priors."
+  ],
+  "findings": [
+    "The top 10 named entities were largely similar across media types, with only minor differences (e.g., Erdoğan and the AfD more prominent in alternative media).",
+    "The Bayesian model showed diameter and modularity were credibly negatively associated with alternative media, while network growth, transitivity, and media mention ratio were positively associated.",
+    "Diversity measures (entropy, disparity, novelty) showed weak, uncertain associations, indicating comparable breadth of actors across media types.",
+    "The STM revealed distinct media-mentioning compositions: legacy media rely heavily on the German Press Agency, whereas alternative media mention a mix of major outlets (Der Spiegel, Die Welt) and international agencies like Reuters and TASS.",
+    "These referencing patterns were stable across time periods, reinforcing the robustness of observed differences in cross-media referencing behavior."
+  ],
+  "contributions": [
+    "Provides a large-scale, longitudinal, actor-centered and relational analysis of alternative versus legacy media, filling a gap in research that has mostly examined alternative media at the institutional level.",
+    "Challenges the assumption that alternative media inherently reference different entities, showing substantial overlap in entity choice for internationally significant topics.",
+    "Demonstrates a novel methodological application of structural topic modeling using only media-named entities to identify latent media-mentioning profiles.",
+    "Combines state-of-the-art NLP (mLUKE NER, mGENRE entity linking) with network analysis and Bayesian modeling for comparative media research, and releases a publicly available entity-linking validation set."
+  ],
+  "framing": "The study positions itself within alternative media and digital journalism scholarship, engaging debates about how alternative media constitute themselves relationally as a 'self-perceived corrective' to legacy media (Holt et al., 2019). It adopts an actor-centered, relational content perspective and builds on prior computational work on conspiracy-focused entity networks (Shahsavari et al., 2020; Tangherlini et al., 2020) while extending questions of counter-publics, media ecosystems, and public trust.",
+  "pdf_source": "drive"
+}

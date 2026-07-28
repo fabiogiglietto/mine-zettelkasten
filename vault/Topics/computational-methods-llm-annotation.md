@@ -15,6 +15,7 @@ Development and validation of computational text-analysis pipelines, including e
 - [[Arminio2025-tw]]
 - [[Arora2025-tx]]
 - [[Bailard2024-pj]]
+- [[Balluff2026-ev]]
 - [[Balluff2026-if]]
 - [[Bastos2025-ol]]
 - [[Brown2025-jk]]

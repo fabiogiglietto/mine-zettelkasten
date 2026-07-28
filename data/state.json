@@ -3603,10 +3603,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-28T07:34:09.360148+00:00"
+    },
+    "bibtex:Balluff2026-ev": {
+      "note_path": "Papers/Balluff2026-ev.md",
+      "topics": [
+        "news-diffusion-platform-algorithms",
+        "computational-methods-llm-annotation"
+      ],
+      "assign_fp": "24170c98d994d8a6f74c164a19d11a81c1c3fe1f775f16b3814b6e196970f033",
+      "doi": "10.31235/osf.io/43nvp_v1",
+      "title": "Relying on the mainstream? Entity networks in alternative media",
+      "pdf_source": "drive",
+      "content_hash": "f8ed464b7b4f6d5e12a1e12f2523261bdaebc6c1622dfac1e6daf0da78e4d70d",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-28T12:23:29.677298+00:00"
     }
   },
   "last_full_cluster": "2026-07-27T07:50:47.813286+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "d7400dbc4e55d9ede418876fe433ea1ab1ea222c048868d87756a84eea230e92",
   "emergent_fp": "e541da0fd0a1ce31e21dcf7e3c031918684cadaecd01eae0b5d73b936479b933",
   "structure_fps": {
