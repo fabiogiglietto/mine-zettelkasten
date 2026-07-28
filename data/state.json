@@ -3598,11 +3598,11 @@
       "doi": "10.1080/21670811.2026.2703599",
       "title": "Feeling iffy about generative AI: Investigating audiences’ trustworthiness perceptions of task-specific AI disclosures",
       "pdf_source": "drive",
-      "content_hash": "95e6643a9d1735c07a0328d48cfcb7ff85ae22b3af8a85f63c26f8622f2609f8",
-      "podcast_linked": false,
+      "content_hash": "3e2a0239cde49ab82de34614133d1b5284b0eabd3977b338788e5d496aa61325",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-27T14:44:47.797497+00:00"
+      "last_processed": "2026-07-28T07:34:09.360148+00:00"
     }
   },
   "last_full_cluster": "2026-07-27T07:50:47.813286+00:00",
