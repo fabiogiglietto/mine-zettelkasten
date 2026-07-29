@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper addresses the question of whether and how artificial intelligence systems can be considered agents, framing it as a 'demarcation problem' within social theory. Rather than treating agency as an inherent property of a system, the authors argue that agency is a social status—a socially granted and monitored license to issue actions acquired through social practices. On this basis they develop theoretical criteria to distinguish agents from nonagents according to attributed abilities.",
+  "key_claims": [
+    "Agency is not an intrinsic quality of a system but a socially granted status.",
+    "Agency can be understood as a socially conferred license to issue actions, acquired and monitored through social practices.",
+    "The rise of AI makes the question of machine agency an urgent theoretical concern.",
+    "A principled demarcation between agents and nonagents can be established based on socially attributed abilities."
+  ],
+  "methods": [
+    "Conceptual and theoretical analysis grounded in social theory.",
+    "Development of demarcation criteria to distinguish agents from nonagents based on attributed abilities.",
+    "Proposal of a 'matrix of AI agency' as an organizing framework (as indicated by the title)."
+  ],
+  "findings": [
+    "Reframing agency as a social status yields a workable set of criteria for distinguishing agents from nonagents.",
+    "Machine agency should be assessed in terms of socially attributed capacities and licensing rather than internal system properties."
+  ],
+  "contributions": [
+    "Offers a social-theoretic reconceptualization of agency as a socially granted license rather than an inherent quality.",
+    "Provides theoretical criteria for demarcating agents and nonagents applicable to AI.",
+    "Introduces a matrix framework for analyzing AI agency within social theory."
+  ],
+  "framing": "The paper positions itself within social theory, engaging debates on the nature of agency and applying them to the contemporary challenge posed by AI. It intervenes against essentialist views of agency by advancing a relational, practice-based account rooted in social attribution and monitoring.",
+  "pdf_source": "abstract_only"
+}

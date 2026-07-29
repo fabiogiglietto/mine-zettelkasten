@@ -10,6 +10,7 @@ Theoretical work bridging sociocybernetics and internet studies, exploring socia
 
 ## Papers
 
+- [[Anicker2024-vp]]
 - [[Castells2009-sle8]]
 - [[Frischlich2025-vn]]
 - [[Giglietto2019-e9be81c1]]
