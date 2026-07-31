@@ -17,6 +17,7 @@ Research on how algorithmic governance, partisan alignment and journalistic qual
 - [[Bakshy2015-rn]]
 - [[Balluff2026-bv]]
 - [[Balluff2026-ev]]
+- [[Bergeron-Boutin2026-yh]]
 - [[Bouchafra2026-ts]]
 - [[Bouchaud2026-lr]]
 - [[Brady2026-ln]]

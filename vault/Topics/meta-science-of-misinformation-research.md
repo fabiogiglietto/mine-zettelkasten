@@ -20,6 +20,7 @@ Papers that step back from primary empirical study to critically assess the misi
 - [[Beacken2026-zb]]
 - [[Bechmann2026-dr]]
 - [[Bennett2025-xs]]
+- [[Bergeron-Boutin2026-yh]]
 - [[Bollenbacher2026-vz]]
 - [[Brown2025-jk]]
 - [[Bruns2026-pn]]

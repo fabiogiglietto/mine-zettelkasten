@@ -1,0 +1,25 @@
+{
+  "abstract": "This study examines the prevalence and effects of exposure to content from untrustworthy sources (repeat publishers of misinformation) on Facebook and Instagram during 2020. Using platform-wide data covering all active US adults, the authors measure how often users encountered such content across Pages, groups, web domains, and Instagram public accounts. They find that exposure was low on average but highly concentrated among a small subset of users, and that experimental reductions in exposure produced no measurable attitudinal effects.",
+  "key_claims": [
+    "The average Facebook and Instagram user in 2020 saw relatively little content from untrustworthy sources in their feeds.",
+    "Exposure to untrustworthy content is highly concentrated among a small subset of users rather than evenly distributed.",
+    "Reducing exposure to content from untrustworthy sources does not produce detectable changes in user attitudes."
+  ],
+  "methods": [
+    "Analysis of 2020 platform-wide data covering all active US adult users on Facebook and Instagram.",
+    "Measurement of exposure to content from Pages, groups, and web domains on Facebook and public accounts on Instagram that repeatedly publish misinformation.",
+    "Experimental or interventional approach to reduce exposure and assess resulting attitudinal effects (as implied by the abstract)."
+  ],
+  "findings": [
+    "Average users encountered a small amount of untrustworthy-source content in their feeds.",
+    "Exposure was concentrated among a limited number of users rather than widespread.",
+    "No attitudinal effects were observed from reducing exposure to untrustworthy sources."
+  ],
+  "contributions": [
+    "Provides large-scale, platform-wide evidence on the frequency of exposure to untrustworthy content, addressing a gap in prior knowledge.",
+    "Distinguishes between average exposure and concentrated exposure patterns across users.",
+    "Offers evidence on the (null) attitudinal effects of untrustworthy content exposure, informing debates about misinformation's real-world impact."
+  ],
+  "framing": "The paper is positioned within debates over the reach and influence of misinformation on social media, engaging concerns that exposure to untrustworthy sources shapes public attitudes. It contributes empirical scale and causal evidence to a literature often reliant on limited or non-representative data.",
+  "pdf_source": "abstract_only"
+}

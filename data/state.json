@@ -3634,10 +3634,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-29T07:21:56.122273+00:00"
+    },
+    "bibtex:Bergeron-Boutin2026-yh": {
+      "note_path": "Papers/Bergeron-Boutin2026-yh.md",
+      "topics": [
+        "news-diffusion-platform-algorithms",
+        "meta-science-of-misinformation-research"
+      ],
+      "assign_fp": "66c5d2930943808c9463597e66a185dbdcef0721fb9c2d3210d0929b348aa7be",
+      "doi": "10.1126/sciadv.adz6502",
+      "title": "Untrustworthy sources on Facebook and Instagram in 2020: Concentrated exposure but no attitudinal effects",
+      "pdf_source": "abstract_only",
+      "content_hash": "b6679679b6e780f060547f8157fec8266c68b40ac51260d9b8e4ab8b9475a47a",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-07-31T07:24:25.883840+00:00"
     }
   },
   "last_full_cluster": "2026-07-27T07:50:47.813286+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "d7400dbc4e55d9ede418876fe433ea1ab1ea222c048868d87756a84eea230e92",
   "emergent_fp": "e541da0fd0a1ce31e21dcf7e3c031918684cadaecd01eae0b5d73b936479b933",
   "structure_fps": {
