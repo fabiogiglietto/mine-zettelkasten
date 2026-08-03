@@ -5,7 +5,7 @@ authors: ["Thomas H Costello", "Gordon Pennycook", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/xcwdn
 bibtex_key: Costello2024-bg
-topics: [generative-ai-media-manipulation, meta-science-of-misinformation-research]
+topics: [llms-in-computational-content-analysis, information-disorder-and-disinformation]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/xcwdn

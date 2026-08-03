@@ -5,7 +5,7 @@ authors: ["Paolo Gerbaudo"]
 year: 2026
 doi: 10.1177/14614448241304106
 bibtex_key: Gerbaudo2026-fo
-topics: [platforms-audiences-and-online-communities, news-diffusion-platform-algorithms]
+topics: [platforms-audiences-and-online-communities, platform-governance-and-content-moderation]
 citation_count: 38
 open_access: false
 source_url: https://doi.org/10.1177/14614448241304106

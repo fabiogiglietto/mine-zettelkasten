@@ -5,7 +5,7 @@ authors: ["Ludwig Schulte", "Dino Pasic", "Cătălina Goanță", "Adriana Iamnit
 year: 2026
 doi: 10.1145/3795513.3807440
 bibtex_key: Schulte2026-df
-topics: [platform-governance-research-access, italian-political-communication-mine]
+topics: [platform-data-access-and-methods, italian-electoral-media-coverage]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1145/3795513.3807440

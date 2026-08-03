@@ -5,7 +5,7 @@ authors: ["Íris Damião", "João Franco", "Mariana Menezes Melo Silva", "Paulo 
 year: 2026
 doi: 
 bibtex_key: Iris2026-pg
-topics: [news-diffusion-platform-algorithms, italian-political-communication-mine]
+topics: [italian-electoral-media-coverage, information-disorder-and-disinformation]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2601.05826

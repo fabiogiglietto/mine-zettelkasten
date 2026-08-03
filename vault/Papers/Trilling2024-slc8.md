@@ -8,7 +8,7 @@ bibtex_key: Trilling2024-slc8
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783592991086239
-topics: [sociocybernetics-social-systems-theory, political-polarization-partisan-networks]
+topics: [political-polarization-and-partisanship, meta-science-of-misinformation-research]
 citation_count: 3
 open_access: true
 source_url: https://doi.org/10.34669/wi.wjds/4.2.4

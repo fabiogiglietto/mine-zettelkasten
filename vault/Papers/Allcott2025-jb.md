@@ -5,7 +5,7 @@ authors: ["Hunt Allcott", "Matthew Gentzkow", "Ro’ee Levy", "Adriana Crespo-Te
 year: 2025
 doi: 10.2139/ssrn.5259653
 bibtex_key: Allcott2025-jb
-topics: [news-diffusion-platform-algorithms, platform-governance-research-access]
+topics: [platform-governance-and-content-moderation, political-polarization-and-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.2139/ssrn.5259653

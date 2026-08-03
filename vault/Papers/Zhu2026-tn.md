@@ -5,7 +5,7 @@ authors: ["Qinfeng Zhu", "Fan Liang", "Gabriel Miao Li"]
 year: 2026
 doi: 10.1080/21670811.2026.2683342
 bibtex_key: Zhu2026-tn
-topics: [news-diffusion-platform-algorithms, political-polarization-partisan-networks]
+topics: [platforms-audiences-and-online-communities, political-polarization-and-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/21670811.2026.2683342

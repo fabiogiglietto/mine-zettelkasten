@@ -5,7 +5,7 @@ authors: ["Alexandros Efstratiou", "Kayla Duskin", "Kate Starbird", "Emma Spiro"
 year: 2025
 doi: 
 bibtex_key: Efstratiou2025-gs
-topics: [news-diffusion-platform-algorithms, platform-governance-research-access]
+topics: [platform-governance-and-content-moderation, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2512.06129v2

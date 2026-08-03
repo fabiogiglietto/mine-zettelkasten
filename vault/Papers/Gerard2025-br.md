@@ -5,7 +5,7 @@ authors: ["Patrick Gerard", "Hans W. A. Hanley", "Luca Luceri", "Emilio Ferrara"
 year: 2025
 doi: 
 bibtex_key: Gerard2025-br
-topics: [coordinated-inauthentic-behavior, news-diffusion-platform-algorithms]
+topics: [coordinated-inauthentic-behavior, platform-data-access-and-methods]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2505.21729v1
