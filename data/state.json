@@ -125,9 +125,9 @@
         "ai-industry-imaginaries-and-discourse"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "963cb88170b85cdee7c5a192f24169724370c1849ed532a36661b199dff1e3ce",
+      "content_hash": "e986458b0204112456cd40c8917f0f772d7ecf22a4412657e44c8c6bd9fac0f7",
       "podcast_linked": false,
-      "last_processed": "2026-07-07T07:55:58.698728+00:00",
+      "last_processed": "2026-08-07T09:39:21.461153+00:00",
       "assign_fp": "e70f5cec370d91cc69c2951781180186d42c51dc3c51a1b0d7edd68ef26bf46a"
     },
     "bibtex:Achmann-Denkler2026-lx": {
@@ -3658,10 +3658,38 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-07-31T07:24:25.883840+00:00"
+    },
+    "bibtex:Galip2026-ix": {
+      "note_path": "Papers/Galip2026-ix.md",
+      "topics": [
+        "generative-ai-and-synthetic-media",
+        "ai-industry-imaginaries-and-discourse"
+      ],
+      "assign_fp": "f0745e8e9a561f2f7d78ff351e7b848cada3a1bad04fffa0849f987dde8040d7",
+      "doi": "10.1177/13675494261468638",
+      "title": "Degenerative AI: AI slop, brainrot, and the gimmick of generative culture",
+      "pdf_source": "drive",
+      "content_hash": "5d830cc85aa8a5c697dc1f0482562bcc32e4bfcd1aace7b20acd4d0db38b963c",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-07T09:39:21.461127+00:00"
+    },
+    "bibtex:Unknown2020-d568b728": {
+      "note_path": "Papers/Unknown2020-d568b728.md",
+      "topics": [],
+      "assign_fp": "9edc9906c0cbf3558fea3e945c6b6e8418138c83a27b56f8ea05a12c87211102",
+      "kind": "own",
+      "doi": "10.1080/1369118x.2020.1755558",
+      "title": "Correction",
+      "pdf_source": "abstract_only",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-08-07T09:40:05.753948+00:00"
     }
   },
   "last_full_cluster": "2026-08-03T07:18:07.964977+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "20dbf7afa978132eafa339bafa27f47c4a12eb4c2597ff0b0149ab705a63b5fe",
   "emergent_fp": "72b0d146f04eedd9f7b6ae9c80a3ea2b9471f84ca8f75d4499cf774df36cce6d",
   "structure_fps": {

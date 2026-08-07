@@ -14,6 +14,7 @@ Study of generative AI's role in deceptive online content, including synthetic v
 - [[Choi2026-bz]]
 - [[Dierickx2026-tw]]
 - [[Emilio2026-ik]]
+- [[Galip2026-ix]]
 - [[Giglietto2026-9b6a992d]]
 - [[Gillespie2026-aa]]
 - [[Hackenburg2025-dj]]
