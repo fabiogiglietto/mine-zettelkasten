@@ -3669,11 +3669,11 @@
       "doi": "10.1177/13675494261468638",
       "title": "Degenerative AI: AI slop, brainrot, and the gimmick of generative culture",
       "pdf_source": "drive",
-      "content_hash": "5d830cc85aa8a5c697dc1f0482562bcc32e4bfcd1aace7b20acd4d0db38b963c",
-      "podcast_linked": false,
+      "content_hash": "c990a7e85d20d614624e55dc4ebb174d9776ca118875d57e03d41a5517421d63",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-07T09:39:21.461127+00:00"
+      "last_processed": "2026-08-08T05:36:09.098273+00:00"
     },
     "bibtex:Unknown2020-d568b728": {
       "note_path": "Papers/Unknown2020-d568b728.md",
