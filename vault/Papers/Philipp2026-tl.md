@@ -5,7 +5,7 @@ authors: ["Philipp Darius", "Johannes Breuer", "Simon Kruschinski", "Felicia Loe
 year: 2026
 doi: 10.14763/2026.1.2080
 bibtex_key: Philipp2026-tl
-topics: [platform-data-access-and-methods, italian-electoral-media-coverage]
+topics: [platform-data-access-governance, italian-electoral-communication]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.14763/2026.1.2080

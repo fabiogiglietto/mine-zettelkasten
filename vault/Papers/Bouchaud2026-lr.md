@@ -5,7 +5,7 @@ authors: ["Paul Bouchaud", "Pedro Ramaciotti"]
 year: 2026
 doi: 
 bibtex_key: Bouchaud2026-lr
-topics: [platform-governance-and-content-moderation, platform-data-access-and-methods]
+topics: [polarization-partisanship, platform-data-access-governance]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2602.02624v1

@@ -8,7 +8,7 @@ bibtex_key: Marino2026-slef
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783526195619319
-topics: [political-polarization-and-partisanship, llms-in-computational-content-analysis]
+topics: [cross-national-disinformation-monitoring, polarization-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2026.2696929

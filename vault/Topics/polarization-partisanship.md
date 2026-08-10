@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: political-polarization-and-partisanship
+slug: polarization-partisanship
 emergent: false
 ---
 
-# Political Polarization & Partisanship
+# Polarization & Partisan Media Dynamics
 
-Analysis of partisan community dynamics, affective engagement, and polarization amplification across traditional and social media, including studies of Bolsonaro-aligned Facebook networks and cross-partisan news interaction.
+Analysis of political polarization, partisan alignment, and algorithmic amplification in social and traditional media, spanning affective engagement in partisan communities, insularity/cross-partisan interaction patterns, and conceptual reviews of polarization and populism.
 
 ## Papers
 
@@ -14,38 +14,53 @@ Analysis of partisan community dynamics, affective engagement, and polarization 
 - [[Anwar2024-34dba628]]
 - [[Arceneaux2026-xk]]
 - [[Arora2025-tx]]
-- [[Bailard2024-pj]]
 - [[Bakshy2015-rn]]
-- [[Balluff2026-bv]]
 - [[Balluff2026-ev]]
 - [[Bennett2025-xs]]
 - [[Bouchafra2026-ts]]
+- [[Bouchaud2026-lr]]
 - [[Bouchaud2026-np]]
+- [[Boyd2026-op]]
 - [[Brady2026-ln]]
+- [[Brown2026-br]]
+- [[Dahlke2026-sl34]]
 - [[Dehghan2026-sy]]
-- [[Di-Domenico2026-zq]]
 - [[DiGiuseppe2026-pu]]
 - [[Dubey2026-bl]]
 - [[Eady2025-vm]]
+- [[Efstratiou2025-gs]]
 - [[Elfes2026-jb]]
 - [[Esau2025-tf]]
 - [[Falkenberg2026-ka]]
+- [[Fattorini2026-bo]]
+- [[Gagrcin2024-dl]]
 - [[Gaisbauer2025-by]]
 - [[Gattermann2025-yx]]
 - [[Gauthier2026-iq]]
+- [[Gerard2025-br]]
+- [[Gerbaudo2026-fo]]
 - [[Ghezzi2023-8bebc91f]]
+- [[Giglietto2017-4375de2f]]
 - [[Giglietto2019-882f1900]]
+- [[Giglietto2019-e9be81c1]]
+- [[Giglietto2020-6278a4aa]]
+- [[Giglietto2026-632ef967]]
+- [[Goldberg2026-eb]]
+- [[Gonzalez-Bailon2024-rq]]
 - [[Green2025-ap]]
 - [[Grusauskaite2026-po]]
 - [[Hackenburg2026-ud]]
 - [[Hartmann2025-px]]
-- [[Jovanovic-Harrington2026-ze]]
+- [[Hollingshead2026-vx]]
+- [[Iris2026-pg]]
+- [[Jaidka2026-sl34]]
 - [[Kalsnes2025-zb]]
 - [[Karlsson2026-hd]]
 - [[Kim2026-wg]]
 - [[Knupfer2025-vt]]
 - [[Kristensen2025-ni]]
 - [[Kulichkina2025-sl09]]
+- [[Lai2024-to]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]
@@ -54,16 +69,21 @@ Analysis of partisan community dynamics, affective engagement, and polarization 
 - [[Marino2026-slef]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]
+- [[McNally2025-dn]]
 - [[Mosleh2024-op]]
-- [[Prochaska2025-ef]]
+- [[Nangle2026-yo]]
+- [[Oswald2025-km]]
+- [[Renault2025-uh]]
+- [[Rieder2026-pp]]
 - [[Rodarte2026-dk]]
+- [[Rohrbach2026-rc]]
 - [[Rossini2026-jn]]
 - [[Rossini2026-mj]]
-- [[Rothut2026-wt]]
+- [[Rothut2026-or]]
 - [[Sarmiento2025-as]]
 - [[Schemer2026-mh]]
-- [[Smith2025-kc]]
 - [[Starbird2025-jj]]
+- [[Suau_Martinez2026-lv]]
 - [[Tai2026-qk]]
 - [[Tornberg2025-ir]]
 - [[Trilling2024-slc8]]
@@ -80,6 +100,6 @@ Analysis of partisan community dynamics, affective engagement, and polarization 
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "political-polarization-and-partisanship")
+WHERE contains(topics, "polarization-partisanship")
 SORT discovery_date DESC
 ```

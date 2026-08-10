@@ -5,7 +5,7 @@ authors: ["William J. Brady", "Meriel Doyle", "Abdo Elnakouri", "Eli J. Finkel",
 year: 2026
 doi: 10.1038/s41586-026-10536-1
 bibtex_key: Brady2026-ln
-topics: [platform-governance-and-content-moderation, political-polarization-and-partisanship]
+topics: [polarization-partisanship, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1038/s41586-026-10536-1

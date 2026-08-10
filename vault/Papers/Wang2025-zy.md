@@ -5,7 +5,7 @@ authors: ["Weili Wang", "John Downey"]
 year: 2025
 doi: 10.1177/09636625251328518
 bibtex_key: Wang2025-zy
-topics: [ai-industry-imaginaries-and-discourse]
+topics: [ai-industry-imaginaries-and-discourse, cross-national-disinformation-monitoring]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.1177/09636625251328518

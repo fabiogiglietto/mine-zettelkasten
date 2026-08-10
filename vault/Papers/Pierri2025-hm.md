@@ -5,7 +5,7 @@ authors: ["Francesco Pierri", "Theo Araujo", "Sanne Kruikemeier", "Philipp Loren
 year: 2025
 doi: 10.48550/arxiv.2512.14223
 bibtex_key: Pierri2025-hm
-topics: [platform-data-access-and-methods, platform-governance-and-content-moderation]
+topics: [platform-data-access-governance, information-disorder-theory]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.48550/arxiv.2512.14223

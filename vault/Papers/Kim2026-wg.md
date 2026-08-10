@@ -5,7 +5,7 @@ authors: ["Young Mie Kim", "Ross Dahlke", "Hyebin Song", "Richard Heinrich"]
 year: 2026
 doi: 10.1073/pnas.2519944123
 bibtex_key: Kim2026-wg
-topics: [coordinated-inauthentic-behavior, political-polarization-and-partisanship]
+topics: [coordinated-inauthentic-behavior, polarization-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1073/pnas.2519944123

@@ -5,7 +5,7 @@ authors: ["David Hartmann", "Sonja Mei Wang", "Lena Pohlmann", "Bettina Berendt"
 year: 2025
 doi: 10.1007/s42001-025-00381-z
 bibtex_key: Hartmann2025-px
-topics: [meta-science-of-misinformation-research, political-polarization-and-partisanship]
+topics: [meta-science-of-misinformation-research, polarization-partisanship]
 citation_count: 30
 open_access: false
 source_url: https://doi.org/10.1007/s42001-025-00381-z

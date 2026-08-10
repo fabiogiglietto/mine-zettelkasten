@@ -5,7 +5,7 @@ authors: ["Matthew DiGiuseppe", "Joshua Robison"]
 year: 2026
 doi: 10.48550/arxiv.2602.18092
 bibtex_key: DiGiuseppe2026-pu
-topics: [political-polarization-and-partisanship, llms-in-computational-content-analysis]
+topics: [ai-social-theory-trust, polarization-partisanship]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.48550/arxiv.2602.18092

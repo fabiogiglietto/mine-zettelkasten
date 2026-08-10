@@ -5,7 +5,7 @@ authors: ["Dániel Szabó", "Chi-Lan Yang", "Aku Visuri", "Jonas Oppenlaender", 
 year: 2026
 doi: 10.1145/3772318.379095
 bibtex_key: Szabo2026-rd
-topics: [llms-in-computational-content-analysis, meta-science-of-misinformation-research]
+topics: [generative-ai-disinformation, information-disorder-theory]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1145/3772318.379095

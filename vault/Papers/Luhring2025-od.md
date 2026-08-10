@@ -5,7 +5,7 @@ authors: ["Jula Lühring", "Hannah Metzler", "Ruggero Lazzaroni", "Apeksha Shett
 year: 2025
 doi: 10.51685/jqd.2025.003
 bibtex_key: Luhring2025-od
-topics: [meta-science-of-misinformation-research, platform-data-access-and-methods]
+topics: [meta-science-of-misinformation-research, information-disorder-theory]
 citation_count: 4
 open_access: false
 source_url: https://doi.org/10.51685/jqd.2025.003

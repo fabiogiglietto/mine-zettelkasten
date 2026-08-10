@@ -5,7 +5,7 @@ authors: ["J. Nathan Matias", "Megan Price"]
 year: 2025
 doi: 10.1073/pnas.2421111122
 bibtex_key: Matias2025-px
-topics: [llms-in-computational-content-analysis, meta-science-of-misinformation-research]
+topics: [meta-science-of-misinformation-research, ai-social-theory-trust]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.1073/pnas.2421111122

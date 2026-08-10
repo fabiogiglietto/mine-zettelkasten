@@ -5,7 +5,7 @@ authors: ["Alice Marwick", "Courtlyn Pippert", "Katherine Furl", "Elaine Schnabe
 year: 2025
 doi: 10.1177/20563051251357483
 bibtex_key: Marwick2025-ov
-topics: [information-disorder-and-disinformation, platforms-audiences-and-online-communities]
+topics: [information-disorder-theory, platforms-audiences-and-online-communities]
 citation_count: 4
 open_access: false
 source_url: https://doi.org/10.1177/20563051251357483
