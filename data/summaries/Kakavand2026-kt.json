@@ -1,0 +1,35 @@
+{
+  "abstract": "This study examines how five social media platforms—Facebook, Twitter, Instagram, YouTube, and Telegram—give rise to different network structures among German far-right actors. Using snowball sampling starting from a seed list of prominent far-right accounts and platform-specific connectors (retweets, forwards, shares, mentions, subscriptions), the authors conduct network analyses to characterize each platform's structure and key actors. They interpret the resulting patterns through the lens of technology affordances—especially connectivity, replicability, and scalability—arguing that affordances are relational sociotechnical outcomes rather than fixed platform properties. The findings show that far-right actors do not reproduce the same networks across platforms but adapt their practices to each platform's affordances.",
+  "key_claims": [
+    "Far-right network structures differ substantially across social media platforms in size, cohesion, reciprocity, and dominant actors.",
+    "Technology affordances (connectivity, replicability, scalability) are relational and sociotechnical outcomes of the interaction between platform design and user practice, not fixed features of technology.",
+    "Actors do not simply reproduce identical networks using different technical features; they adapt communication practices to platform-specific affordances, so even text-based platforms with similar connectors produce distinct networks.",
+    "Network ties reflect dynamics of amplification, replication, and visibility rather than simply ideological alignment.",
+    "Single-platform studies capture only a limited part of a broader multi-platform communication ecosystem, so generalizing across platforms is unwarranted."
+  ],
+  "methods": [
+    "Multi-platform, exploratory case-study design across Facebook, Twitter, Instagram, YouTube, and Telegram focused on the German-speaking far right during six months of 2022.",
+    "Snowball sampling from a curated seed list of ~28–43 prominent far-right actors per platform (politicians, parties such as the AfD, journalists, alternative media, activists), compiled from prior research, official reports, and media coverage and vetted by expert scholars.",
+    "Three iterations of following platform-specific connectors, with the final iteration retaining only nodes that link back to already-collected actors to create network closure.",
+    "Platform-specific visible connectors used as edges: retweets/mentions (Twitter), shared posts (Facebook), forwarded messages (Telegram), mentions/tags in captions (Instagram), and channel subscriptions (YouTube).",
+    "Data collected via platform APIs (Twitter API v2, CrowdTangle for Facebook/Instagram, Google API for YouTube, Telegram API supplemented with the Telethon package); analysis in Python using NetworkX, visualization in Gephi.",
+    "Size-robust network measures: weakly connected components, reciprocity, average (unweighted) clustering coefficient, and modularity (Louvain on undirected graphs); node-level roles via HITS (hubs/authorities) and betweenness centrality (brokers), mapped to affordances (connectivity, replicability, scalability)."
+  ],
+  "findings": [
+    "Twitter hosts by far the largest, loosely connected network (42,389 nodes; 7,746,448 edges; one component) with low clustering (0.154) and very low reciprocity (0.062), functioning as an international, outward-oriented broadcast arena where authority scores exceed hub scores, suggesting the importance of scalability.",
+    "Telegram is the second largest (8,397 nodes; 449,037 edges; one component) with higher clustering (0.224) but low reciprocity (0.072); it is inward-oriented, dominated by fringe and conspiracy topics, with differentiated content producers, amplifiers, and brokers.",
+    "YouTube (5,183 nodes; 30,947 edges; two components) shows low clustering (0.131) and reciprocity (0.053); its communities are organized by shared genres and topics (e.g., cooking linked to 'Day X' prepping), forming looser, indirect connectivity that may act as a gateway to radicalization.",
+    "Instagram (843 nodes; 3,040 edges; six components) has the highest reciprocity (0.263), clustering (0.230), and modularity (0.742), forming fragmented echo chambers; mainstream political/media accounts (e.g., ZDFheute, the chancellor) dominate while a tightly connected AfD cluster sits at the periphery.",
+    "Facebook is the smallest network (625 nodes; 2,809 edges) and is strongly dominated by the AfD with a hierarchical division of labor—federal-level accounts act as content authorities while local accounts amplify as hubs—indicating higher replicability and organized, party-coordinated connectivity.",
+    "Twitter's international, heterogeneous network contrasts with prior research suggesting far-right ties usually remain within national boundaries and extend beyond politicians and journalists."
+  ],
+  "contributions": [
+    "Provides one of the few large-scale, multi-platform comparative analyses of far-right networks across five major platforms simultaneously.",
+    "Demonstrates how network analysis can be used to infer and operationalize technology affordances, mapping specific measures (e.g., HITS, betweenness, reciprocity, modularity) onto connectivity, replicability, and scalability.",
+    "Advances an understanding of affordances as relational sociotechnical outcomes, showing empirically that identical or near-equivalent features produce divergent networks depending on social use.",
+    "Offers a transparent methodological template (seed lists, snowball procedure, platform-specific connectors, code, and OSF materials) while candidly documenting data-access and comparability limitations for future multi-platform research.",
+    "Informs academic, civic, and political actors about far-right networking practices to support more targeted responses to anti-democratic online communication."
+  ],
+  "framing": "The paper positions itself within the affordance-theory tradition of digital media and platform studies (Evans et al., boyd, Bossetta, Kakavand) and within research on far-right online communication and networks (Pirro, Heft et al., Caiani). It advances the case for multi-platform research over single-platform studies, arguing that the far-right online ecosystem must be understood as a network of complementary platforms whose distinct affordances shape communication.",
+  "pdf_source": "drive"
+}

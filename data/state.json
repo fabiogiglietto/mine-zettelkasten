@@ -3691,10 +3691,26 @@
       "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
       "last_processed": "2026-08-07T09:40:05.753948+00:00"
+    },
+    "bibtex:Kakavand2026-kt": {
+      "note_path": "Papers/Kakavand2026-kt.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "cross-national-disinformation-monitoring"
+      ],
+      "assign_fp": "09fe3189a4ce32f9a1ec9cd8996faffa79e9455feaadab8c6a4e2ee34cf6b9e0",
+      "doi": "10.1080/19331681.2026.2697186",
+      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+      "pdf_source": "drive",
+      "content_hash": "c1862b2e1be78c06f8c037b9ad9fa7e4568bfa536124f0231011d5dd98089001",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-11T07:50:15.719282+00:00"
     }
   },
   "last_full_cluster": "2026-08-10T05:47:30.300978+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "327b66d1dca426ac9c199db32dbb5bc83a8c4f4af0d0473b354468b435717cf2",
   "emergent_fp": "cae59407d3b6f647073c13db95769bb4cc282837bb342c0e191a700950129ecb",
   "structure_fps": {

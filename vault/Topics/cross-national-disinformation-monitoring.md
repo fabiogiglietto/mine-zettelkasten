@@ -24,6 +24,7 @@ Comparative international projects tracking coordinated behavior and political i
 - [[Iris2026-pg]]
 - [[Jovanovic-Harrington2026-ze]]
 - [[Jurg2025-ur]]
+- [[Kakavand2026-kt]]
 - [[Kansaon2025-id]]
 - [[Kim2026-br]]
 - [[Kulichkina2026-zk]]

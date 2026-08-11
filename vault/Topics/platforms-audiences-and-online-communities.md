@@ -31,6 +31,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Grusauskaite2026-po]]
 - [[Helmond2026-ll]]
 - [[Hollingshead2026-vx]]
+- [[Kakavand2026-kt]]
 - [[Kristensen2025-ni]]
 - [[Luceri2025-tr]]
 - [[Marwick2011-sl02]]
