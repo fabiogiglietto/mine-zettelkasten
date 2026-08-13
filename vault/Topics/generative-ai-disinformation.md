@@ -26,6 +26,7 @@ Emerging work on how generative AI reshapes information operations and persuasio
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Szabo2026-rd]]
+- [[Tang2026-gu]]
 - [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
 - [[Wack2026-bt]]

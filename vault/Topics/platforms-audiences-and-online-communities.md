@@ -45,6 +45,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Smith2025-kc]]
 - [[Sofia2012-802a21dc]]
 - [[Swartz2026-zb]]
+- [[Tang2026-gu]]
 - [[Tornberg2026-lc]]
 - [[Volpe2026-um]]
 - [[Wang2026-ub]]

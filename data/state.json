@@ -3707,10 +3707,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-12T06:07:48.201386+00:00"
+    },
+    "bibtex:Tang2026-gu": {
+      "note_path": "Papers/Tang2026-gu.md",
+      "topics": [
+        "generative-ai-disinformation",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "d845d5c63b207526c51f80f8f80a2c9bb2d4ee206169b5e2258e74c810c86f7f",
+      "doi": "10.1007/s00146-026-03254-9",
+      "title": "Behind the “AI slop”: exploring the AI-generated viral short video production in China",
+      "pdf_source": "abstract_only",
+      "content_hash": "be4b94ec34c9ed72fbd84121d23c6ea6f5141ad3c12541e29d5d364fa90cdee0",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-13T06:00:21.136529+00:00"
     }
   },
   "last_full_cluster": "2026-08-10T05:47:30.300978+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "327b66d1dca426ac9c199db32dbb5bc83a8c4f4af0d0473b354468b435717cf2",
   "emergent_fp": "cae59407d3b6f647073c13db95769bb4cc282837bb342c0e191a700950129ecb",
   "structure_fps": {
