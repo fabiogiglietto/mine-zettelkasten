@@ -1,0 +1,39 @@
+{
+  "abstract": "This paper tests whether disclosing that a chatbot is AI, versus additionally disclosing its persuasive intent and instructions, affects the chatbot's ability to shift political attitudes. In a preregistered three-arm experiment with 1,500 UK adults conversing with an identical persuasive chatbot about assigned policy issues, the authors find that a prominent AI-identity label (mirroring EU AI Act Article 50) does not meaningfully reduce persuasion, whereas disclosing the chatbot's persuasive intent and instructions cuts the persuasive effect roughly in half. The intent disclosure also raised persuasion knowledge, increased counterarguing, and led participants to judge the campaign and its sponsor more harshly. The authors argue that meaningful transparency for persuasive AI must reveal what a system is trying to do, not merely that it is AI.",
+  "key_claims": [
+    "Disclosing AI identity alone (as required by EU AI Act Article 50) does not meaningfully reduce a chatbot's persuasive influence in direct interactions.",
+    "Disclosing the chatbot's persuasive intent and instructions cuts its persuasive effect roughly in half.",
+    "What makes covert AI influence objectionable is concealed purpose, not merely the machine source, so regulation must address intent as well as identity.",
+    "Intent disclosure works because it supplies non-self-evident information that triggers persuasion knowledge and critical processing.",
+    "The regulatory logic of political advertising rules (Regulation (EU) 2024/900), which requires disclosing purpose and targeting logic, is a more promising template for persuasive AI than content-authenticity labeling.",
+    "Intent disclosure also carries a cost for deployers: participants penalized the campaign and sponsor behind the chatbot."
+  ],
+  "methods": [
+    "Preregistered three-arm online experiment with 1,500 UK adults recruited via Prolific (quotas for sex, age, and party), fielded 26–31 July 2026, before Article 50 became applicable.",
+    "Design and procedures adapted from Hackenburg et al. (2025); participants reported an attitude on one randomly assigned policy issue (from 60 UK policy stances selected for strong persuadability), held a 2–6 turn conversation with a persuasive chatbot (gpt-5.6-terra), then reported attitudes and other outcomes.",
+    "Three arms: control (no disclosure), T1 (prominent EU 'AI-generated content' label plus persistent banner, Article 50(1) logic), and T2 (same label plus disclosure of the chatbot's persuasive intent and verbatim instructions).",
+    "The chatbot and server were identical across arms and never received the experimental condition, so only the survey-platform disclosure varied.",
+    "Analysis via preregistered linear mixed models with random intercepts for policy issue, Holm correction within hypothesis families, and equivalence tests (two one-sided tests, TOST) with preregistered bounds (±3.7 points for persuasion).",
+    "Attitude measured as a three-item composite on a 0–100 scale; additional outcomes included warmth, perceived manipulation, persuasion knowledge, anger, counterarguing, campaign acceptability, and sponsor penalty.",
+    "Supplementary analyses included AI-text detection (Pangram 4) robustness checks, instrumental-variable/complier analyses, behavioral traces of disagreement in chats, and a fact-checking pipeline measuring claim density and accuracy."
+  ],
+  "findings": [
+    "The chatbot shifted attitudes by 12.6 points (control) and 13.1 points (T1) on the 0–100 scale; the T1–control difference was within the ±3.7-point equivalence region (b = 0.06, 90% CI [-1.97, 2.08], pTOST = .002).",
+    "The AI label did not meaningfully change warmth or perceived manipulation (both passed equivalence tests) and did not significantly raise persuasion knowledge.",
+    "Intent disclosure (T2) reduced persuasion by about 6.8 points versus both control and T1, cutting the average shift to 6.3 points; the protective effect was negative for all 60 issues.",
+    "T2 raised persuasion knowledge most strongly (b = 0.71 on a 7-point scale, d = 0.49), increased perceived manipulation and counterarguing, and rated the chatbot about 5 points colder.",
+    "Anger did not rise significantly and stayed near the scale floor across all arms; responses were more cognitive than emotional.",
+    "T2 participants viewed the campaign's methods as less acceptable and supported stronger penalties against the sponsor; the AI label did not trigger such penalties.",
+    "97.8% of T1 participants recalled the AI label, but 98–99% across all arms (including control) already identified their partner as an AI chatbot, so the label conveyed little new information.",
+    "The chatbot produced a high density of factual claims (~2.01 per message) with 95.7% classified as accurate, indicating persuasion was based largely on accurate information rather than misinformation."
+  ],
+  "contributions": [
+    "Provides the first direct experimental comparison of an Article 50(1)-style AI-identity disclosure against an intent-plus-instructions disclosure within a live persuasive chatbot interaction.",
+    "Demonstrates empirically that current AI-identity labeling has minimal effect on persuasion in direct chatbot interactions, extending prior null findings for static AI-generated messages.",
+    "Introduces and validates 'meaningful transparency of intent' as a policy-relevant alternative, drawing on the logic of political advertising regulation.",
+    "Documents a downstream tradeoff: intent disclosure reduces persuasion but generates sponsor penalties, informing debates about legitimate versus illegitimate AI persuasion.",
+    "Offers preregistered, robust evidence (with AI-detection and IV robustness checks) directly comparable to Hackenburg et al. (2025)."
+  ],
+  "framing": "The paper sits at the intersection of AI governance, political communication, and the psychology of persuasion, engaging directly with the EU AI Act (Article 50) and Regulation (EU) 2024/900 on political advertising. It draws on the persuasion knowledge model (Friestad & Wright) and reactance theory to argue that disclosure changes behavior only when it reveals non-self-evident intent, positioning itself within an emerging empirical literature on the persuasive power of conversational AI and the effectiveness of transparency mandates.",
+  "pdf_source": "drive"
+}

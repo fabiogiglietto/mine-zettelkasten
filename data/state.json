@@ -3718,15 +3718,31 @@
       "doi": "10.1007/s00146-026-03254-9",
       "title": "Behind the “AI slop”: exploring the AI-generated viral short video production in China",
       "pdf_source": "abstract_only",
-      "content_hash": "be4b94ec34c9ed72fbd84121d23c6ea6f5141ad3c12541e29d5d364fa90cdee0",
+      "content_hash": "de429a84ead9b3180bb09913f40bb256358dd5700eb90a076fc98e324404cab4",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-15T07:35:18.524666+00:00"
+    },
+    "bibtex:Rauchfleisch2026-fa": {
+      "note_path": "Papers/Rauchfleisch2026-fa.md",
+      "topics": [
+        "generative-ai-disinformation",
+        "ai-social-theory-trust"
+      ],
+      "assign_fp": "f54b1e42f6fd03686ba5b674896a5d19120c5ffaf09a2238b68126474646d265",
+      "doi": "",
+      "title": "Toward meaningful transparency for AI chatbots: Disclosing persuasive intent reduces persuasion",
+      "pdf_source": "drive",
+      "content_hash": "07028edfe980446860389b6606818ab62d07053f765d3fb2a02ab00b44dd0ac2",
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-13T06:00:21.136529+00:00"
+      "last_processed": "2026-08-15T07:35:18.524639+00:00"
     }
   },
   "last_full_cluster": "2026-08-10T05:47:30.300978+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "327b66d1dca426ac9c199db32dbb5bc83a8c4f4af0d0473b354468b435717cf2",
   "emergent_fp": "cae59407d3b6f647073c13db95769bb4cc282837bb342c0e191a700950129ecb",
   "structure_fps": {
