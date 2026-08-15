@@ -9,7 +9,7 @@ topics: [ai-social-theory-trust]
 citation_count: 8
 open_access: false
 source_url: https://doi.org/10.1177/07352751241289925
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Anicker2024-vp.mp3
 pdf_available: false
 discovery_date: 2026-07-29T07:21:08.199636Z
 ---
@@ -22,25 +22,29 @@ discovery_date: 2026-07-29T07:21:08.199636Z
 
 ## Summary
 
-This paper tackles what the authors call the "demarcation problem" in social theory: whether and how artificial intelligence systems can count as agents. Rather than treating agency as an intrinsic property residing inside a system, the authors advance a relational, practice-based account in which agency is a *social status* — a socially granted and monitored license to issue actions, conferred through ongoing social practices. On this foundation they build theoretical criteria for distinguishing agents from nonagents according to socially attributed abilities, and propose a "matrix of AI agency" as an organizing framework. The intervention is explicitly directed against essentialist conceptions of agency, arguing that the rise of AI makes the question of machine agency an urgent conceptual concern.
+This paper tackles the question of whether AI systems can be considered agents by reframing it as a "demarcation problem" in social theory. Against essentialist views that treat agency as an intrinsic property of a system, the authors advance a relational, practice-based account: agency is a *social status*—a socially granted and monitored license to issue actions, acquired through social practices rather than possessed as an internal capacity. On this foundation they develop principled criteria to distinguish agents from nonagents based on socially attributed abilities, and organize these into what they call a "matrix of AI agency."
 
 ## Key Contributions
 
-- Reconceptualizes agency as a socially granted license rather than an inherent quality of a system.
-- Formulates principled criteria for demarcating agents from nonagents based on socially attributed abilities.
-- Introduces a "matrix of AI agency" as an analytical framework within social theory.
-- Frames machine agency as a live and pressing theoretical problem for the social sciences.
+- Reconceptualizes agency as a socially conferred license to act rather than an inherent quality of a system.
+- Provides theoretical criteria for demarcating agents from nonagents, applicable to AI.
+- Introduces a "matrix of AI agency" as an organizing framework within social theory.
+- Positions the urgent question of machine agency squarely within established debates on the nature of agency.
 
 ## Methods
 
-The work is conceptual and theoretical, grounded in social theory. The authors proceed by (1) reframing agency relationally as a licensed, monitored social status; (2) deriving demarcation criteria distinguishing agents from nonagents on the basis of attributed capacities; and (3) organizing these criteria into a matrix framework for assessing AI systems.
+Conceptual and theoretical analysis grounded in social theory. The authors derive demarcation criteria from a relational account of agency, distinguishing agents from nonagents by their socially attributed abilities, and synthesize these criteria into a matrix framework for classifying AI systems.
 
 ## Findings
 
-- Reframing agency as a social status yields a workable, principled set of criteria for separating agents from nonagents.
-- Machine agency is best assessed in terms of socially attributed capacities and licensing, not internal system properties.
-- Essentialist accounts of agency are inadequate for handling the ambiguous status of AI systems.
+- Treating agency as a social status yields a workable set of criteria for distinguishing agents from nonagents.
+- Machine agency should be assessed through socially attributed capacities and licensing, not through internal system properties.
+- A principled, non-essentialist demarcation between agents and nonagents is theoretically defensible and useful for analyzing AI.
 
 ## Connections
 
-This paper's social-theoretic, systems-oriented reframing of agency sits somewhat apart from the empirically driven media and platform studies clustered under this topic; none of the listed papers share its core concern with the demarcation of AI agency in social theory, so the connection is thematic rather than direct.
+This is a foundational social-theoretic contribution to how we conceptualize AI as a social actor rather than an empirical study of AI behavior or perception, so its links to the more applied work under this topic are conceptual rather than methodological. Its account of agency as a socially attributed and monitored status offers a theoretical scaffold for empirical debates on how people ascribe capacities to, and place trust in, AI systems, but no other paper in the provided set shares its explicit demarcation-problem framing.
+
+## Podcast
+
+A [research-radio](https://fabiogiglietto.github.io/research-radio/) episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Anicker2024-vp.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX)
