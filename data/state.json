@@ -3739,10 +3739,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-16T05:20:18.236019+00:00"
+    },
+    "bibtex:Sbaraini-Fontes2026-cw": {
+      "note_path": "Papers/Sbaraini-Fontes2026-cw.md",
+      "topics": [
+        "ai-social-theory-trust",
+        "social-media-audience-engagement"
+      ],
+      "assign_fp": "28114fa1f9815843f3e1bb36505a0fb2b9efa49c74e3234cb3c0d7a668f18986",
+      "doi": "10.1177/02673231261473432",
+      "title": "Trust beyond algorithms: What drives Italian audiences’ perceptions of search results and news produced with AI",
+      "pdf_source": "abstract_only",
+      "content_hash": "f2f8e7892f92132beeb85bfb53e7f05515948814ed05f56d773781735be45605",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-16T07:34:13.428490+00:00"
     }
   },
   "last_full_cluster": "2026-08-10T05:47:30.300978+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "327b66d1dca426ac9c199db32dbb5bc83a8c4f4af0d0473b354468b435717cf2",
   "emergent_fp": "cae59407d3b6f647073c13db95769bb4cc282837bb342c0e191a700950129ecb",
   "structure_fps": {

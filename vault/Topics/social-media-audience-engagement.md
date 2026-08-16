@@ -21,6 +21,7 @@ Long-running research strand on how audiences engage with media content via soci
 - [[Iannelli2015-e0818c3e]]
 - [[Kalsnes2025-zb]]
 - [[Marwick2011-sl02]]
+- [[Sbaraini-Fontes2026-cw]]
 - [[Volpe2026-um]]
 - [[Wang2026-ub]]
 - [[Wedel2026-ix]]

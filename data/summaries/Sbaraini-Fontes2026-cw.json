@@ -1,0 +1,23 @@
+{
+  "abstract": "This article investigates what shapes audience trust in different configurations of AI use within the information ecosystem, distinguishing between AI as an intermediary producing automated search results and AI embedded within news organizations. Drawing on a representative survey of Italian adults conducted in September 2025, the study compares trust patterns across these two contexts. The findings indicate that AI-generated search results are trusted more than AI-produced news, pointing to the growing role of automated search intermediaries in the information environment.",
+  "key_claims": [
+    "Audience trust in AI varies depending on the configuration in which AI is deployed within the information ecosystem.",
+    "AI-generated search results are trusted more than AI-produced news among Italian audiences.",
+    "Automated search intermediaries occupy an increasingly significant role in how audiences access and trust information."
+  ],
+  "methods": [
+    "Representative survey of Italian adults conducted in September 2025.",
+    "Analysis of trust patterns across two AI configurations: AI as an intermediary in automated search results and AI embedded in news organizations."
+  ],
+  "findings": [
+    "AI-generated search results receive higher trust than AI-produced news.",
+    "The difference in trust highlights the growing prominence of automated search as an information intermediary (further detail truncated in the available abstract)."
+  ],
+  "contributions": [
+    "Provides empirical evidence on audience trust in AI across distinct use cases within the information ecosystem.",
+    "Offers a comparative perspective distinguishing AI as a search intermediary versus AI embedded in news production.",
+    "Contributes national-level (Italian) survey data on public perceptions of AI-mediated information."
+  ],
+  "framing": "The paper is positioned within research on audience trust, journalism studies, and the role of AI in the information ecosystem, engaging with debates about how automation and intermediaries shape public perceptions of news and search.",
+  "pdf_source": "abstract_only"
+}

@@ -23,6 +23,7 @@ Papers that apply or extend social theory and communication-trust frameworks to 
 - [[Nguyen2026-vm]]
 - [[Ptz2024-sl20]]
 - [[Rauchfleisch2026-fa]]
+- [[Sbaraini-Fontes2026-cw]]
 - [[Stanusch2026-ec]]
 - [[Suk2026-ai]]
 - [[Unknown2025-qj]]
