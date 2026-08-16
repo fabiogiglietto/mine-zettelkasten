@@ -3734,11 +3734,11 @@
       "doi": "",
       "title": "Toward meaningful transparency for AI chatbots: Disclosing persuasive intent reduces persuasion",
       "pdf_source": "drive",
-      "content_hash": "07028edfe980446860389b6606818ab62d07053f765d3fb2a02ab00b44dd0ac2",
-      "podcast_linked": false,
+      "content_hash": "e8dc9e1a99d27ff61dff404ce50dc378dda39362f9fce206fe6eb2267692e194",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-15T07:35:18.524639+00:00"
+      "last_processed": "2026-08-16T05:20:18.236019+00:00"
     }
   },
   "last_full_cluster": "2026-08-10T05:47:30.300978+00:00",
