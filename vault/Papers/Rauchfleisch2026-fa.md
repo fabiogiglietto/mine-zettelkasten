@@ -5,7 +5,7 @@ authors: ["Adrian Rauchfleisch", "Andreas Jungherr"]
 year: 2026
 doi: 
 bibtex_key: Rauchfleisch2026-fa
-topics: [generative-ai-disinformation, ai-social-theory-trust]
+topics: [ai-social-theory-trust, platform-governance-content-moderation]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2608.11794v1

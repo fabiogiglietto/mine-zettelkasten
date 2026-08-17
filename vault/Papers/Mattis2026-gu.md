@@ -5,7 +5,7 @@ authors: ["Nicolas Mattis", "Kimon Kieslich", "Claes Holger de Vreese"]
 year: 2026
 doi: 10.1080/21670811.2026.2703599
 bibtex_key: Mattis2026-gu
-topics: [ai-social-theory-trust, generative-ai-disinformation]
+topics: [ai-social-theory-trust, llms-in-content-analysis]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1080/21670811.2026.2703599

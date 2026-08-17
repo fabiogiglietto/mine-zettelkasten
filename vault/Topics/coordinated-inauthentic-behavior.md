@@ -6,7 +6,7 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection and analysis of coordinated link-sharing and inauthentic network behavior on social media, the researcher's signature methodological contribution (CooRnet, CLSB) now extended into automated alerting and encyclopedic/handbook treatments of coordination and manipulation.
+Detection and analysis of coordinated link-sharing and inauthentic network activity on social media platforms, including the CLSB methodology, CooRnet/CooRTweet tools, and the VERA-AI Alert monitoring system. This is the researcher's signature methodological contribution and remains the most actively developed line of work.
 
 ## Papers
 
@@ -16,7 +16,6 @@ Detection and analysis of coordinated link-sharing and inauthentic network behav
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
 - [[Copland2025-em]]
-- [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
@@ -29,7 +28,6 @@ Detection and analysis of coordinated link-sharing and inauthentic network behav
 - [[Giglietto2026-9b6a992d]]
 - [[Goel2025-iq]]
 - [[Graham2025-gp]]
-- [[Graham2026-fb]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
 - [[Kansaon2025-id]]
@@ -42,17 +40,16 @@ Detection and analysis of coordinated link-sharing and inauthentic network behav
 - [[Kuznetsova2025-nu]]
 - [[Luceri2025-tr]]
 - [[Mannocci2025-ig]]
-- [[Marino2023-9137f448]]
 - [[Minici2024-tf]]
 - [[Oprea2025-lf]]
 - [[Orlando2025-ul]]
 - [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
-- [[Prochaska2025-ef]]
 - [[Righetti2025-sl2a]]
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
+- [[Rogers2026-cy]]
 - [[Rothut2026-or]]
 - [[Schroeder2026-im]]
 - [[Simeone2025-vo]]

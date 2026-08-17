@@ -5,7 +5,7 @@ authors: ["Tiago Ventura", "Rajeshwari Majumdar", "Jonathan Nagler", "Joshua Tuc
 year: 2025
 doi: 10.1086/737172
 bibtex_key: Ventura2025-sw
-topics: [cross-national-disinformation-monitoring, information-disorder-theory]
+topics: [meta-science-of-misinformation-research, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1086/737172

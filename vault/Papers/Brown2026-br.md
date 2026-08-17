@@ -5,7 +5,7 @@ authors: ["Megan A. Brown", "James Bisbee", "Angela Lai", "Richard Bonneau", "Jo
 year: 2026
 doi: 10.1080/10584609.2026.2671765
 bibtex_key: Brown2026-br
-topics: [polarization-partisanship, computational-text-methods-llm]
+topics: [political-polarization-partisanship, platform-governance-content-moderation]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2671765

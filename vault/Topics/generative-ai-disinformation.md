@@ -6,29 +6,26 @@ emergent: false
 
 # Generative AI & Synthetic Disinformation
 
-Emerging work on how generative AI reshapes information operations and persuasion tactics — synthetic visual persuasion in coordinated gambling promotion, LLM-driven deceptive campaigns, and the broader long-term effects of AI-generated content on public discourse — paired with a new graduate course on generative AI and media.
+Study of how generative AI is used to produce and evolve visual and textual persuasion in coordinated disinformation and scam campaigns (e.g., gambling promotion, deceptive information operations), and the countermeasures needed to detect them.
 
 ## Papers
 
 - [[Beacken2026-zb]]
 - [[Choi2026-bz]]
 - [[Costello2024-bg]]
-- [[Dierickx2026-tw]]
 - [[Emilio2026-ik]]
+- [[Giada2026-fc9a3833]]
 - [[Giglietto2026-9b6a992d]]
 - [[Hackenburg2025-dj]]
 - [[Hackenburg2026-ud]]
 - [[Hameleers2026-mc]]
-- [[Kotz2026-lk]]
+- [[Hollingshead2026-vx]]
 - [[Lin2025-xp]]
-- [[Mattis2026-gu]]
 - [[Orlando2025-ul]]
-- [[Rauchfleisch2026-fa]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
-- [[Szabo2026-rd]]
+- [[Swartz2026-zb]]
 - [[Tang2026-gu]]
-- [[Tornberg2026-lc]]
 - [[Triedman2025-uy]]
 - [[Wack2026-bt]]
 - [[Waight2026-ts]]

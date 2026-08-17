@@ -5,7 +5,7 @@ authors: ["Paul Bouchaud", "Pedro Ramaciotti"]
 year: 2026
 doi: 10.1126/sciadv.aee6932
 bibtex_key: Bouchaud2026-np
-topics: [platform-data-access-governance, polarization-partisanship]
+topics: [platform-governance-content-moderation, italian-electoral-communication]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1126/sciadv.aee6932

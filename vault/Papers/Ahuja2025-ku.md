@@ -5,7 +5,7 @@ authors: ["Sanju Ahuja", "Johanna Gunawan", "Nataliia Bielova", "Cristiana Santo
 year: 2026
 doi: 10.1145/3772318.3791479
 bibtex_key: Ahuja2025-ku
-topics: [platform-data-access-governance]
+topics: [platform-governance-content-moderation]
 citation_count: 1
 open_access: true
 source_url: https://doi.org/10.1145/3772318.3791479

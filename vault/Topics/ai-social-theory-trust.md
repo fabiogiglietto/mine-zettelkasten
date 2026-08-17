@@ -13,9 +13,13 @@ Papers that apply or extend social theory and communication-trust frameworks to 
 - [[Anicker2024-vp]]
 - [[DiGiuseppe2026-pu]]
 - [[Dubey2026-bl]]
+- [[Emilio2026-ik]]
 - [[Fattorini2026-bo]]
 - [[Gilardi2026-hw]]
+- [[Goldberg2026-eb]]
 - [[Gottfried2026-ww]]
+- [[Hackenburg2025-dj]]
+- [[Hackenburg2026-ud]]
 - [[Kotz2026-lk]]
 - [[Matias2025-px]]
 - [[Mattis2026-gu]]
@@ -24,10 +28,9 @@ Papers that apply or extend social theory and communication-trust frameworks to 
 - [[Ptz2024-sl20]]
 - [[Rauchfleisch2026-fa]]
 - [[Sbaraini-Fontes2026-cw]]
-- [[Stanusch2026-ec]]
 - [[Suk2026-ai]]
-- [[Unknown2025-qj]]
 - [[UnknownUnknown-db]]
+- [[Waight2026-ts]]
 
 ## All papers (Dataview)
 
