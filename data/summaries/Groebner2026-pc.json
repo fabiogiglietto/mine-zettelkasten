@@ -1,0 +1,37 @@
+{
+  "abstract": "This article investigates whether the far-right information environment on YouTube has become transnational by examining four English-speaking hyperpartisan news channels: Sky News Australia, Fox News (US), Rebel News (Canada) and GB News (UK). Using a novel data-gathering method, the author assembles metadata from 114,025 videos and over 51 million comments spanning the entire lifespans of these channels, then applies social network analysis and topic modelling. The findings reveal a highly integrated transnational far-right audience with sustained cross-channel commenter overlaps and identify specific content strategies these outlets use to attract international viewers, while highlighting the central influence of the US far right.",
+  "key_claims": [
+    "A transnational far-right audience exists on YouTube, evidenced by substantial and sustained commenter overlap between hyperpartisan news channels based in different countries.",
+    "Far-right hyperpartisan news sources adapt their content to transcend national boundaries, contributing to the transnationalisation of the far-right information ecosystem.",
+    "The United States, particularly Fox News, occupies a central hub position in this transnational network, exerting outsized influence on comparable movements in other countries.",
+    "YouTube's affordances (recommendation algorithm and monetisation) facilitate the creation of distinct transnational audiences organised around shared topics and figures.",
+    "The most engaged segment of the audience is transnational, commenting across multiple channels and showing greater persistence and activity over time.",
+    "Shared ideological pillars (nativism, authoritarianism, populism) and common enemies (e.g., transgender people, Joe Biden) function as transnational connectors reinforcing a shared far-right identity."
+  ],
+  "methods": [
+    "Novel data-gathering approach using YouTube's API Search endpoint on a per-day, per-channel basis to overcome the 20,000-video playlist limit and build a historically representative sample back to each channel's founding (videos through 31 December 2024).",
+    "Construction of a dataset of 114,025 videos (43,037 Fox News; 28,928 Sky News Australia; 21,604 Rebel News; 17,456 GB News), 103,545 with captions, and 51,449,494 top-level comments.",
+    "Method validation via a binary logistic regression predicting a video's presence in the dataset from views, likes, comments and duration, plus rolling-average plots to check for temporal decay.",
+    "Commenter overlap analysis: lifetime directed overlap network and monthly pairwise/total overlap plots, using commenters as a proxy for audience.",
+    "Co-commenting network of each channel's top 1000 videos by unique commenters, filtered to edges with >200 shared commenters, with Louvain community detection in Gephi, E-I index (Krackhardt and Stern) and Gini-Simpson diversity index.",
+    "Topic modelling of video captions with BERTopic (all-MiniLM-L6-v2 embeddings, UMAP, HDBSCAN), yielding 175 topics with topic coherence 0.61 and diversity 0.60."
+  ],
+  "findings": [
+    "Strong lifetime commenter overlap between channels: 56.22% of Sky News Australia commenters also commented on Fox News; Fox News was a major overlap target for Rebel News (44%) and GB News (38%).",
+    "Fox News is the largest and most domestic channel, with limited outward overlap (largest partner Sky News Australia at ~23%), yet is the central overlap target for the others.",
+    "Sky News Australia emerges as a central transnational hub, connecting to all other channels; its aggressive targeting of US far-right content yielded a large US audience.",
+    "Commenter overlap spikes within 2-3 months of the founding of Sky News Australia (2019) and GB News (2021), indicating a pre-existing transnational audience newly established channels could capture.",
+    "Cross-channel activity correlates with engagement: mean comments per account rise from 3 (single channel) to 97.4 (all four channels), and average time span from 155 to 1687 days.",
+    "Co-commenting network of 2,743 nodes and 121,703 edges shows communities organised by both upload period and topic; transphobia, coverage of another country's politics, and shared figures (e.g., Tommy Robinson, Piers Morgan, Douglas Murray) act as transnational bridges.",
+    "Topic modelling confirms far-right ideological content across channels: nativism/anti-immigration, authoritarianism (pro-police/crime panic), populism, Biden criticism, pro-Trump content, transphobia and royal-family coverage."
+  ],
+  "contributions": [
+    "Provides rare large-scale empirical evidence for a transnational far-right audience on YouTube, addressing a gap where prior work focused on elites, hyperlinks or limited platforms (e.g., Twitter).",
+    "Introduces a novel data-gathering method using the YouTube Search API to overcome the 20,000-video playlist cap and obtain a historically representative, whole-lifespan sample, along with a validation procedure.",
+    "Extends analysis beyond the 'Alternative Influence Network' to traditional-style hyperpartisan news outlets on YouTube that had received little scholarly attention.",
+    "Demonstrates and names specific transnationalisation strategies: focusing on another country's politics, constructing common enemies, and featuring internationally recognisable figures.",
+    "Combines commenter-overlap tracking, co-commenting network analysis with E-I and Gini-Simpson indices, and BERTopic modelling as an integrated mixed-methods approach."
+  ],
+  "framing": "The paper situates itself in the study of the transnational far right, drawing on social movement theory to treat electoral actors as only the 'tip of the iceberg' of a broader movement bound by collective identity and shared enemies. It engages with literatures on hyperpartisan (rather than 'alternative') news, network propaganda, and the far right on YouTube, positioning its audience-level analysis as an empirical complement to prior elite- and hyperlink-focused accounts of far-right transnationalisation.",
+  "pdf_source": "drive"
+}

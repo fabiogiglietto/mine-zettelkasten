@@ -33,6 +33,7 @@ Analysis of partisan communities, affective engagement, insularity, and polariza
 - [[Giglietto2019-882f1900]]
 - [[Giglietto2020-6278a4aa]]
 - [[Green2025-ap]]
+- [[Groebner2026-pc]]
 - [[Grusauskaite2026-po]]
 - [[Hartmann2025-px]]
 - [[Iris2026-pg]]

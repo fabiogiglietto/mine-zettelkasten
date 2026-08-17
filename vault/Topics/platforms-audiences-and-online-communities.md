@@ -29,6 +29,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Giglietto2017-4375de2f]]
 - [[Graham2026-fb]]
 - [[Green2025-ap]]
+- [[Groebner2026-pc]]
 - [[Grusauskaite2026-po]]
 - [[Helmond2026-ll]]
 - [[Hollingshead2026-vx]]
