@@ -39,6 +39,7 @@ Papers that step back from primary empirical study to critically assess the misi
 - [[Lukito2026-nb]]
 - [[Lyons2026-ca]]
 - [[Mahl2026-hc]]
+- [[Mannocci2026-kc]]
 - [[Marwick2025-vx]]
 - [[Matias2025-px]]
 - [[Mota2026-sl59]]

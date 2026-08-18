@@ -1,0 +1,38 @@
+{
+  "abstract": "This survey systematically collects, categorizes, and critically reviews research on coordinated online behavior (CIB and beyond) on social media platforms. The authors reconcile disparate industry (Meta, Twitter/X, YouTube, Reddit, TikTok) and academic definitions, propose a new general definition and a comprehensive conceptual framework, and organize existing detection and characterization methods into a unified analytical scheme. They identify open challenges and promising research directions, offering a roadmap for scholars, practitioners, and policymakers.",
+  "key_claims": [
+    "Coordination is fundamental to online interactions and underlies both beneficial phenomena (activism, social movements) and malicious ones (disinformation, manipulation, harassment), so studying it should not be limited to inauthentic behavior.",
+    "Existing platform and academic definitions of coordinated behavior are fragmented, inconsistent, and often operationally driven, hindering shared understanding, reproducibility, and cross-domain comparison.",
+    "Coordinated online behavior can be captured by three fundamental components—actors, synergic actions, and intent—and characterized along four defining dimensions: authenticity, harmfulness, orchestration, and time-variance.",
+    "Authenticity and harmfulness are orthogonal dimensions, so coordination can be authentic-but-harmful (e.g., hate groups) or inauthentic-but-harmless (e.g., anonymous protesters in the Arab Spring).",
+    "The study of coordination can be decomposed into two tasks—detection f(·) and characterization g(·)—that map directly onto the components of the proposed definition.",
+    "The field lacks a formal, statistically grounded definition of coordination with well-defined null models, forcing reliance on platform- and task-specific heuristics."
+  ],
+  "methods": [
+    "Systematic literature review following the PRISMA methodology, searching Scopus (353 records) and Google Scholar (first 1000 results), covering 2014–2026 and English-language publications in relevant subject areas.",
+    "After removing 147 duplicates and screening 1206 records (excluding 4 non-English and 1118 out-of-scope), 83 papers were retained; backward reference searching added 38 more, yielding a final corpus of 122 papers.",
+    "Disciplinary classification of included papers using Scimago Journal Rank (journals), CORE conference ranking (conferences), and arXiv categories (preprints), showing predominance of Computer Science venues.",
+    "Conceptual analysis reconciling offline coordination theory, industry platform definitions, and academic operational definitions to derive a general definition and framework.",
+    "Taxonomic organization of detection methods into network science approaches (user selection, coordination network construction, network filtering, community discovery) and machine learning approaches, with detailed tabulation of co-actions, similarity functions, time windows, and community detection algorithms."
+  ],
+  "findings": [
+    "No existing definition is general enough to describe coordinated online behavior comprehensively, though each captures relevant properties (similarity, synchronicity, shared intent).",
+    "Platforms treat identical coordinated efforts inconsistently (e.g., the 2020 Tulsa TikTok rally sabotage was not treated as CIB by Facebook; the Spamouflage campaign was labeled differently by Google, Twitter, and Reddit).",
+    "Network science detection methods operationalize coordination via 'co-actions' (co-sharing/co-retweet being most common, plus co-reply, co-like, co-post, co-URL, co-hashtag, co-mention, co-follow, co-report, and newer TikTok co-stitch/co-duet).",
+    "Detection methods produce three output types of differing informativeness: network communities (richest), clusters, and binary labels (least informative).",
+    "Filtering approaches use fixed thresholds, statistical validation, or co-action timing via adjacent, evenly-distributed overlapping, or action-driven overlapping time windows; window length and type materially affect which co-actions count.",
+    "Highly synchronized, short time windows tend to surface inauthentic/harmful coordination, whereas emergent authentic behaviors require longer windows.",
+    "Community discovery predominantly uses Louvain and Leiden algorithms; multiplex networks are either flattened or analyzed with multiplex-suitable methods.",
+    "Research on coordinated online behavior surged after Facebook introduced CIB in 2018, with a steadily growing publication count."
+  ],
+  "contributions": [
+    "A new general, theoretically grounded definition of coordinated online behavior based on actors, synergic actions, and intent.",
+    "A comprehensive conceptual framework with four defining dimensions (authenticity, harmfulness, orchestration, time-variance) and an accompanying taxonomy mapping phenomena from malicious to benign.",
+    "Reconciliation of fragmented industry and academic definitions into a unified vocabulary.",
+    "A formal problem definition separating detection (f) and characterization (g) tasks with a specified input model (users and quadruple-based actions).",
+    "A structured, tabulated survey of detection methods (network science and machine learning) and characterization indicators, including co-actions, similarity functions, filtering strategies, and community detection algorithms.",
+    "Identification of open challenges (lack of null models, poor cross-domain comparability, heuristic reliance) and future research directions serving scholars, practitioners, and policymakers."
+  ],
+  "framing": "The paper situates itself at the interdisciplinary intersection of computer science and computational social science, within research on web and social media analysis, online social network security, and social computing. It draws on decades-old organizational/management theory of offline coordination and the 'information disorder' framework, positioning coordinated online behavior as a phenomenon orthogonal to bot detection, information operations, and disinformation research.",
+  "pdf_source": "drive"
+}

@@ -3719,10 +3719,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-17T07:03:06.029269+00:00"
+    },
+    "bibtex:Mannocci2026-kc": {
+      "note_path": "Papers/Mannocci2026-kc.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "meta-science-of-misinformation-research"
+      ],
+      "assign_fp": "9ea18ef96446c809c242b546f7efdae17b50bbe53d702de4fb281364576f800e",
+      "doi": "10.1145/3839225",
+      "title": "Detection and characterization of coordinated online behavior: A survey",
+      "pdf_source": "drive",
+      "content_hash": "9274f604653fbf8885a97c36818584f966e8b2c183cefb7a6a7c8191eb3df0c8",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-18T15:35:36.220505+00:00"
     }
   },
   "last_full_cluster": "2026-08-17T05:02:07.348523+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "a7874dbb60abe09ff71f8121d7f36748ce7a91fc2da51ad7e166f913b1d97523",
   "emergent_fp": "43da9e62fa4bb5362999fa0c83fb235b4f07184950af010e269bc5b919468e7c",
   "structure_fps": {
