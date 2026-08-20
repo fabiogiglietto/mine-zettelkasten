@@ -30,6 +30,7 @@ Methodological and infrastructural work on how researchers access, use, and are 
 - [[Giglietto2026-855a54cb]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Heiss2026-qv]]
+- [[Holt2026-zq]]
 - [[Iannelli2018-ebd918b7]]
 - [[Jurg2025-ur]]
 - [[Luceri2025-tr]]

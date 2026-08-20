@@ -1,0 +1,35 @@
+{
+  "abstract": "This article investigates what kinds of content Facebook users report as 'False News,' motivated by Meta's January 2025 decision to end professional third-party fact-checking in the US in favor of Community Notes and greater reliance on user reports. Using the Meta-created URL Shares dataset (all URLs shared publicly on Facebook 100+ times from January 2017 to November 2022), the author applies a mixed-methods design combining NLP, statistics, and qualitative content analysis to two critical cases: links top-shared during the 2018 Brazilian election and links from the BBC.com domain. The study finds that user-reported URLs tend to concern polarized political topics and often contextualize controversial events rather than present outright false claims, suggesting users report content they disagree with rather than content they believe to be false.",
+  "key_claims": [
+    "Content reported by users as 'False News' is predominantly political and pertains to polarized issues (e.g., vaccine mandates, controversial political figures) rather than clearly false claims.",
+    "Most reported URLs contextualize or discuss controversial topics rather than presenting false claims themselves, indicating flagging functions as a 'narrow statement of objection' toward disagreeable content.",
+    "Real-world user reports do not appear to reproduce the 'Wisdom of Crowds' effect observed in laboratory crowd-sourcing studies, likely due to simple aggregation, varied user motivations, and coordinated reporting.",
+    "Trustworthy mainstream news media (e.g., BBC) may receive disproportionate reports because of strategic political flagging by users at the political extremes.",
+    "Meta's shift toward greater reliance on user reports for moderation raises concerns that the content users are exposed to could change in politically consequential ways."
+  ],
+  "methods": [
+    "Analysis of the Meta/Social Science One URL Shares dataset (Attributes, Breakdown, and User Reports tables), with differential-privacy noise filtered using a prior method to retain only cells with genuine interactions at alpha < 0.001.",
+    "Construction of three samples: a Reported Sample (110,224 URLs reported as False News at least 20 times, using a conservative threshold of 44+ reported reports in a month to account for noise), a Misinformation Sample (28,271 URLs fact-checked as false), and a country-matched Control Sample (200,000 non-reported, non-fact-checked URLs).",
+    "Case selection: the 2018 Brazilian election (October 2018, links top-shared in Brazil) chosen via time-series local maxima and highest reported-to-fact-checked ratio to represent scarce fact-checking resources; BBC chosen from most-reported domains with zero fact-checked-false URLs.",
+    "NLP pipeline: language detection via triangulation (langdetect, langid, pycld2), translation to English using Meta's NLLB-200-3B model, text cleaning and stop-word removal.",
+    "Content analysis via frequency analysis, close reading and thematic grouping, and Rank Difference Score (RDS) for identifying words characteristic of the BBC Reported vs. Control samples.",
+    "Interaction-pattern analysis following Bailey et al. (2021): interactions (views, clicks, shares, shares-without-clicks, comments, likes, and emoji reactions) summed by age group, normalized by views, and visualized via heatmaps."
+  ],
+  "findings": [
+    "In the 2018 Brazil case, user-reported URLs outnumbered fact-checked false URLs 71:1 (1,568 vs. 22 for October 2018 Brazil), showing potential for scale, but most reported links concerned the candidates, corruption allegations, misinformation scandals, and social media use rather than false claims themselves.",
+    "Some Brazil reported URLs both affirmed and denied the same contested claim (e.g., the false 'gay kit' story), consistent with reporting used as a political tool on divisive topics.",
+    "For the BBC, reported links (239 bbc.com/news URLs) had a narrower, more political and negative/sensational focus (heavily featuring Trump, Covid-19, and vaccines), while control links (301) were more diverse, neutral, or 'evergreen.'",
+    "Older users engage more with reported URLs (more likes, comments, shares, shares-without-clicks, and angry-reactions) than with control URLs, while younger users click less on reported URLs than on control URLs.",
+    "Reported content received more angry-reactions per view than the Misinformation Sample, suggesting it relates to more contested or controversial topics.",
+    "Overlap between the Reported and Misinformation samples was small (3,446 shared URLs; 12.2% of Misinformation, 3.1% of Reported), confirming the samples are largely distinct."
+  ],
+  "contributions": [
+    "Provides one of the first large-scale empirical investigations of what users actually report on Facebook, complementing a literature that has been largely theoretical, experimental, or qualitative.",
+    "Introduces user-reported content as a platform-intrinsic signal of 'problematic' content and a methodological approach for exploiting the underused User Reports Table in the URL Shares dataset.",
+    "Focuses on links/URLs rather than posts, offering a distinctive angle on the debate over user-driven moderation and Meta's 2025 policy change.",
+    "Offers empirical evidence bearing on the applicability of Wisdom-of-Crowds arguments to real-world platform reporting systems, and non-US-centric case analysis (Brazil).",
+    "Documents demographic and engagement patterns (age effects, angry reactions, sharing-without-clicking) associated with reported content."
+  ],
+  "framing": "The paper situates itself within scholarship on platform content moderation and user-driven/crowd-sourced flagging (Gillespie's Custodians of the Internet, Crawford & Gillespie, work on 'malicious flagging' and 'user-generated warfare'), and engages the Wisdom-of-Crowds debate on whether laypeople can identify misinformation at scale. It also contributes to the descriptive-empirical tradition of studies using the Meta/Social Science One URL Shares dataset, framed against Meta's 2025 abandonment of professional fact-checking.",
+  "pdf_source": "drive"
+}

@@ -37,6 +37,7 @@ Examination of platform policy changes and their effects on public discourse and
 - [[Goldberg2026-eb]]
 - [[Graham2025-gp]]
 - [[Helmond2026-ll]]
+- [[Holt2026-zq]]
 - [[Hurcombe2025-cs]]
 - [[Inacio-da-Silva2026-zf]]
 - [[Jaidka2026-sl34]]

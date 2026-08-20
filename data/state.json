@@ -3498,11 +3498,11 @@
       "doi": "10.31219/osf.io/ch8gj",
       "title": "News sharing on social media: Mapping the ideology of news media, politicians, and the mass public",
       "pdf_source": "drive",
-      "content_hash": "2d9bbb93808dcbb0931981a4e4f36f85c6b1fa1433dcbdf81cac86eede750427",
+      "content_hash": "be8f5e5af7227aff366c3feb50ccd69c850746e4c9f6457f7aa53615ebfd8d55",
       "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-21T08:35:19.404920+00:00"
+      "last_processed": "2026-08-20T12:08:10.232499+00:00"
     },
     "bibtex:Rogers2026-cy": {
       "note_path": "Papers/Rogers2026-cy.md",
@@ -3735,10 +3735,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-18T15:35:36.220505+00:00"
+    },
+    "bibtex:Holt2026-zq": {
+      "note_path": "Papers/Holt2026-zq.md",
+      "topics": [
+        "platform-governance-content-moderation",
+        "platform-data-access-methods"
+      ],
+      "assign_fp": "b58f27fccd346e4fab3002812447facb309a90a2cf1f282768b09806ffc2939c",
+      "doi": "10.1080/21670811.2026.2703607",
+      "title": "What Facebook users flag as false news: A mixed-methods investigation of user-reported links",
+      "pdf_source": "drive",
+      "content_hash": "04d00631f5fbab9ee606aab17402a07039206c095a72f07e60f9853bdb26720a",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-20T12:08:10.232472+00:00"
     }
   },
   "last_full_cluster": "2026-08-17T05:02:07.348523+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "a7874dbb60abe09ff71f8121d7f36748ce7a91fc2da51ad7e166f913b1d97523",
   "emergent_fp": "43da9e62fa4bb5362999fa0c83fb235b4f07184950af010e269bc5b919468e7c",
   "structure_fps": {
@@ -3756,5 +3772,6 @@
     "platform-governance-content-moderation": "d6bb8cc25f16be19c5f68221f4c0086962f2bd1ffbe61d25e7c8e1f59c424874",
     "health-misinformation-networks": "7598a6e07e87bf571d7af73aabf52a10fb5f8c925ec533a514c1ae5f043fc2c3",
     "computational-political-media-influence": "541116a4ac95f59979fed0a3cc98d824b77ff37ed4cfadb347562523d5ef6de6"
-  }
+  },
+  "supersede_decisions": {}
 }
