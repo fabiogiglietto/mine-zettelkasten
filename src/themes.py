@@ -7,6 +7,8 @@ papers exist, so the register never fragments into one-paper topics.
 """
 from __future__ import annotations
 
+from .claude_client import json_list, json_obj
+
 
 def summary_digest(summary: dict) -> str:
     """A compact one-block digest of a structured summary for prompting.
@@ -65,8 +67,12 @@ def assign_paper(paper, summary: dict, topics: list[dict], claude, model: str) -
         prompt=prompt,
         max_tokens=1024,
     )
+    # Claude is asked for {"topics": [...]} but sometimes answers with the bare
+    # array; accept either rather than crash a whole recluster on the shape.
+    slugs = result if isinstance(result, list) else json_obj(result).get("topics", [])
+
     valid = {t["slug"] for t in topics}
-    chosen = [slug for slug in result.get("topics", []) if slug in valid]
+    chosen = [slug for slug in slugs if isinstance(slug, str) and slug in valid]
     return chosen[:2]
 
 
@@ -111,23 +117,30 @@ def find_emergent(
         + "\n\n".join(blocks)
     )
 
-    proposals = claude.complete_json(
-        model=model,
-        system=_EMERGENT_SYSTEM.format(min_papers=min_papers),
-        prompt=prompt,
-        max_tokens=4096,
+    proposals = json_list(
+        claude.complete_json(
+            model=model,
+            system=_EMERGENT_SYSTEM.format(min_papers=min_papers),
+            prompt=prompt,
+            max_tokens=4096,
+        )
     )
 
     keys = {p.bibtex_key for p in unassigned}
     emergent: list[dict] = []
     for topic in proposals:
+        if not isinstance(topic, dict):
+            continue
+        slug, name = topic.get("slug"), topic.get("name")
+        if not slug or not name:
+            continue
         members = [m for m in topic.get("members", []) if m in keys]
         if len(members) < min_papers:
             continue
         emergent.append(
             {
-                "slug": topic["slug"],
-                "name": topic["name"],
+                "slug": slug,
+                "name": name,
                 "description": topic.get("description", ""),
                 "is_emergent": True,
                 "members": members,
