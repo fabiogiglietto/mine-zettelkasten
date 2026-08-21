@@ -1,0 +1,40 @@
+{
+  "abstract": "This chapter examines long-term global trends in public trust in news by combining data from the World Values Survey/European Values Study (WVS/EVS, 1981-2022) and the Reuters Institute Digital News Report (DNR, 2015-2025). Analyzing nearly 1.5 million responses across 115 countries over almost half a century, the authors document a clear, consistent, but not universal decline in trust in news that predates the internet and appears to accelerate from around 2000 as digital media became mainstream. They also show that trends vary by media freedom context, with countries consistently rated 'Not Free' actually seeing rising trust. The analysis is deliberately descriptive rather than causal.",
+  "key_claims": [
+    "There is a clear, consistent, and general (though not universal) decline in trust in news across most countries covered from the 1980s to the 2020s.",
+    "The decline in trust in news predates the internet and began before it became a mass medium, but appears to accelerate from around 2000 as digital media displaced television as the dominant news source.",
+    "The commonly assumed 'Golden Age' of high trust in news is a myth: even half a century ago, less than half the public in the countries covered said they trusted the news; majority trust is the exception, not the rule.",
+    "The United States is an outlier, notable both for its unusually high 20th-century trust and its unusually sharp decline, and should not be treated as representative of global trends.",
+    "Trends differ by media freedom context: countries consistently rated 'Not Free' by Freedom House have seen trust in news rise since the 1980s, while free, improving, deteriorating, and fluctuating countries have all seen declines.",
+    "The observed patterns admit multiple normative interpretations (optimistic/critical citizenry vs. pessimistic/cynical citizenry), and rising trust in authoritarian contexts may reflect acquiescence, 'negative trust,' or autocratic response bias.",
+    "Between-country and between-dataset differences explain much more variance than the overall temporal decline, confirming the strong contextual character of trust in news."
+  ],
+  "methods": [
+    "Combined and harmonized two survey datasets: WVS/EVS (Integrated Values Survey), covering 118 countries across eight waves 1981-2022 with a question on confidence in 'the press'; and the Reuters Institute Digital News Report, covering 48 countries across 11 waves 2015-2025 with a 'trust most news most of the time' question.",
+    "Final combined dataset covers 115 countries (about three-quarters of world population), with 632,711 WVS/EVS responses and 858,668 DNR responses (~1.5 million total observations).",
+    "Harmonized measures by dichotomizing responses into 'Trust' (1) and 'Lack of trust' (0), following an approach developed for longitudinal analysis of political trust (Valgardsson et al., 2025).",
+    "Linear multi-level modelling with year (centred) predicting trust, using random intercepts for country, and a pooled model nesting responses within datasets within countries; a B-spline model with five degrees of freedom tested for non-linearity.",
+    "Estimated 140 separate OLS models across 94 countries to display country-level trends.",
+    "Used Freedom House press freedom data (1980-2016) to classify countries as consistently 'Free' (n=27) or 'Not Free' (n=10) for RQ2a, and as 'Improving' (n=22), 'Deteriorating' (n=26), or 'Fluctuating' (n=28) for RQ2b, then interacted press freedom group with year in the pooled model."
+  ],
+  "findings": [
+    "In the WVS/EVS data, trust declined significantly (b = -.002), falling from around 49% in the 1980s to 39% in the 2020s.",
+    "In the DNR data, trust declined at a slightly steeper rate (b = -.004), falling from 44% in 2015 to about 40% in 2025.",
+    "The pooled model confirms a significant negative trend (b = -.002); a spline model shows a slight decline from 1981 that accelerates from around 2000.",
+    "Of the country-dataset combinations analyzed, 78 show a significant negative trend, 34 show a positive trend, and 28 are not statistically significant.",
+    "The US declined sharply in WVS/EVS (50% in 1981 to 23% in 2011) but was basically stable in the DNR period (32% in 2015 to 30% in 2025), showing it as both an extreme decliner historically and a low-but-stable exception recently.",
+    "Baseline levels differ by dataset due to question wording: Japan shows higher WVS/EVS 'confidence in the press' than DNR 'trust in news,' while the UK shows the reverse, reflecting how 'the press' vs. 'news' are interpreted differently.",
+    "Countries consistently rated 'Not Free' saw trust in news rise since the 1980s (based entirely on WVS/EVS data), while consistently 'Free' countries and all changing-freedom groups saw declines.",
+    "Between-country and between-dataset variance far outweighs the temporal effect (low marginal R2 values around .001-.009)."
+  ],
+  "contributions": [
+    "Expands the most ambitious prior comparative-longitudinal analysis (Hanitzsch et al., 2018, 53 countries to 2014) to 115 countries and nearly 50 years (1981-2025), extending scope in both space and time.",
+    "Provides a systematic, empirically grounded, descriptive account of long-term global trust-in-news trends, addressing the noted scarcity of societal-level (rather than individual-level) research on media trust.",
+    "Demonstrates and quantifies how trust trends vary by media freedom context, including the counterintuitive finding of rising trust in unfree media environments.",
+    "Debunks the assumption of a past 'Golden Age' of majority trust in news across countries.",
+    "Demonstrates a methodological approach for harmonizing and pooling heterogeneous cross-national survey measures of trust for longitudinal multi-level analysis.",
+    "Frames open normative and empirical questions for both media professionals and scholars, and calls for future large-scale longitudinal comparative work on topic-, medium-, and brand-specific trust."
+  ],
+  "framing": "The chapter positions itself within comparative political-communication and social-science scholarship on trust in institutions, engaging directly with Hanitzsch et al.'s (2018) landmark finding that decline in media trust is not universal and with broader debates over democratic backsliding and institutional trust (Norris, Dalton, Valgardsson et al.). It adopts an explicitly descriptive, non-causal methodological stance (citing Gerring and King, Keohane & Verba) and treats trust in news as a subjective, relational, context-dependent 'social fact' rather than a measure of trustworthiness.",
+  "pdf_source": "drive"
+}

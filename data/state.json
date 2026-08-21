@@ -3751,10 +3751,23 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-20T12:08:10.232472+00:00"
+    },
+    "bibtex:Fletcher2026-lv": {
+      "note_path": "Papers/Fletcher2026-lv.md",
+      "topics": [],
+      "assign_fp": "5c40823976dec437d9e894d5001b36aec788fe9a54566cfc79a8ad80de5e7705",
+      "doi": "10.4324/9781003618041-6",
+      "title": "What has happened to trust in news in the long run globally?",
+      "pdf_source": "drive",
+      "content_hash": "040178b98284b262529466e3add050f992e8df59303f2e70bdbc2d3abd672590",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-21T04:42:12.203527+00:00"
     }
   },
   "last_full_cluster": "2026-08-17T05:02:07.348523+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "a7874dbb60abe09ff71f8121d7f36748ce7a91fc2da51ad7e166f913b1d97523",
   "emergent_fp": "43da9e62fa4bb5362999fa0c83fb235b4f07184950af010e269bc5b919468e7c",
   "structure_fps": {
