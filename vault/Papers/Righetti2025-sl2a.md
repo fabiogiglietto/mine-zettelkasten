@@ -8,7 +8,7 @@ bibtex_key: Righetti2025-sl2a
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783507431459259
-topics: [coordinated-inauthentic-behavior, platform-data-access-methods]
+topics: [coordinated-inauthentic-behavior, digital-methods-social-science]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.5117/ccr2025.1.7.righ

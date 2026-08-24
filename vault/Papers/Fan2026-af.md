@@ -5,7 +5,7 @@ authors: ["Yangliu Fan", "Jakob Ohme", "Lion Wedel"]
 year: 2026
 doi: 10.1080/19312458.2026.2664873
 bibtex_key: Fan2026-af
-topics: [platforms-audiences-and-online-communities, platform-data-access-methods]
+topics: [digital-methods-social-science, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/19312458.2026.2664873

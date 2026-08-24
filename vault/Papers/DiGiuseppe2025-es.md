@@ -5,7 +5,7 @@ authors: ["Matthew DiGiuseppe", "Michael E Flynn"]
 year: 2025
 doi: 10.31235/osf.io/39ajg_v2
 bibtex_key: DiGiuseppe2025-es
-topics: [llms-in-content-analysis]
+topics: [llm-computational-content-analysis, digital-methods-social-science]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/39ajg_v2

@@ -6,7 +6,7 @@ year: 2019
 doi: 10.1177/0011392119837536
 bibtex_key: Giglietto2019-e9be81c1
 kind: own
-topics: [disinformation-narratives-monitoring, meta-science-of-misinformation-research]
+topics: [information-disorder, digital-methods-social-science]
 citation_count: 182
 open_access: true
 source_url: https://doi.org/10.1177/0011392119837536

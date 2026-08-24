@@ -11,10 +11,8 @@ Studies examining how AI industry actors, media, and communities construct and c
 ## Papers
 
 - [[Baym2026-tr]]
-- [[Beacken2026-zb]]
 - [[Dodds2026-df]]
 - [[Galip2026-ix]]
-- [[Gillespie2010-sla2]]
 - [[Gillespie2026-aa]]
 - [[Hepp2026-oi]]
 - [[Hurcombe2025-cs]]
@@ -22,7 +20,6 @@ Studies examining how AI industry actors, media, and communities construct and c
 - [[Nguyen2026-vm]]
 - [[Richter2026-bt]]
 - [[Stanusch2026-ec]]
-- [[Triedman2025-uy]]
 - [[Unknown2025-qj]]
 - [[Vertesi2026-lv]]
 - [[Wang2025-zy]]

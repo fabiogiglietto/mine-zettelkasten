@@ -8,7 +8,7 @@ bibtex_key: Dahlke2026-sl34
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782741554133369
-topics: [platform-data-access-methods, meta-science-of-misinformation-research]
+topics: [information-disorder, computational-political-media-influence]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2679492
