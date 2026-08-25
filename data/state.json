@@ -3832,10 +3832,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-22T05:19:32.870465+00:00"
+    },
+    "bibtex:Schulz2026-ts": {
+      "note_path": "Papers/Schulz2026-ts.md",
+      "topics": [
+        "political-polarization-partisanship",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "a28a9c20e7bacac4dc22c788fc2eaac59bcbb30bd25d2a1185176424fa654336",
+      "doi": "10.31234/osf.io/7z69m_v1",
+      "title": "Online Discourse is Falsely Polarized by Self-Selection",
+      "pdf_source": "abstract_only",
+      "content_hash": "58a6475e33dcfdaa65468ed6ce97814a90aad24c39c5ab342695f7ede60d1a72",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-25T06:54:13.713044+00:00"
     }
   },
   "last_full_cluster": "2026-08-24T17:20:40.439164+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "f52dc511cfbe7a463ce7eec89645c71bb13ac976fb65e2754a19d3b98f8fb732",
   "emergent_fp": "5a6193f73d2294b52b08175edaf2f0b16e686e793adc3d9b145282052ea60527",
   "structure_fps": {

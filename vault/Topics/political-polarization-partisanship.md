@@ -42,6 +42,7 @@ Analysis of insularity, cross-partisan interaction, affective engagement and pol
 - [[Rodarte2026-dk]]
 - [[Sarmiento2025-as]]
 - [[Schemer2026-mh]]
+- [[Schulz2026-ts]]
 - [[Suau_Martinez2026-lv]]
 - [[Trilling2024-slc8]]
 - [[Unknown2026-sl3d]]

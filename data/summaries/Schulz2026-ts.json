@@ -1,0 +1,25 @@
+{
+  "abstract": "This paper investigates 'false polarization' on social media — the perception that political opinions are more divided than they actually are — and argues that it arises from users' selective decisions about what to post. Drawing on large-scale observational data, controlled experiments, and a 40-country survey, the authors show that people with stronger ideological attitudes are more likely to share political content, distorting the visible distribution of opinion online. The result is a public discourse that appears more polarized than the underlying attitudes of users would suggest.",
+  "key_claims": [
+    "Online political discourse appears more polarized than the actual distribution of users' attitudes, constituting a measurable form of false polarization.",
+    "This false polarization is driven substantially by self-selection in posting behavior, whereby users with stronger or more extreme ideological attitudes are more likely to post political content.",
+    "The phenomenon is robust and generalizable across time, experimental settings, and many countries."
+  ],
+  "methods": [
+    "Analysis of more than a decade of social media behavior linked to individual ideological attitudes, comprising over 1.7 million posts.",
+    "A series of controlled experiments examining posting behavior and perceptions of polarization.",
+    "A large global survey spanning 40 countries with a combined sample of N = 49,222."
+  ],
+  "findings": [
+    "Individuals with stronger ideological attitudes exhibit greater propensity to post political content, biasing the observable online opinion distribution.",
+    "The visible discourse overstates the degree of polarization relative to underlying user attitudes.",
+    "Evidence of this selective-posting-driven false polarization appears consistently across the observational, experimental, and cross-national survey data."
+  ],
+  "contributions": [
+    "Provides comprehensive, multi-method evidence quantifying the magnitude and scope of false polarization on social media.",
+    "Identifies selective posting behavior as a mechanism generating the appearance of heightened polarization.",
+    "Establishes cross-national generalizability of the effect through a 40-country survey."
+  ],
+  "framing": "The paper situates itself within research on political polarization, misperceptions of public opinion, and the effects of social media on political discourse, contributing to debates about whether observed online polarization reflects genuine attitude divergence or an artifact of who chooses to speak.",
+  "pdf_source": "abstract_only"
+}
