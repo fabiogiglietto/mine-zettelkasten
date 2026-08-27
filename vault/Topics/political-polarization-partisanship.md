@@ -15,6 +15,7 @@ Analysis of insularity, cross-partisan interaction, affective engagement and pol
 - [[Bennett2025-xs]]
 - [[Brady2026-ln]]
 - [[Brown2026-br]]
+- [[De_Leon2025-qn]]
 - [[Dehghan2026-sy]]
 - [[Eady2025-vm]]
 - [[Elfes2026-jb]]

@@ -16,6 +16,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
 - [[Copland2025-em]]
+- [[De_Leon2025-qn]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]

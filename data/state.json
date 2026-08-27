@@ -395,9 +395,9 @@
         "platform-governance-data-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "798f3344817fd86ad3e9a84a6db5f9c9e4e968ebf1818b41bd2876218ec23e62",
+      "content_hash": "de35e55acf3a860d02ee2281273e391b613bdc6b7af7f8a51d444714983d08c9",
       "podcast_linked": true,
-      "last_processed": "2026-07-27T14:44:47.797531+00:00",
+      "last_processed": "2026-08-27T11:02:08.884889+00:00",
       "assign_fp": "73491f96a486060f7865da452e0f074572ccfd9241b2b76571bbfec278644246"
     },
     "bibtex:Stagnaro2025-pz": {
@@ -2420,10 +2420,10 @@
         "platform-governance-data-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "24ec4d48acc3ba85bf0266a5a20469834cb1c9cd63fda2dc8c407ea87dcc05a7",
+      "content_hash": "a47ebe0a693a1df58f41561911025be7d5f0e2eb261efc32431c39a40ecd2f5f",
       "podcast_linked": true,
       "slack_posted": true,
-      "last_processed": "2026-07-27T14:44:47.797524+00:00",
+      "last_processed": "2026-08-27T11:02:08.884884+00:00",
       "assign_fp": "033c3c9949f06b7de071fd96dab47c675cb799c78dce9b168fd164a647bc1046"
     },
     "bibtex:Hepp2026-oi": {
@@ -3625,11 +3625,11 @@
       "doi": "10.1080/21670811.2026.2703599",
       "title": "Feeling iffy about generative AI: Investigating audiences’ trustworthiness perceptions of task-specific AI disclosures",
       "pdf_source": "drive",
-      "content_hash": "3e2a0239cde49ab82de34614133d1b5284b0eabd3977b338788e5d496aa61325",
+      "content_hash": "3bf1a5d999d9a30c648ce1c975547cea45bd2f2fccb4cb9fff53ed28b699be30",
       "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-28T07:34:09.360148+00:00"
+      "last_processed": "2026-08-27T11:02:08.884879+00:00"
     },
     "bibtex:Balluff2026-ev": {
       "note_path": "Papers/Balluff2026-ev.md",
@@ -3848,10 +3848,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-25T06:54:13.713044+00:00"
+    },
+    "bibtex:De_Leon2025-qn": {
+      "note_path": "Papers/De_Leon2025-qn.md",
+      "topics": [
+        "political-polarization-partisanship",
+        "coordinated-inauthentic-behavior"
+      ],
+      "assign_fp": "d7b27bffacfd652739dc66720c58263a25f12ce9536bc49d6ab190800bf826c2",
+      "doi": "10.31235/osf.io/grne7_v1",
+      "title": "The political weaponization of online content: From direct to networked exposure",
+      "pdf_source": "abstract_only",
+      "content_hash": "933aac6d512de154f8c9ff5a27f53db17eafb42232d2358eaa2d46e4ab982d6b",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-27T11:02:08.884853+00:00"
     }
   },
   "last_full_cluster": "2026-08-24T17:20:40.439164+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "f52dc511cfbe7a463ce7eec89645c71bb13ac976fb65e2754a19d3b98f8fb732",
   "emergent_fp": "5a6193f73d2294b52b08175edaf2f0b16e686e793adc3d9b145282052ea60527",
   "structure_fps": {
