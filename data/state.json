@@ -3864,10 +3864,24 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-27T11:02:08.884853+00:00"
+    },
+    "bibtex:Slack1787858551-sl4d": {
+      "note_path": "Papers/Slack1787858551-sl4d.md",
+      "topics": [],
+      "assign_fp": "942497957422b9fa2c3af706cbb6680a2e669ab39471d1c7cb14933315d089b3",
+      "doi": "",
+      "title": "Privatization Public Discourse Raquel Recuero Camilla Quesada Tavares",
+      "pdf_source": "abstract_only",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-08-28T18:22:39.485637+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
     }
   },
   "last_full_cluster": "2026-08-24T17:20:40.439164+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "f52dc511cfbe7a463ce7eec89645c71bb13ac976fb65e2754a19d3b98f8fb732",
   "emergent_fp": "5a6193f73d2294b52b08175edaf2f0b16e686e793adc3d9b145282052ea60527",
   "structure_fps": {
