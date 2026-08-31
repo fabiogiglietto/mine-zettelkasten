@@ -34,6 +34,7 @@ Reflections on the affordances, limits and ethical implications of using social 
 - [[Moran2025-qn]]
 - [[Murtfeldt2025-wu]]
 - [[Oswald2025-km]]
+- [[Park2026-tr]]
 - [[Rieder2025-ju]]
 - [[Stagnaro2025-pz]]
 - [[Ulloa2024-jm]]

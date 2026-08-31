@@ -3869,10 +3869,26 @@
       "last_processed": "2026-08-28T18:22:39.485637+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Park2026-tr": {
+      "note_path": "Papers/Park2026-tr.md",
+      "topics": [
+        "social-media-research-methods-and-ethics",
+        "platform-data-access-and-research-infrastructure"
+      ],
+      "assign_fp": "9a05d6cc151998081babe971e04c8c69d8ac3e6ded8d4b61a2383a7068237b6f",
+      "doi": "",
+      "title": "&quot;Sticking their heads out above the parapets&quot;: Lived Experiences of Legal Risks in Research",
+      "pdf_source": "drive",
+      "content_hash": "c1f7d0a1a0d6cf41394b3ab05a702c129b6ee13420d1843d3e4a082ceee96e6a",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-08-31T16:19:59.420215+00:00"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "f9e80e56216144585933f4ec3c2510214d87c96d6e62efbddf2fdbeedb00b9e3",
   "emergent_fp": "9f139de18aa24cca349eeaa9955d8d5692367ab99c7e7d98f00ae72dadb748ea",
   "structure_fps": {
