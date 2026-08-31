@@ -5,7 +5,7 @@ authors: ["Walter Paci", "Alessandro Panunzi", "Sandro Pezzelle"]
 year: 2025
 doi: 10.18653/v1/2025.findings-acl.804
 bibtex_key: Paci2025-ag
-topics: [llm-computational-content-analysis, electoral-social-media-analysis]
+topics: [computational-methods-for-content-analysis, political-communication-and-elections]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.18653/v1/2025.findings-acl.804

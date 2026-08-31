@@ -5,7 +5,7 @@ authors: ["Matthew DiGiuseppe", "Joshua Robison"]
 year: 2026
 doi: 10.48550/arxiv.2602.18092
 bibtex_key: DiGiuseppe2026-pu
-topics: [llm-computational-content-analysis, ai-social-theory-trust]
+topics: [ai-social-theory-trust, computational-political-media-influence]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.48550/arxiv.2602.18092

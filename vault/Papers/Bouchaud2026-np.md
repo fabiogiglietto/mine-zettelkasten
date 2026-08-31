@@ -5,7 +5,7 @@ authors: ["Paul Bouchaud", "Pedro Ramaciotti"]
 year: 2026
 doi: 10.1126/sciadv.aee6932
 bibtex_key: Bouchaud2026-np
-topics: [electoral-social-media-analysis, platform-governance-data-access]
+topics: [platform-governance-and-content-moderation, political-communication-and-elections]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1126/sciadv.aee6932

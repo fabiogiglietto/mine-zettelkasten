@@ -5,7 +5,7 @@ authors: ["Kobi Hackenburg", "Ben M. Tappin", "Luke Hewitt", "Ed Saunders", "Sid
 year: 2025
 doi: 10.1126/science.aea3884
 bibtex_key: Hackenburg2025-dj
-topics: [llm-computational-content-analysis, computational-political-media-influence]
+topics: [generative-ai-and-synthetic-media, computational-political-media-influence]
 citation_count: 19
 open_access: false
 source_url: https://doi.org/10.1126/science.aea3884

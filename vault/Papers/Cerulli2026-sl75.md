@@ -8,7 +8,7 @@ bibtex_key: Cerulli2026-sl75
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782984077356849
-topics: [llm-computational-content-analysis, digital-methods-social-science]
+topics: [computational-methods-for-content-analysis, social-media-research-methods-and-ethics]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1016/j.chb.2026.109085

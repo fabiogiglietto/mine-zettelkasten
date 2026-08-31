@@ -8,7 +8,7 @@ bibtex_key: Rogers2025-sl8f
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783507410328429
-topics: [coordinated-inauthentic-behavior, platform-governance-data-access]
+topics: [coordinated-inauthentic-behavior, platform-governance-and-content-moderation]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.1177/29768624251369784

@@ -5,7 +5,7 @@ authors: ["Johannes Kotz", "Kevin E. Tiede", "Jelena Meyer", "Maj-Britt Sterba",
 year: 2026
 doi: 10.31234/osf.io/7szrn_v1
 bibtex_key: Kotz2026-lk
-topics: [llm-computational-content-analysis, computational-political-media-influence]
+topics: [generative-ai-and-synthetic-media, computational-methods-for-content-analysis]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/7szrn_v1

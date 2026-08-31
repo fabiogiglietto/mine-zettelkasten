@@ -6,7 +6,7 @@ year: 2025
 doi: 10.31235/osf.io/8dqag_v2
 bibtex_key: Giglietto2025-1765bb4f
 kind: own
-topics: [platform-governance-data-access, electoral-social-media-analysis]
+topics: [platform-governance-and-content-moderation, political-communication-and-elections]
 citation_count: 2
 open_access: true
 source_url: https://doi.org/10.31235/osf.io/8dqag_v2

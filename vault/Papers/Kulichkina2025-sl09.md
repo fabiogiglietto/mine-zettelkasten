@@ -8,7 +8,7 @@ bibtex_key: Kulichkina2025-sl09
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1783507489409529
-topics: [coordinated-inauthentic-behavior, information-disorder]
+topics: [coordinated-inauthentic-behavior, political-communication-and-elections]
 citation_count: 6
 open_access: false
 source_url: https://doi.org/10.1177/14614448241254126

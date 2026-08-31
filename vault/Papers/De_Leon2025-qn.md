@@ -5,7 +5,7 @@ authors: ["Ernesto de León", "Jakob Bæk Kristensen", "Mykola Makhortykh", "Eva
 year: 2025
 doi: 10.31235/osf.io/grne7_v1
 bibtex_key: De_Leon2025-qn
-topics: [political-polarization-partisanship, coordinated-inauthentic-behavior]
+topics: [political-communication-and-elections, coordinated-inauthentic-behavior]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/grne7_v1

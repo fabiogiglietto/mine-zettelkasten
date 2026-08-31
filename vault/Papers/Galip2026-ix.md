@@ -5,7 +5,7 @@ authors: ["Idil Galip", "Ludmila Lupinacci"]
 year: 2026
 doi: 10.1177/13675494261468638
 bibtex_key: Galip2026-ix
-topics: [ai-industry-imaginaries-and-discourse]
+topics: [generative-ai-and-synthetic-media, ai-industry-imaginaries-and-discourse]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/13675494261468638

@@ -5,7 +5,7 @@ authors: ["William Hollingshead", "Anatoliy Gruzd", "Philip Mai"]
 year: 2026
 doi: 10.17645/mac.11409
 bibtex_key: Hollingshead2026-vx
-topics: [platforms-audiences-and-online-communities, information-disorder]
+topics: [platforms-audiences-and-online-communities, disinformation-narrative-monitoring]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.17645/mac.11409

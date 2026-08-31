@@ -5,7 +5,7 @@ authors: ["W. Lance Bennett", "Steven Livingston"]
 year: 2025
 doi: 10.1017/s1537592724002123
 bibtex_key: Bennett2025-xs
-topics: [political-polarization-partisanship, meta-science-of-misinformation-research]
+topics: [meta-science-of-misinformation-research, political-communication-and-elections]
 citation_count: 13
 open_access: false
 source_url: https://doi.org/10.1017/s1537592724002123
