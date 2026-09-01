@@ -3862,10 +3862,10 @@
       "doi": "10.4324/9781003477570-5",
       "title": "The Privatization of Public Discourse",
       "pdf_source": "abstract_only",
-      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "content_hash": "2f447c9acbd19873b5330af70a7a6e4fc1eff36ab914cb0b668602c9256edc58",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-08-28T18:22:39.485637+00:00",
+      "last_processed": "2026-09-01T15:31:15.763557+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
     },
@@ -3890,10 +3890,10 @@
       "topics": [],
       "doi": "10.5210/spir.v2021i0.12170",
       "title": "COORNET: AN INTEGRATED APPROACH TO SURFACE PROBLEMATIC CONTENT, MALICIOUS ACTORS, AND COORDINATED NETWORKS",
-      "content_hash": "seeded-by-backfill-forces-changed-path",
+      "content_hash": "090e8dfd638d83ec508149fefca0a413577310815d38521c0f534a23434d1b06",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-09-01T00:00:00+00:00",
+      "last_processed": "2026-09-01T15:31:28.727491+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
     }
