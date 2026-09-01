@@ -1,0 +1,32 @@
+{
+  "abstract": "This book chapter argues that social media platforms have privatized the public sphere by owning and algorithmically governing the spaces where public discourse flows, creating systemic risks for contemporary democracies. The authors contend these harms fall disproportionately on the Global South, where weak regulatory infrastructure amplifies asymmetries of power between transnational platforms and nation-states. Drawing on the Brazilian case—especially the failed 'Fake News Bill' (PL 2630)—and comparative Latin American examples, the chapter links platformization, datafication, and data colonialism to threats against digital sovereignty and democratic participation.",
+  "key_claims": [
+    "Social media platforms have privatized the public sphere by centralizing formerly decentralized online communication under a few private companies that own and curate public discourse through algorithmic governance.",
+    "This 'privatization of public discourse' subjects national public debate to supranational (mostly US-based) private rules, generating systemic risks to democracy.",
+    "The harms are especially severe in the Global South, where the lack of regulatory infrastructure deepens existing asymmetries of power and enables data colonialism.",
+    "Platforms act not merely as owners of communicative infrastructure but as controllers of public discourse, capable of promoting campaigns against regulation that threatens their interests.",
+    "Digital sovereignty—a state's ability to regulate platforms within its territory—is essential for holding platforms accountable and fostering healthier political participation."
+  ],
+  "methods": [
+    "Conceptual and theoretical synthesis of literature on the public sphere, political participation, platformization, and digital sovereignty.",
+    "Case study analysis drawing on existing literature and the Brazilian context, including the 2022 election disinformation and the attempted coup.",
+    "Documentary analysis of platform lobbying against regulation, including author-captured screenshots (Figures 2.1 and 2.2) of Google and Meta ads opposing Brazil's 'Fake News Bill' (PL 2630).",
+    "Comparative reference to Latin American regulatory cases, notably Argentina's data protection law debates (LDPD) and Meta's involvement."
+  ],
+  "findings": [
+    "The evolution from decentralized internet protocols to centralized social media platforms shifted mediation power to a few private companies whose algorithms determine visibility of content.",
+    "Algorithmic governance fosters echo chambers, polarization, radicalization, and the circulation of toxicity and disinformation, fragmenting the collective public sphere.",
+    "In Brazil, Google (using its search homepage) and Meta (via Facebook/Instagram ads) ran campaigns framing PL 2630 as censorship, which divided public opinion and stalled the bill; courts ordered the removal of these messages.",
+    "In Argentina, Meta engaged more subtly through policy papers and stakeholder influence to oppose stricter data protection amendments.",
+    "Data operates as a form of capital, and cross-border data storage and third-party sharing produce data sovereignty problems and data colonialism, disadvantaging Global South nations that supply data as 'colonies'.",
+    "Global North jurisdictions (US, EU, and to some extent China) have gained regulatory leverage via instruments like the GDPR and proposed ADPPA, while Global South states remain largely unable to enforce their laws on platforms."
+  ],
+  "contributions": [
+    "Introduces and develops the concept of the 'privatization of public discourse' to describe platforms' control over what discourse is made visible or hidden.",
+    "Extends the systemic-risk and public-sphere debates to a Global South perspective, centering Brazil and Latin America.",
+    "Documents concrete instances of platform lobbying against national regulation as evidence of platforms' structural and discursive power.",
+    "Connects the concepts of digital sovereignty, platform neutrality, and data colonialism into a framework for assessing platform threats to democratic governance."
+  ],
+  "framing": "The chapter situates itself within critical platform studies and political communication, engaging Habermas's theory of the public sphere and its digital transformation (Staab & Thiel; Papacharissi), alongside surveillance capitalism (Zuboff), platform governance (Gillespie; van Dijck), and data colonialism (Couldry & Mejias; Ricaurte). It positions this literature—largely developed around the Global North—as inadequate to the asymmetric power relations experienced by Global South democracies.",
+  "pdf_source": "drive"
+}

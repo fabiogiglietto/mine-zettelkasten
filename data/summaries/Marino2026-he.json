@@ -1,0 +1,36 @@
+{
+  "abstract": "This study investigates how major political events shaped affective engagement patterns within a hyperpartisan pro-Bolsonaro network of Facebook groups and pages in Brazil between 2021 and 2023. Using a mixed-methods pipeline combining LLM-based content classification, time series analysis, and multinomial regression on over 12 million posts, the authors construct two behavioral indices to track emotional and interactional dynamics over time. Contrary to echo-chamber assumptions of stable polarization, they find that engagement patterns were highly unstable and event-sensitive, with a marked inflection around Lula's 2023 inauguration and the January 2023 coup attempt characterized by declining emotional intensity, more internal debate, and weakening opposition responses.",
+  "key_claims": [
+    "Hyperpartisan communities are typically theorized as impermeable echo chambers with predictable, stable engagement patterns, but this assumption has rarely been tested longitudinally.",
+    "Pro-Bolsonaro Facebook communities displayed surprisingly unstable and volatile affective engagement over time, contradicting theories that treat polarization as consistent.",
+    "A major shift occurred in 2023 around Lula's inauguration and the January coup attempt, marked by declining emotional intensity, increased internal debate, and weakening opposition responses.",
+    "Affective engagement is jointly structured by which political actor is mentioned and when, rather than by fixed ideological positions alone.",
+    "Engagement dynamics reflect adaptive, context-dependent community responses to political events rather than purely stable partisan allegiances."
+  ],
+  "methods": [
+    "Analyzed 12,156,409 Facebook posts from 53 groups and 4 pages of a pro-Bolsonaro network (identified via VeraAI Alerts within the Horizon Europe Vera.ai project), collected via CrowdTangle's historical feature for January 2021–December 2023.",
+    "Constructed two post-level behavioral indices: the Emotional Polarization Index (EPI = (love − angry)/(love + angry)) and the Engagement Balance Index (EBI = (shares − comments)/(shares + comments)), both ranging from −1 to +1.",
+    "Applied a 30-day rolling-window volatility detection algorithm (days flagged as volatile if rolling SD exceeded the 95th percentile), identifying 96 volatile days aggregated into seven contiguous instability periods (3–33 days).",
+    "Fine-tuned OpenAI's GPT-4o model (gpt-4o-2024-08-06) on 2,245 manually coded posts for multi-label classification of six political actor categories; achieved 67.7% exact-match accuracy and 0.85 overall F1.",
+    "Estimated two sets of multinomial logistic regression models predicting tertile-based EPI and EBI categories from five binary actor indicators, controlling for total engagement and total emotional reaction volume.",
+    "Validation and sensitivity analyses of the indices (boundary clustering, coefficient of variation, alternative formulations with r > 0.89)."
+  ],
+  "findings": [
+    "Both EPI and EBI showed marked instability rather than stable partisan dynamics; EPI shifted from love- to anger-dominated and EBI moved from share-prevalent to comment-prevalent engagement over time.",
+    "15.6% of volatile days occurred within 15 days of the January 2023 coup attempt, while three other major events showed no volatile days in their 15-day windows.",
+    "Bolsonaro-related content triggered high positive emotional engagement in 2021–2022 (β up to 1.193) but declining love-dominated response by December 2023 (β = 0.220), with rising comment-dominated (argumentative) engagement in 2023.",
+    "Lula-related references produced expected oppositional effects (increased anger, suppressed love, suppressed shares) that weakened over 2023, suggesting possible activation of anti-Bolsonaro users after the coup attempt.",
+    "Armed forces references showed the most extreme temporal variability, closely tied to discrete events like the September 8 military parade and the coup attempt.",
+    "Mainstream media references produced unexpected positive share-dominated engagement in some 2023 periods, deviating from expected suppression.",
+    "Actor-level engagement signals were neither stable within a category over time nor uniform across categories at a given moment."
+  ],
+  "contributions": [
+    "Provides the first systematic long-term longitudinal analysis of affective engagement in pro-Bolsonaro Facebook communities, distinguishing in-group versus out-group responses.",
+    "Introduces a replicable analytical pipeline combining LLM-based (fine-tuned GPT-4o) political actor classification with longitudinal engagement tracking, extensible across languages and contexts.",
+    "Offers two novel behavioral indices (EPI and EBI) as measurable proxies for emotional polarization and engagement balance derived from Facebook affordances.",
+    "Enriches echo-chamber and polarization theory by showing that hyperpartisan communities can fracture, adapt, and respond to external pressures over prolonged crisis cycles.",
+    "Documents evidence of deliberate brigading/external intervention (e.g., pro-Lula incursions into pro-Bolsonaro groups) reframing community boundaries as contested territories."
+  ],
+  "framing": "The paper positions itself within scholarship on destructive/affective political polarization, hyperpartisan online communities, and Facebook's 'affective affordances,' bringing a Global South (Brazilian) case into a literature dominated by U.S. contexts. It engages competing theoretical frameworks of homophily/echo chambers versus cross-cutting exposure, arguing for a more dynamic, event-sensitive account of digital polarization grounded in computational social science and platform analysis.",
+  "pdf_source": "drive"
+}

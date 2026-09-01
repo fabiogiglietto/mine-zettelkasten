@@ -1,0 +1,37 @@
+{
+  "abstract": "Lev Manovich analyzes generative AI not as a social or ethical problem but as a creative medium with its own distinctive properties, affordances, and constraints. Drawing on media theory, art history, and his own fifty years of art practice, he identifies six defining properties of the AI medium and compares them to earlier media such as photography, film, and algorithmic/generative art. The article focuses deliberately on mainstream AI tools used at scale by creative professionals and content creators rather than on custom-trained or critical 'AI art,' and closes by asking what such a medium can genuinely enable that no previous medium could.",
+  "key_claims": [
+    "Generative AI should be studied as a medium with specific properties and logic, not primarily as a social phenomenon or ethical problem.",
+    "Probabilistic generation creates a constitutive trade-off between variability/ease of creation and precise authorial control—this is a structural feature, not a temporary limitation to be engineered away.",
+    "The AI medium offers unprecedented degrees of freedom in creative output, exceeding earlier indeterminacy methods that operated in only one or a few dimensions.",
+    "Generative AI is structurally the opposite of avant-garde art: it privileges the conventional logic and appearance of the familiar world (good at visual surrealism, resistant to logical surrealism), and is aesthetically conservative due to training-data bias.",
+    "Generative AI is the first artistic medium whose cognitive capacity is built in rather than externally programmed—a 'medium that thinks.'",
+    "The model possesses 'media cognition': encyclopedic, internalized know-how about art history, media techniques, and how media elements work together.",
+    "Style and content are structurally entangled in how models encode visual knowledge, making clean style extraction difficult and often conceptually questionable."
+  ],
+  "methods": [
+    "Conceptual and theoretical analysis grounded in media theory and art history rather than empirical experimentation.",
+    "Comparative approach contrasting AI with prior media the author has practiced in (painting, drawing, etching, analog and digital photography, and generative programming).",
+    "Reflection informed by the author's dual position as a practicing artist and as a theorist/historian of media.",
+    "Illustrative examples from AI tools (Midjourney, its --sref style-reference feature, LoRA fine-tuning) and reference resources such as the Midlibrary lists of 400 artistic techniques and 1546 painter styles.",
+    "Framing focused on mainstream, at-scale use of AI tools rather than exceptional or critical artistic deployments."
+  ],
+  "findings": [
+    "The lack of precise control is often irrelevant for amateurs but a fundamental obstacle for professional design tasks requiring exact placement, sizing, and editability.",
+    "Control/editability requirements suggest a new taxonomy dividing the creative universe into cases where high precision matters versus cases where it does not.",
+    "AI resists violations of relational/causal/physical logic (e.g., 'a cat chasing a dog') while readily combining individually normal elements ('a melting clock in a desert').",
+    "AI models privilege a 19th-century realist/academic and photographic aesthetic (idealized lighting, centered subjects, one-point perspective) because such images statistically dominate training data, yielding 'bounded creativity' (Boden, 2004).",
+    "Specifying an artist's name produces a 'bleed' effect where the artist's characteristic content (e.g., Hokusai waves/Mount Fuji, Mondrian grids, Frida Kahlo self-portraits) seeps in along with style.",
+    "Using a reference image (Midjourney --sref) instead of an artist's name reduces the style-content entanglement by extracting visual qualities without triggering content associations.",
+    "Style extraction is conceptually problematic because artists rarely have a single coherent style (e.g., van Gogh's evolving periods) and pre-modern works use intentional hierarchical multi-style rendering that AI, capturing average image properties, tends to homogenize."
+  ],
+  "contributions": [
+    "Provides a media-theoretic analysis of generative AI as a creative medium, a mode of inquiry the author argues is largely missing compared to analyses of photography, film, or digital media.",
+    "Articulates six specific properties of the AI medium and argues which are structural versus contingent on model improvement.",
+    "Introduces the concept of 'media cognition' to name the internalized practical know-how about media that the models embody.",
+    "Frames generative AI as the first artistic medium whose cognitive capacity is built in rather than programmed, extending and inverting McLuhan's claim that media shape thought.",
+    "Reframes the debate by shifting attention from imitation/recombination toward the open question of what AI can genuinely enable that no prior medium could."
+  ],
+  "framing": "The article positions itself within media theory and art history—invoking McLuhan's claim that media shape thought and Boden's notion of bounded creativity—while explicitly departing from prevailing ethical, social, and 'AI art' critiques. It treats 'creativity' and 'art' as historically contingent inventions of the Romantic/modernist period and situates AI against the avant-garde's 'make it new' mandate, arguing the medium instead operates by a 'make it old' logic of recombination.",
+  "pdf_source": "drive"
+}

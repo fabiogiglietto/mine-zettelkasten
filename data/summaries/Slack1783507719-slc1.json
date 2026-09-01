@@ -1,0 +1,30 @@
+{
+  "abstract": "This paper presents CooRnet, an R-based tool and integrated methodology for detecting Coordinated Link Sharing Behaviour (CLSB) on Facebook — the coordinated sharing of the same news article within an unusually short timeframe by networks of pages, groups, and verified public profiles. The authors operationalize François's Actors-Behaviors-Content (A-B-C) disinformation framework as an iterative cycle that starts from harmful content, detects deceptive coordinated behavior, and identifies malicious actors, whose content then seeds the next iteration. The approach is demonstrated through a case study of problematic information around COVID-19 in Italy during the first and second pandemic waves.",
+  "key_claims": [
+    "Coordinated Link Sharing Behaviour (CLSB) is a strategy to boost the reach of content by gaming the algorithms that govern post distribution on Facebook.",
+    "CLSB has been consistently associated with the spread of problematic information, notably around the 2018 and 2019 Italian elections and the COVID-19 pandemic.",
+    "Approaches based solely on content (e.g., debunking fake news) or solely on pre-compiled lists of malicious actors are insufficient because they are time-consuming, sometimes ineffective, and cannot capture information operations that dynamically change sources, domains, and accounts.",
+    "An integrated approach interweaving Actors, Behaviors, and Content (the A-B-C framework) is needed to fully recognize disinformation activities, and CooRnet implements this as an iterative cycle."
+  ],
+  "methods": [
+    "Implementation of the François A-B-C framework as an iterative cycle within the CooRnet R package: content leads to detection of deceptive behavior, which identifies actors, whose content seeds the next iteration.",
+    "Used the CoronaVirus Alliance database of claims flagged false/misleading by the International Fact-Checking Network (IFCN), yielding 212 false/misleading Italian claims from Jan 22–Aug 26, 2020.",
+    "Employed CrowdTangle's 'Search' feature to build a dataset of related news stories (1,258 URLs).",
+    "Applied CooRnet functions: get_ctshares() to collect Facebook posts sharing URLs (within one week of publication), get_coord_shares() to flag coordinated shares (two actors sharing the same link within an unusually short window, with a configurable repetition threshold to avoid chance-based false positives), and get_outputs() to return coordinated entities, marked share data, a projected network graph, component summaries, top shares, and top URLs.",
+    "Used draw_url_timeline_chart() to produce interactive visualizations of cumulative coordinated vs. non-coordinated shares over time for individual URLs.",
+    "Ran two iterations of the A-B-C cycle, with the second iteration seeded from posts shared by actors identified in the first, over October 2020."
+  ],
+  "findings": [
+    "First iteration collected 13,271 CrowdTangle-tracked Facebook shares of the 1,258 URLs and identified 152 coordinated actors.",
+    "Posts by these 152 actors over October 2020 produced a dataset of 59,346 URLs used as input for the second iteration.",
+    "Second iteration yielded 364,400 Facebook shares and identified 344 coordinated entities.",
+    "COVID-19 skepticism, anti-vaccination, and anti-mask content were prominently featured among the coordinately shared news stories."
+  ],
+  "contributions": [
+    "Provides CooRnet, an operational R tool that translates the A-B-C disinformation framework into a reproducible, iterative detection cycle.",
+    "Offers a methodological alternative to content-only or static actor-list approaches, capable of adapting to the shifting sources and accounts of information operations.",
+    "Delivers an empirical case study of coordinated problematic information around COVID-19 in Italy, promising analysis at macro, meso, and micro levels."
+  ],
+  "framing": "The paper situates itself within mis/disinformation studies, responding to the field's difficulties in measuring the prevalence and effects of a fuzzy phenomenon. It advances beyond content-centric ('fake news') and static malicious-actor approaches by adopting the François Actors-Behaviors-Content framework to study coordinated inauthentic behavior on social platforms.",
+  "pdf_source": "drive"
+}
