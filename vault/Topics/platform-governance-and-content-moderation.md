@@ -59,7 +59,7 @@ Analysis of platform policy interventions—Meta's political content reduction p
 - [[Moran2025-qn]]
 - [[Nangle2026-yo]]
 - [[Peters2026-mo]]
-- [[Pierri2025-hm]]
+- [[Pierri2026-ib]]
 - [[Rauchfleisch2026-fa]]
 - [[Renault2025-uh]]
 - [[Rieder2026-pp]]

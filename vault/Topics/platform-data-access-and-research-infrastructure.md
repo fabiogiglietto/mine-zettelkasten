@@ -33,7 +33,7 @@ The evolving landscape of researcher access to social media data and APIs under 
 - [[Park2026-tr]]
 - [[Peters2026-mo]]
 - [[Philipp2026-tl]]
-- [[Pierri2025-hm]]
+- [[Pierri2026-ib]]
 - [[Rieder2025-ju]]
 - [[Schulte2026-df]]
 - [[Tonneau2025-bv]]

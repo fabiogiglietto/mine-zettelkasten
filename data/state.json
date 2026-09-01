@@ -1113,15 +1113,14 @@
     },
     "bibtex:Pierri2025-hm": {
       "note_path": "Papers/Pierri2025-hm.md",
-      "topics": [
-        "platform-data-access-and-research-infrastructure",
-        "platform-governance-and-content-moderation"
-      ],
+      "topics": [],
       "pdf_source": "drive",
       "content_hash": "cec12e63308ea73c432a45166b22ad6bcc5f9f09f378e30efa95b606f989b452",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.259876+00:00",
-      "assign_fp": "5c2208e424520b13d0f50816edf62ae20a7f2e524ced18f6f2e5234007768ee1"
+      "last_processed": "2026-09-01T19:47:18.523130+00:00",
+      "assign_fp": "5c2208e424520b13d0f50816edf62ae20a7f2e524ced18f6f2e5234007768ee1",
+      "superseded_by": "bibtex:Pierri2026-ib",
+      "slack_posted": true
     },
     "bibtex:Iannucci2025-eg": {
       "note_path": "Papers/Iannucci2025-eg.md",
@@ -3896,10 +3895,27 @@
       "last_processed": "2026-09-01T15:31:28.727491+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Pierri2026-ib": {
+      "note_path": "Papers/Pierri2026-ib.md",
+      "topics": [
+        "platform-data-access-and-research-infrastructure",
+        "platform-governance-and-content-moderation"
+      ],
+      "assign_fp": "918eb52123625b2239aeff6424e9b92905933afee9a8d2463c124c55d57c7d68",
+      "doi": "10.1145/3779412",
+      "title": "Research opportunities and challenges of the EU’s Digital Services Act",
+      "pdf_source": "drive",
+      "content_hash": "5bda706e24ef1368f408721a2124fc6eb47196219e5960b62da92db1b95428e0",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-01T19:47:55.654308+00:00",
+      "supersedes": "Pierri2025-hm"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "f9e80e56216144585933f4ec3c2510214d87c96d6e62efbddf2fdbeedb00b9e3",
   "emergent_fp": "9f139de18aa24cca349eeaa9955d8d5692367ab99c7e7d98f00ae72dadb748ea",
   "structure_fps": {
@@ -3918,5 +3934,13 @@
     "computational-methods-for-content-analysis": "3bb3a48b466808101819f7973e60b765878b4a0a0b7f9b3b5c2d82e9b88515f3",
     "social-media-research-methods-and-ethics": "e0f1116ae75d74daea58c8de42e04c1a1e7bed334393a9fbb77f344b75655feb"
   },
-  "supersede_decisions": {}
+  "supersede_decisions": {
+    "bibtex:Pierri2025-hm|bibtex:Pierri2026-ib": {
+      "same_work": true,
+      "confidence": "high",
+      "reason": "Identical title and nearly identical author list, with A being the CACM published version and B the arXiv preprint of the same commentary on the DSA's Article 40.",
+      "source": "claude",
+      "model": "claude-sonnet-5"
+    }
+  }
 }

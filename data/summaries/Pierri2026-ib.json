@@ -1,0 +1,31 @@
+{
+  "abstract": "This perspective piece examines the research opportunities and practical obstacles created by Article 40 of the European Union's Digital Services Act (DSA), which grants vetted researchers access to public and non-public data from very large online platforms (VLOPs) and search engines (VLOSEs). Drawing on the authors' direct involvement in EU policy discussions—including an ERC-supported pilot program and a roundtable with platforms and the European Commission—it outlines legal, technical, and organizational barriers to studying systemic online risks. The authors propose three concrete recommendations to help the DSA fulfill its transparency and accountability goals.",
+  "key_claims": [
+    "Article 40 of the DSA is a landmark framework that provides vetted researchers with a legal and technical pipeline to study systemic online risks in areas such as democratic processes, fundamental rights, public health, and illegal content.",
+    "Despite the 2025 adoption of the Delegated Act on Article 40, significant legal, technical, and organizational barriers still hinder effective independent research.",
+    "The incentives of researchers, EU citizens, national governments, and platforms are misaligned, and researchers should expect platform resistance ranging from bureaucratic delays to legal action.",
+    "Power and resource asymmetries between corporate and academic research undermine independent scrutiny and public trust in science.",
+    "Large language models (LLMs) meet the DSA's criteria as intermediary services deployed at scale and represent an urgent regulatory blind spot that should be addressed."
+  ],
+  "methods": [
+    "Collective expert perspective/position piece rather than an empirical study.",
+    "Grounded in direct participation in EU policy discussions on the Delegated Act, including an 18-month ERC-supported pilot program bringing together researchers, DG-CONNECT, and national Digital Services Coordinators (DSCs).",
+    "Informed by a roundtable discussion with major platforms and the European Commission, and a public workshop held in October 2025.",
+    "Synthesis of prior literature on industry influence in research, algorithmic bias, privacy, and digital media effects."
+  ],
+  "findings": [
+    "Platforms have expressed reluctance to directly share data, favoring alternatives such as the 'independence by permission' model, which tends to produce outcomes aligned with industry interests.",
+    "A cited example: an independent analysis of a Meta–researcher collaboration found the research portrayed Meta's platforms as more effective at curbing misinformation than normal, because temporary 2020-election algorithmic changes were not disclosed.",
+    "Four key asymmetries disadvantage academic researchers: financial/infrastructural (AI industry dominance), information access, legal resources, and public reach for narratives.",
+    "Implementation faces a 'circular problem of resources': data access is needed to secure grants, but funding is needed to endure the complex data-access application process.",
+    "Mismatches in language and expectations between researchers, DSCs, DPOs, and platforms—driven by researchers' empirical focus versus regulators' risk-aversion—are likely to slow the process and impose unnecessary restrictions."
+  ],
+  "contributions": [
+    "Provides an insider, practitioner-informed assessment of the DSA Article 40 data-access process from researchers engaged in its policy formation.",
+    "Articulates a taxonomy of challenges: misaligned incentives, power/resource asymmetries, and implementation bottlenecks.",
+    "Offers three concrete recommendations: streamline access procedures (via dataset categorization, data-sharing standards, and coordinated DSC/DPO training); support and foster independent research (addressing the circular resource problem and coordinating researcher efforts); and close regulatory blind spots (extending DSA to LLMs).",
+    "Frames the successful implementation of the DSA as a potential global model for transparent digital governance."
+  ],
+  "framing": "The paper positions itself within the emerging field of platform governance and digital media regulation, contrasting Europe's transparency-oriented DSA approach with a US trend toward limiting independent scrutiny. It advances a normative argument for independent, publicly funded research as essential infrastructure for online risk-prevention and democratic accountability.",
+  "pdf_source": "drive"
+}
