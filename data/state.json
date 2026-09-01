@@ -3192,16 +3192,15 @@
     "bibtex:Slack1783507648-sl94": {
       "note_path": "Papers/Slack1783507648-sl94.md",
       "topics": [],
-      "doi": "",
-      "title": "Untitled",
+      "doi": "10.3270/101610",
+      "title": "The Anti-Gender Debate on Social Media. A Computational Communication Science Analysis of Networks, Activism, and Misinformation",
       "pdf_source": "drive",
       "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
       "slack_posted": true,
       "last_processed": "2026-07-08T13:11:43.211741+00:00",
       "kind": "team",
-      "submitted_by": "Nicola Righetti",
-      "assign_fp": "7f11c6a7720a9fd0d05b974111754c1d77551237d30b81fb24df764c3e23bdb7"
+      "submitted_by": "Nicola Righetti"
     },
     "bibtex:Kulichkina2025-sl09": {
       "note_path": "Papers/Kulichkina2025-sl09.md",
@@ -3860,8 +3859,8 @@
       "note_path": "Papers/Slack1787858551-sl4d.md",
       "topics": [],
       "assign_fp": "cc5bb604f12bb2199bef1760a2e11da44190dffa9c845617cef91063cf7f7dfe",
-      "doi": "",
-      "title": "Privatization Public Discourse Raquel Recuero Camilla Quesada Tavares",
+      "doi": "10.4324/9781003477570-5",
+      "title": "The Privatization of Public Discourse",
       "pdf_source": "abstract_only",
       "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
@@ -3885,6 +3884,18 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-08-31T16:19:59.420215+00:00"
+    },
+    "bibtex:Slack1783507719-slc1": {
+      "note_path": "Papers/Slack1783507719-slc1.md",
+      "topics": [],
+      "doi": "10.5210/spir.v2021i0.12170",
+      "title": "COORNET: AN INTEGRATED APPROACH TO SURFACE PROBLEMATIC CONTENT, MALICIOUS ACTORS, AND COORDINATED NETWORKS",
+      "content_hash": "seeded-by-backfill-forces-changed-path",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-01T00:00:00+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
