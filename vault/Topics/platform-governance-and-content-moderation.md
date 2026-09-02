@@ -52,6 +52,7 @@ Analysis of platform policy interventions—Meta's political content reduction p
 - [[Jaidka2026-sl34]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
+- [[Kasianenko2026-tn]]
 - [[Katzenbach2026-sl2e]]
 - [[Lewandowsky2026-ob]]
 - [[Mahl2026-hc]]

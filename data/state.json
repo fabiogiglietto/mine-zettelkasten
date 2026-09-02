@@ -3912,10 +3912,26 @@
       "slack_pending": false,
       "last_processed": "2026-09-01T19:47:55.654308+00:00",
       "supersedes": "Pierri2025-hm"
+    },
+    "bibtex:Kasianenko2026-tn": {
+      "note_path": "Papers/Kasianenko2026-tn.md",
+      "topics": [
+        "platform-governance-and-content-moderation",
+        "computational-methods-for-content-analysis"
+      ],
+      "assign_fp": "e2f293c4e4fcf77e5dfcdaf575ca1655543782f5ec33bede43484e705244f94b",
+      "doi": "10.1177/1329878x261481856",
+      "title": "Searching for the truth? search engines and their AI affordances’ responses to conspiratorial search practices",
+      "pdf_source": "drive",
+      "content_hash": "531c61819edbccb5d42d04419f4bd3473ef6ab148a43f5a98f5dbeff849e7829",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-02T09:29:15.446300+00:00"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "f9e80e56216144585933f4ec3c2510214d87c96d6e62efbddf2fdbeedb00b9e3",
   "emergent_fp": "9f139de18aa24cca349eeaa9955d8d5692367ab99c7e7d98f00ae72dadb748ea",
   "structure_fps": {

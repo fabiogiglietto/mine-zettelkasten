@@ -1,0 +1,35 @@
+{
+  "abstract": "This paper investigates how Google Search and its AI Overview (AIO) features respond to conspiratorial versus general information-seeking practices, using the chemtrails and 15-minute cities conspiracy theories as case studies. Through algorithmic audits of first-page search results and AIO responses to query sets derived from real conspiratorial and non-conspiratorial online forums, the authors find substantial differences in returned information depending on query framing. They conclude that while Google's moderation and AI guardrails partially work for established conspiracy theories, they remain uneven and often fail for newer narratives, sometimes even legitimising conspiratorial claims.",
+  "key_claims": [
+    "Search engines are a major infrastructure for conspiratorial information seeking, and query formulation reflecting conspiratorial beliefs materially changes the information users are exposed to.",
+    "Google's content moderation efforts are unevenly applied and fail to fully account for 'conspiratorial' modes of query formulation, particularly when queries diverge from the language of reputable sources.",
+    "AI Overviews have not delivered on their potential to curb conspiratorial beliefs; their debunking is brief, poorly evidenced, and less effective for the newer 15-minute cities theory, where they can legitimise conspiratorial claims by framing them as 'debates' or 'fears'.",
+    "Newer, less-established conspiracy theories are more likely to escape moderation and be presented as authoritative than long-established ones like chemtrails.",
+    "AI Overviews disproportionately feature commercial sources, which are not bound by public-interest requirements and can give further visibility to problematic views."
+  ],
+  "methods": [
+    "Virtual agent-based algorithmic audit of Google Search, including AI Overviews, conducted from Sydney, Australia, twice daily over 7 days (14–20 January 2026).",
+    "Construction of query sets grounded in real conspiratorial and non-conspiratorial information-seeking practices: chemtrails queries drawn from an Instagram hashtag dataset and a geoengineering conspiracy forum's FAQ; 15-minute cities queries drawn from Reddit (r/conspiracy vs. r/urbanplanning) plus Google Trends for general queries (65 chemtrails and 53 15-minute cities queries).",
+    "Data collection using Selenium, Beautiful Soup, and Regex to extract search result URLs, AIO text, and AIO source URLs (1629 search page observations, 17,298 URLs, 1342 AIOs referencing 863 unique sources).",
+    "Adaptation of the 'practice mapping' method (from social media analysis) to visualise result-set similarity: top-10 URLs weighted 10 to 1, converted to vectors, compared via cosine similarity, and visualised as networks in Gephi using the Force Atlas 2 layout.",
+    "Source concentration analysis of top-50 URLs/domains using the Jaccard Index, with manual content coding of source types (adapted codebook from Norocel & Lewandowski 2023; Krippendorff's alpha = 0.78).",
+    "Coding of 80 randomly sampled AI Overviews for stance toward conspiracy (mentions/no mention/debunks/promotes) using Urman et al.'s codebook (intercoder reliability 0.76), plus analysis of discursive strategies and comparison with organic results."
+  ],
+  "findings": [
+    "Network analysis shows search results for conspiratorial queries differ markedly from general queries; results diverge more as queries drift toward conspiratorial ideation, while minor query variations produce little change and localised queries (naming Melbourne, Oxford, etc.) produce distinct results.",
+    "Conspiratorial queries returned more news media articles (often reputable outlets debunking the theories) and more social media posts (some conspiratorial), while general queries returned more government websites—especially for chemtrails, indicating official-source prioritisation as a moderation strategy.",
+    "Moderation failures were observed: e.g., a European Parliament page surfacing conspiratorial chemtrails tropes without an obvious link to the debunking answer, and Amazon links to conspiracy-promoting books returned only for conspiratorial queries.",
+    "For the newer 15-minute cities theory, more commercial explainer sources and explicit conspiratorial YouTube content appeared, and moderation was weaker than for chemtrails.",
+    "AI Overviews were sensitive to query framing: for chemtrails they largely debunked conspiratorial queries and ignored the theory for general queries, but for 15-minute cities 5 of 40 analysed AIOs actively promoted the conspiracy by framing it as a legitimate 'debate,' 'fears,' or 'misconceptions'.",
+    "AIO debunking was often brief and unsupported (e.g., dismissed as 'misinformation'), AIO source domains overlapped substantially with organic results (Jaccard ~0.48), and commercial sources were even more prominent in AIOs; conspiratorial queries also produced lower-quality AIOs (unexplained acronyms, an untranslated Japanese word)."
+  ],
+  "contributions": [
+    "Introduces query sets grounded in authentic conspiratorial community knowledge practices from online forums, moving beyond prior audits that relied on short queries, purposive sampling, or queries sourced from news/scholarship.",
+    "Provides one of the first algorithmic audits assessing Google's AI Overviews specifically for conspiratorial content and query framing sensitivity.",
+    "Adapts the social-media 'practice mapping' method to visualise similarity across search result sets, offering a novel analytic technique for search audits.",
+    "Offers a comparative, longitudinal case study contrasting an established (chemtrails) and an emergent (15-minute cities) conspiracy theory, demonstrating that moderation and AI guardrails are weaker for newer narratives.",
+    "Highlights the underexamined role of commercial sources and SEO/GEO/AEO optimisation practices in surfacing conspiratorial content, and sets a research agenda for user-centred experimental and ethnographic follow-up."
+  ],
+  "framing": "The paper positions itself within research on search engines, conspiracy theories, and algorithmic auditing, drawing on affordance theory (including emergent AI-powered affordances), the 'data voids' concept, and studies of conspiratorial epistemic communities and 'do your own research' practices. It responds to a gap between well-developed social-media conspiracy scholarship and comparatively underdeveloped study of search engines, and extends earlier audit work (e.g., Ballatore, Toepfl, Norocel & Lewandowski, Urman) to account for conspiratorial query formulation and newly introduced generative AI search features.",
+  "pdf_source": "drive"
+}

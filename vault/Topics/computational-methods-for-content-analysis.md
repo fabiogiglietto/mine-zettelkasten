@@ -39,6 +39,7 @@ Methodological work on applying large language models, embeddings and human-in-t
 - [[Gonzalez-Bailon2024-rq]]
 - [[Iannucci2025-eg]]
 - [[Jayaram2026-wd]]
+- [[Kasianenko2026-tn]]
 - [[Kim2026-br]]
 - [[Kotz2026-lk]]
 - [[Kulichkina2026-zk]]
