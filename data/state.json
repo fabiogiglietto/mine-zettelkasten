@@ -3923,11 +3923,11 @@
       "doi": "10.1177/1329878x261481856",
       "title": "Searching for the truth? search engines and their AI affordances’ responses to conspiratorial search practices",
       "pdf_source": "drive",
-      "content_hash": "531c61819edbccb5d42d04419f4bd3473ef6ab148a43f5a98f5dbeff849e7829",
-      "podcast_linked": false,
+      "content_hash": "6e6c9b1c027a055caeaa5a7002aa07d2e3ea800b851f19b96fad19f187bce73d",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-02T09:29:15.446300+00:00"
+      "last_processed": "2026-09-03T09:20:28.080399+00:00"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
