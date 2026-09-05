@@ -38,6 +38,7 @@ Empirical studies of political news coverage, partisan attention, hyperpartisan 
 - [[Gonzalez-Bailon2024-rq]]
 - [[Green2025-ap]]
 - [[Groebner2026-pc]]
+- [[Holland_Levin2026-qx]]
 - [[Iannelli2015-e0818c3e]]
 - [[Inacio-da-Silva2026-zf]]
 - [[Iris2026-pg]]

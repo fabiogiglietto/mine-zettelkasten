@@ -3928,10 +3928,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-03T09:20:28.080399+00:00"
+    },
+    "bibtex:Holland_Levin2026-qx": {
+      "note_path": "Papers/Holland_Levin2026-qx.md",
+      "topics": [
+        "political-communication-and-elections",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "6a14e2e87c76d8c884f22c3e8049af791ac69c4a6012f0d42c5c9f04811e4698",
+      "doi": "10.1080/10584609.2026.2717428",
+      "title": "From \\#StayWoke to “culture wars”: How social justice discourse is separately and synergistically politicized on twitter and YouTube",
+      "pdf_source": "abstract_only",
+      "content_hash": "337d9b3f3f44a783d3d032381525011ce4e5b586e031dbad9eedf95307abda4e",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-05T11:57:58.875396+00:00"
     }
   },
   "last_full_cluster": "2026-08-31T10:52:30.258472+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "f9e80e56216144585933f4ec3c2510214d87c96d6e62efbddf2fdbeedb00b9e3",
   "emergent_fp": "9f139de18aa24cca349eeaa9955d8d5692367ab99c7e7d98f00ae72dadb748ea",
   "structure_fps": {
