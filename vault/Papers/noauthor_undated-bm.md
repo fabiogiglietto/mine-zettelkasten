@@ -5,7 +5,7 @@ authors: []
 year: 
 doi: 
 bibtex_key: noauthor_undated-bm
-topics: [coordinated-inauthentic-behavior, computational-political-media-influence]
+topics: [coordinated-inauthentic-behavior, elections-social-media]
 citation_count: 0
 open_access: false
 source_url: https://scholar.google.com/scholar?q=cib.pdf

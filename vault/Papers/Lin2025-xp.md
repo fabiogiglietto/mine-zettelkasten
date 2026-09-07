@@ -5,7 +5,7 @@ authors: ["Hause Lin", "Gabriela Czarnek", "Benjamin Lewis", "Joshua P. White", 
 year: 2025
 doi: 10.1038/s41586-025-09771-9
 bibtex_key: Lin2025-xp
-topics: [computational-political-media-influence, generative-ai-and-synthetic-media]
+topics: [generative-ai-synthetic-media, computational-political-media-influence]
 citation_count: 14
 open_access: false
 source_url: https://doi.org/10.1038/s41586-025-09771-9

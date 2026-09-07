@@ -5,7 +5,7 @@ authors: ["Petter Törnberg", "Juliana Chueri"]
 year: 2026
 doi: 10.1177/19401612241311886
 bibtex_key: Tornberg2025-ir
-topics: [political-communication-and-elections, computational-political-media-influence]
+topics: [information-disorder-misinformation, elections-social-media]
 citation_count: 24
 open_access: false
 source_url: https://doi.org/10.1177/19401612241311886

@@ -5,7 +5,7 @@ authors: ["Kobi Hackenburg", "Caroline Wagner", "Luke Hewitt", "Ben M. Tappin", 
 year: 2026
 doi: 
 bibtex_key: Hackenburg2026-ud
-topics: [computational-political-media-influence, generative-ai-and-synthetic-media]
+topics: [generative-ai-synthetic-media, computational-political-media-influence]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2606.16475v1

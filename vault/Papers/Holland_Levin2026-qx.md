@@ -5,7 +5,7 @@ authors: ["Sara Holland Levin", "Rui Wang", "Junwan Seo", "Yi Yin Leong", "Emma 
 year: 2026
 doi: 10.1080/10584609.2026.2717428
 bibtex_key: Holland_Levin2026-qx
-topics: [political-communication-and-elections, platforms-audiences-and-online-communities]
+topics: [political-polarization-partisanship, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/10584609.2026.2717428

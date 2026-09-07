@@ -5,7 +5,7 @@ authors: ["Jaume Suau Martínez", "Clara Juarez Miro"]
 year: 2026
 doi: 10.1177/14648849241303249
 bibtex_key: Suau_Martinez2026-lv
-topics: [disinformation-narrative-monitoring, meta-science-of-misinformation-research]
+topics: [information-disorder-misinformation, platform-governance-data-access]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.1177/14648849241303249

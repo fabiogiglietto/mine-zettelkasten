@@ -5,7 +5,7 @@ authors: ["Beth Goldberg", "Diana Acosta-Navas", "Michiel Bakker", "Ian Beacock"
 year: 2026
 doi: 10.1177/26339137261459441
 bibtex_key: Goldberg2026-eb
-topics: [platform-governance-and-content-moderation, computational-methods-for-content-analysis]
+topics: [platforms-audiences-and-online-communities, platform-governance-data-access]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/26339137261459441

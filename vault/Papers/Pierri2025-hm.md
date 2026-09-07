@@ -8,7 +8,7 @@ bibtex_key: Pierri2025-hm
 source_url: https://doi.org/10.48550/arxiv.2512.14223
 discovery_date: 2025-12-15T00:00:00Z
 superseded_by: Pierri2026-ib
-topics: []
+topics: [platform-governance-data-access, meta-science-of-misinformation-research]
 podcast_url: 
 ---
 

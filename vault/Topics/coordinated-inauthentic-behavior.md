@@ -4,9 +4,9 @@ slug: coordinated-inauthentic-behavior
 emergent: false
 ---
 
-# Coordinated Inauthentic Behavior Detection
+# Coordinated Inauthentic Behavior
 
-Methods, tools and empirical studies for detecting coordinated link-sharing and inauthentic network activity on social platforms, from the CooRnet/CLSB methodology to the VERA-AI Alert monitoring system. This is the researcher's signature methodological contribution and remains his most active current research line.
+Detection and analysis of coordinated link-sharing, inauthentic networks, and deceptive information operations on social media platforms, the core methodological signature of Giglietto's research (CooRnet/CLSB, VERA-AI Alert, Facebook network studies). Central to his current work as WP4 leader on vera.ai and ongoing monitoring projects.
 
 ## Papers
 
@@ -17,7 +17,6 @@ Methods, tools and empirical studies for detecting coordinated link-sharing and 
 - [[Bastos2025-ol]]
 - [[Copland2025-em]]
 - [[De_Leon2025-qn]]
-- [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
@@ -28,9 +27,12 @@ Methods, tools and empirical studies for detecting coordinated link-sharing and 
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
+- [[Goel2025-iq]]
 - [[Graham2025-gp]]
+- [[Graham2026-fb]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
+- [[Kakavand2026-kt]]
 - [[Kansaon2025-id]]
 - [[Karo2026-dn]]
 - [[Kim2026-br]]
@@ -53,7 +55,9 @@ Methods, tools and empirical studies for detecting coordinated link-sharing and 
 - [[Rogers2026-cy]]
 - [[Rothut2026-or]]
 - [[Schroeder2026-im]]
+- [[Simeone2025-vo]]
 - [[Slack1783507532-sl10]]
+- [[Slack1783507719-slc1]]
 - [[Song2025-yh]]
 - [[Thiele2025-ol]]
 - [[Yang2025-iv]]

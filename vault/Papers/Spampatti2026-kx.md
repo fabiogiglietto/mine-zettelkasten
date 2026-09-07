@@ -5,7 +5,7 @@ authors: ["Tobia Spampatti", "Bojana Većkalov", "Sandra Jeanette Geiger", "Sand
 year: 2026
 doi: 10.31234/osf.io/swdrq_v1
 bibtex_key: Spampatti2026-kx
-topics: [meta-science-of-misinformation-research]
+topics: [meta-science-of-misinformation-research, information-disorder-misinformation]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/swdrq_v1

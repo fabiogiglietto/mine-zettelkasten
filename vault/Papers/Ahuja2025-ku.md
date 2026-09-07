@@ -5,7 +5,7 @@ authors: ["Sanju Ahuja", "Johanna Gunawan", "Nataliia Bielova", "Cristiana Santo
 year: 2025
 doi: 10.2139/ssrn.5555765
 bibtex_key: Ahuja2025-ku
-topics: [platform-governance-and-content-moderation, social-media-research-methods-and-ethics]
+topics: [platform-governance-data-access, digital-methods-research-tools]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.2139/ssrn.5555765
