@@ -1405,9 +1405,9 @@
         "platform-governance-data-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "7bcad0d9156376a419b656869f36bf3160680828f9947e95f258f2be2e92ed2c",
+      "content_hash": "14db5152919a931d32d0a8073404d39bcba6b36ce4605e1d876523ea5a0af5b5",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.262545+00:00",
+      "last_processed": "2026-09-08T08:53:49.592293+00:00",
       "assign_fp": "3224493deb095b7bfa92295d6688b3ff4040ca04f9b6789f188996df710e2a5b"
     },
     "bibtex:Fan2025-ut": {
@@ -1572,9 +1572,9 @@
         "platform-governance-data-access"
       ],
       "pdf_source": "drive",
-      "content_hash": "51303ffaa46f35663af534b596cc94450ac514e14877d744924e910ed94bbcee",
+      "content_hash": "054eb961afa2bd9e6896b8e81a0c6cdeaa1abe04b434f21a7453ae8d3e43e5b2",
       "podcast_linked": false,
-      "last_processed": "2026-06-06T11:18:21.419753+00:00",
+      "last_processed": "2026-09-08T08:54:05.974202+00:00",
       "assign_fp": "f9cb60992acd43d0bb570a8d650b591d9cfbad94c16f02ad014736a792bcfaa9"
     },
     "bibtex:Ventura2025-sw": {
@@ -2191,9 +2191,9 @@
         "computational-political-media-influence"
       ],
       "pdf_source": "drive",
-      "content_hash": "38635edbd35b0b25f4273b60c97a4ed2f599949c742f4270a29b57bc55866483",
+      "content_hash": "5f1158c90814e179391dbd9f9d4b96936cef440263e30e0c41f3729631849ac8",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.271017+00:00",
+      "last_processed": "2026-09-08T08:54:21.147906+00:00",
       "assign_fp": "b2c722e7e56a534d79d7aec96b3b7ea025755630b0b99619aedf8a7e037123e8"
     },
     "bibtex:Bruns2026-yv": {
@@ -3045,10 +3045,10 @@
       "doi": "10.1016/j.chb.2026.109085",
       "title": "Dark personality traits and online toxicity: Linking self-reports to Reddit activity",
       "pdf_source": "drive",
-      "content_hash": "da9d955758aa0aa05499cc56a845cd8765c4982f2b25f1474f27aa2aa41d3f05",
+      "content_hash": "1e5609cc6269f188e68344f2660882f075f3e4d6850724a163e43fdd8f97d99f",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-02T18:05:55.616335+00:00",
+      "last_processed": "2026-09-08T08:53:32.104999+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb",
       "assign_fp": "1669fb4ea1aebc13bcbee29f3e1778841db7148d31ba5923492ff5d0ee6a61b2"
@@ -3960,10 +3960,23 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-05T11:57:58.875396+00:00"
+    },
+    "bibtex:noauthor_undated-hb": {
+      "note_path": "Papers/noauthor_undated-hb.md",
+      "topics": [],
+      "assign_fp": "36eb730c8164a0d17a0b654b2fcfecadce53fc4e9f7bc1a2f95c6627fc531af4",
+      "doi": "",
+      "title": "Untitled",
+      "pdf_source": "drive",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-08T08:53:12.579981+00:00"
     }
   },
   "last_full_cluster": "2026-09-07T09:16:45.959833+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "47c4fc260758b3835e649cfb4b04b86312554f3e0534afb88a15402021d30a3a",
   "emergent_fp": "3000df393d7bf9389fdc4bd09e72ffaf7660ebddfbd8dac621fee610114494eb",
   "structure_fps": {

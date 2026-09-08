@@ -9,8 +9,8 @@ kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782984077356849
 topics: [llms-computational-content-analysis, platforms-audiences-and-online-communities]
-citation_count: 0
-open_access: false
+citation_count: 1
+open_access: true
 source_url: https://doi.org/10.1016/j.chb.2026.109085
 podcast_url: 
 pdf_available: true
@@ -25,29 +25,30 @@ discovery_date: 2026-07-02T11:09:15.304480Z
 
 ## Summary
 
-This paper investigates whether validated dark personality traits (Dark Tetrad plus trolling) actually manifest in observable Reddit language and behavior, or whether the widespread computational practice of inferring personality from text rests on shaky empirical ground. The authors built a custom Web application to consensually link Mechanical Turk participants' psychometric responses to their Reddit accounts, assembling ~57K comments from 114 users paired with Dark Side of Humanity Scale and Cyberbully/Troll Deviancy Scale scores. Their central finding is a disconnect: validated dark traits correlate with *self-reported* uncivil behavior but not with any of 219 text-derived linguistic or toxicity features after multiple-comparison correction. In contrast, self-reported engagement in and victimization by toxic content aligns robustly with observed linguistic patterns, suggesting computational features track online behavior rather than stable traits.
+This study investigates whether "dark" personality traits — Successful Psychopathy, Grandiose Entitlement, Sadistic Cruelty, and Entitlement Rage — plus trolling tendencies leave observable traces in real online behavior. Working at the intersection of personality psychology, cyberpsychology, and computational social science, the authors built a bespoke Web application that securely linked Amazon Mechanical Turk participants' validated questionnaire responses to their consented Reddit account activity. Their central finding is a striking dissociation: validated dark *traits* correlate with people's *self-reports* of producing uncivil content, but do **not** reliably predict computationally extracted linguistic or toxicity features. In contrast, self-reported *behavioral* engagement in (and victimization by) toxic exchanges aligns robustly with observable language patterns. The paper thus challenges a core assumption of computational personality inference — that surface linguistic signals proxy stable traits — while validating computational features for behavior-focused analysis.
 
 ## Key Contributions
 
-- A methodological framework and Web application for ethically linking validated psychometric self-reports to consented user-level Reddit activity.
-- A dataset of ~57K comments from 114 users annotated with Dark Tetrad and trolling assessments.
-- Empirical evidence that surface-level computational linguistic features do *not* reliably proxy validated dark traits, undermining a common assumption in computational personality inference.
-- Evidence that the same features *do* capture self-reported behavioral engagement in incivility, supporting behavior-focused (rather than trait-focused) approaches to moderation.
-- A demonstration that hand-crafted text-derived Dark Triad proxies from prior work fail to converge with validated questionnaire scores.
+- A methodological framework and Web application for ethically linking validated psychometric self-reports to user-level, consented Reddit activity data.
+- A dataset of ~57K comments (2.2M tokens) from 114 users paired with Dark Tetrad and trolling assessments.
+- Empirical evidence that surface-level computational features do **not** reliably proxy validated dark personality traits.
+- Demonstration that computational features *do* capture self-reported behavioral engagement in incivility, supporting behavior- (not trait-) focused moderation.
+- An argument for grounding computational personality inference in validated psychological instruments and richer, context-aware representations.
 
 ## Methods
 
-The authors recruited 114 US-based Reddit users (from 331 initial consenters, after attention-check filtering) via MTurk, requiring accounts of ≥30 days, ≥50 comments, and ≥1500 tokens. Participants completed a 66-item questionnaire combining the DSHS (Successful Psychopathy, Grandiose Entitlement, Sadistic Cruelty, Entitlement Rage), the CTDS trolling scale, demographics, and social media use items. For each user, 219 features were extracted spanning basic linguistics, Perspective API toxicity, LIWC-22, NRC-EIL/VAD emotion lexicons, EmoAtlas, FrameAxis moral foundations, BERT-based irony, and text-derived Dark Triad proxies. Hierarchical clustering on Spearman correlation distances reduced this to 154 features. Analyses used Spearman correlations with Bonferroni correction (confirmatory) and Benjamini–Hochberg correction (exploratory), plus bootstrap CIs.
+Participants were recruited via MTurk (US-based Reddit users; account ≥30 days, ≥50 comments, ≥1500 tokens), yielding 114 valid respondents from 331 consenting users after attention-check filtering. A 66-item questionnaire combined the Dark Side of Humanity Scale (DSHS), the Cyberbully/Troll Deviancy Scale (CTDS), demographics, and five social-media-use items. From each user's Reddit history the authors extracted 219 features — basic linguistics, Perspective API toxicity scores, LIWC-22 categories, NRC-EIL and NRC-VAD lexicons, EmoAtlas contextual emotions, FrameAxis moral foundations, BERT-based irony, and hand-crafted Dark Triad text proxies. Hierarchical clustering on Spearman-correlation distances reduced redundancy to 154 features. Confirmatory (Bonferroni-corrected) and exploratory (Benjamini–Hochberg-corrected) Spearman analyses were run with bootstrap CIs and sensitivity checks.
 
 ## Findings
 
-- Trolling and Successful Psychopathy correlated moderately and significantly with self-reported production of uncivil content, surviving Bonferroni correction.
-- No dark trait dimension significantly correlated with median toxicity, toxicity subtypes, LIWC categories, emotion/affect, or moral framing after correction.
-- Self-reported victimization and self-reported production of toxic content both correlated significantly with median toxicity, identity attacks, severe toxicity, negative tone, moral language, certitude, and vice-framed moral features — suggesting a perpetrator–victim reciprocity.
-- Hand-crafted text-derived Dark Triad formulas from prior work showed no significant convergence with DSHS dimensions after correction.
-- ~39.5% of participants scored above μ+σ on at least one dark/trolling dimension; only 2.6% did so on all five.
-- Demographic variables (gender, education, political affiliation) showed no significant differences in dark trait scores after correction.
+- Trolling and Successful Psychopathy positively correlated with self-reported production of uncivil content (SM05), surviving Bonferroni correction.
+- No dark dimension significantly correlated with median toxicity, toxicity subtypes, LIWC categories, emotion/affect features, or moral framing after correction.
+- Self-reported victimization (SM04) and production (SM05) of toxic content correlated with median toxicity, identity attacks, severe toxicity, negative tone, moral language, certitude, and morally-framed features (e.g., authority.vice, fairness.vice).
+- Prior hand-crafted text-derived Dark Triad proxies did not converge with any DSHS dimension after correction.
+- Socio-demographics (gender, education, political affiliation) showed no significant differences in dark trait scores.
+- ~39.5% of participants exceeded the μ+σ threshold on at least one dimension; only 2.6% exceeded on all five.
+- Toxic exchanges showed a perpetrator–victim reciprocity pattern: those reporting producing toxic content also more often reported being targeted.
 
 ## Connections
 
-No other papers under this topic were provided, so no wikilinks are warranted. The work situates itself against the Dark Triad/Tetrad tradition (Paulhus & Williams; Buckels et al.) and the computational personality-inference literature, and would connect naturally to research on online trolling, cyberbullying, and the validity of LLM- or lexicon-based psychological profiling from social media text.
+This paper sits within the computational study of online toxicity and moderation, sharing methodological terrain with LLM- and classifier-based approaches to detecting harmful content such as [[Triedman2025-uy]] and text-based ideology/trait inference exemplified by [[Le-Mens2025-qz]]. Its critique of inferring latent attributes from surface linguistic signals speaks to broader debates about the validity of computational content analysis represented in this register's toxicity and audience-behavior work; the emphasis on platform-level user activity connects loosely to community-behavior studies like [[Gagrcin2024-dl]].

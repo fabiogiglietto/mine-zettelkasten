@@ -1,0 +1,41 @@
+{
+  "abstract": "This is the second edition (2010) of the first volume of Manuel Castells' trilogy 'The Information Age: Economy, Society, and Culture,' subtitled 'The Rise of the Network Society.' The volume develops a systematic theory of the information age, arguing that a new social structure — the network society — emerged around the end of the twentieth century through the convergence of technological, economic, cultural, and organizational transformations. The extensive new preface revisits the book's original hypotheses in light of major world developments of the 2000s, including the global financial crisis, the transformation of work, the communication revolution, and new spatial forms, arguing these developments largely confirm the original analysis.",
+  "key_claims": [
+    "A new form of society — the network society — has arisen on a global scale, structured by networks in all key dimensions of social organization and social practice, powered by digital networking technologies that allow endless expansion and reconfiguration.",
+    "Digital networking overcomes the traditional limitations of networks in managing complexity beyond a certain size, enabling networks to become the dominant organizational form of the Information Age.",
+    "Because networks transcend national borders, the network society is inherently global, but global networks selectively include some people and territories while excluding others, producing a geography of social, economic, and technological inequality.",
+    "The nation-state has lost much of its capacity to regulate global flows of wealth and information, even though states were among the most active agents of globalization.",
+    "A new culture of 'real virtuality' is forming, in which digitized, multimodal communication networks make virtuality a fundamental dimension of reality.",
+    "The 2008 global financial crisis was a direct consequence of the dynamics of the informational, networked global economy — a 'global automaton' beyond the control of any investor, government, or regulator.",
+    "Communication is being transformed by 'mass self-communication' — interactive, self-generated, multimodal networks built around the Internet and wireless technology.",
+    "Space in the network society is organized through the interplay of the 'space of flows' and the 'space of places,' producing new metropolitan regions rather than the predicted end of cities."
+  ],
+  "methods": [
+    "Empirical, comparative social-science research drawing on studies conducted in the USA, Asia, Latin America, and Europe.",
+    "Analysis of long-run statistical data on employment and occupational structure across the G-7 countries (United States, Japan, Germany, France, Italy, United Kingdom, Canada) covering roughly 1920–2005.",
+    "Use of economic indicators including productivity growth, cross-border capital and trade flows, foreign direct investment, and stock valuations.",
+    "Analysis of Internet and wireless communication penetration statistics and digital divide ratios over time.",
+    "Case-based organizational analysis of firms and business networks (e.g., Toyotism, the Cisco model, East Asian business networks in Japan, Korea, and China).",
+    "Spatial and urban analysis synthesizing research by scholars such as Peter Hall, Saskia Sassen, Peter Taylor, and others on global cities and metropolitan regions.",
+    "Explicitly non-predictive approach: identifying observable trends and interpreting their meaning rather than forecasting."
+  ],
+  "findings": [
+    "The financial crisis resulted from six intertwined factors: the technological transformation of finance, deregulation, securitization of assets, global imbalances between capital-accumulating and capital-borrowing economies, information turbulences in markets, and inadequate supervision.",
+    "In the US, cumulative productivity grew nearly 30 percent (1998–2008) while real wages rose only about 2 percent; household debt to disposable income grew from 3 percent (1998) to 130 percent (2008).",
+    "Technological change did not destroy employment in aggregate; occupational profiles were upgraded in skills, while manufacturing jobs shifted to newly industrialized countries.",
+    "The labor market has polarized into 'self-programmable labor' (highly educated, autonomous 'talent') and 'generic labor' (low-skill executants), driving rising inequality.",
+    "Internet users grew from under 40 million (1995) to about 1.5 billion (2009); wireless subscriptions surpassed 3.4 billion (about 52 percent of world population) by 2008; the digital divide (OECD vs. developing) narrowed from 80.6:1 in 1997 to 5.8:1 in 2007.",
+    "Rather than the predicted end of cities, the world crossed the 50 percent urban threshold, entering the largest wave of urbanization in history, producing multicentered metropolitan regions (e.g., the Pearl River Delta with ~60 million people).",
+    "Global networks of finance, innovation, science, politics, art, and crime have distinct geographies that rarely share the same nodes; places where multiple networks overlap become mega-nodes (e.g., London, New York).",
+    "The effects of information technology on work are heavily mediated by firm strategies and government policies, producing wide variation across institutional contexts."
+  ],
+  "contributions": [
+    "Provides a systematic theoretical framework and new conceptual vocabulary — network society, space of flows/space of places, real virtuality, informationalism, network enterprise, self-programmable vs. generic labor, mass self-communication — for understanding contemporary society.",
+    "Establishes a widely cited, foundational sociological account of the transition from the industrial to the informational era.",
+    "Offers a reflexive reassessment (in the 2010 preface) testing the book's original hypotheses against subsequent world events, including the 2008 financial crisis and the rise of Web 2.0/social media.",
+    "Integrates economic, technological, occupational, cultural, and spatial analyses into a coherent interpretation of globalization and social change.",
+    "Advances urban theory by conceptualizing the metropolitan region as a new, multicentered spatial form arising from the local-global networking logic."
+  ],
+  "framing": "The work positions itself as a major sociological attempt to chart the transition beyond the industrial era, comparable in ambition to classic social theory, and situates itself against futurology and technological determinism by grounding claims in empirical social science. It engages debates in economic sociology, urban and communication studies, and globalization theory, arguing that inherited intellectual categories are inadequate for grasping the emerging network society.",
+  "pdf_source": "drive"
+}
