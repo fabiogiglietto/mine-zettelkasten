@@ -3236,10 +3236,10 @@
       "doi": "10.1080/1369118x.2025.2470229",
       "title": "Mainstreaming and transnationalization of anti-gender ideas through social media: the case of CitizenGO",
       "pdf_source": "drive",
-      "content_hash": "7775cbc45db530299bcfcce04c52800f9939911545dec97e3055840700f864eb",
+      "content_hash": "f779c96bbdd4969b8b2e90a0709cd3e96f2d1e09d3b0e1179aa82da8ad14fbc7",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-08T13:12:50.052872+00:00",
+      "last_processed": "2026-09-10T09:06:38.076183+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti",
       "assign_fp": "0555865b2345a95924f33bb5bb6423a64b2b0dcb59a94d90e290518474c7354d"
@@ -3253,10 +3253,10 @@
       "doi": "10.5117/ccr2025.1.7.righ",
       "title": "CooRTweet: A Generalized R Software for Coordinated Network Detection",
       "pdf_source": "drive",
-      "content_hash": "eae8abdfa8ea9c96fd4b3a44dc0f5bd4b387831597d3306580887d36e8b4927e",
+      "content_hash": "0dd5c53333f66cc3790889f73df02f5a2af6a18e55dd7671921cd6a9772e8129",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-08T13:13:23.194318+00:00",
+      "last_processed": "2026-09-10T09:06:57.248805+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti",
       "assign_fp": "3f4fb2da79147d05409b105c02fa07aea5b5f00c2b461621ef8bdafc82a17c14"
@@ -3315,10 +3315,10 @@
       "doi": "10.1002/9781444319514",
       "title": "The Rise of the Network Society",
       "pdf_source": "drive",
-      "content_hash": "76b6f30875c1a5c8b6c3f8643b4292598b713a080fc118c0bad3a2fc7a19b97c",
+      "content_hash": "d7debc3b242edb51c75b20f488359193de088b21a44faeb569cebd37a0993675",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-08T14:19:39.251746+00:00",
+      "last_processed": "2026-09-10T09:06:17.109890+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
     },
@@ -3396,10 +3396,10 @@
       "doi": "10.1080/1369118x.2026.2696929",
       "title": "Measuring partisan community dynamics: a longitudinal analysis of affective engagement in pro-Bolsonaro Facebook networks",
       "pdf_source": "drive",
-      "content_hash": "3e6bd0458eb3a09b0fe6a48b421a7adbca0f0b8b9532bd50dc66febf1d7b6e65",
+      "content_hash": "9e0161260e2351eaf605bddc2e4d53aa2853e102ca3d8d29753326ac7f966aa8",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-09T12:14:30.557075+00:00",
+      "last_processed": "2026-09-10T09:06:00.882485+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
     },
@@ -3973,10 +3973,42 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-08T08:53:12.579981+00:00"
+    },
+    "bibtex:Much2026-gu": {
+      "note_path": "Papers/Much2026-gu.md",
+      "topics": [
+        "elections-social-media",
+        "computational-political-media-influence"
+      ],
+      "assign_fp": "4129070cda8c732795d5814666879e7e85e598329644c642544d3c78daef85fd",
+      "doi": "10.33774/apsa-2026-cdb6x",
+      "title": "Did podcasts help Trump win young men? Gendered media spaces and gender gaps",
+      "pdf_source": "drive",
+      "content_hash": "562f5a832ec76e0eee2bf75ae88cb14662f517b929f2bd5027522725afad42fc",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-10T09:05:31.737427+00:00"
+    },
+    "bibtex:Lukito2026-il": {
+      "note_path": "Papers/Lukito2026-il.md",
+      "topics": [
+        "elections-social-media",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "fd9f283ce5fa1be68a0af730a4cc8b86f0f8c2727960e3447de77f2c72a73907",
+      "doi": "10.1177/14614448261470889",
+      "title": "Cross-platformization: How U.S. right-leaning media curate their posts on Twitter and Truth Social",
+      "pdf_source": "abstract_only",
+      "content_hash": "006f8b66c336322eb98691691c7bc35c608539d992ebe668dfbaa9269405453a",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-10T09:05:42.137325+00:00"
     }
   },
   "last_full_cluster": "2026-09-07T09:16:45.959833+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 3,
   "register_signals_hash": "47c4fc260758b3835e649cfb4b04b86312554f3e0534afb88a15402021d30a3a",
   "emergent_fp": "3000df393d7bf9389fdc4bd09e72ffaf7660ebddfbd8dac621fee610114494eb",
   "structure_fps": {

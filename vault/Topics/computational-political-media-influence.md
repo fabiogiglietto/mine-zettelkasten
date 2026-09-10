@@ -34,6 +34,7 @@ Papers using large-scale computational or quasi-experimental methods to study po
 - [[Lee2026-je]]
 - [[Lin2025-xp]]
 - [[Makeev2026-ma]]
+- [[Much2026-gu]]
 - [[Ng2026-og]]
 - [[Paci2025-ag]]
 - [[Rauchfleisch2026-fa]]

@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper investigates whether entertainment podcasts contributed to Donald Trump's unusually strong 2024 performance among young men, when the youth gender gap in vote choice widened sharply. Combining two survey datasets with the first large-scale transcript-level analysis of 36,659 episodes from the 276 most popular U.S. podcasts, the authors introduce the concept of 'gendered media spaces'—non-political entertainment environments where audiences sort on masculine/feminine content rather than ideology. They find that podcast gender expression correlates with ideological lean, that Trump targeted podcasts on gender rather than ideology, and that conservative podcast exposure is associated with higher Trump support, though the effect appears too small to explain the full gender gap.",
+  "key_claims": [
+    "Non-political entertainment podcasts constitute 'gendered media spaces' where audiences sort on gender expression (masculinity/femininity) rather than political ideology, functioning as an ideological sorting mechanism distinct from partisan selective exposure.",
+    "Because masculinity is cognitively linked to conservatism and femininity to liberalism, listeners of masculine-coded podcasts are incidentally exposed to conservative content even without seeking politics ('gendered ideological sorting').",
+    "Trump's campaign strategically targeted podcasts based on gender expression rather than ideology to reach persuadable, less ideologically-sorted masculine audiences, while Harris's choices tracked ideological lean and appeared mobilization-oriented.",
+    "Podcasts persuade through parasocial trust, incidental exposure, and reduced motivated reasoning among entertainment-seeking listeners with weak political priors.",
+    "Podcasts are one relevant feature of the media environment surrounding the widening 2024 youth gender gap, but account for only a small portion of the observed change."
+  ],
+  "methods": [
+    "First transcript-level analysis of the top 0.01% of U.S. podcasts: 36,659 episodes from 276 podcasts spanning January 2024–January 2025, selected via ListenNotes popularity scores validated against Edison Research rankings.",
+    "Audio downloaded from RSS feeds and transcribed/diarized with WhisperX (OpenAI Whisper plus speaker diarization), producing ~8.5 million speaker chunks as units of analysis.",
+    "LLM labeling with Gemini 3 Flash Preview using a two-stage detection-then-scoring pipeline that independently classifies gender expression (masculine to feminine) and ideology (liberal to conservative), collapsed to ternary directional scores; episode/podcast scores computed as word-count-weighted net indices, blending transcript scores 90% with host gender 10%.",
+    "Genre classification (political vs. non-political) drawn from Edison Research/Apple metadata and validated with ListenNotes tags, kept independent of the authors' own content scores.",
+    "Consumption data from Edison Podcast Metrics (EPM): show-profile demographics for all 276 podcasts and individual-level survey data (3,544 respondents with 2024 vote intention across 129 non-political podcasts).",
+    "Original YouGov panel survey of 1,167 respondents (post-election wave Jan–Feb 2025) with prior 2016/2020 vote history, modeling probability of voting Trump conditional on listening to Joe Rogan and other candidate-interview podcasts, controlling for partisanship and prior vote."
+  ],
+  "findings": [
+    "Top U.S. podcasts contain substantial political content: political-genre episodes average 81% political utterances, non-political average 15% (median 7%).",
+    "Among non-political episodes with political content, 47% lean liberal, 27% conservative, 26% moderate/mixed; political-genre podcasts are 72% conservative. Liberals occupy more of the overall landscape (192 podcasts, 19,842 episodes) but conservatives are more prolific within explicitly political podcasting.",
+    "Masculine expression is positively correlated with conservative ideology and feminine with liberal across the ecosystem (supporting H1); nearly all conservative podcasts are heavily masculine while masculinity spans the ideological spectrum.",
+    "Trump's non-political podcast appearances (16 interviews collected) aligned more with gender expression than ideology, consistent with a persuasion strategy; Harris made fewer appearances (5) that tracked ideological lean.",
+    "Young men received the most exposure to conservative content of any age-gender cohort in non-political podcasts.",
+    "Conservative podcast exposure is associated with higher Trump vote intention after controlling for party ID, concentrated among Independents, with positive associations across all age-gender groups; effect sizes were similar across groups but young men encountered far more conservative content.",
+    "Counterfactuals: assigning young men the podcast diet of young women significantly lowers predicted Trump support; assigning young women the men's diet modestly raises theirs—but the overall association is small and cannot explain the full youth gender gap.",
+    "YouGov panel shows self-reported Joe Rogan listening is associated with higher probability of voting Trump even after controlling for party ID and prior vote choice."
+  ],
+  "contributions": [
+    "Introduces the theoretical concept of 'gendered media spaces' and the mechanism of 'gendered ideological sorting' as distinct from partisan selective exposure.",
+    "Provides the first large-scale, transcript-level empirical mapping of the top U.S. podcast ecosystem along dimensions of gender expression and ideology.",
+    "Demonstrates a methodology combining LLM-based content labeling, consumption data, and survey data to link media content, audience composition, and vote behavior.",
+    "Extends talk-radio and soft-news persuasion literatures to the modern podcast medium and connects them to the age-differentiated gender gap in vote choice.",
+    "Offers empirical evidence on candidate media-venue selection strategy (gender vs. ideology targeting) in the 2024 election."
+  ],
+  "framing": "The paper positions itself within political communication and political psychology, engaging the literatures on partisan selective exposure, soft news and incidental political exposure, parasocial media effects, talk-radio persuasion, and the gendered psychology of party identification. It intervenes in the gender-gap literature by foregrounding age—specifically the growing conservatism of young men in Gen Z—and argues that identity-sorted entertainment media create novel opportunities for candidate persuasion beyond ideologically self-sorted audiences.",
+  "pdf_source": "drive"
+}
