@@ -3984,11 +3984,11 @@
       "doi": "10.33774/apsa-2026-cdb6x",
       "title": "Did podcasts help Trump win young men? Gendered media spaces and gender gaps",
       "pdf_source": "drive",
-      "content_hash": "562f5a832ec76e0eee2bf75ae88cb14662f517b929f2bd5027522725afad42fc",
-      "podcast_linked": false,
+      "content_hash": "ff8c4b8762f70b70265d48b2a323ca87245d391958fa8d258ebd23a618962101",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-10T09:05:31.737427+00:00"
+      "last_processed": "2026-09-11T09:17:34.121373+00:00"
     },
     "bibtex:Lukito2026-il": {
       "note_path": "Papers/Lukito2026-il.md",
