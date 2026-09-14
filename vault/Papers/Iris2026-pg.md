@@ -5,7 +5,7 @@ authors: ["Íris Damião", "João Franco", "Mariana Menezes Melo Silva", "Paulo 
 year: 2026
 doi: 
 bibtex_key: Iris2026-pg
-topics: [elections-social-media, political-polarization-partisanship]
+topics: [political-polarization-italy-elections, computational-political-media-influence]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2601.05826

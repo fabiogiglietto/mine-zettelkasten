@@ -5,7 +5,7 @@ authors: ["Thomas Renault", "Mohsen Mosleh", "David Gertler Rand"]
 year: 2025
 doi: 10.31234/osf.io/vk5yj_v4
 bibtex_key: Renault2025-uh
-topics: [information-disorder-misinformation, platform-governance-data-access]
+topics: [information-disorder-disinformation, computational-political-media-influence]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/vk5yj_v4

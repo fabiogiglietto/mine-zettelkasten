@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: llms-computational-content-analysis
+slug: generative-ai-content-analysis
 emergent: false
 ---
 
-# LLMs & Computational Content Analysis
+# Generative AI & LLMs in Content Analysis
 
-Methodological work integrating large language models and embedding techniques into content classification, annotation, and political discourse analysis, including validation of LLM-in-the-loop pipelines and comparative embedding studies for Italian political news.
+Methodological research on integrating large language models and embedding models into social media content classification and political discourse analysis, including validation challenges of LLM-in-the-loop pipelines and teaching (IA Generativa e Media course).
 
 ## Papers
 
@@ -14,33 +14,38 @@ Methodological work integrating large language models and embedding techniques i
 - [[Alizadeh2026-es]]
 - [[Arminio2025-tw]]
 - [[Arora2025-tx]]
-- [[Bailard2024-pj]]
 - [[Balluff2026-if]]
 - [[Brown2025-jk]]
+- [[Bruns2025-fz]]
 - [[Cerulli2026-sl75]]
 - [[Costello2024-bg]]
 - [[DeVerna2025-dl]]
 - [[DiGiuseppe2025-es]]
-- [[DiGiuseppe2026-pu]]
+- [[Dierickx2026-tw]]
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
+- [[Fan2026-af]]
 - [[Giglietto2024-cbeb3f70]]
+- [[Gilardi2026-hw]]
+- [[Hackenburg2025-dj]]
 - [[Jayaram2026-wd]]
-- [[Lai2024-to]]
+- [[Kasianenko2026-tn]]
+- [[Kotz2026-lk]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]
+- [[Lin2025-xp]]
+- [[Manovich2026-ih]]
 - [[Marino2024-2fbc690f]]
 - [[Marino2026-slef]]
 - [[Meher2025-qb]]
 - [[Minici2024-tf]]
 - [[Ober2026-vd]]
 - [[Paci2025-ag]]
-- [[Ptz2024-sl20]]
 - [[Sarmiento2025-as]]
 - [[Szabo2026-rd]]
 - [[Tan2024-vl]]
-- [[Triedman2025-uy]]
+- [[Tornberg2026-lc]]
 - [[Waight2025-al]]
 - [[Waight2026-ts]]
 
@@ -48,6 +53,6 @@ Methodological work integrating large language models and embedding techniques i
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "llms-computational-content-analysis")
+WHERE contains(topics, "generative-ai-content-analysis")
 SORT discovery_date DESC
 ```

@@ -1,23 +1,24 @@
 ---
 type: topic
-slug: information-disorder-misinformation
+slug: information-disorder-disinformation
 emergent: false
 ---
 
-# Information Disorder & Misinformation
+# Information Disorder & Disinformation
 
-Broad research line on the spread, taxonomy, and mitigation of fake news, disinformation, and problematic information across hybrid media systems, spanning topics from Charlie Hebdo hashtag studies to the PROMPT project on disinformation narratives in Europe (Ukraine war, LGBTQI+ rights, elections).
+Study of misinformation, disinformation and hybrid media manipulation dynamics, including narrative propagation, fact-checking support tools, and the conceptual foundations (fake news taxonomies) underpinning the researcher's broader agenda.
 
 ## Papers
 
 - [[Adam2026-tz]]
-- [[Beacken2026-zb]]
 - [[Bergeron-Boutin2026-yh]]
 - [[Bosch2024-hj]]
+- [[Bruns2026-yv]]
 - [[Cabbuag2024-me]]
 - [[Cazzamatta2026-lo]]
 - [[Choi2026-bz]]
 - [[Copland2025-em]]
+- [[Costello2024-bg]]
 - [[Dahlke2026-sl34]]
 - [[DeVerna2025-dl]]
 - [[De_Leon2025-qn]]
@@ -25,44 +26,51 @@ Broad research line on the spread, taxonomy, and mitigation of fake news, disinf
 - [[Dierickx2026-tw]]
 - [[Donovan2025-ws]]
 - [[Dubey2026-bl]]
+- [[Ducci2022-10cb5d70]]
 - [[Emilio2026-ik]]
 - [[Farkas2026-lr]]
 - [[FitzGerald2025-nv]]
+- [[Fletcher2026-lv]]
 - [[Frischlich2025-vn]]
 - [[Gardam2025-er]]
 - [[Gattermann2025-yx]]
-- [[Giada2026-fc9a3833]]
-- [[Giglietto2017-4375de2f]]
+- [[Gaw2025-ru]]
+- [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2019-e9be81c1]]
 - [[Goel2025-iq]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Graham2025-gp]]
+- [[Grusauskaite2026-po]]
 - [[Hameleers2026-mc]]
 - [[Hollingshead2026-vx]]
 - [[Holt2026-zq]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
 - [[Jaidka2026-sl34]]
+- [[Karlsson2026-hd]]
 - [[Kasianenko2026-tn]]
-- [[Kim2026-br]]
+- [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]
 - [[Lewandowsky2026-ob]]
 - [[Lieu2025-nl]]
 - [[Luhring2025-od]]
 - [[Mahl2026-hc]]
 - [[Makeev2026-ma]]
+- [[Mannocci2026-kc]]
 - [[Marwick2025-ov]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]
 - [[Mosca2026-yh]]
-- [[Mosleh2024-op]]
 - [[Nangle2026-yo]]
 - [[Nenno2025-xa]]
+- [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
 - [[Ramos2026-qo]]
 - [[Renault2025-uh]]
+- [[Rieder2026-pp]]
 - [[Righetti2025-slf9]]
+- [[Rodarte2026-dk]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2026-cy]]
 - [[Rohrbach2026-rc]]
@@ -73,13 +81,18 @@ Broad research line on the spread, taxonomy, and mitigation of fake news, disinf
 - [[Rothut2026-wt]]
 - [[Sadler2025-vu]]
 - [[Scalco2026-bd]]
-- [[Spampatti2026-kx]]
+- [[Simeone2025-vo]]
 - [[Starbird2025-jj]]
 - [[Suau_Martinez2026-lv]]
+- [[Suk2026-ai]]
+- [[Swartz2026-zb]]
 - [[Szabo2026-rd]]
 - [[Tai2026-qk]]
 - [[Thiele2025-ol]]
+- [[Tonneau2025-bv]]
 - [[Tornberg2025-ir]]
+- [[Triedman2025-uy]]
+- [[Trilling2024-slc8]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2025-sw]]
 - [[Vincent_undated-re]]
@@ -94,6 +107,6 @@ Broad research line on the spread, taxonomy, and mitigation of fake news, disinf
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "information-disorder-misinformation")
+WHERE contains(topics, "information-disorder-disinformation")
 SORT discovery_date DESC
 ```

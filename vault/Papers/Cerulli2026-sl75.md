@@ -8,7 +8,7 @@ bibtex_key: Cerulli2026-sl75
 kind: team
 submitted_by: "GiadaM. / Uniurb"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782984077356849
-topics: [llms-computational-content-analysis, platforms-audiences-and-online-communities]
+topics: [platforms-audiences-and-online-communities, generative-ai-content-analysis]
 citation_count: 1
 open_access: true
 source_url: https://doi.org/10.1016/j.chb.2026.109085

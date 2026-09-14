@@ -5,7 +5,7 @@ authors: ["Walter Paci", "Alessandro Panunzi", "Sandro Pezzelle"]
 year: 2025
 doi: 10.18653/v1/2025.findings-acl.804
 bibtex_key: Paci2025-ag
-topics: [llms-computational-content-analysis, computational-political-media-influence]
+topics: [generative-ai-content-analysis, computational-political-media-influence]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.18653/v1/2025.findings-acl.804

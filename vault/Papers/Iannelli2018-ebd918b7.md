@@ -6,7 +6,7 @@ year: 2018
 doi: 10.1177/0894439318816638
 bibtex_key: Iannelli2018-ebd918b7
 kind: own
-topics: [digital-methods-research-tools, platform-governance-data-access]
+topics: [platform-data-governance, platforms-audiences-and-online-communities]
 citation_count: 88
 open_access: true
 source_url: https://doi.org/10.1177/0894439318816638
