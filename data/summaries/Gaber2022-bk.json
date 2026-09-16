@@ -1,0 +1,32 @@
+{
+  "abstract": "This conceptual paper theorizes 'strategic lying' as a new campaigning tactic that has emerged from the evolution of political spin in the digital, post-truth era. Using the 2016 Brexit referendum and the 2019 UK general election as case studies, the authors argue that strategic lying functions as a priming device to set and shape the news agenda, exploiting the amplifying affordances of social and mainstream media. They contend that rather than a radical break from spin, strategic lying is an intensification of established public relations tactics facilitated by professionalized political communication and networked media flows.",
+  "key_claims": [
+    "'Strategic lying' is a distinct, deliberate campaigning tactic designed to set, frame, and prime the news agenda, where the veracity of the claim is irrelevant to its effectiveness.",
+    "Strategic lying is not a radical departure from political spin but an evolution of long-standing PR tactics, intensified by professionalization and social media.",
+    "The rebuttal of a strategic lie inadvertently amplifies and legitimizes it, spreading the original false claim more widely than any correction.",
+    "Strategic lying poses a serious challenge to the liberal democratic model, which depends on access to reliable information and electoral accountability.",
+    "Politicians caught in strategic lies are increasingly not punished at the ballot box in a post-truth, post-shame environment."
+  ],
+  "methods": [
+    "Conceptual/theoretical paper drawing on agenda-setting theory (McCombs and Shaw), priming, framing, and intermedia agenda setting.",
+    "Two qualitative case studies: the 2016 UK Brexit referendum and the 2019 UK general election, with the Trump presidency as a supplementary US comparison.",
+    "Synthesis of cross-disciplinary literature including political communication, public relations, behavioral science (confirmation bias, cognitive dissonance, repetition effects), and populism studies.",
+    "Analysis of documentary evidence: Dominic Cummings's blog on the Leave campaign, fact-checking reports (Full Fact, First Draft), Labour Together's post-election review, news coverage, and social media data."
+  ],
+  "findings": [
+    "The Leave campaign's key claims — the £350 million-a-week EU contribution and Turkey joining the EU — were misleading statements strategically deployed to 'provoke argument' and keep favorable issues (sovereignty, immigration) on the agenda.",
+    "In the 2019 election the Conservatives systematically used strategic lies: a doctored video of Keir Starmer, exaggerated £1.2 trillion Labour spending claims (versus ~£98bn per the IFS), false claims of 40 new hospitals and 50,000 new nurses, and denial of Northern Ireland border checks.",
+    "The Conservatives created deceptive websites, including a fake 'Factcheck UK' account (@CCHQPress) during a leaders' debate; First Draft found 88% of Conservative Facebook ads contained suspect information versus 6.7% for Labour.",
+    "Fact-checking has limited effect: corrections fade from memory while the original lie persists, and partisans discount corrections due to confirmation bias and cognitive dissonance ('they might be a liar, but they are my liar').",
+    "Social media (via 'distributed spin', bots, and network logic) turbocharges the spread of lies; Vosoughi et al. found falsehoods spread farther and faster than truth.",
+    "Post-campaign polling and Loughborough media monitoring showed Brexit remained the most salient issue, correlating with (though not proven to be caused by) the strategic lying campaigns."
+  ],
+  "contributions": [
+    "Introduces and theorizes the concept of 'strategic lying' as a specific development within the tradition of political spin.",
+    "Distinguishes strategic lying from adjacent concepts: 'fake news', 'wicked content' (Jack), the reactive 'dead cat strategy', and ordinary spin.",
+    "Situates strategic lying within agenda-setting, priming, and intermedia agenda-setting frameworks, showing how amplification and rebuttal are exploited rather than accidental.",
+    "Deepens understanding of the evolution of spin in the digital/post-truth era and calls for further research on strategic lying's prevalence and impact on voter behavior."
+  ],
+  "framing": "The paper positions itself within political communication and journalism studies, specifically the scholarship on spin, propaganda, post-truth politics, and agenda-setting theory. It engages directly with debates (e.g., Garland) over whether post-truth communication is a break from or a continuation of spin, arguing for continuity and evolution rather than rupture, while linking the phenomenon to the rise of populism and hybrid/social media systems.",
+  "pdf_source": "drive"
+}

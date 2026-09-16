@@ -32,6 +32,7 @@ Study of misinformation, disinformation and hybrid media manipulation dynamics, 
 - [[FitzGerald2025-nv]]
 - [[Fletcher2026-lv]]
 - [[Frischlich2025-vn]]
+- [[Gaber2022-bk]]
 - [[Gardam2025-er]]
 - [[Gattermann2025-yx]]
 - [[Gaw2025-ru]]

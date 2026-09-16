@@ -3514,11 +3514,11 @@
       "doi": "10.25358/openscience-15825",
       "title": "The challenges of working with platform data from clean room environments",
       "pdf_source": "drive",
-      "content_hash": "092f65937c52f2a8e8e9372f32143dd1dfdcbceb86cded6e2e57024c45a56ab0",
+      "content_hash": "8e7e17c569e7ba3802f0ebddb5f42c43860449d765d81687859c9d019501c64e",
       "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-17T07:03:06.029292+00:00"
+      "last_processed": "2026-09-16T12:50:27.549238+00:00"
     },
     "bibtex:Rossini2026-mj": {
       "note_path": "Papers/Rossini2026-mj.md",
@@ -3875,11 +3875,11 @@
       "doi": "",
       "title": "\"Sticking their heads out above the parapets\": Lived Experiences of Legal Risks in Research",
       "pdf_source": "drive",
-      "content_hash": "c1f7d0a1a0d6cf41394b3ab05a702c129b6ee13420d1843d3e4a082ceee96e6a",
+      "content_hash": "60e7da3a3ee3959b4f7a53f2511e87fac1f027178b3b8484368995cbff28c587",
       "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-31T16:19:59.420215+00:00"
+      "last_processed": "2026-09-16T12:50:10.732348+00:00"
     },
     "bibtex:Slack1783507719-slc1": {
       "note_path": "Papers/Slack1783507719-slc1.md",
@@ -3990,10 +3990,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-10T09:05:42.137325+00:00"
+    },
+    "bibtex:Gaber2022-bk": {
+      "note_path": "Papers/Gaber2022-bk.md",
+      "topics": [
+        "information-disorder-disinformation",
+        "computational-political-media-influence"
+      ],
+      "assign_fp": "f45b30d1a5da7a7e72080522d7aaa06a755f7a4f71b4e913a1efa93b10b923ec",
+      "doi": "10.1177/1940161221994100",
+      "title": "“strategic lying”: The case of Brexit and the 2019 U.k. election",
+      "pdf_source": "drive",
+      "content_hash": "493c3c0cc746a484a9614e318935348f94bc3240cd2774feae5597a434843a28",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-16T12:49:50.038847+00:00"
     }
   },
   "last_full_cluster": "2026-09-14T09:58:14.440593+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "0bd497771d3db63da491448d109ced435f8bca6bbdeec725cb44ad5a93395ddc",
   "emergent_fp": "34516bd3239d5323755ddcb085a80ca7961d615177372ece6c7f9e46a39b868f",
   "structure_fps": {

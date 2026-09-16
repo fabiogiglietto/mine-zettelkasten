@@ -22,34 +22,33 @@ discovery_date: 2026-07-18T06:28:38.387562Z
 
 ## Summary
 
-This report offers an early critical assessment of the "clean room" model of researcher access to platform data, in which analysis takes place inside platform-hosted, Web-disconnected environments rather than through traditional API downloads. Using the Meta Content Library (MCL) as its primary case, alongside ProQuest's TDM Studio, Bruns and Vodden argue that while clean rooms address genuine privacy and copyright concerns, their design substantially narrows both who can conduct research and what kinds of research are possible. They contend that platforms have overemphasised data-control concerns to justify restrictive access that frustrates independent, public-interest scrutiny, and they urge regulators to assess not merely whether access exists but whether it is genuinely useful.
+This report offers an early critical assessment of the "clean room" model of researcher access to platform data — enclosed, Web-disconnected environments in which analysis occurs on platform-hosted infrastructure rather than through downloadable API data. Using the Meta Content Library (MCL) as its primary case, with ProQuest's TDM Studio as a comparison, Bruns and Vodden argue that although clean rooms respond to genuine privacy and copyright concerns, their design substantially constrains both who can do research and what research is possible. They situate this shift within the longer history of platform access — from permissive early APIs, through the "APIcalypse," to today's enclosed "walled garden" regimes — and warn that clean rooms privilege quantitative, code-based work while obstructing qualitative, mixed-methods, longitudinal, and cross-platform inquiry, deepening inequities between well-resourced Global North institutions and researchers elsewhere.
 
 ## Key Contributions
 
-- Provides an early, structured critical evaluation of whether clean room access models are fit for purpose — a question the authors note has not yet been comprehensively answered.
-- Documents for the research record the technical architecture and evolution of the MCL, including its predecessor CrowdTangle, the Virtual Data Enclave, and the Secure Research Environment.
-- Articulates a taxonomy of clean room limitations spanning skills, tools, methodological breadth, longitudinal capacity, and cross-platform comparison.
-- Frames data-access equity as a Global North versus Majority World problem with consequences for the geographic and linguistic focus of platform research.
-- Offers guidance to legislators and regulators to move beyond baseline access requirements (e.g. DSA Article 40) toward assessing genuine usefulness.
+- An early, structured evaluation of whether clean room access models are fit for public-interest research — a question the authors note has not been comprehensively assessed.
+- Documentation for the research record of the technical architecture and evolution of the MCL's access frameworks (the Virtual Data Enclave and the Secure Research Environment), and its relationship to the decommissioned CrowdTangle.
+- A taxonomy of clean room limitations spanning required skills, permitted tools, methodological breadth, longitudinal capacity, and cross-platform comparison.
+- Framing of data-access equity as a Global North versus Majority World problem, with consequences for the geographic and linguistic focus of platform research.
+- Guidance to regulators to move beyond checking whether access exists (e.g. under EU DSA Article 40) toward assessing whether it is genuinely useful.
 
 ## Methods
 
-The paper is a conceptual and critical analysis, situating clean rooms within the historical evolution of platform data access — from permissive APIs through the "APIcalypse" to enclosed environments. It combines a case-study description of the MCL and its access frameworks with comparative reference to ProQuest's TDM Studio, drawing on the authors' hands-on experience navigating accreditation, access, and analysis workflows.
+Conceptual and critical analysis grounded in the historical evolution of platform data access, combined with a case-study description of the Meta Content Library and comparative reference to ProQuest's TDM Studio. The account draws on the authors' hands-on experience navigating clean room accreditation, access workflows, and analysis constraints.
 
 ## Findings
 
-- The MCL replaced CrowdTangle (decommissioned August 2024), reducing data access precisely during the final phase of the 2024 US presidential election.
-- The original Virtual Data Enclave required a cumbersome multi-layered login (virtual Windows → virtual Linux → Jupyter Notebook) and was exceptionally slow outside the United States.
-- The newer Secure Research Environment streamlines access but mandatorily deletes all accessed data monthly, obstructing longitudinal work.
-- Analysis is restricted to Jupyter Notebooks with Python or R and a limited approved toolset, excluding industry-standard software like Tableau, Power BI, NVivo, and MaxQDA.
-- Web disconnection prevents use of commercial LLMs for coding, while open-source models are constrained by allocated memory and disk.
-- Clean rooms exist in isolation, preventing data being combined across platforms; cross-platform work is limited to parallelised analysis of aggregate outcomes.
-- These constraints privilege quantitative, code-based methods and widen inequities between well-resourced institutions and those in the Majority World, reinforcing a WEIRD/English-language bias.
-- The EU has begun proceedings against Meta and TikTok for failing DSA transparency and data-access obligations.
+- MCL replaced CrowdTangle (decommissioned August 2024), cutting access precisely during the final phase of the 2024 US presidential election.
+- The original Virtual Data Enclave required a cumbersome multi-layered login (virtual Windows → virtual Linux → Jupyter Notebook) and was exceptionally slow outside the US.
+- The newer Secure Research Environment streamlines access but mandatorily deletes accessed data monthly, obstructing longitudinal studies.
+- Analysis is restricted to Jupyter Notebooks with Python or R and a limited approved toolset, excluding standards like Tableau, Power BI, NVivo, and MaxQDA.
+- Web disconnection prevents use of commercial LLMs for coding, and open-source LLMs are constrained by allocated memory and disk.
+- Clean rooms are isolated, preventing combination of data across platforms; cross-platform work is confined to parallelised analysis of aggregate outcomes.
+- The EU has opened proceedings against Meta and TikTok for failing DSA transparency and data-access obligations.
 
 ## Connections
 
-This paper extends the "APIcalypse" and walled-garden debate on platform data access that runs through [[Bruns2025-fz]], [[Bruns2026-yv]], [[Rieder2025-ju]], and Davies2026-style critiques of enclosed access; it pairs closely with work assessing the practical adequacy and governance of researcher access such as [[Ohme2026-nv]], [[Rieder2026-pp]] and the DSA Article 40 discussions in [[Katzenbach2026-sl2e]]. Its scrutiny of the Meta Content Library and CrowdTangle succession relates to methodological evaluations of specific access tools in [[Efstratiou2025-gs]] and [[Rossi2023-847d5a9f]].
+This paper sits at the center of the platform-data-governance conversation on access regimes after the APIcalypse, complementing critical accounts of platform research infrastructure such as [[Rieder2025-ju]] and [[Rieder2026-pp]], and studies documenting the practical limitations and data-quality problems of official access channels like Bastos2025-ya and Bastos2025-ol. Its focus on the Meta Content Library and DSA Article 40 relates directly to work assessing DSA-era transparency and researcher access, including [[Pierri2025-hm]], [[Murtfeldt2025-wu]], and [[Ohme2026-nv]].
 
 ## Podcast
 

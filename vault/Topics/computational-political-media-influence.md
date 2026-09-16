@@ -32,6 +32,7 @@ Papers using large-scale computational or quasi-experimental methods to study po
 - [[Dodds2026-df]]
 - [[Eady2025-vm]]
 - [[Efstratiou2025-gs]]
+- [[Gaber2022-bk]]
 - [[Gaisbauer2025-by]]
 - [[Gauthier2026-iq]]
 - [[Gerard2025-br]]
