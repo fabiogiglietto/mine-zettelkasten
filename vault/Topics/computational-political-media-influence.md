@@ -67,6 +67,7 @@ Papers using large-scale computational or quasi-experimental methods to study po
 - [[Rauchfleisch2026-fa]]
 - [[Renault2025-uh]]
 - [[Richter2026-bt]]
+- [[Rodarte2026-sl16]]
 - [[Rohrbach2026-rc]]
 - [[Schemer2026-mh]]
 - [[Slack1783507532-sl10]]

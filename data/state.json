@@ -4006,10 +4006,27 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-16T12:49:50.038847+00:00"
+    },
+    "bibtex:Rodarte2026-sl16": {
+      "note_path": "Papers/Rodarte2026-sl16.md",
+      "topics": [
+        "political-polarization-italy-elections",
+        "computational-political-media-influence"
+      ],
+      "assign_fp": "e50c0d8d798a9327f159cd8b99ed5be5bed4aed6651280fb8c89fbc108cf3310",
+      "doi": "10.1080/10584609.2026.2733316",
+      "title": "The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications",
+      "pdf_source": "drive",
+      "content_hash": "a368e8c1684881bf94dbb479effdfd5ce4654cbc76ccb817108ee6e44f4d6e3c",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-17T09:37:49.491316+00:00",
+      "kind": "team",
+      "submitted_by": "Bruna Paroni"
     }
   },
   "last_full_cluster": "2026-09-14T09:58:14.440593+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "0bd497771d3db63da491448d109ced435f8bca6bbdeec725cb44ad5a93395ddc",
   "emergent_fp": "34516bd3239d5323755ddcb085a80ca7961d615177372ece6c7f9e46a39b868f",
   "structure_fps": {

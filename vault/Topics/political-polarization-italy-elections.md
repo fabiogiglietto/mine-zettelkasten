@@ -50,6 +50,7 @@ Long-running empirical program (MINE) mapping Italian news media and social medi
 - [[Oprea2025-lf]]
 - [[Philipp2026-tl]]
 - [[Rodarte2026-dk]]
+- [[Rodarte2026-sl16]]
 - [[Rossini2026-jn]]
 - [[Rossini2026-mj]]
 - [[Sarmiento2025-as]]

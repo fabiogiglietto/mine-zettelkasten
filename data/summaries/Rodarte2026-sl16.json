@@ -1,0 +1,36 @@
+{
+  "abstract": "This mixed-methods study examines how Brazilian federal parliamentarians reason about and adapt to social media incentives in their communications. Combining 34 in-depth interviews with a computational analysis of over 4.5 million Facebook, Instagram, and Twitter posts, it finds that politicians believe posting about congressional work (lawmaking and constituency service) is penalized with low engagement, while antagonistic content and alignment with news cycles are rewarded. The computational analysis supports these beliefs and suggests that the mediatization of politics creates perverse incentives for parliamentarians to downplay congressional activity in favor of confrontation, weakening democratic accountability in ways that may extend beyond Brazil.",
+  "key_claims": [
+    "Parliamentarians believe social media penalize posts about congressional matters (programmatic and parochial content) with lower engagement, while rewarding antagonistic content and alignment with news cycles.",
+    "Engagement metrics empirically confirm these beliefs: congressional content is associated with lower engagement, while antagonistic and negative language predicts higher engagement.",
+    "Adapting to platform logics creates a 'democratic cost' by incentivizing politicians to reduce communication about their legislative work, thereby limiting opportunities for public oversight and accountability.",
+    "Antagonistic communication (locally termed 'lacração') functions as a distinct boundary-making communicative style, not reducible to generic negativity, that aligns with platform virality incentives.",
+    "Media logics should be understood as internalized by politicians rather than treated as static, coercive properties of platforms."
+  ],
+  "methods": [
+    "Semi-structured interviews (N=34) with parliamentarians, staffers, public servants, and consultants, using purposive sampling for diversity in ideology, seniority, and followership; pilot interviews in 2022 and fieldwork in Brasília in 2023; iterative inductive coding.",
+    "Computational cross-platform analysis of posts from members of Brazil's Chamber of Deputies during the 56th Legislature (2019–2022): 1,723,734 Facebook, 1,291,190 Instagram, and 1,514,386 Twitter posts (N=4,529,310); Meta data via CrowdTangle, Twitter via 4CAT.",
+    "Dictionary-based (regex) classification of posts as programmatic, parochial, or antagonistic, validated in three steps: GPT-4 semantic annotation to expand dictionaries, comparison against Portuguese sentiment model LeIA, and human intercoder content analysis.",
+    "Negative binomial regression models predicting engagement (overdispersed count data), controlling for followers, posting volume, post format, hashtag use, and political bloc, with month fixed effects and standard errors clustered by politician; z-standardized continuous predictors.",
+    "Ideological analysis via a tripartite classification (Left–Opposition, Center–Government, Right–Government) combining Brazilian Legislative Survey placements and roll-call government alignment; exploratory sequential/transition analysis of high-engagement post trajectories on Facebook (80th-percentile account-based threshold).",
+    "Overall approach framed as computational grounded theory integrating qualitative interpretation and computational pattern recognition."
+  ],
+  "findings": [
+    "Programmatic content declined ~1.9 percentage points per year while parochial content increased ~2.3 points per year on Facebook; parochial content was more prevalent among centrist and right-wing, government-aligned parties.",
+    "On Facebook, programmatic posts had ~21% lower expected engagement (β=−0.23) and parochial posts ~47% lower (β=−0.64); predicted engagement was 1,823 (non-classified), 1,449 (programmatic), and 962 (parochial) interactions.",
+    "Instagram penalized congressional content most strongly (programmatic β=−0.39, parochial β=−0.99); on Twitter parochial content was penalized (β=−0.34) but programmatic content showed no significant effect.",
+    "Antagonistic content is rare (≈4.1% Twitter, 3.8% Facebook, 2.7% Instagram) but increased over time; negative tone is more common (~31–41%). Both are most concentrated among opposition and ideologically flanked parties.",
+    "Antagonistic content (β=0.09) and negative intensity (β=0.32) positively predict Facebook engagement; predicted engagement rose from 1,292 (low antagonism/negativity) to 2,146 (high both).",
+    "High engagement is temporally clustered: posts following a high-engagement post are 79% more likely to also be high-engagement; sustained high-engagement sequences concentrate on negative/antagonistic content. Only a subset (~44% antagonistic, ~55% negative) exceeded their own baseline propensity following a high-engagement trigger.",
+    "Politicians appear to overestimate the prevalence of antagonistic communication, possibly amplified by news coverage of conflict."
+  ],
+  "contributions": [
+    "Provides conceptual tools for studying parliamentary communications beyond the Global North, using Brazil's candidate-centered system to depart from party-centric assumptions of mediatization.",
+    "Documents how algorithmic incentives become internalized as media logics in politicians' communicative strategies, moving beyond treating media logics as static platform properties.",
+    "Empirically links platform engagement dynamics to a 'democratic cost' by showing accountability-relevant congressional content is systematically disadvantaged.",
+    "Introduces and operationalizes 'lacração' as a distinct antagonistic communicative style and offers a validated dictionary-based, cross-platform computational approach at scale.",
+    "Offers exploratory evidence on sequential virality pathways through which visibility is sustained at the intersection of platform incentives and political behavior."
+  ],
+  "framing": "The paper situates itself within mediatization-of-politics scholarship and the concept of 'media logic,' extending these to platform-based, algorithmically driven political communication. It bridges this with Brazilian political science distinctions between parochial and programmatic representation and with Mouffe's theory of antagonism, positioning itself in debates about how visibility-seeking on social media affects democratic accountability, particularly outside the Global North.",
+  "pdf_source": "drive"
+}
