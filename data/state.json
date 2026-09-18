@@ -4023,10 +4023,25 @@
       "last_processed": "2026-09-17T09:37:49.491316+00:00",
       "kind": "team",
       "submitted_by": "Bruna Paroni"
+    },
+    "bibtex:Gomez-Zara2026-as": {
+      "note_path": "Papers/Gomez-Zara2026-as.md",
+      "topics": [
+        "generative-ai-content-analysis"
+      ],
+      "assign_fp": "a1596a0361bf3f19a0efd4f344049edf3baf341704a12eec97f0098cdf2d7d58",
+      "doi": "10.1080/21670811.2026.2730327",
+      "title": "Revisiting framing codebooks with AI: Employing large language models as analytical collaborators in deductive content analysis",
+      "pdf_source": "drive",
+      "content_hash": "fda8e379ffdc39ae111854556787a6e87398859f66067f9f91853c47d866c274",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-18T05:03:26.273574+00:00"
     }
   },
   "last_full_cluster": "2026-09-14T09:58:14.440593+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "0bd497771d3db63da491448d109ced435f8bca6bbdeec725cb44ad5a93395ddc",
   "emergent_fp": "34516bd3239d5323755ddcb085a80ca7961d615177372ece6c7f9e46a39b868f",
   "structure_fps": {

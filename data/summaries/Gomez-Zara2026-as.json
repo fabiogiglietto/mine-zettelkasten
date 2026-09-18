@@ -1,0 +1,35 @@
+{
+  "abstract": "This methods paper proposes a workflow for using large language models (LLMs) not as automated classifiers but as analytic collaborators that help journalism researchers create, interrogate, and refine deductive framing codebooks. The authors argue that applying theory-grounded codebooks to large, heterogeneous, and evolving news corpora exposes ambiguities and borderline cases that theory alone cannot resolve, and that LLMs can externalize decision rules, surface latent frames, and support iterative codebook revision while researchers retain interpretive authority. The approach, called 'The LLM Codebook Prompt,' is illustrated through a case study of Chilean news coverage coded with generic news frames.",
+  "key_claims": [
+    "LLMs are most valuable in deductive content analysis as interactive analytic collaborators (or 'augmentative interlocutors') rather than as substitutes for human coders or automated classifiers.",
+    "Ambiguities, borderline cases, and underspecified rules that emerge when applying codebooks to large corpora should be treated as opportunities for methodological and theoretical refinement rather than as errors.",
+    "Requiring LLMs to justify their classifications turns model outputs into analytic material that can reveal latent criteria and implicit theoretical assumptions embedded in codebooks.",
+    "Frame definitions can be historically contingent (e.g., what counts as 'moral' now includes digital privacy), and LLM-researcher dialogue can surface such shifts.",
+    "The primary contribution of the approach is methodological creativity and theoretical clarity, not scalability or efficiency.",
+    "Researchers must retain interpretive authority—rejecting empirically observable but theoretically misaligned distinctions is itself analytically productive."
+  ],
+  "methods": [
+    "A conceptual, step-by-step workflow ('The LLM Codebook Prompt') structured in seven phases: establishing theoretical boundaries, broad corpus exposure and pattern surfacing, selection of representative/borderline cases, initial codebook prompt and application, analytic interrogation and criteria elicitation, codebook refinement and theoretical clarification, and stabilization/scaling/validation.",
+    "Prompt engineering guidance including role instructions, theory-referenced frame definitions, positive/negative case examples (few-shot prompting), framing questions requesting justifications, delimited article text, and structured output instructions.",
+    "A case study applying the workflow to Valenzuela et al.'s dataset of over 3,400 Chilean news articles coded with Semetko and Valkenburg's (2000) four generic frames (conflict, economic consequences, human interest, morality).",
+    "Use of ChatGPT 5.2 (browser interface, December 2025) for exploration and coding, with prompts originally in Spanish; replication scripts posted on OSF.",
+    "Large-scale validation comparing LLM (GPT-5 mini) classifications against human-annotated ground-truth labels using accuracy, precision, recall, and F1, benchmarked against random, Naive Bayes, and a TF-IDF dictionary-based Random Forest baseline."
+  ],
+  "findings": [
+    "The LLM identified 'conflict' as the most frequent frame in the Chilean corpus, followed by 'responsibility,' with 'morality' rarely explicit and often diluted within other frames.",
+    "The LLM surfaced latent frames not in the original framework, such as security and order, exceptional/rare events, and risk and emergency events.",
+    "Systematic divergences between human coders and the LLM revealed implicit theoretical assumptions: humans coded inherently ethical issues (abuse, corruption) as moral without explicit normative language, while the LLM required explicit moral judgment per the original definition; similar divergences appeared for human interest and economic consequences (e.g., sports contracts).",
+    "Borderline cases (e.g., sports as conflict, tsunami alerts as human interest, a privacy/iCloud leak case for morality) forced explicit theorization of frame boundaries.",
+    "Not all LLM-suggested distinctions were adopted—e.g., treating sensational language as a separate frame was rejected as conflating style with framing constructs.",
+    "In final validation, GPT-5 mini achieved competitive performance (e.g., conflict F1 ~.71, economic F1 ~.71, human interest F1 ~.54, morality F1 ~.56), broadly comparable to or slightly above the TF-IDF Random Forest baseline; metrics were reported for transparency rather than optimization."
+  ],
+  "contributions": [
+    "A reproducible, theory-facing workflow that integrates corpus-level pattern surfacing with iterative, explanation-driven refinement of deductive codebooks.",
+    "Reframing LLM-human disagreement and revision as productive analytic moments that expose conceptual ambiguities and support theoretical accountability.",
+    "A concrete prompt template and set of methodological recommendations that require no model training or fine-tuning, usable with commercial or open-source LLMs.",
+    "A worked case study on Latin American (Chilean) news coverage demonstrating how the workflow generates new frame distinctions and adapts frameworks to new cultural and temporal contexts.",
+    "Explicit articulation of limitations, biases, and validation practices to preserve reflexivity and reproducibility."
+  ],
+  "framing": "The paper is positioned within digital journalism and computational communication research on AI/LLMs in journalistic and scholarly practice, and within the tradition of deductive framing analysis and content analysis (Iyengar; Semetko & Valkenburg; Krippendorff; Neuendorf). It contrasts its dialogic, human-in-the-loop approach with prior computational methods—supervised machine learning, topic modeling, embeddings, and benchmarking-oriented LLM coding—that offer only indirect, aggregate feedback and limited support for iterative codebook revision.",
+  "pdf_source": "drive"
+}

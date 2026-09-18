@@ -27,6 +27,7 @@ Methodological research on integrating large language models and embedding model
 - [[Fan2026-af]]
 - [[Giglietto2024-cbeb3f70]]
 - [[Gilardi2026-hw]]
+- [[Gomez-Zara2026-as]]
 - [[Hackenburg2025-dj]]
 - [[Jayaram2026-wd]]
 - [[Kasianenko2026-tn]]
