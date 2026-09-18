@@ -4033,11 +4033,11 @@
       "doi": "10.1080/21670811.2026.2730327",
       "title": "Revisiting framing codebooks with AI: Employing large language models as analytical collaborators in deductive content analysis",
       "pdf_source": "drive",
-      "content_hash": "fda8e379ffdc39ae111854556787a6e87398859f66067f9f91853c47d866c274",
-      "podcast_linked": false,
+      "content_hash": "a4042f5c61d5f7f76b63b6822ddb9497f4332af1989212890f231e49607895ac",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-18T05:03:26.273574+00:00"
+      "last_processed": "2026-09-18T09:19:07.051113+00:00"
     }
   },
   "last_full_cluster": "2026-09-14T09:58:14.440593+00:00",
