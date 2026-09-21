@@ -6,12 +6,13 @@ emergent: false
 
 # Health Misinformation Networks
 
-Cross-national studies (India, Nigeria, Italy) of coordinated networks and alternative influence networks circulating problematic health information, including COVID-19 fact-checking acceleration research.
+Mapping of coordinated networks circulating problematic health information, including COVID-19 fact-checking acceleration tools and country studies in India and Nigeria funded by the Gates Foundation.
 
 ## Papers
 
 - [[Adam2026-tz]]
 - [[Bollenbacher2026-vz]]
+- [[Ducci2022-10cb5d70]]
 - [[Efstratiou2026-ij]]
 - [[Giglietto2022-0e951ac5]]
 - [[Lyons2026-ca]]

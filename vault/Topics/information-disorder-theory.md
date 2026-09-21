@@ -1,113 +1,87 @@
 ---
 type: topic
-slug: information-disorder-disinformation
+slug: information-disorder-theory
 emergent: false
 ---
 
-# Information Disorder & Disinformation
+# Information Disorder Theory
 
-Study of misinformation, disinformation and hybrid media manipulation dynamics, including narrative propagation, fact-checking support tools, and the conceptual foundations (fake news taxonomies) underpinning the researcher's broader agenda.
+Conceptual and taxonomic work on misinformation, 'fake news' and coordination/inauthenticity within the hybrid media system, providing the theoretical grounding cited across handbook and encyclopedia entries and underpinning applied detection work.
 
 ## Papers
 
 - [[Adam2026-tz]]
-- [[Bergeron-Boutin2026-yh]]
-- [[Bosch2024-hj]]
-- [[Bruns2026-yv]]
-- [[Cabbuag2024-me]]
-- [[Cazzamatta2026-lo]]
+- [[Bechmann2026-dr]]
+- [[Bennett2025-xs]]
+- [[Boyd2026-op]]
+- [[Budak2024-ef]]
 - [[Choi2026-bz]]
-- [[Copland2025-em]]
-- [[Costello2024-bg]]
 - [[Dahlke2026-sl34]]
-- [[DeVerna2025-dl]]
 - [[De_Leon2025-qn]]
 - [[Di-Domenico2026-zq]]
 - [[Dierickx2026-tw]]
 - [[Donovan2025-ws]]
-- [[Dubey2026-bl]]
 - [[Ducci2022-10cb5d70]]
 - [[Emilio2026-ik]]
-- [[Farkas2026-lr]]
+- [[Esau2025-tf]]
 - [[FitzGerald2025-nv]]
-- [[Fletcher2026-lv]]
 - [[Frischlich2025-vn]]
 - [[Gaber2022-bk]]
-- [[Gardam2025-er]]
+- [[Gagrcin2024-dl]]
 - [[Gattermann2025-yx]]
-- [[Gaw2025-ru]]
 - [[Ghezzi2023-8bebc91f]]
 - [[Giglietto2019-e9be81c1]]
+- [[Gillespie2010-sla2]]
 - [[Goel2025-iq]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Graham2025-gp]]
+- [[Graham2026-fb]]
 - [[Grusauskaite2026-po]]
 - [[Hameleers2026-mc]]
-- [[Hollingshead2026-vx]]
-- [[Holt2026-zq]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2025-ml]]
+- [[Hurcombe2025-cs]]
 - [[Jaidka2026-sl34]]
-- [[Karlsson2026-hd]]
 - [[Kasianenko2026-tn]]
 - [[Kulichkina2026-zk]]
-- [[Kuznetsova2025-nu]]
 - [[Lewandowsky2026-ob]]
-- [[Lieu2025-nl]]
 - [[Luhring2025-od]]
 - [[Mahl2026-hc]]
 - [[Makeev2026-ma]]
 - [[Mannocci2026-kc]]
-- [[Marwick2025-ov]]
 - [[Marwick2025-vx]]
 - [[Marwick2026-qd]]
 - [[Mosca2026-yh]]
-- [[Nangle2026-yo]]
 - [[Nenno2025-xa]]
-- [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
 - [[Ramos2026-qo]]
 - [[Renault2025-uh]]
-- [[Rieder2026-pp]]
-- [[Righetti2025-slf9]]
-- [[Rodarte2026-dk]]
-- [[Rodriguez_Farres2025-sg]]
-- [[Rogers2026-cy]]
 - [[Rohrbach2026-rc]]
-- [[Rossi2023-847d5a9f]]
-- [[Rossini2026-jn]]
-- [[Rossini2026-mj]]
 - [[Rothut2026-or]]
 - [[Rothut2026-wt]]
 - [[Sadler2025-vu]]
 - [[Scalco2026-bd]]
-- [[Simeone2025-vo]]
 - [[Starbird2025-jj]]
 - [[Suau_Martinez2026-lv]]
-- [[Suk2026-ai]]
 - [[Swartz2026-zb]]
 - [[Szabo2026-rd]]
 - [[Tai2026-qk]]
 - [[Thiele2025-ol]]
-- [[Tonneau2025-bv]]
 - [[Tornberg2025-ir]]
-- [[Triedman2025-uy]]
 - [[Trilling2024-slc8]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2025-sw]]
 - [[Vincent_undated-re]]
 - [[Wack2026-bt]]
-- [[Waight2025-al]]
+- [[Wedel2026-ix]]
 - [[Xue2025-bp]]
 - [[Yoo2026-ev]]
-- [[Zhao2025-ny]]
-- [[van-der-Linden2026-jt]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "information-disorder-disinformation")
+WHERE contains(topics, "information-disorder-theory")
 SORT discovery_date DESC
 ```

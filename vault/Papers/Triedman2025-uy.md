@@ -5,7 +5,7 @@ authors: ["Harold Triedman", "Alexios Mantzarlis"]
 year: 2025
 doi: 
 bibtex_key: Triedman2025-uy
-topics: [synthetic-media-generative-manipulation, information-disorder-disinformation]
+topics: [generative-ai-and-manipulation, llm-assisted-content-analysis]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2511.09685v1

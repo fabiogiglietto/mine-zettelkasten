@@ -5,7 +5,7 @@ authors: ["danah boyd"]
 year: 2026
 doi: 10.1177/20563051261437487
 bibtex_key: Boyd2026-op
-topics: [platforms-audiences-and-online-communities, ai-industry-imaginaries-and-discourse]
+topics: [platforms-audiences-and-online-communities, information-disorder-theory]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/20563051261437487
