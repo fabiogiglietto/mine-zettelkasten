@@ -1,0 +1,35 @@
+{
+  "abstract": "This article theorises 'slopaganda' (also called 'agitslop') — AI-generated political content that is obviously fake yet affectively real, exemplified by Trump's 'Trump Gaza' video and the 'Kirkinator' meme videos. Unlike deepfakes, which lure viewers into mistaking AI content for reality, slopaganda works as an affective 'lure' that hooks attention (including negative attention) by attuning to the moods and affordances of social media feeds. Drawing on the concept of ambient rhetoric, Topinka argues that AI models — through training, labelling, and alignment via reinforcement learning from human feedback (RLHF) — are optimised for rhetorical attunement, folding into and intensifying existing ideological and technical formations rather than disrupting them.",
+  "key_claims": [
+    "Slopaganda is better understood not as belief-manipulating propaganda but as an affective 'lure' that hooks fickle attention by tapping into the ambient moods and affordances of platform content streams.",
+    "Unlike classic propaganda that brings 'order out of chaos' (Bernays), slopaganda is disordered and directionless, coagulating 'sticky' affects rather than making coherent political claims.",
+    "AI slop can be obviously fake yet affectively real, circulating because of emotional resonance rather than perceived authenticity.",
+    "AI models are not merely biased by training data; through fine-tuning and alignment they are trained to 'feel out' which responses resonate in sociotechnical environments, i.e. optimised for rhetorical attunement.",
+    "AI systems function as 'ideological attunement machines' that optimise feeling, relevance, and response, intensifying existing ideological, rhetorical, and technical formations.",
+    "Slopaganda remains political even when incoherent, because to circulate it must attune to regimes of legibility and plausibility conditioned by digital culture's affects and affordances."
+  ],
+  "methods": [
+    "Conceptual and theoretical essay in cultural studies rather than empirical study (data sharing statement notes no datasets generated or analysed).",
+    "Close rhetorical and cultural reading of specific AI slop artefacts: the 'Trump Gaza' video, Trump/DHS/White House slop posts, the 'Kirkinator' Agartha videos, AI Blackface content, and an Iran-produced 'Lego Trump' video.",
+    "Synthesises theoretical frameworks — Rickert's 'ambient rhetoric', Sampson's affective 'lure', Massumi's affect/emotion distinction, Noordenbos and Tuters' 'ambient propaganda', and Meyer's 'platform realism'.",
+    "Draws on accounts of AI industry practices, including alignment, RLHF, foundation models as platforms, and training/labelling datasets."
+  ],
+  "findings": [
+    "The 'Trump Gaza' video originated as a joke by an LA creative studio testing AI speed and circulated via Mel Gibson to Trump — illustrating how slop spreads through shitpost/engagement logics rather than deliberate propaganda design.",
+    "Slop targets are disproportionately women and racial others (immigrants, Black protestors, Black lawmakers), giving form to racist and colonial fantasies.",
+    "Training and labelling practices encode rhetorical attunements: image datasets for Midjourney and Stable Diffusion were labelled by workers ~95% from 'WEIRD' countries, and platforms like Shopify's structured descriptions shape training data toward consumer expectations.",
+    "AI alignment (per Karen Hao) emerged from Bostrom's paperclip thought experiment and relies on hyperexploited RLHF workers, mostly in the Global South, who attune outputs to human expectations.",
+    "AI Blackface slop revives minstrelsy-style tropes and the 'erotic life of racism', synthesising pre-existing racist fantasies into novel but nostalgic outputs.",
+    "The 'Kirkinator' videos coordinate affect and orient attitudes (drawing on esoteric Nazi 'Agartha' imagery and White nationalist imaginaries) while refusing coherent political claims, which explains their appeal even to left-wing meme accounts.",
+    "Ambient attunements to internet slop archives have framed real-world violence, e.g. 'for Agartha' inscribed at a Jakarta mosque attack."
+  ],
+  "contributions": [
+    "Reframes AI slop from an error or excess into an ambient rhetoric highly attuned to dominant norms and technical incentives.",
+    "Bridges rhetorical theory (ambient rhetoric, affective lures) with AI industry practices (fine-tuning, alignment, RLHF, prompting) to explain slop's affective resonance.",
+    "Introduces the notion of AI models as 'ideological attunement machines', extending critique beyond the standard 'bias in training data' argument.",
+    "Offers a distinction between deepfakes (which trade on mistaken reality) and slopaganda (obviously fake but affectively real).",
+    "Provides an analytical method attuned to how affective lures hook attention and coordinate ideology even when political destinations are unpredictable."
+  ],
+  "framing": "The article positions itself within cultural studies, affect theory, and rhetorical studies of digital media, contributing to a special issue on 'Brainrot, AI slop, and the enshittification of the internet'. It advances scholarship on reactionary digital politics and propaganda by combining ambient rhetoric and Massumi's affect theory with critical accounts of AI's political economy and alignment infrastructure.",
+  "pdf_source": "drive"
+}

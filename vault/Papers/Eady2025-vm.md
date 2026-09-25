@@ -1,14 +1,14 @@
 ---
 title: "News sharing on social media: Mapping the ideology of news media, politicians, and the mass public"
 aliases: ["News sharing on social media: Mapping the ideology of news media, politicians, and the mass public"]
-authors: ["Gregory Eady", "Richard Bonneau", "Joshua A. Tucker", "Jonathan Nagler"]
+authors: ["Gregory Eady", "Richard Bonneau", "Joshua A Tucker", "Jonathan Nagler"]
 year: 2025
-doi: 10.1017/pan.2024.19
+doi: 10.31219/osf.io/ch8gj
 bibtex_key: Eady2025-vm
 topics: [computational-political-media-influence, political-polarization-partisanship]
-citation_count: 9
+citation_count: 14
 open_access: false
-source_url: https://doi.org/10.1017/pan.2024.19
+source_url: https://doi.org/10.31219/osf.io/ch8gj
 podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Eady2025-vm.mp3
 pdf_available: true
 discovery_date: 2026-07-20T15:29:39.742496Z
@@ -16,39 +16,39 @@ discovery_date: 2026-07-20T15:29:39.742496Z
 
 # News sharing on social media: Mapping the ideology of news media, politicians, and the mass public
 
-> Eady, G., Bonneau, R., Tucker, J. A., & Nagler, J. (2025). News sharing on social media: Mapping the ideology of news media, politicians, and the mass public. *Political Analysis*, *33*, 73–90. https://doi.org/10.1017/pan.2024.19
+> Eady, G., Bonneau, R., Tucker, J. A., & Nagler, J. (2025). News sharing on social media: Mapping the ideology of news media, politicians, and the mass public. *Polit. Anal.*, *33*, 73–90. https://doi.org/10.31219/osf.io/ch8gj
 >
-> [View paper](https://doi.org/10.1017/pan.2024.19)
+> [View paper](https://doi.org/10.31219/osf.io/ch8gj)
 
 ## Summary
 
-This paper introduces a Bayesian measurement model — released as the open-source R package `mediascores` — that jointly estimates the ideology of news media organizations, politicians, and ordinary social media users from a single common source of behavioral data: the web links (URLs) they share. Rather than relying on labeled party or ideology tags, the model exploits the homophily in link-sharing: users tend to share content from outlets ideologically close to themselves. Applied to Twitter data on U.S. members of Congress, other political actors, and politically engaged users, the model maps the ideological structure of the online political news environment. Substantively, the authors show that the shared information ecosystem is dominated by ideologically extreme, prolific legislators, and that politicians in less electorally competitive districts share more polarized content — implying that reduced electoral competition (e.g., through gerrymandering) may fuel a more polarized online information environment.
+This paper introduces a Bayesian measurement model and an accompanying open-source R package (`mediascores`) that jointly estimates the ideology of news media organizations, politicians, and ordinary social media users from a single behavioral currency: shared web links (URLs). By treating link-sharing as a homophily-driven behavior — users share content ideologically proximate to themselves — the authors place outlets, elites, and the mass public on a common scale without any labeled party or ideology data. Applied to Twitter data on U.S. members of Congress and politically engaged users, the model reveals that ideologically extreme politicians share disproportionately more political news, skewing the online information environment away from the median legislator. The authors further link this to electoral incentives, finding that politicians in less competitive districts share more polarized content.
 
 ## Key Contributions
 
-- A unified, platform-agnostic framework and open-source R software (`mediascores`) for jointly estimating the ideology of news outlets, politicians, and users from link-sharing data on a common scale.
-- A method requiring no pre-existing/labeled ideology data, capable of estimating ideology even for little-known candidates who lack voting records.
-- A *behavioral* rather than perceptual measure of elite ideology, derived from politicians' own sharing actions and thus independent of legislative agendas or party discipline.
-- Empirical documentation that the online political information ecosystem is skewed toward polarizing content from a small set of extreme, high-volume legislators.
-- A link between electoral competition and online sharing behavior, suggesting institutional interventions (e.g., anti-gerrymandering) could indirectly reduce online polarization.
+- A unified, platform-agnostic framework and open-source R library (`mediascores`) for jointly estimating the ideology of news outlets, politicians, and users from link-sharing behavior alone.
+- A method requiring no pre-existing ideology labels, allowing estimation even for little-known candidates without voting records.
+- A **behavioral** (rather than perception-based) measure of elite ideology, derived from politicians' own sharing actions rather than followers' endorsements — distinguishing it from prior following-based approaches.
+- Empirical documentation that the online political information ecosystem is dominated by polarizing content from a small set of prolific, ideologically extreme legislators.
+- A substantive link between reduced electoral competition (e.g., gerrymandering) and more polarized online sharing, suggesting institutional interventions could indirectly dampen online polarization.
 
 ## Methods
 
-The core is a Bayesian measurement model treating a user-by-media-domain matrix of link-sharing counts as arising from a negative binomial distribution, where sharing probability declines in the squared distance between a user's ideology (θ) and an outlet's ideology (ζ). The model includes user- and domain-specific intercepts and a news-organization dispersion parameter (ω), with hierarchical priors placed separately on Democratic politicians, Republican politicians, and ordinary users; identification (reflection invariance and additive aliasing) follows Jackman's (2001) approach. Data come from Twitter: 1,152 accounts from 699 political actors (116th Congress, governors, executive/cabinet, prominent party figures), a random sample of 10,000 politically engaged users, and 220 national news domains. Validation uses convergent validity against NOMINATE roll-call scores for legislators and against YouGov survey-linked Twitter data for ordinary users. OLS regressions then predict the ideological extremity of politicians' sharing from district/state partisan alignment, controlling for party, chamber, and NOMINATE.
+The core model treats a user-by-domain link-sharing count matrix as arising from a negative binomial distribution, where sharing probability declines in the squared ideological distance between a user's position (theta) and an outlet's position (zeta). User- and domain-specific intercepts plus a dispersion parameter are included, with separate hierarchical priors for Democratic politicians, Republican politicians, and ordinary users; identification (reflection invariance, additive aliasing) follows Jackman's approach. The data comprise 1,152 accounts from 699 political actors (116th Congress, governors, cabinet, party figures), a random sample of 10,000 politically engaged users, and 220 national news domains. Validation proceeds via convergent validity against NOMINATE roll-call scores for legislators and against YouGov survey-linked data for ordinary users, alongside OLS regressions predicting sharing extremity from district/state partisan alignment.
 
 ## Findings
 
-- Politicians' news sharing nearly perfectly separates them by party; even a single-common-prior model shows only ~3% distributional overlap between parties.
-- Media scores correlate very highly with NOMINATE overall (ρ = 0.96), with moderate-to-high within-party correlations.
-- Members of "The Squad" appear far to the left in sharing ideology (left of 99% of Congress) despite centrist NOMINATE placement — sharing captures behavior missed by roll-call votes.
-- For ordinary users, sharing-based ideology correlates on average ρ = 0.73 with survey measures, comparable to the correlation among the survey measures themselves.
-- News media ideology is bimodally distributed, with high face validity (e.g., Breitbart right of Fox News right of WSJ; Reuters/AP centrist).
-- Politicians share more news than users (0.082 vs. 0.024 news links per tweet), and ideologically extreme politicians share substantially more.
-- Lower district/state competitiveness is significantly associated with more extreme news sharing, even after controlling for NOMINATE, party, and chamber.
+- Politicians' news sharing nearly perfectly separates by party — even a single common-prior model (removing party info) shows only ~3% overlap between Democratic and Republican distributions.
+- Media scores correlate very highly with NOMINATE overall (rho = 0.96), with moderate-to-high within-party correlations.
+- Members of "The Squad" appear far left in sharing ideology despite centrist NOMINATE placement, showing sharing captures behavior missed by roll-call votes.
+- For ordinary users, sharing-based ideology correlates rho = 0.73 with survey measures — comparable to correlations among the survey measures themselves (~0.64).
+- The distribution of news media ideology is bimodal, with high face validity (Breitbart right of Fox right of WSJ; Reuters/AP centrist).
+- Politicians share more news than users (0.082 vs. 0.024 links per tweet), and ideologically extreme politicians share far more than moderates.
+- Greater district/state partisan alignment (lower competitiveness) is significantly associated with more extreme news sharing, even controlling for NOMINATE, party, and chamber.
 
 ## Connections
 
-This work sits alongside other efforts to measure ideology and news exposure from platform behavioral traces; [[Gonzalez-Bailon2024-rq]] and [[Bakshy2015-rn]] similarly characterize the ideological structure of online news exposure and sharing, while [[Green2025-ap]] engages related questions about elite polarization and online political behavior. Its concern with ideological asymmetries in shared information also connects to broader platform-data efforts on news diffusion such as [[Pierri2025-hm]].
+This paper is primarily a measurement contribution within the ideal-point and homophily-based social-media estimation tradition, extending following/endorsement approaches to shared URLs. It connects to work on partisan link-sharing dynamics and news diffusion on social platforms, such as [[Bakshy2015-rn]], and to studies mapping coordinated or ideologically structured sharing behavior like [[Giglietto2019-882f1900]] and [[Giglietto2020-6278a4aa]]. Its substantive focus on elite–public polarization and skewed information ecosystems situates it alongside broader polarization research in this topic cluster.
 
 ## Podcast
 

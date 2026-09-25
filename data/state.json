@@ -703,9 +703,9 @@
         "meta-science-of-misinformation-research"
       ],
       "pdf_source": "drive",
-      "content_hash": "8a43d120348d59e04a6d83fed1af8d9dce0a2bf3ad991a2a27ae935f5752f0d9",
+      "content_hash": "af5492e8277391ba1df1a9b9d95da0ceeacbf53edc677caf034de73f314d0b89",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.255469+00:00",
+      "last_processed": "2026-09-25T12:01:43.945090+00:00",
       "assign_fp": "fde653ad783a145c811d419bc0796e18cddcb70b7285a08d8286012aec220170"
     },
     "bibtex:Dehghan2026-sy": {
@@ -3540,11 +3540,11 @@
       "doi": "10.31219/osf.io/ch8gj",
       "title": "News sharing on social media: Mapping the ideology of news media, politicians, and the mass public",
       "pdf_source": "drive",
-      "content_hash": "be8f5e5af7227aff366c3feb50ccd69c850746e4c9f6457f7aa53615ebfd8d55",
+      "content_hash": "2d9bbb93808dcbb0931981a4e4f36f85c6b1fa1433dcbdf81cac86eede750427",
       "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-20T12:08:10.232499+00:00"
+      "last_processed": "2026-09-25T12:01:28.925759+00:00"
     },
     "bibtex:Rogers2026-cy": {
       "note_path": "Papers/Rogers2026-cy.md",
@@ -4031,10 +4031,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-18T09:19:07.051113+00:00"
+    },
+    "bibtex:Topinka2026-hb": {
+      "note_path": "Papers/Topinka2026-hb.md",
+      "topics": [
+        "generative-ai-and-manipulation",
+        "ai-industry-imaginaries-and-discourse"
+      ],
+      "assign_fp": "ae92d85361d27e46c586edc3481591ee3a4943282d77fbb394b51678b2f6a27e",
+      "doi": "10.1177/13675494261468632",
+      "title": "Feed them slop: Alignment, attunement, and the affective lure of slopaganda",
+      "pdf_source": "drive",
+      "content_hash": "2d2b0a94c0a425b8bd549fe35b35fca68f598c5e94dca0fefe0a7d73e0422cd7",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-09-25T12:01:09.267694+00:00"
     }
   },
   "last_full_cluster": "2026-09-21T09:58:28.360397+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "9bad800e815c0268d34d6f250c94323ea8b1c384498ff5fdd77bbe279c2c857e",
   "emergent_fp": "1da6c524dd9e135c9e4d96d0ccdecb75ef2104ecc6c6cf477ab62343a54b7589",
   "structure_fps": {

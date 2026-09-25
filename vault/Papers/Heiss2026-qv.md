@@ -3,12 +3,12 @@ title: "Addressing social media platforms’ influence on academic research"
 aliases: ["Addressing social media platforms’ influence on academic research"]
 authors: ["Raffael Heiss", "Isabelle Freiling"]
 year: 2026
-doi: 10.31235/osf.io/ny2tx_v2
+doi: 10.1057/s41599-026-06690-6
 bibtex_key: Heiss2026-qv
 topics: [platform-data-governance, meta-science-of-misinformation-research]
-citation_count: 0
+citation_count: 2
 open_access: false
-source_url: https://doi.org/10.31235/osf.io/ny2tx_v2
+source_url: https://doi.org/10.1057/s41599-026-06690-6
 podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Heiss2026-qv.mp3
 pdf_available: true
 discovery_date: 2026-02-15T07:10:31.064216Z
@@ -16,36 +16,38 @@ discovery_date: 2026-02-15T07:10:31.064216Z
 
 # Addressing social media platforms’ influence on academic research
 
-> Heiss, R., & Freiling, I. (2026). Addressing social media platforms’ influence on academic research. *Humanit. Soc. Sci. Commun.*, *13*, 192. https://doi.org/10.31235/osf.io/ny2tx_v2
+> Heiss, R., & Freiling, I. (2026). Addressing social media platforms’ influence on academic research. *Humanities and Social Sciences Communications*, *13*, 192. https://doi.org/10.1057/s41599-026-06690-6
 >
-> [View paper](https://doi.org/10.31235/osf.io/ny2tx_v2)
+> [View paper](https://doi.org/10.1057/s41599-026-06690-6)
 
 ## Summary
 
-Heiss and Freiling argue that academic research on social media platforms faces a uniquely acute form of industry capture because platforms exclusively control the data—on algorithms, content flows, and engagement—that researchers need. Drawing explicit analogies to the pharmaceutical, tobacco, and food industries, the commentary maps a "commercial determinants of science" framework onto platform research, identifying four structural challenges and warning that platform influence threatens the independence of evidence feeding into regulation and policymaking. The authors call for a dual response: regulatory mechanisms like the EU's Digital Services Act (DSA), and stronger ethical norms plus active "research on research" within the social sciences.
+This commentary argues that academic research on social media platforms is uniquely vulnerable to industry influence because platforms hold exclusive control over the data—on algorithms, content flows, and engagement—needed to study them. Drawing an analogy to the "commercial determinants" documented in tobacco, pharmaceutical, and food research, the authors contend that platform-academic collaborations open subtle and institutionalized entry points for bias that can distort the evidence base underpinning regulation and policy. They propose a dual response: regulatory reform (exemplified, but also cautioned, by the EU's Digital Services Act) and a more self-reflective social science community that builds ethical norms and "research on research" into its practice.
 
 ## Key Contributions
 
-- Transposes the **commercial determinants of science** framework from health research onto social media studies.
-- Introduces a **four-challenge typology** of risks in platform-academic collaborations: (1) restrictive data access, (2) selective funding, (3) subtle and hard-to-detect influence, and (4) institutionalized entanglements through long-term partnerships.
-- Articulates a concrete agenda combining regulated data access, independent funding intermediaries, ethical guidelines, and meta-research on industry-funded platform studies.
-- Treats **DSA Article 40** as both an aspirational model and a cautionary implementation case.
+- Transposes the "commercial determinants of science" framework from health-related fields onto social media platform research.
+- Offers a structured four-challenge typology of risks in platform-academic collaborations.
+- Sets out a concrete policy and community agenda: regulated data access, independent funding intermediaries, ethical guidelines, and meta-research on industry-funded studies.
+- Presents the DSA as simultaneously a model and a cautionary case for researcher data-access regimes.
 
 ## Methods
 
-This is a conceptual commentary, not an empirical study. The authors rely on analogical reasoning with prior literature on industry influence in pharma, tobacco, and food research (e.g., Bero; Fabbri et al.; Schillinger et al.), case-based illustrations (the Meta–academic 2020 US election partnership, Social Science One, the Chan Zuckerberg Initiative, Jigsaw), and a synthetic four-challenge framework summarized in a single mapping table.
+Conceptual and analytical commentary rather than empirical study. The argument proceeds through comparative analogical reasoning grounded in prior literature on industry influence in pharmaceutical, tobacco, and food research, and is illustrated with cases such as the Meta–academic 2020 US election partnership, Social Science One, the Chan Zuckerberg Initiative, and Jigsaw. The synthesis is organized as a four-challenge framework mapping each risk to lessons from other industries and to recommended actions.
 
 ## Findings
 
-- Platforms' **exclusive control** over relevant data makes social media research more dependent on industry than analogous fields, where independent data generation remains feasible.
-- The Meta 2020 election studies illustrate how exclusive access, undisclosed algorithm changes during the study window, and platform-shaped framing can steer policy-relevant narratives.
-- Industry-funded research in other sectors (e.g., sugar-sweetened beverages) systematically reports more industry-favorable findings—a pattern likely to repeat in platform research.
-- **DSA Article 40** is being implemented narrowly: platforms restrict eligibility, delay or reject applications, and provide inadequate documentation.
-- Open science practices like **preregistration are insufficient** because reciprocity dynamics, framing of research questions, and gatekeeping of data persist upstream.
+- Four core challenges: (1) restrictive data access, (2) selective funding of researchers and topics, (3) difficulty detecting subtle influence, and (4) institutionalization of influence via long-term partnerships and intermediaries.
+- The Meta 2020 election studies illustrate how exclusive data access, undisclosed algorithm changes during a study, and platform framing of results can shape policy-relevant narratives.
+- Evidence from other industries shows industry-funded studies systematically report more industry-favorable findings.
+- Early implementation of DSA Article 40 reveals platforms interpreting eligibility narrowly, delaying or rejecting applications, and providing inadequate documentation.
+- Reciprocity dynamics mean even small gifts or access provisions can subconsciously bias researchers, so safeguards like preregistration are insufficient on their own when data and question framing remain platform-controlled.
 
 ## Connections
 
-This commentary sits naturally alongside critical work on the limits of platform-mediated data access regimes, particularly DSA Article 40 implementation—see [[Ohme2026-nv]], [[Rieder2026-pp]], and [[Rieder2025-ju]]—and pairs with broader critiques of platform power over the research agenda such as [[Bak-Coleman2025-pm]] and [[Bak-Coleman2026-mk]]. It also speaks to analyses of researcher dependencies and post-API conditions like [[Freelon2024-sc]] and [[Tornberg2025-ir]], and motivates the kind of independent, infrastructure-building methodological work exemplified by [[Helmond2026-ll]] and [[Murtfeldt2025-wu]].
+This piece speaks directly to work on platform data governance and access regimes, including studies of the DSA and CrowdTangle transitions such as [[Rieder2025-ju]], [[Bruns2026-yv]], and Davies-style critiques of data infrastructure—see [[Vertesi2026-lv]] and [[Rossi2023-847d5a9f]] on the politics of platform data. It also belongs to the emerging meta-science of misinformation research, resonating with reflexive and field-scale critiques like [[Bak-Coleman2025-pm]] and [[Munger2025-cz]] on how research design and industry entanglement shape the evidence used for regulation.
+
+(Note: Davies-style is not a provided key and should be disregarded.)
 
 ## Podcast
 
