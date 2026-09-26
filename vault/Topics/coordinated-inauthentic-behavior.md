@@ -55,6 +55,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Rothut2026-or]]
 - [[Schroeder2026-im]]
 - [[Simeone2025-vo]]
+- [[Slack1783507463-sl24]]
 - [[Slack1783507532-sl10]]
 - [[Slack1783507719-slc1]]
 - [[Song2025-yh]]

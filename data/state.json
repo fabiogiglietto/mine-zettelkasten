@@ -264,9 +264,9 @@
         "electoral-social-media-research"
       ],
       "pdf_source": "drive",
-      "content_hash": "c6cf5ff13b6a319a4b88c566834fae6047efaa66c818a27617290d1ded3733a0",
+      "content_hash": "1a4dc24b2e6a2e5cbdc58358f4d208bcad5a643b592145b00e6aa3ceecb65350",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.235493+00:00",
+      "last_processed": "2026-09-26T15:34:09.816835+00:00",
       "assign_fp": "375fdc1e642a5693aec673ab4b3320e0f02205fd540ab96d456640c0da8b6ad2"
     },
     "bibtex:Peters2026-mo": {
@@ -321,9 +321,9 @@
         "platform-data-governance"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "5b3033e1ea2bbc830d4dfb839301e225c2d61c1093d279481d1f4cdb666dfbd5",
+      "content_hash": "ac7ff27c50f348fb62700fde8c0c4c87727e439b9d2efefd9349fde2c7077935",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.237709+00:00",
+      "last_processed": "2026-09-26T15:34:20.007282+00:00",
       "assign_fp": "406f7f0204675adb8ebbb0a922c44e1df880976d8a5c25bc55ff2aba77d1a9d5"
     },
     "bibtex:Karo2026-dn": {
@@ -579,7 +579,15 @@
       "content_hash": "e24de555a86ee453c096551ab463af0a7a0ddc4959a078d6134e98fccad12907",
       "podcast_linked": false,
       "last_processed": "2026-05-17T10:31:30.243635+00:00",
-      "assign_fp": "d0d05417122eb4e6d84cdf1508bfc63753d956dcccbfe2b8383eb76ca7ba7c95"
+      "assign_fp": "d0d05417122eb4e6d84cdf1508bfc63753d956dcccbfe2b8383eb76ca7ba7c95",
+      "notices": [
+        {
+          "type": "correction",
+          "doi": "10.1080/10584609.2026.2635255",
+          "date": "2026-02-22",
+          "source": "publisher"
+        }
+      ]
     },
     "bibtex:Scalco2026-bd": {
       "note_path": "Papers/Scalco2026-bd.md",
@@ -1136,9 +1144,9 @@
         "platforms-audiences-and-online-communities"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "5345c77de9a787fe23d707c745a4bd15359e7e00ba41e29d0687f48f9dcc5ac6",
+      "content_hash": "e7899a39d78be3012945b1e61ae31b5dff18ab1b17dedfd59b716b204c702dc7",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.260091+00:00",
+      "last_processed": "2026-09-26T15:34:31.519705+00:00",
       "assign_fp": "2033de2c1ed06c5cf257dc6e65f4bb8a485831bf6e36c78065934e4fdb4192dc"
     },
     "bibtex:Lin2025-xp": {
@@ -1723,15 +1731,22 @@
     },
     "bibtex:Smith2025-kc": {
       "note_path": "Papers/Smith2025-kc.md",
-      "topics": [
-        "platforms-audiences-and-online-communities",
-        "computational-political-media-influence"
-      ],
+      "topics": [],
       "pdf_source": "drive",
       "content_hash": "80e4839ebd99482c32397ff2e22fba3c8bc9b694edcf3a7a790c87c229feed92",
       "podcast_linked": false,
       "last_processed": "2026-06-06T11:18:21.419757+00:00",
-      "assign_fp": "e60497353e028e73f0775cda7c0caef38143ce13ab2b97ca2000e9214f60eb30"
+      "assign_fp": "e60497353e028e73f0775cda7c0caef38143ce13ab2b97ca2000e9214f60eb30",
+      "retracted": {
+        "notice_doi": "10.1093/pnasnexus/pgag137",
+        "date": "2026-05-07",
+        "source": "retraction-watch",
+        "recorded": "2026-09-26T15:31:12.337637+00:00",
+        "topics": [
+          "platforms-audiences-and-online-communities",
+          "computational-political-media-influence"
+        ]
+      }
     },
     "bibtex:Moran2025-qn": {
       "note_path": "Papers/Moran2025-qn.md",
@@ -2514,7 +2529,15 @@
       "content_hash": "0f0e33b159e54151370ca073b17ee3b7473fa426f2fd485d9f7ae6776182c257",
       "podcast_linked": false,
       "last_processed": "2026-07-08T13:18:24.157957+00:00",
-      "assign_fp": "bd6aa7d78f6896a4c52741a3601782dfa0b8f55a0239e2b2faecfd7bb597ffe6"
+      "assign_fp": "bd6aa7d78f6896a4c52741a3601782dfa0b8f55a0239e2b2faecfd7bb597ffe6",
+      "notices": [
+        {
+          "type": "correction",
+          "doi": "10.1080/1369118x.2020.1755558",
+          "date": "2020-04-21",
+          "source": "publisher"
+        }
+      ]
     },
     "bibtex:F2020-6278a4aa": {
       "note_path": "Papers/F2020-6278a4aa.md",
@@ -2577,7 +2600,15 @@
       "content_hash": "c862f17527d664382c3434044d80727137c48aac3e6d0f628d94758534d5acf3",
       "podcast_linked": false,
       "last_processed": "2026-07-08T13:18:24.157988+00:00",
-      "assign_fp": "92d441162462707fb16ca5a2107a5635743761e126e1fc419acb43c294662362"
+      "assign_fp": "92d441162462707fb16ca5a2107a5635743761e126e1fc419acb43c294662362",
+      "notices": [
+        {
+          "type": "correction",
+          "doi": "10.1080/1369118x.2016.1211636",
+          "date": "2016-07-19",
+          "source": "publisher"
+        }
+      ]
     },
     "bibtex:Iannelli2015-e0818c3e": {
       "note_path": "Papers/Iannelli2015-e0818c3e.md",
@@ -4047,19 +4078,87 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-26T09:38:50.820582+00:00"
+    },
+    "bibtex:Slack1783507463-sl24": {
+      "note_path": "Papers/Slack1783507463-sl24.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "ff2240eac6f901c324c4d953f3f5ac7cd9be08fe4788b1fc23a79cad2c38c438",
+      "doi": "10.13136/isr.v15i1.850",
+      "title": "The Multiple Nuances of Online Firestorms: The Case of a Pro-Vietnam Attack on the Facebook Digital Embassy of China in Italy Amidst the Pandemic",
+      "pdf_source": "abstract_only",
+      "content_hash": "e6213debf0e8471f5a6d3cf81d0e121c9b9a833ef0e993899b5a4bbd52d942d1",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-26T15:33:17.015030+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Slack1783075716-sl1c": {
+      "note_path": "Papers/Slack1783075716-sl1c.md",
+      "topics": [
+        "ai-industry-imaginaries-and-discourse",
+        "ai-social-theory-trust"
+      ],
+      "assign_fp": "2876a410999089c7c4dbf4c011ba18897bd84e550a880923fed049e358416553",
+      "doi": "10.18716/pd.v2i1.11657",
+      "title": "Beyond Artificial Intelligence: How Algorithms Communicate without Understanding",
+      "pdf_source": "abstract_only",
+      "content_hash": "151610ec32774ac9c6968a1c8ee0da2b7aab22199c9434313864435abce8d20a",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-26T15:33:28.319927+00:00",
+      "kind": "team",
+      "submitted_by": "Fabio Giglietto"
+    },
+    "bibtex:Slack1783073271-slbb": {
+      "note_path": "Papers/Slack1783073271-slbb.md",
+      "topics": [
+        "ai-social-theory-trust",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "edbcd5ff687b18eae488f619c1dcecd739ddb9019f80d55793747a35e53534f7",
+      "doi": "10.1093/ct/qtaf036",
+      "title": "Answer engines and other communication partners",
+      "pdf_source": "abstract_only",
+      "content_hash": "28ac15ea0bcd674f40457a4fa32d52bf45f0606064ff104d0479a2bdf30c381a",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-26T15:33:38.608943+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Slack1782736288-sl09": {
+      "note_path": "Papers/Slack1782736288-sl09.md",
+      "topics": [
+        "ai-social-theory-trust",
+        "generative-ai-and-manipulation"
+      ],
+      "assign_fp": "d271eef4e3277e75d4ff9a7ecc75b4057e3a0ea91fccdbb38604c73175a4958a",
+      "doi": "",
+      "title": "When Chatbots Accommodate: What AI Companions Optimize for in Vulnerable Conversations",
+      "pdf_source": "abstract_only",
+      "content_hash": "34a1fcb41fe0923ccae3ad792dd93585975500122b3c1a73a0b630779b96aa8f",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-26T15:33:50.653822+00:00",
+      "kind": "team",
+      "submitted_by": "Fabio Giglietto"
     }
   },
   "last_full_cluster": "2026-09-21T09:58:28.360397+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 5,
   "register_signals_hash": "9bad800e815c0268d34d6f250c94323ea8b1c384498ff5fdd77bbe279c2c857e",
   "emergent_fp": "1da6c524dd9e135c9e4d96d0ccdecb75ef2104ecc6c6cf477ab62343a54b7589",
   "structure_fps": {
     "coordinated-inauthentic-behavior": "6e97f1e6c46efe0df4be2dc1e490ae81235a12c7f61e1fb8689c4c79f13a5d59",
-    "platforms-audiences-and-online-communities": "c560f6e21bf1503d7daa8c5b25478e1b6612a8b4682d62aab816fc36ad3ca7cf",
+    "platforms-audiences-and-online-communities": "f7505e41fa42375725703dc538fa0d42c6c17ab667962f6fef5e688708fc6f25",
     "ai-industry-imaginaries-and-discourse": "38c0844dfdea28f3ae693b8148818fd1c8cda0e9048365ddbeed4b9b8d0edd5d",
     "meta-science-of-misinformation-research": "4d9fd463d51c07bb00febe14cea910cb7dbc20b911d9004345e8319c20b48dfb",
     "ai-social-theory-trust": "07d5610105b7b5fa10d7e36787ccca7a50027b592ef10a2d73fa61d750780ed3",
-    "computational-political-media-influence": "91e1703714de6df05bcd930928744900dda6682e3f8732ba6419434520c8594f",
+    "computational-political-media-influence": "a337f29011f5fccd555c32140558eb6268ebda23d2cde85eeae8dfc69202f71d",
     "platform-data-governance": "072d676463db56345d0dcb7e87374f87086d701b3cf9d29a4ae9274596053432",
     "health-misinformation-networks": "50feb5537e836e859e0ad25fa90f005ee3ed72b5caa399972dfac1fb63afb570",
     "disinformation-narrative-monitoring": "db1784f935181f3ffb7eb30343c96065547aaeae0cf8d210e508829e68b5d04a",

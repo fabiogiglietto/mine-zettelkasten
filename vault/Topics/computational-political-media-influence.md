@@ -47,7 +47,6 @@ Papers using large-scale computational or quasi-experimental methods to study po
 - [[Munger2025-cz]]
 - [[Rauchfleisch2026-fa]]
 - [[Richter2026-bt]]
-- [[Smith2025-kc]]
 - [[UnknownUnknown-db]]
 - [[Votta2025-xz]]
 - [[Waight2026-ts]]
