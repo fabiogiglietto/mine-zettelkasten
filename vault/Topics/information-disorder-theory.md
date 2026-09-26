@@ -11,6 +11,7 @@ Conceptual and taxonomic work on misinformation, 'fake news' and coordination/in
 ## Papers
 
 - [[Adam2026-tz]]
+- [[Aharoni2026-sl6f]]
 - [[Allcott2017-yz]]
 - [[Allcott2019-gn]]
 - [[Allen2020-nj]]

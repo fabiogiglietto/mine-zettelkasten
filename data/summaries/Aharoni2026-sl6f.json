@@ -1,0 +1,37 @@
+{
+  "abstract": "This study investigates how ordinary media users, rather than journalists or scholars, define what counts as 'news' in hybrid media environments across four countries. Drawing on chat-based focus groups and in-depth and think-aloud interviews with 232 participants in Brazil, India, the UK, and the US, the authors identify two coexisting public definitions of news: a 'core' definition aligned with traditional journalism and an 'expanded' definition emerging in digital contexts. Both are structured around three criteria of 'news-ness': content, format, and relevance. The paper argues that users perform their own everyday boundary work, distinguishing news from non-news in ways that increasingly diverge from professional definitions online.",
+  "key_claims": [
+    "Users share a stable 'core' definition of news centered on consequential/political and negative content, journalistic tone and format, and current national/global relevance.",
+    "In digital media contexts, users adopt an 'expanded' definition that includes positive, entertaining, humorous, commercial, older, local, and personally relevant content from non-journalistic sources.",
+    "News-ness is evaluated along three key dimensions—content (what is communicated), format (how it is communicated), and relevance (temporal and spatial)—and not all criteria are mandatory; format alone can render information news regardless of content.",
+    "There is a growing gap between public perceptions of 'news' and professional journalistic practice: not all journalism is seen as news, and much of what users call 'news' online is not journalistic.",
+    "Users engage in everyday boundary work, actively defining what is 'not news' (e.g., dismissing entertainment, gossip, or outdated coverage even from established outlets like the BBC or CNN)."
+  ],
+  "methods": [
+    "Qualitative secondary analysis of a dataset originally collected for the Reuters Institute's Trust in News Project (2021–2022).",
+    "Eight chat-based focus groups (70 participants) conducted by YouGov, split by higher- and lower-trust participants across the four countries.",
+    "62 in-depth video interviews probing platform experiences, feelings about news, and attitudes toward journalism.",
+    "100 think-aloud interviews with lower-trust participants interacting in real time with Google, Facebook, and (in India and Brazil) WhatsApp.",
+    "Cross-national comparative design spanning Global North (UK, US) and Global South (Brazil, India) media markets, with variation in age, gender, and news trust.",
+    "Inductive, iterative coding in NVivo with a shared coding framework, at least two coders per transcript, and translation of Portuguese and Hindi data into English."
+  ],
+  "findings": [
+    "Core definition — Content: participants associated news with politics and negativity, and strongly excluded entertainment; even legacy outlets (BBC, Fox, Indian TV) were dismissed as 'not news' when deemed too entertaining.",
+    "Core definition — Format: users expected a formal, professional journalistic tone, separation of facts from opinion, and an authoritative journalistic voice (though some preferred transparent opinion over pretended neutrality).",
+    "Core definition — Relevance: news was expected to be up-to-date ('current events') and to cover national and global affairs; 'old' or 'recycled' information often lost its news status.",
+    "Expanded definition — Content: on digital platforms users included positive, entertaining/soft news (celebrities, animals, human drama) and, especially in India, commercial content mimicking journalism.",
+    "Expanded definition — Format: users accepted news from non-journalistic actors (politicians, influencers, ordinary users, content creators) and tolerated satire/humor, though accuracy remained central.",
+    "Expanded definition — Relevance: digital news broadened to include intentionally revisited older content ('slow news'), local news via Facebook/WhatsApp, and personally useful updates from friends, family, and work-related interests.",
+    "The expanded definition surfaced mainly in individual (especially think-aloud) interviews, while normative core definitions dominated group discussions.",
+    "Demographic and cross-national patterns: older, more news-interested users and those familiar with Anglo-American journalism leaned on core definitions; younger and less news-oriented users, and participants in India and Brazil, emphasized personal relevance and practical/local information."
+  ],
+  "contributions": [
+    "Provides what the authors describe as the most expansive and global empirical investigation to date of what news means to the public, including Global South contexts often overlooked in prior research.",
+    "Develops a bottom-up, audience-centered typology of news distinguishing 'core' and 'expanded' definitions organized around content, format, and relevance.",
+    "Extends the concept of 'news-ness' and applies boundary work theory to audiences rather than journalists, documenting how users decide what is 'not news'.",
+    "Demonstrates that different qualitative methods elicit different definitions (abstract associations in focus groups vs. context-based judgments in think-aloud tasks) and that platforms shape lay understandings of news.",
+    "Proposes two possible mechanisms (contextual vs. personal) for how core and expanded definitions operate, flagging directions for future quantitative work."
+  ],
+  "framing": "The paper positions itself within the 'audience turn' in journalism studies, moving from top-down professional and normative conceptions of news (news values, boundary work) toward a user-centered, lived-experience view. It situates news as a relational media genre defined through comparison with other genres in a hybrid, platformized media environment, engaging debates about journalism's legitimacy and trust crises across the Global North and South.",
+  "pdf_source": "drive"
+}

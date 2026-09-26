@@ -10,6 +10,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 
 ## Papers
 
+- [[Aharoni2026-sl6f]]
 - [[Anwar2024-34dba628]]
 - [[Askanius2026-de]]
 - [[Bakshy2015-rn]]

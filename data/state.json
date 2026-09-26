@@ -4191,7 +4191,21 @@
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-26T15:38:22.956843+00:00"
+      "last_processed": "2026-09-26T15:38:22.956843+00:00",
+      "notices": [
+        {
+          "type": "correction",
+          "doi": "10.1126/science.adu8261",
+          "date": "2024-12-05",
+          "source": "publisher"
+        },
+        {
+          "type": "correction",
+          "doi": "10.1126/science.aeh2575",
+          "date": "2026-03-19",
+          "source": "publisher"
+        }
+      ]
     },
     "bibtex:Gonzalez-Bailon2023-uy": {
       "note_path": "Papers/Gonzalez-Bailon2023-uy.md",
@@ -4223,7 +4237,15 @@
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-26T15:39:01.765474+00:00"
+      "last_processed": "2026-09-26T15:39:01.765474+00:00",
+      "notices": [
+        {
+          "type": "correction",
+          "doi": "10.1038/s41586-023-06795-x",
+          "date": "2023-11-01",
+          "source": "publisher"
+        }
+      ]
     },
     "bibtex:Eady2023-xg": {
       "note_path": "Papers/Eady2023-xg.md",
@@ -4859,10 +4881,27 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-26T15:51:27.951971+00:00"
+    },
+    "bibtex:Aharoni2026-sl6f": {
+      "note_path": "Papers/Aharoni2026-sl6f.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "information-disorder-theory"
+      ],
+      "assign_fp": "a8c0d1986d3e891de517a1dd96517b49479df736ece096f20f1dd41062f08479",
+      "doi": "10.1080/21670811.2026.2729391",
+      "title": "“Having Fun and Learning Something”: How Users in Four Countries Define What News Is – and Is Not",
+      "pdf_source": "drive",
+      "content_hash": "8d51a7caa1f9621cf7bf0476a2193d66f358ec3e88f113b54f351577fd2e07b2",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-09-26T19:37:57.416184+00:00",
+      "kind": "team",
+      "submitted_by": "Bruna Paroni"
     }
   },
   "last_full_cluster": "2026-09-26T16:12:09.788208+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "9bad800e815c0268d34d6f250c94323ea8b1c384498ff5fdd77bbe279c2c857e",
   "emergent_fp": "47225a2b740728557c28762174855ec529bbf4e80464b972cba0ac0acf3361ab",
   "structure_fps": {
