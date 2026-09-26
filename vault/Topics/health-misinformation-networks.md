@@ -11,10 +11,12 @@ Mapping of coordinated networks circulating problematic health information, incl
 ## Papers
 
 - [[Adam2026-tz]]
+- [[Allen2024-av]]
 - [[Bollenbacher2026-vz]]
 - [[Ducci2022-10cb5d70]]
 - [[Efstratiou2026-ij]]
 - [[Giglietto2022-0e951ac5]]
+- [[Lieu2025-nl]]
 - [[Lyons2026-ca]]
 - [[Marino2023-9137f448]]
 - [[Scalco2026-bd]]
