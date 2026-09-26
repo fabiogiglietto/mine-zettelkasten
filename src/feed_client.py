@@ -46,6 +46,7 @@ class Paper:
     submitted_by: Optional[str] = None             # team-mate who suggested it via Slack
     submitted_by_id: Optional[str] = None          # their opaque Slack user-id, for @-mentioning
     slack_permalink: Optional[str] = None          # link to the originating Slack message
+    is_classic: bool = False                       # filed in Paperpile's Classics folder
 
     @property
     def is_team_submission(self) -> bool:
@@ -62,6 +63,11 @@ class Paper:
         return self.id.split(":", 1)[-1]
 
 
+# BibTeX escapes that Paperpile's export leaves in titles and abstracts
+# (`\#StayWoke`, `15\%`): a backslash before one of LaTeX's special characters.
+_BIBTEX_ESCAPE_RE = re.compile(r"\\([#%&_$])")
+
+
 def _text(value: Optional[str]) -> str:
     """A feed text field as plain text.
 
@@ -70,8 +76,16 @@ def _text(value: Optional[str]) -> str:
     escaper until 2026-09; github.io still emits `&amp;`), so an escaped title
     reached note frontmatter and the site as a literal `&quot;`. Unescaping
     once recovers it and is a no-op on a clean field.
+
+    The toread feed also passes BibTeX's backslash escapes through untouched
+    (Papers/Holland_Levin2026-qx shipped as `From \\#StayWoke …`, and two
+    abstracts carry `15\\%`), so those are decoded too. The bare `#` matters
+    downstream: Quartz cannot put one inside a wikilink alias — see
+    `site_export.build_index`.
     """
-    return html.unescape(value) if value else (value or "")
+    if not value:
+        return value or ""
+    return _BIBTEX_ESCAPE_RE.sub(r"\1", html.unescape(value))
 
 
 def _extract_journal(item: dict, academic: dict) -> Optional[str]:
@@ -109,6 +123,9 @@ def _item_to_paper(item: dict) -> Paper:
         submitted_by=slack.get("submitted_by") or None,
         submitted_by_id=slack.get("submitted_by_id") or None,
         slack_permalink=slack.get("permalink") or None,
+        # toread's `_classic` flag (Paperpile Classics folder): a foundational
+        # work added in bulk — an ordinary paper here, minus the #toread digest.
+        is_classic=item.get("_classic") is True,
     )
 
 

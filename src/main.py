@@ -7,6 +7,8 @@ Usage:
     python -m src.main update [--recluster]
     python -m src.main recluster
     python -m src.main export-site
+    python -m src.main retract <bibtex-key> --notice <doi> --date <YYYY-MM-DD>
+    python -m src.main check-retractions [--apply]
     python -m src.main slack-test <bibtex-key>
 
 See README.md and the implementation plan for architecture detail.
@@ -134,6 +136,11 @@ def _drive_client(cfg: dict):
     inbox_folder = os.environ.get("SLACK_INBOX_DRIVE_FOLDER_ID")
     if inbox_folder:
         folders.append(inbox_folder)
+    # Paperpile syncs each folder's PDFs to its own Drive folder, so papers in
+    # the Classics folder (toread `_classic`) have their PDFs apart from To Read.
+    classics_folder = os.environ.get("CLASSICS_DRIVE_FOLDER_ID")
+    if classics_folder:
+        folders.append(classics_folder)
     try:
         from .drive_client import DriveClient
 
@@ -213,6 +220,20 @@ def mark_processed(entry: dict, abstract: str | None, podcast: bool) -> None:
     entry["last_processed"] = _now()
 
 
+def digest_queued(paper, digest_scope: str) -> bool:
+    """Whether a newly-seen paper is queued for a #toread digest.
+
+    "all" (fg default) queues every new paper; "team" (mine) queues only team
+    Slack submissions — Paperpile-origin papers flow through both kastens and
+    fg-zettelkasten already announces them. A classic (toread's `_classic`:
+    Paperpile's Classics folder) is never queued: foundational works arrive in
+    bulk and would flood the channel, so they get a note and an episode only.
+    """
+    if paper.is_classic:
+        return False
+    return paper.is_team_submission if digest_scope == "team" else True
+
+
 def classify_feed_paper(entry: dict | None, new_hash: str) -> str:
     """How `update` should treat one feed paper: new / changed / tombstoned / unchanged.
 
@@ -221,11 +242,15 @@ def classify_feed_paper(entry: dict | None, new_hash: str) -> str:
     published version here, not withdrawn upstream — so its content hash keeps
     moving as episodes appear and abstracts are edited. It must reach neither
     bucket: `new` would re-summarize it and `changed` would re-render its note,
-    overwriting the stub with a full paper note again.
+    overwriting the stub with a full paper note again. A retracted paper is
+    routed the same way: its note carries a hand-applied retraction banner that
+    a re-render would wipe.
     """
+    from .state import is_inactive
+
     if entry is None:
         return "new"
-    if entry.get("superseded_by"):
+    if is_inactive(entry):
         return "tombstoned"
     if entry.get("content_hash") != new_hash:
         return "changed"
@@ -476,13 +501,18 @@ def _topic_members(slug: str, state: dict, papers_by_key: dict) -> list:
 
 
 def _generate_structure_notes(
-    cfg, register, state, papers_by_key, summaries, claude, force: bool = False
+    cfg, register, state, papers_by_key, summaries, claude, force: bool = False,
+    only: set[str] | None = None,
 ):
     """Render one Structures/<slug>.md hub note per non-empty topic.
 
     With `processing.incremental_recluster` on, a topic whose inputs (name,
     description, membership, member digests, model) are unchanged since the
-    last run keeps its existing note instead of re-billing the LLM call."""
+    last run keeps its existing note instead of re-billing the LLM call.
+
+    `only` restricts the pass to those slugs and leaves every other Structure,
+    its fingerprint and the stale-note pruning alone — a retraction between
+    reclusters must not re-bill topics that merely gained papers since."""
     from . import note_builder, themes, state as state_mod
 
     incremental = cfg.get("processing", {}).get("incremental_recluster", False)
@@ -492,6 +522,8 @@ def _generate_structure_notes(
     written: set[str] = set()
     generated = skipped = 0
     for topic in register:
+        if only is not None and topic["slug"] not in only:
+            continue
         members = _topic_members(topic["slug"], state, papers_by_key)
         if not members:
             continue
@@ -515,6 +547,10 @@ def _generate_structure_notes(
         fps[topic["slug"]] = fp
         written.add(topic["slug"])
         generated += 1
+    if only is not None:
+        print(f"  structure notes: {generated} generated, {skipped} skipped "
+              f"(limited to {', '.join(sorted(only))})")
+        return
     # Fingerprints of topics that vanished (or emptied out) go with their notes.
     for slug in list(fps):
         if slug not in written:
@@ -706,7 +742,7 @@ def cmd_summarize(cfg: dict, args) -> int:
     pending = [
         p for p in papers
         if summarizer.load_summary(summaries_dir, p.bibtex_key) is None
-        and not (state["papers"].get(p.id) or {}).get("superseded_by")
+        and not state_mod.is_inactive(state["papers"].get(p.id))
     ]
     print(f"summarize: {len(pending)} of {len(papers)} paper(s) need a summary")
     for i, paper in enumerate(pending, 1):
@@ -796,7 +832,10 @@ def cmd_update(cfg: dict, args) -> int:
     deduped = []
     for paper in new_papers:
         existing = state_mod.find_duplicate(dup_index, paper.doi, paper.title)
-        if existing:
+        # Its own note is not a duplicate: a paper whose state entry was reset
+        # for a rebuild still has its Papers/<key>.md on disk, and the notes
+        # index would otherwise skip it as a copy of itself forever.
+        if existing and existing != paper.id:
             print(f"  dedup: {paper.bibtex_key} duplicates {existing} "
                   f"— skipping")
             continue
@@ -851,8 +890,7 @@ def cmd_update(cfg: dict, args) -> int:
             # Paperpile-origin papers flow through both kastens' pipelines
             # and fg-zettelkasten already announces them, so the team kasten
             # posting them too would double-post in #toread.
-            "slack_pending": (paper.is_team_submission
-                              if digest_scope == "team" else True),
+            "slack_pending": digest_queued(paper, digest_scope),
             "last_processed": _now(),
         }
         # A team-mate's Slack submission: tag it `kind: team` and carry the
@@ -890,6 +928,10 @@ def cmd_update(cfg: dict, args) -> int:
             kind=entry.get("kind"),
             supersedes=entry.get("supersedes"),
         )
+        if entry.get("notices"):
+            # A re-render must not drop the editorial-notice flag: state says
+            # it is known, so check-retractions would not re-apply it.
+            note = note_builder.apply_notices(note, entry["notices"])
         note_builder.write_note(vault, papers_dir, paper.bibtex_key, note)
         mark_processed(entry, paper.abstract, paper.id in episodes)
 
@@ -923,6 +965,10 @@ def cmd_update(cfg: dict, args) -> int:
             # queued under a wider scope, so flipping the config does not
             # flood #toread.
             if digest_scope == "team" and not paper.is_team_submission:
+                continue
+            # A classic is never announced — also when it was queued before
+            # being moved into the Paperpile Classics folder.
+            if paper.is_classic:
                 continue
             # Hold for the research-radio episode (or the fallback deadline)
             # when an episode wait is configured.
@@ -1078,6 +1124,8 @@ def cmd_update(cfg: dict, args) -> int:
             podcast_ep, claude, claude.note_model, kind="own",
             supersedes=entry.get("supersedes"),
         )
+        if entry.get("notices"):
+            note = note_builder.apply_notices(note, entry["notices"])
         note_builder.write_note(vault, papers_dir, paper.bibtex_key, note)
         mark_processed(entry, paper.abstract, paper.id in episodes)
 
@@ -1113,6 +1161,38 @@ def cmd_update(cfg: dict, args) -> int:
     return 0
 
 
+def _processed_papers(
+    cfg: dict, state: dict, summaries_dir: str, label: str
+) -> tuple[list, dict[str, dict], bool]:
+    """Every feed paper already in state, plus its cached summary.
+
+    Returns `(papers, summaries, complete)`. Own publications already in state
+    ride along so they stay in the topic structure; `complete` is False when
+    that feed could not be fetched, i.e. the paper list is missing members.
+    """
+    from . import summarizer
+
+    papers = [
+        p for p in _fetch_feed(cfg)
+        if p.id in state["papers"]
+    ]
+    complete = True
+    own_cfg = cfg.get("own_publications", {})
+    if own_cfg.get("enabled", True):
+        try:
+            own = _fetch_own_publications(cfg)
+            papers += [p for p in own if p.id in state["papers"]]
+        except Exception as exc:  # noqa: BLE001 - never break the caller on a fetch error
+            print(f"{label}: could not fetch own-publications feed ({exc})")
+            complete = False
+    summaries: dict[str, dict] = {}
+    for paper in papers:
+        s = summarizer.load_summary(summaries_dir, paper.bibtex_key)
+        if s is not None:
+            summaries[paper.bibtex_key] = s
+    return papers, summaries, complete
+
+
 def _recluster(cfg: dict, claude, drive, force: bool = False) -> None:
     """Full re-cluster: rebuild the register, re-assign every processed paper,
     regenerate Topics/ and Structures/. Paper note bodies are not re-summarised
@@ -1139,33 +1219,21 @@ def _recluster(cfg: dict, claude, drive, force: bool = False) -> None:
     state = state_mod.load_state(_abs(cfg["paths"]["state_file"]))
     summaries_dir = _abs(cfg["paths"]["summaries_dir"])
 
-    papers = [
-        p for p in _fetch_feed(cfg)
-        if p.id in state["papers"]
-    ]
-    # Own publications already in state are reclustered alongside toread papers,
-    # so the weekly recluster folds them into the topic structure too.
-    own_cfg = cfg.get("own_publications", {})
-    if own_cfg.get("enabled", True):
-        try:
-            own = _fetch_own_publications(cfg)
-            papers += [p for p in own if p.id in state["papers"]]
-        except Exception as exc:  # noqa: BLE001 - never break recluster on a fetch error
-            print(f"recluster: could not fetch own-publications feed ({exc})")
-    summaries: dict[str, dict] = {}
-    for paper in papers:
-        s = summarizer.load_summary(summaries_dir, paper.bibtex_key)
-        if s is not None:
-            summaries[paper.bibtex_key] = s
+    papers, summaries, _ = _processed_papers(cfg, state, summaries_dir, "recluster")
 
     reg_fp = state_mod.register_fingerprint(register)
     unassigned = []
     assigned = skipped = 0
     for paper in papers:
+        entry = state["papers"][paper.id]
+        if state_mod.is_inactive(entry):
+            # Tombstoned or retracted: out of every register for good. Without
+            # this, recluster re-files a stub under the topics it had before.
+            entry["topics"] = []
+            continue
         summary = summaries.get(paper.bibtex_key)
         if summary is None:
             continue
-        entry = state["papers"][paper.id]
         fp = state_mod.assign_fingerprint(
             reg_fp, themes.summary_digest(summary), claude.assign_model
         )
@@ -1249,6 +1317,202 @@ def _recluster(cfg: dict, claude, drive, force: bool = False) -> None:
     print(f"recluster: {len(register)} topics, {len(emergent)} emergent")
 
 
+def _mark_retracted(
+    state: dict, vault: Path, key: str, notice: str, date: str, source: str
+) -> list[str] | None:
+    """Record one retraction in state and on its note; return the topics it left.
+
+    The note keeps its summary under a retraction banner (wikilinks and the
+    site URL keep resolving); the state entry gets a `retracted` marker, which
+    `state.is_inactive` makes `update` and `recluster` honour for good. Returns
+    None when the paper is not in state. Derived notes are the caller's job —
+    see `_refresh_after_retraction` — so a batch rewrites them once.
+    """
+    from . import note_builder, state as state_mod
+
+    entry = state["papers"].get(f"bibtex:{key}")
+    if entry is None:
+        return None
+    notice = state_mod.normalize_doi(notice) or notice
+    # A re-run finds `topics` already empty; the marker remembers what it left,
+    # so a Structures pass a failed first run skipped can still be retried.
+    affected = list(entry.get("topics")
+                    or (entry.get("retracted") or {}).get("topics") or [])
+    entry["retracted"] = {
+        "notice_doi": notice,
+        "date": date,
+        "source": source,
+        "recorded": _now(),
+        "topics": affected,
+    }
+    entry["topics"] = []
+    note = vault / entry["note_path"]
+    note.write_text(
+        note_builder.apply_retraction(note.read_text(encoding="utf-8"), notice, date),
+        encoding="utf-8",
+    )
+    return affected
+
+
+def _refresh_after_retraction(
+    cfg: dict, state: dict, label: str, no_structures: bool, topics: set[str]
+) -> int:
+    """Rewrite the Topics registers (no LLM) and the Structures of `topics`,
+    the ones the retracted paper(s) left — within those, only the stale ones,
+    via their input fingerprints. Every other Structure waits for the recluster
+    (convention: Structures regenerate on recluster). Safe to re-run."""
+    from . import topics_client, state as state_mod
+
+    register = topics_client.load_topics(_abs(cfg["paths"]["topics_file"]))
+    _regenerate_topic_notes(cfg, register, state)
+    if no_structures or not topics:
+        return 0
+    if not cfg.get("processing", {}).get("incremental_recluster", False):
+        # Without fingerprints every Structure would be re-billed.
+        print(f"{label}: structures left to the next recluster "
+              "(incremental_recluster is off)")
+        return 0
+
+    papers, summaries, complete = _processed_papers(
+        cfg, state, _abs(cfg["paths"]["summaries_dir"]), label
+    )
+    if not complete:
+        # A partial member list would silently drop own papers from every
+        # Structure it touched; the next recluster will pick this up instead.
+        print(f"{label}: structures not regenerated (incomplete paper list)")
+        return 1
+    _generate_structure_notes(
+        cfg, register, state, {p.bibtex_key: p for p in papers}, summaries,
+        _claude(cfg), only=topics,
+    )
+    state_mod.save_state(state, _abs(cfg["paths"]["state_file"]))
+    return 0
+
+
+def cmd_retract(cfg: dict, args) -> int:
+    """Mark one paper as retracted by hand and take it out of the live vault.
+
+    For a retraction Crossref has not indexed yet; `check-retractions` finds
+    the indexed ones on its own.
+    """
+    from . import state as state_mod
+
+    state_file = _abs(cfg["paths"]["state_file"])
+    state = state_mod.load_state(state_file)
+    vault = Path(_abs(cfg["vault"]["path"]))
+    affected = _mark_retracted(
+        state, vault, args.bibtex_key, args.notice, args.date, "manual"
+    )
+    if affected is None:
+        print(f"retract: {args.bibtex_key} is not in state")
+        return 1
+    state_mod.save_state(state, state_file)
+    print(f"retract: {args.bibtex_key} marked retracted ({args.notice}); "
+          f"leaves {', '.join(affected) or 'no topics'}")
+    return _refresh_after_retraction(
+        cfg, state, "retract", args.no_structures, set(affected)
+    )
+
+
+def cmd_check_retractions(cfg: dict, args) -> int:
+    """Ask Crossref whether any live note has been retracted or flagged.
+
+    Every active note with a DOI is checked each run — a few batched requests,
+    no key. A retraction is applied exactly like `retract` (and announced in
+    #toread when the paper was posted there); an expression of concern or a
+    correction only flags the note, which stays in the registers. Reporting
+    is the default; `--apply` writes.
+    """
+    from . import note_builder, retractions, slack_client, supersede, state as state_mod
+
+    r_cfg = cfg.get("retractions", {})
+    if not r_cfg.get("enabled", True):
+        print("check-retractions: disabled in config")
+        return 0
+    mailto = (r_cfg.get("mailto")
+              or cfg.get("supersede", {}).get("openalex", {}).get("mailto") or None)
+    apply = bool(args.apply)
+
+    state_file = _abs(cfg["paths"]["state_file"])
+    state = state_mod.load_state(state_file)
+    vault = Path(_abs(cfg["vault"]["path"]))
+    records = supersede.load_vault_records(vault / cfg["vault"]["papers_dir"])
+    by_doi = {
+        state_mod.normalize_doi(r.doi): r
+        for r in records.values()
+        if r.doi and not r.inactive and r.paper_id in state["papers"]
+    }
+    print(f"check-retractions: asking Crossref about {len(by_doi)} DOI(s)")
+    updates = retractions.fetch_updates(list(by_doi), mailto)
+
+    retracted, flagged = [], []
+    for doi, notices in sorted(updates.items()):
+        record = by_doi.get(doi)
+        if record is None:
+            continue
+        hit = retractions.retraction_of(notices)
+        if hit:
+            retracted.append((record, hit))
+            continue
+        flags = retractions.flags_of(notices)
+        if not flags:
+            continue
+        entry = state["papers"][record.paper_id]
+        # Re-flag a known notice too when its callouts are missing or out of
+        # date (a note re-rendered by an older build, edited by hand, or still
+        # in an older callout layout) — i.e. whenever applying would change it.
+        note_text = (vault / entry["note_path"]).read_text(encoding="utf-8")
+        if (flags != entry.get("notices")
+                or note_builder.apply_notices(note_text, flags) != note_text):
+            flagged.append((record, flags))
+
+    for record, hit in retracted:
+        print(f"  RETRACTED {record.key}: {hit['doi']} ({hit['date']}, {hit['source']})")
+    for record, flags in flagged:
+        kinds = ", ".join(retractions.LABELS.get(n["type"], n["type"]) for n in flags)
+        print(f"  flagged   {record.key}: {kinds}")
+    if not retracted and not flagged:
+        print("check-retractions: nothing new")
+        return 0
+    if not apply:
+        print("check-retractions: report only — re-run with --apply to write")
+        return 0
+
+    for record, flags in flagged:
+        entry = state["papers"][record.paper_id]
+        note = vault / entry["note_path"]
+        note.write_text(
+            note_builder.apply_notices(note.read_text(encoding="utf-8"), flags),
+            encoding="utf-8",
+        )
+        entry["notices"] = flags
+
+    slack_cfg = cfg.get("slack", {})
+    webhook = os.environ.get("SLACK_WEBHOOK_URL")
+    notify = (bool(slack_cfg.get("enabled")) and bool(webhook)
+              and r_cfg.get("slack_notice", True))
+    base = (slack_cfg.get("note_base_url") or "").rstrip("/")
+    left: set[str] = set()
+    for record, hit in retracted:
+        entry = state["papers"][record.paper_id]
+        left |= set(_mark_retracted(
+            state, vault, record.key, hit["doi"], hit["date"],
+            hit["source"] or "crossref",
+        ) or [])
+        # Only a paper the channel was told about needs un-telling.
+        if notify and entry.get("slack_posted"):
+            slack_client.post_retraction(
+                webhook, record.key, record.title, record.doi, hit["doi"],
+                hit["date"], f"{base}/{record.key}" if base else None,
+            )
+    state_mod.save_state(state, state_file)
+    if not retracted:
+        return 0
+    return _refresh_after_retraction(
+        cfg, state, "check-retractions", args.no_structures, left
+    )
+
+
 def cmd_recluster(cfg: dict, args) -> int:
     """Force a full re-cluster of the whole archive."""
     args.recluster = True
@@ -1295,7 +1559,7 @@ def cmd_dedupe_vault(cfg: dict, args) -> int:
     seen: set[tuple[str, str]] = set()
     pairs: list[tuple] = []
     for key, record in records.items():
-        if record.superseded_by:
+        if record.inactive:
             continue
         for cand in supersede.find_candidates(record, records, index):
             pair = tuple(sorted((key, cand.key)))
@@ -1402,7 +1666,7 @@ def cmd_check_published(cfg: dict, args) -> int:
     # same handful every time.
     pending = [
         r for r in records.values()
-        if r.rank == supersede.RANK_PREPRINT and not r.superseded_by
+        if r.rank == supersede.RANK_PREPRINT and not r.inactive
         and not (state["papers"].get(r.paper_id) or {}).get("published_doi")
     ]
     pending.sort(
@@ -1459,6 +1723,109 @@ def cmd_check_published(cfg: dict, args) -> int:
     elif found:
         print(f"check-published: {found} published version(s) found "
               f"— re-run with --apply to upgrade the notes")
+    return 0
+
+
+def cmd_suggest_classics(cfg: dict, args) -> int:
+    """Report the works the vault cites most but does not hold.
+
+    Read-only towards the vault: it refreshes the reference-list cache and writes
+    a candidates report. Chosen works are added upstream through Paperpile, so
+    `toread` mints their bibtex keys — nothing here creates a note.
+    """
+    import json
+
+    from . import classics, openalex_client, supersede, state as state_mod
+
+    c_cfg = cfg.get("classics", {})
+    if not c_cfg.get("enabled", True):
+        print("suggest-classics: disabled in config")
+        return 0
+
+    vault = _abs(cfg["vault"]["path"])
+    papers_path = Path(vault) / cfg["vault"]["papers_dir"]
+    citations_file = _abs(cfg["paths"].get("citations_file", "data/citations.json"))
+    report_base = _abs(cfg["paths"].get("classics_report", "data/classics_candidates"))
+    mailto = (c_cfg.get("mailto")
+              or cfg.get("supersede", {}).get("openalex", {}).get("mailto") or None)
+
+    records = {
+        key: r for key, r in supersede.load_vault_records(papers_path).items()
+        if not r.inactive
+    }
+    state = state_mod.load_state(_abs(cfg["paths"]["state_file"]))
+    topics_by_key = {
+        key: (state["papers"].get(r.paper_id) or {}).get("topics") or []
+        for key, r in records.items()
+    }
+
+    now = classics.now_utc()
+    cache = classics.load_citations(citations_file)
+    if getattr(args, "refresh", False):
+        cache["works"] = {}
+    stale = classics.stale_keys(
+        records, cache, now, int(c_cfg.get("recheck_after_days", 30))
+    )
+    # Drop notes that have left the vault, so the file tracks it exactly.
+    gone = [k for k in cache["works"] if k not in records]
+    for key in gone:
+        del cache["works"][key]
+    if stale:
+        print(f"suggest-classics: fetching reference lists for {len(stale)} note(s)")
+        fetched = openalex_client.references_by_doi(
+            [records[k].doi for k in stale], mailto=mailto
+        )
+        classics.update_cache(cache, records, stale, fetched, now)
+    if stale or gone:
+        classics.save_citations(cache, citations_file)
+
+    sources = {k for k in records if k in cache["works"]}
+    ranked = classics.rank(cache, sources, topics_by_key)
+    min_citing = int(getattr(args, "min_citing", None) or c_cfg.get("min_citing", 5))
+    # The per-topic view needs works below the overall cut-off: a topic with few
+    # indexed notes can only ever give its foundations a handful of citations.
+    pool_min = min(min_citing, int(c_cfg.get("topic_min_citing", 3)))
+    pool = [c for c in ranked if c["count"] >= pool_min]
+    works = {
+        wid: openalex_client.describe_candidate(work)
+        for wid, work in openalex_client.works_by_id(
+            [c["openalex_ids"][0] for c in pool], mailto=mailto
+        ).items()
+    }
+    report = classics.build_report(
+        pool, works, records, topics_by_key,
+        exclude_types=set(c_cfg.get("exclude_types") or []),
+        exclude_dois=set(c_cfg.get("exclude_dois") or []),
+    )
+    overall = [c for c in report if c["count"] >= min_citing]
+    overall = overall[: int(c_cfg.get("max_candidates", 60))]
+    topic_view = classics.by_topic(report, int(c_cfg.get("per_topic", 5)))
+
+    entries = [cache["works"][k] for k in sources]
+    stats = {
+        "sources": len(sources),
+        "in_openalex": sum(1 for e in entries if e.get("openalex_id")),
+        "with_refs": sum(1 for e in entries if e.get("referenced_works")),
+        "distinct_works": len(ranked),
+    }
+    generated = now.strftime("%Y-%m-%d")
+    Path(report_base + ".md").write_text(
+        classics.render_markdown(overall, topic_view, stats, generated), encoding="utf-8"
+    )
+    Path(report_base + ".json").write_text(
+        json.dumps({"generated": generated, "stats": stats, "overall": overall,
+                    "by_topic": {t: [c["openalex_ids"][0] for c in rows]
+                                 for t, rows in topic_view.items()}},
+                   indent=1, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"suggest-classics: {stats['with_refs']}/{stats['sources']} notes have a "
+          f"reference list; {len(overall)} work(s) cited by >= {min_citing} notes")
+    for cand in overall[:15]:
+        book = " [book]" if cand["is_book"] else ""
+        print(f"  {cand['count']:>3}  {classics.cite(cand)}. {cand['title'][:80]}{book}")
+    print(f"suggest-classics: full report -> {Path(report_base + '.md').relative_to(ROOT)}")
     return 0
 
 
@@ -1586,6 +1953,46 @@ def build_parser() -> argparse.ArgumentParser:
         "--dry-run", action="store_true", help="report only (the default)"
     )
 
+    p_classics = sub.add_parser(
+        "suggest-classics",
+        help="report the works the vault cites most but does not hold (no LLM)",
+    )
+    p_classics.add_argument(
+        "--min-citing", type=int, default=None,
+        help="overall cut-off: notes that must cite a work (default: config)",
+    )
+    p_classics.add_argument(
+        "--refresh", action="store_true",
+        help="refetch every reference list instead of only the missing ones",
+    )
+
+    p_retract = sub.add_parser(
+        "retract", help="mark a paper as retracted and drop it from the live vault"
+    )
+    p_retract.add_argument("bibtex_key", help="bibtex key of the retracted paper")
+    p_retract.add_argument("--notice", required=True, help="DOI of the retraction notice")
+    p_retract.add_argument("--date", required=True, help="retraction date, YYYY-MM-DD")
+    p_retract.add_argument(
+        "--no-structures", action="store_true",
+        help="rewrite the Topics registers only; leave Structures to the next recluster",
+    )
+
+    p_retractions = sub.add_parser(
+        "check-retractions",
+        help="ask Crossref whether any note was retracted or flagged",
+    )
+    p_retractions.add_argument(
+        "--apply", action="store_true",
+        help="retract / flag the notes instead of only reporting the findings",
+    )
+    p_retractions.add_argument(
+        "--dry-run", action="store_true", help="report only (the default)"
+    )
+    p_retractions.add_argument(
+        "--no-structures", action="store_true",
+        help="rewrite the Topics registers only; leave Structures to the next recluster",
+    )
+
     p_slack = sub.add_parser(
         "slack-test", help="post one paper's digest to the Slack webhook"
     )
@@ -1601,10 +2008,13 @@ def main(argv=None) -> int:
         "bootstrap": cmd_bootstrap,
         "summarize": cmd_summarize,
         "update": cmd_update,
+        "retract": cmd_retract,
+        "check-retractions": cmd_check_retractions,
         "refresh-topics": cmd_refresh_topics,
         "recluster": cmd_recluster,
         "dedupe-vault": cmd_dedupe_vault,
         "check-published": cmd_check_published,
+        "suggest-classics": cmd_suggest_classics,
         "fix-links": cmd_fix_links,
         "export-site": cmd_export_site,
         "slack-test": cmd_slack_test,
