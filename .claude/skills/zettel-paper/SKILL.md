@@ -125,6 +125,16 @@ review. They override any instruction to produce a finished, citable manuscript.
   using the `doi`/`authors`/`year` from their frontmatter. Never invent a
   reference, a DOI, a quote, or a finding. If a needed source isn't in the kasten,
   flag the gap — don't fill it from memory.
+- **Never cite a retracted paper.** A note with `retracted:` in its frontmatter
+  is excluded from the index; `index.json` lists it under `do_not_cite`. If a
+  Structure or note still mentions one (derived notes lag a retraction until
+  regenerated), drop the claim or flag it to the user — never draft from it.
+- **Disclose editorial concerns.** A paper whose `editorial_notices` (in
+  `index.json`) includes `expression_of_concern` or `partial_retraction` may be
+  cited, but say so in the prose where the claim rests on it and tell the user
+  (the note's `[!caution] Editorial concern` callout links the notice). A
+  `correction` (or erratum / corrigendum / addendum) only needs checking when a
+  specific figure or quote is used — see the `[!note] Corrected` callout.
 - **Build the author–year label from `authors`, never from `bibtex_key`.** The
   first-author surname is the last whitespace token of `authors[0]` (absorbing a
   lowercase particle like `van`/`de`/`di` into the surname) — the `bibtex_key`

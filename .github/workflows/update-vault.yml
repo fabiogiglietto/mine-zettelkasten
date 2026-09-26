@@ -76,6 +76,9 @@ jobs:
           # main.py searches it alongside the Paperpile folder. Unset on the
           # fg chain (harmless empty).
           SLACK_INBOX_DRIVE_FOLDER_ID: ${{ secrets.SLACK_INBOX_DRIVE_FOLDER_ID }}
+          # Paperpile's Classics folder PDFs (toread `_classic` papers) live in
+          # their own Drive folder. Unset = not searched (harmless empty).
+          CLASSICS_DRIVE_FOLDER_ID: ${{ secrets.CLASSICS_DRIVE_FOLDER_ID }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           # The OIDC assertion is single use: Anthropic burns its `jti` on the
@@ -102,11 +105,21 @@ jobs:
             mint
             python -m src.main summarize
           elif [ "${{ github.event.schedule }}" = "0 4 * * 1" ] || [ "${{ inputs.recluster }}" = "true" ]; then
+            # Retractions first, so the recluster below drops them. No Claude
+            # call here (--no-structures): the recluster rewrites Structures.
+            python -m src.main check-retractions --apply --no-structures \
+              || echo "::warning::check-retractions failed; vault update continues"
             mint
             python -m src.main refresh-topics
             mint
             python -m src.main update --recluster
           else
+            # Crossref retraction scan: a few batched requests. It calls
+            # Claude only to rewrite a Structure a new retraction made stale,
+            # so it gets its own mint. Never allowed to block the update.
+            mint
+            python -m src.main check-retractions --apply \
+              || echo "::warning::check-retractions failed; vault update continues"
             mint
             python -m src.main update
           fi
