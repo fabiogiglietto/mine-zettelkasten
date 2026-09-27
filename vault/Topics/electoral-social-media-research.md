@@ -62,6 +62,7 @@ Country-specific studies of social media dynamics around elections (Italy 2018/2
 - [[Much2026-gu]]
 - [[Nizzoli2020-cf]]
 - [[Oprea2025-lf]]
+- [[Perez-Curiel2026-ld]]
 - [[Philipp2026-tl]]
 - [[Prochaska2025-ef]]
 - [[Rodarte2026-dk]]

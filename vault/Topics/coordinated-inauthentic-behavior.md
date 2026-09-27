@@ -17,6 +17,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Copland2025-em]]
 - [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
+- [[Di_Marco2026-xu]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]

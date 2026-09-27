@@ -29,6 +29,7 @@ Study of how generative AI is used in deceptive information operations and coord
 - [[Kasianenko2026-tn]]
 - [[Lin2025-xp]]
 - [[Orlando2025-ul]]
+- [[Perez-Curiel2026-ld]]
 - [[Rauchfleisch2026-fa]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]

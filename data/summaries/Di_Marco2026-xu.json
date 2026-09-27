@@ -1,0 +1,25 @@
+{
+  "abstract": "The paper addresses the underexplored problem of quantifying the impact of Coordinated Inauthentic Behavior (CIB) on information diffusion, rather than merely detecting it. The authors introduce two complementary frameworks for post-hoc evaluation of coordinated accounts, formulating the problem on information cascades and (based on the title) retweet networks. They develop both optimal and heuristic strategies for measuring the influence of coordinated accounts once these have been identified.",
+  "key_claims": [
+    "The actual impact of Coordinated Inauthentic Behavior on information diffusion remains poorly understood despite growing concern.",
+    "Existing research has overemphasized detection of coordinated activity while neglecting the quantification of its influence.",
+    "The influence of coordinated accounts can be evaluated post-hoc through formal frameworks operating on information cascades and retweet networks.",
+    "Both optimal and heuristic strategies can be developed to measure coordinated behavior's influence."
+  ],
+  "methods": [
+    "Introduction of two complementary frameworks for post-hoc evaluation of coordinated accounts.",
+    "Formulation of the influence-evaluation problem on information cascades.",
+    "Analysis of retweet networks (per the title) as a second setting for evaluating coordinated influence.",
+    "Development of both optimal solution strategies and heuristic approximations (per the title)."
+  ],
+  "findings": [
+    "Specific empirical findings are not available from the abstract excerpt provided."
+  ],
+  "contributions": [
+    "Two complementary frameworks for quantifying, rather than merely detecting, the influence of coordinated inauthentic accounts.",
+    "A formal treatment of the influence-evaluation problem within information cascades and retweet networks.",
+    "Both optimal and heuristic strategies for assessing coordinated behavior's impact (per the title)."
+  ],
+  "framing": "The work is positioned within the study of Coordinated Inauthentic Behavior and information diffusion on social platforms, shifting the disciplinary conversation from detection toward quantifying influence. It draws on network science and computational approaches to information cascades and retweet networks.",
+  "pdf_source": "abstract_only"
+}
