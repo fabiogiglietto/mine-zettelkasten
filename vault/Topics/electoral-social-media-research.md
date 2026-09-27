@@ -17,6 +17,7 @@ Country-specific studies of social media dynamics around elections (Italy 2018/2
 - [[Arceneaux2026-xk]]
 - [[Bouchafra2026-ts]]
 - [[Bouchaud2026-np]]
+- [[Darius2026-xl]]
 - [[Eady2023-xg]]
 - [[Gaber2022-bk]]
 - [[Gaisbauer2025-by]]

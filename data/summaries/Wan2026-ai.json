@@ -1,0 +1,24 @@
+{
+  "abstract": "This study investigates how political efficacy shapes individuals' selection of political information within algorithmically curated news feeds. Combining survey data with the actual usage histories of 186 Dutch individuals on Google Discover, a fully algorithmic feed, the authors examine both within-person changes over time and between-person differences in information-selection behavior. The analysis focuses on three aspects: the proportion of political information selected, exposure diversity, and (implied) further dimensions of selection behavior conditioned by political efficacy.",
+  "key_claims": [
+    "Political efficacy helps explain individual differences in how users select political information from algorithmic feeds.",
+    "Information-selection behavior on algorithmic feeds varies both within persons over time and between persons.",
+    "Between-person differences in selecting political information are conditioned by users' levels of political efficacy."
+  ],
+  "methods": [
+    "Combined survey data with behavioral data from 186 Dutch individuals' actual usage histories of Google Discover, a fully algorithmically curated feed.",
+    "Analyzed within-person changes in information-selection behavior over time.",
+    "Analyzed between-person differences in selection behavior conditioned by political efficacy.",
+    "Measured selection across dimensions including the proportion of political information selected and exposure diversity."
+  ],
+  "findings": [
+    "The abstract is truncated and does not report the study's specific empirical findings."
+  ],
+  "contributions": [
+    "Applies the concept of political efficacy to explain individual variation in political information selection within algorithmic feeds.",
+    "Uses real-world usage-history (trace) data from Google Discover combined with survey measures, moving beyond self-reported or experimental exposure.",
+    "Distinguishes within-person temporal dynamics from between-person differences in algorithmic information selection."
+  ],
+  "framing": "The paper is positioned within research on algorithmic news curation, selective exposure, and political information behavior, using the psychological construct of political efficacy to account for individual-level differences in how people engage with automatically curated political content.",
+  "pdf_source": "abstract_only"
+}

@@ -1,0 +1,35 @@
+{
+  "abstract": "This study presents a large-scale, cross-platform analysis of digital campaign communication by 401 parties across all 27 EU member states during the 2024 European Parliament election. Using data from Facebook, Instagram, TikTok, X/Twitter, and YouTube, it examines party posting activity and audience support (measured via likes) and links digital trace data with expert surveys on issue positions and populist traits. The authors find that populist radical right (PRR) parties—and, to a lesser extent, far-left populist parties—receive disproportionately high audience support online, with TikTok emerging as the most asymmetric arena. The advantage stems less from higher activity than from communicative styles (emotional appeals, anti-elitism) and Eurosceptic positions that resonate with platform engagement dynamics.",
+  "key_claims": [
+    "PRR parties are somewhat more active on social media than mainstream competitors, but their distinctive advantage lies in generating disproportionately higher audience support (likes).",
+    "This online support advantage is strongest on TikTok, followed by YouTube and Facebook, confirming platform-specific asymmetries.",
+    "The support advantage extends beyond the radical right: far-left populist parties employing similar anti-elitist and emotional rhetoric also achieve elevated online support, suggesting the mechanism characterizes populist/extreme actors more broadly.",
+    "More Eurosceptic positions and expert-rated use of emotional appeals and anti-elitist communication are associated with greater audience support across several platforms.",
+    "Social media, especially newer platforms like TikTok, act as 'equalizers' that amplify challenger and PRR parties by rewarding emotionally charged, anti-elite content aligned with algorithmic attention dynamics."
+  ],
+  "methods": [
+    "Compiled the EUDigiParty dataset covering 401 parties that formally contested the 2024 EP election, identifying main national accounts on five platforms.",
+    "Collected ~283,000 messages during an observation window from 10 March to 9 June 2024 via platform APIs (TikTok, YouTube, X/Twitter) and CrowdTangle (Facebook, Instagram); TikTok data supplemented by web scraping due to API problems.",
+    "Two dependent count variables: party activity (number of posts) and party support (number of likes).",
+    "Operationalized the PRR family through three complementary lenses: EP group affiliation (e.g., PfE, ECR, ESN vs. EPP reference), expert-coded issue positions from the EU&I 2024 survey, and populist traits from the POPPA expert survey.",
+    "Included control variables for European region (North, South, East, West per UN Geoscheme) and newcomer status (founded since 2019).",
+    "Estimated truncated negative binomial regression models (justified by overdispersion and power-law-like distributions, with DHARMa diagnostic tests), run separately per platform and per operationalization to handle collinearity and maximize coverage; results reported as incidence rate ratios."
+  ],
+  "findings": [
+    "Activity differences were limited: mainly PfE parties posted significantly more (Facebook +215%, TikTok +258%, YouTube +217%) and ECR more on TikTok (+180%); other PRR groups did not differ significantly from the EPP, offering only partial support for H1.",
+    "Support differences were large: PfE received dramatically more likes than EPP (Facebook +858%, Instagram +662%, TikTok +3121%, YouTube +2458%, X/Twitter +335%); ESN and ECR also showed strong advantages, and The Left outperformed EPP on YouTube (+417%), TikTok (+294%), Instagram (+198%).",
+    "On TikTok, membership in PfE (+3121%), ECR (+1251%), and ESN (+704%) was strongly associated with greater support, making it the most asymmetric platform (confirming H3).",
+    "More Eurosceptic (lower EU integration) positions were associated with more support on TikTok (-3% per point), X/Twitter (-3%), and YouTube (-2%); the effect operated through resonance rather than posting frequency.",
+    "Expert-rated emotional appeals were linked to higher support on Facebook (+27%) and X/Twitter (+70%), and anti-elitism to higher support on TikTok (+65%), X/Twitter (+63%), and YouTube (+75%).",
+    "Regional controls showed lower activity and support in Northern and Western Europe relative to the Eastern baseline for several platforms."
+  ],
+  "contributions": [
+    "Provides one of the first and most comprehensive cross-platform (five platforms), cross-national (27 EU states, 401 parties) analyses of party digital campaigning, extending prior single-platform/single-country work to TikTok and YouTube.",
+    "Introduces and publicly releases the EUDigiParty dataset of party social media handles and party-level data.",
+    "Demonstrates robustness through triangulation across three PRR operationalizations (EP groups, EU&I issue positions, POPPA populist traits).",
+    "Advances the normalisation-vs-equalisation debate by showing empirical evidence that platform affordances disproportionately amplify radical and populist actors.",
+    "Offers cross-European empirical support for the claim that populist communicative styles (emotion, anti-elitism) drive engagement, updating earlier findings for the 2024 EP context."
+  ],
+  "framing": "The paper situates itself within political communication research on populism, the populist radical right, and digital campaigning, drawing on the conception of populism as both a thin-centered ideology and a communicative style. It engages debates on platform/media logics and affordances, the normalisation-vs-equalisation of online campaigning, and concerns about algorithmic amplification, polarization, and the implications of PRR online visibility for democratic quality.",
+  "pdf_source": "drive"
+}

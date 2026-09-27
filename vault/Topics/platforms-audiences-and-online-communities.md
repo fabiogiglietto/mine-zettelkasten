@@ -69,6 +69,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Tang2026-gu]]
 - [[Tornberg2026-lc]]
 - [[Volpe2026-um]]
+- [[Wan2026-ai]]
 - [[Wang2026-ub]]
 - [[Wedel2026-ix]]
 - [[Weinbrand2026-sf]]
