@@ -195,6 +195,63 @@ def _plural(n: int, word: str) -> str:
     return f"{n} {word}" if n == 1 else f"{n} {word}s"
 
 
+def skill_section(skill: dict, site_title: str) -> list[str]:
+    """Homepage lines introducing the zettel-paper skill and how to install it.
+
+    `skill` is config.yml's `skill:` block — the same values
+    `scripts/build_skill_bundle.py` bakes into the bundle, so the page names the
+    skill and the download that a fork actually ships.
+    """
+    name = skill.get("name", "zettel-paper")
+    repo = skill.get("repo", "fabiogiglietto/fg-zettelkasten")
+    bundle = skill.get("bundle", "zettel-paper-skill.zip")
+    repo_url = f"https://github.com/{repo}"
+    return [
+        "## Write with an AI agent",
+        "",
+        f"**`{name}`** is an [Agent Skill](https://agentskills.io) — the open "
+        "skill format used by Claude, OpenAI Codex, GitHub Copilot, Gemini CLI and "
+        f"other AI agents — that drafts papers, literature reviews and syntheses *from {site_title}*, "
+        "the Luhmann way: it pulls a thread of linked notes that already forms an "
+        "argument and turns it into prose, citing only papers in the archive, with "
+        f"their DOIs. It clones the public [{repo}]({repo_url}) repository on every "
+        "run, so it always works from the latest notes.",
+        "",
+        "It works **from the notes, not the papers**: each paper's summary, key "
+        "claims, topics and links as published here. The full texts are not "
+        "public, so by default the skill cannot read them. Treat a draft as a map "
+        "of the literature, and check quotations, figures and fine-grained claims "
+        "against the original paper before citing it.",
+        "",
+        "Ask in plain language; the skill starts on intent. For example:",
+        "",
+        "- *Draft a literature review on coordinated inauthentic behavior from the kasten.*",
+        "- *What non-obvious paper could I write from these notes?*",
+        "- *Turn the platform-governance Structure into a framing piece.*",
+        "",
+        "### Install",
+        "",
+        f"Download the bundle: [{bundle}]({repo_url}/raw/main/{bundle})",
+        "",
+        "- **Claude.ai, Claude Desktop and Cowork (Pro, Max):** upload the zip as "
+        "a personal skill in your Claude settings, under *Capabilities → Skills*. "
+        "Code execution must be turned on there too.",
+        "- **Team and Enterprise:** an organization admin uploads the zip once "
+        "under *Organization settings → Skills*, and every member gets it.",
+        f"- **Claude Code:** clone [{repo}]({repo_url}) and open it; the skill "
+        "lives in `.claude/skills/` and is found automatically. To have it in "
+        "every project, unzip the bundle into `~/.claude/skills/`.",
+        "- **OpenAI Codex CLI:** unzip the bundle into `~/.codex/skills/`.",
+        "- **Other agents:** any tool that supports Agent Skills and gives the "
+        "agent a shell with internet access (the skill clones the repository and "
+        "runs a Python script). Unzip the bundle into that tool's skills folder.",
+        "",
+        "The skill was written and tested with Claude; other models can run it, "
+        "but check their drafts with the same care.",
+        "",
+    ]
+
+
 def build_index(
     topics: list[dict],
     state: dict,
@@ -204,8 +261,12 @@ def build_index(
     recent_papers: list[tuple[str, dict]],
     papers_dir: str,
     site_title: str = "fg-zettelkasten",
+    skill: dict | None = None,
 ) -> str:
     """Render `content/index.md`: a homepage listing recent papers, Topics and Structures.
+
+    With `skill` (config.yml's `skill:` block, `homepage: true`) it also
+    describes the zettel-paper skill and how to install it.
 
     Links use explicit `[[<dir>/<slug>|Name]]` paths because Topic and
     Structure notes collide on basename. Paper links are Markdown links
@@ -230,6 +291,12 @@ def build_index(
         "points below group the archive by theme.",
         "",
     ]
+    if skill:
+        lines += [
+            "To draft new writing from these notes with an AI agent, see "
+            "[Write with an AI agent](#write-with-an-ai-agent).",
+            "",
+        ]
 
     if recent_papers:
         lines += [
@@ -276,7 +343,10 @@ def build_index(
         name = by_slug.get(slug, {}).get("name", slug)
         lines.append(f"- [[{structures_dir}/{slug}|{name}]]")
 
-    return "\n".join(lines) + "\n"
+    if skill:
+        lines += [""] + skill_section(skill, site_title)
+
+    return "\n".join(lines).rstrip("\n") + "\n"
 
 
 def export_site(
@@ -286,6 +356,7 @@ def export_site(
     topics: list[dict],
     state: dict,
     site_title: str = "fg-zettelkasten",
+    skill: dict | None = None,
 ) -> dict:
     """Populate `content_dir` from the vault and write the homepage.
 
@@ -340,6 +411,7 @@ def export_site(
         recent_papers,
         papers_dir,
         site_title=site_title,
+        skill=skill,
     )
     (content_dir / "index.md").write_text(index, encoding="utf-8")
 
