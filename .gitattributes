@@ -3,3 +3,6 @@
 # setup documented in scripts/sync-upstream.sh (merge.ours driver).
 vault/** merge=ours
 data/** merge=ours
+# The skill bundle is built from this fork's `skill:` config (the team skill,
+# mine-zettel-paper); upstream's zip is fg's skill and must not replace it.
+zettel-paper-skill.zip merge=ours

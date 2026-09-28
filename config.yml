@@ -99,9 +99,9 @@ vault:
 # fork's own kasten and can be installed next to this one. The homepage gets a
 # section describing the skill and how to install it.
 skill:
-  name: "zettel-paper"                  # Agent Skill name: lowercase + hyphens
-  repo: "fabiogiglietto/fg-zettelkasten" # GitHub owner/repo the skill clones
-  owner: "Fabio Giglietto's"            # whose kasten, in the skill description
+  name: "mine-zettel-paper"             # Agent Skill name: lowercase + hyphens
+  repo: "fabiogiglietto/mine-zettelkasten" # GitHub owner/repo the skill clones
+  owner: "the MINE team's"              # whose kasten, in the skill description
   bundle: "zettel-paper-skill.zip"      # committed at the repo root
   homepage: true
 
