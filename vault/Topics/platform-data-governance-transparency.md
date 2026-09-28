@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: platform-data-governance
+slug: platform-data-governance-transparency
 emergent: false
 ---
 
-# Platform Data Governance & Access
+# Platform Data Governance & Transparency
 
-Research on the shifting infrastructure of platform data access for scholars (CrowdTangle shutdown, Meta URL Shares Dataset, DSA-mandated researcher APIs) and on platform content-moderation policies such as Meta's political content reduction and its effects on political actors' visibility.
+Research and policy engagement on social media platforms' data access regimes, API restrictions, and content-moderation policies under the Digital Service Act era — including work on Meta's URL Shares Dataset thresholds, political-content reduction policy, and service as a Digital Services Act / JRC expert on systemic platform risks.
 
 ## Papers
 
@@ -19,9 +19,9 @@ Research on the shifting infrastructure of platform data access for scholars (Cr
 - [[Balluff2026-bv]]
 - [[Bastos2025-ya]]
 - [[Bechmann2026-dr]]
-- [[Bergeron-Boutin2026-yh]]
 - [[Bouchaud2026-lr]]
 - [[Bouchaud2026-np]]
+- [[Boyd2026-op]]
 - [[Bruns2019-nr]]
 - [[Bruns2026-pn]]
 - [[Bruns2026-yv]]
@@ -30,7 +30,6 @@ Research on the shifting infrastructure of platform data access for scholars (Cr
 - [[Cullen2026-cb]]
 - [[De2026-ld]]
 - [[Donovan2025-ws]]
-- [[Efstratiou2025-gs]]
 - [[Entrena-Serrano2025-gw]]
 - [[Farkas2026-lr]]
 - [[Freelon2018-ao]]
@@ -40,9 +39,10 @@ Research on the shifting infrastructure of platform data access for scholars (Cr
 - [[Giglietto2025-ed60bc90]]
 - [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
+- [[Gillespie2010-sla2]]
 - [[Gillespie2022-jx]]
-- [[Guess2021-ym]]
 - [[Heiss2026-qv]]
+- [[Helmond2026-ll]]
 - [[Holt2026-zq]]
 - [[Hurcombe2025-cs]]
 - [[Iannelli2018-ebd918b7]]
@@ -66,7 +66,10 @@ Research on the shifting infrastructure of platform data access for scholars (Cr
 - [[Schiffrin_undated-gi]]
 - [[Schulte2026-df]]
 - [[Slack1787858551-sl4d]]
+- [[Suk2026-ai]]
 - [[Tonneau2025-bv]]
+- [[Ventura2026-yc]]
+- [[Vincent_undated-re]]
 - [[Votta2025-xz]]
 - [[Yang2026-tq]]
 - [[Zheng2026-bi]]
@@ -77,6 +80,6 @@ Research on the shifting infrastructure of platform data access for scholars (Cr
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "platform-data-governance")
+WHERE contains(topics, "platform-data-governance-transparency")
 SORT discovery_date DESC
 ```

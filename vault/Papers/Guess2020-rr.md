@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Brendan Nyhan", "Jason Reifler"]
 year: 2020
 doi: 10.1038/s41562-020-0833-x
 bibtex_key: Guess2020-rr
-topics: [information-disorder-theory, electoral-social-media-research]
+topics: [information-disorder-and-fake-news, political-communication-and-elections]
 citation_count: 437
 open_access: false
 source_url: https://doi.org/10.1038/s41562-020-0833-x

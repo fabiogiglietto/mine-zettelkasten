@@ -5,7 +5,7 @@ authors: ["Johan Farkas", "Mette Bengtsson"]
 year: 2026
 doi: 10.1177/02673231261422085
 bibtex_key: Farkas2026-lr
-topics: [disinformation-narrative-monitoring, platform-data-governance]
+topics: [information-disorder-and-fake-news, platform-data-governance-transparency]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/02673231261422085

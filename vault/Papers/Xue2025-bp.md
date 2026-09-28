@@ -5,7 +5,7 @@ authors: ["Haoning Xue", "Jingwen Zhang", "Xinzhi Zhang"]
 year: 2025
 doi: 10.1177/20563051251318172
 bibtex_key: Xue2025-bp
-topics: [disinformation-narrative-monitoring, information-disorder-theory]
+topics: [information-disorder-and-fake-news, computational-political-media-influence]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.1177/20563051251318172

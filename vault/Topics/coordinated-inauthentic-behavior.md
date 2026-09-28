@@ -6,18 +6,19 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection and analysis of coordinated link-sharing and inauthentic network activity on social media, including the CooRnet methodology and its successor VERA-AI Alert monitoring system. This is the researcher's signature methodological contribution, actively extended through 2026 with new alert systems and encyclopedia/handbook chapters.
+Detection and analysis of coordinated link-sharing and inauthentic network activity on social platforms, spanning the CooRnet/CLSB methodology, the VERA-AI Alert monitoring system, and case studies of information operations (e.g. the 'Zombie Internet' and gambling-promotion networks). This is the researcher's signature methodological contribution and remains the most active current strand of work.
 
 ## Papers
 
 - [[Appel2026-qr]]
 - [[Arceneaux2026-xk]]
 - [[Askanius2026-de]]
+- [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
 - [[Copland2025-em]]
-- [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
+- [[Eady2023-xg]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
@@ -27,7 +28,6 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
-- [[Goel2025-iq]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
 - [[Iannucci2025-eg]]
@@ -49,7 +49,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Orlando2025-ul]]
 - [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
-- [[Renault2025-uh]]
+- [[Rieder2026-pp]]
 - [[Righetti2025-sl2a]]
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]

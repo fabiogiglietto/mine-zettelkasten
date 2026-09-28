@@ -5,7 +5,7 @@ authors: ["Klaus Groebner"]
 year: 2026
 doi: 10.1177/1329878x261474201
 bibtex_key: Groebner2026-pc
-topics: [political-polarization-partisanship, platforms-audiences-and-online-communities]
+topics: [political-communication-and-elections, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/1329878x261474201

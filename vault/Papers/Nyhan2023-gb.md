@@ -5,7 +5,7 @@ authors: ["Brendan Nyhan", "Jaime Settle", "Emily Thorson", "Magdalena Wojciesza
 year: 2023
 doi: 10.1038/s41586-023-06297-w
 bibtex_key: Nyhan2023-gb
-topics: [political-polarization-partisanship, platforms-audiences-and-online-communities]
+topics: [political-communication-and-elections, platforms-audiences-and-online-communities]
 citation_count: 255
 open_access: false
 source_url: https://doi.org/10.1038/s41586-023-06297-w

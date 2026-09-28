@@ -5,7 +5,7 @@ authors: ["José van Dijck", "Thomas Poell", "Martijn de Waal"]
 year: 2018
 doi: 10.1093/oso/9780190889760.001.0001
 bibtex_key: van-Dijck2018-up
-topics: [platform-data-governance, information-disorder-theory]
+topics: [platform-data-governance-transparency, platforms-audiences-and-online-communities]
 citation_count: 2783
 open_access: false
 source_url: https://doi.org/10.1093/oso/9780190889760.001.0001

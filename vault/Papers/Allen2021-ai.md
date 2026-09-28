@@ -5,7 +5,7 @@ authors: ["Jennifer Allen", "Markus Mobius", "David M. Rothschild", "Duncan J. W
 year: 2021
 doi: 10.37016/mr-2020-74
 bibtex_key: Allen2021-ai
-topics: [platform-data-governance, meta-science-of-misinformation-research]
+topics: [platform-data-governance-transparency, meta-science-of-misinformation-research]
 citation_count: 20
 open_access: false
 source_url: https://doi.org/10.37016/mr-2020-74

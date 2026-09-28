@@ -5,7 +5,7 @@ authors: ["Soroush Vosoughi", "Deb Roy", "Sinan Aral"]
 year: 2018
 doi: 10.1126/science.aap9559
 bibtex_key: Vosoughi2018-at
-topics: [information-disorder-theory, political-polarization-partisanship]
+topics: [information-disorder-and-fake-news, news-consumption-hybrid-media]
 citation_count: 6671
 open_access: false
 source_url: https://doi.org/10.1126/science.aap9559

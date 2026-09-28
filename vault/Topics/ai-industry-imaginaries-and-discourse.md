@@ -14,7 +14,6 @@ Studies examining how AI industry actors, media, and communities construct and c
 - [[Dodds2026-df]]
 - [[Galip2026-ix]]
 - [[Gillespie2026-aa]]
-- [[Helmond2026-ll]]
 - [[Hepp2026-oi]]
 - [[Hurcombe2025-cs]]
 - [[Mota2026-sl59]]

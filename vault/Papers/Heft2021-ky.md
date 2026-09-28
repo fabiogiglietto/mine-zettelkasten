@@ -5,7 +5,7 @@ authors: ["Annett Heft", "Curd Knüpfer", "Susanne Reinhardt", "Eva Mayerhöffer
 year: 2021
 doi: 10.1177/1940161220963670
 bibtex_key: Heft2021-ky
-topics: [platforms-audiences-and-online-communities, political-polarization-partisanship]
+topics: [political-communication-and-elections, news-consumption-hybrid-media]
 citation_count: 91
 open_access: false
 source_url: https://doi.org/10.1177/1940161220963670

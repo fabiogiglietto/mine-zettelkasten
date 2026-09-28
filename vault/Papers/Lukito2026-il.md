@@ -5,7 +5,7 @@ authors: ["Josephine Lukito", "Yini Zhang", "Bin Chen", "Stephen Prochaska", "Me
 year: 2026
 doi: 10.1177/14614448261470889
 bibtex_key: Lukito2026-il
-topics: [electoral-social-media-research, platforms-audiences-and-online-communities]
+topics: [political-communication-and-elections, news-consumption-hybrid-media]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448261470889

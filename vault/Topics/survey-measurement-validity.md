@@ -10,16 +10,17 @@ Papers examining methodological challenges in survey-based measurement, includin
 
 ## Papers
 
+- [[Bergeron-Boutin2026-yh]]
 - [[Brown2025-jk]]
 - [[DiGiuseppe2025-es]]
 - [[Dubey2026-bl]]
 - [[Fattorini2026-bo]]
 - [[Fletcher2026-lv]]
-- [[Gilardi2026-hw]]
+- [[Gagrcin2024-dl]]
 - [[Gottfried2026-ww]]
+- [[Hartmann2025-px]]
 - [[Hinck2026-yj]]
 - [[Iannelli2018-ebd918b7]]
-- [[Luhring2025-od]]
 - [[Mattis2026-gu]]
 - [[Sbaraini-Fontes2026-cw]]
 - [[Schemer2026-mh]]

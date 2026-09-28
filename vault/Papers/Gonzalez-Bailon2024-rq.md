@@ -5,7 +5,7 @@ authors: ["Sandra González-Bailón", "David Lazer", "Pablo Barberá", "William 
 year: 2024
 doi: 10.15195/v11.a41
 bibtex_key: Gonzalez-Bailon2024-rq
-topics: [electoral-social-media-research, information-disorder-theory]
+topics: [information-disorder-and-fake-news, political-communication-and-elections]
 citation_count: 8
 open_access: false
 source_url: https://doi.org/10.15195/v11.a41

@@ -5,7 +5,7 @@ authors: ["Falkenberg, Max", "Cinelli, Matteo", "Galeazzi, Alessandro", "Bail, C
 year: 2026
 doi: 
 bibtex_key: Falkenberg2026-ka
-topics: [political-polarization-partisanship, meta-science-of-misinformation-research]
+topics: [meta-science-of-misinformation-research, political-communication-and-elections]
 citation_count: 0
 open_access: false
 source_url: https://scholar.google.com/scholar?q=Toward%20an%20integrated%20and%20globally%20equitable%20understanding%20of%20political%20polarization

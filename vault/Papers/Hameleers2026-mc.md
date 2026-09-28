@@ -5,7 +5,7 @@ authors: ["Michael Hameleers", "Toni van der Meer"]
 year: 2026
 doi: 10.1177/14614448251409208
 bibtex_key: Hameleers2026-mc
-topics: [generative-ai-and-manipulation, information-disorder-theory]
+topics: [generative-ai-in-media-and-disinformation, information-disorder-and-fake-news]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448251409208

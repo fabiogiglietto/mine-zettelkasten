@@ -5,7 +5,7 @@ authors: ["CATIE SNOW BAILARD", "REBEKAH TROMBLE", "WEI ZHONG", "FEDERICO BIANCH
 year: 2024
 doi: 10.1017/s0003055423001478
 bibtex_key: Bailard2024-pj
-topics: [llm-assisted-content-analysis, computational-political-media-influence]
+topics: [coordinated-inauthentic-behavior, political-communication-and-elections]
 citation_count: 9
 open_access: false
 source_url: https://doi.org/10.1017/s0003055423001478

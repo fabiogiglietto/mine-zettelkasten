@@ -5,7 +5,7 @@ authors: ["Ziva Kunda"]
 year: 1990
 doi: 10.1037/0033-2909.108.3.480
 bibtex_key: Kunda1990-cg
-topics: [information-disorder-theory, meta-science-of-misinformation-research]
+topics: []
 citation_count: 6598
 open_access: false
 source_url: https://doi.org/10.1037/0033-2909.108.3.480
