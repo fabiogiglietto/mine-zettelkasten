@@ -117,6 +117,9 @@ skill:
     - label: "Paperpile Classics"
       id: "1lIoUsLp3UXS8V0k1LC5yCPFor5Ql00Ro"
       filenames: paperpile
+    - label: "Slack inbox (MINE toread)"
+      id: "1JxZm9hycbpMjqEdybygeHMGfGl1b6s53"
+      filenames: bibkey
 
 slack:
   # Post a curated digest of each newly-added paper to the MINE #toread
