@@ -93,6 +93,18 @@ vault:
   # Title of the published Quartz site homepage (the team fork overrides it).
   site_title: "MINE Zettelkasten"
 
+# The zettel-paper Claude skill (.claude/skills/zettel-paper/). The source is
+# written for this repo; scripts/build_skill_bundle.py rewrites it from these
+# values into the upload bundle, so a fork ships a skill that drafts from the
+# fork's own kasten and can be installed next to this one. The homepage gets a
+# section describing the skill and how to install it.
+skill:
+  name: "mine-zettel-paper"             # Agent Skill name: lowercase + hyphens
+  repo: "fabiogiglietto/mine-zettelkasten" # GitHub owner/repo the skill clones
+  owner: "the MINE team's"              # whose kasten, in the skill description
+  bundle: "zettel-paper-skill.zip"      # committed at the repo root
+  homepage: true
+
 slack:
   # Post a curated digest of each newly-added paper to the MINE #toread
   # channel — the team-wide announce channel (papers are *submitted* in
