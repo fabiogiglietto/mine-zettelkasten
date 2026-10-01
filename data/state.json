@@ -2900,10 +2900,10 @@
       "doi": "10.1080/1369118x.2026.2686320",
       "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
       "pdf_source": "drive",
-      "content_hash": "91085f2eb6c362b28c2787d044c1f34a49da3cc3321fcc1e82639c5c7f2a4ef3",
+      "content_hash": "6f9a8a9664a1a68c541f5716f6fc6b64ed07359886a6b1b7354abf6d3af48228",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-06-29T12:33:29.037318+00:00",
+      "last_processed": "2026-10-01T15:18:20.655967+00:00",
       "kind": "team",
       "submitted_by": "Fabio Giglietto",
       "assign_fp": "80ea4908997d61b9a3ab872f56b97ecac9dfbc8ede239297ce31861e2e761261"
@@ -2934,10 +2934,10 @@
       "doi": "10.1080/10584609.2026.2679492",
       "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
       "pdf_source": "drive",
-      "content_hash": "56172ce97dc9cf97ad3d68ba22f7371c1c26c33413868555235868472f0021dc",
+      "content_hash": "2f3f89a2844bf3d10e416af6f02afc25da257db02bd4f0a516e17302e893b051",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-06-29T16:40:53.372252+00:00",
+      "last_processed": "2026-10-01T15:18:01.260465+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb",
       "assign_fp": "affebebf7599859534523f003abfb8b4c20ed2614c58cf775ba30785857d0e67"
@@ -2984,10 +2984,10 @@
       "doi": "10.1080/1369118x.2026.2691775",
       "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
       "pdf_source": "drive",
-      "content_hash": "1dcebe952f798ee419d7a86cb34195c0f70404e0970a80777d1bdcd199240f21",
+      "content_hash": "d35796894452dd135cb476263b6c839d3d01c0ee7ca0468f23463e23d5763eb3",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-06-30T08:33:46.511538+00:00",
+      "last_processed": "2026-10-01T15:17:39.915130+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi",
       "assign_fp": "69041e6461c48c95ce7350085a3f649af5ce5d403ad776da573f4be657b4bf0c"
@@ -4946,11 +4946,11 @@
       "doi": "",
       "title": "Optimal and heuristic strategies for evaluating the influence of coordinated behavior in information cascades and retweet networks",
       "pdf_source": "abstract_only",
-      "content_hash": "bab17e03aef88c782e53234fe7ebbb099f575a3a692ec4dcb930fd7e0748b0ba",
-      "podcast_linked": false,
+      "content_hash": "aa03044fec142e2d46101d37bfc487dfc9b2849382e195c800c9afb6e91cee61",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-27T17:36:53.737770+00:00"
+      "last_processed": "2026-10-01T15:17:22.552942+00:00"
     },
     "bibtex:Perez-Curiel2026-ld": {
       "note_path": "Papers/Perez-Curiel2026-ld.md",
@@ -4967,10 +4967,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-09-27T17:37:03.516400+00:00"
+    },
+    "bibtex:Tuters2026-vo": {
+      "note_path": "Papers/Tuters2026-vo.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "fb3de437a1310a95f964ca44f8e7f560b3760dfe79f8e5f06ec58802eb50108d",
+      "doi": "10.1177/14614448261446931",
+      "title": "The Memeplex: Platform grammars and conspiratorial alignment around the Great Reset",
+      "pdf_source": "drive",
+      "content_hash": "d46250c61c9ef9539209160ccaa1caf09fd11a30949bbbc69e2136cd55672fd8",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-01T15:17:10.252361+00:00"
     }
   },
   "last_full_cluster": "2026-09-28T10:57:03.410712+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "abceb099733a10f50ad95930e84b28eb27cf66178c2d85762b8bc3f4ad4f1f51",
   "emergent_fp": "e156cfbf01e8049ac34f738733b62d2b872d9511c2e4b091e2fe25f2e8e47789",
   "structure_fps": {

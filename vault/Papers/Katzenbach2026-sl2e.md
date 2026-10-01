@@ -9,8 +9,8 @@ kind: team
 submitted_by: "Fabio Giglietto"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782728446616189
 topics: [platform-data-governance-transparency, political-communication-and-elections]
-citation_count: 0
-open_access: false
+citation_count: 1
+open_access: true
 source_url: https://doi.org/10.1080/1369118x.2026.2686320
 podcast_url: 
 pdf_available: true
@@ -25,30 +25,31 @@ discovery_date: 2026-06-29T12:21:11.911103Z
 
 ## Summary
 
-This paper offers a longitudinal, comparative analysis of how YouTube, Facebook, Instagram, Twitter/X, and TikTok have developed election-related policies in their Terms of Service and Community Guidelines from 2006 to 2024. Combining computational text analysis of 411 policy documents with qualitative thematic coding, the authors identify three phases of platform election governance: an initial protective phase (2018–2020) focused on concrete electoral processes, an expansive civic-integrity phase (2020–2022) embracing broader democratic responsibilities, and a recent backlash phase (2023–2024) marked by rollbacks. They argue that platforms are neither neutral nor stable, that US election cycles drive most policy shifts, and that recent rollbacks reflect "platform illiberalism" rather than principled free-speech commitments.
+This paper offers the first longitudinal, comparative mapping of election-related policies across five major social media platforms — YouTube, Facebook, Instagram, Twitter/X, and TikTok — from roughly 2006 to 2024. Drawing on a corpus of 411 Terms of Service and Community Guidelines documents, the authors trace how platforms moved from having almost no election-specific rules to developing dedicated, convergent governance regimes, and then to rolling them back. They propose a three-phase periodization: a protective beginning (2018–2020), a civic integrity expansion (2020–2022), and a backlash/rollback period (since 2022). The central argument is that platforms are neither neutral nor stable institutions; their election policies adapt reactively to public, political, and regulatory pressure — overwhelmingly driven by US election cycles — rather than expressing principled commitments, and the recent rollbacks reflect "platform illiberalism" more than a renewed free-speech ethos.
 
 ## Key Contributions
 
-- First longitudinal, cross-platform empirical mapping of election-related policies across five major platforms over nearly two decades.
-- A three-phase periodization (protection → civic integrity → backlash) as an analytic framework for platform election governance.
-- Methodological integration of computational keyword detection, frequency and cosine-similarity measures, and qualitative thematic analysis of policy text.
-- Extension and demonstrated utility of the Platform Governance Archive for tracking "platform transience."
-- Empirical grounding for normative debates on self-regulation, the techlash, and the politicization of content moderation.
+- First longitudinal, comparative empirical mapping of election-related policies across five major platforms over nearly two decades.
+- Introduces a three-phase periodization — protection, civic integrity, backlash — as an analytical framework for platform election governance.
+- Demonstrates a methodological pipeline combining computational keyword identification, frequency analysis, cosine similarity, and qualitative thematic analysis.
+- Extends and showcases the analytical utility of the Platform Governance Archive for tracking "platform transience."
+- Empirically grounds normative debates about platform self-regulation, the techlash, and the politicization of content moderation, linking them to the "turn to responsibility" and "platform illiberalism."
 
 ## Methods
 
-The authors assembled a corpus of 411 policy documents (TOS and Community Guidelines) from five platforms (2006–2024), drawing on the Platform Governance Archive supplemented by platform sites and the Internet Archive. Using R/quanteda, they performed log-likelihood collocation analysis around election-related stems, computed relative term frequencies per 1,000 tokens, and measured TF-IDF cosine similarity across platforms over time. A 30-word diachronic context-window approach surfaced passages with notable change, and 71 documents were selected for thematic analysis (Clarke & Braun), with Diffchecker used to track version-level edits. Shifts were contextualized against major elections without claims of causal inference.
+Mixed-methods design combining computation and qualitative reading. The authors built a 411-document corpus from the Platform Governance Archive (v1 and v2), supplemented with platform websites and the Internet Archive. Computationally, they used log-likelihood collocation analysis to identify election-related keywords (*election, vote, integrity, civic*), computed relative term frequencies per 1,000 tokens over time with quanteda, and measured cross-platform convergence via TF-IDF cosine similarity. A diachronic 30-word context-window approach around *elect*\* stems flagged changed passages, and thematic analysis (Clarke & Braun) on 71 selected documents — tracked across versions with Diffchecker — provided interpretive depth. Shifts were contextualized against major elections and political events without causal claims.
 
 ## Findings
 
-- Election-related terminology was largely absent from platform policies until 2018–2019, when all five platforms introduced dedicated election policies.
-- Facebook emphasized procedural vocabulary (vote, official, count, poll), whereas Twitter/X and TikTok adopted broader civic framing (civic, integrity, society).
-- Cross-platform cosine similarity in election policy language rose sharply from 2019 onward (e.g., Facebook–YouTube from 0.03 to 0.22), indicating semantic convergence.
-- Phase 1 (2018–2020): narrow focus on protecting officials, countering voter suppression, and direct election interference.
-- Phase 2 (2020–2022): expansion into civic integrity, bans on false fraud claims (US, Germany, Brazil), and explicit democratic-responsibility commitments.
-- Phase 3 (2023–2024): substantial rollbacks — YouTube dropped 2020 US fraud claim prohibitions, X dismantled civic integrity policy under Musk, TikTok narrowed harm-related language; Facebook was a within-period exception, though Meta's January 2025 announcement signaled alignment with the backlash.
-- Policy updates often clustered in the weeks before US elections, suggesting reactive rather than proactive governance, while non-Western contexts (Myanmar, Kenya) received markedly less attention.
+- Election terminology was largely absent from platform policies until 2018–2019, when all major platforms introduced dedicated election rules.
+- Facebook leaned on procedural terms (*vote, official, count, poll*), while Twitter/X and TikTok used more civic-oriented language (*civic, integrity, process, society*).
+- Cross-platform cosine similarity rose sharply from 2019 (e.g., Facebook–YouTube from 0.03 in 2019 to 0.22 in 2024), indicating semantic convergence.
+- Phase 1 (2018–2020) focused narrowly on protecting officials, preventing voter suppression, and countering direct interference.
+- Phase 2 (2020–2022) saw expansion: Twitter's "civic integrity" framing, YouTube banning false fraud claims for select countries, and explicit affirmations of democratic responsibility.
+- Phase 3 (2023–2024) brought rollbacks: YouTube dropped prohibitions on 2020 US fraud claims; X dismantled civic integrity after Musk's takeover; TikTok narrowed harm language.
+- Facebook was a within-period exception, still expanding through 2024, though Meta's January 2025 announcement signaled a similar turn.
+- Policy changes often clustered in the weeks before US elections, suggesting reactive rather than proactive governance, with non-US regions (Brazil, Germany, EU) playing secondary roles and places like Myanmar and Kenya neglected.
 
 ## Connections
 
-This paper provides the policy-side counterpart to empirical work on platform data access and electoral information environments, complementing studies of platform-level governance shifts such as [[Rieder2025-ju]] and [[Rieder2026-pp]], and debates about deplatforming and moderation backlash discussed in [[Donovan2025-ws]] and [[Bak-Coleman2025-pm]]. Its three-phase periodization speaks directly to longitudinal accounts of election information dynamics like [[Starbird2025-jj]] and [[Freelon2024-sc]], and to comparative platform-policy work including [[Bruns2026-yv]] and [[Schulte2026-df]]. The framing of "platform illiberalism" and reactive governance also connects to analyses of election-period interventions and civic integrity enforcement such as [[Pierri2025-hm]] and [[Lukito2026-nb]].
+This paper's governance-document focus complements studies of platform data access and transparency regimes such as [[Rieder2025-ju]] and [[Rieder2026-pp]], and sits alongside platform-transience and infrastructure analyses like [[Helmond2026-ll]]. Its account of civic integrity rollbacks and deplatforming dynamics connects to work on platform responses to electoral misinformation and moderation such as [[Kalsnes2025-zb]] and [[Starbird2025-jj]], while its emphasis on the US-centric, reactive nature of election governance speaks to broader debates on platforms and democratic processes found in [[de-Vreese2026-zx]].

@@ -25,35 +25,31 @@ discovery_date: 2026-06-29T16:39:38.251537Z
 
 ## Summary
 
-This paper argues that the standard "direct referrer paradigm" — counting only misinformation visits immediately preceded by a click from a social media platform — systematically understates how much platforms shape misinformation exposure. Dahlke and colleagues propose an "embedded referrer paradigm" that captures indirect and delayed pathways via intermediary sites and persistent browsing habits, operationalized through counterfactual simulations of what each user's browsing would have looked like had a given platform not existed. Using passive web-tracking data from 1,240 Americans across the 2020 U.S. election, they show that estimated platform effects on misinformation exposure are 1.5× to 15+× larger under the embedded paradigm, that these effects are partisan-asymmetric across platforms, but that removing any platform would also strip away substantially more high-quality news than misinformation.
+This paper challenges the dominant "direct referrer paradigm" in misinformation research — the practice of counting only those misinformation visits immediately preceded by a social media click. The authors argue this systematically undercounts platforms' true role because it ignores indirect pathways (through intermediary sites) and persistent behavioral effects. They propose an "embedded referrer paradigm," operationalized through counterfactual simulation that estimates what misinformation exposure would look like if a given platform did not exist. Using three months of passive web-browsing data (~21 million visits) from 1,240 Americans during the 2020 U.S. election across seven platforms, they find platform effects are 1.5 to 15+ times larger under the embedded paradigm. Crucially, removing platforms would also disproportionately cut high-quality news exposure, complicating any simple "ban the platforms" policy logic.
 
 ## Key Contributions
 
-- Introduces the **embedded referrer paradigm** as a theoretical alternative to the direct referrer paradigm that dominates empirical misinformation research.
-- Develops a counterfactual simulation methodology that fuses experimentally derived diversion ratios with individual-level multinomial logit transition matrices to model platform-removal scenarios.
-- Provides comparative empirical evidence across seven platforms (Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, TikTok), rather than the usual Facebook/Twitter focus.
-- Quantifies the high-quality-news-to-misinformation tradeoff of platform-removal policies, offering a counterfactual lens on platform-ban proposals.
-- Releases data and a generalizable framework extensible to other content categories and intermediate states.
+- Introduces the **embedded referrer paradigm** as a theoretical alternative to the prevailing direct referrer paradigm for conceptualizing platforms' role in information exposure.
+- Develops a **simulation methodology** combining experimentally derived diversion ratios with individual-level multinomial logit transition matrices to model counterfactual platform-removal scenarios (~3.2 million counterfactual + observed paths).
+- Extends analysis beyond the usual Facebook/Twitter focus to **seven platforms**, documenting systematic underestimation in prior work and partisan-asymmetric effects.
+- Provides **counterfactual evidence for policy debates**, quantifying the tradeoff between reduced misinformation and reduced high-quality news.
+- Releases data and a generalizable framework (applicable to partisan news, hateful content, and other intermediate states).
 
 ## Methods
 
-- Passive web-browsing data via YouGov Pulse from 1,240 U.S. adults, Aug–Dec 2020 (~21M visits, 395,936 sessions, across desktop/mobile/tablet).
-- Domain categorization combining NewsGuard, fact-checker lists, prior academic lists, and Lin et al. (2023) PCA quality scores; ideological labels from NewsGuard, Robertson et al. (2018), and hand-coding.
-- Direct referrer analysis (share of misinformation visits immediately preceded by each platform) compared against embedded referrer analysis using counterfactual path simulation: paths are diverted away from a target platform using Aridor (2023) diversion ratios, then continued via per-user multinomial logit transition matrices, generating ~3.17M simulated paths across seven platform-removal scenarios.
-- Multi-level regressions (clustered by participant and original path) compare observed vs. counterfactual misinformation visits, with subgroup analyses by partisanship and device.
+Passive web-browsing data was collected via YouGov Pulse from 1,240 U.S. adults (Aug–Dec 2020), covering ~21 million visits across devices. Domains were categorized as social media, misinformation (NewsGuard, fact-checker and academic lists), high/low-quality news (Lin et al. PCA quality scores), or other, with ideological labels. The **direct referrer** analysis simply measured the share of misinformation visits immediately preceded by each platform. The **embedded referrer** analysis used counterfactual simulation: diverting paths away from a target platform using diversion ratios from Aridor (2023), then continuing simulated paths via per-user multinomial logit transition matrices. Multi-level ML regressions (clustered by participant and path) compared observed vs. counterfactual worlds, with subgroup analyses by partisanship and device. Methodologically it draws inspiration from gene-knockout studies, advertising attribution, and clickstream/Markov-chain analyses.
 
 ## Findings
 
-- Facebook directly preceded 9.25% of misinformation visits, but its removal would reduce misinformation visits by 14.07% under the embedded paradigm.
-- Twitter directly preceded only 2.17% of misinformation visits, yet its removal yields a 12.27% reduction (~5.5× larger).
-- Reddit directly preceded <0.2% of misinformation visits, but its removal reduces non-ideological misinformation visits by 18.22% overall and 55.14% among Independents.
-- YouTube's effect on Democrats' exposure to liberal misinformation is 32.09% (embedded) vs. 2.06% (direct) — roughly 16× larger.
-- Twitter strongly drives Republican exposure to conservative misinformation; YouTube disproportionately drives Democratic exposure to liberal misinformation.
-- Republicans show the highest baseline misinformation exposure (55.4% exposed; 79.1 mean visits among exposed) vs. Democrats (35.9%; 13.7) and Independents (45.2%; 35.8).
-- Facebook/Twitter effects concentrate on desktop; YouTube effects concentrate on mobile.
-- Platform removal strips away far more high-quality news than misinformation: e.g., 73.3 high-quality news visits lost per misinformation visit averted for Facebook, with ratios exceeding 10,000 for Instagram on non-ideological content.
-- Smaller platforms (Instagram, Snapchat, TikTok) show statistically indistinguishable estimates across paradigms, likely due to low sample volumes.
+- **Facebook**: directly preceded 9.25% of misinformation visits, but the embedded estimate shows 14.07% more misinformation visits in the observed world than without Facebook.
+- **Twitter**: directly preceded 2.17%, yet removal yields a 12.27% reduction (~5.5x larger).
+- **Reddit**: directly preceded <0.2%, yet removal reduces non-ideological misinformation visits by 18.22% overall and 55.14% among Independents.
+- **YouTube**: effect on Democrats' exposure to liberal misinformation is 32.09% (embedded) vs. 2.06% (direct) — roughly 16x larger.
+- Republicans have the highest baseline exposure (55.4% exposed; 79.1 mean visits) versus Democrats (35.9%; 13.7) and Independents (45.2%; 35.8).
+- Device matters: Facebook/Twitter effects concentrate among desktop users; YouTube effects appear more on mobile.
+- Platform removal disproportionately cuts high-quality news: e.g., Facebook removal reduces 73.3 high-quality news visits per misinformation visit reduced; ratios exceed 10,000 for Instagram on non-ideological content.
+- Smaller platforms (Instagram, Snapchat, TikTok) show statistically indistinguishable estimates between paradigms, likely due to low sample volume.
 
 ## Connections
 
-This paper extends a line of passive-tracking, behavioral-trace work on real-world misinformation exposure represented by [[Gonzalez-Bailon2024-rq]], [[Allen2025-ot]], and [[Moran2025-qn]], pushing back on the narrow direct-referrer operationalization those and related studies often rely on. Its counterfactual, multi-platform framing complements platform-comparative misinformation analyses such as [[DeVerna2025-dl]] and [[Pierri2025-hm]], and its findings about tradeoffs between misinformation and high-quality news bear directly on platform-governance debates engaged by [[Bak-Coleman2025-pm]] and [[Budak2024-ef]].
+This work sits squarely in the empirical tradition of browsing-trace studies of misinformation exposure, extending and critiquing methods used in [[Guess2019-ym]], [[Grinberg2019-ua]], and [[Allen2020-nj]] on who actually encounters fake news. Its finding that most misinformation reaches a concentrated, partisan subset echoes [[Grinberg2019-ua]] and the exposure-measurement concerns in [[Allen2024-av]] and [[Gonzalez-Bailon2024-rq]], while its platform-referral framing connects to referral-tracing work such as [[DeVerna2025-dl]] and the broader conceptual literature on misinformation prevalence and harm in [[Lazer2018-mm]] and [[Vosoughi2018-at]]. The policy tradeoff it surfaces — that removing platforms would also cut high-quality news — adds a counterfactual nuance relevant to platform-governance debates discussed in [[Gillespie2022-jx]].

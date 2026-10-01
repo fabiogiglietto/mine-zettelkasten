@@ -64,6 +64,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Song2025-yh]]
 - [[Starbird2019-qv]]
 - [[Thiele2025-ol]]
+- [[Tuters2026-vo]]
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
 - [[noauthor_undated-bm]]
