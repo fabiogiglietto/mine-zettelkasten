@@ -1,0 +1,24 @@
+{
+  "abstract": "This short piece investigates how generative AI tools are being integrated into far-right propaganda ecosystems, using the 2023 Dublin riots and the 2024 Southport unrest as case studies. Through a media experiment, the authors trace a 're-generative pipeline' in which extremist imagery harvested from Telegram and X is converted into text prompts and then regenerated through commercial image models. They argue that rather than filtering out hateful content, these AI systems tend to sanitize its most explicit features while preserving and recirculating its underlying messaging.",
+  "key_claims": [
+    "Generative AI is becoming embedded within far-right propaganda ecosystems rather than remaining external to them.",
+    "Commercial image models do not reliably neutralize hateful content; instead they sanitize its most explicit elements.",
+    "A 're-generative pipeline' allows extremist imagery to be reconstituted and recirculated through mainstream AI tools."
+  ],
+  "methods": [
+    "Qualitative case study of the 2023 Dublin riots and the 2024 Southport unrest.",
+    "A media experiment that collected extremist images from Telegram and X platforms.",
+    "A pipeline approach: converting collected images into text prompts, then re-creating them with commercial image-generation models."
+  ],
+  "findings": [
+    "AI image models often strip away the most explicit markers of hateful content while retaining its substance.",
+    "The re-generation process can effectively launder or sanitize extremist imagery, making it more palatable for wider circulation."
+  ],
+  "contributions": [
+    "Introduces the concept of a 're-generative pipeline' for understanding how extremist content moves through generative AI systems.",
+    "Provides empirical illustration through two recent European unrest events of how generative AI intersects with far-right propaganda.",
+    "Challenges assumptions that commercial AI content safeguards neutralize hate rather than reshaping and recirculating it."
+  ],
+  "framing": "The paper positions itself within critical studies of generative AI, platform governance, and research on far-right digital propaganda, interrogating the limits of content moderation and model safeguards in the face of extremist reappropriation.",
+  "pdf_source": "abstract_only"
+}

@@ -4978,15 +4978,31 @@
       "doi": "10.1177/14614448261446931",
       "title": "The Memeplex: Platform grammars and conspiratorial alignment around the Great Reset",
       "pdf_source": "drive",
-      "content_hash": "d46250c61c9ef9539209160ccaa1caf09fd11a30949bbbc69e2136cd55672fd8",
+      "content_hash": "82d3d2160b8a61f539d0221a66cdfad2bd2734adf7ce10f504656598f435aa33",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-02T06:02:38.672703+00:00"
+    },
+    "bibtex:Crichton2026-kn": {
+      "note_path": "Papers/Crichton2026-kn.md",
+      "topics": [
+        "generative-ai-in-media-and-disinformation",
+        "information-disorder-and-fake-news"
+      ],
+      "assign_fp": "f62d4fc641e864f6097fc95a507a6cb5108adf72a97f3f156f0bfc9beff06d45",
+      "doi": "10.1177/29768624261449726",
+      "title": "Re-generating hate",
+      "pdf_source": "abstract_only",
+      "content_hash": "2227cd7327f9546d63599eca5774cbf546a49b52c4219cfdc1e08f382594925e",
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-10-01T15:17:10.252361+00:00"
+      "last_processed": "2026-10-02T06:02:18.840674+00:00"
     }
   },
   "last_full_cluster": "2026-09-28T10:57:03.410712+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "abceb099733a10f50ad95930e84b28eb27cf66178c2d85762b8bc3f4ad4f1f51",
   "emergent_fp": "e156cfbf01e8049ac34f738733b62d2b872d9511c2e4b091e2fe25f2e8e47789",
   "structure_fps": {

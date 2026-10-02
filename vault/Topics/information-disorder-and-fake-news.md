@@ -24,6 +24,7 @@ Conceptual and empirical work on misinformation, disinformation and 'fake news' 
 - [[Choi2026-bz]]
 - [[Copland2025-em]]
 - [[Costello2024-bg]]
+- [[Crichton2026-kn]]
 - [[Dahlke2026-sl34]]
 - [[DeVerna2025-dl]]
 - [[De_Leon2025-qn]]

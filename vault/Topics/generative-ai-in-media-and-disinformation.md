@@ -17,6 +17,7 @@ Study of generative AI both as a vector for deceptive persuasion (synthetic visu
 - [[Brown2025-jk]]
 - [[Choi2026-bz]]
 - [[Costello2024-bg]]
+- [[Crichton2026-kn]]
 - [[DeVerna2025-dl]]
 - [[DiGiuseppe2025-es]]
 - [[Dierickx2026-tw]]
