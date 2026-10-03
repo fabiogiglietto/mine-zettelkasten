@@ -83,6 +83,7 @@ Conceptual and empirical work on misinformation, disinformation and 'fake news' 
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2026-cy]]
+- [[Rogers2026-zz]]
 - [[Rohrbach2026-rc]]
 - [[Rossini2026-jn]]
 - [[Rossini2026-mj]]

@@ -1,0 +1,35 @@
+{
+  "abstract": "This chapter examines how 'borderline' content—material that approaches but does not cross Facebook's community standards—has performed on the platform around the U.S. presidential elections of 2016, 2020, and 2024. Building on Craig Silverman's original 2016 'fake news' data journalism and the authors' own 2020 replication, it tracks both the evolution of Meta's content moderation terminology (from 'fake news' to 'false news' to 'misinformation' to 'borderline') and the shifting data-access regimes that constrain independent research. The authors find that while problematic content first worsened and then declined relative to the mainstream by 2024, the borderline content that does perform well remains almost exclusively right-wing, challenging Meta's efforts to depoliticize moderation.",
+  "key_claims": [
+    "Meta has progressively redefined problematic content—from 'fake news' (2016) to 'false news' (2017), 'misinformation' (2019), and 'borderline' (2023)—in ways that shrank and depoliticized the problem, ultimately leaving by default most such content online unless flagged by fact checkers.",
+    "Meta's moderation approach is deliberately 'content-agnostic,' targeting fake accounts and adversarial actors rather than adjudicating content itself, which obscures that problematic content is disproportionately right-wing.",
+    "The company's successive restrictions of research data access (API v1, API v2, Graph Search, CrowdTangle) under privacy arguments have narrowed the scope of independent scrutiny and steered academic research toward vetted industry partnerships ('independence by permission').",
+    "Meta privileges 'reach' as a performance metric (favored in transparency reports and the Meta Content Library) over 'engagement,' because engagement data tends to reveal right-wing commentators as top performers.",
+    "By 2024, mainstream sources outperformed fringe/borderline content, a trend consistent with intended moderation effects, yet the borderline content that still spikes is overwhelmingly right-leaning and often conspiratorial."
+  ],
+  "methods": [
+    "Comparative historical analysis of Facebook/Meta data-access regimes: Open Graph API v1 (2009–2014), API v2/Pages API (to 2018), Graph Search (deprecated 2019), Social Science One, CrowdTangle (to 2024), and the Meta Content Library.",
+    "Documentary analysis of Meta policy texts, white papers, transparency reports, and public statements tracing the evolving definitions of fake/false news, misinformation, and borderline content.",
+    "Empirical replication of Craig Silverman's 2016 BuzzFeed method using the BuzzSumo 'content research tool' to query election-related keywords and rank web URLs by total Facebook engagement (reactions, shares, comments).",
+    "Keyword lists built from Democratic and Republican party platforms and New York Times headlines covering Biden, Harris, and Trump, queried in BuzzSumo for the 2024 campaign (January 12–October 31, 2024).",
+    "Domain-level labeling of URLs using Media Bias/Fact Check (MBFC) ratings, grouped into custom categories ('borderline/non-borderline', 'biased/least-biased'), plus analysis of top YouTube-originated content and checks for 'pink slime' imposter sites via Bengani's list and the GATE domain analysis service."
+  ],
+  "findings": [
+    "Across 2016–2024, Facebook's problematic-content problem first worsened and then declined, with mainstream domains consistently outperforming borderline domains for all three candidates in 2024.",
+    "In 2024, borderline content accounted for only a small fraction of total engagement (roughly 330,723 of 47.2 million total engagements with election-related URLs).",
+    "Borderline engagement came in short bursts driven almost entirely by extreme-right sources such as infowars.com and zerohedge.com, and was disproportionately right-wing; mainstream sources showed steadier, more politically balanced engagement.",
+    "Biased content received significantly less engagement than less-biased content, with the gap widening in the final six months before the election, suggesting intensified moderation effects.",
+    "YouTube-originated content grew in significance; among the top 100 engaged-with YouTube videos about 20 came from 'borderline' channels (e.g., Guns & Gadgets, The Dr. Phil Podcast, Jonathan Cahn Official), all supportive of Trump, drawing ~200,000 engagements versus ~900,000 for mainstream outlets.",
+    "A review of over 12,000 unlabeled URLs found no imposter or 'pink slime' sources, consistent with the 2020 finding that imposter sites had lost traction.",
+    "Confirming prior research, 'fake news'/misinformation has an empirical rightward political leaning, which the authors argue motivates Meta's depoliticizing, content-agnostic stance."
+  ],
+  "contributions": [
+    "Provides a longitudinal, methodologically consistent comparison of problematic-content performance across three U.S. election cycles (2016, 2020, 2024) using an off-platform data source (BuzzSumo).",
+    "Offers a critical genealogy of Meta's shifting moderation terminology and shows how redefinition ('fake news' to 'borderline') functions to depoliticize and retain content on the platform.",
+    "Documents and critiques the progressive winnowing of Facebook research data access and the rise of vetted academic-industry partnerships, contributing to post-APIcalypse methodological debates.",
+    "Advances a post-API, 'off-platform' methodology for studying content moderation effects when official data pipelines (like CrowdTangle) are closed.",
+    "Highlights the metric politics of 'reach' versus 'engagement' and how metric choice shapes whether right-wing content appears as top-performing."
+  ],
+  "framing": "The chapter is situated within platform studies, digital methods, and content-moderation scholarship, engaging debates on the 'APIcalypse,' post-API research strategies, and critiques of platform transparency and 'independence by permission.' It positions itself against Meta's 'content-agnostic' depoliticization by empirically re-centering the political leaning of problematic content, extending Silverman's data-journalistic 'fake news' inquiry and the authors' prior definitional-classification work.",
+  "pdf_source": "drive"
+}
