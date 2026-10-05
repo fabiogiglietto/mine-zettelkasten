@@ -5,7 +5,7 @@ authors: ["Seth Flaxman", "Sharad Goel", "Justin M. Rao"]
 year: 2016
 doi: 10.2139/ssrn.2363701
 bibtex_key: Flaxman2016-lm
-topics: [news-consumption-hybrid-media, political-communication-and-elections]
+topics: [political-polarization-partisan-media, platform-engagement-affordances]
 citation_count: 27
 open_access: false
 source_url: https://doi.org/10.2139/ssrn.2363701

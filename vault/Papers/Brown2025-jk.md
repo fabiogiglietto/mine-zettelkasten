@@ -5,7 +5,7 @@ authors: ["Megan A. Brown", "Shubham Atreja", "Libby Hemphill", "Patrick Y. Wu"]
 year: 2025
 doi: 
 bibtex_key: Brown2025-jk
-topics: [generative-ai-in-media-and-disinformation, survey-measurement-validity]
+topics: [llms-computational-content-analysis, survey-measurement-validity]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2503.23243v2

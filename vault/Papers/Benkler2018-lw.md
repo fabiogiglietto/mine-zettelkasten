@@ -5,7 +5,7 @@ authors: ["Yochai Roberts Benkler", "Robert Farris", "Hal Roberts"]
 year: 2018
 doi: 
 bibtex_key: Benkler2018-lw
-topics: [political-communication-and-elections, information-disorder-and-fake-news]
+topics: [political-polarization-partisan-media, platform-governance-data-access]
 citation_count: 772
 open_access: true
 source_url: https://aquila.usm.edu/katrinagulfcoast_photos/42

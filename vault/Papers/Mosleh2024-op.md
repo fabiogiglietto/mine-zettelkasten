@@ -5,7 +5,7 @@ authors: ["Mohsen Mosleh", "Jennifer Nancy Lee Allen", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/9csy3_v5
 bibtex_key: Mosleh2024-op
-topics: [news-consumption-hybrid-media, political-communication-and-elections]
+topics: [political-polarization-partisan-media, platform-engagement-affordances]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/9csy3_v5

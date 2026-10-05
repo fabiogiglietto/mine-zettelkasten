@@ -5,7 +5,7 @@ authors: ["Jennifer Allen", "Duncan J. Watts", "David G. Rand"]
 year: 2024
 doi: 10.1126/science.adk3451
 bibtex_key: Allen2024-av
-topics: [health-misinformation, computational-political-media-influence]
+topics: [health-misinformation-coordinated-networks, computational-political-media-influence]
 citation_count: 130
 open_access: false
 source_url: https://doi.org/10.1126/science.adk3451

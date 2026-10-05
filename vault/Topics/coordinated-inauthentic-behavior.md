@@ -6,7 +6,7 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection and analysis of coordinated link-sharing and inauthentic network activity on social platforms, spanning the CooRnet/CLSB methodology, the VERA-AI Alert monitoring system, and case studies of information operations (e.g. the 'Zombie Internet' and gambling-promotion networks). This is the researcher's signature methodological contribution and remains the most active current strand of work.
+Detection, monitoring and theorization of coordinated link-sharing and inauthentic network behavior on social platforms, including the CooRnet method, the VERA-AI Alert system, and studies of deceptive information operations. This is the researcher's signature methodological contribution and remains the most active strand of his work.
 
 ## Papers
 
@@ -15,27 +15,37 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Askanius2026-de]]
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
+- [[Bastos2025-ya]]
+- [[Bruns2019-nr]]
 - [[Copland2025-em]]
+- [[Crichton2026-kn]]
+- [[De_Leon2025-qn]]
+- [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
-- [[Eady2023-xg]]
+- [[Donovan2025-ws]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
+- [[Gaber2022-bk]]
 - [[Gaw2025-ru]]
 - [[Gerard2025-br]]
 - [[Giada2026-fc9a3833]]
+- [[Giglietto2020-6278a4aa]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
+- [[Goel2025-iq]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
+- [[Grinberg2019-ua]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
 - [[Kansaon2025-id]]
 - [[Karo2026-dn]]
 - [[Keller2019-nk]]
 - [[Kim2026-br]]
+- [[Knupfer2025-vt]]
 - [[Kulichkina2025-sl09]]
 - [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]
@@ -49,7 +59,7 @@ Detection and analysis of coordinated link-sharing and inauthentic network activ
 - [[Orlando2025-ul]]
 - [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
-- [[Rieder2026-pp]]
+- [[Renault2025-uh]]
 - [[Righetti2025-sl2a]]
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]

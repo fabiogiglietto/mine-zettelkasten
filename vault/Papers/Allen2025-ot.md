@@ -5,7 +5,7 @@ authors: ["Jennifer Allen", "Joshua A. Tucker"]
 year: 2025
 doi: 10.1126/science.aec7388
 bibtex_key: Allen2025-ot
-topics: [computational-political-media-influence, platform-data-governance-transparency]
+topics: [llms-computational-content-analysis, platform-governance-data-access]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.1126/science.aec7388

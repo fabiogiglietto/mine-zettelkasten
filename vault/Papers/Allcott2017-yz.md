@@ -5,7 +5,7 @@ authors: ["Hunt Allcott", "Matthew Gentzkow"]
 year: 2017
 doi: 10.1257/jep.31.2.211
 bibtex_key: Allcott2017-yz
-topics: [information-disorder-and-fake-news, political-communication-and-elections]
+topics: [political-polarization-partisan-media, meta-science-of-misinformation-research]
 citation_count: 4540
 open_access: false
 source_url: https://doi.org/10.1257/jep.31.2.211

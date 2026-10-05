@@ -5,7 +5,7 @@ authors: ["Roberto Ulloa", "Frank Mangold", "Felix Schmidt", "Judith Gilsbach", 
 year: 2024
 doi: 
 bibtex_key: Ulloa2024-jm
-topics: [news-consumption-hybrid-media, survey-measurement-validity]
+topics: [survey-measurement-validity, llms-computational-content-analysis]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2412.00479v1

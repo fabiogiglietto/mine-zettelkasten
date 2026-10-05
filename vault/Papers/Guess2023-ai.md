@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Neil Malhotra", "Jennifer Pan", "Pablo Barberá", 
 year: 2023
 doi: 10.1126/science.add8424
 bibtex_key: Guess2023-ai
-topics: [computational-political-media-influence, news-consumption-hybrid-media]
+topics: [platform-engagement-affordances, computational-political-media-influence]
 citation_count: 145
 open_access: false
 source_url: https://doi.org/10.1126/science.add8424

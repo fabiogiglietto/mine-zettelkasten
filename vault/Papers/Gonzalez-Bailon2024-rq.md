@@ -5,7 +5,7 @@ authors: ["Sandra González-Bailón", "David Lazer", "Pablo Barberá", "William 
 year: 2024
 doi: 10.15195/v11.a41
 bibtex_key: Gonzalez-Bailon2024-rq
-topics: [information-disorder-and-fake-news, political-communication-and-elections]
+topics: [social-media-elections-international, platform-engagement-affordances]
 citation_count: 8
 open_access: false
 source_url: https://doi.org/10.15195/v11.a41

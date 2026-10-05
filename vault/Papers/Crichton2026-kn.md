@@ -5,7 +5,7 @@ authors: ["Fraser Crichton", "Guillen Torres"]
 year: 2026
 doi: 10.1177/29768624261449726
 bibtex_key: Crichton2026-kn
-topics: [generative-ai-in-media-and-disinformation, information-disorder-and-fake-news]
+topics: [generative-ai-synthetic-media, coordinated-inauthentic-behavior]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1177/29768624261449726

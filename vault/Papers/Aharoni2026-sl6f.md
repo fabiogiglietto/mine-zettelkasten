@@ -8,7 +8,7 @@ bibtex_key: Aharoni2026-sl6f
 kind: team
 submitted_by: "Bruna Paroni"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1790414429024169
-topics: [news-consumption-hybrid-media, platforms-audiences-and-online-communities]
+topics: [platforms-audiences-and-online-communities, survey-measurement-validity]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1080/21670811.2026.2729391

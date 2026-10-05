@@ -5,7 +5,7 @@ authors: ["Christopher A. Bail", "Lisa P. Argyle", "Taylor W. Brown", "John P. B
 year: 2018
 doi: 10.1073/pnas.1804840115
 bibtex_key: Bail2018-fk
-topics: [political-communication-and-elections, computational-political-media-influence]
+topics: [political-polarization-partisan-media]
 citation_count: 1406
 open_access: false
 source_url: https://doi.org/10.1073/pnas.1804840115

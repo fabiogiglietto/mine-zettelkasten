@@ -5,7 +5,7 @@ authors: ["Lev Manovich"]
 year: 2026
 doi: 10.1177/27523543261454458
 bibtex_key: Manovich2026-ih
-topics: [generative-ai-in-media-and-disinformation, platforms-audiences-and-online-communities]
+topics: [generative-ai-synthetic-media, platform-engagement-affordances]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/27523543261454458

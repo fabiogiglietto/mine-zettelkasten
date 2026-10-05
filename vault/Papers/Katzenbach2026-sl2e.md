@@ -8,7 +8,7 @@ bibtex_key: Katzenbach2026-sl2e
 kind: team
 submitted_by: "Fabio Giglietto"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1782728446616189
-topics: [platform-data-governance-transparency, political-communication-and-elections]
+topics: [platform-governance-data-access, social-media-elections-international]
 citation_count: 1
 open_access: true
 source_url: https://doi.org/10.1080/1369118x.2026.2686320
