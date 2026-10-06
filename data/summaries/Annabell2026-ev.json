@@ -1,0 +1,34 @@
+{
+  "abstract": "This article examines how the concept of 'data' is understood and contested within the European Union's Digital Services Act (DSA) researcher access provision (Article 40) and its subsequent Delegated Act. Through discourse analysis of legal texts, public feedback submissions, and platform-published data catalogs, the author argues that 'data' functions as a 'floating signifier' whose meaning shifts across regulatory and commercial discourses. Platform companies (VLOPSEs) interpret data narrowly as aggregated, anonymized, quantified, and predefined datasets, which conflicts with the broader multiplicity of data understandings across academic disciplines. This definitional narrowing allows platforms to exert power over how researchers can envisage data for academic work, an issue overlooked in current debates about the provision.",
+  "key_claims": [
+    "The term 'data' is never defined in the DSA or the Delegated Act, which problematically enables platform companies to narrow its definitional scope and exercise power over researcher access.",
+    "Data functions as a 'floating signifier' (Laclau) whose meaning 'floats' across and within regulatory and commercial discourses, aligning and disconnecting with disciplinary understandings of data in research.",
+    "Platform companies narrowly interpret and operationalize data as aggregated, quantified, anonymized presentations structured through predefined datasets, which is in tension with the multiplicity of understandings of data in academic research, especially qualitative traditions.",
+    "The narrow, datafication-centered, data-science conception of data risks marginalizing or excluding alternative (humanities and social science) understandings of what counts as data.",
+    "Existing scholarship on the DSA treats data as a self-evident technical concept, overlooking the governance implications of how data is conceptualized."
+  ],
+  "methods": [
+    "Discourse analysis grounded in Fairclough's critical discourse analysis and Laclau's discourse theory, treating discourse as dialectically connected to social practice.",
+    "Analysis of regulatory discourse: relevant articles and recitals addressing 'data' and 'information' in the DSA (notably Article 40, Recitals 96-98), the draft Delegated Act, and the adopted Delegated Act (Recital 11, Article 6).",
+    "Analysis of 10 public feedback submissions (representing 15 of 25 designated VLOPSEs) on the draft Delegated Act during the October-December 2024 feedback period, with word counts tabulated and issues mapped by article and recital (Appendix 1).",
+    "Analysis of publicly available DSA data catalogs published by VLOPSEs from November 2025, examining how data types, categories, and structures are presented (summarized in Table 2).",
+    "Use of the 'floating signifier' as a discursive analytical concept, contrasted with the interpretative flexibility of boundary objects (Star & Griesemer)."
+  ],
+  "findings": [
+    "Recitals connected to Article 40 (97, 98) illustrate data primarily through aggregated, quantified interactional metrics (e.g., views, reactions, shares), while the Delegated Act (Recital 11) offers a wider, non-exhaustive list including textual forms, documentation, A/B test results, and content moderation data.",
+    "In feedback submissions, Booking.com and Amazon most explicitly argued that data should be defined as quantitative raw datasets, claiming the Delegated Act's broad interpretation deviated from the DSA's intent; Amazon distinguished 'data' from 'documents' and 'information'.",
+    "Meta pushed for data as existing structured datasets, arguing providers should not be required to create new data, revealing tension between data as accessible datasets and data as requiring assemblage; Meta also raised concerns about data accuracy and researcher competence.",
+    "Platforms positioned themselves as authorities over data, claiming to know what exists, what does not, and what constitutes quality; they advocated limitations ranging from granularity (quantitative/aggregated metrics only) to availability (existing datasets) and anonymization.",
+    "Data catalogs reveal varied operationalizations: some platforms (e.g., Meta, Google, Wikipedia) rely on hyperlinks to existing datasets, while others (e.g., AliExpress, Amazon, TikTok, Temu) offer tables/lists of categories organized by metric or systemic risk; Zalando offered the widest range including A/B testing and policy documentation, while Shein was notably vague.",
+    "Online marketplaces were more aligned in what they classified as data, while social media platforms varied; computer and data science conventions dominate the articulation of data in catalogs over qualitative social science and humanities framings."
+  ],
+  "contributions": [
+    "Introduces the conceptualization of data itself—rather than data access, quality, or observability—as a neglected but consequential site of governance contestation within the DSA.",
+    "Applies Laclau's 'floating signifier' concept to analyze how 'data' is discursively constructed and contested across regulatory and commercial discourses.",
+    "Provides an empirical mapping of how 25 designated VLOPSEs operationalize data in their first published data catalogs (Table 2) and how they contested definitional boundaries in feedback (Appendix 1).",
+    "Extends prior DSA scholarship (Leerssen, Griffin, Selling et al., Botero Arcila et al., Peters & Weller) by foregrounding the taken-for-granted meaning of data and its implications for disciplinary inclusion.",
+    "Calls for reflexivity about terminology and the discursive construction of 'data' in research communities and in dialogue with the European Commission."
+  ],
+  "framing": "The paper positions itself within platform governance and critical data studies, drawing on datafication theory (van Dijck, Mayer-Schönberger & Cukier), relational conceptions of research data (Borgman, Leonelli, Drucker, Markham), and discourse theory (Laclau, Fairclough). It intervenes in ongoing scholarly debates about researcher data access under the EU's Digital Services Act, arguing that the conceptualization of data—not just access to it—is a governance battleground.",
+  "pdf_source": "drive"
+}

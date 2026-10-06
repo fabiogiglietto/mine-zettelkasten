@@ -14,6 +14,7 @@ Research and advocacy on social media platforms' API access, data-sharing polici
 - [[Allcott2019-gn]]
 - [[Allen2021-ai]]
 - [[Allen2025-ot]]
+- [[Annabell2026-ev]]
 - [[Bak-Coleman2025-pm]]
 - [[Bak-Coleman2026-mk]]
 - [[Balluff2026-bv]]
