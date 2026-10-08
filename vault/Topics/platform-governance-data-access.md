@@ -76,6 +76,7 @@ Research and advocacy on social media platforms' API access, data-sharing polici
 - [[Swartz2026-zb]]
 - [[Thiele2025-ol]]
 - [[Tonneau2025-bv]]
+- [[Tornberg2026-im]]
 - [[Unknown2025-ed60bc90]]
 - [[Vincent_undated-re]]
 - [[Votta2025-xz]]

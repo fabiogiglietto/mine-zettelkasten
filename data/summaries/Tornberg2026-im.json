@@ -1,0 +1,35 @@
+{
+  "abstract": "This article argues that generative AI, and large language models in particular, is driving a tendential shift from the 'platform society' to an emerging 'AI society.' Rather than a wholesale break, the authors theorize this as a transformation that grows out of platform-era infrastructures, data, and political economies while partially rupturing them. They trace the transition across three entangled domains—economic, epistemic, and political—and reconsider which concepts from critical platform studies should be carried forward or revised for a critical AI studies.",
+  "key_claims": [
+    "Generative AI marks a qualitative rupture in how digital systems mediate social life, yet it emerges from and reorganizes the platform society rather than arising ex nihilo.",
+    "Economically, platform-era monopoly mechanisms (network effects, behavioral capture) are giving way to 'cognitive lock-in,' a novel mechanism in which rent is extracted from the accumulated history of collaboration between user and system.",
+    "Epistemically, the predictive logic of platforms is being displaced by a generative logic, in which theory becomes infrastructural, research becomes a rented service, and publics are simulated rather than sampled.",
+    "Politically, struggles over visibility are shifting toward 'alignment politics'—contests over what models can say, refuse, reason about, and do.",
+    "The overarching transformation is the enclosure of cognition itself: where platform capitalism enclosed social interaction, AI capitalism encloses the infrastructures of thought.",
+    "Critical platform studies provides the model for an emerging critical AI studies, but its concepts and methods must be updated for the affordances of generative systems."
+  ],
+  "methods": [
+    "Theoretical and conceptual synthesis drawing on critical platform studies, critical data studies, STS, media studies, and emerging critical AI scholarship.",
+    "Comparative framing that contrasts the platform society and the AI society across dimensions such as organizational form, monopoly mechanism, mode of extraction, epistemic mode, representation, and political mode (summarized in a stylized comparison table).",
+    "Development of new analytical vocabulary and proposed methodological tools, including 'alignment audits' and the 'talkthrough' method (adapting the platform-studies 'walkthrough') for probing proprietary models.",
+    "Illustrative examples rather than new empirical data (e.g., the OpenAI GPT-4o deprecation backlash, ChatGPT shopping prompts, Lu et al. on language-switching bias, Tufekci's interrogation of Grok)."
+  ],
+  "findings": [
+    "Generative AI reproduces some platform-era mechanisms (infrastructural lock-in, behavioral capture) but network effects no longer play a structuring role, since value flows from a dyadic user–system relationship.",
+    "Research conditions are shifting from 'data-as-a-service' to 'research-as-a-service,' deepening scholars' dependence on opaque, proprietary, nondeterministic commercial systems.",
+    "The 'end of theory' of the Big Data era is being reversed into an 'end of the end of theory,' with conceptual labor returning but entangled with models trained on the scholarly canon.",
+    "Data doubles (profiling real people) are being supplanted by synthetic agents and 'AI twins' that manufacture rather than sample publics, raising validation, representation, and democratic-legitimacy concerns.",
+    "Alignment operates through at least four mechanisms—training-data composition, reinforcement learning/fine-tuning, system prompts and orchestration layers, and content policies/guardrails—each with distinct actors and governance implications.",
+    "Commercial incentives toward cognitive lock-in encourage 'dark patterns' such as sycophancy and affective dependence as structural pathologies of the generative AI era.",
+    "Current AI regulation is uneven: the EU Digital Services Act provides researcher data access for platforms, but the AI Act offers no equivalent framework for independent scrutiny of LLMs."
+  ],
+  "contributions": [
+    "Theorizes generative AI as emerging from, yet partially rupturing with, the platform society, identifying three linked transformations (network-based to relational monopoly, predictive to generative knowing, data politics to alignment politics).",
+    "Introduces and systematizes a critical vocabulary: cognitive lock-in, research-as-a-service, synthetic social science, infrastructuralization of theory, alignment politics, AI as media infrastructure, and epistemic empire.",
+    "Proposes a methodological program for critical AI studies, including alignment audits, the talkthrough method, infrastructural/organizational research, and reflexive documentation standards.",
+    "Outlines public-interest governance principles (transparency, pluralism, redress) reimagined for generative media infrastructures, including calls for researcher-access architectures for LLMs.",
+    "Provides a research agenda that revisits and reconsiders which platform-studies concepts to retain or revise in light of generative AI."
+  ],
+  "framing": "The paper situates itself within critical platform studies, critical data studies, and the political economy of AI, drawing on Foucauldian notions of epistemes and governmentality and on scholarship on platform capitalism, surveillance capitalism, and data colonialism. It positions generative AI as a new phase of rentier, financialized digital capitalism and calls for extending critical platform scholarship into a dedicated critical AI studies.",
+  "pdf_source": "drive"
+}

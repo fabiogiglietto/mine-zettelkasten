@@ -22,6 +22,7 @@ Studies examining how AI industry actors, media, and communities construct and c
 - [[Slack1783075716-sl1c]]
 - [[Stanusch2026-ec]]
 - [[Topinka2026-hb]]
+- [[Tornberg2026-im]]
 - [[Unknown2025-qj]]
 - [[Vertesi2026-lv]]
 - [[Wang2025-zy]]

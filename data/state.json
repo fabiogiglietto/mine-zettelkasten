@@ -5040,10 +5040,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-06T10:41:46.976778+00:00"
+    },
+    "bibtex:Tornberg2026-im": {
+      "note_path": "Papers/Tornberg2026-im.md",
+      "topics": [
+        "ai-industry-imaginaries-and-discourse",
+        "platform-governance-data-access"
+      ],
+      "assign_fp": "98b3d72e42ec398d59e6646bfc4251f85fdb8e243d9562c4cf359dddad458cc8",
+      "doi": "10.1177/29768640261487931",
+      "title": "From the platform society to the AI society",
+      "pdf_source": "drive",
+      "content_hash": "c9fea8d3358dedf5f5d5597b21cd0ca97e015ec4ad288d32d95434b9887d2799",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-08T07:08:21.458881+00:00"
     }
   },
   "last_full_cluster": "2026-10-05T11:32:50.503554+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "a60ff2b9fbec3010662b76c2aa0305d5b11149027635891d55f65f7eb20da819",
   "emergent_fp": "c3ac35fea28f22ee83cc4c8c84158812c6041cb94b8ffddb3eace860118895a9",
   "structure_fps": {
