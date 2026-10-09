@@ -1406,9 +1406,9 @@
         "platform-engagement-affordances"
       ],
       "pdf_source": "drive",
-      "content_hash": "14db5152919a931d32d0a8073404d39bcba6b36ce4605e1d876523ea5a0af5b5",
+      "content_hash": "ead76a3051d5775c95e562d2fd160bcdd3745640bfbf912a679620f5e95bf89f",
       "podcast_linked": false,
-      "last_processed": "2026-09-08T08:53:49.592293+00:00",
+      "last_processed": "2026-10-09T07:57:42.212059+00:00",
       "assign_fp": "a5b6307dc5f07d7a1edf767a0385595f2f3e003529b90ad2b0a55cf13f18f6b9"
     },
     "bibtex:Fan2025-ut": {
@@ -5051,15 +5051,32 @@
       "doi": "10.1177/29768640261487931",
       "title": "From the platform society to the AI society",
       "pdf_source": "drive",
-      "content_hash": "c9fea8d3358dedf5f5d5597b21cd0ca97e015ec4ad288d32d95434b9887d2799",
-      "podcast_linked": false,
+      "content_hash": "72f90af4685ed90053c64809b3a44c31a88f719dc28f3c4205ad2eba95b33428",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-10-08T07:08:21.458881+00:00"
+      "last_processed": "2026-10-09T07:57:25.810114+00:00"
+    },
+    "bibtex:Carammia2024-sl90": {
+      "note_path": "Papers/Carammia2024-sl90.md",
+      "topics": [
+        "llms-computational-content-analysis",
+        "platform-governance-data-access"
+      ],
+      "assign_fp": "d2d9e936645ee581ca8f7e1e864d0e9f1e45e9a1fb8215d498f9c8eeb5741e34",
+      "doi": "",
+      "title": "Rethinking Scale: The Efficacy of Fine-Tuned Open-Source LLMs in Large-Scale Reproducible Social Science Research",
+      "pdf_source": "drive",
+      "content_hash": "5c8e63ed83ab8e772f23c3026cafbf455fe7155208c6c8867f6223fdc867a02d",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-10-09T07:57:09.092596+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
     }
   },
   "last_full_cluster": "2026-10-05T11:32:50.503554+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "a60ff2b9fbec3010662b76c2aa0305d5b11149027635891d55f65f7eb20da819",
   "emergent_fp": "c3ac35fea28f22ee83cc4c8c84158812c6041cb94b8ffddb3eace860118895a9",
   "structure_fps": {

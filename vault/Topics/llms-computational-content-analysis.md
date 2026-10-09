@@ -19,6 +19,7 @@ Methodological work on integrating large language models into political discours
 - [[Brown2025-jk]]
 - [[Bruns2025-fz]]
 - [[Bruns2026-pn]]
+- [[Carammia2024-sl90]]
 - [[Cerulli2026-sl75]]
 - [[Costello2024-bg]]
 - [[DeVerna2025-dl]]
