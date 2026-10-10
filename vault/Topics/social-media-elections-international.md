@@ -48,6 +48,7 @@ Comparative studies of political information campaigns and coordinated behavior 
 - [[Schulte2026-df]]
 - [[Simeone2025-vo]]
 - [[Slack1783507532-sl10]]
+- [[Tjaden2026-sl8e]]
 - [[Tornberg2025-ir]]
 - [[Ventura2025-sw]]
 - [[Ventura2026-yc]]

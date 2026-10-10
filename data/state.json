@@ -3360,10 +3360,10 @@
       "doi": "",
       "title": "Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications",
       "pdf_source": "abstract_only",
-      "content_hash": "4fd293a85f49b25dc6a38175dd7e3800d1c9055aa4652652e6f3549820b95e56",
+      "content_hash": "5523af1665b6eb0da19ef9c7c5067dc940b2f6f703031bb99cdc4c89e2c07a53",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-07-08T14:19:56.271587+00:00",
+      "last_processed": "2026-10-10T17:45:17.902009+00:00",
       "kind": "team",
       "submitted_by": "GiadaM. / Uniurb"
     },
@@ -5073,10 +5073,27 @@
       "last_processed": "2026-10-09T07:57:09.092596+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Tjaden2026-sl8e": {
+      "note_path": "Papers/Tjaden2026-sl8e.md",
+      "topics": [
+        "social-media-elections-international",
+        "platform-engagement-affordances"
+      ],
+      "assign_fp": "08cb3b14efc054583770d5ffd0665e3307aaa68b8b8797df5c8994f69db6dea7",
+      "doi": "10.1080/10584609.2026.2733320",
+      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
+      "pdf_source": "drive",
+      "content_hash": "1ae9468d430825095c89c2551f6186a0a499df7092cf2acb5ce57e5ec9e10549",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-10-10T17:45:06.850214+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
     }
   },
   "last_full_cluster": "2026-10-05T11:32:50.503554+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "a60ff2b9fbec3010662b76c2aa0305d5b11149027635891d55f65f7eb20da819",
   "emergent_fp": "c3ac35fea28f22ee83cc4c8c84158812c6041cb94b8ffddb3eace860118895a9",
   "structure_fps": {

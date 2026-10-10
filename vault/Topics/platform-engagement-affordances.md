@@ -55,6 +55,7 @@ Research on how platform design features (reactions, algorithmic governance, vir
 - [[Schulz2026-ts]]
 - [[Slack1783508184-sld3]]
 - [[Tang2026-gu]]
+- [[Tjaden2026-sl8e]]
 - [[Tonneau2025-bv]]
 - [[Tuters2026-vo]]
 - [[Volpe2026-um]]

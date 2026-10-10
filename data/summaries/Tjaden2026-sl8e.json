@@ -1,0 +1,37 @@
+{
+  "abstract": "This study investigates whether TikTok's algorithm disproportionately exposes non-partisan, politically disinterested users to far-right political content in Germany. Using an automated sock-puppet audit of 118 simulated non-partisan users during three 2024 regional elections and the 2025 federal election (266,161 videos observed), the authors measure incidental exposure to party content while holding individual user behavior, networks, location, and time constant. They find that political content comprises roughly 5–7% of these users' feeds and that, among unsolicited political videos, content mentioning and supporting the far-right AfD party dominates relative to all other parties. Descriptive analysis attributes this advantage to a greater volume of accounts posting pro-AfD content and more viral AfD videos rather than overt platform favoritism.",
+  "key_claims": [
+    "Non-partisan TikTok users are more frequently exposed to political content mentioning and supporting populist, right-wing parties (the AfD) than to content about moderate parties (H1).",
+    "The AfD exposure advantage is not driven by individual user behavior, since the audit design holds user preferences, likes, networks, location, and timing constant.",
+    "Posts mentioning or supporting the AfD benefit from greater 'supply and demand' — more accounts posting supportive content and more viral posts — relative to moderate parties (H2).",
+    "The disparity is interpreted as emerging from content popularity and volume (especially from non-party 'multiplier' accounts) rather than algorithmic favoritism toward a particular ideology.",
+    "Incidental exposure disparities among non-partisan users raise concerns for fair elections, consumer/minor protection, and the amplification of populists' 'discursive power.'"
+  ],
+  "methods": [
+    "Sock-puppet audit using 118 automated, non-partisan user accounts (34 in 2024 regional elections, 84 in 2025 federal election).",
+    "Bots scrolled the 'For You' feed ~1 hour/day for ~4–6 weeks, liking only non-political interest content (e.g., #comedy, #cooking, #nature) and performing occasional non-political searches, while a blacklist of political keywords prevented engagement with political content.",
+    "Collected all videos shown to users (exposure), including engagement metrics, creator accounts, and descriptions; downloaded available videos and transcribed audio via Voxtral.",
+    "Classified political content, party mentions, and party sentiment (support) using large language models (Gemini 3.1 Flash-Lite Preview; earlier round compared six LLMs with Gemini 2.5 Pro best), validated against human coders (binary political F1=0.93; Krippendorff's alpha=0.84).",
+    "Identified official party/politician accounts using the Barth et al. (2025) list; classified seven major German parties (AfD, BSW, Die Linke, CDU, SPD, FDP, Greens) along a left-right dimension.",
+    "Analyzed exposure with linear mixed-effects models (random intercepts for users, videos nested within users), estimated separately per party, with parametric bootstrap (N=100) confidence intervals; conducted exploratory descriptive analysis of engagement, viral posts, and uploader accounts."
+  ],
+  "findings": [
+    "Overall probability a video was political: 6.6% (2025 federal) and 4.8% (2024 regional); users encountered roughly 35–49 political videos per week without engaging with political content.",
+    "Probability a video mentioned the AfD was 0.8% (regional) and 1.7% (federal) — 1.8x (regional) and 3.4x (federal) more likely than any other party.",
+    "Probability a video supported the AfD was 0.3% (regional) and 0.7% (federal) — 3.3x (regional) and 3.9x (federal) more likely than any other party.",
+    "Exposure to pro-AfD content occurred faster: after ~400 videos (~1 hour), 53% (regional) and 89% (federal) of users had encountered pro-AfD content, versus far lower shares for other parties.",
+    "Far-left and far-right parties had the highest share of supportive-to-mention videos (Die Linke 69%, BSW 46%, AfD 40%) versus moderate parties (CDU/CSU 12%, FDP 22%, Greens 23%, SPD 27%).",
+    "AfD had the lowest share of supportive content coming from official party/politician accounts (20% regional, 35% federal), indicating heavy reliance on unofficial supporters/'multipliers.'",
+    "AfD videos were not notably different in mean/median likes but deviated strongly in number of viral posts (>100,000 likes) and number of unique accounts uploading supportive content.",
+    "A robustness check using only exposure to official party accounts confirmed the AfD advantage (AfD videos 1.5x more likely from an official account than the next-highest party, SPD)."
+  ],
+  "contributions": [
+    "Provides rare empirical evidence on political communication and algorithmic curation specifically on TikTok, where prior research is scant relative to Facebook, X, and YouTube.",
+    "Demonstrates a design that isolates algorithmic/content effects by holding individual user behavior, networks, location, and time constant, ruling out personalization as the driver of observed disparities.",
+    "Extends evidence of a right/conservative visibility advantage (previously shown for US TikTok, X, Facebook, YouTube) to the German multi-party context during real election periods.",
+    "Offers a simplified three-input model of algorithmic curation (content/supply, collective behavior/demand, individual behavior) to interpret exposure disparities.",
+    "Illustrates how sock-puppet audits can supply independent accountability for large platforms amid restricted researcher data access."
+  ],
+  "framing": "The paper situates itself in political communication research on algorithmic curation, incidental exposure, and the 'discursive power' of political actors on social media, engaging debates about whether populist right-wing parties enjoy a reach advantage online. It frames TikTok as a consequential and understudied platform for young voters and uses the German case—with its strict offline media-balance regulations and the AfD's rising youth support—to probe fairness and accountability concerns in algorithmically mediated political exposure.",
+  "pdf_source": "drive"
+}
