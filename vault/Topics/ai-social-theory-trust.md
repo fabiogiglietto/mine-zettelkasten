@@ -18,6 +18,7 @@ Papers that apply or extend social theory and communication-trust frameworks to 
 - [[Goldberg2026-eb]]
 - [[Gottfried2026-ww]]
 - [[Hackenburg2026-ud]]
+- [[Hove2026-sl49]]
 - [[Kotz2026-lk]]
 - [[Kunda1990-cg]]
 - [[Matias2025-px]]

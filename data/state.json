@@ -5090,10 +5090,27 @@
       "last_processed": "2026-10-10T17:45:06.850214+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Hove2026-sl49": {
+      "note_path": "Papers/Hove2026-sl49.md",
+      "topics": [
+        "generative-ai-synthetic-media",
+        "ai-social-theory-trust"
+      ],
+      "assign_fp": "7d4ee9dc519313e3d3fabfcc1bf6ce8e3eb875d3af196cd5d6f472c8a0fd150a",
+      "doi": "10.1177/20563051261483376",
+      "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
+      "pdf_source": "drive",
+      "content_hash": "fcc96b2c008f7bb61ffce36b0281de8c49c921d52c5e569718fe05e62e5121c4",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-10-11T18:21:45.350428+00:00",
+      "kind": "team",
+      "submitted_by": "Massimo Terenzi"
     }
   },
   "last_full_cluster": "2026-10-05T11:32:50.503554+00:00",
-  "papers_since_cluster": 4,
+  "papers_since_cluster": 5,
   "register_signals_hash": "a60ff2b9fbec3010662b76c2aa0305d5b11149027635891d55f65f7eb20da819",
   "emergent_fp": "c3ac35fea28f22ee83cc4c8c84158812c6041cb94b8ffddb3eace860118895a9",
   "structure_fps": {

@@ -1,0 +1,34 @@
+{
+  "abstract": "This paper investigates whether people can distinguish photorealistic AI-generated images from authentic photographs in a social-media-like setting. Through a preregistered survey experiment with 2,091 representative Danish respondents, the authors find that people perform only marginally better than random guessing—and actually worse than if they had simply assigned every image a 50% probability of being AI-generated. Even though analytical thinkers, younger people, and experienced generative AI users show somewhat better discernment, no demographic group except those under 25 performs substantially better than chance, raising concerns about human vulnerability to AI-generated misinformation.",
+  "key_claims": [
+    "On average, people are not substantially better than chance at discerning AI-generated images from authentic images, regardless of image context.",
+    "While analytical thinking, young age, being female, and generative AI experience improve discernment, only individuals under 25 perform substantially better than a 50% probability benchmark.",
+    "Contrary to expectation, people's confidence in their discernment does not vary substantially across image contexts, and confidence is largely decoupled from actual accuracy, suggesting overconfidence.",
+    "Because human discernment is unreliable and may worsen as generative AI improves, individual-level detection is an insufficient safeguard; structural interventions (watermarking, transparency, fact-checking) are needed."
+  ],
+  "methods": [
+    "Preregistered online survey experiment conducted by polling firm Epinion, 17–24 June 2024, with 2,091 adult Danes representative on age, gender, and region (8.4% drop-out).",
+    "Stimulus sampling: each respondent shown 7 of 52 images drawn at random from a pool of 26 real-world events, each with one authentic and one AI-generated version, across four categories (regular, people, crisis, political).",
+    "Authentic images sourced copyright-free from Wikimedia Commons; AI images generated with the free public tool OpenArt.ai to mimic low-resource actors, deliberately yielding comparatively low-quality images.",
+    "Only true/real-world events used (both authentic and AI versions depict real events) to separate discernment ability from memory effects; no source, engagement metrics, or labels shown; respondents asked for fast immediate judgments (median viewing 7 seconds).",
+    "Respondents rated likelihood each image was AI-generated (0–100); discernment operationalized via Brier scores (comparing to simulated random guessing and to a constant 50% benchmark); confidence measured as deviation from the midpoint of 50.",
+    "Analytical thinking measured with Frederick's (2005) three-item Cognitive Reflection Test; hypotheses tested with t-tests (H1) and cross-classified multilevel models with random intercepts for participants and images (H2–H4)."
+  ],
+  "findings": [
+    "Respondents' mean Brier score was 0.05 lower than random guessing (statistically significant), but 0.034 higher than a constant 50% probability benchmark, meaning they would have scored better by always guessing 50%.",
+    "No image category (regular, people, crisis, political) differed statistically significantly from the others in discernment; regular images were not significantly better than random (H2 not supported).",
+    "Analytical thinking was significantly associated with better discernment (≈0.04 lower Brier score for high vs. low analytical thinkers), supporting H3, but high analytical thinkers still averaged 0.26, not beating the 0.25 benchmark.",
+    "Women and generative AI–experienced users discerned slightly better; older individuals discerned worse; conspiracy beliefs and AI acceptance showed no significant effect; only 18–24-year-olds scored significantly below the 0.25 benchmark.",
+    "Gender effects disappeared when using raw probability estimates rather than Brier scores, suggesting the difference reflects calibration/confidence rather than true discrimination.",
+    "Confidence did not differ significantly across crisis and political images versus regular images (H4 not supported); confidence was highest for images of people but was independent of actual discernment accuracy."
+  ],
+  "contributions": [
+    "Expands discernment research beyond faces and non-consequential everyday images to four high-stakes contexts (regular, people, crisis, political).",
+    "Introduces a design using only true real-world events with paired authentic and AI versions to disentangle discernment ability from memory effects—a limitation of prior studies.",
+    "Uses freely available AI tools and stimulus sampling from 52 images to increase ecological and external validity, approximating content from low-resource actors rather than state-level disinformation.",
+    "Provides evidence that individual-level interventions (e.g., teaching visual-cue detection) may be ineffective or even counterproductive, informing policy toward structural safeguards.",
+    "Documents overconfidence and the decoupling of confidence from accuracy in AI image discernment, contributing to the confidence–accuracy literature."
+  ],
+  "framing": "The study positions itself within research on visual misinformation, generative AI, and democratic consequences of synthetic media, drawing on dual-process theory, perceptual learning, and cognitive science of intuition and accessibility. It engages debates about human discernment of deepfakes and fake news, overconfidence in news judgments, and risks such as the 'liar's dividend' and 'tainted truth' effect, using Denmark as a 'most likely' case given its high digital literacy.",
+  "pdf_source": "drive"
+}

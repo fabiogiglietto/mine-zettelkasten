@@ -22,6 +22,7 @@ Study of how generative AI is used in coordinated manipulation campaigns (e.g., 
 - [[Gillespie2026-aa]]
 - [[Hameleers2026-mc]]
 - [[Hollingshead2026-vx]]
+- [[Hove2026-sl49]]
 - [[Kasianenko2026-tn]]
 - [[Lin2025-xp]]
 - [[Luceri2025-tr]]
