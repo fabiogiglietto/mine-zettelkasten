@@ -5,7 +5,7 @@ authors: ["Shreya Dubey", "Paul E. Ketelaar", "Tilman Dingler", "Hannah K. Peetz
 year: 2026
 doi: 10.1016/j.chb.2026.108920
 bibtex_key: Dubey2026-bl
-topics: [ai-social-theory-trust, survey-measurement-validity]
+topics: [survey-measurement-validity, ai-social-theory-trust]
 citation_count: 1
 open_access: false
 source_url: https://doi.org/10.1016/j.chb.2026.108920

@@ -4,15 +4,13 @@ slug: platform-governance-data-access
 emergent: false
 ---
 
-# Platform Governance and Research Data Access
+# Platform Governance and Researcher Data Access
 
-Research and advocacy on social media platforms' API access, data-sharing policies, and regulatory compliance (Digital Services Act, CrowdTangle shutdown, Meta's political content reduction policy, URL Shares Dataset), reflecting the researcher's role as DSA/ECAT expert.
+Study of how social media platforms regulate, restrict, or structure access to data for independent research, including Meta's political content reduction policies, the CrowdTangle shutdown's effect on methods, the Digital Services Act's researcher-access provisions, and critiques of API/data-sharing regimes.
 
 ## Papers
 
 - [[Ahuja2025-ku]]
-- [[Allcott2019-gn]]
-- [[Allen2021-ai]]
 - [[Allen2025-ot]]
 - [[Annabell2026-ev]]
 - [[Bak-Coleman2025-pm]]
@@ -20,14 +18,11 @@ Research and advocacy on social media platforms' API access, data-sharing polici
 - [[Balluff2026-bv]]
 - [[Bastos2025-ya]]
 - [[Bechmann2026-dr]]
-- [[Benkler2018-lw]]
-- [[Bergeron-Boutin2026-yh]]
+- [[Bouchaud2026-lr]]
 - [[Bouchaud2026-np]]
-- [[Boyd2026-op]]
 - [[Bruns2019-nr]]
 - [[Bruns2026-pn]]
 - [[Bruns2026-yv]]
-- [[Carammia2024-sl90]]
 - [[Cazzamatta2026-lo]]
 - [[Crosset2026-mq]]
 - [[Cullen2026-cb]]
@@ -48,15 +43,11 @@ Research and advocacy on social media platforms' API access, data-sharing polici
 - [[Heiss2026-qv]]
 - [[Holt2026-zq]]
 - [[Hurcombe2025-cs]]
-- [[Iannelli2018-ebd918b7]]
-- [[Inacio-da-Silva2026-zf]]
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
-- [[Mahl2026-hc]]
-- [[Mannocci2026-kc]]
 - [[McNally2025-dn]]
 - [[Moran2025-qn]]
 - [[Munger2025-cz]]
@@ -67,22 +58,13 @@ Research and advocacy on social media platforms' API access, data-sharing polici
 - [[Pierri2026-ib]]
 - [[Rieder2025-ju]]
 - [[Rieder2026-pp]]
-- [[Righetti2025-sl2a]]
 - [[Rogers2025-sl8f]]
 - [[Rogers2026-zz]]
-- [[Rossi2023-847d5a9f]]
 - [[Schiffrin_undated-gi]]
-- [[Schulte2026-df]]
 - [[Slack1787858551-sl4d]]
 - [[Swartz2026-zb]]
-- [[Thiele2025-ol]]
 - [[Tonneau2025-bv]]
-- [[Tornberg2026-im]]
 - [[Unknown2025-ed60bc90]]
-- [[Vincent_undated-re]]
-- [[Votta2025-xz]]
-- [[Weinbrand2026-sf]]
-- [[Yang2026-tq]]
 - [[Zheng2026-bi]]
 - [[de-Vreese2026-zx]]
 - [[van-Dijck2018-up]]

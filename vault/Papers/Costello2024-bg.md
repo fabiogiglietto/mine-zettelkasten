@@ -5,7 +5,7 @@ authors: ["Thomas H Costello", "Gordon Pennycook", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/xcwdn
 bibtex_key: Costello2024-bg
-topics: [generative-ai-synthetic-media, llms-computational-content-analysis]
+topics: [generative-ai-and-synthetic-media, health-misinformation-networks]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/xcwdn

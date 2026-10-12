@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Brendan Nyhan", "Jason Reifler"]
 year: 2020
 doi: 10.1038/s41562-020-0833-x
 bibtex_key: Guess2020-rr
-topics: [political-polarization-partisan-media, meta-science-of-misinformation-research]
+topics: [information-disorder-fake-news, electoral-social-media-analysis]
 citation_count: 437
 open_access: false
 source_url: https://doi.org/10.1038/s41562-020-0833-x

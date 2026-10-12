@@ -5,7 +5,7 @@ authors: ["Petter Törnberg", "Justus Uitermark"]
 year: 2026
 doi: 10.1177/29768640261487931
 bibtex_key: Tornberg2026-im
-topics: [ai-industry-imaginaries-and-discourse, platform-governance-data-access]
+topics: [generative-ai-and-synthetic-media, ai-industry-imaginaries-and-discourse]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/29768640261487931

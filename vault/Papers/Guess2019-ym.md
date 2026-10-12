@@ -5,7 +5,7 @@ authors: ["Andrew Guess", "Jonathan Nagler", "Joshua Tucker"]
 year: 2019
 doi: 10.1126/sciadv.aau4586
 bibtex_key: Guess2019-ym
-topics: [political-polarization-partisan-media, survey-measurement-validity]
+topics: [electoral-social-media-analysis, information-disorder-fake-news]
 citation_count: 1140
 open_access: false
 source_url: https://doi.org/10.1126/sciadv.aau4586

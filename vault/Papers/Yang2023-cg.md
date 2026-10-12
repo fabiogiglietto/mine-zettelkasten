@@ -5,7 +5,7 @@ authors: ["Yunkang Yang", "Trevor Davis", "Matthew Hindman"]
 year: 2023
 doi: 10.1093/joc/jqac051
 bibtex_key: Yang2023-cg
-topics: [generative-ai-synthetic-media, political-polarization-partisan-media]
+topics: [information-disorder-fake-news, electoral-social-media-analysis]
 citation_count: 81
 open_access: false
 source_url: https://doi.org/10.1093/joc/jqac051

@@ -6,7 +6,7 @@ year: 2020
 doi: 10.3270/96423
 bibtex_key: Giglietto2020-6278a4aa
 kind: own
-topics: [coordinated-inauthentic-behavior, computational-political-media-influence]
+topics: [electoral-social-media-analysis, digital-media-research-methods]
 citation_count: 2
 open_access: true
 source_url: https://doi.org/10.3270/96423

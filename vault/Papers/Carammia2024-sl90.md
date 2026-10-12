@@ -8,7 +8,7 @@ bibtex_key: Carammia2024-sl90
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1791529563092019
-topics: [llms-computational-content-analysis, platform-governance-data-access]
+topics: [computational-content-analysis-llm, digital-media-research-methods]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2411.00890v1
