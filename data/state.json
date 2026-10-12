@@ -3876,11 +3876,11 @@
       "doi": "10.31234/osf.io/7z69m_v1",
       "title": "Online Discourse is Falsely Polarized by Self-Selection",
       "pdf_source": "abstract_only",
-      "content_hash": "58a6475e33dcfdaa65468ed6ce97814a90aad24c39c5ab342695f7ede60d1a72",
-      "podcast_linked": false,
+      "content_hash": "da7518ae65daacc7226f9636277c3aa9309de10e6dfc09936b3ee2e7d8168084",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-08-25T06:54:13.713044+00:00"
+      "last_processed": "2026-10-12T18:48:08.154819+00:00"
     },
     "bibtex:De_Leon2025-qn": {
       "note_path": "Papers/De_Leon2025-qn.md",
@@ -4034,11 +4034,11 @@
       "doi": "10.1177/14614448261470889",
       "title": "Cross-platformization: How U.S. right-leaning media curate their posts on Twitter and Truth Social",
       "pdf_source": "abstract_only",
-      "content_hash": "006f8b66c336322eb98691691c7bc35c608539d992ebe668dfbaa9269405453a",
-      "podcast_linked": false,
+      "content_hash": "4a32567c03516e1c4ae3b239dd688422e433d0e727d33866ce2141e48b762b6a",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-10T09:05:42.137325+00:00"
+      "last_processed": "2026-10-12T18:47:56.384795+00:00"
     },
     "bibtex:Gaber2022-bk": {
       "note_path": "Papers/Gaber2022-bk.md",
@@ -4954,11 +4954,11 @@
       "doi": "10.1093/jcmc/zmag022",
       "title": "How does political efficacy condition clicks on politics? Understanding information-selection behavior in algorithmic feeds over time",
       "pdf_source": "abstract_only",
-      "content_hash": "ad3a2d446ff9b0b23e5b72704ee9aa5959a67717dccab220eb5472b4d8e744f7",
-      "podcast_linked": false,
+      "content_hash": "fcdc3bee69669c65ff1f17b2b4c9a85759db7313cbfc94549bd491921922fc6a",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-09-27T06:58:43.194702+00:00"
+      "last_processed": "2026-10-12T18:47:45.639441+00:00"
     },
     "bibtex:Di_Marco2026-xu": {
       "note_path": "Papers/Di_Marco2026-xu.md",
@@ -5121,10 +5121,39 @@
       "last_processed": "2026-10-11T18:21:45.350428+00:00",
       "kind": "team",
       "submitted_by": "Massimo Terenzi"
+    },
+    "bibtex:Guo2026-fi": {
+      "note_path": "Papers/Guo2026-fi.md",
+      "topics": [],
+      "assign_fp": "57890ac56cd6fbcfe4aeb3a00bfa3420b90b1af3b227f7156939d2f14662d15a",
+      "doi": "10.1080/10584609.2026.2745844",
+      "title": "The politics of the “non-political”: A conceptual review",
+      "pdf_source": "drive",
+      "content_hash": "3c84b6d21b6f3b510dfb324c02853c808f1454ba85a30848d7225e550fec465d",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-12T18:47:16.356075+00:00"
+    },
+    "bibtex:Divon2026-wx": {
+      "note_path": "Papers/Divon2026-wx.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "political-polarization-partisanship"
+      ],
+      "assign_fp": "a612dd69a5fc1a882ea42aca3d1881d858ea4142fd70e068c704adf42474dcaf",
+      "doi": "10.1177/13548565261449632",
+      "title": "(In)Visible politics: Influencers as brokers of the state on TikTok and Douyin",
+      "pdf_source": "drive",
+      "content_hash": "04035467f883c15554ab6d046bf58429be7e8bc8b0d9f1b92b33871d95a2b478",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-12T18:47:34.962448+00:00"
     }
   },
   "last_full_cluster": "2026-10-12T12:03:05.425945+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 2,
   "register_signals_hash": "4f8e29a99bc2957dd69b13f015c8d6389f3d5ece8491e7c3b8dcc80b165d1e2e",
   "emergent_fp": "5302a0798e55f2190f3b4032ca79b8d82a89f2c8b86725d402dc89daca3a2ac5",
   "structure_fps": {

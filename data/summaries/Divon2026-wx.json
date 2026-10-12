@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper examines how social media influencers—many from ostensibly non-political domains like fitness, food, and lifestyle—strategically engage with the state during political crises to sustain online visibility. Through a content analysis of 589 videos from TikTok in Israel (2023 judicial reform) and Douyin in China (2020 COVID-19 crisis), the authors identify three visibility strategies influencers use to broker state-aligned narratives into platform-native vernaculars. They theorize political brokerage as a visibility practice emerging from transactional relations among influencers, platforms, and the state, arguing that during crises the state itself becomes a strategic visibility resource for influencers across both democratic and authoritarian regimes.",
+  "key_claims": [
+    "During moments of political crisis, the state becomes a strategic visibility resource that influencers draw upon and mobilize, rather than merely a political institution.",
+    "Influencers operate as situational political brokers who translate state-linked discourse into platform-native vernaculars.",
+    "Political brokerage by influencers is enacted through a dual dynamic: proactively (capitalizing on crisis-driven attention) and reactively (aligning with dominant narratives to avoid marginalization).",
+    "Nationalism and patriotism function not as fixed ideologies but as situational repertoires of practice activated during crises to secure visibility.",
+    "Influencers from non-political domains become politically vocal during national crises, complicating existing definitions of 'political influencers.'",
+    "State power and platform governance jointly condition how political alignment, affect, and aesthetics circulate and are rewarded, differing across democratic and authoritarian contexts."
+  ],
+  "methods": [
+    "Comparative content analysis of 589 videos: 244 TikTok videos from 97 Israeli influencers (judicial reform crisis) and 345 Douyin videos from 242 Chinese influencers (COVID-19 crisis).",
+    "Israeli data: compiled from 998 trending hashtags (Jan 4–Jul 15, 2023) yielding 6,533 videos; purposive sampling of Hebrew-language videos referencing judicial reform from accounts with over 10,000 followers in non-political domains.",
+    "Chinese data: drawn from the Douyin Trending Video dataset (Lu and Pan, 2022) tracking 9,946 hashtags and 50,813 videos (Mar 18–Jun 17, 2020); purposive sampling of verified influencers or accounts with over 100,000 followers addressing COVID-19.",
+    "Open coding (Strauss and Corbin) by two authors to identify emergent patterns, followed by multimodal content analysis (Kress and Van Leeuwen) of narration, in-video text, descriptions, images, sound, templates, gestures, and body language.",
+    "Development of a coding framework identifying three visibility strategies; primary and secondary classifications assigned for overlapping or ambiguous cases; profile details and faces blurred for anonymity (AoIR ethics guidelines)."
+  ],
+  "findings": [
+    "Three visibility strategies were operationalized: (1) state glamorization, (2) patriotic expression, and (3) out-group derogation.",
+    "In Israel (244 videos): 61 engaged in state glamorization, 53 in patriotic expression, and 42 in out-group derogation—the latter mostly targeting internal left-wing adversaries framed as threats to national unity.",
+    "In China (345 videos): 86 articulated patriotism (50 celebrating medical workers as heroes), 55 glamorized the state, and only 9 engaged in out-group derogation—primarily targeting the United States or domestic rule-violators.",
+    "Israeli influencers (e.g., fitness and lifestyle creators) embedded pro-reform messaging into viral TikTok templates like 'Freedom Squats' and 'come to work with me,' allowing self-directed political positioning due to limited regional platform oversight.",
+    "Chinese influencers largely reproduced state narratives through standardized, state-aligned scripts (party slogans, hashtags like #BecomingAngelsToGuardYou), reflecting an instrumental mode of participation where compliance increases reach.",
+    "Influencers enacted both proactive brokerage (framing political upheaval as a visibility opportunity) and reactive brokerage (aligning with dominant discourse to avoid invisibility in saturated attention environments)."
+  ],
+  "contributions": [
+    "Introduces and theorizes 'state brokerage' as a visibility practice emerging from transactional relations among influencers, platforms, and the state.",
+    "Extends the concept of political brokerage beyond networked intermediaries to foreground the state as an object and resource of brokerage.",
+    "Offers a cross-regime comparative framework (democratic Israel vs. authoritarian China) on the same corporate platform infrastructure (ByteDance's TikTok and Douyin).",
+    "Provides an operationalizable three-part analytic lens (state glamorization, patriotic expression, out-group derogation) for examining political brokerage within platform visibility infrastructures.",
+    "Reconceptualizes political influencing as a contextual, emergent practice that includes non-political creators who become politically vocal during crises.",
+    "Contributes to understanding the global rise of digital nationalism and 'platform nations' where algorithmic visibility, user participation, and state power intersect."
+  ],
+  "framing": "The paper positions itself at the intersection of visibility studies (Foucauldian and mediated visibility, platform governance, 'playing the visibility game'), political brokerage theory (Carpenter et al.; patron-client intermediaries), and digital nationalism scholarship (Billig's banal/hot nationalism, Brubaker's nationalism as 'category of practice,' Mihelj's 'platform nations'). It engages debates on influencer cultures and short-video platform affordances to argue for a more contextualized, cross-regime understanding of how influencers broker state narratives during crises.",
+  "pdf_source": "drive"
+}

@@ -24,6 +24,7 @@ Analysis of affective polarization, partisan community dynamics, and the interpl
 - [[Darius2026-xl]]
 - [[Dehghan2026-sy]]
 - [[Del-Vicario2016-uj]]
+- [[Divon2026-wx]]
 - [[Elfes2026-jb]]
 - [[Esau2025-tf]]
 - [[Falkenberg2026-ka]]
