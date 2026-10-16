@@ -28,6 +28,7 @@ Research on how generative AI is reshaping disinformation and persuasion, from A
 - [[Kasianenko2026-tn]]
 - [[Kotz2026-lk]]
 - [[Manovich2026-ih]]
+- [[Miller2026-cp]]
 - [[Orlando2025-ul]]
 - [[Perez-Curiel2026-ld]]
 - [[Schiffrin_undated-gi]]

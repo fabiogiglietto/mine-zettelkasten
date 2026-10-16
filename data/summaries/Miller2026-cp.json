@@ -1,0 +1,23 @@
+{
+  "abstract": "This paper describes the design of an open API and AI writer system for scaling X's Community Notes, a crowd-sourced fact-checking and context-adding system. Since September 2025, the AI Note Writer API offers a public interface allowing AI systems to propose notes while preserving the founding principle that human users—not the platform or AI—decide which notes become visible. The approach uses explicit note requests and user posts as triggers while maintaining the open-source, open-data algorithm that determines which notes are shown broadly.",
+  "key_claims": [
+    "AI can be used to propose Community Notes at scale without ceding control over which notes are displayed to the platform or the AI itself.",
+    "Human users, through contribution and rating, should remain the arbiters of which notes show broadly on X.",
+    "An open, public API for AI note writers can extend the Community Notes system while preserving its transparency and community-driven principles."
+  ],
+  "methods": [
+    "Design and deployment of the AI Note Writer API as an open, public interface (launched September 2025).",
+    "Integration of AI-proposed notes into the existing open-source, open-data Community Notes rating and ranking algorithm.",
+    "Use of explicit note requests and user posts as inputs/triggers for note generation (detail truncated in available abstract)."
+  ],
+  "findings": [
+    "Findings are not available from the provided abstract excerpt, which is truncated."
+  ],
+  "contributions": [
+    "An open API design enabling AI participation in Community Notes while retaining human control over note visibility.",
+    "A framework for scaling crowd-sourced contextual annotation that combines AI note generation with community rating.",
+    "Preservation of open-source and open-data principles within an AI-augmented content moderation/context system."
+  ],
+  "framing": "The paper positions itself within research on crowd-sourced content moderation and collaborative fact-checking, and within debates on human control over AI in platform governance. It frames the work around a founding principle that users, rather than the platform or AI, determine which contextual notes are shown.",
+  "pdf_source": "abstract_only"
+}

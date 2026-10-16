@@ -5150,10 +5150,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-13T12:23:49.683772+00:00"
+    },
+    "bibtex:Miller2026-cp": {
+      "note_path": "Papers/Miller2026-cp.md",
+      "topics": [
+        "generative-ai-and-synthetic-media",
+        "platform-governance-data-access"
+      ],
+      "assign_fp": "a1e16276b1d9bf05fc06a58b8655b78f6192db82a136ac2594994d4620c98004",
+      "doi": "",
+      "title": "Community-driven API and AI writer design for openly scaling Community Notes",
+      "pdf_source": "abstract_only",
+      "content_hash": "0a867167b8fccb5e822ff2d2cfd5930f366ef126f5c85b4af52c3820a9f56cda",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-16T13:52:20.688262+00:00"
     }
   },
   "last_full_cluster": "2026-10-12T12:03:05.425945+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "4f8e29a99bc2957dd69b13f015c8d6389f3d5ece8491e7c3b8dcc80b165d1e2e",
   "emergent_fp": "5302a0798e55f2190f3b4032ca79b8d82a89f2c8b86725d402dc89daca3a2ac5",
   "structure_fps": {
