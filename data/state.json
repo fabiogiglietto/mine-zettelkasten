@@ -5161,11 +5161,11 @@
       "doi": "",
       "title": "Community-driven API and AI writer design for openly scaling Community Notes",
       "pdf_source": "abstract_only",
-      "content_hash": "0a867167b8fccb5e822ff2d2cfd5930f366ef126f5c85b4af52c3820a9f56cda",
-      "podcast_linked": false,
+      "content_hash": "943bda8897f1597a0554fe594c9587f10c3c0b51ce569765e00d6810fd029977",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-10-16T13:52:20.688262+00:00"
+      "last_processed": "2026-10-17T08:57:04.689641+00:00"
     }
   },
   "last_full_cluster": "2026-10-12T12:03:05.425945+00:00",
