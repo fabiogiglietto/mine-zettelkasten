@@ -5,7 +5,7 @@ authors: ["Tiago Ventura", "Rajeshwari Majumdar", "Jonathan Nagler", "Joshua Tuc
 year: 2025
 doi: 10.1086/737172
 bibtex_key: Ventura2025-sw
-topics: [electoral-social-media-analysis, information-disorder-fake-news]
+topics: [latin-america-digital-politics, information-disorder-theory]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1086/737172

@@ -5,7 +5,7 @@ authors: ["Soroush Vosoughi", "Deb Roy", "Sinan Aral"]
 year: 2018
 doi: 10.1126/science.aap9559
 bibtex_key: Vosoughi2018-at
-topics: [information-disorder-fake-news, electoral-social-media-analysis]
+topics: [information-disorder-theory, meta-science-of-misinformation-research]
 citation_count: 6671
 open_access: false
 source_url: https://doi.org/10.1126/science.aap9559

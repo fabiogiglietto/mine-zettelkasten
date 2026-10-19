@@ -6,7 +6,7 @@ emergent: false
 
 # Coordinated Inauthentic Behavior
 
-Detection and analysis of coordinated link-sharing and inauthentic networks on social media platforms, including the CooRnet/CLSB methodology, the VERA-AI Alert monitoring system, and case studies of deceptive information operations. This is the researcher's signature methodological contribution and remains the most active strand of his agenda.
+Detection and analysis of coordinated link-sharing and inauthentic network activity on social platforms, spanning the CooRnet/CLSB methodology, the vera.ai WP4 work, and the new VERA-AI Alert monitoring system. This is the researcher's signature methodological contribution and remains the most active line of current publication.
 
 ## Papers
 
@@ -16,25 +16,28 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
 - [[Copland2025-em]]
-- [[De_Leon2025-qn]]
-- [[Di-Domenico2026-zq]]
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
+- [[Eady2023-xg]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
 - [[Gerard2025-br]]
 - [[Giada2026-fc9a3833]]
+- [[Giglietto2020-6278a4aa]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2022-0e951ac5]]
 - [[Giglietto2023-fa71a001]]
 - [[Giglietto2026-9b6a992d]]
 - [[Goel2025-iq]]
+- [[Gonzalez-Bailon2024-rq]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
-- [[Groebner2026-pc]]
+- [[Grinberg2019-ua]]
+- [[Guess2021-ym]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
+- [[Jurg2025-ur]]
 - [[Kansaon2025-id]]
 - [[Karo2026-dn]]
 - [[Keller2019-nk]]
@@ -52,7 +55,6 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Orlando2025-ul]]
 - [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
-- [[Rieder2026-pp]]
 - [[Righetti2025-sl2a]]
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
@@ -66,6 +68,7 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Slack1783507719-slc1]]
 - [[Song2025-yh]]
 - [[Starbird2019-qv]]
+- [[Starbird2025-jj]]
 - [[Thiele2025-ol]]
 - [[Tuters2026-vo]]
 - [[Yang2025-iv]]

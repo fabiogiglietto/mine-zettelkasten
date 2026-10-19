@@ -5,7 +5,7 @@ authors: ["Caroline Gardam", "Michelle Riedlinger", "Daniel Angus", "Xue Ying (J
 year: 2025
 doi: 10.1016/j.dcm.2025.100946
 bibtex_key: Gardam2025-er
-topics: [digital-media-research-methods, information-disorder-fake-news]
+topics: [llm-computational-methods, platforms-audiences-and-online-communities]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.1016/j.dcm.2025.100946

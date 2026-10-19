@@ -5,7 +5,7 @@ authors: ["Nir Grinberg", "Kenneth Joseph", "Lisa Friedland", "Briony Swire-Thom
 year: 2019
 doi: 10.1126/science.aau2706
 bibtex_key: Grinberg2019-ua
-topics: [electoral-social-media-analysis, information-disorder-fake-news]
+topics: [coordinated-inauthentic-behavior, political-polarization-partisanship]
 citation_count: 1290
 open_access: false
 source_url: https://doi.org/10.1126/science.aau2706

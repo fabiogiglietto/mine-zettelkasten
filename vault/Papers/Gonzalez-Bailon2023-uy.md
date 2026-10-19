@@ -5,7 +5,7 @@ authors: ["Sandra González-Bailón", "David Lazer", "Pablo Barberá", "Meiqing 
 year: 2023
 doi: 10.1126/science.ade7138
 bibtex_key: Gonzalez-Bailon2023-uy
-topics: [electoral-social-media-analysis, political-polarization-partisanship]
+topics: [political-polarization-partisanship, computational-political-media-influence]
 citation_count: 257
 open_access: false
 source_url: https://doi.org/10.1126/science.ade7138

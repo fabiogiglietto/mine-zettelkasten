@@ -5,7 +5,7 @@ authors: ["Jin Wan", "Theo Araujo", "Natali Helberger", "Claes de Vreese"]
 year: 2026
 doi: 10.1093/jcmc/zmag022
 bibtex_key: Wan2026-ai
-topics: [platforms-audiences-and-online-communities, digital-media-research-methods]
+topics: [social-media-platform-affordances, computational-political-media-influence]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1093/jcmc/zmag022

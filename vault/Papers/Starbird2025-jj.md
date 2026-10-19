@@ -5,7 +5,7 @@ authors: ["Kate Starbird", "Stephen Prochaska", "Ben Yamron"]
 year: 2025
 doi: 10.1145/3757522
 bibtex_key: Starbird2025-jj
-topics: [information-disorder-fake-news, electoral-social-media-analysis]
+topics: [information-disorder-theory, coordinated-inauthentic-behavior]
 citation_count: 2
 open_access: false
 source_url: https://doi.org/10.1145/3757522

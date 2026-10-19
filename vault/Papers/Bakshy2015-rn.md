@@ -5,7 +5,7 @@ authors: ["Eytan Bakshy", "Solomon Messing", "Lada A. Adamic"]
 year: 2015
 doi: 10.1126/science.aaa1160
 bibtex_key: Bakshy2015-rn
-topics: [electoral-social-media-analysis, platforms-audiences-and-online-communities]
+topics: [political-polarization-partisanship, social-media-platform-affordances]
 citation_count: 2275
 open_access: false
 source_url: https://doi.org/10.1126/science.aaa1160
