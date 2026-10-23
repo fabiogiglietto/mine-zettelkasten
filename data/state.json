@@ -5158,10 +5158,23 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-17T08:57:04.689641+00:00"
+    },
+    "bibtex:King2026-av": {
+      "note_path": "Papers/King2026-av.md",
+      "topics": [],
+      "assign_fp": "ba067d9b3d0dd32e2eeef528cdaa61d3380df89aefabb3d1fcc90f85a7921018",
+      "doi": "",
+      "title": "AI article reviews dominate human peer reviews at their best: Evidence and policy choices",
+      "pdf_source": "abstract_only",
+      "content_hash": "a150280eab699cde87140370ebf8dea91916c7794e2779970486247066e15920",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-23T17:48:40.327924+00:00"
     }
   },
   "last_full_cluster": "2026-10-19T10:04:03.692648+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "0cd70ff2e9c1f0db479df2dad0eac7a340f33cb2e48d33715fdc06dc9a080cb0",
   "emergent_fp": "43a8e87cc4bd86ed28b91b36c2a8cd51aba50670f8b327a9d4a7391a2a24c85b",
   "structure_fps": {
