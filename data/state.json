@@ -5171,10 +5171,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-23T17:48:40.327924+00:00"
+    },
+    "bibtex:Kuznetsova2026-hw": {
+      "note_path": "Papers/Kuznetsova2026-hw.md",
+      "topics": [
+        "platform-data-governance",
+        "information-disorder-theory"
+      ],
+      "assign_fp": "6e33c0e621d5ee84c9e9467ca953eb0e2a60be646bc916052b6d9970cacfcc61",
+      "doi": "10.1177/29768624261499168",
+      "title": "All talk, no rules: Content moderation practices and discursive strategies in platform governance of climate misinformation",
+      "pdf_source": "drive",
+      "content_hash": "af7a214d7b5d4790963261d8c1abd2b1a4ef936d816c02055f8ff629a5866f70",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-25T10:03:35.182140+00:00"
     }
   },
   "last_full_cluster": "2026-10-19T10:04:03.692648+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "0cd70ff2e9c1f0db479df2dad0eac7a340f33cb2e48d33715fdc06dc9a080cb0",
   "emergent_fp": "43a8e87cc4bd86ed28b91b36c2a8cd51aba50670f8b327a9d4a7391a2a24c85b",
   "structure_fps": {

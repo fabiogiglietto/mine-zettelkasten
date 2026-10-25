@@ -1,0 +1,40 @@
+{
+  "abstract": "This article examines how four major social media platforms—Meta, YouTube, TikTok, and X/Twitter—govern climate misinformation and how they discursively justify their interventions. Through qualitative content analysis of 95 platform documents (formal policies and public communications), the paper finds that climate misinformation is rarely treated as a distinct, high-priority category in formal rules, with platforms favoring 'soft' interventions like labeling and demotion over removal. It identifies three cross-platform discursive strategies through which platforms construct a narrative of benevolence and neutrality that legitimizes limited regulatory effort while redistributing governance responsibility to other actors. The paper argues that platforms replace enforceable duties with performative evidence of care and calls for external oversight.",
+  "key_claims": [
+    "Climate misinformation is rarely treated as a distinct, high-priority category in platform policies; commitments stated in public communications are frequently absent from formal rules.",
+    "Platforms predominantly rely on 'soft' moderation interventions (labeling, demotion, demonetization) while largely avoiding content removal of climate misinformation.",
+    "Platforms use three recurring cross-platform discursive strategies—'increasing the good, decreasing the bad,' 'empowering others,' and 'authorizing content creators'—to legitimize limited intervention and redistribute responsibility.",
+    "These discursive strategies allow platforms to cultivate a narrative of benevolence and neutrality that substitutes performative evidence of care for enforceable duties.",
+    "Neither the availability of scientific consensus nor the presence of political contestation adequately explains the absence of climate-specific content moderation, since platforms developed stricter rules for comparably contested domains like COVID-19 and election misinformation.",
+    "Platform self-governance of climate misinformation is structurally limited, pointing to the need for external oversight that specifies and enforces platform obligations."
+  ],
+  "methods": [
+    "Qualitative content analysis of 95 public-facing platform documents across Meta, YouTube, TikTok, and X/Twitter.",
+    "Documents gathered using Goanta's (2023) platform documentation framework via Google Advanced Search with keywords ('climate content,' 'climate misinformation,' 'climate disinformation,' 'climate change') filtered by platform site names, in early 2025.",
+    "Supplementary direct navigation of community guidelines, advertising policies, and enforcement documentation to detect gaps between policy types and public communications.",
+    "For RQ1: thematic coding classifying documentation as 'explicit,' 'implicit,' or 'not mentioned,' and applying Schaffner et al.'s (2024) elements of comprehensive content moderation (platform responses and moderation criteria).",
+    "For RQ2: inductive qualitative content analysis and thematic coding (following Braun and Clarke, 2006; Scharp and Sanders, 2019) to identify recurring rhetorical patterns, grouped through constant comparison into higher-order discursive strategies.",
+    "Dataset composition (Table 1): YouTube 25, Meta 26, TikTok 26, X/Twitter 18 documents; most public communication documents published 2020–2023."
+  ],
+  "findings": [
+    "All four platforms explicitly addressed climate misinformation in public communications, but formal policy integration was uneven or absent.",
+    "TikTok is the only platform with clear rules in both content and advertising guidelines, treating climate misinformation as a distinct category and employing removal as a sanction.",
+    "Meta offers the most extensive public communication coverage (e.g., 'Our Approach to Climate Content') but has no formal rules in Facebook or Instagram community guidelines or ad policies.",
+    "YouTube addresses climate misinformation only in advertiser-facing documentation (demonetization), not in general Community Guidelines; X/Twitter addresses it only in the Curation Style Guide for X Moments, a single feature.",
+    "Only TikTok removes user-posted climate misinformation; other platforms rely on demotion, labels, informational hubs, and monetization restrictions. All platforms claim to block climate-misleading ads.",
+    "Moderation criteria across platforms anchor definitions in 'scientific consensus,' but definitions often remain abstract and require external knowledge; only TikTok and Meta provide concrete examples.",
+    "Strategy 1 ('increasing the good, decreasing the bad'): platforms justify soft moderation by framing counter-speech and authoritative content promotion as remedies, invoking free expression and epistemic modesty, and citing engagement metrics as 'quantified legitimacy.'",
+    "Strategy 2 ('empowering others'): platforms position themselves as enabling infrastructures that externalize epistemic authority to experts, NGOs, and users, shifting the burden of managing harms onto others.",
+    "Strategy 3 ('authorizing content creators'): platforms—especially those with creator economies (TikTok, YouTube, Meta)—portray creators as moral agents bearing responsibility for climate education and action while platforms claim the moral credit.",
+    "A cross-cutting feature is selective operationalization of scientific authority—invoked to define misinformation but withheld as a basis for removal."
+  ],
+  "contributions": [
+    "Provides a systematic cross-platform comparison of how climate misinformation is formally regulated versus publicly communicated across four major platforms.",
+    "Extends platform governance scholarship beyond policy monitoring to the discursive-normative dimension, identifying a specific repertoire of three discursive strategies in climate misinformation governance.",
+    "Documents and theorizes the misalignment between platforms' stated commitments and codified/enforceable rules in the climate domain, adding evidence to the 'governance-washing' literature.",
+    "Situates climate misinformation as a distinctive governance puzzle (settled epistemic grounds but politically contested) and contrasts platform responses with COVID-19 and election misinformation domains.",
+    "Argues for external regulatory oversight (e.g., via the EU Digital Services Act systemic risk framework) given the structural limits of platform self-governance."
+  ],
+  "framing": "The paper positions itself within platform governance scholarship, drawing on Gillespie, Katzenbach, and work on discursive legitimation (Vaara) and strategic self-representation, while engaging climate communication research on misinformation. It frames climate misinformation as a distinctive governance puzzle where scientific consensus is settled but the issue is politically contested, highlighting the 'legitimacy dilemma' platforms face and the gap between what they say and what they enforce.",
+  "pdf_source": "drive"
+}

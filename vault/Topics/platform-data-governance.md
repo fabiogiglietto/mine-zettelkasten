@@ -51,6 +51,7 @@ Research on social media platforms' data-access regimes, API restrictions, and c
 - [[Jurg2025-ur]]
 - [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]
+- [[Kuznetsova2026-hw]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
 - [[McNally2025-dn]]

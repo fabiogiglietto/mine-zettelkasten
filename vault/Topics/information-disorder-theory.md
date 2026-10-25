@@ -50,6 +50,7 @@ Conceptual and taxonomic work on misinformation, 'fake news' and information dis
 - [[Kasianenko2026-tn]]
 - [[Keller2019-nk]]
 - [[Kim2026-wg]]
+- [[Kuznetsova2026-hw]]
 - [[Lazer2018-mm]]
 - [[Lewandowsky2012-vn]]
 - [[Lewandowsky2026-ob]]
