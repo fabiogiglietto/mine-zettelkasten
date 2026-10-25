@@ -22,30 +22,30 @@ discovery_date: 2026-10-25T11:09:25.219314Z
 
 ## Summary
 
-This Master's dissertation investigates whether and how Instagram transforms the work relations and practices of self-employed professional tattoo artists in Brazil. Working from a neo-materialist framework that treats platforms as active, non-human agents, it argues that Instagram "tattoos the tattooers" — folding new tasks, temporal regimes, workspace reconfigurations, and identity shifts into an occupation that predates and does not originally depend on digital platforms. Through autoethnography and a 590-respondent survey, the author concludes that Instagram use generates dependence, blurs labor with leisure, and can transform tattoo artists into influencers and into products themselves, thereby extending the concept of platformized labor to freelance creative workers.
-
-(Note: the provided title and bylines are inconsistent — the structured summary describes a 2021 dissertation by Helen Fernandes Sousa under André Lemos; this note follows that summary.)
+Cotter examines how Instagram influencers consciously and strategically engage with the platform's ranking algorithms in pursuit of visibility. Drawing on platform studies and critical scholarship on algorithmic power, the article reframes the popular narrative of "gaming the system" as "playing the visibility game" — a contest structured by rules encoded in algorithms, in which influencers learn, interpret, and strategize around those rules. The central argument is that algorithms *structure* but do not *unilaterally determine* behavior: user interpretation and preexisting cultural discourses mediate how algorithmic knowledge is translated into concrete tactics. By recasting the dynamic as a game played by an assemblage of interdependent actors — users, algorithms, and platform owners as "game masters" — Cotter shifts attention from lone "bad actors" toward the structural accountability of platforms and the digital inequalities the game reproduces.
 
 ## Key Contributions
 
-- Extends platformization-of-labor typologies (Grohmann; Graham & Woodcock; Casilli & Posada; Schmidt; Scholz) to freelance workers who use social networks as de facto work platforms.
-- Provides an empirical case study — autoethnography plus a 590-respondent survey — of platform effects on an occupation not designed around platforms.
-- Offers a neo-materialist analytic model for studying how platforms "make-do" (*fazer-fazer*) and reshape self-employed work.
-- Documents concrete mechanisms of labor precarization (dependence, unpaid labor, surveillance) among independent creative professionals in Brazil.
+- Introduces the **"visibility game"** as an analytical framework for studying conscious, instrumental user–algorithm interactions.
+- Reframes "gaming the system" to hold platform owners accountable as rule-setting "game masters" while preserving user agency.
+- Empirically shows that algorithmic knowledge-building and interpretation *moderate* algorithmic power rather than being wholly determined by it.
+- Demonstrates how preexisting cultural discourses (authenticity, entrepreneurship) mediate the translation of algorithmic knowledge into tactics.
+- Opens research agendas on platform owners' role, third-party marketing actors, and embedded digital inequalities.
 
 ## Methods
 
-A neo-materialist, less anthropocentric methodology (drawing on Lemos, Alldred & Fox, Coole & Frost) frames the inquiry. The work combines a descriptive analysis of Instagram's interface, tools, account types, and algorithmic functioning; an autoethnography of the author's own tattooing practice and professional account data; and an online survey of 590 professional tattoo artists. Findings are triangulated across the autoethnographic data, the survey, and the theoretical literature.
+Thematic analysis of online communications among aspiring and established Instagram influencers. Relevant "closed" Facebook groups were identified via keyword searches (e.g., "digital influencer," "Instagram influencer"), with snowball sampling used to follow the object of study across blogs, YouTube videos, third-party company materials, and comment sections. Data were collected September 2017–January 2018 until saturation, with multiple rounds of open coding of data and field notes. Ethical safeguards included slightly altering direct quotes from closed groups while quoting and citing public material verbatim.
 
 ## Findings
 
-- Instagram use produces dependence, as artists rely on the platform to be found by clients.
-- It modifies worker profiles, makes the workspace "Instagrammable," and reshapes activities, procedures, and aesthetic creation.
-- It adds substantial unpaid labor (portfolio maintenance, client communication, learning the platform) often unmeasured or experienced as leisure.
-- Success depends on "playing the platform game" — adapting image formats, branding, and practices to Instagram's materiality and algorithmic performativity.
-- Tattoo artists may become digital influencers and products, increasingly hired by brands for advertising.
-- Survey results largely confirmed the autoethnographic perceptions while revealing some unexpected platform-tied changes in the field.
+- Influencers treat learning algorithmic "rules" as part of the job — conducting "research," exchanging information, and running empirical "A/B" or "beta" tests to decipher the algorithm.
+- Engagement (likes, comments) and follower counts — especially the engagement-to-follower ratio — are seen as the primary drivers and indicators of visibility ("engagement comes from engagement").
+- Fears of sanctions such as "banning" and "shadowbanning" materially shape strategy (e.g., diversifying hashtags).
+- Two interpretations emerge: **relational influence** (algorithms detect authentic connectivity; emphasis on genuine relationships and original content) and **simulated influence** (connectivity can be algorithmically mimicked).
+- Simulation tactics include automation bots (riskier after crackdowns), reciprocal engagement "pods," and follow/unfollow strategies to inflate status-signaling ratios.
+- The relational interpretation aligns with authenticity ideals, the simulation interpretation with entrepreneurial logics — showing culture shapes tactics beyond algorithmic directives.
+- Veteran influencers perceive the algorithmic transition as a shift from an "arena of equal opportunity" to a "pay-to-play" plutocracy favoring already-resourced actors.
 
 ## Connections
 
-The dissertation's attention to how creators internalize and strategize around algorithmic visibility resonates with work on algorithmic folk theories and the "visibility game" in [[Bucher2017-qh]] and Cotter2019-p- style arguments, and its focus on platform-dependent creative labor and influencer economies connects to [[Petre2019-zh]] on data-driven production and [[Baym2026-tr]] on relational and musician labor online. Its treatment of self-branding and audience-facing self-presentation also links to [[Marwick2011-sl02]]. (Note: a Cotter 2019 key was not among those provided, so no link is made to it.)
+This paper is foundational to the strand of work on how users interpret and strategize around opaque ranking systems; it extends Bucher's account of algorithmic visibility and the "algorithmic imaginary," closely linked to [[Bucher2017-qh]]. Its focus on influencer labor, platform power, and the economics of visibility connects to Petre's work on metrics and platform dependency [[Petre2019-zh], the political-economic platform critique of [[van-Dijck2018-up]], and the self-branding and micro-celebrity tradition in [[Marwick2011-sl02]]. The theme of users negotiating with platform affordances and algorithmic structures also resonates with [[Baym2026-tr]].

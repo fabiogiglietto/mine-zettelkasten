@@ -5219,10 +5219,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-25T11:12:22.509509+00:00"
+    },
+    "bibtex:Cotter2019-js": {
+      "note_path": "Papers/Cotter2019-js.md",
+      "topics": [
+        "social-media-platform-affordances",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "0ec42fba7517b59d5638053bcafe442dbad21fda520e783917c971aa258bd997",
+      "doi": "10.1177/1461444818815684",
+      "title": "Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram",
+      "pdf_source": "drive",
+      "content_hash": "7633cf5b8644cb357963860019535a94c71a883c3d911f6e86190ee404e4ed13",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-25T12:40:34.777048+00:00"
     }
   },
   "last_full_cluster": "2026-10-19T10:04:03.692648+00:00",
-  "papers_since_cluster": 5,
+  "papers_since_cluster": 6,
   "register_signals_hash": "0cd70ff2e9c1f0db479df2dad0eac7a340f33cb2e48d33715fdc06dc9a080cb0",
   "emergent_fp": "43a8e87cc4bd86ed28b91b36c2a8cd51aba50670f8b327a9d4a7391a2a24c85b",
   "structure_fps": {

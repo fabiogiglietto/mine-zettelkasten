@@ -1,0 +1,37 @@
+{
+  "abstract": "This article examines how Instagram influencers consciously and instrumentally interact with the platform's ranking algorithms in their pursuit of visibility. Through a thematic analysis of online discussions among aspiring and established influencers, Cotter argues that this pursuit resembles a 'visibility game' structured by rules encoded in algorithms, in which influencers learn, interpret, and strategize around those rules. The study reframes what is often called 'gaming the system' as 'playing the visibility game,' shifting focus from lone manipulators to an assemblage of interdependent actors (users, algorithms, and platform owners) and demonstrating that algorithms structure but do not unilaterally determine user behavior.",
+  "key_claims": [
+    "Influencers' pursuit of visibility on Instagram resembles a 'game' constructed around rules embedded in algorithms that regulate visibility.",
+    "Reframing 'gaming the system' as 'playing the visibility game' reveals the interdependency between users, algorithms, and platform owners rather than blaming lone 'bad actors.'",
+    "Algorithms structure and parameterize user behavior but do not unilaterally determine it; influencers' interpretations intervene in how rules are instrumentalized.",
+    "Influencers 'play by the rules but not always by the spirit of the rules,' meaning compliance with technical rules does not preclude tactics that conflict with platform owners' intentions.",
+    "Culture shapes behavior as much as code: preexisting influencer discourses on authenticity and entrepreneurship drive divergent interpretations of algorithms and tactical choices.",
+    "The visibility game may reinforce existing social privilege and digital inequalities, favoring 'winners' with greater social, cultural, political, and economic resources."
+  ],
+  "methods": [
+    "Thematic analysis of online communications among aspiring and established Instagram influencers.",
+    "Identification of relevant 'closed' Facebook groups via keyword searches (e.g., 'digital influencer,' 'Instagram influencer,' 'Instagram').",
+    "Snowball sampling to follow the object of study across the internet, including blogs, YouTube videos, third-party company materials, and comment sections.",
+    "Data collection from September 2017 through January 2018, with field notes and anonymized direct quotes collected until saturation.",
+    "Multiple rounds of open coding of data and field notes.",
+    "Ethical safeguards: direct quotes from closed groups were slightly altered to protect privacy, while public blog posts and YouTube videos were quoted verbatim and cited."
+  ],
+  "findings": [
+    "Influencers treat learning algorithmic 'rules' as part of their job, engaging in 'research,' information exchange, and empirical 'A/B' or 'beta' testing to decipher the algorithm.",
+    "Influencers identify engagement (likes, comments) and follower counts—especially the engagement-to-follower ratio—as the primary drivers and indicators of visibility, expressed in the mantra 'engagement comes from engagement.'",
+    "Fears of algorithmic sanctions such as 'banning' and 'shadowbanning' materially shape influencer strategies (e.g., diversifying hashtags).",
+    "Two prominent interpretations emerge: 'relational influence,' which holds that algorithms can detect authentic connectivity and emphasizes genuine relationship-building and original content; and 'simulated influence,' which holds that connectivity can be algorithmically mimicked.",
+    "Simulation tactics include automation 'bots' (increasingly risky after platform crackdowns), reciprocal engagement 'pods,' and follow/unfollow (F/UF) strategies to boost status-signaling ratios.",
+    "The relational interpretation aligns with the authenticity ideal while the simulation interpretation aligns with entrepreneurial logics of ingenuity and individual prowess, showing cultural discourses shape tactics beyond algorithmic directives.",
+    "Veteran influencers perceive the algorithmic transition as shifting the platform from an 'arena of equal opportunity' to a 'pay-to-play' plutocracy that advantages already-resourced actors."
+  ],
+  "contributions": [
+    "Introduces the 'visibility game' as an analytical framework for studying conscious, instrumental interactions between users and algorithms.",
+    "Reframes the 'gaming the system' narrative to hold platform owners accountable as 'game masters' who set and revise rules while recognizing user agency.",
+    "Empirically demonstrates how algorithmic knowledge-building and interpretation moderate algorithmic power rather than being wholly determined by it.",
+    "Shows how preexisting cultural discourses (authenticity, entrepreneurship) mediate the translation of algorithmic knowledge into concrete visibility tactics.",
+    "Opens future research questions about platform owners' role, third-party marketing actors, and digital inequalities embedded in the visibility game."
+  ],
+  "framing": "The paper positions itself within platform studies and critical scholarship on algorithmic power, drawing on Bucher's Foucauldian account of visibility as a reward and the 'threat of invisibility,' Gillespie's and Pasquale's work on algorithmic opacity, and Bucher's 'algorithmic imaginary.' It extends these through game analogies rooted in social theory—especially Galloway's view of games as algorithmic culture and Bourdieu's 'game of culture' and field theory—while engaging literatures on digital influencers, micro-celebrity, self-branding, authenticity, and entrepreneurial brand cultures.",
+  "pdf_source": "drive"
+}
