@@ -1,0 +1,36 @@
+{
+  "abstract": "This article examines how technology platforms discursively frame cultural producers' visibility-enhancement practices (such as SEO, reciprocal linking, and automated engagement-boosting) as illegitimate 'gaming the system.' Through qualitative content analysis of news coverage and platform guidelines surrounding three high-profile cases, the authors argue that the boundary between legitimate strategy and illegitimate manipulation is nebulous and reflects platforms' material interests, while being justified in strongly normative moral terms. They introduce the concept of 'platform paternalism' to describe how platforms unilaterally issue rules and punishments framed as being in users' best interest, thereby legitimizing their own power and exacerbating inequalities among cultural workers.",
+  "key_claims": [
+    "The line between what platforms deem illegitimate algorithmic manipulation ('gaming') and legitimate strategy is nebulous, continually shifting, and largely reflective of platforms' material and commercial interests rather than coherent normative principles.",
+    "Platforms and the press frame the manipulation/strategy distinction in strongly normative, moral terms—condemning accused 'system-gamers' as dishonest and morally deviant while casting platforms as neutral actors defending authenticity and integrity.",
+    "This dynamic, termed 'platform paternalism,' allows platforms to issue unilateral, non-negotiable rules and punishments that purport to serve users' interests while actually legitimating platform power and moral authority.",
+    "System-gaming discourse obscures platforms' economic self-interest, particularly their push to funnel creators toward paid advertising rather than free visibility strategies.",
+    "Gaming accusations exacerbate inequalities, disadvantaging independent and resource-poor cultural producers who are less able to defend against accusations, recover visibility, or pay for platform advertising.",
+    "A striking double standard exists whereby automation, scale, and rapid growth are valorized when practiced by platforms but condemned as manipulative when used by cultural producers."
+  ],
+  "methods": [
+    "Comparative analysis of three heuristic case studies (conceived as 'data outcroppings') in which major platforms accused cultural producers of algorithmic manipulation: Google demoting Rap Genius for SEO/link schemes (2013), Facebook demoting 'engagement bait' (2017), and Instagram shutting down the botting service Instagress (2017).",
+    "Qualitative content analysis of 105 news/technology articles, gathered via time-specified Google News searches (first 35 relevant articles per case) using case-specific search terms, covering coverage from one day before to one year after each public announcement.",
+    "Collection and analysis of 7 official platform statements and content-creation guidelines from Google, Facebook, and Instagram.",
+    "Inductive coding using Dedoose software following a grounded theory approach, with categories including discursive boundaries between legitimate/illegitimate practices, metaphoric language, invocations of authenticity, and producers' responses.",
+    "Cases were selected to vary by accused parties' status and resources (well-funded startup, universal application, and independent creators) to examine interaction with existing material inequalities."
+  ],
+  "findings": [
+    "Both platforms and press construct a moral boundary between condemned 'gaming' behaviors and permitted 'legitimate' practices, consistently organized around the ideal of authenticity, with accused parties cast as inauthentic and morally deviant.",
+    "Three recurring metaphor clusters emerged: 'organic versus artificial' (Google's use of 'organic' and 'unnatural' co-opting associations with virtue, health, and neutrality), 'crime and deviance' (framing creators as 'offenders' and platforms as law enforcement or a vengeful authority), and 'games and cheating' (likening gaming to steroid use or 'corking the bat,' with platforms as fair referees).",
+    "Platforms invoke an archetypal 'Strict Father' authority figure (Lakoff), expecting obedience, issuing non-negotiable pronouncements, and metering out retributive punishment via demotions, penalty boxes, and bans.",
+    "Facebook's abrupt reversal—labeling as 'engagement bait' the very text prompts and calls-to-action it had earlier recommended in 'best practices'—vividly illustrates the arbitrary, platform-constructed, and ephemeral nature of the gaming/legitimate boundary.",
+    "Media coverage largely reproduced platform framing uncritically and held individual creators culpable, though a small subset questioned platform motivations and structural incentives.",
+    "Punishments disproportionately harmed less-resourced producers: Rap Genius could devote venture-capital resources to recovery, while independent creators who lost Instagress struggled for affordable alternatives and turned to similarly disparaged 'pods.'"
+  ],
+  "contributions": [
+    "Introduces and theorizes the concept of 'platform paternalism' as a mechanism through which platforms establish, maintain, and legitimize their institutional and moral authority.",
+    "Reframes 'gaming the algorithm' as a politically charged, contested, and shifting category rather than an apolitical, fixed descriptor of specific practices.",
+    "Shifts scholarly attention from content moderation toward the understudied phenomenon of system-gaming accusations and their punitive 'crackdowns.'",
+    "Demonstrates empirically how authenticity discourse and metaphor (organic/artificial, crime/deviance, cheating) perform normative boundary work that serves platforms' commercial interests.",
+    "Connects platform governance to the reproduction of inequality in cultural production, showing how gaming accusations deepen winner-take-all dynamics disadvantaging independent creators.",
+    "Calls for democratizing the deliberative process by which definitions of algorithmic manipulation are formulated and enforced."
+  ],
+  "framing": "The paper situates itself within critical scholarship on the platformization of cultural production, algorithmic visibility, and platform power (e.g., Gillespie, Bucher, Cotter, Ziewitz, Napoli, Nieborg & Poell), extending work on algorithmic imaginaries, folk theories, and content moderation. It draws on Consalvo's analysis of cheating, Lakoff and Johnson's metaphor theory, and media sociology to argue that platforms acquire not merely structural and economic power but moral authority, operating as largely unaccountable arbiters of the public sphere.",
+  "pdf_source": "drive"
+}

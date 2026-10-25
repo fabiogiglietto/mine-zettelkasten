@@ -5187,10 +5187,58 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-25T10:03:35.182140+00:00"
+    },
+    "bibtex:Bucher2017-qh": {
+      "note_path": "Papers/Bucher2017-qh.md",
+      "topics": [
+        "social-media-platform-affordances",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "59b8c34788e98d0c8f48be286320372b6170b1cb44d1bbfd9ccee01d801f9d68",
+      "doi": "10.1080/1369118x.2016.1154086",
+      "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms",
+      "pdf_source": "drive",
+      "content_hash": "94ac07989100ee438ea5d1ccbd5aaee9d458f3ec27a3aecf9c3e2d4764a3eb73",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-25T11:11:50.251133+00:00"
+    },
+    "bibtex:Cotter2019-js": {
+      "note_path": "Papers/Cotter2019-js.md",
+      "topics": [
+        "social-media-platform-affordances",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "37a7beac4e67867174e49caaba3e78b2280993de6e1b392a6a9cccf3c23eb3ec",
+      "doi": "10.1177/1461444818815684",
+      "title": "Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram",
+      "pdf_source": "drive",
+      "content_hash": "7633cf5b8644cb357963860019535a94c71a883c3d911f6e86190ee404e4ed13",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-25T11:12:06.152708+00:00"
+    },
+    "bibtex:Petre2019-zh": {
+      "note_path": "Papers/Petre2019-zh.md",
+      "topics": [
+        "social-media-platform-affordances",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "19750e8332cd963d482352b06bb30d8b455e0f306905992eadfb6944a25b55be",
+      "doi": "10.1177/2056305119879995",
+      "title": "“gaming the system”: Platform paternalism and the politics of algorithmic visibility",
+      "pdf_source": "drive",
+      "content_hash": "d732e070f4cf45656f12c42f2bd6e4006dfd826401d14e8fa460ae0b10cac8a6",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-25T11:12:22.509509+00:00"
     }
   },
   "last_full_cluster": "2026-10-19T10:04:03.692648+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 5,
   "register_signals_hash": "0cd70ff2e9c1f0db479df2dad0eac7a340f33cb2e48d33715fdc06dc9a080cb0",
   "emergent_fp": "43a8e87cc4bd86ed28b91b36c2a8cd51aba50670f8b327a9d4a7391a2a24c85b",
   "structure_fps": {
