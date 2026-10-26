@@ -5,7 +5,7 @@ authors: ["Vasilisa Kuznetsova"]
 year: 2026
 doi: 10.1177/29768624261499168
 bibtex_key: Kuznetsova2026-hw
-topics: [platform-data-governance, information-disorder-theory]
+topics: [platform-governance-and-researcher-data-access, information-disorder-and-disinformation-narratives]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/29768624261499168

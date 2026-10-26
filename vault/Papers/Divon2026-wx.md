@@ -5,7 +5,7 @@ authors: ["Tom Divon", "Yingdan Lu"]
 year: 2026
 doi: 10.1177/13548565261449632
 bibtex_key: Divon2026-wx
-topics: [platforms-audiences-and-online-communities, political-polarization-partisanship]
+topics: [platforms-audiences-and-online-communities, political-polarization-media-ecosystems]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/13548565261449632

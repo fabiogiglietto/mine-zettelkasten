@@ -5,7 +5,7 @@ authors: ["Hunt Allcott", "Matthew Gentzkow", "Chuan Yu"]
 year: 2019
 doi: 10.3386/w25500
 bibtex_key: Allcott2019-gn
-topics: [platform-data-governance, information-disorder-theory]
+topics: [information-disorder-and-disinformation-narratives, facebook-algorithmic-governance]
 citation_count: 80
 open_access: false
 source_url: https://doi.org/10.3386/w25500

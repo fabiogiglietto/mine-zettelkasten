@@ -5,7 +5,7 @@ authors: ["Thomas H Costello", "Gordon Pennycook", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/xcwdn
 bibtex_key: Costello2024-bg
-topics: [llm-computational-methods, health-misinformation]
+topics: [generative-ai-for-content-analysis, information-disorder-and-disinformation-narratives]
 citation_count: 12
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/xcwdn

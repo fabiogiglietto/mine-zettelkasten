@@ -5,7 +5,7 @@ authors: ["Nicolas Berlinski", "Margaret Doyle", "Andrew M. Guess", "Gabrielle L
 year: 2023
 doi: 10.1017/xps.2021.18
 bibtex_key: Berlinski2023-rj
-topics: [survey-measurement-validity, information-disorder-theory]
+topics: [information-disorder-and-disinformation-narratives, survey-measurement-validity]
 citation_count: 170
 open_access: false
 source_url: https://doi.org/10.1017/xps.2021.18

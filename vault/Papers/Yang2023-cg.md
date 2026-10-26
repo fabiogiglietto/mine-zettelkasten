@@ -5,7 +5,7 @@ authors: ["Yunkang Yang", "Trevor Davis", "Matthew Hindman"]
 year: 2023
 doi: 10.1093/joc/jqac051
 bibtex_key: Yang2023-cg
-topics: [generative-ai-disinformation, computational-political-media-influence]
+topics: [information-disorder-and-disinformation-narratives, facebook-algorithmic-governance]
 citation_count: 81
 open_access: false
 source_url: https://doi.org/10.1093/joc/jqac051

@@ -5,7 +5,7 @@ authors: ["Seth Flaxman", "Sharad Goel", "Justin M. Rao"]
 year: 2016
 doi: 10.2139/ssrn.2363701
 bibtex_key: Flaxman2016-lm
-topics: [political-polarization-partisanship, social-media-platform-affordances]
+topics: [political-polarization-media-ecosystems, computational-political-media-influence]
 citation_count: 27
 open_access: false
 source_url: https://doi.org/10.2139/ssrn.2363701

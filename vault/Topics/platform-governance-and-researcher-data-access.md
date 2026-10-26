@@ -1,17 +1,16 @@
 ---
 type: topic
-slug: platform-data-governance
+slug: platform-governance-and-researcher-data-access
 emergent: false
 ---
 
-# Platform Data Access & Governance
+# Platform Governance and Researcher Data Access
 
-Research on social media platforms' data-access regimes, API restrictions, and content-moderation/governance policies (e.g. CrowdTangle shutdown, Meta's URL Shares Dataset threshold, political content reduction policy, DSA-era research APIs), including the PI's EU expert-group work on systemic risk assessment under the Digital Services Act.
+Work on how social media platforms regulate, restrict, or structure third-party research access to data—spanning the Digital Services Act researcher access provisions, EU Article 40(12) expert service with the JRC/ECAT, the state of social media research APIs post-CrowdTangle, and analyses of dataset thresholds (e.g., Meta's URL Shares Dataset). Reflects the agenda's current regulatory and institutional engagement.
 
 ## Papers
 
 - [[Ahuja2025-ku]]
-- [[Allcott2019-gn]]
 - [[Allen2021-ai]]
 - [[Allen2025-ot]]
 - [[Annabell2026-ev]]
@@ -20,19 +19,13 @@ Research on social media platforms' data-access regimes, API restrictions, and c
 - [[Balluff2026-bv]]
 - [[Bastos2025-ya]]
 - [[Bechmann2026-dr]]
-- [[Bouchaud2026-lr]]
-- [[Bouchaud2026-np]]
 - [[Bruns2019-nr]]
 - [[Bruns2026-pn]]
-- [[Bruns2026-yv]]
 - [[Cazzamatta2026-lo]]
-- [[Crichton2026-kn]]
 - [[Crosset2026-mq]]
 - [[Cullen2026-cb]]
-- [[Dahlke2026-sl34]]
 - [[De2026-ld]]
 - [[Donovan2025-ws]]
-- [[Ducci2022-10cb5d70]]
 - [[Entrena-Serrano2025-gw]]
 - [[Farkas2026-lr]]
 - [[Freelon2018-ao]]
@@ -40,22 +33,18 @@ Research on social media platforms' data-access regimes, API restrictions, and c
 - [[Giglietto2022-b30e8b4e]]
 - [[Giglietto2025-1765bb4f]]
 - [[Giglietto2025-ed60bc90]]
-- [[Giglietto2026-632ef967]]
 - [[Giglietto2026-855a54cb]]
 - [[Gillespie2010-sla2]]
 - [[Gillespie2022-jx]]
 - [[Heiss2026-qv]]
 - [[Holt2026-zq]]
 - [[Hurcombe2025-cs]]
-- [[Iannelli2018-ebd918b7]]
 - [[Jurg2025-ur]]
-- [[Karo2026-dn]]
 - [[Katzenbach2026-sl2e]]
 - [[Kuznetsova2026-hw]]
 - [[Lewandowsky2026-ob]]
 - [[Lukito2026-nb]]
 - [[McNally2025-dn]]
-- [[Miller2026-cp]]
 - [[Moran2025-qn]]
 - [[Munger2025-cz]]
 - [[Murtfeldt2025-wu]]
@@ -63,22 +52,14 @@ Research on social media platforms' data-access regimes, API restrictions, and c
 - [[Peters2026-mo]]
 - [[Philipp2026-tl]]
 - [[Pierri2026-ib]]
-- [[Renault2025-uh]]
 - [[Rieder2025-ju]]
-- [[Rieder2026-pp]]
-- [[Rogers2025-sl8f]]
 - [[Rogers2026-zz]]
-- [[Rossi2023-847d5a9f]]
 - [[Schiffrin_undated-gi]]
 - [[Schulte2026-df]]
-- [[Simeone2025-vo]]
 - [[Slack1787858551-sl4d]]
 - [[Swartz2026-zb]]
 - [[Tonneau2025-bv]]
-- [[Ulloa2024-jm]]
 - [[Vincent_undated-re]]
-- [[Votta2025-xz]]
-- [[Weinbrand2026-sf]]
 - [[Yang2026-tq]]
 - [[Zheng2026-bi]]
 - [[de-Vreese2026-zx]]
@@ -88,6 +69,6 @@ Research on social media platforms' data-access regimes, API restrictions, and c
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "platform-data-governance")
+WHERE contains(topics, "platform-governance-and-researcher-data-access")
 SORT discovery_date DESC
 ```

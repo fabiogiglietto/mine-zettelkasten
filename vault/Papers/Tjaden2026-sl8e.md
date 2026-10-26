@@ -8,7 +8,7 @@ bibtex_key: Tjaden2026-sl8e
 kind: team
 submitted_by: "Massimo Terenzi"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1791633206348869
-topics: [computational-political-media-influence, political-polarization-partisanship]
+topics: [comparative-international-election-studies, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1080/10584609.2026.2733320

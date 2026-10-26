@@ -5,7 +5,7 @@ authors: ["Taina Bucher"]
 year: 2017
 doi: 10.1080/1369118x.2016.1154086
 bibtex_key: Bucher2017-qh
-topics: [social-media-platform-affordances, platforms-audiences-and-online-communities]
+topics: [platforms-audiences-and-online-communities, facebook-algorithmic-governance]
 citation_count: 1066
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2016.1154086

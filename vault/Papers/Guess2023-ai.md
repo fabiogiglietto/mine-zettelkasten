@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Neil Malhotra", "Jennifer Pan", "Pablo Barberá", 
 year: 2023
 doi: 10.1126/science.add8424
 bibtex_key: Guess2023-ai
-topics: [computational-political-media-influence, social-media-platform-affordances]
+topics: [computational-political-media-influence, facebook-algorithmic-governance]
 citation_count: 145
 open_access: false
 source_url: https://doi.org/10.1126/science.add8424

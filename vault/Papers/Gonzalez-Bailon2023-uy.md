@@ -5,7 +5,7 @@ authors: ["Sandra González-Bailón", "David Lazer", "Pablo Barberá", "Meiqing 
 year: 2023
 doi: 10.1126/science.ade7138
 bibtex_key: Gonzalez-Bailon2023-uy
-topics: [political-polarization-partisanship, computational-political-media-influence]
+topics: [facebook-algorithmic-governance, political-polarization-media-ecosystems]
 citation_count: 257
 open_access: false
 source_url: https://doi.org/10.1126/science.ade7138

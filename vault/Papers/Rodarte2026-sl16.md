@@ -8,7 +8,7 @@ bibtex_key: Rodarte2026-sl16
 kind: team
 submitted_by: "Bruna Paroni"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1789631457058929
-topics: [latin-america-digital-politics, computational-political-media-influence]
+topics: [comparative-international-election-studies, facebook-algorithmic-governance]
 citation_count: 0
 open_access: true
 source_url: https://doi.org/10.1080/10584609.2026.2733316

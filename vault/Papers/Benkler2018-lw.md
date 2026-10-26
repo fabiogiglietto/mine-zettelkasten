@@ -5,7 +5,7 @@ authors: ["Yochai Roberts Benkler", "Robert Farris", "Hal Roberts"]
 year: 2018
 doi: 
 bibtex_key: Benkler2018-lw
-topics: [political-polarization-partisanship, information-disorder-theory]
+topics: [political-polarization-media-ecosystems, information-disorder-and-disinformation-narratives]
 citation_count: 772
 open_access: true
 source_url: https://aquila.usm.edu/katrinagulfcoast_photos/42

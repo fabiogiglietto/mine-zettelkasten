@@ -5,7 +5,7 @@ authors: ["Manuel Tonneau", "Diyi Liu", "Ryan McGrady", "Kevin Zheng", "Ralph Sc
 year: 2025
 doi: 10.31235/osf.io/amfws_v2
 bibtex_key: Tonneau2025-bv
-topics: [platform-data-governance, information-disorder-theory]
+topics: [platform-governance-and-researcher-data-access, information-disorder-and-disinformation-narratives]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31235/osf.io/amfws_v2

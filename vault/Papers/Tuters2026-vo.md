@@ -5,7 +5,7 @@ authors: ["Marc Tuters"]
 year: 2026
 doi: 10.1177/14614448261446931
 bibtex_key: Tuters2026-vo
-topics: [coordinated-inauthentic-behavior, information-disorder-theory]
+topics: [information-disorder-and-disinformation-narratives, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448261446931
