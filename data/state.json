@@ -3508,11 +3508,11 @@
       "doi": "10.1177/20539517261461463",
       "title": "Seeing like an API: Platform-mediated research and the politics of access",
       "pdf_source": "abstract_only",
-      "content_hash": "a332ea7f55731dd42a2ada131ff0373040f1f3cc7117287cb1f3314b6daccdaa",
-      "podcast_linked": false,
+      "content_hash": "089f2b31ca73f4b881a84afb24fb2a7936a3b0ce81bc9101f5792ebc2542d33e",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-07-14T09:08:03.239758+00:00"
+      "last_processed": "2026-10-27T10:08:52.740416+00:00"
     },
     "bibtex:Ramos2026-qo": {
       "note_path": "Papers/Ramos2026-qo.md",
