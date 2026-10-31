@@ -416,9 +416,9 @@
         "computational-political-media-influence"
       ],
       "pdf_source": "drive",
-      "content_hash": "b70388abba2e077008ae548c50c21d1904ee9971c2f0682da8d9b18658914d9e",
+      "content_hash": "a08750959c8fa4b78ab7a50632abdbf2213dc6d7a133ce2b89614731e093e6a3",
       "podcast_linked": true,
-      "last_processed": "2026-05-17T10:31:30.239962+00:00",
+      "last_processed": "2026-10-31T10:53:41.713400+00:00",
       "assign_fp": "51823832d6cc031ab7a3d02c9ca01959c87fb9eb0ab6378b232e09cc731e8f9f"
     },
     "bibtex:Dodds2026-df": {
@@ -4895,10 +4895,10 @@
       "doi": "10.1080/21670811.2026.2729391",
       "title": "“Having Fun and Learning Something”: How Users in Four Countries Define What News Is – and Is Not",
       "pdf_source": "drive",
-      "content_hash": "8d51a7caa1f9621cf7bf0476a2193d66f358ec3e88f113b54f351577fd2e07b2",
+      "content_hash": "eecef507c135c43827054992a4c267083984fd07e245c7ceee3e77e00f97840f",
       "podcast_linked": false,
       "slack_posted": true,
-      "last_processed": "2026-09-26T19:37:57.416184+00:00",
+      "last_processed": "2026-10-31T10:53:20.825590+00:00",
       "kind": "team",
       "submitted_by": "Bruna Paroni"
     },
@@ -5232,10 +5232,26 @@
       "content_hash": "10bdf9b4a99888e578888393894580275f4f5208a2e9082e93a6600f107e09c4",
       "podcast_linked": false,
       "last_processed": "2026-10-31T10:41:03.335580+00:00"
+    },
+    "bibtex:Prochaska2026-pr": {
+      "note_path": "Papers/Prochaska2026-pr.md",
+      "topics": [
+        "information-disorder-and-disinformation-narratives",
+        "comparative-international-election-studies"
+      ],
+      "assign_fp": "fec0b07fab186a2dea996a011728535b3599bb937dcb854a0c481115290fbd10",
+      "doi": "",
+      "title": "New election, same old story: How tropes form a grammar of election rumors",
+      "pdf_source": "drive",
+      "content_hash": "cf6a44b4ebc43e62e34e33ba8bdf40319f543515c8decb0d2fdb7874b91a5292",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-10-31T10:53:01.544091+00:00"
     }
   },
   "last_full_cluster": "2026-10-26T10:04:28.875957+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "df20770b066ba26c774cf46c59999cecf5f5684eb30a2b1d43b9f967414a501d",
   "emergent_fp": "f14d194be9f8ce751b227c3808d8bc5383cf1923ab895366cfb07a4b97df8bbb",
   "structure_fps": {

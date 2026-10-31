@@ -88,6 +88,7 @@ Theoretical and empirical work on misleading information in hybrid media systems
 - [[Pierri2026-ib]]
 - [[Poliakoff2026-fa]]
 - [[Prochaska2025-ef]]
+- [[Prochaska2026-pr]]
 - [[Ramos2026-qo]]
 - [[Renault2025-uh]]
 - [[Righetti2025-slf9]]

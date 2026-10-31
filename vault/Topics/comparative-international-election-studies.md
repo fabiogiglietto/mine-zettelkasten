@@ -39,6 +39,7 @@ Cross-national analyses of coordinated behavior, political advertising, and part
 - [[Perez-Curiel2026-ld]]
 - [[Philipp2026-tl]]
 - [[Prochaska2025-ef]]
+- [[Prochaska2026-pr]]
 - [[Richter2026-bt]]
 - [[Rodarte2026-dk]]
 - [[Rodarte2026-sl16]]
