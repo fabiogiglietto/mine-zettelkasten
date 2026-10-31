@@ -5217,6 +5217,21 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-10-25T12:40:34.777048+00:00"
+    },
+    "bibtex:Giglietto2012-32b6b551": {
+      "note_path": "Papers/Giglietto2012-32b6b551.md",
+      "topics": [
+        "italian-election-studies",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "f7d2583e69f24035dfe171d2afdb7adf7a47a6ae470225bf1172c84c81fe5b6a",
+      "kind": "own",
+      "doi": "10.2139/ssrn.1982736",
+      "title": "If Likes Were Votes: An Empirical Study on the 2011 Italian Administrative Elections",
+      "pdf_source": "abstract_only",
+      "content_hash": "10bdf9b4a99888e578888393894580275f4f5208a2e9082e93a6600f107e09c4",
+      "podcast_linked": false,
+      "last_processed": "2026-10-31T10:41:03.335580+00:00"
     }
   },
   "last_full_cluster": "2026-10-26T10:04:28.875957+00:00",

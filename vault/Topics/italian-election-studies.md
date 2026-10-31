@@ -10,6 +10,7 @@ The MINE programme's core empirical line mapping Italian news media and social m
 
 ## Papers
 
+- [[Giglietto2012-32b6b551]]
 - [[Giglietto2019-882f1900]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2023-fa71a001]]

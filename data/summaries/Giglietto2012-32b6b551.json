@@ -1,0 +1,27 @@
+{
+  "abstract": "This paper investigates whether social media metrics can predict electoral outcomes, testing claims that Twitter or Facebook data can forecast elections. Using the 2011 Italian administrative elections as a case study, the author collected Facebook 'Like' counts for 229 mayoral candidates across 29 provincial capitals and built two forecasting models. The study finds that Facebook popularity does not significantly correlate with vote share, though the most popular candidate won or came in second in a majority of cases.",
+  "key_claims": [
+    "Facebook Like counts do not reliably predict candidates' vote shares in the 2011 Italian administrative elections.",
+    "Social media popularity has limited but non-trivial association with electoral success, as the most-liked candidate frequently finished first or second.",
+    "The predictive power of social media metrics claimed by prior studies does not hold up robustly when tested in a new political and cultural context."
+  ],
+  "methods": [
+    "Collected the number of Facebook Likes on the official pages of 229 candidates for mayor in the 29 Italian provincial capitals during the months before election day.",
+    "Built a first forecasting model aimed at predicting candidates' vote shares.",
+    "Built a second forecasting model aimed at predicting the name of the winning candidate.",
+    "Compared the share of Facebook popularity against actual vote shares via correlation analysis."
+  ],
+  "findings": [
+    "The correlation between a candidate's share of Facebook popularity and their share of votes was non-significant.",
+    "In 39% of cases the most popular candidate on Facebook actually won the election.",
+    "In an additional 43% of cases the most popular Facebook candidate finished second.",
+    "The proposed forecasting models were only partially successful at predicting outcomes."
+  ],
+  "contributions": [
+    "Provides a new empirical case study from the Italian political system and cultural context, which had not previously been analyzed in this line of research.",
+    "Proposes two forecasting models (vote-share prediction and winner prediction) that, despite limited success, can serve as a foundation for improved future models.",
+    "Contributes critical, replication-style evidence to the ongoing debate over social-media-based electoral prediction."
+  ],
+  "framing": "The paper positions itself within the debate on whether social media data can forecast election outcomes, responding to prior studies claiming successful predictions from Twitter and Facebook. It adopts a skeptical, empirical testing stance, extending that literature to an understudied national context (Italy).",
+  "pdf_source": "abstract_only"
+}
