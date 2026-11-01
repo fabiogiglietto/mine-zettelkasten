@@ -5243,11 +5243,11 @@
       "doi": "",
       "title": "New election, same old story: How tropes form a grammar of election rumors",
       "pdf_source": "drive",
-      "content_hash": "cf6a44b4ebc43e62e34e33ba8bdf40319f543515c8decb0d2fdb7874b91a5292",
-      "podcast_linked": false,
+      "content_hash": "b5edbde296fd474f2d3b03cef11b171f8fa1eaf205417b6cfdef70b94896d394",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-10-31T10:53:01.544091+00:00"
+      "last_processed": "2026-11-01T11:36:32.168812+00:00"
     }
   },
   "last_full_cluster": "2026-10-26T10:04:28.875957+00:00",
