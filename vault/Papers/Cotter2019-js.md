@@ -5,7 +5,7 @@ authors: ["Kelley Cotter"]
 year: 2019
 doi: 10.1177/1461444818815684
 bibtex_key: Cotter2019-js
-topics: [platforms-audiences-and-online-communities, facebook-algorithmic-governance]
+topics: [platforms-audiences-and-online-communities, computational-social-media-methods]
 citation_count: 816
 open_access: false
 source_url: https://doi.org/10.1177/1461444818815684

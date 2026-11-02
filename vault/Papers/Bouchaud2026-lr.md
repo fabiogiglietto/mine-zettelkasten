@@ -5,7 +5,7 @@ authors: ["Paul Bouchaud", "Pedro Ramaciotti"]
 year: 2026
 doi: 
 bibtex_key: Bouchaud2026-lr
-topics: [facebook-algorithmic-governance, computational-political-media-influence]
+topics: [platform-data-governance, computational-social-media-methods]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2602.02624v2

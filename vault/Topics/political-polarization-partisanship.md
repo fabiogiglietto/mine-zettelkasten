@@ -1,29 +1,27 @@
 ---
 type: topic
-slug: political-polarization-media-ecosystems
+slug: political-polarization-partisanship
 emergent: false
 ---
 
-# Political Polarization and Media Ecosystems
+# Political Polarization & Partisanship
 
-Conceptual and empirical work on how social and traditional media interplay to shape political polarization, insularity, and affective partisan engagement, including partisan community dynamics on Facebook and the broader theorization of polarization as a key concept in digital media research.
+Studies of partisan attention, hyperpartisan networks, affective engagement in partisan communities, and the broader dynamics of polarization across Italian, German, Brazilian and Latin American contexts, including conceptual work revisiting polarization and populism as analytic categories.
 
 ## Papers
 
 - [[Anwar2024-34dba628]]
 - [[Bail2018-fk]]
 - [[Bakshy2015-rn]]
-- [[Balluff2026-ev]]
 - [[Barbera2015-fw]]
 - [[Barbera2015-je]]
-- [[Baym2026-tr]]
-- [[Bechmann2026-dr]]
 - [[Benkler2018-lw]]
+- [[Bennett2018-ys]]
 - [[Bennett2025-xs]]
-- [[Boyd2026-op]]
-- [[Bruns2026-yv]]
-- [[Chadwick2013-ns]]
-- [[Chadwick2015-ii]]
+- [[Berlinski2023-rj]]
+- [[Bouchafra2026-ts]]
+- [[Brady2026-ln]]
+- [[Darius2026-xl]]
 - [[De_Leon2025-qn]]
 - [[Dehghan2026-sy]]
 - [[Del-Vicario2016-uj]]
@@ -33,57 +31,63 @@ Conceptual and empirical work on how social and traditional media interplay to s
 - [[Esau2025-tf]]
 - [[Falkenberg2026-ka]]
 - [[Flaxman2016-lm]]
-- [[Gaber2022-bk]]
-- [[Gaisbauer2025-by]]
-- [[Gerard2025-br]]
+- [[Gattermann2025-yx]]
+- [[Gerbaudo2026-fo]]
 - [[Ghezzi2023-8bebc91f]]
+- [[Giglietto2017-4375de2f]]
 - [[Giglietto2019-882f1900]]
-- [[Giglietto2019-e9be81c1]]
 - [[Gonzalez-Bailon2023-uy]]
 - [[Green2025-ap]]
 - [[Groebner2026-pc]]
 - [[Grusauskaite2026-po]]
-- [[Hallin2004-kg]]
-- [[Hartmann2025-px]]
+- [[Guess2023-ai]]
+- [[Guo2026-fi]]
 - [[Heft2021-ky]]
-- [[Helmond2026-ll]]
 - [[Holland_Levin2026-qx]]
-- [[Iannelli2015-e0818c3e]]
+- [[Iris2026-pg]]
 - [[Iyengar2019-jj]]
-- [[Kalsnes2025-zb]]
+- [[Jovanovic-Harrington2026-ze]]
+- [[Kakavand2026-kt]]
 - [[Karlsson2026-hd]]
 - [[Knupfer2025-vt]]
 - [[Kristensen2025-ni]]
+- [[Kulichkina2025-sl09]]
+- [[Lee2026-je]]
+- [[Lieu2025-nl]]
+- [[Makeev2026-ma]]
 - [[Marino2026-slef]]
-- [[Marwick2011-sl02]]
 - [[Marwick2026-qd]]
 - [[Messing2014-jc]]
-- [[Mota2026-sl59]]
-- [[Much2026-gu]]
+- [[Mosca2026-yh]]
+- [[Mosleh2024-op]]
 - [[Nyhan2023-gb]]
 - [[Osmundsen2021-et]]
-- [[Rohrbach2026-rc]]
+- [[Paci2025-ag]]
+- [[Renault2025-uh]]
+- [[Righetti2025-slf9]]
+- [[Rodarte2026-dk]]
+- [[Rodarte2026-sl16]]
 - [[Sarmiento2025-as]]
 - [[Schemer2026-mh]]
 - [[Schulz2026-ts]]
 - [[Slack1787858551-sl4d]]
-- [[Suau_Martinez2026-lv]]
+- [[Starbird2025-jj]]
+- [[Tornberg2025-ir]]
 - [[Trilling2024-slc8]]
 - [[Unknown2026-sl3d]]
 - [[Van_Erkel2026-mk]]
 - [[Ventura2026-yc]]
-- [[Volpe2026-um]]
-- [[Wan2026-ai]]
+- [[Voelkel2026-lc]]
+- [[Wack2026-bt]]
 - [[Yoo2026-ev]]
 - [[Zhao2025-ny]]
 - [[Zhu2026-tn]]
-- [[van-Dijck2018-up]]
 - [[van-Eck2026-xg]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "political-polarization-media-ecosystems")
+WHERE contains(topics, "political-polarization-partisanship")
 SORT discovery_date DESC
 ```

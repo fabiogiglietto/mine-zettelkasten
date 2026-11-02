@@ -5,7 +5,7 @@ authors: ["Bente Kalsnes", "Anders Olof Larsson"]
 year: 2026
 doi: 10.1080/1369118x.2025.2595670
 bibtex_key: Kalsnes2025-zb
-topics: [comparative-international-election-studies, political-polarization-media-ecosystems]
+topics: [electoral-communication-social-media, computational-social-media-methods]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2025.2595670

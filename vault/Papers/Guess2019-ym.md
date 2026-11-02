@@ -5,7 +5,7 @@ authors: ["Andrew Guess", "Jonathan Nagler", "Joshua Tucker"]
 year: 2019
 doi: 10.1126/sciadv.aau4586
 bibtex_key: Guess2019-ym
-topics: [information-disorder-and-disinformation-narratives, survey-measurement-validity]
+topics: [information-disorder-fake-news, electoral-communication-social-media]
 citation_count: 1140
 open_access: false
 source_url: https://doi.org/10.1126/sciadv.aau4586

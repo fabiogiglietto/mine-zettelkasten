@@ -1,0 +1,107 @@
+---
+type: topic
+slug: computational-social-media-methods
+emergent: false
+---
+
+# Computational Social Media Research Methods
+
+Methodological contributions on using social media and digital trace data for social science research, including survey recruitment via ad platforms, systematic reviews of platform-specific metrics (e.g., Facebook reactions), and the ethics of computational social science — underpinning his Master's and PhD teaching in digital network analysis and data methods.
+
+## Papers
+
+- [[Alizadeh2026-es]]
+- [[Allen2024-av]]
+- [[Allen2025-ot]]
+- [[Anwar2024-34dba628]]
+- [[Arminio2025-tw]]
+- [[Bail2018-fk]]
+- [[Bailard2024-pj]]
+- [[Balluff2026-ev]]
+- [[Barbera2015-fw]]
+- [[Bastos2025-ol]]
+- [[Bastos2025-ya]]
+- [[Bechmann2026-dr]]
+- [[Bergeron-Boutin2026-yh]]
+- [[Bollenbacher2026-vz]]
+- [[Bouchaud2026-lr]]
+- [[Brown2025-jk]]
+- [[Brown2026-br]]
+- [[Bruns2019-nr]]
+- [[Bruns2025-fz]]
+- [[Bruns2026-pn]]
+- [[Carammia2024-sl90]]
+- [[Cerulli2026-sl75]]
+- [[Cotter2019-js]]
+- [[Cullen2026-cb]]
+- [[Dahlke2026-sl34]]
+- [[Di-Marco2025-aa]]
+- [[Di_Marco2026-xu]]
+- [[Ducci2022-10cb5d70]]
+- [[Fan2025-ut]]
+- [[Fan2026-af]]
+- [[Farjam2026-zg]]
+- [[Flaxman2016-lm]]
+- [[Freelon2018-ao]]
+- [[Freelon2024-sc]]
+- [[Gagrcin2024-dl]]
+- [[Gaisbauer2025-by]]
+- [[Gardam2025-er]]
+- [[Gerard2025-br]]
+- [[Giglietto2012-32b6b551]]
+- [[Giglietto2022-b30e8b4e]]
+- [[Giglietto2024-cbeb3f70]]
+- [[Giglietto2025-ed60bc90]]
+- [[Giglietto2026-855a54cb]]
+- [[Gillespie2026-aa]]
+- [[Goel2025-iq]]
+- [[Gomez-Zara2026-as]]
+- [[Gonzalez-Bailon2023-uy]]
+- [[Green2025-ap]]
+- [[Guess2021-ym]]
+- [[Hartmann2025-px]]
+- [[Iannelli2018-ebd918b7]]
+- [[Iannucci2025-eg]]
+- [[Kalsnes2025-zb]]
+- [[Kim2026-br]]
+- [[Kulichkina2026-zk]]
+- [[Luceri2025-tr]]
+- [[Lyons2026-ca]]
+- [[Mannocci2025-ig]]
+- [[Mannocci2026-kc]]
+- [[Meher2025-qb]]
+- [[Mota2026-sl59]]
+- [[Murtfeldt2025-wu]]
+- [[Ng2026-og]]
+- [[Nyhan2023-gb]]
+- [[Ober2026-vd]]
+- [[Oswald2025-km]]
+- [[Pante2025-pq]]
+- [[Peters2026-mo]]
+- [[Pierri2026-ib]]
+- [[Richter2026-bt]]
+- [[Rieder2025-ju]]
+- [[Righetti2025-sl2a]]
+- [[Sarmiento2025-as]]
+- [[Scalco2026-bd]]
+- [[Schulte2026-df]]
+- [[Slack1783507719-slc1]]
+- [[Stagnaro2025-pz]]
+- [[Suau_Martinez2026-lv]]
+- [[Ulloa2024-jm]]
+- [[Volpe2026-um]]
+- [[Vosoughi2018-at]]
+- [[Wan2026-ai]]
+- [[Wang2026-ub]]
+- [[Yang2023-cg]]
+- [[Yang2025-iv]]
+- [[Yang2026-tq]]
+- [[Zheng2026-bi]]
+
+## All papers (Dataview)
+
+```dataview
+LIST FROM "Papers"
+WHERE contains(topics, "computational-social-media-methods")
+SORT discovery_date DESC
+```
