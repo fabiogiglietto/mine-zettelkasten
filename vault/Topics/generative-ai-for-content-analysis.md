@@ -28,6 +28,7 @@ Methodological research on applying large language models and generative AI to c
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
 - [[Fan2026-af]]
+- [[Farjam2026-zg]]
 - [[Gardam2025-er]]
 - [[Giglietto2024-cbeb3f70]]
 - [[Giglietto2026-9b6a992d]]

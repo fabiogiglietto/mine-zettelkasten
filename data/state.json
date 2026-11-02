@@ -5248,10 +5248,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-01T11:36:32.168812+00:00"
+    },
+    "bibtex:Farjam2026-zg": {
+      "note_path": "Papers/Farjam2026-zg.md",
+      "topics": [
+        "generative-ai-for-content-analysis",
+        "computational-political-media-influence"
+      ],
+      "assign_fp": "a68666c25307045f83e07be9a2feffef6dd16ec47edc4921e50db684cb6d5414",
+      "doi": "10.1177/08944393251349541",
+      "title": "A practical guide and case study on how to instruct LLMs for automated coding during content analysis",
+      "pdf_source": "drive",
+      "content_hash": "c6b2cac46ce14422a6bf6f52533ab958b2588d9dcd413a84257f66cee0898542",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-02T00:40:26.862981+00:00"
     }
   },
   "last_full_cluster": "2026-10-26T10:04:28.875957+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "df20770b066ba26c774cf46c59999cecf5f5684eb30a2b1d43b9f967414a501d",
   "emergent_fp": "f14d194be9f8ce751b227c3808d8bc5383cf1923ab895366cfb07a4b97df8bbb",
   "structure_fps": {

@@ -33,6 +33,7 @@ Papers using large-scale computational or quasi-experimental methods to study po
 - [[Eady2023-xg]]
 - [[Eady2025-vm]]
 - [[Efstratiou2025-gs]]
+- [[Farjam2026-zg]]
 - [[Flaxman2016-lm]]
 - [[Gaisbauer2025-by]]
 - [[Gauthier2026-iq]]
