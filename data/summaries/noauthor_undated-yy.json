@@ -1,0 +1,22 @@
+{
+  "abstract": "This paper examines the statistical reliability of detecting coordinated activity on social media, a technique used to identify information operations that amplify messages and manipulate public discourse. The authors critique the prevailing methodology, which projects account-entity interactions into account similarity networks and then identifies dense subgraphs or behavioral clusters. They argue that current approaches find co-activated groups or partition all users without establishing whether the detected coordination is statistically distinguishable from chance.",
+  "key_claims": [
+    "Common coordination-detection methods identify groups of co-activated accounts or partition all users into similarly-acting clusters without assessing whether such groupings are statistically meaningful.",
+    "The statistical detectability of coordination is a necessary consideration that current methodology overlooks.",
+    "Projecting account-entity interactions into similarity networks and finding dense subgraphs can yield apparent coordination that may not be distinguishable from chance behavior."
+  ],
+  "methods": [
+    "Analysis of account-entity interaction data projected into account similarity networks based on temporal proximity, action counts, or behavioral similarity.",
+    "Examination of dense subgraph identification and behavioral clustering approaches used in coordination detection (details limited to what the abstract states)."
+  ],
+  "findings": [
+    "Existing methods tend to detect co-activated account groups or force all users into clusters regardless of whether coordination is genuinely present.",
+    "The abstract indicates a gap in assessing the statistical significance of detected coordination (full findings not available from abstract alone)."
+  ],
+  "contributions": [
+    "Raises the problem of statistical detectability as a lens for evaluating coordination-detection methods.",
+    "Critiques standard similarity-network projection and dense-subgraph/clustering pipelines for lacking a principled threshold for distinguishing real coordination from chance."
+  ],
+  "framing": "The paper positions itself within the study of information operations and coordinated inauthentic behavior on social media, engaging the network-science and computational social science literature on account similarity networks and community/dense-subgraph detection by foregrounding statistical rigor.",
+  "pdf_source": "abstract_only"
+}

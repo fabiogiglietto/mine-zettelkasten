@@ -5293,10 +5293,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-02T00:40:26.862981+00:00"
+    },
+    "bibtex:noauthor_undated-yy": {
+      "note_path": "Papers/noauthor_undated-yy.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "computational-social-media-methods"
+      ],
+      "assign_fp": "f6a9065fee997184c64e89d695ae4179e25d454b7d7e07bacc2ea6b6e9ca9090",
+      "doi": "",
+      "title": "Statistical detectability of coordination",
+      "pdf_source": "abstract_only",
+      "content_hash": "87ac422f191360f0aeb2c653debe33d36723ca69f76a50c9f102b33af2e907d9",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-03T20:51:50.050551+00:00"
     }
   },
   "last_full_cluster": "2026-11-02T12:23:22.879948+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "bb49aee145a47359467b0d9b42e98eaf538c2eed33352abc81d6c7014d9687f9",
   "emergent_fp": "004eac1f0ffb4e0f573ef9fe06e3d31a80b5c71085c6b7d459d9e8c0568da5ce",
   "structure_fps": {

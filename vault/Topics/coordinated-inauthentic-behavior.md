@@ -75,6 +75,7 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
 - [[noauthor_undated-bm]]
+- [[noauthor_undated-yy]]
 
 ## All papers (Dataview)
 
