@@ -1,0 +1,34 @@
+{
+  "abstract": "This experimental study investigates the effect of 'Instagram vs reality' images — side-by-side photos of the same woman showing an idealized and a more natural depiction — on young women's body image. 305 women aged 18–30 were randomly assigned to view one of three image sets: paired 'Instagram vs reality' images, the idealized side alone, or the realistic side alone. Viewing the paired and real images decreased body dissatisfaction relative to the ideal images, and neutralized the harmful effect of appearance comparison. The authors conclude these posts can bolster body satisfaction in the short term, though longer-term effects require further study.",
+  "key_claims": [
+    "'Instagram vs reality' posts, a social media activism trend exposing the staged/unrealistic nature of idealized imagery, can counteract the negative body image effects of viewing idealized Instagram content.",
+    "Exposure to paired 'Instagram vs reality' and realistic images produces lower body dissatisfaction than exposure to idealized Instagram images.",
+    "The detrimental influence of appearance-based social comparison on body dissatisfaction is much weaker for paired and real images than for ideal images, likely because comparisons become lateral or downward rather than upward.",
+    "Women correctly interpret the intended message of 'Instagram vs reality' posts (that social media is not real/no one is perfect).",
+    "The specific paired format may offer no additional benefit beyond simply viewing the realistic image alone."
+  ],
+  "methods": [
+    "Randomized between-subjects experimental design with three conditions: 'ideal' images, 'real' images, and paired 'Instagram vs reality' images, with measures at two time points (pre- and post-exposure).",
+    "Sample of 305 (300 after attention-check exclusions) US women aged 18–30, recruited via the TurkPrime/Amazon Mechanical Turk crowdsourcing platform; mean age 25.34, mean BMI 26.98.",
+    "Stimulus sets of 15 images each, sourced from public Instagram profiles using hashtags #instagramversusreality and #instagramversusreallife; ideal and real conditions used separated halves of the same paired images, placed in a simulated Instagram/iPhone frame and shown for 5 seconds each.",
+    "Measures: visual analogue scales (VAS) for state body dissatisfaction (weight and appearance) and state body appreciation; 3-item State Appearance Comparison Scale (Tiggemann & McGill, 2004); Perceived Realism Scale plus single-item thinness and attractiveness ratings (manipulation checks); and an open-ended item on perceived message.",
+    "Analyses: repeated-measures ANOVA, ANCOVA with orthogonal planned comparisons (controlling for pre-exposure scores), hierarchical regression testing appearance comparison and image-type interactions, and thematic/chi-square analysis of open-ended message responses."
+  ],
+  "findings": [
+    "Body dissatisfaction increased after viewing ideal images but decreased after viewing real and paired images; the planned comparison of ideal vs (real + paired) was significant (p = .031), with no significant difference between real and paired images.",
+    "Body appreciation changes lay in the predicted direction but did not reach significance (interaction p = .213; first planned comparison p = .082).",
+    "Manipulation checks confirmed the conditions were perceived differently: real and paired images were rated more realistic than ideal images, and women in real images were rated less thin and less attractive.",
+    "State appearance comparison did not differ significantly across conditions (if anything slightly higher for real/paired images), but appearance comparison predicted increased body dissatisfaction and decreased appreciation overall.",
+    "Appearance comparison was significantly associated with worsened body image only for ideal images (r = .424 dissatisfaction, -.324 appreciation), and not for real or paired images, indicating image type moderated the comparison effect.",
+    "95.1% of women recognized a message in the paired images (vs 81.6% real, 61.6% ideal); the dominant paired-image theme was 'social media is not real' (80.4%), while real images conveyed body acceptance and ideal images conveyed confidence/attractiveness."
+  ],
+  "contributions": [
+    "First explicit experimental evaluation of the 'Instagram vs reality' trend and its effect on women's body image.",
+    "Provides strong experimental control by using the same women in the same settings across all three conditions, isolating the effect of image type from differences in person, clothing, or setting.",
+    "Demonstrates that realistic/paired imagery can neutralize the harmful moderating role of appearance comparison, refining understanding of how such interventions operate.",
+    "Suggests practical applications, conceptualizing 'Instagram vs reality' posts as a potential brief form of social media literacy intervention.",
+    "Identifies limitations of the movement itself, noting all images featured thin, attractive women, raising concerns about relevance to larger-bodied women and potential anti-fat framing."
+  ],
+  "framing": "The paper is situated within sociocultural and social comparison theory accounts (Festinger, 1954) of media effects on women's body image, extending an established literature on idealized traditional and social media imagery to the emerging Instagram context and the body positivity/social activism movement. It positions appearance-based social comparison as the central mechanism and frames 'Instagram vs reality' posts as a counter-trend with potential protective value.",
+  "pdf_source": "drive"
+}
