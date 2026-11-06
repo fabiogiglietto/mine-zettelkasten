@@ -9,7 +9,7 @@ topics: [meta-science-of-misinformation-research, information-disorder-fake-news
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/24701475.2026.2760136
-podcast_url: 
+podcast_url: https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hegarty2026-qr.mp3
 pdf_available: true
 discovery_date: 2026-11-06T06:20:48.672778Z
 ---
@@ -22,29 +22,33 @@ discovery_date: 2026-11-06T06:20:48.672778Z
 
 ## Summary
 
-Hegarty names and analyses a pervasive but under-theorised way of narrating the internet's recent past: the **internet decline narrative** (IDN), the widely shared sense that the internet has gotten worse over time. Captured in popular vocabulary like *techlash*, *enshittification*, *slop*, and *dead internet theory*, these narratives have become a dominant organising principle in both public and academic discourse. Rather than treating decline as a simple empirical fact, the article examines IDNs as a *situated historiographical mode* — one that periodises, assigns blame, and imagines lost ideals. Hegarty argues that while IDNs do productive cultural and political work, they sit in tension with the field of internet histories' commitment to pluralistic, user-centric, and non-Anglophone accounts, and risk reinstating a corporation-centred determinism that casts users as passive victims.
+Hegarty names and theorises a now-pervasive way of narrating the recent internet: the **internet decline narrative** (IDN), the widely shared sense that the internet "used to be good" and has steadily gotten worse. Drawing together popular vocabulary — *techlash*, *enshittification*, *slop*, *dead internet theory* — the article argues that declinism has become a dominant organising frame for both public and academic accounts of the internet's past. Rather than simply endorsing or rejecting these narratives, Hegarty examines them as cultural and historiographical objects: what they do politically, affectively, and commercially, and how their nostalgic, corporation-centric structure sits in tension with the field of internet histories' commitment to pluralistic, user-centric, non-Anglophone accounts.
 
 ## Key Contributions
 
-- Names and defines **internet decline narratives (IDNs)** as a distinct analytic category and object of study.
-- Offers a typology of IDNs' **four characteristic features** and **three categories of work** (political, affective, commercial).
-- Introduces the concept of **"Manichaean internet history"** — accounts framing the past as a struggle between villainous corporations and helpless users.
-- Connects declinism to debates over non-centric, user-centric, and non-Anglophone internet histories, showing how IDNs threaten those commitments.
-- Sets a research agenda for studying discourses of decline as cultural forms that shape imaginable futures and inform policy (e.g., youth social media bans).
+- Introduces **"internet decline narratives" (IDNs)** as a distinct analytic category for internet historians.
+- Offers a typology of IDNs: four characteristic features and three kinds of "work" (political, affective, commercial).
+- Coins **"Manichaean internet history"** — accounts framing the past as villainous corporations versus helpless users.
+- Links declinism to debates over non-centric and non-Anglophone internet histories, showing how IDNs undermine those commitments.
+- Sets a research agenda treating discourses of decline as culturally situated forms that shape imaginable futures and inform policy (e.g., youth social media bans).
 
 ## Methods
 
-Conceptual and historiographical rather than empirical. Hegarty close-reads popular and academic texts — bestsellers like Doctorow's *Enshittification*, Zuboff's *The Age of Surveillance Capitalism*, and Wynn-Williams' *Careless People* — alongside key concepts (enshittification, techlash, slop). Illustrative user comments are drawn from four threads on the subreddit r/nosurf, and historical internet-access statistics (ABS 1999, GVU 2001, Statistics Canada, Our World in Data) are mobilised to challenge the "golden age" premise. The analysis is positioned within and against prior scholarship in internet histories and studies.
+A conceptual and historiographical analysis rather than a new empirical study. Hegarty closely reads popular and academic texts — bestsellers like Doctorow's *Enshittification*, Zuboff's *The Age of Surveillance Capitalism*, and Wynn-Williams' *Careless People* — alongside key concepts (enshittification, techlash, slop) and journalism. User comments from four r/nosurf threads illustrate vernacular declinism, while historical internet-access statistics (ABS 1999, GVU Center 2001, Statistics Canada 2001, Our World in Data) are mobilised to puncture the "golden age" premise.
 
 ## Findings
 
-- Decline talk around media is long-standing (print, cinema, comics, TV, music); internet-specific complaints date to early-1990s Usenet "newbie" anxieties and *Wired*'s 2010 "web is dead" debate.
-- IDNs consolidated into a dominant form around **2018**, after Cambridge Analytica, building on the dot-com crash and Snowden revelations, and intensified with Twitter's transformation into X and the generative-AI boom.
-- Four characteristic features: a negative temporal/evaluative trajectory; an expansive "whole internet is rotten" outlook; specification of a decline *threshold* (Section 230, the "Like" button, algorithmic feeds, ChatGPT); and attribution of blame (chiefly Big Tech).
-- Doctorow's **enshittification** is a four-stage theory of platform decay contrasting an "enshitternet" with "the old, good internet."
+- Media decline talk is long-standing (print, cinema, comics, TV, music); internet-specific decline complaints reach back to early-1990s Usenet "newbie" anxieties and *Wired*'s 2010 "web is dead" debate.
+- Decline narratives consolidated into a dominant form around **2018** (post Facebook–Cambridge Analytica), building on the dot-com crash and Snowden disillusionment, and intensified with Twitter→X and the generative-AI boom.
+- Four characteristic features of IDNs: a negative temporal/evaluative trajectory; an expansive "whole internet is rotten" outlook; a specified decline threshold (Section 230, the Like button, algorithmic feeds, ChatGPT); and attribution of blame (chiefly Big Tech).
+- Doctorow's enshittification is a four-stage decay theory (good to users → exploit users for business → exploit business for shareholders → death), contrasting an "enshitternet" with "the old, good internet."
 - The nostalgic "old, good internet" corresponds to a smaller, wealthier, more male, more educated userbase — so any pre-mass-access golden age describes an advantaged minority.
-- IDNs risk reinforcing "pessimism paralysis" (Arora), a largely Western outlook that overlooks aspirational, creative, and resilient uses in the Global South.
+- IDNs risk reinforcing "pessimism paralysis" (Arora), a Western outlook that overlooks aspirational and resilient internet uses in the Global South.
 
 ## Connections
 
-This paper is a rare meta-level intervention, treating decline *itself* as a cultural narrative rather than a measured trend, which places it alongside other reflexive critiques of how misinformation and platform harms are framed as research objects — notably [[Munger2025-cz]] on platform-era scholarship and [[Gillespie2022-jx]] on platform power. Its critique of "corporational determinism" and Big-Tech-centred accounts resonates with institutional and infrastructural histories such as [[Helmond2026-ll]] and [[Petre2019-zh]], while its attention to who is served by "golden age" nostalgia connects to work on contesting Anglophone, Global-North-centric paradigms. The techlash/surveillance-capitalism framing it interrogates also bears on broader debates about whether misinformation panic is itself overstated, as in [[Budak2024-ef]].
+This meta-level critique of how misinformation and platform harms get narrated complements broader methodological reckonings in the field, such as calls to reconsider the empirical and rhetorical foundations of misinformation research [[Munger2025-cz]]. Its attention to platform power and the political economy of "Big Tech" as the standard villain resonates with work on platform governance and infrastructural control [[Gillespie2022-jx]], while its concern that declinism casts users as passive victims speaks to the networked-propaganda and agency debates in [[Benkler2018-lw]]. Most of the other papers under these topics pursue empirical misinformation questions rather than historiographical critique, so the intellectual overlap is deliberately limited.
+
+## Podcast
+
+A [research-radio](https://fabiogiglietto.github.io/research-radio/) episode discusses this paper: 🎧 [MP3](https://github.com/fabiogiglietto/research-radio/releases/download/audio/Hegarty2026-qr.mp3) · [Spotify](https://open.spotify.com/show/5V99ieB2ljNvcwPZ53EoPX)
