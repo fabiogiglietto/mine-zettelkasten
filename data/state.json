@@ -5339,10 +5339,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-06T12:37:39.113505+00:00"
+    },
+    "bibtex:Chancellor2026-sld9": {
+      "note_path": "Papers/Chancellor2026-sld9.md",
+      "topics": [
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "62000ae74837b08f2eeec462ca3fda194d06fff1843c8eec70cbbf4c5d0b3754",
+      "doi": "10.1145/3816991",
+      "title": "Retheorizing Context Collapse for Social Media",
+      "pdf_source": "drive",
+      "content_hash": "ef289ece53a1a2b944153470a866ecba5fb85931766b836ca891e32271cc79ca",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-11-06T20:45:21.176763+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
     }
   },
   "last_full_cluster": "2026-11-02T12:23:22.879948+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "bb49aee145a47359467b0d9b42e98eaf538c2eed33352abc81d6c7014d9687f9",
   "emergent_fp": "004eac1f0ffb4e0f573ef9fe06e3d31a80b5c71085c6b7d459d9e8c0568da5ce",
   "structure_fps": {

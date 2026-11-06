@@ -1,0 +1,34 @@
+{
+  "abstract": "This conceptual paper argues that 'context collapse'—the flattening of multiple audiences into one on social media—has become conceptually ambiguous, oscillating between an overly broad catch-all and a narrow account of audience management, even as social media platforms have transformed over 15 years. The authors retheorize the concept by proposing a structural 'grammar' of context for social media built around three dimensions: the user, the platform, and the mediating data/interaction. They use this grammar to reframe three well-studied collapses and propose three novel ones aligned with algorithm-driven, consumption-oriented modern platforms, aiming to restore analytical precision while preserving the framework's generative flexibility.",
+  "key_claims": [
+    "Context collapse suffers from 'conceptual ambiguity'—it is simultaneously stretched to be a grand theory of social media sociality and used as a hyper-specific account of audience disclosure, which undermines its utility.",
+    "The original audience-oriented theorization (boyd, Marwick, Vitak) no longer fits platforms dominated by algorithmic recommendation, multimodal content, and consumption rather than social posting.",
+    "Context on social media can be systematically decomposed into three dimensions—the user, the platform, and the data/interaction—each with empirical sub-dimensions.",
+    "A 'collapse' should be redefined as the flattening of contextual information between any relevant (sub-)dimensions, not just between a user's identity and their audience.",
+    "Formalizing a context grammar renews the concept (analogous to how affordance theory was retheorized) without sacrificing the productive flexibility that made it durable."
+  ],
+  "methods": [
+    "Conceptual/theoretical retheorization rather than empirical study.",
+    "Bottom-up review of prior research on context collapse to generate dimensions and sub-dimensions.",
+    "Adaptation of Dey et al.'s ubiquitous-computing definition of context to social computing.",
+    "Two sets of case studies: (1) translating well-known collapses into the new grammar, and (2) proposing novel collapses grounded in existing empirical literature.",
+    "Synthesis of literature from CSCW, CMC, and HCI, including work on affordances, folk theories, algorithmic experience, and self-concept."
+  ],
+  "findings": [
+    "Three context dimensions are proposed: the user (sub-dimensions: state—situational identity, location, time, activity; and self-concept—role identities, historical narrative, beliefs/values, traits); the platform or its 'DNA' (design, network/content, algorithm); and data/interaction (profiles, personal data/settings, first-order content, active interactions, passive/consumption interaction, metadata).",
+    "Two cross-cutting influences shape all dimensions: business model ecosystems and governance ecosystems.",
+    "Three known collapses are reframed: audience collapse (self-concept vs. network/content), time collapse (self-concept vs. data/interaction across time), and interaction collapse (user state vs. platform design).",
+    "Three novel collapses are theorized: identity collapse (algorithms compressing multifaceted self-concept), algorithmic collapse (design/interface flattening algorithmic complexity), and situational collapse (algorithms overriding in-the-moment situational needs with aggregated behavior models).",
+    "Collapses can co-occur and compound—e.g., 'stakeholder intention collapse' and 'cross-platform data collapse' span multiple dimensions driven by business models and corporate data aggregation."
+  ],
+  "contributions": [
+    "A reusable definition of context for social computing adapted for social media platforms.",
+    "A structured 'context grammar' of dimensions and sub-dimensions for analyzing context collapse.",
+    "A redefinition of 'collapse' as flattening between any relevant context dimensions.",
+    "Reframing of three canonical collapses and introduction of three new ones (identity, algorithmic, situational).",
+    "Inferential potential (better operationalization, measurement, cross-study and cross-platform comparison) and application potential (design directions for identity control and algorithmic control).",
+    "An agenda for future theoretical work on cross-cutting collapses and emerging actors such as AI agents and AI-generated content."
+  ],
+  "framing": "The paper positions itself within CSCW/computer-mediated communication theory on self-presentation and audience, building on boyd, Marwick, and Vitak's context collapse and Meyrowitz's media theory. It explicitly models its intervention on the lifecycle of durable HCI concepts (notably affordance theory) and draws on ubiquitous-computing definitions of context (Dey et al., Dourish, Suchman) and Sartori's notion of conceptual stretching to justify disciplined reconceptualization.",
+  "pdf_source": "drive"
+}
