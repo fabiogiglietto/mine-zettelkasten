@@ -5323,10 +5323,26 @@
       "last_processed": "2026-11-04T22:05:57.270381+00:00",
       "kind": "team",
       "submitted_by": "María José"
+    },
+    "bibtex:Hegarty2026-qr": {
+      "note_path": "Papers/Hegarty2026-qr.md",
+      "topics": [
+        "meta-science-of-misinformation-research",
+        "information-disorder-fake-news"
+      ],
+      "assign_fp": "d814fb99b15790f5c30c820ee8c8cd8c6aa4a6e6766128d9cab51875d80bd947",
+      "doi": "10.1080/24701475.2026.2760136",
+      "title": "“When did the internet become this awful?”: the idea of decline in internet histories",
+      "pdf_source": "drive",
+      "content_hash": "efaf464477472d7b42235695a5c290fc8500a5fb4453b9553bd2aa8f666bd050",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-06T06:22:19.705102+00:00"
     }
   },
   "last_full_cluster": "2026-11-02T12:23:22.879948+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "bb49aee145a47359467b0d9b42e98eaf538c2eed33352abc81d6c7014d9687f9",
   "emergent_fp": "004eac1f0ffb4e0f573ef9fe06e3d31a80b5c71085c6b7d459d9e8c0568da5ce",
   "structure_fps": {

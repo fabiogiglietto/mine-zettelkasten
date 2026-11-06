@@ -61,6 +61,7 @@ Conceptual and empirical work on how false and misleading information circulates
 - [[Guess2021-ym]]
 - [[Guo2026-fi]]
 - [[Hameleers2026-mc]]
+- [[Hegarty2026-qr]]
 - [[Helmond2026-ll]]
 - [[Hollingshead2026-vx]]
 - [[Holt2026-zq]]

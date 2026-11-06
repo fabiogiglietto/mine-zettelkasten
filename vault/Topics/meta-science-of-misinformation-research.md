@@ -21,6 +21,7 @@ Papers that step back from primary empirical study to critically assess the misi
 - [[Freelon2020-yp]]
 - [[Frischlich2025-vn]]
 - [[Hartmann2025-px]]
+- [[Hegarty2026-qr]]
 - [[Heiss2026-qv]]
 - [[Hourigan2026-oc]]
 - [[Humprecht2020-gd]]
