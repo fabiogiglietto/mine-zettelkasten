@@ -80,6 +80,7 @@ Methodological contributions on using social media and digital trace data for so
 - [[Peters2026-mo]]
 - [[Pierri2026-ib]]
 - [[Richter2026-bt]]
+- [[Rieder2020-sl35]]
 - [[Rieder2025-ju]]
 - [[Righetti2025-sl2a]]
 - [[Sarmiento2025-as]]

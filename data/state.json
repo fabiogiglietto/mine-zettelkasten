@@ -5355,10 +5355,27 @@
       "last_processed": "2026-11-06T20:45:21.176763+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Rieder2020-sl35": {
+      "note_path": "Papers/Rieder2020-sl35.md",
+      "topics": [
+        "platform-data-governance",
+        "computational-social-media-methods"
+      ],
+      "assign_fp": "af6d34e1b06e9ed2ade39403981c581500852b7bf56a1e0977443698bc3f08e2",
+      "doi": "10.14763/2020.4.1535",
+      "title": "Towards platform observability",
+      "pdf_source": "drive",
+      "content_hash": "a759973e4ed380b6c60ddd08776ba7ed3ba0b9dca03dbdbd585c7490fdaabc2a",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-11-07T13:49:33.600824+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
     }
   },
   "last_full_cluster": "2026-11-02T12:23:22.879948+00:00",
-  "papers_since_cluster": 4,
+  "papers_since_cluster": 5,
   "register_signals_hash": "bb49aee145a47359467b0d9b42e98eaf538c2eed33352abc81d6c7014d9687f9",
   "emergent_fp": "004eac1f0ffb4e0f573ef9fe06e3d31a80b5c71085c6b7d459d9e8c0568da5ce",
   "structure_fps": {

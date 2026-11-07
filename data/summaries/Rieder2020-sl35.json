@@ -1,0 +1,32 @@
+{
+  "abstract": "This article critically examines the dominant regulatory reliance on transparency as a means of holding digital platforms accountable, arguing that the metaphor of an openable 'black box' misrepresents the complex, distributed, and dynamic nature of algorithmic systems. In its place, the authors propose the concept of 'observability' — a pragmatic, knowledge-focused approach that treats accountability as a continuous, mediated social relation embedded in material conditions. They set out three guiding principles for regulating toward observability and argue for institutional innovation, culminating in a proposal for a well-resourced European Platform Observatory.",
+  "key_claims": [
+    "Transparency, understood as information disclosure, is insufficient as a regulatory panacea for containing platform power because it rests on flawed assumptions linking visibility to insight and insight to control.",
+    "The 'black box' metaphor misleads regulators: algorithmic systems (especially machine-learning-based ones) are opaque, complex, spatially and functionally distributed, continuously changing, and therefore not legible as single, stable entities.",
+    "Platform behaviour is co-produced through interactions among technical design, business practices, and user appropriations, so accountability must extend beyond algorithms to encompass platform conduct, behaviour, and broader social effects.",
+    "Observability is a more adequate concept than transparency because it foregrounds the practices, conditions, and processes of observing and treats accountability as a dynamic social relation.",
+    "Observability should serve as a 'counter power' and a means of regulation rather than an alternative to it, requiring binding legal frameworks and institutional support.",
+    "Public interest should serve as the normative benchmark for assessing platform behaviour, in preference to narrower concepts like algorithmic fairness or bias."
+  ],
+  "methods": [
+    "Conceptual and theoretical article; critical literature review rather than empirical study.",
+    "Synthesises critical scholarship on transparency, accountability, algorithm and platform studies, and regulation (e.g., Ananny & Crawford, August & Osrecki, Flyverbom, Burrell, Dourish, Seaver, Bovens).",
+    "Illustrates arguments with concrete examples of regulatory proposals (EU platform-to-business regulation, Digital Services Act debate, US Filter Bubble Transparency Act, German Medienstaatsvertrag) and empirical/observational projects (TOSBack, Polisis/PriBot, Facebook Data for Good and Ad Library, Social Science One, developer APIs, scraping projects like AlgoTransparency, Datenspende, Ad Observer, BahnMining).",
+    "Draws on the authors' experience as members of the European Commission's Observatory on the Online Platform Economy."
+  ],
+  "findings": [
+    "Transparency requirements actively reconfigure rather than merely reveal their objects, and frequently produce unintended effects such as bureaucratisation, distrust, and 'window dressing'.",
+    "Machine learning systems resist meaningful disclosure because decision models are inductively learned from vast data, involve too many variables to trace to singular factors, and are distributed across subsystems, locations, and time.",
+    "Existing data-access initiatives (e.g., Facebook Data for Good, Social Science One) are hampered by delays, restrictions, and the fact that platforms retain control over scope and modalities, keeping information asymmetries intact.",
+    "Four practical access approaches — negotiated data-access agreements, dedicated accountability interfaces, repurposed developer APIs, and scraping — each have strengths and limitations, and all face privacy concerns and dependence on platform acquiescence.",
+    "Effective accountability requires a 'critical audience' and diverse, collaborative knowledge forms (quantitative, qualitative, journalistic, NGO-driven), not just data access or quantitative audits."
+  ],
+  "contributions": [
+    "Introduces and elaborates 'observability' as a conceptual alternative/complement to transparency for platform governance, distinguishing it by its emphasis on the conditions and practices of observing.",
+    "Articulates three concrete regulatory principles: (1) expand the normative and analytical horizon (using public interest as benchmark), (2) observe platform behaviour continuously over time, and (3) strengthen capacities for collaborative knowledge creation.",
+    "Offers a typology and critical assessment of practical data-access approaches for studying platforms.",
+    "Proposes institutional mechanisms — including 'centres of expertise' and a mandated, well-funded European Platform Observatory with regulatory backing — to operationalise observability."
+  ],
+  "framing": "The paper positions itself within critical scholarship on transparency and algorithmic accountability, platform studies, and regulation theory, engaging debates on surveillance/informational/digital capitalism and the 'platform society'. It treats accountability as a mediated, material social relation (drawing on Bovens, Power, Flyverbom, and STS perspectives) and intervenes in contemporary European and US policy debates over platform regulation such as the Digital Services Act.",
+  "pdf_source": "drive"
+}

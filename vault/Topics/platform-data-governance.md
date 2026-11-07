@@ -54,6 +54,7 @@ Work on social media platforms' data policies, API access under the Digital Serv
 - [[Peters2026-mo]]
 - [[Philipp2026-tl]]
 - [[Pierri2026-ib]]
+- [[Rieder2020-sl35]]
 - [[Rieder2025-ju]]
 - [[Rogers2025-sl8f]]
 - [[Rogers2026-zz]]
