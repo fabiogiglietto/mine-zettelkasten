@@ -15,6 +15,7 @@ Conceptual and empirical work on how false and misleading information circulates
 - [[Allcott2017-yz]]
 - [[Allcott2019-gn]]
 - [[Allen2020-nj]]
+- [[Altoe2026-wu]]
 - [[Balluff2026-bv]]
 - [[Benkler2018-lw]]
 - [[Bennett2018-ys]]

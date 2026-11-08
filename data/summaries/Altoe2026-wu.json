@@ -1,0 +1,41 @@
+{
+  "abstract": "The paper introduces narrative-level streaming virality prediction as a new task for misinformation triage, motivated by the gap between how fast false narratives peak (median 1.5 days) and how slowly fact-checks arrive (median 4.5 days). It presents an end-to-end streaming pipeline with four main stages: online clustering of semantically equivalent posts into evolving narratives, kernel-density anomaly detection over cluster activity, LLM-based claim normalization, and cluster-level spread prediction via a novel Post-Detection Spread Ratio (PSR) metric, followed by an interpretable check-worthiness classifier. The authors release the first dataset and baselines for the new task, built from a 1.52M-post US political-event Twitter/X stream, and show state-of-the-art results on two established Automatic Claim Detection tasks.",
+  "key_claims": [
+    "The natural unit of analysis for fact-checking triage is the narrative (a cluster of semantically equivalent claims), not individual posts or coarse events, which prior virality work targets.",
+    "Automatic Claim Detection should extend beyond static classification to support pre-virality, claim-level streaming analysis grounded in journalistic decision criteria.",
+    "A novel Post-Detection Spread Ratio (PSR) metric quantifies the remaining intervention window at detection time and enables actionable triage before peak virality.",
+    "Task-specific prompting design (contrastive, topic-aware few-shot) matters more than raw model capacity for constrained claim normalization.",
+    "Interpretable architectures aligned with journalistic pre-judgment criteria (checkability, verifiability, harm potential) can match or exceed black-box fusion while generalizing better across datasets.",
+    "A distilled modular pipeline outperforms a frontier LLM (zero-shot) at check-worthiness at substantially lower cost and latency."
+  ],
+  "methods": [
+    "Constructed a new dataset from the US Election 2020 Tweets Kaggle corpus (Oct 15–Nov 08, 2020), yielding 1.52M tweets after preprocessing, chosen for not needing hydration and for having collection-time engagement counts enabling no-lookahead temporal statistics.",
+    "Streaming clustering using paraphrase-multilingual-mpnet-base-v2 embeddings with incremental cosine-similarity clustering (threshold tau=0.65, O(n*k) time), after a claim gate (4–125 words, excluding reaction commentary).",
+    "Online anomaly detection with EXPoSE (Random Kitchen Sinks / kernel density via random Fourier features, D=20000, gamma=0.5, decay alpha=0.01, threshold 0.1), selected from NAB benchmark leaderboard, monitoring hourly tweet count and engagement.",
+    "Claim normalization via two-stage retrieval (multilingual-e5-base embeddings, post-to-post then claim-to-post verification) plus contrastive, topic-aware few-shot prompting with Mistral-7B-Instruct-v0.3, Mixtral-8x7B, and DeepSeek-3.1v; evaluated with METEOR on the CT2025 English N=300 subset.",
+    "Virality prediction formulated as predicting PSR = (E_final - E_detect)/E_final, using 42 features from a 6-hour post-detection window; baselines across linear (Ridge, BayesianRidge), tree (RandomForest, LightGBM), kernel (SVR), sequence/point-process (LSTM, GRU, Hawkes), and text (BERTweet) models on 529 clusters with 80/20 split.",
+    "Check-worthiness classification with a 4-Parallel-Heads DeBERTa-v3-large (full 435M-parameter fine-tuning) decomposing into checkability, verifiability, harm potential, and overall heads, trained with class-weighted cross-entropy and LLM-derived soft labels (mistral-small-24b) via a three-phase schedule on cleaned CheckThat! 2024 Task 1 English splits.",
+    "Frontier-LLM zero-shot ablation with Claude Opus 4.7 on CT24 test-gold (N=341) with McNemar significance testing, plus cost/latency comparison.",
+    "Formative evaluation with six professional fact-checkers rating 18 claim-report pairs."
+  ],
+  "findings": [
+    "On CT2025 English claim normalization (N=300), contrastive few-shot Mistral-7B-Instruct-v0.3 reaches METEOR 0.5569, exceeding the strongest published baseline (0.4569) by 10.0 METEOR points and outperforming the larger Mixtral-8x7B (0.5463).",
+    "The 4-Parallel-Heads DeBERTa-v3-large achieves F1=0.833 on CheckThat! 2024 (vs prior SOTA 0.802), generalizing zero-shot to ClaimBuster (F1=0.973) and CheckThat! 2023 (F1=0.933); a late-fusion variant reaches marginally higher CT2024 F1 (0.836) but generalizes worse.",
+    "EXPoSE dominates classical detectors (NAB 79.2, 97.9% detected before peak, median +23h lead) because claim clusters violate stationarity assumptions.",
+    "Cluster-level virality is approximately linear: regularized linear (BayesianRidge rho=0.551) and kernel (SVR R2=0.336, MAE=0.207, best F2@0.65=0.632) models match or beat sequence models and point processes, which perform near-random; user/network authority features dominate over content features.",
+    "86% of check-worthiness errors are shared across approaches, indicating representation learning rather than feature engineering is the bottleneck.",
+    "Claude Opus 4.7 zero-shot trails the distilled classifier by 0.11 F1 (0.722 vs 0.833, McNemar p<10^-2) at ~$18/1k claims and ~9.9s latency versus <10ms and near-zero amortized cost.",
+    "The pipeline surfaces ~500 fact-check candidates from ~1.5M posts over three weeks, a triage ratio manageable by a small newsroom; fact-checkers agreed/partially agreed with recommendations in 83.3% of cases and all six rated the report structure aligned with practice.",
+    "Fine-tuning underperforms prompting for normalization (0.4427), and normalized claims can contain factual misstatements that METEOR does not penalize."
+  ],
+  "contributions": [
+    "A new task formulation: narrative-level streaming virality prediction, with the narrative cluster as the unit of analysis.",
+    "The first dataset and baselines for this task: virality labels and 42-feature inputs for 529 anomalous cluster instances (535 distinct claims) from a 1.52M-post US political-event Twitter/X stream, plus code and prompts.",
+    "The novel Post-Detection Spread Ratio (PSR) metric quantifying the remaining intervention window at detection time.",
+    "State-of-the-art results on two established ACD tasks (CT2025 claim normalization and CheckThat! 2024 check-worthiness) proposed as new baselines.",
+    "An interpretable 4-Parallel-Heads architecture decomposing check-worthiness into checkability, verifiability, and harm potential, aligned with journalistic pre-judgment criteria.",
+    "A frontier-LLM zero-shot ablation and formative study with professional fact-checkers supporting the modular, distilled design."
+  ],
+  "framing": "The work sits at the intersection of virality prediction, claim normalization, check-worthiness detection, and explainable fact-checking, positioning itself against prior ACD research that treats claim selection as static post-hoc classification. It frames the problem through journalism research on fact-checkers' multi-stage cognitive decision process under time and attention constraints, and against streaming misinformation detection work (e.g., IC-Mamba, narrative-emergence prediction) that operates on posts or discourse networks rather than canonical claim clusters.",
+  "pdf_source": "drive"
+}

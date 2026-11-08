@@ -41,6 +41,7 @@ Empirical and reflective studies of how platform affordances, cultures, and audi
 - [[Kakavand2026-kt]]
 - [[Kristensen2025-ni]]
 - [[Kuznetsova2025-nu]]
+- [[Li2026-zv]]
 - [[Lukito2026-il]]
 - [[Marwick2011-sl02]]
 - [[Marwick2025-ov]]

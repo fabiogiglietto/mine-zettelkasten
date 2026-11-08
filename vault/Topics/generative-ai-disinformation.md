@@ -23,6 +23,7 @@ Emerging research on how generative AI is used to produce and scale deceptive co
 - [[Hameleers2026-mc]]
 - [[Hove2026-sl49]]
 - [[Kasianenko2026-tn]]
+- [[Li2026-zv]]
 - [[Lin2025-xp]]
 - [[Manovich2026-ih]]
 - [[Orlando2025-ul]]

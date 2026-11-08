@@ -1413,9 +1413,9 @@
         "information-disorder-fake-news"
       ],
       "pdf_source": "drive",
-      "content_hash": "ead76a3051d5775c95e562d2fd160bcdd3745640bfbf912a679620f5e95bf89f",
+      "content_hash": "14db5152919a931d32d0a8073404d39bcba6b36ce4605e1d876523ea5a0af5b5",
       "podcast_linked": false,
-      "last_processed": "2026-10-09T07:57:42.212059+00:00",
+      "last_processed": "2026-11-08T09:30:38.189762+00:00",
       "assign_fp": "934e3c5635a78c142e7ba1d5fd8793ee78493ed343f81f66e640d57ff54c6851"
     },
     "bibtex:Fan2025-ut": {
@@ -1592,9 +1592,9 @@
         "computational-political-media-influence"
       ],
       "pdf_source": "abstract_only",
-      "content_hash": "678e56cc6f9aa31fdf9f03aaa3dfc9eb733d8950bef8638e9887b83b86398eec",
+      "content_hash": "c7a1c58652b9abd415b1f9f4491c609af9edf48104bd72bea16fed603c6a57c2",
       "podcast_linked": false,
-      "last_processed": "2026-05-17T10:31:30.264427+00:00",
+      "last_processed": "2026-11-08T09:30:48.154324+00:00",
       "assign_fp": "7a3348c8de73c78184f37a821e2a04c3453ca8d94d76d03f9c706fa22dc8126d"
     },
     "bibtex:Waight2025-al": {
@@ -5372,10 +5372,42 @@
       "last_processed": "2026-11-07T13:49:33.600824+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Li2026-zv": {
+      "note_path": "Papers/Li2026-zv.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "generative-ai-disinformation"
+      ],
+      "assign_fp": "d8cc8ce8606889bef7960d8bef183507721e8593cdb1d8f168f40e5437254b4b",
+      "doi": "",
+      "title": "Defective, amplified, contested: Folk conceptualizations of AI slop",
+      "pdf_source": "drive",
+      "content_hash": "76ad2cf12248d4e86f167edf441e3551063d17aea2027bb81f88bab04d02674d",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-08T09:29:58.966437+00:00"
+    },
+    "bibtex:Altoe2026-wu": {
+      "note_path": "Papers/Altoe2026-wu.md",
+      "topics": [
+        "information-disorder-fake-news",
+        "llm-content-analysis"
+      ],
+      "assign_fp": "8b4c9ae7a8c60a324813600b8e035014ea0e96d5be7dfe3f82c9f0a4a1cbc7b3",
+      "doi": "10.1145/3799682.3840688",
+      "title": "Predicting narrative virality on social media streams for pre-peak misinformation triage",
+      "pdf_source": "drive",
+      "content_hash": "0646a48e9d382b65c43f9134d71c622a3d784da0388ba5b6b0a8dac109c4f2c6",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-08T09:30:20.100735+00:00"
     }
   },
   "last_full_cluster": "2026-11-02T12:23:22.879948+00:00",
-  "papers_since_cluster": 5,
+  "papers_since_cluster": 7,
   "register_signals_hash": "bb49aee145a47359467b0d9b42e98eaf538c2eed33352abc81d6c7014d9687f9",
   "emergent_fp": "004eac1f0ffb4e0f573ef9fe06e3d31a80b5c71085c6b7d459d9e8c0568da5ce",
   "structure_fps": {
