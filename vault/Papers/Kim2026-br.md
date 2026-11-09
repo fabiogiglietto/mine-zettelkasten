@@ -5,7 +5,7 @@ authors: ["Jaehong Kim", "Hyeonseung Kim", "Jiseon Kim", "Alice Oh", "Thorsten H
 year: 2026
 doi: 
 bibtex_key: Kim2026-br
-topics: [coordinated-inauthentic-behavior, computational-social-media-methods]
+topics: [coordinated-inauthentic-behavior-detection, information-disorder-and-health-misinformation]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2606.22785v1

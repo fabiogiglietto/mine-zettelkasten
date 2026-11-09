@@ -5,7 +5,7 @@ authors: ["Hunt Allcott", "Matthew Gentzkow", "Chuan Yu"]
 year: 2019
 doi: 10.3386/w25500
 bibtex_key: Allcott2019-gn
-topics: [information-disorder-fake-news, platform-data-governance]
+topics: [information-disorder-and-health-misinformation, platform-data-access-and-governance]
 citation_count: 80
 open_access: false
 source_url: https://doi.org/10.3386/w25500

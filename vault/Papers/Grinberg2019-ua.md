@@ -5,7 +5,7 @@ authors: ["Nir Grinberg", "Kenneth Joseph", "Lisa Friedland", "Briony Swire-Thom
 year: 2019
 doi: 10.1126/science.aau2706
 bibtex_key: Grinberg2019-ua
-topics: [information-disorder-fake-news, electoral-communication-social-media]
+topics: [information-disorder-and-health-misinformation, electoral-communication-and-digital-campaigns]
 citation_count: 1290
 open_access: false
 source_url: https://doi.org/10.1126/science.aau2706

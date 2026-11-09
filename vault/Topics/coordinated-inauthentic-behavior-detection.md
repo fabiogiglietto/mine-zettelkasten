@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: coordinated-inauthentic-behavior
+slug: coordinated-inauthentic-behavior-detection
 emergent: false
 ---
 
-# Coordinated Inauthentic Behavior
+# Coordinated Inauthentic Behavior Detection
 
-Detection and analysis of coordinated link-sharing and inauthentic networks on social platforms, the methodological core of Giglietto's research (CooRnet, the vera.ai WP4 alert system, and studies of deceptive information operations). This remains the most active and continuously updated strand of his work, including the 2026 VERA-AI Alert monitoring system.
+Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated link-sharing and inauthentic network behaviour across Facebook, X and other platforms; this is the researcher's signature, continuously active line of work spanning elections, health disinformation and influence operations.
 
 ## Papers
 
@@ -15,13 +15,10 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Askanius2026-de]]
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
-- [[Bosch2024-hj]]
-- [[Bouchaud2026-np]]
-- [[Bruns2026-yv]]
+- [[Bruns2019-nr]]
 - [[Copland2025-em]]
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
-- [[Efstratiou2025-gs]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
@@ -33,15 +30,11 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Giglietto2026-9b6a992d]]
 - [[Graham2025-gp]]
 - [[Graham2026-fb]]
-- [[Groebner2026-pc]]
-- [[Heft2021-ky]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
 - [[Kansaon2025-id]]
-- [[Karo2026-dn]]
 - [[Keller2019-nk]]
 - [[Kim2026-br]]
-- [[Knupfer2025-vt]]
 - [[Kulichkina2025-sl09]]
 - [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]
@@ -50,19 +43,16 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Mannocci2026-kc]]
 - [[Marino2023-9137f448]]
 - [[Minici2024-tf]]
-- [[Nangle2026-yo]]
 - [[Nizzoli2020-cf]]
 - [[Oprea2025-lf]]
 - [[Orlando2025-ul]]
 - [[Pante2025-pq]]
 - [[Poliakoff2026-fa]]
-- [[Rieder2026-pp]]
 - [[Righetti2025-sl2a]]
 - [[Righetti2025-slf9]]
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
 - [[Rogers2026-cy]]
-- [[Rothut2026-or]]
 - [[Schroeder2026-im]]
 - [[Simeone2025-vo]]
 - [[Slack1783507463-sl24]]
@@ -74,13 +64,11 @@ Detection and analysis of coordinated link-sharing and inauthentic networks on s
 - [[Tuters2026-vo]]
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
-- [[noauthor_undated-bm]]
-- [[noauthor_undated-yy]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "coordinated-inauthentic-behavior")
+WHERE contains(topics, "coordinated-inauthentic-behavior-detection")
 SORT discovery_date DESC
 ```

@@ -5,7 +5,7 @@ authors: ["Kelley Cotter"]
 year: 2019
 doi: 10.1177/1461444818815684
 bibtex_key: Cotter2019-js
-topics: [platforms-audiences-and-online-communities, computational-social-media-methods]
+topics: [social-media-platform-affordances-and-engagement, platforms-audiences-and-online-communities]
 citation_count: 816
 open_access: false
 source_url: https://doi.org/10.1177/1461444818815684

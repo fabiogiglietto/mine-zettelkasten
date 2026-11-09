@@ -5,7 +5,7 @@ authors: ["Emelie Karlsson"]
 year: 2026
 doi: 10.1177/14614448251410509
 bibtex_key: Karlsson2026-hd
-topics: [political-polarization-partisanship, electoral-communication-social-media]
+topics: [political-polarization-and-partisan-media-ecosystems, electoral-communication-and-digital-campaigns]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/14614448251410509

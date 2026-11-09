@@ -5,7 +5,7 @@ authors: ["Emilio Ferrara"]
 year: 2026
 doi: 
 bibtex_key: Emilio2026-ik
-topics: [generative-ai-disinformation, information-disorder-fake-news]
+topics: [generative-ai-and-synthetic-media-manipulation, information-disorder-and-health-misinformation]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2601.00306v1

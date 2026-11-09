@@ -1,33 +1,36 @@
 ---
 type: topic
-slug: generative-ai-disinformation
+slug: generative-ai-and-synthetic-media-manipulation
 emergent: false
 ---
 
-# Generative AI and Disinformation
+# Generative AI & Synthetic Media Manipulation
 
-Emerging research on how generative AI is used to produce and scale deceptive content (e.g., AI-generated visuals in coordinated gambling promotion) and on AI-assisted countermeasures, paired with his new 'IA Generativa e Media' course. A clearly growing focus of his current teaching and publication agenda.
+Emerging research on AI-generated visual and textual persuasion techniques used in coordinated disinformation and problematic promotional campaigns (e.g. gambling ads), and broader questions of countering disinformation in the generative-AI era, paired with a new graduate course on the topic.
 
 ## Papers
 
+- [[Bastos2025-ol]]
 - [[Beacken2026-zb]]
+- [[Bosch2024-hj]]
 - [[Choi2026-bz]]
-- [[Costello2024-bg]]
 - [[Crichton2026-kn]]
 - [[Dierickx2026-tw]]
 - [[Emilio2026-ik]]
 - [[Galip2026-ix]]
 - [[Giglietto2026-9b6a992d]]
-- [[Gilardi2026-hw]]
+- [[Gillespie2026-aa]]
 - [[Hackenburg2025-dj]]
+- [[Hackenburg2026-ud]]
 - [[Hameleers2026-mc]]
 - [[Hove2026-sl49]]
 - [[Kasianenko2026-tn]]
 - [[Li2026-zv]]
 - [[Lin2025-xp]]
-- [[Manovich2026-ih]]
+- [[Luceri2025-tr]]
 - [[Orlando2025-ul]]
 - [[Perez-Curiel2026-ld]]
+- [[Rauchfleisch2026-fa]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
 - [[Tang2026-gu]]
@@ -35,12 +38,11 @@ Emerging research on how generative AI is used to produce and scale deceptive co
 - [[Triedman2025-uy]]
 - [[Wack2026-bt]]
 - [[Waight2026-ts]]
-- [[Wang2025-zy]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "generative-ai-disinformation")
+WHERE contains(topics, "generative-ai-and-synthetic-media-manipulation")
 SORT discovery_date DESC
 ```

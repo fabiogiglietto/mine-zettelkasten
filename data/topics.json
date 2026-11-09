@@ -1,109 +1,102 @@
 [
   {
-    "slug": "coordinated-inauthentic-behavior",
-    "name": "Coordinated Inauthentic Behavior",
-    "description": "Detection and analysis of coordinated link-sharing and inauthentic networks on social platforms, the methodological core of Giglietto's research (CooRnet, the vera.ai WP4 alert system, and studies of deceptive information operations). This remains the most active and continuously updated strand of his work, including the 2026 VERA-AI Alert monitoring system.",
+    "slug": "coordinated-inauthentic-behavior-detection",
+    "name": "Coordinated Inauthentic Behavior Detection",
+    "description": "Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated link-sharing and inauthentic network behaviour across Facebook, X and other platforms; this is the researcher's signature, continuously active line of work spanning elections, health disinformation and influence operations.",
     "source_signals": [
-      "_data/projects.yml",
-      "_data/publications.yml",
+      "publications.yml",
+      "projects.yml",
       "scripts/data/bio-seed.md",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "platform-data-governance",
-    "name": "Platform Data Governance & Research Access",
-    "description": "Work on social media platforms' data policies, API access under the Digital Services Act, and the consequences of platform decisions (CrowdTangle shutdown, Meta's political content reduction, the 100-share threshold) for research and for public visibility of political actors. Reflects his ongoing role as an independent expert for the European Commission's Article 40 DSA data-access process.",
-    "source_signals": [
-      "_data/publications.yml",
-      "scripts/data/bio-seed.md",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "generative-ai-disinformation",
-    "name": "Generative AI and Disinformation",
-    "description": "Emerging research on how generative AI is used to produce and scale deceptive content (e.g., AI-generated visuals in coordinated gambling promotion) and on AI-assisted countermeasures, paired with his new 'IA Generativa e Media' course. A clearly growing focus of his current teaching and publication agenda.",
-    "source_signals": [
-      "_data/publications.yml",
-      "_data/teaching.yml",
-      "_data/news.yml",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "llm-content-analysis",
-    "name": "LLMs for Computational Content Analysis",
-    "description": "Methodological work integrating large language models into content classification and annotation pipelines for political discourse and complex social phenomena, including validation challenges and comparisons with human coders. Connects to his PhD-level data analysis teaching and recent AoIR collaborations.",
-    "source_signals": [
-      "_data/publications.yml",
-      "_data/teaching.yml",
       "_data/news.yml"
     ],
     "is_emergent": false
   },
   {
-    "slug": "political-polarization-partisanship",
-    "name": "Political Polarization & Partisanship",
-    "description": "Studies of partisan attention, hyperpartisan networks, affective engagement in partisan communities, and the broader dynamics of polarization across Italian, German, Brazilian and Latin American contexts, including conceptual work revisiting polarization and populism as analytic categories.",
+    "slug": "platform-data-access-and-governance",
+    "name": "Platform Data Access & Governance",
+    "description": "Research and expert advisory work on social media research infrastructure, API access post-CrowdTangle, the Digital Services Act / ECAT oversight, and platform content-moderation policies (e.g. Meta's political content reduction); addresses the methodological and regulatory conditions under which platform research is possible.",
     "source_signals": [
-      "_data/publications.yml",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "health-misinformation",
-    "name": "Health Misinformation & Fact-Checking",
-    "description": "Research mapping coordinated networks circulating problematic health content (India, Nigeria) and tools to accelerate COVID-19 fact-checking, extending into trust and 'post-truth' dynamics around medical counter-publics. Reflects a sustained MINE sub-project line funded by the Gates Foundation and Italian MUR.",
-    "source_signals": [
-      "_data/projects.yml",
-      "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "electoral-communication-social-media",
-    "name": "Elections & Social Media Communication",
-    "description": "Longitudinal program mapping political news coverage and social media dynamics around national elections (Italy 2018/2022, Germany 2021, Brazil), anchored in the MINE research program that Giglietto founded and continues to coordinate as an institutional umbrella.",
-    "source_signals": [
-      "_data/projects.yml",
-      "_data/publications.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "information-disorder-fake-news",
-    "name": "Information Disorder & Fake News",
-    "description": "Conceptual and empirical work on how false and misleading information circulates within the hybrid media system, including foundational taxonomies of 'fake news' and hateful disinformation — a throughline connecting his theoretical and applied research across two decades.",
-    "source_signals": [
-      "_data/publications.yml",
-      "scripts/config.js",
-      "_data/news.yml"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "computational-social-media-methods",
-    "name": "Computational Social Media Research Methods",
-    "description": "Methodological contributions on using social media and digital trace data for social science research, including survey recruitment via ad platforms, systematic reviews of platform-specific metrics (e.g., Facebook reactions), and the ethics of computational social science — underpinning his Master's and PhD teaching in digital network analysis and data methods.",
-    "source_signals": [
-      "_data/publications.yml",
-      "_data/teaching.yml",
-      "scripts/config.js"
-    ],
-    "is_emergent": false
-  },
-  {
-    "slug": "media-theory-sociocybernetics",
-    "name": "Media Theory & Sociocybernetics",
-    "description": "Giglietto's theoretical grounding in sociocybernetics and systems theory applied to networked media and social TV/second-screen phenomena — an earlier but still occasionally revisited intellectual foundation (e.g., ISA Sociocybernetics committee involvement) underlying his later empirical work.",
-    "source_signals": [
-      "_data/publications.yml",
+      "publications.yml",
       "scripts/data/bio-seed.md"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "llm-assisted-computational-content-analysis",
+    "name": "LLM-Assisted Computational Content Analysis",
+    "description": "Development and validation of large-language-model pipelines (embedding models, judge-agent workflows, human-AI annotation) for classifying and analysing political and social media text at scale, a rapidly growing methodological focus reflected in recent publications and teaching.",
+    "source_signals": [
+      "publications.yml",
+      "_data/news.yml",
+      "_data/teaching.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "information-disorder-and-health-misinformation",
+    "name": "Information Disorder & Health Misinformation",
+    "description": "Study of disinformation narratives, fact-checking support tools, and the circulation of problematic health and political information across contexts including COVID-19, the war in Ukraine, and health content in India and Nigeria, underpinning projects such as PROMPT and MINE-FACTS.",
+    "source_signals": [
+      "projects.yml",
+      "publications.yml",
+      "scripts/data/bio-seed.md"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "generative-ai-and-synthetic-media-manipulation",
+    "name": "Generative AI & Synthetic Media Manipulation",
+    "description": "Emerging research on AI-generated visual and textual persuasion techniques used in coordinated disinformation and problematic promotional campaigns (e.g. gambling ads), and broader questions of countering disinformation in the generative-AI era, paired with a new graduate course on the topic.",
+    "source_signals": [
+      "publications.yml",
+      "_data/teaching.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "electoral-communication-and-digital-campaigns",
+    "name": "Electoral Communication & Digital Campaigns",
+    "description": "Comparative analysis of social media dynamics around national elections (Italy, Germany, Brazil, Australia), including coordinated account networks, political advertising, and citizen engagement with campaign content on Facebook and Instagram.",
+    "source_signals": [
+      "projects.yml",
+      "publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "political-polarization-and-partisan-media-ecosystems",
+    "name": "Political Polarization & Partisan Media Ecosystems",
+    "description": "Investigation of partisan attention, insularity, and affective engagement in news consumption and sharing across Facebook communities, media parallelism, and cross-national newsfeed comparisons, central to the MINE programme's long-running agenda.",
+    "source_signals": [
+      "publications.yml",
+      "projects.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "social-media-platform-affordances-and-engagement",
+    "name": "Social Media Platform Affordances & Engagement",
+    "description": "Studies of how platform features (reactions, algorithmic governance, ad-targeting tools) shape visibility, engagement and audience behaviour on Facebook, including methodological work on using Facebook ads for survey recruitment.",
+    "source_signals": [
+      "publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "social-tv-and-second-screen-audiences",
+    "name": "Social TV & Second-Screen Audiences",
+    "description": "Earlier but recurring strand examining Twitter-based audience participation around television programming and streaming platform launches, representing a foundational line of the researcher's work on networked publics.",
+    "source_signals": [
+      "publications.yml"
+    ],
+    "is_emergent": false
+  },
+  {
+    "slug": "sociocybernetics-and-digital-society-theory",
+    "name": "Sociocybernetics & Digital Society Theory",
+    "description": "Theoretical engagement with systems theory, sociocybernetics and the observation of social systems in the era of big data, reflecting the researcher's longstanding involvement with ISA's Research Committee on Sociocybernetics.",
+    "source_signals": [
+      "publications.yml"
     ],
     "is_emergent": false
   },

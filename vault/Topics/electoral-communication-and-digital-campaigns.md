@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: electoral-communication-social-media
+slug: electoral-communication-and-digital-campaigns
 emergent: false
 ---
 
-# Elections & Social Media Communication
+# Electoral Communication & Digital Campaigns
 
-Longitudinal program mapping political news coverage and social media dynamics around national elections (Italy 2018/2022, Germany 2021, Brazil), anchored in the MINE research program that Giglietto founded and continues to coordinate as an institutional umbrella.
+Comparative analysis of social media dynamics around national elections (Italy, Germany, Brazil, Australia), including coordinated account networks, political advertising, and citizen engagement with campaign content on Facebook and Instagram.
 
 ## Papers
 
@@ -15,43 +15,52 @@ Longitudinal program mapping political news coverage and social media dynamics a
 - [[Allcott2025-jb]]
 - [[Appel2026-qr]]
 - [[Arceneaux2026-xk]]
+- [[Bastos2025-ya]]
+- [[Berlinski2023-rj]]
 - [[Bouchafra2026-ts]]
 - [[Bouchaud2026-np]]
+- [[Brady2026-ln]]
 - [[Chadwick2013-ns]]
 - [[Chadwick2015-ii]]
 - [[Darius2026-xl]]
+- [[Divon2026-wx]]
+- [[Eady2023-xg]]
 - [[Gaber2022-bk]]
-- [[Gaisbauer2025-by]]
 - [[Gattermann2025-yx]]
-- [[Gauthier2026-iq]]
 - [[Gaw2025-ru]]
+- [[Gerard2025-br]]
 - [[Giglietto2012-32b6b551]]
 - [[Giglietto2019-882f1900]]
 - [[Giglietto2020-6278a4aa]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2023-fa71a001]]
+- [[Giglietto2024-cbeb3f70]]
 - [[Giglietto2025-1765bb4f]]
-- [[Giglietto2026-632ef967]]
 - [[Gonzalez-Bailon2024-rq]]
 - [[Grinberg2019-ua]]
 - [[Guess2019-ym]]
-- [[Guess2020-rr]]
 - [[Guess2023-ur]]
+- [[Hallin2004-kg]]
+- [[Holland_Levin2026-qx]]
 - [[Iannelli2015-e0818c3e]]
 - [[Inacio-da-Silva2026-zf]]
 - [[Iris2026-pg]]
+- [[Jovanovic-Harrington2026-ze]]
 - [[Jurg2025-ur]]
 - [[Kalsnes2025-zb]]
-- [[Kansaon2025-id]]
 - [[Karlsson2026-hd]]
 - [[Katzenbach2026-sl2e]]
+- [[Keller2019-nk]]
 - [[Kim2026-wg]]
+- [[Knupfer2025-vt]]
+- [[Kulichkina2025-sl09]]
 - [[Larsson2026-ro]]
 - [[Lukito2026-il]]
 - [[Lukito2026-nb]]
+- [[Mannocci2025-ig]]
 - [[Marino2024-2fbc690f]]
 - [[Marino2026-slef]]
-- [[McNally2025-dn]]
+- [[Mosca2026-yh]]
 - [[Much2026-gu]]
 - [[Nizzoli2020-cf]]
 - [[Oprea2025-lf]]
@@ -64,17 +73,19 @@ Longitudinal program mapping political news coverage and social media dynamics a
 - [[Rossini2026-jn]]
 - [[Rossini2026-mj]]
 - [[Schulte2026-df]]
+- [[Simeone2025-vo]]
 - [[Slack1783507532-sl10]]
+- [[Starbird2025-jj]]
 - [[Tai2026-qk]]
 - [[Tjaden2026-sl8e]]
-- [[Tsfati2020-uo]]
+- [[Tornberg2025-ir]]
 - [[Ventura2026-yc]]
-- [[de-Vreese2026-zx]]
+- [[Votta2025-xz]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "electoral-communication-social-media")
+WHERE contains(topics, "electoral-communication-and-digital-campaigns")
 SORT discovery_date DESC
 ```

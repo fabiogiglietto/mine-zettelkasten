@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Neil Malhotra", "Jennifer Pan", "Pablo Barberá", 
 year: 2023
 doi: 10.1126/science.abp9364
 bibtex_key: Guess2023-ur
-topics: [computational-political-media-influence, electoral-communication-social-media]
+topics: [electoral-communication-and-digital-campaigns, computational-political-media-influence]
 citation_count: 326
 open_access: false
 source_url: https://doi.org/10.1126/science.abp9364

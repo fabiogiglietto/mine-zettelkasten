@@ -8,7 +8,7 @@ bibtex_key: Chancellor2026-sld9
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1793975202912549?thread_ts=1793975202.912549&cid=C0BDU82EBHQ
-topics: [platforms-audiences-and-online-communities]
+topics: [platforms-audiences-and-online-communities, sociocybernetics-and-digital-society-theory]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1145/3816991

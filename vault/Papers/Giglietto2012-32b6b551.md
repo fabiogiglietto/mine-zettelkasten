@@ -6,7 +6,7 @@ year: 2012
 doi: 10.2139/ssrn.1982736
 bibtex_key: Giglietto2012-32b6b551
 kind: own
-topics: [electoral-communication-social-media, computational-social-media-methods]
+topics: [electoral-communication-and-digital-campaigns]
 citation_count: 35
 open_access: true
 source_url: https://doi.org/10.2139/ssrn.1982736

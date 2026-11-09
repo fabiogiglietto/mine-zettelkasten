@@ -5,7 +5,7 @@ authors: ["Andreas Hepp"]
 year: 2026
 doi: 10.1177/01634437261454515
 bibtex_key: Hepp2026-oi
-topics: [ai-industry-imaginaries-and-discourse]
+topics: [ai-industry-imaginaries-and-discourse, sociocybernetics-and-digital-society-theory]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/01634437261454515

@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: llm-content-analysis
+slug: llm-assisted-computational-content-analysis
 emergent: false
 ---
 
-# LLMs for Computational Content Analysis
+# LLM-Assisted Computational Content Analysis
 
-Methodological work integrating large language models into content classification and annotation pipelines for political discourse and complex social phenomena, including validation challenges and comparisons with human coders. Connects to his PhD-level data analysis teaching and recent AoIR collaborations.
+Development and validation of large-language-model pipelines (embedding models, judge-agent workflows, human-AI annotation) for classifying and analysing political and social media text at scale, a rapidly growing methodological focus reflected in recent publications and teaching.
 
 ## Papers
 
@@ -15,6 +15,7 @@ Methodological work integrating large language models into content classificatio
 - [[Altoe2026-wu]]
 - [[Arminio2025-tw]]
 - [[Arora2025-tx]]
+- [[Bailard2024-pj]]
 - [[Balluff2026-if]]
 - [[Brown2025-jk]]
 - [[Carammia2024-sl90]]
@@ -25,29 +26,30 @@ Methodological work integrating large language models into content classificatio
 - [[Elfes2026-jb]]
 - [[Fan2025-ut]]
 - [[Farjam2026-zg]]
+- [[Gardam2025-er]]
 - [[Giglietto2024-cbeb3f70]]
 - [[Gomez-Zara2026-as]]
+- [[Iris2026-pg]]
 - [[Jayaram2026-wd]]
-- [[Lai2024-to]]
+- [[Kotz2026-lk]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]
 - [[Marino2024-2fbc690f]]
 - [[Meher2025-qb]]
-- [[Miller2026-cp]]
 - [[Minici2024-tf]]
-- [[Nguyen2026-vm]]
 - [[Ober2026-vd]]
 - [[Paci2025-ag]]
-- [[Ptz2024-sl20]]
+- [[Sarmiento2025-as]]
 - [[Szabo2026-rd]]
 - [[Tan2024-vl]]
+- [[Triedman2025-uy]]
 - [[Waight2025-al]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "llm-content-analysis")
+WHERE contains(topics, "llm-assisted-computational-content-analysis")
 SORT discovery_date DESC
 ```

@@ -5,7 +5,7 @@ authors: ["Joan Donovan"]
 year: 2025
 doi: 10.1177/07439156251384249
 bibtex_key: Donovan2025-ws
-topics: [information-disorder-fake-news, platform-data-governance]
+topics: [information-disorder-and-health-misinformation, platform-data-access-and-governance]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/07439156251384249

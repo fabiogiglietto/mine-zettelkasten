@@ -5,7 +5,7 @@ authors: ["Concha Pérez-Curiel", "Cristian López-Domínguez", "Sandra Méndez-
 year: 2026
 doi: 10.1016/j.ssaho.2026.103611
 bibtex_key: Perez-Curiel2026-ld
-topics: [generative-ai-disinformation, electoral-communication-social-media]
+topics: [generative-ai-and-synthetic-media-manipulation, electoral-communication-and-digital-campaigns]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1016/j.ssaho.2026.103611

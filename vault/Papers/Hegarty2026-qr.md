@@ -5,7 +5,7 @@ authors: ["Kieran Hegarty"]
 year: 2026
 doi: 10.1080/24701475.2026.2760136
 bibtex_key: Hegarty2026-qr
-topics: [meta-science-of-misinformation-research, information-disorder-fake-news]
+topics: [ai-industry-imaginaries-and-discourse, meta-science-of-misinformation-research]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/24701475.2026.2760136

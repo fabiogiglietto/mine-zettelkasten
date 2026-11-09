@@ -8,7 +8,7 @@ bibtex_key: Rieder2020-sl35
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1794038915472379
-topics: [platform-data-governance, computational-social-media-methods]
+topics: [platform-data-access-and-governance, sociocybernetics-and-digital-society-theory]
 citation_count: 111
 open_access: true
 source_url: https://doi.org/10.14763/2020.4.1535

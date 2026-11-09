@@ -5,7 +5,7 @@ authors: ["Stephen Prochaska", "Mert Bayar", "Ashlyn B. Aske", "Joseph Schafer",
 year: 2026
 doi: 
 bibtex_key: Prochaska2026-pr
-topics: [information-disorder-fake-news, electoral-communication-social-media]
+topics: [information-disorder-and-health-misinformation, electoral-communication-and-digital-campaigns]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2610.37804v1
