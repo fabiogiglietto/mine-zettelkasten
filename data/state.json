@@ -5390,10 +5390,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-08T09:30:20.100735+00:00"
+    },
+    "bibtex:Larsson2026-nl": {
+      "note_path": "Papers/Larsson2026-nl.md",
+      "topics": [
+        "electoral-communication-and-digital-campaigns",
+        "llm-assisted-computational-content-analysis"
+      ],
+      "assign_fp": "a42c1bdf2b907c48d6dd2ea7751f03a2d13c21b99eebb6ce0f82d77efe640aa0",
+      "doi": "10.1177/20563051261501463",
+      "title": "“I share your sentiment”—A longitudinal study of Facebook post sentiment and sharing",
+      "pdf_source": "drive",
+      "content_hash": "eff5eb3da4c8e016e14df26b75d9a102d2ca7d0c56344cc8e3b7542f7b79997d",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-12T22:40:14.582001+00:00"
     }
   },
   "last_full_cluster": "2026-11-09T12:53:21.942224+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "ec46e37908bf35d9e354e155dba039de8ae5c4820f0657ca53d972c3da57bfc8",
   "emergent_fp": "e02e9bc9eef14787224561f02e9b45ddc524ea6eec00da18964a33c0f26a3573",
   "structure_fps": {

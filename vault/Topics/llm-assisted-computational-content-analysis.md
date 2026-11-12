@@ -32,6 +32,7 @@ Development and validation of large-language-model pipelines (embedding models, 
 - [[Iris2026-pg]]
 - [[Jayaram2026-wd]]
 - [[Kotz2026-lk]]
+- [[Larsson2026-nl]]
 - [[Larsson2026-ro]]
 - [[Le-Mens2025-qz]]
 - [[Lee2026-je]]

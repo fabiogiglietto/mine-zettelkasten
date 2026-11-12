@@ -1,0 +1,32 @@
+{
+  "abstract": "This longitudinal study examines how Norwegian political parties used negative, positive, and neutral sentiment on Facebook over a 10-year period (2016-2025) and how such sentiment affected the sharing of their posts. Drawing on a full population of nearly 39,000 posts from all major parliamentary parties and spanning three parliamentary elections (2017, 2021, 2025), it adopts a supply-and-demand framing of political communication. The study finds that while positive sentiment remains dominant, negative sentiment has increased over time—especially among challenger and left-wing parties—and that negative posts generally attract more shares, though this advantage weakens over time.",
+  "key_claims": [
+    "Negative sentiment in Norwegian political parties' Facebook communication has increased over the studied decade, though positive sentiment remains dominant overall.",
+    "Incumbency status, rather than ideology alone, is the primary driver of negativity: challenger parties use negative sentiment far more than governing parties.",
+    "Extremist/fringe parties on both the far-left (Red Party) and far-right (Progress Party) post more negative content, but negativity does not consistently translate into more shares for them.",
+    "Overall, negative posts receive more shares, but this amplification effect appears to weaken toward the end of the studied period, suggesting strategic adaptation or audience fatigue.",
+    "Combining large language models with human annotation is a viable and reliable method for sentiment analysis in a non-English (Norwegian) political communication context."
+  ],
+  "methods": [
+    "Analysis of a full population of 39,512 Facebook Page posts (38,898 containing text) from nine major Norwegian parliamentary parties, collected via the Meta Content Library (MCL) in January 2026, covering 2016-01-01 to 2025-12-31.",
+    "Three-step sentiment analysis combining LLMs and human annotation using the Mall R package's llm_sentiment function: step 1 classification with Gemma 3 LLM; step 2 human coding of a random 400-post sample (Krippendorff's alpha = .82); step 3 reclassification with gpt-oss-20b (intercoder alpha between the two LLMs = .78).",
+    "Descriptive analyses using chi-square and Cramér's V to assess sentiment distributions by year and by party.",
+    "Binary logistic regression testing whether incumbency predicts negative (vs. positive) sentiment, with neutral posts filtered out.",
+    "Negative binomial regression models (shares as a count-distributed dependent variable) estimating the effect of sentiment on sharing overall and per party, reported as incidence rate ratios (IRRs), with Social Democrats as reference category; model fit reported via McFadden adjusted R2 and Nagelkerke R2."
+  ],
+  "findings": [
+    "Negative-sentiment posts increased over the decade, plateauing at just over 35% in the final four years, while positive posts remained the largest category throughout (year/sentiment association Cramér's V = .12).",
+    "Incumbents had significantly lower odds of using negative sentiment (odds ratio = 0.255, ~74.5% lower odds); predicted probability of negative sentiment was ~16.2% for incumbents vs. ~43.1% for challengers, confirming H2a and H2b.",
+    "Across all years, the Socialist Left Party posted the most negative content (44%), followed by the Red Party (39.1%), Greens (33.5%), and Progress Party (31.1%); catch-all parties (Social Democrats, Conservatives) were least negative (party/sentiment Cramér's V = .22).",
+    "Negativity drove shares for all parties combined (positive-sentiment IRRs below 1), but the effect weakened over time—IRRs below .7 in 2016-2021 rose above .7 in 2022-2025.",
+    "At the party level, going negative increased shares for most parties, but the two ideological extremes—the far-left Red Party and far-right Progress Party—gained more shares with positive sentiment (Progress Party all-years IRR = 2.511, Red Party = 1.457)."
+  ],
+  "contributions": [
+    "Provides rare longitudinal (10-year, three-election) evidence on the 'emotional turn' in online political communication, covering both supply (party sentiment) and demand (audience sharing) sides.",
+    "Demonstrates and validates a replicable methodology combining open-source LLMs (Gemma 3, gpt-oss-20b) with human annotation for sentiment analysis in a non-English language.",
+    "Offers a non-US, multiparty, consensus-oriented case (Norway) as a contrast to the predominantly US-focused literature on online campaigning and negativity.",
+    "Nuances the 'negativity drives diffusion' literature by documenting a dampening effect over time and an inverse pattern for ideologically extreme parties."
+  ],
+  "framing": "The paper positions itself within political communication research on the 'emotional turn,' 'dark politics,' and negative campaigning on social media, engaging debates about whether negativity drives engagement and whether it is tied to ideology or incumbency. It adopts a supply-and-demand approach and network/mediatization logics, and responds to repeated calls for longitudinal designs within the study of online political communication.",
+  "pdf_source": "drive"
+}
