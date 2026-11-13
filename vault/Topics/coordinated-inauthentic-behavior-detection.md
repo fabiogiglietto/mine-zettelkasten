@@ -35,6 +35,7 @@ Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated 
 - [[Kansaon2025-id]]
 - [[Keller2019-nk]]
 - [[Kim2026-br]]
+- [[Klinger2023-qu]]
 - [[Kulichkina2025-sl09]]
 - [[Kulichkina2026-zk]]
 - [[Kuznetsova2025-nu]]

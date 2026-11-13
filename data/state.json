@@ -5401,15 +5401,47 @@
       "doi": "10.1177/20563051261501463",
       "title": "“I share your sentiment”—A longitudinal study of Facebook post sentiment and sharing",
       "pdf_source": "drive",
-      "content_hash": "eff5eb3da4c8e016e14df26b75d9a102d2ca7d0c56344cc8e3b7542f7b79997d",
+      "content_hash": "8a3c602ab5753b346e3ceffaca2d7ad66c790328c2dbf1c90a76d77df013007d",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-13T11:28:18.106373+00:00"
+    },
+    "bibtex:Klinger2023-qu": {
+      "note_path": "Papers/Klinger2023-qu.md",
+      "topics": [
+        "coordinated-inauthentic-behavior-detection",
+        "electoral-communication-and-digital-campaigns"
+      ],
+      "assign_fp": "62a1e72ddeab4fdaf6e75543a9437c975c2d9e2991e237906d1874540d6b34bd",
+      "doi": "10.1080/1369118x.2022.2050415",
+      "title": "From the fringes into mainstream politics: intermediary networks and movement-party coordination of a global anti-immigration campaign in Germany",
+      "pdf_source": "drive",
+      "content_hash": "df4b60bd646746a04323cda91f49191bc08b1a9dde4b45f827043903d49c0ce7",
       "podcast_linked": false,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-11-12T22:40:14.582001+00:00"
+      "last_processed": "2026-11-13T11:27:42.147785+00:00"
+    },
+    "bibtex:Hartley2006-oi": {
+      "note_path": "Papers/Hartley2006-oi.md",
+      "topics": [
+        "platforms-audiences-and-online-communities",
+        "political-polarization-and-partisan-media-ecosystems"
+      ],
+      "assign_fp": "24e2cef492f5b5fa6b8439abbfe6fca73b49d7d1eb832111535453d314a2a736",
+      "doi": "10.1177/1367549406066077",
+      "title": "The public sphere on the beach",
+      "pdf_source": "drive",
+      "content_hash": "6786fb6422afacc739d53f492ac3417acedab600891f182ed9d25bc754a35660",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-13T11:28:01.378194+00:00"
     }
   },
   "last_full_cluster": "2026-11-09T12:53:21.942224+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 3,
   "register_signals_hash": "ec46e37908bf35d9e354e155dba039de8ae5c4820f0657ca53d972c3da57bfc8",
   "emergent_fp": "e02e9bc9eef14787224561f02e9b45ddc524ea6eec00da18964a33c0f26a3573",
   "structure_fps": {

@@ -52,6 +52,7 @@ Comparative analysis of social media dynamics around national elections (Italy, 
 - [[Katzenbach2026-sl2e]]
 - [[Keller2019-nk]]
 - [[Kim2026-wg]]
+- [[Klinger2023-qu]]
 - [[Knupfer2025-vt]]
 - [[Kulichkina2025-sl09]]
 - [[Larsson2026-nl]]

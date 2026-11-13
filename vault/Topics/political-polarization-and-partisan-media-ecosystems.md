@@ -45,6 +45,7 @@ Investigation of partisan attention, insularity, and affective engagement in new
 - [[Guess2020-rr]]
 - [[Guess2021-ym]]
 - [[Hallin2004-kg]]
+- [[Hartley2006-oi]]
 - [[Hartmann2025-px]]
 - [[Heft2021-ky]]
 - [[Holland_Levin2026-qx]]
