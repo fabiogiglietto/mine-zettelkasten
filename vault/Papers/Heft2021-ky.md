@@ -5,7 +5,7 @@ authors: ["Annett Heft", "Curd Knüpfer", "Susanne Reinhardt", "Eva Mayerhöffer
 year: 2021
 doi: 10.1177/1940161220963670
 bibtex_key: Heft2021-ky
-topics: [political-polarization-and-partisan-media-ecosystems, platforms-audiences-and-online-communities]
+topics: [political-polarization-and-partisanship, information-disorder-narratives]
 citation_count: 91
 open_access: false
 source_url: https://doi.org/10.1177/1940161220963670

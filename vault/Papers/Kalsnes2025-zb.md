@@ -5,7 +5,7 @@ authors: ["Bente Kalsnes", "Anders Olof Larsson"]
 year: 2026
 doi: 10.1080/1369118x.2025.2595670
 bibtex_key: Kalsnes2025-zb
-topics: [electoral-communication-and-digital-campaigns, social-media-platform-affordances-and-engagement]
+topics: [social-media-affordances-and-engagement, political-polarization-and-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/1369118x.2025.2595670

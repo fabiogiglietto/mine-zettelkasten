@@ -12,7 +12,6 @@ Studies examining how AI industry actors, media, and communities construct and c
 
 - [[Baym2026-tr]]
 - [[Dodds2026-df]]
-- [[Galip2026-ix]]
 - [[Gillespie2026-aa]]
 - [[Hegarty2026-qr]]
 - [[Hepp2026-oi]]
@@ -20,10 +19,8 @@ Studies examining how AI industry actors, media, and communities construct and c
 - [[Mota2026-sl59]]
 - [[Nguyen2026-vm]]
 - [[Richter2026-bt]]
-- [[Slack1783073271-slbb]]
 - [[Slack1783075716-sl1c]]
 - [[Stanusch2026-ec]]
-- [[Topinka2026-hb]]
 - [[Tornberg2026-im]]
 - [[Unknown2025-qj]]
 - [[Vertesi2026-lv]]

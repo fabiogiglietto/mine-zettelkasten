@@ -5,7 +5,7 @@ authors: ["Kateryna Kasianenko", "Caroline Gardam", "Katherine M. FitzGerald", "
 year: 2026
 doi: 10.1177/1329878x261481856
 bibtex_key: Kasianenko2026-tn
-topics: [information-disorder-and-health-misinformation, generative-ai-and-synthetic-media-manipulation]
+topics: [generative-ai-and-synthetic-media, information-disorder-narratives]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1177/1329878x261481856

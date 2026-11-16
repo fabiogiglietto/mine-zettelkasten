@@ -5,7 +5,7 @@ authors: ["John Hartley", "Joshua Green"]
 year: 2006
 doi: 10.1177/1367549406066077
 bibtex_key: Hartley2006-oi
-topics: [platforms-audiences-and-online-communities, political-polarization-and-partisan-media-ecosystems]
+topics: []
 citation_count: 55
 open_access: false
 source_url: https://doi.org/10.1177/1367549406066077

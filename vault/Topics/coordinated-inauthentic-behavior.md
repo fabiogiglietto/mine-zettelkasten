@@ -1,12 +1,12 @@
 ---
 type: topic
-slug: coordinated-inauthentic-behavior-detection
+slug: coordinated-inauthentic-behavior
 emergent: false
 ---
 
-# Coordinated Inauthentic Behavior Detection
+# Coordinated Inauthentic Behavior
 
-Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated link-sharing and inauthentic network behaviour across Facebook, X and other platforms; this is the researcher's signature, continuously active line of work spanning elections, health disinformation and influence operations.
+Detection and characterization of coordinated link-sharing, inauthentic networks and manipulation campaigns on Facebook and other platforms, from the original CooRnet/CLSB methodology to the VERA-AI Alert monitoring system. This is the researcher's longest-running and most active methodological line, spanning elections, health content and deceptive information operations across many countries.
 
 ## Papers
 
@@ -15,10 +15,11 @@ Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated 
 - [[Askanius2026-de]]
 - [[Bailard2024-pj]]
 - [[Bastos2025-ol]]
-- [[Bruns2019-nr]]
 - [[Copland2025-em]]
+- [[Crichton2026-kn]]
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
+- [[Eady2023-xg]]
 - [[Efstratiou2026-ij]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
@@ -32,9 +33,12 @@ Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated 
 - [[Graham2026-fb]]
 - [[Iannucci2025-eg]]
 - [[Jovanovic-Harrington2026-ze]]
+- [[Jurg2025-ur]]
 - [[Kansaon2025-id]]
+- [[Karo2026-dn]]
 - [[Keller2019-nk]]
 - [[Kim2026-br]]
+- [[Kim2026-wg]]
 - [[Klinger2023-qu]]
 - [[Kulichkina2025-sl09]]
 - [[Kulichkina2026-zk]]
@@ -54,6 +58,7 @@ Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated 
 - [[Rodriguez_Farres2025-sg]]
 - [[Rogers2025-sl8f]]
 - [[Rogers2026-cy]]
+- [[Rothut2026-or]]
 - [[Schroeder2026-im]]
 - [[Simeone2025-vo]]
 - [[Slack1783507463-sl24]]
@@ -62,14 +67,15 @@ Methods and tools (CooRnet, CooRTweet, VERA-AI Alert) for detecting coordinated 
 - [[Song2025-yh]]
 - [[Starbird2019-qv]]
 - [[Thiele2025-ol]]
-- [[Tuters2026-vo]]
 - [[Yang2025-iv]]
 - [[Zhao2025-ny]]
+- [[noauthor_undated-bm]]
+- [[noauthor_undated-yy]]
 
 ## All papers (Dataview)
 
 ```dataview
 LIST FROM "Papers"
-WHERE contains(topics, "coordinated-inauthentic-behavior-detection")
+WHERE contains(topics, "coordinated-inauthentic-behavior")
 SORT discovery_date DESC
 ```

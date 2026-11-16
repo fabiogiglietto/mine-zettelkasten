@@ -12,22 +12,25 @@ Papers examining methodological challenges in survey-based measurement, includin
 
 - [[Brown2025-jk]]
 - [[DiGiuseppe2025-es]]
+- [[DiGiuseppe2026-pu]]
 - [[Dubey2026-bl]]
 - [[Fattorini2026-bo]]
 - [[Fletcher2026-lv]]
 - [[Gilardi2026-hw]]
 - [[Gottfried2026-ww]]
 - [[Hinck2026-yj]]
+- [[Hove2026-sl49]]
 - [[Iannelli2018-ebd918b7]]
+- [[Kotz2026-lk]]
 - [[Luhring2025-od]]
 - [[Mattis2026-gu]]
-- [[Oswald2025-km]]
 - [[Sbaraini-Fontes2026-cw]]
 - [[Schemer2026-mh]]
 - [[Stagnaro2025-pz]]
+- [[Suk2026-ai]]
 - [[Ulloa2024-jm]]
 - [[UnknownUnknown-db]]
-- [[Wedel2026-ix]]
+- [[Voelkel2026-lc]]
 
 ## All papers (Dataview)
 
