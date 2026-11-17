@@ -33,6 +33,7 @@ Studies of how platform design, algorithmic curation and affordances (reactions,
 - [[Gauthier2026-iq]]
 - [[Gerbaudo2026-fo]]
 - [[Giglietto2012-32b6b551]]
+- [[Giglietto2015-320951c4]]
 - [[Giglietto2026-632ef967]]
 - [[Gillespie2022-jx]]
 - [[Gonzalez-Bailon2023-uy]]

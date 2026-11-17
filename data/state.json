@@ -3713,7 +3713,9 @@
       "pdf_source": "abstract_only",
       "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
       "podcast_linked": false,
-      "last_processed": "2026-08-07T09:40:05.753948+00:00"
+      "last_processed": "2026-11-17T14:01:49.400051+00:00",
+      "superseded_by": "bibtex:Giglietto2020-d568b728",
+      "slack_posted": true
     },
     "bibtex:Kakavand2026-kt": {
       "note_path": "Papers/Kakavand2026-kt.md",
@@ -5423,6 +5425,34 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-13T11:28:01.378194+00:00"
+    },
+    "bibtex:Giglietto2020-d568b728": {
+      "note_path": "Papers/Giglietto2020-d568b728.md",
+      "topics": [],
+      "assign_fp": "5af1303d6cf9ab7a4bbffc33f801d1e3032dbff11d5da7bc585a28bc6a92d499",
+      "kind": "own",
+      "doi": "10.1080/1369118x.2020.1755558",
+      "title": "Correction",
+      "pdf_source": "abstract_only",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-11-17T14:02:34.670705+00:00",
+      "supersedes": "Unknown2020-d568b728"
+    },
+    "bibtex:Giglietto2015-320951c4": {
+      "note_path": "Papers/Giglietto2015-320951c4.md",
+      "topics": [
+        "social-media-affordances-and-engagement",
+        "platforms-audiences-and-online-communities"
+      ],
+      "assign_fp": "c5bb77f4fc8a46c45d50016d0f90507f4e2ed3040186d6a007dfa4633be464fb",
+      "kind": "own",
+      "doi": "10.2139/ssrn.2611083",
+      "title": "Understanding Engagement and Willingness to Speak Up in Social-Television: A Full-Season, Cross-Genre Analysis of TV Audience Participation on Twitter",
+      "pdf_source": "drive",
+      "content_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "podcast_linked": false,
+      "last_processed": "2026-11-17T14:02:52.832890+00:00"
     }
   },
   "last_full_cluster": "2026-11-16T12:56:05.636647+00:00",
@@ -5453,6 +5483,13 @@
       "reason": "Identical title and nearly identical author list, with A being the CACM published version and B the arXiv preprint of the same commentary on the DSA's Article 40.",
       "source": "claude",
       "model": "claude-sonnet-5"
+    },
+    "bibtex:Giglietto2020-d568b728|bibtex:Unknown2020-d568b728": {
+      "same_work": true,
+      "confidence": "high",
+      "reason": "same DOI deposit (10.1080/1369118x.2020.1755558)",
+      "source": "doi",
+      "model": ""
     }
   }
 }
