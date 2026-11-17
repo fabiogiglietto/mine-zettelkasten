@@ -59,6 +59,7 @@ Papers that step back from primary empirical study to critically assess the misi
 - [[Rieder2025-ju]]
 - [[Rothut2026-wt]]
 - [[Sadler2025-vu]]
+- [[So2026-up]]
 - [[Spampatti2026-kx]]
 - [[Tonneau2025-bv]]
 - [[Trilling2024-slc8]]

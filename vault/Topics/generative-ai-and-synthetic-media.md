@@ -31,6 +31,7 @@ Study of how generative AI is reshaping both the production of deceptive content
 - [[Perez-Curiel2026-ld]]
 - [[Schiffrin_undated-gi]]
 - [[Schroeder2026-im]]
+- [[So2026-up]]
 - [[Tang2026-gu]]
 - [[Topinka2026-hb]]
 - [[Tornberg2026-lc]]

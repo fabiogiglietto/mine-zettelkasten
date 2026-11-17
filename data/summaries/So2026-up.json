@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper argues that dominant institutional responses to AI-generated content—which treat it as 'slop,' a form of digital pollution to be detected and filtered—are conceptually inadequate. The authors propose SLOP as an analytic category naming a social condition rather than a class of objects: information ecosystems where AI-generated content has reached sufficient scale and surface competence that the signals once used to judge quality no longer reliably work. They contend that what has become scarce is not content but the means of judging it, and that the value or harm of any artifact emerges from social context (who produces it, who engages with it, and why) rather than intrinsic properties. Drawing on platform studies and cultural sociology, they develop a three-dimensional framework (production, reception, effects) and a corresponding, falsifiable research agenda.",
+  "key_claims": [
+    "AI-generated content should be understood relationally, not as an object category with innate properties, because its meaning, value, and harm depend on social context.",
+    "The true scarcity created by generative AI is not content but reliable evaluative signals—the marks by which human judgment once distinguished genuine competence from its imitation.",
+    "SLOP (the analytic category) names a social condition in which AI content's scale and surface competence have broken the relationship between how content is made and what its form signals about quality.",
+    "Detection, spam, and misinformation frameworks each capture something important but are individually inadequate to the SLOP condition.",
+    "Generative AI moves the 'cost collapse' of spam upstream from distribution to creation, decoupling the surface signals of expertise from the effort and knowledge they once indexed.",
+    "Most AI-assisted content involves concealment rather than deception (per Bok's distinction) and is neither necessarily false nor intended to harm, placing it outside misinformation/disinformation/malinformation categories.",
+    "The governance problem has been misdiagnosed: institutions search for better rules when what they have actually lost is the evaluative capacity those rules stood in for.",
+    "The erosion of reliable quality signals risks turning a crisis of evaluation into a crisis of access, as gatekeepers default to exclusionary proxies like institutional prestige."
+  ],
+  "methods": [
+    "Conceptual and theoretical framework development rather than original empirical study.",
+    "Critical synthesis and comparison of three existing literatures: AI-content detection, spam scholarship, and misinformation/disinformation studies.",
+    "Application of theory from platform studies (Gillespie, Srnicek, Seaver) and the sociology of culture/valuation (Bourdieu's field theory, Lamont's theory of evaluation and 'heterarchy,' Bok on deception vs. concealment, Johns on print fixity).",
+    "Specification of a falsifiable, three-strand research agenda with named methods: ethnographic interviews and participant observation with content producers in Kenya, India, Vietnam, and the Philippines; computational analysis of 'judgment in the wild' using platform mechanisms such as LinkedIn's July 2026 'AI slop' flagging button; and interviews plus archival analysis (desk-rejection rates, time-to-decision, policy changes) of peer-review gatekeepers."
+  ],
+  "findings": [
+    "Prevalence estimates cited: AI content constitutes ~20% of YouTube videos, over 80% of LinkedIn long-form posts, 9% of newly published US newspaper online articles, and 6.5–16.9% of reviews at major AI conferences contain LLM-generated text.",
+    "Detection tools perform poorly in practice: one study found an average false-positive rate above 60% for non-native English writers' essays; another found mean detector accuracy under 40%, dropping to 22% when AI text was lightly edited.",
+    "Detection is structurally positioned to lose an 'arms race' because distributional signatures become harder to identify as models improve, requiring constant retraining.",
+    "Spam's economics were bounded by human production costs and defined by unwantedness; SLOP breaks both conditions because content is cheap to create and is wanted by some users and rejected by others.",
+    "Much AI content is subsidized by platforms (e.g., Meta engagement bonuses) and produced by low-wage content mills, so costs are shifted rather than eliminated.",
+    "Existing empirical work documents prevalence and profit incentives but does not explain social variation—why production differs across platforms, how evaluators respond from different positions, or when AI assistance is an affordance versus a degradation.",
+    "The paper advances explicit, falsifiable predictions—e.g., that producers' accounts of their work will track platform position rather than tools, and that overloaded peer-review gatekeepers will default to hard-to-fake proxies like personal acquaintance and institutional prestige."
+  ],
+  "contributions": [
+    "Introduces SLOP as an analytic category distinct from the vernacular dismissal 'slop,' reframing AI content as a social condition rather than a class of objects.",
+    "Provides a systematic critique mapping what detection, spam, and misinformation frameworks each capture and miss regarding AI-generated content.",
+    "Articulates a three-dimensional analytic structure (production, reception, effects/governance) grounded in platform studies and cultural sociology.",
+    "Offers a concrete, falsifiable research agenda with specified methods designed to be conducted without platform cooperation.",
+    "Reframes platform governance debates by arguing the core problem is lost evaluative capacity, not inadequate rules, and calls for investment in evaluative capacity itself."
+  ],
+  "framing": "The paper positions itself at the intersection of platform studies, the sociology of culture and valuation (notably Bourdieu and Lamont), and media history (Johns, Csiszar, Wellmon), while engaging critically with computer-science detection research and misinformation studies. It frames the current moment as a recurrence of historical crises over what counts as knowledge and who is authorized to judge it, now supercharged by generative AI's decoupling of credibility signals from the labor they once indexed.",
+  "pdf_source": "drive"
+}
