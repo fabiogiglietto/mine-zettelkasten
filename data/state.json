@@ -5471,10 +5471,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-17T21:19:08.419799+00:00"
+    },
+    "bibtex:Malhotra2026-vl": {
+      "note_path": "Papers/Malhotra2026-vl.md",
+      "topics": [
+        "political-polarization-and-partisanship",
+        "social-media-affordances-and-engagement"
+      ],
+      "assign_fp": "a5503c108e2e86c89da2e6fb7a3fa8a8e426c6ba153653bf4b5fd932c49aca28",
+      "doi": "10.1086/744929",
+      "title": "Political unfriending on Facebook: Evidence from over 180 million users",
+      "pdf_source": "drive",
+      "content_hash": "a9fc53aacabf15ac29a56f151aed25f07bb18d15a99d3aaf5a54014a06bbbc6f",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-18T20:50:33.431384+00:00"
     }
   },
   "last_full_cluster": "2026-11-16T12:56:05.636647+00:00",
-  "papers_since_cluster": 1,
+  "papers_since_cluster": 2,
   "register_signals_hash": "c2c9dfc2f346a3d4297c7f4466a83787d6b658ea983412265f22a1d26f316bd8",
   "emergent_fp": "7af897edc9b0820bd189e60174fb04c96142563fbb3b1d9a688e860b0d814850",
   "structure_fps": {

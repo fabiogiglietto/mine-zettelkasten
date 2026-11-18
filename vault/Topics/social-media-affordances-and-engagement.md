@@ -50,6 +50,7 @@ Studies of how platform design, algorithmic curation and affordances (reactions,
 - [[Larsson2026-nl]]
 - [[Larsson2026-ro]]
 - [[Lukito2026-il]]
+- [[Malhotra2026-vl]]
 - [[Manovich2026-ih]]
 - [[Marino2026-slef]]
 - [[Marwick2011-sl02]]

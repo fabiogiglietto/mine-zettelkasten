@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper studies 'political unfriending' on Facebook during the 2020 U.S. election using two large datasets: aggregate on-platform behavioral data from over 180 million adult U.S. users and a linked panel survey of about 72,000 users spanning June 2020 to February 2021. The authors find that while severing ties is generally rare, users were markedly more likely to cut politically cross-cutting friendships than aligned ones, with spikes around contentious events like Election Day, the January 6th attempted coup, and Inauguration Day. They also validate survey self-reports of unfriending against actual on-platform behavior, finding meaningful concordance.",
+  "key_claims": [
+    "Facebook users disproportionately sever politically cross-cutting ties relative to aligned ties, being roughly 25%–50% more likely to unfriend a cross-cutting than an aligned friend.",
+    "Cross-cutting tie severing is dynamic rather than static, peaking during moments of acute political conflict (Election Day, January 6th, Inauguration Day).",
+    "Cross-cutting unfriending is concentrated among users with strong political identities (strong ideologues/partisans) and those with high on-platform civic engagement.",
+    "Survey-based self-reports of political unfriending are rooted in actual behavior rather than being purely expressive, lending validity to traditional survey measures.",
+    "The study is descriptive and cannot establish that politics is the causal driver of unfriending, nor the characteristics of those who were unfriended."
+  ],
+  "methods": [
+    "Analysis of aggregate on-platform behavioral data from ~183.9 million adult U.S. monthly active Facebook users (final sample after filtering for estimable ideology and having at least one liberal and one conservative friend).",
+    "A linked panel survey of 71,930 consenting U.S. adult Facebook users fielded across six waves (August 2020–March 2021) with post-stratification weights, as part of the U.S. 2020 Facebook and Instagram Election Study (FIES).",
+    "User ideology estimated via an internal Facebook classifier (0=left to 1=right; liberal ≤0.4, conservative ≥0.6), with ideological strength bifurcated into strong (<0.2 or >0.8) and weak ideologues; survey analyses also used self-reported party ID and ideology.",
+    "Tie severing measured as unfriending, normalized by friend-network size separately for aligned and cross-cutting friendships; risk ratios computed comparing cross-cutting to aligned severing rates.",
+    "Benchmarking of unfriending rates against New Year's Day (a known date of network 'cleaning'); daily time-series analysis across the campaign; heterogeneity analysis by ideology strength and civic engagement quintiles; logistic regressions with demographic controls.",
+    "Validation exercise comparing survey self-reports of unfriending (and of unfriending cross-cutting ties) against logged 90-day on-platform behavior, plus exploratory analysis of self-reported motivations.",
+    "Preregistered analysis plan with documented deviations; robustness checks using the classifier vs. self-reports, and expanding severing to include blocking and unfollowing."
+  ],
+  "findings": [
+    "Unfriending is rare overall: users severed roughly 2%–4% of their pre-study friends; liberals unfriended 2.66% of conservative vs. 2.14% of liberal friends (risk ratio 0.80), conservatives 2.80% of liberal vs. 2.09% of conservative friends (risk ratio 1.34).",
+    "Nearly one-third of users engaged in some unfriending during the campaign, a figure fairly close to prior survey-based estimates.",
+    "Large short-term spikes in cross-cutting unfriending occurred immediately after Election Day, on January 6th, and on Inauguration Day; conservatives showed the sharpest increases (quadrupling unfriending of liberals on Election Day) and also cut some aligned (conservative) ties.",
+    "Moderates were relatively unaffected and balanced in their severing; strong ideologues were least likely to unfriend like-minded users and (for conservatives) most likely to unfriend cross-cutting ones.",
+    "Higher civic engagement predicted more cross-cutting unfriending (e.g., liberals: 1.5% in lowest quintile vs. 3.2% in highest for unfriending conservatives), with engagement a stronger predictor than ideological strength.",
+    "Self-reports were largely accurate: 62% of those who reported unfriending had done so; 79% of those reporting no unfriending had not; 84% accuracy for reporting no cross-cutting unfriending, 54% for reporting cross-cutting unfriending.",
+    "Self-reported motivations included posting too much politics (26.8% overall; 37.5% among cross-cutting unfrienders), political disagreement (28.9%; 44.2%), offensive content, abuse/harassment, and the events of January 6th (34.1% overall; 49.8% among cross-cutting unfrienders)."
+  ],
+  "contributions": [
+    "Provides the first large-scale behavioral evidence on the differential severing of aligned versus cross-cutting online friendships, using over 180 million users.",
+    "Shifts the study of political homophily from static network composition toward the dynamic process of tie dissolution during contentious political periods.",
+    "Documents how acute political events dynamically shape unfriending behavior over a granular daily time series across the 2020 election and its aftermath.",
+    "Offers a methodological contribution by validating survey-based measures of political unfriending against actual on-platform behavior from the same individuals.",
+    "Characterizes heterogeneity in unfriending by political identity strength and on-platform civic engagement."
+  ],
+  "framing": "The paper positions itself within research on affective polarization, political homophily, and echo chambers, drawing on sociological work on homophily, weak versus strong ties (Granovetter), and self-selection into like-minded networks. It extends this literature by moving beyond static network composition and survey-only measures to examine the understudied dynamics of online tie dissolution during a contentious electoral period.",
+  "pdf_source": "drive"
+}

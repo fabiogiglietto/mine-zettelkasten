@@ -50,6 +50,7 @@ Analysis of partisan community dynamics, affective engagement, insularity and cr
 - [[Kristensen2025-ni]]
 - [[Kulichkina2025-sl09]]
 - [[Lieu2025-nl]]
+- [[Malhotra2026-vl]]
 - [[Marino2026-slef]]
 - [[Marwick2026-qd]]
 - [[Messing2014-jc]]
