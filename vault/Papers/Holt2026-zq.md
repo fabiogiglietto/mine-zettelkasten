@@ -47,7 +47,7 @@ The author analyzes the URL Shares dataset's Attributes, Breakdown, and User Rep
 
 ## Connections
 
-This paper belongs to the descriptive-empirical tradition of research built on the Meta/Social Science One URL Shares dataset and its methodological quirks, connecting to work on interpreting and using that data such as [[Gonzalez-Bailon2024-rq]] and [[Ulloa2024-jm]]. Its engagement with the wisdom-of-crowds debate over whether laypeople can identify misinformation at scale relates to crowd-based and expert-comparison studies like [[Allen2025-ot]], while its focus on platform-driven flagging and Community Notes connects to work on Notes and user-driven moderation such as [[Renault2025-uh]] and [[Pierri2025-hm]].
+This paper uses the Meta/Social Science One URL Shares dataset, as does [[Rossi2023-847d5a9f]] for news quality in European newsfeeds, and joins work on misinformation's reach on Facebook such as [[Gonzalez-Bailon2024-rq]]. On the policy shift that motivates it, [[Cazzamatta2026-lo]] tests the censorship narrative behind Meta's end of third-party fact-checking. The evidence on Community Notes as the replacement — [[Renault2025-uh]] on partisan asymmetry in flagged posts and [[Bouchaud2026-np]] on undermoderation of polarizing content — sits alongside Holt's finding that user reports often express political objection. [[Miller2026-cp]] is a thematic contrast: X's account of AI-written notes in the same crowd-moderation system.
 
 ## Podcast
 

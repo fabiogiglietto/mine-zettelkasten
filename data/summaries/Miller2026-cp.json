@@ -1,23 +1,39 @@
 {
-  "abstract": "This paper describes the design of an open API and AI writer system for scaling X's Community Notes, a crowd-sourced fact-checking and context-adding system. Since September 2025, the AI Note Writer API offers a public interface allowing AI systems to propose notes while preserving the founding principle that human users—not the platform or AI—decide which notes become visible. The approach uses explicit note requests and user posts as triggers while maintaining the open-source, open-data algorithm that determines which notes are shown broadly.",
+  "abstract": "This paper, written by X's Community Notes team (all six authors list the affiliation \"Community Notes, SpaceXAI\"), presents the design, operation and impact of the Community Notes AI Note Writer API, open to the public since September 2025, and of the Community Writer (CW), the largest API client, released as open-source software under the Apache 2.0 license. The API lets anyone operate AI writers that consume feeds of candidate posts and propose notes, while contributor ratings and the open-source scoring algorithm still decide which notes show broadly on X. Unless otherwise stated, measurements reflect June 2-29, 2026. The authors report that the CW accounts for 41% of proposed notes, 52% of Currently Rated Helpful (CRH) notes and 55% of CRH note views while consuming 22% of contributor ratings, and that AI note writing is additive to human note writing rather than a replacement for it.",
   "key_claims": [
-    "AI can be used to propose Community Notes at scale without ceding control over which notes are displayed to the platform or the AI itself.",
-    "Human users, through contribution and rating, should remain the arbiters of which notes show broadly on X.",
-    "An open, public API for AI note writers can extend the Community Notes system while preserving its transparency and community-driven principles."
+    "AI writers can raise the supply and speed of Community Notes while contributor ratings remain the sole mechanism by which notes show broadly on X: the API changes how notes can be written, not how they are shown.",
+    "Since the API launched, AI writers have helped increase daily CRH note volume by 86.0% (all AI and human writers combined; 28-day trailing averages as of 1 September 2025 and 20 September 2026).",
+    "The CW is efficient with contributor time, producing 52% of CRH notes and 55% of CRH note views from 41% of proposed notes and 22% of ratings.",
+    "AI and human note writing are complementary: among posts with a CRH note, 42% have no human-proposed note and 30% have no AI-proposed note.",
+    "Rater attention is \"a critical resource\", so mechanisms that economize ratings (Notable Post Model, rejectors, Deletion Model) are central to scaling AI note writing."
   ],
   "methods": [
-    "Design and deployment of the AI Note Writer API as an open, public interface (launched September 2025).",
-    "Integration of AI-proposed notes into the existing open-source, open-data Community Notes rating and ranking algorithm.",
-    "Use of explicit note requests and user posts as inputs/triggers for note generation (detail truncated in available abstract)."
+    "System description of the AI API and the CW plus a 28-day evaluation (June 2-29, 2026; note status as of June 30, 2026), during which updates to CW code, configuration, models and API feeds were paused. Collaborative notes, a pilot feature, are excluded.",
+    "Earn-in: a new API client must pass three quality checks on its 50 most recently submitted notes (at least 95% resolving URLs, at least 98% not classified as harassment or abuse, and thresholds on the open-source ClaimOpinion model's scores) before its notes collect ratings.",
+    "Quota: a daily writing limit tied to hit rate, defined as (CRH - CRNH) / (CRH + CRNH + NMR). It is non-linear: a 10% hit rate allows 50 notes/day and a 20% hit rate allows the maximum of 500 notes/day (algorithm in Appendix A).",
+    "Four candidate-post feeds (Small, Large, XL, XXL) built from explicit Request a Community Note use and implicit signals such as \"@grok is this true?\"; access beyond the Small feed requires at least 100 notes, a hit rate of at least 5% and a CRNH rate of at most 10%, and the XXL feed also requires a net CRH of at least 100 over 90 days.",
+    "CW pipeline: a Notable Post Model (a single-hidden-layer multilayer perceptron predicting whether a post will receive a CRH note) prioritizes LIFO work queues; two writing models (Grok 4.20 and CN Grok, a Grok model post-trained on Community Notes data) draft notes; four rejectors (Helpfulness, Recent Context, Screenshot, Revision) filter them; retry and revision queues give second attempts.",
+    "Deletion Model: logistic regression on real-time rating aggregates, applied every 60 seconds once 3 ratings are available, with an elevated deletion threshold at 3 or 4 ratings and a standard threshold at 5 or more; it deletes notes unlikely to reach CRH status.",
+    "Comparison of the CW with other AI API clients, top human writers and other human writers on CRH rate, ratings consumed, CRH note views, latency and topic coverage (topics assigned by Grok 4.20)."
   ],
   "findings": [
-    "Findings are not available from the provided abstract excerpt, which is truncated."
+    "The CW accounts for 41% of proposed notes, 52% of CRH notes and 55% of CRH note views while consuming 22% of contributor ratings.",
+    "AI writers supported 86.0% growth in daily CRH notes shown broadly on X between September 2025 and September 2026 (all AI and human writers combined).",
+    "Among posts with a proposed note from both the CW and another writer, the CW publishes the first non-deleted note on 60% and the first AI-proposed note on 95%.",
+    "Among posts with a CRH note, 42% have no human-proposed note (only AI notes) and 30% have no AI-proposed note; 41% have no AI-written CRH note.",
+    "A rating spent on a CW note has a 29% likelihood of leading to a CRH note, against 17% for notes by top human writers.",
+    "Human writers average a 10.4% CRH rate and a 9.0% CRNH rate (notes with at least 10 ratings or CRH/CRNH status); the quota forces AI writers operating at scale to outperform this.",
+    "54% of Needs More Ratings (NMR) notes have fewer than 10 ratings, the effective minimum for CRH status.",
+    "Of 65 client accounts that began earn-in, 32 earned writing ability and submitted a note, and 19 of those remain active.",
+    "Across feed sizes, the CW's CRH rates per post with a submitted note range from 7.9% to 10.5%.",
+    "Stated limitations: no control for operational cost or feed sizes across AI writers, and the CW is compared with all other AI writers in aggregate."
   ],
   "contributions": [
-    "An open API design enabling AI participation in Community Notes while retaining human control over note visibility.",
-    "A framework for scaling crowd-sourced contextual annotation that combines AI note generation with community rating.",
-    "Preservation of open-source and open-data principles within an AI-augmented content moderation/context system."
+    "Openness: documents the public Community Notes AI API, including its admissions (earn-in) process, quota allocation and feed hierarchy.",
+    "Scale: describes mechanisms to prioritize, draft, evaluate and delete proposed notes that economize contributor time (52% of CRH notes from 22% of ratings).",
+    "Speed: shows an API client writing the first non-deleted note on 60% of posts that also have a note from another writer, yielding 55% of CRH note views.",
+    "Releases the Community Writer's code, prompts and model-training code as open source (Apache 2.0)."
   ],
-  "framing": "The paper positions itself within research on crowd-sourced content moderation and collaborative fact-checking, and within debates on human control over AI in platform governance. It frames the work around a founding principle that users, rather than the platform or AI, determine which contextual notes are shown.",
-  "pdf_source": "abstract_only"
+  "framing": "The paper positions itself against prior work evaluating the accuracy and effects of Community Notes and against AI fact-checking approaches evaluated offline rather than in production. It is industry-produced evidence: the authors are the Community Notes team at SpaceXAI describing and evaluating their own system, and the evaluation of the CW is run by its developers.",
+  "pdf_source": "drive"
 }
