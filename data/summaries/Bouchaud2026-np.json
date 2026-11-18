@@ -1,25 +1,33 @@
 {
-  "abstract": "This paper evaluates X's Community Notes system, which uses a bridging algorithm to select moderation notes that garner cross-partisan support along an inferred latent ideological dimension. The authors analyze the full corpus of 1.9 million moderation notes and 135 million ratings through March 2025, cross-referenced with ideological scaling data across 13 countries. They argue that the system's design systematically undermoderates polarizing content, creating risks for electoral integrity worldwide.",
+  "abstract": "This paper evaluates how X's Community Notes operates across diverse polarization contexts. As of 1 March 2025 X had disclosed 1.88 million notes and 135.17 million ratings (the abstract rounds these to 1.9 million and 135 million); after X's own preprocessing (notes with at least five ratings, raters with at least 10 ratings) the analyzed set is 1.45 million notes on 886,370 posts, rated 133.20 million times by 821,250 contributors. Replicating X's matrix factorization and comparing its latent ideology with multidimensional ideology scaling of follower networks in 13 countries, the authors show that the Community Notes model captures each country's main polarizing divide. Because only notes with cross-ideological agreement are surfaced, polarizing content is, by design, systematically undermoderated, as notes on four elections show.",
   "key_claims": [
-    "Community Notes' bridging-based selection mechanism structurally undermoderates polarizing content by design.",
-    "This undermoderation creates concrete risks in electoral processes across diverse political contexts.",
-    "The system's performance varies with the polarization context of the country in which it operates."
+    "The latent ideological dimension inferred by Community Notes reliably identifies the main ideological divide in all 13 countries studied, aligning with Left-Right and, to varying degrees, an Anti-Elite dimension.",
+    "Because the system surfaces only notes that receive broad cross-ideological agreement, content that strongly activates polarization is systematically undermoderated, regardless of its factuality.",
+    "The fraction of polarizing content left unresolved is a platform design choice, set by the ideological diversity threshold and the regularization of the model's parameters.",
+    "Substituting crowd-sourced for expert fact-checking introduces a \"demonstrable and structural asymmetry\" in the moderation of politically salient content such as elections."
   ],
   "methods": [
-    "Large-scale analysis of the complete Community Notes dataset: 1.9 million notes and 135 million ratings up to March 2025.",
-    "Cross-referencing note and rating data with ideological scaling data covering 13 countries.",
-    "Comparative evaluation of moderation outcomes across polarization contexts."
+    "Data: X's public Community Notes release as of 1 March 2025 (1.88M notes, 135.17M ratings from 1.15M contributors; 4.83M note requests). After X's preprocessing: 1.45M notes on 886,370 posts, rated 133.20M times by 821,250 contributors. Post content and authors were collected for 616,104 posts associated with 83.5% of non-deleted notes.",
+    "Replication of X's regularized matrix factorization to infer note and rater biases and latent ideologies; inferred note biases predict Helpful Status with an AUC of 0.92 and Not Helpful Status with an AUC of 0.97.",
+    "Multidimensional ideology scaling of accounts following MPs in 23 countries (correspondence analysis, mapped to Global Party Survey Left-Right and Anti-Elite dimensions), analyzed for the 13 countries where at least a thousand positioned accounts authored posts with proposed notes.",
+    "Topic classification (Antypas et al. taxonomy; Manifestoberta for political topics) and keyword curation of election-related notes for the 2024 US presidential, 2024 UK general, 2024 French legislative and 2025 German federal elections, compared with all notes from one month before to one week after each election."
   ],
   "findings": [
-    "Notes addressing highly polarizing content are less likely to achieve the cross-partisan agreement required for public display.",
-    "The bridging algorithm's behavior differs across national contexts depending on levels of ideological polarization.",
-    "Electoral-related content is among the categories most affected by this systematic undermoderation (as implied by the abstract's framing)."
+    "Of proposed notes arguing a post is misinformed or potentially misleading (73.0% of all notes), 11.97% reach Helpful Status, 2.81% reach Not Helpful Status, and 85.22% reach no conclusive status because they \"lacked sufficient ratings from diverse contributors\".",
+    "Election-related notes reach Helpful Status less often than all notes in the same period: US 2024 6.9% vs 14.7%; UK 2024 8.2% vs 10.9%; France 2024 12.8% vs 16.8%; Germany 2025 8.6% vs 11.9%. For comparison, 20.5% of scam notes and 17.1% of manipulated-media notes reach Helpful Status.",
+    "Note writing is concentrated: 1% of the 405 thousand contributors with note-writing privileges authored 31.2% of all proposed notes, and 35.8% of notes concern posts by only one thousand accounts.",
+    "A user's position on each country's main political dimension predicts the sign of the latent ideology of notes on their posts with AUCs from 0.729 (Israel) to 0.850 (Poland), averaging 0.808 across the 13 countries.",
+    "Politically divisive accounts rarely get Helpful notes: 3% of Elon Musk's annotated posts and less than 0.1% of the Kamala Harris campaign's.",
+    "In the US, 12.9% of annotated posts by Right-leaning users receive Helpful notes against 8.3% for Left-leaning users, consistent with Renault et al., though the authors caution that differential post deletion may partly explain the gap.",
+    "Expert fact-checking articles appear in only 3.5% of proposed notes; in the US, notes citing them reach Helpful Status at higher rates (21.3%).",
+    "Stated limitations: a snapshot up to 1 March 2025, a heuristic country segmentation, analysis limited to posts still available at collection, and a self-selected contributor population."
   ],
   "contributions": [
-    "Provides the first large-scale, cross-national empirical evaluation of Community Notes as a global moderation system.",
-    "Identifies a structural, design-level limitation of bridging-based moderation rather than a purely operational shortcoming.",
-    "Links platform moderation design choices to electoral risk, informing debates on platform governance and democratic integrity."
+    "First cross-national test (13 countries) of the key hypothesis behind Community Notes' design: that its latent dimension captures the structuring political divide outside the United States.",
+    "Shows that undermoderation of polarizing content is a property of the bridging design rather than an operational glitch.",
+    "Provides election-specific evidence from four national elections of lower Helpful rates for election-related notes.",
+    "Informs policy as Meta, YouTube and TikTok deploy similar systems, Meta explicitly using X's open-source algorithm as the basis of its rating system."
   ],
-  "framing": "The paper situates itself in the literature on platform content moderation, algorithmic governance, and bridging-based systems, engaging with debates on how cross-partisan consensus mechanisms perform under polarization. It contributes to research on the democratic implications of social media moderation, particularly regarding elections.",
-  "pdf_source": "abstract_only"
+  "framing": "The paper engages research on crowd-sourced fact-checking and the bridging algorithm behind Community Notes, and debates over platforms replacing expert fact-checking with crowd-sourced moderation. It asks whether a system designed around a single US ideological dimension works in other national polarization structures, and what that implies for electoral integrity.",
+  "pdf_source": "drive"
 }

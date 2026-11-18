@@ -3,22 +3,24 @@ title: "Republicans are flagged more often than Democrats for sharing misinforma
 aliases: ["Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes"]
 authors: ["Thomas Renault", "Mohsen Mosleh", "David Gertler Rand"]
 year: 2025
-doi: 10.31234/osf.io/vk5yj_v4
+doi: 10.1073/pnas.2502053122
 bibtex_key: Renault2025-uh
 topics: [information-disorder-narratives, platform-governance-and-data-access]
 citation_count: 0
 open_access: false
-source_url: https://doi.org/10.31234/osf.io/vk5yj_v4
+source_url: https://doi.org/10.1073/pnas.2502053122
 podcast_url: 
 pdf_available: true
 discovery_date: 2025-06-15T00:00:00Z
+preprint_doi: 10.31234/osf.io/vk5yj_v4
+published_venue: "Proceedings of the National Academy of Sciences"
 ---
 
 # Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes
 
-> Renault, T., Mosleh, M., & Rand, D. G. (2025). Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes. *Proc. Natl. Acad. Sci. U. S. A.*, *122*. https://doi.org/10.31234/osf.io/vk5yj_v4
+> Renault, T., Mosleh, M., & Rand, D. G. (2025). Republicans are flagged more often than Democrats for sharing misinformation on X’s Community Notes. *Proceedings of the National Academy of Sciences*, *122*(25), e2502053122. https://doi.org/10.1073/pnas.2502053122
 >
-> [View paper](https://doi.org/10.31234/osf.io/vk5yj_v4)
+> [View paper](https://doi.org/10.1073/pnas.2502053122)
 
 ## Summary
 
@@ -48,4 +50,4 @@ The authors analyzed the full open-source Community Notes dataset for English-la
 
 ## Connections
 
-This paper builds directly on the authors' prior work on partisan asymmetries in misinformation sharing [[Mosleh2024-op]] and extends the evaluation of Community Notes' bridging system studied in related X research [[Bouchaud2026-lr]] [[DeVerna2025-dl]]. It speaks to the broader platform-governance debate over replacing professional fact-checking with crowdsourced moderation, connecting to work on the reach and effectiveness of Community Notes [[Pierri2025-hm]] [[Allen2025-ot]].
+[[Bouchaud2026-np]] cites this paper and reports a similar US gap, consistent with these results, but cautions that it may partly reflect differential post deletion; it also shows that bridging leaves most polarizing, election-related content unresolved; [[Miller2026-cp]] documents how much of Community Notes is now written by AI clients. Both this paper and [[Cazzamatta2026-lo]] test the justifications offered for dropping professional fact-checking, and [[Holt2026-zq]] examines user-driven flagging on Facebook after Meta's switch to Community Notes. Two of the authors also wrote [[Mosleh2024-op]], a cross-platform study of engagement with partisan and low-quality news.

@@ -1579,7 +1579,9 @@
       "content_hash": "054eb961afa2bd9e6896b8e81a0c6cdeaa1abe04b434f21a7453ae8d3e43e5b2",
       "podcast_linked": false,
       "last_processed": "2026-09-08T08:54:05.974202+00:00",
-      "assign_fp": "5b5c666e490178567ecbfe9185d2c03aab1047d5d14796a91e95c2e6b5df524d"
+      "assign_fp": "5b5c666e490178567ecbfe9185d2c03aab1047d5d14796a91e95c2e6b5df524d",
+      "published_doi": "10.1073/pnas.2502053122",
+      "published_venue": "Proceedings of the National Academy of Sciences"
     },
     "bibtex:Ventura2025-sw": {
       "note_path": "Papers/Ventura2025-sw.md",
@@ -3045,7 +3047,7 @@
       ],
       "doi": "10.1126/sciadv.aee6932",
       "title": "Community Notes undermoderate polarizing content by design creating risks in electoral processes",
-      "pdf_source": "abstract_only",
+      "pdf_source": "drive",
       "content_hash": "dd7bc5ed1396eb2b4a161debf0f8d2a86c11fc9bc70fafc966452aced1ef01a0",
       "podcast_linked": true,
       "slack_posted": false,
@@ -5134,7 +5136,7 @@
       "assign_fp": "8f7844fbacf5d9830460c9b845bb06e776f81ea4c6dc91c3611efedcfac12ab1",
       "doi": "",
       "title": "Community-driven API and AI writer design for openly scaling Community Notes",
-      "pdf_source": "abstract_only",
+      "pdf_source": "drive",
       "content_hash": "943bda8897f1597a0554fe594c9587f10c3c0b51ce569765e00d6810fd029977",
       "podcast_linked": true,
       "slack_posted": false,
