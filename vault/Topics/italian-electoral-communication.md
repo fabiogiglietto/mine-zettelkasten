@@ -12,6 +12,7 @@ The MINE programme's core empirical focus: mapping Italian news media and politi
 
 - [[Bouchafra2026-ts]]
 - [[Giglietto2012-32b6b551]]
+- [[Giglietto2019-0bd8b768]]
 - [[Giglietto2019-882f1900]]
 - [[Giglietto2020-9d8acdd7]]
 - [[Giglietto2023-fa71a001]]

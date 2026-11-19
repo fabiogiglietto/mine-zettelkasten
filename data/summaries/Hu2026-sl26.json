@@ -1,0 +1,35 @@
+{
+  "abstract": "This study evaluates how effectively single-modality (visual, audio, text) and multimodal large language model (LLM)-assisted approaches can identify frames in short-form news videos. Using 2,957 TikTok videos about the Russia-Ukraine war from CNN, CGTN Europe, and The Kyiv Independent, the authors benchmark automated frame detection against manually coded ground truth across six frame categories. They introduce a taxonomy of modality interactions (complementary, reinforcing, independent) and a human-in-the-loop validation protocol, finding that multimodal frameworks modestly outperform single-modality approaches but that human judgment remains essential for abstract frames.",
+  "key_claims": [
+    "Framing in short-form TikTok news videos cannot be fully understood through any single modality because meaning is distributed across visual, auditory, and textual channels.",
+    "Multiple frames routinely co-occur within a single clip, reflecting deliberate editorial choices rather than artifacts of video length.",
+    "Modality interactions (complementary, reinforcing, independent) are a central mechanism of multimodal framing and shape how well automated detection performs.",
+    "Multimodal models outperform single-modality baselines but the improvement over text-only detection is modest, raising cost-benefit questions for large-scale use.",
+    "Human-in-the-loop validation remains essential because MLLMs over-predict frames and struggle with abstract, implicit frames such as morality."
+  ],
+  "methods": [
+    "Collected 2,957 TikTok videos (CGTN Europe n=1,726, CNN n=593, The Kyiv Independent n=638) with war-related keywords posted between Feb 21, 2022 and Oct 1, 2025, retaining raw media and metadata.",
+    "Manually coded 15% of the dataset (n=450) via stratified random sampling by outlet as ground truth across six frame categories: Conflict, Human Interest, Responsibility, Morality, Economic Consequence, and Diplomatic/Political Leader (extending Semetko and Valkenburg's five generic frames with a sixth leader frame).",
+    "Built parallel modality pipelines: VideoLLaMA3 for visual captions (textual modality); YAMNet for speech/non-speech classification, OpenAI Whisper for ASR, and Music2Emotion for musical emotion (audio modality); and Gemma3 processing image frames, visual descriptions, and audio summaries for multimodal inference.",
+    "Evaluated performance using F1, precision, and recall against the manually coded gold standard (two coders, kappa=0.69).",
+    "Human-in-the-loop validation: GPT-4o and Gemma3 prompted 10 times per video (label accepted if appearing in >=80% of iterations), Whisper confidence scores, SentenceTransformer cosine similarity for caption stability, plus prompt sensitivity (12 variants) and temperature sensitivity tests.",
+    "For RQ1, used weighted least squares (WLS) regression with virality controls, posting-time splines, and outlet fixed effects, plus a weighted binomial GLM for longitudinal robustness of interaction types."
+  ],
+  "findings": [
+    "The multimodal framework achieved the highest overall F1 (.751) with highest recall (.93); audio-only reached F1=.739, text-only F1=.716, and visual-only F1=.624 (high recall .88 but low precision .48).",
+    "Visual-only detection worked for overt frames like Conflict (.81) but failed on abstract frames such as Morality (.12) and Economic Consequence (.47); multimodal gains were largest for Morality and Diplomatic/Political Leader frames, though Morality's absolute score (.54) remained low.",
+    "Frame co-occurrence was a consistent positive predictor of engagement (Model C beta=0.249, p<.001); a one-SD increase in combo commonness was associated with roughly 28% higher engagement after controls (R2=.476).",
+    "Outlets showed distinct strategies: CGTN emphasized Diplomatic/Political Leader frames, CNN prioritized Conflict and Responsibility, and Kyiv Independent foregrounded Conflict and Human Interest.",
+    "Among coded videos, 78% were complementary, 21.11% reinforcing, and 0.89% independent; multimodal F1 was highest for complementary (0.755), lower for reinforcing (0.727), and lowest for independent (0.638) cases.",
+    "MLLMs identified more frames per video than human coders (M=3.27 vs. M=2.66); dominance-weighted prompting raised precision (.63 to .88-.90) but reduced recall and under-predicted frames (M=1.38).",
+    "Video duration explained less than 5% of variance in frame co-occurrence (r=.21, R2=.044), and interaction-type distribution remained stable over the course of the war."
+  ],
+  "contributions": [
+    "Conceptually, emphasizes that multiple frames co-occur within single clips and proposes a taxonomy of modality interactions (complementary, reinforcing, independent) as a central mechanism of multimodal framing.",
+    "Methodologically, provides a systematic benchmark comparing modality-specific and multimodal LLM-assisted approaches against manual coding, plus a reported human-in-the-loop validation protocol clarifying the practical limits of automated inference.",
+    "Empirically, maps how US (CNN), Chinese (CGTN Europe), and Ukrainian (Kyiv Independent) mainstream media frame the Russia-Ukraine war on TikTok from the war's start to October 2025.",
+    "Demonstrates practical cost-benefit considerations, suggesting text-only approaches may be pragmatically sufficient for scalable frame detection given the modest multimodal gains."
+  ],
+  "framing": "The paper positions itself within multimodal framing theory, extending Entman's framing framework and Entman and Usher's reconceptualization of framing in networked digital environments, while drawing on semiotic image-text relations (Martinec and Salway) and film-music scholarship. It engages the computational 'image/video-as-data' paradigm and critiques the text-centric bias of existing video-understanding pipelines, advocating for human-AI collaboration in analyzing short-form political news video.",
+  "pdf_source": "drive"
+}

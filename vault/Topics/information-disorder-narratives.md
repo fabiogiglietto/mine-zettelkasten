@@ -62,6 +62,7 @@ Monitoring and theorizing how false and misleading narratives (on topics such as
 - [[Hollingshead2026-vx]]
 - [[Holt2026-zq]]
 - [[Hourigan2026-oc]]
+- [[Hu2026-sl26]]
 - [[Humprecht2020-gd]]
 - [[Humprecht2025-ml]]
 - [[Iris2026-pg]]

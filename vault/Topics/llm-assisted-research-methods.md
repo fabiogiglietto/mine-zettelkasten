@@ -28,6 +28,7 @@ Development and validation of workflows that integrate large language models int
 - [[Freelon2018-ao]]
 - [[Giglietto2024-cbeb3f70]]
 - [[Gomez-Zara2026-as]]
+- [[Hu2026-sl26]]
 - [[Jayaram2026-wd]]
 - [[King2026-av]]
 - [[Larsson2026-ro]]

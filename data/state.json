@@ -5482,11 +5482,11 @@
       "doi": "10.1086/744929",
       "title": "Political unfriending on Facebook: Evidence from over 180 million users",
       "pdf_source": "drive",
-      "content_hash": "a9fc53aacabf15ac29a56f151aed25f07bb18d15a99d3aaf5a54014a06bbbc6f",
-      "podcast_linked": false,
+      "content_hash": "b5ffd47faeeb4abde7dc9b4f4d120124fb4a1fb82d7c196c3a8327cd0372de48",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-11-18T20:50:33.431384+00:00"
+      "last_processed": "2026-11-19T19:26:09.353010+00:00"
     },
     "bibtex:Messing2026-sl63": {
       "note_path": "Papers/Messing2026-sl63.md",
@@ -5504,10 +5504,42 @@
       "last_processed": "2026-11-19T10:40:47.390309+00:00",
       "kind": "team",
       "submitted_by": "Nicola Righetti"
+    },
+    "bibtex:Hu2026-sl26": {
+      "note_path": "Papers/Hu2026-sl26.md",
+      "topics": [
+        "llm-assisted-research-methods",
+        "information-disorder-narratives"
+      ],
+      "assign_fp": "26808e6ab3582460e01f1d49f7a76f052b7767fd159b884f2f6af18b64de661c",
+      "doi": "10.5117/ccr2026.4.4.hu",
+      "title": "Seeing, Reading, Hearing, Interpreting: Computational Multimodal Framing Analysis in Short-Form News Videos",
+      "pdf_source": "drive",
+      "content_hash": "d84aa2b1c17c98d952f172bcdbc19eeb085be2f5d9442e2ece0364731b906d2d",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-11-19T19:25:49.343537+00:00",
+      "kind": "team",
+      "submitted_by": "GiadaM. / Uniurb"
+    },
+    "bibtex:Giglietto2019-0bd8b768": {
+      "note_path": "Papers/Giglietto2019-0bd8b768.md",
+      "topics": [
+        "coordinated-inauthentic-behavior",
+        "italian-electoral-communication"
+      ],
+      "assign_fp": "d3c81b5f36cd637c4440a80ae4fc5421418210a4bb545c0a81f8cf318ed74472",
+      "kind": "own",
+      "doi": "10.31235/osf.io/3jteh",
+      "title": "Understanding Coordinated and Inauthentic Link Sharing Behavior on Facebook in the Run-up to 2018 General Election and 2019 European Election in Italy",
+      "pdf_source": "abstract_only",
+      "content_hash": "ec505bb0bdae46f92237a3697eefed57c095169b72c61cb0cf5af60745249c97",
+      "podcast_linked": false,
+      "last_processed": "2026-11-19T19:26:43.205627+00:00"
     }
   },
   "last_full_cluster": "2026-11-16T12:56:05.636647+00:00",
-  "papers_since_cluster": 3,
+  "papers_since_cluster": 4,
   "register_signals_hash": "c2c9dfc2f346a3d4297c7f4466a83787d6b658ea983412265f22a1d26f316bd8",
   "emergent_fp": "7af897edc9b0820bd189e60174fb04c96142563fbb3b1d9a688e860b0d814850",
   "structure_fps": {
