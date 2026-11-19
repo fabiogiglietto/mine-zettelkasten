@@ -1,0 +1,36 @@
+{
+  "abstract": "This paper argues that standard error estimates in LLM evaluation pipelines (LLM-as-judge, annotation, benchmarking) are anticonservative because they ignore variance from factors like judge model choice, prompt phrasing, and item-level heterogeneity, and that this hidden error worsens with more data rather than shrinking. The author introduces a 'Total Evaluation Error' (TEE) framework that decomposes pipeline uncertainty using a crossed mixed-effects model and uses design-study (D-study) projections to generate calibrated confidence intervals and allocate compute more efficiently. Across safety, QA, ideology-annotation, and pairwise-comparison applications, the paper shows that naive standard errors are 53-70% too small, that naive CI coverage degrades as sample size grows, and that TEE-guided designs reduce error and restrict benchmark-gaming surface.",
+  "key_claims": [
+    "Conventional variance/standard-error reporting in LLM pipelines captures only repeated-sampling noise at fixed settings and omits prompt sensitivity, judge choice, item heterogeneity, and their interactions, understating true measurement error.",
+    "The omitted variance from design choices (prompt and judge) does not shrink with the number of items N, so naive confidence interval coverage actually gets worse as more data is collected.",
+    "Hidden pipeline variance creates exploitable degrees of freedom analogous to p-hacking and overfitting, enabling 'benchmark hacking' through best-of-K selection of favorable configurations.",
+    "Decomposing variance via the TEE framework and running a small pilot D-study allows researchers to construct properly calibrated confidence intervals and to project which design changes most improve precision under a fixed budget.",
+    "Averaging across multiple judges (when a judge layer is present) typically reduces variance more than any other single design change, followed by adding items or prompt variants."
+  ],
+  "methods": [
+    "Introduces the Total Evaluation Error (TEE) framework, building on generalizability theory (G-theory) and total survey error, specifying a linear mixed model with item, prompt variant, temperature, and model effects plus five two-way interaction terms, cell-level error, and replicate noise.",
+    "Treats items and prompt variants as random effects (to generalize over possible items/prompts) and temperature and judge/SUT model as fixed effects.",
+    "Estimates variance components via REML using lmer (lme4) with a crossed random-effects specification.",
+    "Uses D-study projections to compute the variance of the estimated grand mean under proposed designs (N', V', R' and number of judges/temperatures) to produce calibrated 95% CIs and cost-efficiency frontiers across API-call budgets.",
+    "Runs Monte Carlo simulations (1,000 replicates) to assess CI coverage and intervention-ranking reliability, and applies the framework empirically to AILuminate v1.0 safety data (36 prompts, 4 SUTs, 141 items, 3-judge panel), MMLU multiple-choice QA, and Chatbot Arena pairwise matches (4,676 battles from the lmarena-ai arena-human-preference-100k dataset, five prompt variants, three judges, Likert and pairwise scoring).",
+    "Quantifies benchmark-hacking surface via best-of-K simulation E[max(Z_1,...,Z_K)]·sigma_pipeline, bootstrapping Arena matches across pipeline configurations; reanalyzes Terminal-Bench 2.0 (22,198 trials, 17 models, six harnesses) treating harnesses as prompt variants."
+  ],
+  "findings": [
+    "In safety and ideology applications, naive standard errors are 53-70% smaller than the TEE-corrected standard error.",
+    "In AILuminate safety data, the three-judge panel accounts for the largest share of variance (43.8%), with item×judge adding 16.7% and within-category item heterogeneity 20.8%, while prompt wording contributes less than 0.5%; judge-related terms total 73% of variance.",
+    "A TEE-guided safety design (141 items, 3 prompts, 3 judges) lowers SE by 49% at 9x the cost, whereas the full factorial yields only an extra 5% reduction at 120x the cost, with diminishing returns beyond ~1,000 API calls.",
+    "On MMLU, item heterogeneity explains ~80% of variance; TEE-guided budget allocation roughly halves RMSE against the answer key at large budgets versus the standard strategy and maintains >=97% CI coverage, while naive allocation is 1.6-2.4x more error-prone and under-covers (91-93%) at small budgets.",
+    "On Chatbot Arena, naive 95% CI coverage drops from 0.93 at n=100 to 0.78 at n=2,000 while TEE coverage stays at or above 95%; TEE Likert raises per-match agreement with human voters by +5.5 percentage points (72.5% vs 67.0%), and D-study projected SE reductions track observed agreement lifts at Spearman rho=0.80.",
+    "Best-of-K=27 submission inflates Arena Elo by 56 points on sampled matches; a single-configuration LLM-judge increases the gaming surface to 56 Elo while TEE averaging (5 prompts x 3 judges) cuts it to 32 Elo (about 43% reduction and ~30% below human voting); judge main effects are the component a developer most directly controls.",
+    "In Terminal-Bench 2.0 reanalysis, published rerun-only intervals separate 4 neighboring model pairs, but TEE intervals (adding model×harness variance of ~3.5 points) overlap on all 16 pairs, implying leaderboard rankings between adjacent models are not statistically distinguishable."
+  ],
+  "contributions": [
+    "Provides an LLM-specific measurement-design framework (TEE) that makes prompts, temperatures, models, judges, scoring methods, and their interactions explicit, modeled sources of pipeline error rather than hidden implementation choices.",
+    "Adapts G-theory and D-study machinery to LLM/autorater pipelines where facets trade off against each other under a compute/API-call budget, yielding calibrated confidence intervals and compute-efficient design recommendations.",
+    "Demonstrates empirically across safety, QA, ideology annotation, and pairwise-comparison tasks that current reporting norms substantially understate uncertainty and that TEE improves both coverage and accuracy against ground truth.",
+    "Quantifies the benchmark-gaming surface exposed by single-configuration pipelines and shows that multi-judge/multi-prompt averaging materially shrinks it.",
+    "Offers a practical, low-cost recipe (small pilot study plus variance decomposition) for diagnosing where pipeline variance lies and allocating evaluation resources."
+  ],
+  "framing": "The paper situates itself within the measurement and reliability literature for LLM evaluation, explicitly extending generalizability theory and the total-survey-error tradition into the LLM-as-judge/autorater and benchmarking context. It positions itself among concurrent work on variance decomposition, prompt sensitivity, benchmark reliability, and statistical methodology for generative AI (e.g., Dobriban's call for unified evaluation statistics and NIST AI 800-3), framing hidden measurement error as a threat analogous to p-hacking and overfitting that distorts annotation, benchmarking, safety assessment, and downstream economic/labor-market projections.",
+  "pdf_source": "drive"
+}

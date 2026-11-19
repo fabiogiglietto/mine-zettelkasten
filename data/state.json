@@ -5487,10 +5487,27 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-18T20:50:33.431384+00:00"
+    },
+    "bibtex:Messing2026-sl63": {
+      "note_path": "Papers/Messing2026-sl63.md",
+      "topics": [
+        "llm-assisted-research-methods",
+        "survey-measurement-validity"
+      ],
+      "assign_fp": "159e64154c8b60b6b7d784f4e27538a7aeb958fd471915b8415d8351590b11cf",
+      "doi": "",
+      "title": "Hidden Measurement Error in LLM Pipelines Distorts Annotation, Evaluation, and Benchmarking",
+      "pdf_source": "drive",
+      "content_hash": "adbf465a68deb7eb2b4a10fa451725f2be938075d4e1f23c7935bf1841d0a958",
+      "podcast_linked": false,
+      "slack_posted": true,
+      "last_processed": "2026-11-19T10:40:47.390309+00:00",
+      "kind": "team",
+      "submitted_by": "Nicola Righetti"
     }
   },
   "last_full_cluster": "2026-11-16T12:56:05.636647+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "c2c9dfc2f346a3d4297c7f4466a83787d6b658ea983412265f22a1d26f316bd8",
   "emergent_fp": "7af897edc9b0820bd189e60174fb04c96142563fbb3b1d9a688e860b0d814850",
   "structure_fps": {
