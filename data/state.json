@@ -5536,10 +5536,26 @@
       "content_hash": "ec505bb0bdae46f92237a3697eefed57c095169b72c61cb0cf5af60745249c97",
       "podcast_linked": false,
       "last_processed": "2026-11-19T19:26:43.205627+00:00"
+    },
+    "bibtex:Lompe2026-vm": {
+      "note_path": "Papers/Lompe2026-vm.md",
+      "topics": [
+        "social-media-affordances-and-engagement",
+        "political-polarization-and-partisanship"
+      ],
+      "assign_fp": "3d8e3c424faffc6729d8136c8347ca997789e06e4f9461686aa36ed0c45cd4fd",
+      "doi": "10.1007/s10606-026-09557-1",
+      "title": "The link has died; Long live the link! Cross-platform controversy mapping with the use of URLs",
+      "pdf_source": "drive",
+      "content_hash": "363a60c10207c4959f531aac01229b12956c51a4bb87443e26d36d271043b188",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-23T12:14:25.852026+00:00"
     }
   },
   "last_full_cluster": "2026-11-16T12:56:05.636647+00:00",
-  "papers_since_cluster": 4,
+  "papers_since_cluster": 5,
   "register_signals_hash": "c2c9dfc2f346a3d4297c7f4466a83787d6b658ea983412265f22a1d26f316bd8",
   "emergent_fp": "7af897edc9b0820bd189e60174fb04c96142563fbb3b1d9a688e860b0d814850",
   "structure_fps": {
