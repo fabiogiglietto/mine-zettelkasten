@@ -5,7 +5,7 @@ authors: ["Neil Malhotra", "Jaime Settle", "Magdalena Wojcieszak", "Olivier Berg
 year: 2026
 doi: 10.1086/744929
 bibtex_key: Malhotra2026-vl
-topics: [political-polarization-and-partisanship, social-media-affordances-and-engagement]
+topics: [political-polarization-partisanship, social-media-engagement-metrics]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1086/744929

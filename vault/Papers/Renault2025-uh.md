@@ -5,7 +5,7 @@ authors: ["Thomas Renault", "Mohsen Mosleh", "David Gertler Rand"]
 year: 2025
 doi: 10.1073/pnas.2502053122
 bibtex_key: Renault2025-uh
-topics: [information-disorder-narratives, platform-governance-and-data-access]
+topics: [political-polarization-partisanship, information-disorder-disinformation]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1073/pnas.2502053122

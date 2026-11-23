@@ -5,7 +5,7 @@ authors: ["Mohsen Mosleh", "Jennifer Nancy Lee Allen", "David Gertler Rand"]
 year: 2024
 doi: 10.31234/osf.io/9csy3_v5
 bibtex_key: Mosleh2024-op
-topics: [social-media-affordances-and-engagement, information-disorder-narratives]
+topics: [social-media-engagement-metrics, political-polarization-partisanship]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/9csy3_v5

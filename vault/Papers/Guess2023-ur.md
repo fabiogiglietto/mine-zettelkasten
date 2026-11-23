@@ -5,7 +5,7 @@ authors: ["Andrew M. Guess", "Neil Malhotra", "Jennifer Pan", "Pablo Barberá", 
 year: 2023
 doi: 10.1126/science.abp9364
 bibtex_key: Guess2023-ur
-topics: [social-media-affordances-and-engagement, computational-political-media-influence]
+topics: [computational-political-media-influence, political-polarization-partisanship]
 citation_count: 326
 open_access: false
 source_url: https://doi.org/10.1126/science.abp9364

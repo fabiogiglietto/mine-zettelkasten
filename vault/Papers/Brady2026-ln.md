@@ -5,7 +5,7 @@ authors: ["William J. Brady", "Meriel Doyle", "Abdo Elnakouri", "Eli J. Finkel",
 year: 2026
 doi: 10.1038/s41586-026-10536-1
 bibtex_key: Brady2026-ln
-topics: [social-media-affordances-and-engagement, political-polarization-and-partisanship]
+topics: [computational-political-media-influence, social-media-engagement-metrics]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1038/s41586-026-10536-1

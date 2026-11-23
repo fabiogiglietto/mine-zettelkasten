@@ -8,7 +8,7 @@ bibtex_key: Messing2026-sl63
 kind: team
 submitted_by: "Nicola Righetti"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1795083659339679
-topics: [llm-assisted-research-methods, survey-measurement-validity]
+topics: [generative-ai-llms-in-research, survey-measurement-validity]
 citation_count: 0
 open_access: true
 source_url: http://arxiv.org/abs/2604.11581v8

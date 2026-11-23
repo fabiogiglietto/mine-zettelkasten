@@ -5,7 +5,7 @@ authors: ["Andrew T. Chadwick"]
 year: 2014
 doi: 10.5860/choice.51-6974
 bibtex_key: Chadwick2013-ns
-topics: [information-disorder-narratives, platforms-audiences-and-online-communities]
+topics: [information-disorder-disinformation, digital-methods-computational-social-science]
 citation_count: 842
 open_access: true
 source_url: https://doi.org/10.5860/choice.51-6974

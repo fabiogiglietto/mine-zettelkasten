@@ -5,7 +5,7 @@ authors: ["Mike Farjam", "Hendrik Meyer", "Meike Lohkamp"]
 year: 2026
 doi: 10.1177/08944393251349541
 bibtex_key: Farjam2026-zg
-topics: [llm-assisted-research-methods, computational-political-media-influence]
+topics: [generative-ai-llms-in-research, digital-methods-computational-social-science]
 citation_count: 15
 open_access: false
 source_url: https://doi.org/10.1177/08944393251349541

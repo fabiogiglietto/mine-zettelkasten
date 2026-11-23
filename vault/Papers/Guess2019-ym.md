@@ -5,7 +5,7 @@ authors: ["Andrew Guess", "Jonathan Nagler", "Joshua Tucker"]
 year: 2019
 doi: 10.1126/sciadv.aau4586
 bibtex_key: Guess2019-ym
-topics: [information-disorder-narratives, political-polarization-and-partisanship]
+topics: [information-disorder-disinformation, social-media-engagement-metrics]
 citation_count: 1140
 open_access: false
 source_url: https://doi.org/10.1126/sciadv.aau4586

@@ -5,7 +5,7 @@ authors: ["Azade E. Kakavand", "Nicola Righetti", "Annie Waldherr"]
 year: 2026
 doi: 10.1080/19331681.2026.2697186
 bibtex_key: Kakavand2026-kt
-topics: [platforms-audiences-and-online-communities, social-media-affordances-and-engagement]
+topics: [platforms-audiences-and-online-communities, cross-national-disinformation-networks]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1080/19331681.2026.2697186

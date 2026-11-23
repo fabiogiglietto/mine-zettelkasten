@@ -5,7 +5,7 @@ authors: ["Axel Bruns"]
 year: 2021
 doi: 10.4324/9781003206972-2
 bibtex_key: Bruns2019-nr
-topics: [platform-governance-and-data-access]
+topics: [platform-governance-data-access, digital-methods-computational-social-science]
 citation_count: 18
 open_access: false
 source_url: https://doi.org/10.4324/9781003206972-2

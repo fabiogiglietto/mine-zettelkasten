@@ -5,7 +5,7 @@ authors: ["Maria Lompe"]
 year: 2026
 doi: 10.1007/s10606-026-09557-1
 bibtex_key: Lompe2026-vm
-topics: [social-media-affordances-and-engagement, political-polarization-and-partisanship]
+topics: [digital-methods-computational-social-science, platforms-audiences-and-online-communities]
 citation_count: 0
 open_access: false
 source_url: https://doi.org/10.1007/s10606-026-09557-1

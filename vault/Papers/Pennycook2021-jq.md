@@ -5,7 +5,7 @@ authors: ["Gordon Pennycook", "David Gertler Rand"]
 year: 2021
 doi: 10.31234/osf.io/ar96c
 bibtex_key: Pennycook2021-jq
-topics: [meta-science-of-misinformation-research, health-misinformation]
+topics: [information-disorder-disinformation, meta-science-of-misinformation-research]
 citation_count: 9
 open_access: false
 source_url: https://doi.org/10.31234/osf.io/ar96c

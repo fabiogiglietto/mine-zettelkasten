@@ -8,7 +8,7 @@ bibtex_key: Tiggemann2020-sl44
 kind: team
 submitted_by: "María José"
 slack_permalink: https://minesmd.slack.com/archives/C0BDU82EBHQ/p1793804130339669
-topics: [social-media-affordances-and-engagement, platforms-audiences-and-online-communities]
+topics: [social-media-engagement-metrics, platforms-audiences-and-online-communities]
 citation_count: 283
 open_access: false
 source_url: https://doi.org/10.1177/1461444819888720

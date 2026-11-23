@@ -5,7 +5,7 @@ authors: ["Shreyas Meher", "Patrick T. Brandt"]
 year: 2025
 doi: 10.1177/20531680251356282
 bibtex_key: Meher2025-qb
-topics: [llm-assisted-research-methods, computational-political-media-influence]
+topics: [generative-ai-llms-in-research, digital-methods-computational-social-science]
 citation_count: 3
 open_access: false
 source_url: https://doi.org/10.1177/20531680251356282
