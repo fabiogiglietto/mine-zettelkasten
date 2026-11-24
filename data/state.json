@@ -5587,15 +5587,31 @@
       "doi": "10.1007/s10606-026-09557-1",
       "title": "The link has died; Long live the link! Cross-platform controversy mapping with the use of URLs",
       "pdf_source": "drive",
-      "content_hash": "363a60c10207c4959f531aac01229b12956c51a4bb87443e26d36d271043b188",
-      "podcast_linked": false,
+      "content_hash": "2263ef543979ca0b8e473c16f25d30f7e339472a3abb79e49c62dc8cbf0c7e4d",
+      "podcast_linked": true,
       "slack_posted": false,
       "slack_pending": false,
-      "last_processed": "2026-11-23T12:14:25.852026+00:00"
+      "last_processed": "2026-11-24T00:15:08.723008+00:00"
+    },
+    "bibtex:Simon2012-pe": {
+      "note_path": "Papers/Simon2012-pe.md",
+      "topics": [
+        "ai-social-theory-trust",
+        "survey-measurement-validity"
+      ],
+      "assign_fp": "9184681d76f407e18dc686983d0353e5c950b0a1f4d5918a3f6cd2f81aa7dd2d",
+      "doi": "",
+      "title": "Generative AI and News Report 2026: From standalone tools to information infrastructure",
+      "pdf_source": "drive",
+      "content_hash": "759b0fd4ec35520da251502502ce85ea3ad01151ac53a797bffa8486a55354f8",
+      "podcast_linked": true,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-24T00:14:50.957303+00:00"
     }
   },
   "last_full_cluster": "2026-11-23T14:25:30.423805+00:00",
-  "papers_since_cluster": 0,
+  "papers_since_cluster": 1,
   "register_signals_hash": "60f83a0a9e56d1e13388c41f7afea578e5c2636991d3cc7e2ccb0f4f58f54eed",
   "emergent_fp": "a6f0fdfc14966d97a5974c47cb8666b88596b628767b3f96507a8b8b99fc9435",
   "structure_fps": {

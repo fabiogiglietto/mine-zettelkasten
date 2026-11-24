@@ -24,6 +24,7 @@ Papers examining methodological challenges in survey-based measurement, includin
 - [[Messing2026-sl63]]
 - [[Sbaraini-Fontes2026-cw]]
 - [[Schemer2026-mh]]
+- [[Simon2012-pe]]
 - [[Stagnaro2025-pz]]
 - [[Ulloa2024-jm]]
 - [[UnknownUnknown-db]]

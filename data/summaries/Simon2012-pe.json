@@ -1,0 +1,37 @@
+{
+  "abstract": "This Reuters Institute report presents findings from a nine-country survey (Argentina, Australia, Denmark, Finland, France, Japan, Norway, the UK, and USA) on how the public uses generative AI, what impacts they expect from its use across societal sectors, and their attitudes toward AI in news and journalism. It is the third wave of an annual study, following surveys in 2024 and 2025. The report documents that, for the first time, half of respondents intentionally use standalone generative AI systems weekly, while most also encounter AI incidentally embedded in legacy platforms — marking AI's shift from standalone tools toward information infrastructure. Despite rapid uptake, public attitudes toward AI in news remain cautious and largely unchanged.",
+  "key_claims": [
+    "Generative AI has become part of routine life for most people in high-income democracies within less than four years of ChatGPT's launch, shifting from a standalone tool toward embedded information infrastructure.",
+    "Getting information is now the most common use of generative AI, with AI increasingly functioning as an information intermediary that mediates how people access, interpret, and act on information.",
+    "Public attitudes toward AI use in news have remained remarkably stable and negative across three years of surveys, despite dramatic growth in overall AI use.",
+    "The largest attitudinal divide over AI's expected impact is between intense daily users (optimistic) and never-users (pessimistic) — a gap far larger than differences by age, politics, or AI literacy.",
+    "AI adoption is uneven, driven partly by occupation and workplace integration, with higher use among younger, wealthier, more educated, and more highly skilled workers."
+  ],
+  "methods": [
+    "Online survey conducted by YouGov on behalf of the Reuters Institute (RISJ), fielded 14 August–28 September 2026 in nine countries, with approximately 2,000 respondents per country.",
+    "Nationally representative quota sampling (age, gender, region, education, political leaning) with data weighted to census/industry targets; non-probability design, so differences of +/-2pp treated as non-meaningful.",
+    "Trend analysis restricted to the six countries present in all three survey waves (2024, 2025, 2026) for comparability.",
+    "Used the SAIL4ALL AI literacy scale (Soto-Sanfiel et al. 2025), 52 true/false items across five dimensions, administered via a matrix sampling design (one item per dimension per respondent).",
+    "Applied the ability-benevolence-integrity (ABI) trust framework (Mayer et al. 1995) to assess perceptions of different sectors' AI use.",
+    "Authors disclose use of ChatGPT 6, Claude Opus 5.5, and Claude Fable 5.1 for data analysis, copy-editing, and text suggestions, with human review."
+  ],
+  "findings": [
+    "Weekly use of standalone generative AI rose from 34% (2025) to 51% (2026) in the six comparable countries; daily use nearly doubled year-on-year from 7% (2024) to 16% (2025) to 28% (2026).",
+    "ChatGPT remains market leader (weekly use up 22%→34%), with Gemini (11%→24%), Copilot (6%→11%), and Claude (1%→7%) also growing; weekly users now access about two systems on average.",
+    "Incidental AI exposure is widespread: 57% encountered AI summaries in search engines in the last week, 25% on devices, 21% on social/messaging apps, and only 20% saw it nowhere; 49% noticed at least one AI feature on news sites/apps.",
+    "18% have access to paid AI (10% paying personally, 9% via work/school) — identical to the share with access to paid news; AI agents remain niche, with 67% not using one in the last week.",
+    "Using AI for information rose from 11% (2024) to 38% (2026); researching topics (24%) leads, with growing use for advice (20%) and recommendations (15%); AI news use grew from 3% to 9%.",
+    "Among those who use AI for information, trust in outputs is high (75% for factual answers, 76% for advice, 72% for news); convenience (64%) and interactivity (56%), not reliability (21%), are the main motivations.",
+    "The public is optimistic about AI use by scientists, healthcare professionals, and AI companies, but pessimistic about governments, social media, news media, and especially politicians; honesty is the weakest-rated dimension across all sectors.",
+    "Comfort with AI-made news is low and sticky: only 12% comfortable with news made entirely by AI (19% with oversight) versus 67% for human-made news; people expect AI to make news cheaper (+34pp) and more up-to-date but less transparent (-10pp) and less trustworthy (-17pp)."
+  ],
+  "contributions": [
+    "Provides longitudinal, cross-national survey evidence (three waves, nine countries) tracking the rapid mainstreaming of generative AI in high-income democracies.",
+    "Introduces and applies the concept of 'incidental AI exposure' (borrowing from news-use research) to characterize AI embedded in legacy platforms.",
+    "Documents the emergence of generative AI as an 'information intermediary' and a persistent 'comfort gap' between acceptance of human- versus AI-made news.",
+    "Offers a sector-by-sector map of public expectations about AI's impact, analyzed through the ability-benevolence-integrity trust framework.",
+    "Supplies a benchmark measure of public AI literacy via the SAIL4ALL scale and its relationship to AI use and trust."
+  ],
+  "framing": "The report situates itself within research on digital news consumption, the changing information environment, and the societal impacts of AI, drawing on human-computer interaction concepts (AI-infused systems), sociotechnical imaginaries (Jasanoff and Kim), and trust theory (the ABI framework). It frames generative AI's trajectory as a shift from discrete tools to pervasive information infrastructure, with implications for journalism, democracy, and public institutions.",
+  "pdf_source": "drive"
+}

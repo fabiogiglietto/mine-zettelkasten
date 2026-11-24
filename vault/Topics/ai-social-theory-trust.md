@@ -25,6 +25,7 @@ Papers that apply or extend social theory and communication-trust frameworks to 
 - [[Nguyen2026-vm]]
 - [[Ptz2024-sl20]]
 - [[Sbaraini-Fontes2026-cw]]
+- [[Simon2012-pe]]
 - [[Slack1782736288-sl09]]
 - [[Slack1783073271-slbb]]
 - [[Slack1783075716-sl1c]]
