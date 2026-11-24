@@ -30,6 +30,7 @@ Analysis of partisan news ecosystems, affective and insular community dynamics, 
 - [[Elfes2026-jb]]
 - [[Esau2025-tf]]
 - [[Falkenberg2026-ka]]
+- [[Fenis2027-sv]]
 - [[Flaxman2016-lm]]
 - [[Gaisbauer2025-by]]
 - [[Gerbaudo2026-fo]]

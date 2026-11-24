@@ -1,0 +1,37 @@
+{
+  "abstract": "This paper investigates how coordinated political behavior on Facebook persists in the Philippines during non-election periods, specifically the first two years of the Marcos Jr. administration (June 2022–May 2024). Using social network analysis and qualitative content analysis of cross-posted content, the authors show that coordinated actors exploit six Facebook affordances to sustain personality-driven political divisions between elections. They argue that coordinated behavior functions as a persistent socio-cultural assemblage that reinforces the Philippines' dynastic and clientelistic political culture in algorithmically amplified forms, rather than as an episodic, election-specific campaign tactic.",
+  "key_claims": [
+    "Coordinated political behavior on Facebook persists as a structural, embedded, and cumulative infrastructure between election cycles rather than as sporadic or purely tactical campaign activity.",
+    "Facebook does not autonomously generate polarization; its affordances are activated relationally through integration into a broader socio-cultural assemblage of coordinated actors, algorithmic systems, and political narratives.",
+    "Coordinated actors prioritize the projection of a continuous 'illusion of presence' and manufactured consensus over genuine viral reach or civic engagement.",
+    "This digitally mediated assemblage translates traditional Philippine patron–client relations into networked, algorithmically amplified forms of permanent affective polarization and personality-driven politics.",
+    "Cross-posting serves as an observable marker of sustained manufactured engagement and coordinated activity."
+  ],
+  "methods": [
+    "Case study of the Philippines as part of a larger project on influence operations in Southeast Asia.",
+    "Used Google Trends to identify three salient discourses (political elite contest, Philippine foreign policy, the 2022 national elections) that informed keyword strings for data collection.",
+    "Social network analysis (SNA) of Facebook posts from June 2022 to May 2024, searching personality-centered keywords (e.g., 'uniteam [bongbong marcos]', 'uniteam [sara duterte]', 'human rights', 'martial law').",
+    "Focused on publicly available Facebook pages (excluding groups due to privacy/access constraints), identifying coordinated behavior via content duplication, temporal synchronization, and network structure rather than a fixed cross-post threshold.",
+    "Qualitative content analysis by a three-person coding team examining content type, post elements, engagement metrics, and manifested affordances.",
+    "Theoretical framework combining affordance theory (Kakavand's six affordances) with a socio-cultural assemblage approach drawn from Deleuze and Guattari, DeLanda, and Hopkins."
+  ],
+  "findings": [
+    "SNA identified 14 communities (clusters of interconnected accounts) with 1,387 total posts containing 356 unique messages.",
+    "Posts appeared with an average delay of only 61.71 seconds between accounts, far faster than organic posting and indicative of orchestrated amplification; coordinated pages ranged from 2 to 30.",
+    "Despite high coordination, engagement (reactions, comments, shares) was relatively low, suggesting scalability is weaponized to project structural presence rather than to trigger virality.",
+    "Connectivity hardened factional partisanship, producing distinct opposition-aligned clusters (around Leni Robredo and Kiko Pangilinan, sustained via the Angat Buhay Foundation) and fluid, multi-node pro-administration coalitions.",
+    "Persistence and replicability enable strategic archiving: posts from as early as 2021 remained accessible, and cross-posting typically occurred within 5 days of original publication using identical captions, hashtags, and formatting.",
+    "Nearly half of high-centrality pages were deleted, rendered unavailable, or renamed between 2022 and 2023, allowing page recycling/rebranding to evade moderation while preserving follower bases.",
+    "Searchability was operationalized through standardized hashtags (#PBBM, #BBM, #UniTeam) and charged labels ('dilawan', 'oligarkiya', 'komunista'), including 'oppositional searchability' that inserts counter-narratives into pro-administration keyword spaces.",
+    "Identifiability varied: government and state-media pages projected high institutional identifiability (verification, branding), while advocacy accounts minimized identifiability using generic avatars and fake news-outlet names (e.g., 'Surigao City Airport News Update', 'The Good News PH', 'CAVITE CONNECT') to mimic grassroots legitimacy."
+  ],
+  "contributions": [
+    "Extends the literature on influence operations in Philippine elections to the understudied non-election period, showing digital manipulation as a permanent feature of political communication.",
+    "Integrates affordance theory with a socio-cultural assemblage framework to theorize platform affordances as relational, contingent potentials rather than fixed properties.",
+    "Challenges technological determinist readings of platform power by situating polarization within interactions among platform features, coordinated actors, and political culture.",
+    "Demonstrates how cross-posting behavior operates as an empirical indicator of sustained coordinated activity and manufactured consensus.",
+    "Connects digital coordination mechanisms to the perpetuation of dynastic, clientelistic, and personality-driven Philippine politics."
+  ],
+  "framing": "The paper positions itself within research on influence operations, political polarization, and platform studies in the Philippines, drawing on affordance theory (Boyd, Treem and Leonardi, Kakavand) and Deleuzo-Guattarian assemblage theory (DeLanda, Hopkins). It engages debates over whether platforms autonomously produce polarization, arguing instead for a relational, systems-oriented account of digital political manipulation.",
+  "pdf_source": "drive"
+}

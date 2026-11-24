@@ -21,6 +21,7 @@ Detection, monitoring and theorization of coordinated link-sharing and coordinat
 - [[Di-Marco2025-aa]]
 - [[Di_Marco2026-xu]]
 - [[Efstratiou2026-ij]]
+- [[Fenis2027-sv]]
 - [[FitzGerald2025-nv]]
 - [[Gaw2025-ru]]
 - [[Gerard2025-br]]
