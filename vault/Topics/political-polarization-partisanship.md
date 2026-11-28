@@ -50,6 +50,7 @@ Analysis of partisan news ecosystems, affective and insular community dynamics, 
 - [[Karlsson2026-hd]]
 - [[Knupfer2025-vt]]
 - [[Kristensen2025-ni]]
+- [[Larsson2026-ga]]
 - [[Larsson2026-nl]]
 - [[Larsson2026-ro]]
 - [[Lieu2025-nl]]

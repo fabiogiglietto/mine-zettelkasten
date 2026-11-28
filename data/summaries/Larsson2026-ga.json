@@ -1,0 +1,38 @@
+{
+  "abstract": "This study examines how different content features in political campaign posts influenced user engagement across Facebook, Instagram, and Twitter during Norway's 2021 parliamentary election. Using a manual content analysis of 2,197 posts from nine parties and their leaders, the authors assess how three content types — calls to action, policy topics, and populist styles — affected the number of likes, treated as a cross-platform functional equivalent of low-threshold engagement. The results reveal platform-specific dynamics: calls to action worked best on Twitter, populist exclusion of out-groups worked best on Facebook, and policy topics generally had limited or negative effects across all platforms.",
+  "key_claims": [
+    "User engagement with political campaign content is platform-specific: the same content type triggers different responses on Facebook, Instagram, and Twitter.",
+    "Calls to action (informing and mobilizing) generated more likes on Twitter but not on Facebook or Instagram.",
+    "Populist styles — specifically the exclusion of out-groups — were most effective at generating engagement on Facebook, the platform argued to privilege populism.",
+    "Policy topics generally fail to engage users; when significant, they more often decrease than increase likes across all platforms.",
+    "Posts by party leaders received more likes than posts by the parties themselves, consistent across all three platforms.",
+    "Observed platform differences, while real, are less distinct than prior literature would suggest."
+  ],
+  "methods": [
+    "Standardized manual content analysis of 2,197 posts (Facebook: 1,106; Instagram: 576; Twitter: 515) from nine Norwegian parliamentary parties and their leaders during the 2021 election.",
+    "Data collected via the CrowdTangle API (Facebook, Instagram) and the Twitter academic research API; deleted posts and retweets removed.",
+    "Content coded for three concepts: calls to action (informing, mobilizing, interacting), 37 topics (reduced to 22 issue categories), and populist styles (people-centrism, anti-elitism, exclusion of out-groups) based on Reinemann et al.'s framework.",
+    "Indices created for calls-to-action and populist dimensions by summing coded categories and dividing by total possible variables (range 0 to 1).",
+    "Number of likes used as the dependent variable, treated as a functionally equivalent cross-platform engagement metric.",
+    "Three separate negative binomial regressions (one per platform) with controls for party vs. party leader, populist (Progress Party) status, and 2021 vote percentage.",
+    "Intercoder reliability assessed on 140 posts (5.4%) using Brennan and Prediger's kappa, with reliability between .781 and 1."
+  ],
+  "findings": [
+    "On Facebook, the informing index negatively affected likes, while the exclusion-of-out-groups index was significant and positive; the populist Progress Party, party leaders, and larger parties all gained significantly more likes.",
+    "On Instagram, the interacting index negatively affected likes, the Progress Party had no advantage, and more topics had negative than positive effects (e.g., rural, education, environmental, defense, and immigration policy negative; economic inequality and foreign policy positive).",
+    "On Twitter, both informing and mobilizing indices positively predicted likes; no populist style was significant (the Progress Party was absent from Twitter), and party size was not significant.",
+    "H1a and H1b (informing and mobilizing positive on Twitter) supported; H1c (interacting) not supported.",
+    "Only H2c (exclusion of out-groups positive on Facebook) among the populism hypotheses was supported.",
+    "Across all platforms, very few policy topics engaged users, and significant topic effects were more often negative than positive.",
+    "So-called wedge issues (immigration/integration and environmental policy) showed significant negative effects only on Instagram."
+  ],
+  "contributions": [
+    "Provides a rare cross-platform comparative analysis of how multiple content types jointly affect user engagement, moving beyond single-content-type studies.",
+    "Uses likes as a functionally equivalent engagement metric to enable systematic comparison across Facebook, Instagram, and Twitter.",
+    "Offers empirical evidence from a non-US, multiparty European (Norwegian) context, contrasting with the US-dominated literature.",
+    "Documents 2021 Twitter engagement patterns that now have historical value given the platform's transformation into X and its decline in Norwegian campaigning.",
+    "Suggests practical implications for campaign strategists (vary populist style and calls to action by platform; policy content rarely boosts engagement) and directions for future research on topic clustering, issue ownership, and newer platforms."
+  ],
+  "framing": "The paper positions itself within political communication and social media campaigning research, drawing on the concepts of platform affordances/opportunity structures, populist communication styles (Reinemann et al.; de Vreese et al.), and calls to action. It explicitly answers calls for comparative cross-platform approaches and uses Norway as a case to test the hybrid media landscape beyond the exceptional US context.",
+  "pdf_source": "drive"
+}

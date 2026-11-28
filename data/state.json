@@ -5624,10 +5624,26 @@
       "slack_posted": false,
       "slack_pending": false,
       "last_processed": "2026-11-24T20:48:26.257207+00:00"
+    },
+    "bibtex:Larsson2026-ga": {
+      "note_path": "Papers/Larsson2026-ga.md",
+      "topics": [
+        "political-polarization-partisanship",
+        "social-media-engagement-metrics"
+      ],
+      "assign_fp": "835f5f05f8baf9359f3495e394a72d515b621897ba9e1c913142fc71dfefa42f",
+      "doi": "10.1080/19331681.2026.2767282",
+      "title": "From content to likes – how political parties’ campaign posts trigger user engagement across Facebook, Instagram and Twitter",
+      "pdf_source": "drive",
+      "content_hash": "e27004a9f274995c9caad1149741b0859bce2caa750bdeef8900f0c6f906e239",
+      "podcast_linked": false,
+      "slack_posted": false,
+      "slack_pending": false,
+      "last_processed": "2026-11-28T09:58:39.218232+00:00"
     }
   },
   "last_full_cluster": "2026-11-23T14:25:30.423805+00:00",
-  "papers_since_cluster": 2,
+  "papers_since_cluster": 3,
   "register_signals_hash": "60f83a0a9e56d1e13388c41f7afea578e5c2636991d3cc7e2ccb0f4f58f54eed",
   "emergent_fp": "a6f0fdfc14966d97a5974c47cb8666b88596b628767b3f96507a8b8b99fc9435",
   "structure_fps": {

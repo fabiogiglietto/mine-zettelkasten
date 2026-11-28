@@ -38,6 +38,7 @@ Research on how users interact with and are affected by platform features—reac
 - [[Jaidka2026-sl34]]
 - [[Kalsnes2025-zb]]
 - [[Kim2026-wg]]
+- [[Larsson2026-ga]]
 - [[Larsson2026-nl]]
 - [[Lyons2026-ca]]
 - [[Malhotra2026-vl]]
