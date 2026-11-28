@@ -23,27 +23,27 @@ discovery_date:
 
 ## Summary
 
-This paper tests the popular early-2010s claim that social media metrics can forecast electoral outcomes, using the 2011 Italian administrative elections as a replication-style case study. Giglietto collected Facebook "Like" counts for 229 mayoral candidates across 29 Italian provincial capitals and constructed two forecasting models — one predicting vote shares, the other predicting the winning candidate. The central finding is skeptical: Facebook popularity does not significantly correlate with vote share, even though the most-liked candidate frequently finished first or second. The study thus pushes back against optimistic prediction claims by extending the test to an understudied political and cultural context.
+This paper tests the popular claim that social media metrics can forecast electoral outcomes, bringing a skeptical, replication-minded stance to a line of research dominated by studies using Twitter and Facebook data from English-language and American or Northern European contexts. Using the 2011 Italian administrative elections as a case study, Giglietto collected Facebook "Like" counts for 229 mayoral candidates across 29 provincial capitals and built two forecasting models — one predicting vote shares, the other predicting winners. The central finding is deflationary: Facebook popularity does not significantly correlate with vote share. Yet the picture is not entirely null, since the most-liked candidate frequently finished first or second, suggesting a limited but non-trivial association between online popularity and electoral success.
 
 ## Key Contributions
 
-- Provides a novel empirical case study from the Italian political system, previously absent from this research line.
-- Proposes two complementary forecasting models (vote-share prediction and winner prediction) as a foundation for future refinement.
-- Contributes critical, replication-oriented evidence to the broader debate over social-media-based electoral prediction.
+- Introduces Italy as a new, previously unanalyzed political and cultural context for social-media-based electoral prediction research.
+- Proposes two forecasting models (vote-share prediction and winner prediction) that, despite partial success, offer a foundation for future refinement.
+- Adds critical, replication-style evidence to the debate over whether social media metrics can forecast elections, challenging the robustness of earlier optimistic claims.
 
 ## Methods
 
-- Collected Facebook Like counts from the official pages of 229 mayoral candidates across the 29 Italian provincial capitals in the months before election day.
-- Built a first model to predict candidates' vote shares and a second to predict the winning candidate.
-- Compared each candidate's share of Facebook popularity against actual vote shares through correlation analysis.
+- Collected Facebook "Like" counts on the official pages of 229 mayoral candidates across the 29 Italian provincial capitals in the months before election day.
+- Built a first model to predict candidates' vote shares and a second to predict the name of the winning candidate.
+- Compared each candidate's share of Facebook popularity against actual vote shares using correlation analysis.
 
 ## Findings
 
-- The correlation between a candidate's share of Facebook popularity and their vote share was non-significant.
-- The most-liked Facebook candidate won in 39% of cases.
-- In a further 43% of cases, the most-liked candidate finished second.
-- The forecasting models were only partially successful, undermining strong claims of predictive power from social media data.
+- The correlation between a candidate's share of Facebook popularity and their share of votes was non-significant.
+- The most popular candidate on Facebook won the election in 39% of cases.
+- In a further 43% of cases the most popular Facebook candidate finished second.
+- The forecasting models were only partially successful, undermining strong predictive claims from prior work.
 
 ## Connections
 
-This paper sits among Giglietto's broader program on Italian digital politics and platform data; it connects to his later Italian election and platform work such as [[Giglietto2017-4375de2f]], [[Giglietto2019-882f1900]], [[Giglietto2020-9d8acdd7]], [[Giglietto2023-fa71a001]], and [[Giglietto2024-cbeb3f70]]. Its reliance on Facebook engagement metrics as a unit of analysis relates to critical work on how platform metrics shape visibility and meaning, including [[Gillespie2010-sla2]] and [[Bucher2017-qh]].
+This early critical study anticipates the author's later work on engagement metrics, platform-mediated visibility, and political communication in Italy, including [[Giglietto2015-320951c4]], [[Iannelli2015-e0818c3e]], and subsequent analyses of social media and electoral dynamics such as [[Giglietto2019-882f1900]] and [[Giglietto2020-9d8acdd7]]. Its skeptical treatment of "Likes as votes" prefigures broader concerns about the meaning and manipulability of engagement signals explored in [[Ducci2022-10cb5d70]] and work on metric-driven visibility like [[Bucher2017-qh]].

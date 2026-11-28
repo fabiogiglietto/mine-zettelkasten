@@ -7,7 +7,7 @@ doi: 10.1177/2056305116686992
 bibtex_key: Giglietto2017-4375de2f
 kind: own
 topics: [platforms-audiences-and-online-communities, political-polarization-partisanship]
-citation_count: 125
+citation_count: 131
 open_access: true
 source_url: https://doi.org/10.1177/2056305116686992
 podcast_url: 
@@ -23,24 +23,24 @@ discovery_date:
 
 ## Summary
 
-This paper investigates the counter-hashtag #JeNeSuisPasCharlie ("I am not Charlie") that emerged on Twitter in the wake of the January 2015 Charlie Hebdo attack in Paris. While #JeSuisCharlie became a globally circulating emblem of solidarity with the murdered cartoonists and, by extension, with free speech, its negation offered a space for users who wished to complicate, qualify, or refuse that identification without condoning the violence. Through qualitative analysis of tweets bearing the counter-hashtag, the authors map the discursive strategies by which dissenting voices carved out room for nuance inside a moment of overwhelming performative consensus on social media.
+This paper investigates the counter-hashtag #JeNeSuisPasCharlie ("I am not Charlie") that circulated on Twitter after the January 2015 Charlie Hebdo shooting in Paris. Against the near-ubiquitous solidarity hashtag #JeSuisCharlie, the authors treat #JeNeSuisPasCharlie as a vantage point onto dissent within a moment of mass solidarity expression. The central argument is that this counter-hashtag became a site where users articulated disagreement, nuance, and discomfort with the dominant narrative — crucially, doing so without endorsing the violence of the attack. The study thereby complicates tidy accounts of online solidarity by surfacing the heterogeneous and contested voices that coexist beneath a viral slogan.
 
 ## Key Contributions
 
-- Offers an empirical case study of a *counter-hashtag* as a distinct form of participation, rather than treating dissent as mere absence of solidarity.
-- Extends work on hashtag activism by focusing on how dissenting publics articulate themselves alongside — and in tension with — a dominant solidarity narrative.
-- Illuminates the rhetorical labour required to voice disagreement in high-salience, emotionally charged events without being read as endorsing violence.
+- Offers a case study of counter-hashtag practices and online dissent during a high-salience, emotionally charged event.
+- Illuminates how solidarity hashtags simultaneously generate and provoke dissenting discursive formations rather than producing uniform consensus.
+- Engages debates about free speech, identity, and public expression specific to the post–Charlie Hebdo context.
 
 ## Methods
 
-Qualitative discursive analysis of Twitter posts carrying the hashtag #JeNeSuisPasCharlie in the period following the January 2015 attack, focused on identifying the rhetorical and argumentative strategies users deployed.
+The authors collect Twitter posts bearing the hashtag #JeNeSuisPasCharlie in the aftermath of the shooting and subject them to discursive, qualitative analysis. The focus is on identifying the rhetorical strategies through which users distanced themselves from #JeSuisCharlie while navigating the moral constraints of the moment.
 
 ## Findings
 
-- #JeNeSuisPasCharlie operated as a site of nuance and dissent set against the hegemonic #JeSuisCharlie narrative.
-- Participants used identifiable discursive strategies to distance themselves from the solidarity slogan while pre-emptively refusing any association with the attackers or with a justification of violence.
-- The counter-hashtag illustrates how solidarity hashtags do not simply unify publics but also actively generate the conditions for organised dissent.
+- The hashtag functioned as a channel for dissent and nuance against the dominant #JeSuisCharlie framing.
+- Adopters deployed distinct discursive strategies to voice disagreement while explicitly disavowing the violence.
+- (Finer-grained categorization of the rhetorical strategies is developed in the paper but not recoverable from the summary alone.)
 
 ## Connections
 
-No other papers have been provided under shared topics, so no wikilinks are made here. Thematically, the study speaks to broader literatures on hashtag activism, networked publics, and post-terror online discourse, but no genuine intellectual connection can be asserted to a specific companion note in this vault.
+This study pairs naturally with other work on hashtag activism and networked solidarity, including [[Farci2017-2a88c00e]] and [[Iannelli2015-e0818c3e]], and extends methodological approaches to large-scale social media event analysis seen in [[Giglietto2019-882f1900]] and [[Giglietto2015-320951c4]]. Its attention to dissent within ostensibly polarized discourse also speaks to broader debates on partisanship and contested online expression represented across this topic area.

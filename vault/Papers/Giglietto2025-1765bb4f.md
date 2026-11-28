@@ -7,7 +7,7 @@ doi: 10.31235/osf.io/8dqag_v2
 bibtex_key: Giglietto2025-1765bb4f
 kind: own
 topics: [platform-governance-data-access, italian-electoral-communication]
-citation_count: 2
+citation_count: 3
 open_access: true
 source_url: https://doi.org/10.31235/osf.io/8dqag_v2
 podcast_url: 
@@ -23,30 +23,30 @@ discovery_date:
 
 ## Summary
 
-This working paper offers the first independent empirical quantification of Meta's 2021–2025 political content reduction policy in a European democracy, focusing on Italian parliamentarians and other political accounts on Facebook. Drawing on 2.5 million posts collected via the Meta Content Library, the study uses structural breakpoint detection to show that the policy suppressed re-elected MPs' per-post reach by 72% at trough, took effect in Italy roughly ten months before Meta's announced global rollout, and only partially recovered following Meta's January 2025 reversal. Crucially, extremist accounts absorbed the per-post penalty by dramatically increasing posting volume, ultimately surpassing mainstream politicians in aggregate weekly reach — a finding that reframes the policy as producing asymmetric, and arguably counterproductive, distributional effects on democratic communication.
+This working paper provides the first independent empirical quantification of Meta's 2021–2025 political content reduction policy as it affected the Facebook visibility of Italian elected officials. Drawing on over 2.5 million posts collected via the Meta Content Library API, Giglietto documents a roughly 72% peak-to-trough decline in average per-post reach for re-elected MPs, and shows that the policy's effects in Italy emerged some ten months *before* Meta's announced global rollout — a discrepancy that exposes transparency deficits in Meta's DSA compliance reporting. The paper frames algorithmic visibility as democratic infrastructure and argues for a collaborative (rather than purely adversarial) model of platform governance research, while affirming the DSA-enabled Meta Content Library as meaningful transparency progress.
 
 ## Key Contributions
 
-- First independent empirical measurement of Meta's political content demotion on elected officials outside the US context.
-- A discovery-validation breakpoint-detection design that identifies platform policy shifts without relying on Meta's own timelines.
-- Documentation of an asymmetric volume-compensation mechanism through which extremist actors neutralize demotion.
-- Evidence of a specific gap between Meta's DSA transparency reporting and empirically observable ranking changes.
-- A fully reproducible R pipeline and public producer lists to enable cross-country replication via the Meta Content Library.
-- A normative argument for collaborative (rather than adversarial) platform governance research grounded in DSA-era access infrastructures.
+- First independent empirical quantification of Meta's political content reduction policy on elected officials in a European democracy.
+- A discovery-validation breakpoint-detection methodology designed for platform policy changes with ambiguous implementation timelines.
+- Documentation of asymmetric effects across mainstream and extremist actors, including a volume-compensation mechanism that undermines the policy's intended goals.
+- Exposure of specific gaps between Meta's DSA transparency reporting and the observable impact of its ranking changes on democratic communication.
+- A fully documented, reproducible R pipeline and public producer lists supporting cross-country replication via the Meta Content Library.
+- A normative framework for collaborative platform governance research grounded in the realities of platform-mediated data access.
 
 ## Methods
 
-The author collected 2,529,933 posts from 901 Italian accounts (Jan 2021–Nov 2025) via the Meta Content Library API inside Meta's Secure Research Environment. Accounts were partitioned into four mutually exclusive groups — re-elected MPs (discovery), new MPs, prominent non-parliamentary politicians, and extremist/alternative-media accounts (validation). Views censored at the 100-view threshold were imputed via group-specific power-law fitting. Weekly aggregates of views, reactions, shares, and comments were analyzed with Bai–Perron and PELT breakpoint detection, followed by 30-day consensus clustering to identify three validated breakpoints. Kruskal–Wallis and Dunn's tests (Bonferroni-corrected) compared the resulting phases, and a robustness check contrasted per-post average reach with total weekly reach.
+Giglietto collected 2,529,933 Facebook posts from 901 accounts (Jan 2021–Nov 2025) through the Meta Content Library API within Meta's Secure Research Environment, using R. Accounts were grouped into four mutually exclusive sets: re-elected MPs (discovery sample), newly elected MPs, prominent non-parliamentary politicians, and extremist/alternative-media accounts (validation samples). "Views" served as the primary outcome, with group-specific power-law imputation for posts censored at the 100-view threshold and sensitivity analyses of imputation choices. A discovery-validation design combined Bai–Perron and PELT structural breakpoint detection on weekly aggregated metrics, with 30-day consensus clustering; the resulting four policy phases were tested with Kruskal–Wallis and Bonferroni-corrected Dunn's post-hoc comparisons. A robustness check compared per-post average reach against total weekly reach to account for posting-frequency differences.
 
 ## Findings
 
-- Three cross-validated breakpoints: implementation (Sept 19, 2021), post-election adjustment (Jan 1, 2023), and reversal (March 9, 2025).
-- Re-elected MPs' weekly views per post fell from 53,368 → 26,079 → 14,869, before rebounding to 34,918 — a 72.1% peak-to-trough drop with only ~65% recovery.
-- Peak-to-trough declines: 72.1% (re-elected MPs), 57.3% (prominent politicians), 51.2% (new MPs), 24.3% (extremists).
-- The expected DOWN→DOWN→UP pattern held for mainstream groups but not extremists, who showed no significant per-post recovery after the reversal.
-- In *total* weekly reach, extremists grew +13.7% across the policy period, driven by a 61.5–140.5% increase in posting frequency, overtaking mainstream politicians in aggregate visibility.
-- The Italian implementation breakpoint preceded Meta's announced global rollout by ~303 days; the reversal breakpoint followed Meta's January 2025 announcement by ~61 days.
+- Three cross-validated breakpoints were identified: T1 (Sept 19, 2021, implementation), T2 (Jan 1, 2023, post-election adjustment), and T3 (March 9, 2025, reversal).
+- Re-elected MPs' mean weekly views per post fell from 53,368 to 26,079 (–51%) at T1, then to 14,869 (–43%) at T2, before partially recovering to 34,918 after T3 — about 65% of pre-policy levels.
+- Peak-to-trough declines were 72.1% for re-elected MPs, 51.2% for new MPs, 57.3% for prominent politicians, and only 24.3% for extremists.
+- The expected DOWN→DOWN→UP pattern validated across the three mainstream groups, but extremists showed DOWN→DOWN→DOWN in per-post reach, with no significant recovery after the reversal.
+- Measured as *total* weekly reach, extremists grew continuously (+13.7% from Phase 0 to Phase 2), surpassing mainstream politicians in aggregate visibility, driven by a 61.5–140.5% increase in posting frequency.
+- The implementation breakpoint preceded Meta's announced global rollout by ~303 days; the reversal breakpoint followed Meta's January 2025 announcement by ~61 days, consistent with a gradual rollout.
 
 ## Connections
 
-This paper extends the author's ongoing program on Italian political communication and platform-mediated visibility ([[Giglietto2026-632ef967]], [[Giglietto2025-1e9a0917]], [[Giglietto2024-cbeb3f70]], [[Giglietto2023-fa71a001]], [[Giglietto2026-855a54cb]]) and speaks directly to research on Meta's political content policy and platform ranking transparency ([[Bouchaud2026-lr]], [[Bouchaud2026-np]], [[Rieder2026-pp]], [[Rieder2025-ju]]). It also connects to the broader literatures on DSA-era data access and platform governance ([[Katzenbach2026-sl2e]], [[Bechmann2026-dr]], [[Helmond2026-ll]]) and to work on algorithmic curation as democratic infrastructure ([[Gillespie2010-sla2]], [[Gonzalez-Bailon2024-rq]], [[Bakshy2015-rn]]).
+This paper extends the author's broader research program on Italian electoral communication and platform data access, connecting naturally to related work such as [[Paci2025-ag]], [[Marino2024-2fbc690f]], and [[Iannelli2015-e0818c3e]], and to the methodological and governance strands in [[Giglietto2026-632ef967]], [[Giglietto2025-1e9a0917]], and [[Giglietto2026-855a54cb]]. Its focus on DSA-enabled infrastructure and the transparency obligations of very large platforms engages debates taken up in platform-governance work including [[Rieder2025-ju]], [[Rieder2020-sl35]], [[Gillespie2010-sla2]], and [[van-Dijck2018-up]], while its attention to algorithmic visibility as democratic infrastructure resonates with [[Pierri2026-ib]] and studies of platform-mediated political reach.
